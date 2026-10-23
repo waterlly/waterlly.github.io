@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Air France</name>
+            <texture>/Liveries/PNG/AFR.png</texture>
+        </livery>
+		
+		<livery-door>
+        <texture>/Liveries/PNG/Whiteentry.png</texture>
+      </livery-door>
+		
+        <lights>
+            <texture>/Liveries/PNG/AFR-lights.png</texture>
+        </lights>
+		
+		<lights-door>
+			<texture>/Liveries/PNG/Whiteentry.lights.png</texture>
+		</lights-door>			
+    </model>
+</sim>
+</PropertyList>

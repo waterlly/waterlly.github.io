@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "airports": [
+    {
+      "code": "ZBAA",
+      "sourceId": "27188",
+      "name": "Beijing Capital International Airport",
+      "latitude": 40.077349,
+      "longitude": 116.596702,
+      "elevation": 35.3568,
+      "defaultRunwayId": "01/19",
+      "runways": [
+        {
+          "id": "01/19",
+          "sourceId": "269343",
+          "publishedLength": 3799.9416,
+          "width": 60.0456,
+          "surface": "CON",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 6.1641741437368704,
+          "thresholds": [
+            {
+              "ident": "01",
+              "latitude": 40.058914,
+              "longitude": 116.617599,
+              "elevation": 28.651200000000003,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 353.0
+            },
+            {
+              "ident": "19",
+              "latitude": 40.092834,
+              "longitude": 116.612297,
+              "elevation": 25.6032,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 173.0
+            }
+          ]
+        },
+        {
+          "id": "18L/36R",
+          "sourceId": "235180",
+          "publishedLength": 3799.9416,
+          "width": 60.0456,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 3.0215179019130107,
+          "thresholds": [
+            {
+              "ident": "18L",
+              "latitude": 40.089359,
+              "longitude": 116.594833,
+              "elevation": 33.528,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 173.0
+            },
+            {
+              "ident": "36R",
+              "latitude": 40.055527,
+              "longitude": 116.600166,
+              "elevation": 30.1752,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 353.0
+            }
+          ]
+        },
+        {
+          "id": "18R/36L",
+          "sourceId": "235179",
+          "publishedLength": 3200.0952,
+          "width": 49.9872,
+          "surface": "PEM",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 3.0226946064022453,
+          "thresholds": [
+            {
+              "ident": "18R",
+              "latitude": 40.102112,
+              "longitude": 116.569695,
+              "elevation": 35.3568,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 173.0
+            },
+            {
+              "ident": "36L",
+              "latitude": 40.073479,
+              "longitude": 116.574165,
+              "elevation": 32.6136,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 353.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RJTT",
+      "sourceId": "5627",
+      "name": "Tokyo Haneda International Airport",
+      "latitude": 35.549678,
+      "longitude": 139.786958,
+      "elevation": 10.668000000000001,
+      "defaultRunwayId": "16L/34R",
+      "runways": [
+        {
+          "id": "16L/34R",
+          "sourceId": "237198",
+          "publishedLength": 3360.1152,
+          "width": 60.96,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 2.618029390612461,
+          "thresholds": [
+            {
+              "ident": "16L",
+              "latitude": 35.565897,
+              "longitude": 139.78655,
+              "elevation": 6.7056000000000004,
+              "displacedThreshold": 390.144,
+              "publishedTrueHeadingDegrees": 150.0
+            },
+            {
+              "ident": "34R",
+              "latitude": 35.53969,
+              "longitude": 139.805142,
+              "elevation": 6.096,
+              "displacedThreshold": 359.66400000000004,
+              "publishedTrueHeadingDegrees": 330.0
+            }
+          ]
+        },
+        {
+          "id": "16R/34L",
+          "sourceId": "237197",
+          "publishedLength": 3000.1464,
+          "width": 60.96,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 2.6177508121734845,
+          "thresholds": [
+            {
+              "ident": "16R",
+              "latitude": 35.560452,
+              "longitude": 139.768734,
+              "elevation": 6.096,
+              "displacedThreshold": 539.496,
+              "publishedTrueHeadingDegrees": 150.0
+            },
+            {
+              "ident": "34L",
+              "latitude": 35.536591,
+              "longitude": 139.785672,
+              "elevation": 6.096,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 330.0
+            }
+          ]
+        },
+        {
+          "id": "04/22",
+          "sourceId": "237196",
+          "publishedLength": 2499.9696,
+          "width": 60.96,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 0.6097511059783269,
+          "thresholds": [
+            {
+              "ident": "04",
+              "latitude": 35.549015,
+              "longitude": 139.761274,
+              "elevation": 5.7912,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 35.0
+            },
+            {
+              "ident": "22",
+              "latitude": 35.567459,
+              "longitude": 139.777114,
+              "elevation": 10.668000000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 215.0
+            }
+          ]
+        },
+        {
+          "id": "05/23",
+          "sourceId": "308751",
+          "publishedLength": 2499.9696,
+          "width": 60.96,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 0.7408076511515351,
+          "thresholds": [
+            {
+              "ident": "05",
+              "latitude": 35.524001,
+              "longitude": 139.803469,
+              "elevation": 14.020800000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 57.0
+            },
+            {
+              "ident": "23",
+              "latitude": 35.540598,
+              "longitude": 139.822125,
+              "elevation": 16.764,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 223.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "KSEA",
+      "sourceId": "3875",
+      "name": "Seattle–Tacoma International Airport",
+      "latitude": 47.447943,
+      "longitude": -122.310276,
+      "elevation": 131.9784,
+      "defaultRunwayId": "16L/34R",
+      "runways": [
+        {
+          "id": "16L/34R",
+          "sourceId": "242182",
+          "publishedLength": 3627.4248000000002,
+          "width": 45.72,
+          "surface": "PEM",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 3.141592653589793,
+          "thresholds": [
+            {
+              "ident": "16L",
+              "latitude": 47.463799,
+              "longitude": -122.307999,
+              "elevation": 131.6736,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 180.0
+            },
+            {
+              "ident": "34R",
+              "latitude": 47.431198,
+              "longitude": -122.307999,
+              "elevation": 105.7656,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 360.0
+            }
+          ]
+        },
+        {
+          "id": "16C/34C",
+          "sourceId": "254330",
+          "publishedLength": 2873.0448,
+          "width": 45.72,
+          "surface": "PEM",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 3.141592653589793,
+          "thresholds": [
+            {
+              "ident": "16C",
+              "latitude": 47.463799,
+              "longitude": -122.310997,
+              "elevation": 131.064,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 180.0
+            },
+            {
+              "ident": "34C",
+              "latitude": 47.438,
+              "longitude": -122.310997,
+              "elevation": 110.64240000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 360.0
+            }
+          ]
+        },
+        {
+          "id": "16R/34L",
+          "sourceId": "242181",
+          "publishedLength": 2590.8,
+          "width": 45.72,
+          "surface": "PEM",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 3.141592653589793,
+          "thresholds": [
+            {
+              "ident": "16R",
+              "latitude": 47.463799,
+              "longitude": -122.318001,
+              "elevation": 131.064,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 180.0
+            },
+            {
+              "ident": "34L",
+              "latitude": 47.440498,
+              "longitude": -122.318001,
+              "elevation": 110.64240000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 360.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LFPG",
+      "sourceId": "4185",
+      "name": "Charles de Gaulle International Airport",
+      "latitude": 49.00896,
+      "longitude": 2.554117,
+      "elevation": 119.4816,
+      "defaultRunwayId": "08L/26R",
+      "runways": [
+        {
+          "id": "08L/26R",
+          "sourceId": "235946",
+          "publishedLength": 4215.0792,
+          "width": 45.110400000000006,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 1.4884091212860355,
+          "thresholds": [
+            {
+              "ident": "08L",
+              "latitude": 48.99570083618164,
+              "longitude": 2.5527400970458984,
+              "elevation": 103.0224,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 85.0
+            },
+            {
+              "ident": "26R",
+              "latitude": 48.99879837036133,
+              "longitude": 2.610179901123047,
+              "elevation": 96.9264,
+              "displacedThreshold": 600.1512,
+              "publishedTrueHeadingDegrees": 265.0
+            }
+          ]
+        },
+        {
+          "id": "09R/27L",
+          "sourceId": "235947",
+          "publishedLength": 4200.144,
+          "width": 45.110400000000006,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 1.4879691203570882,
+          "thresholds": [
+            {
+              "ident": "09R",
+              "latitude": 49.020599365234375,
+              "longitude": 2.5130600929260254,
+              "elevation": 112.77600000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 86.0
+            },
+            {
+              "ident": "27L",
+              "latitude": 49.02370071411133,
+              "longitude": 2.5702900886535645,
+              "elevation": 117.9576,
+              "displacedThreshold": 600.1512,
+              "publishedTrueHeadingDegrees": 266.0
+            }
+          ]
+        },
+        {
+          "id": "08R/26L",
+          "sourceId": "235945",
+          "publishedLength": 2699.9184,
+          "width": 60.0456,
+          "surface": "CON",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 1.4878914753630688,
+          "thresholds": [
+            {
+              "ident": "08R",
+              "latitude": 48.99290084838867,
+              "longitude": 2.565659999847412,
+              "elevation": 102.4128,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 85.1
+            },
+            {
+              "ident": "26L",
+              "latitude": 48.99489974975586,
+              "longitude": 2.6024301052093506,
+              "elevation": 96.3168,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 265.1
+            }
+          ]
+        },
+        {
+          "id": "09L/27R",
+          "sourceId": "235948",
+          "publishedLength": 2699.9184,
+          "width": 60.0456,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 1.4879058044164277,
+          "thresholds": [
+            {
+              "ident": "09L",
+              "latitude": 49.02470016479492,
+              "longitude": 2.5248899459838867,
+              "elevation": 115.21440000000001,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 85.3
+            },
+            {
+              "ident": "27R",
+              "latitude": 49.02669906616211,
+              "longitude": 2.561690092086792,
+              "elevation": 119.4816,
+              "displacedThreshold": 0,
+              "publishedTrueHeadingDegrees": 265.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "OMDB",
+      "sourceId": "5235",
+      "name": "Dubai International Airport",
+      "latitude": 25.24979,
+      "longitude": 55.370992,
+      "elevation": 18.8976,
+      "defaultRunwayId": "12R/30L",
+      "runways": [
+        {
+          "id": "12R/30L",
+          "sourceId": "232768",
+          "publishedLength": 4447.032,
+          "width": 60.0456,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 2.1206575643508274,
+          "thresholds": [
+            {
+              "ident": "12R",
+              "latitude": 25.252836227416992,
+              "longitude": 55.364376068115234,
+              "elevation": 3.3528000000000002,
+              "displacedThreshold": 714.7560000000001,
+              "publishedTrueHeadingDegrees": 121.0
+            },
+            {
+              "ident": "30L",
+              "latitude": 25.235919952392578,
+              "longitude": 55.39488220214844,
+              "elevation": 18.288,
+              "displacedThreshold": 131.9784,
+              "publishedTrueHeadingDegrees": 301.0
+            }
+          ]
+        },
+        {
+          "id": "12L/30R",
+          "sourceId": "232769",
+          "publishedLength": 4351.02,
+          "width": 60.0456,
+          "surface": "ASP",
+          "closed": false,
+          "lighted": true,
+          "trueHeading": 2.1206952696273653,
+          "thresholds": [
+            {
+              "ident": "12L",
+              "latitude": 25.26462745666504,
+              "longitude": 55.35042190551758,
+              "elevation": 3.3528000000000002,
+              "displacedThreshold": 449.88480000000004,
+              "publishedTrueHeadingDegrees": 121.0
+            },
+            {
+              "ident": "30R",
+              "latitude": 25.247709274291992,
+              "longitude": 55.38093185424805,
+              "elevation": 9.7536,
+              "displacedThreshold": 299.9232,
+              "publishedTrueHeadingDegrees": 301.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

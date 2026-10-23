@@ -1,0 +1,10 @@
+{
+  "dataset": "Natural Earth 1:110m land",
+  "upstream": "https://raw.githubusercontent.com/martynafford/natural-earth-geojson/90266457d82d3717e47313e72a921e31a087d2c4/110m/physical/ne_110m_land.json",
+  "revision": "90266457d82d3717e47313e72a921e31a087d2c4",
+  "sha256": "6c8b289fed7495ab9c9fdcf99baa24f58001807d0ad30d7726f76d6506f8204d",
+  "retrieved": "2026-10-05",
+  "license": "Public domain",
+  "terms": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "purpose": "Planning map only; not flight terrain"
+}

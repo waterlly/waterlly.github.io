@@ -1,0 +1,1030 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b789.glb",
+  "bytes": 22628760,
+  "triangles": 53570,
+  "nodes": 119,
+  "meshes": 93,
+  "images": 69,
+  "instruments": [
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_3",
+      "kind": "nav"
+    }
+  ],
+  "sourceMeshes": 3903,
+  "drawGroups": 93,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/b787.flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/flightdeck.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/OHpanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/OHpanel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/mag-compass.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/mag-compass.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/EICAS.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/PFD1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/pfd.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/PFD2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/pfd2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/MFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/mfd-menu.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/NAV.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/mfd-nav.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/CDU.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/cdu.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/ELEC.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/elec.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/HYD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/hyd.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/PNEU.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/pneu.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/HEAT.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/heat.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/FUEL.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/fuel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/DOORS.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/doors.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/CAM.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/cam.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/GEAR.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/gear.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/MFD2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/NDFULL.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/mfd-ndfull.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/terrain-map-full.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/terrain-map-full.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/CDU1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/cdu1.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/MFD3.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/fog.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/fog.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/EFB-DB/EFB.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/EFB-DB/efb.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/EFB-DB/Third-Party/CatchMe/animations.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/EFB-DB/Third-Party/CatchMe/model.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/CDU2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/Instruments/cdu2screen.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/hud.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/hud.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/hud1.xml"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "787-8-set.xml",
+    "position": [
+      -0.603,
+      2.242,
+      -22.612
+    ],
+    "pitchDeg": -10.3,
+    "fovDeg": 60
+  },
+  "sourceFiles": [
+    {
+      "path": "787-8-set.xml",
+      "scope": "aircraft",
+      "sha256": "79f6bba3f0541219b115997264ddbbf4c5aeee75f0cfa173d15bf706dde0022d",
+      "bytes": 37101,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/787-8-set.xml"
+    },
+    {
+      "path": "EFB-DB/checklists.jpg",
+      "scope": "aircraft",
+      "sha256": "01ff6be49f9730af6095c213bc2d4b0d9ac1e306aec18dce5520ad4ffc5654f3",
+      "bytes": 655107,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/checklists.jpg"
+    },
+    {
+      "path": "EFB-DB/efb.ac",
+      "scope": "aircraft",
+      "sha256": "56d598f99b5c7ca7e7c3b06dd8c766981a458010105fee505c2167e68b327e07",
+      "bytes": 49553,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/efb.ac"
+    },
+    {
+      "path": "EFB-DB/EFB.xml",
+      "scope": "aircraft",
+      "sha256": "0c5a8978700ed506a5aace3f8c5932f935b2ace277cfaab9bfb1b33b130ee0f0",
+      "bytes": 28542,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/EFB.xml"
+    },
+    {
+      "path": "EFB-DB/help.jpg",
+      "scope": "aircraft",
+      "sha256": "fcd7c9dbcf992d7e3086bad2187aa1c35ed22e440d00b5a4a36ff0da93bb3c99",
+      "bytes": 72709,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/help.jpg"
+    },
+    {
+      "path": "EFB-DB/mainpanel.png",
+      "scope": "aircraft",
+      "sha256": "99154e8bf1034e8122f1f68934ace1572f0f6c267bfa3fee8466a11bb8562f44",
+      "bytes": 3244625,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/mainpanel.png"
+    },
+    {
+      "path": "EFB-DB/manual.jpg",
+      "scope": "aircraft",
+      "sha256": "879bd305f2737d15a1fcf189a0f46a865f48048f7bf6555672b39b58830a06ca",
+      "bytes": 450684,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/manual.jpg"
+    },
+    {
+      "path": "EFB-DB/symbols.png",
+      "scope": "aircraft",
+      "sha256": "6eb07f57485c5eb1fa74952be02e0b28f9db3429039071c5c775ba6e35bd78c6",
+      "bytes": 29525,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/symbols.png"
+    },
+    {
+      "path": "EFB-DB/Third-Party/CatchMe/animations.xml",
+      "scope": "aircraft",
+      "sha256": "51f540b8167bd86978c94b4c38aca7ee0bcf58f858303fcd47fabd0883ffaf4e",
+      "bytes": 2497,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/Third-Party/CatchMe/animations.xml"
+    },
+    {
+      "path": "EFB-DB/Third-Party/CatchMe/model.ac",
+      "scope": "aircraft",
+      "sha256": "3757c4b4675ff4622df5fe017ceb741f35f8a4687da8ae83830a30d68795eda4",
+      "bytes": 4797,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/Third-Party/CatchMe/model.ac"
+    },
+    {
+      "path": "EFB-DB/Third-Party/CatchMe/texture.png",
+      "scope": "aircraft",
+      "sha256": "6eae478034a5c40229884535c58f5a24dcd1aa991adba3fa4f9c5d5f49e24197",
+      "bytes": 3492,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/Third-Party/CatchMe/texture.png"
+    },
+    {
+      "path": "EFB-DB/world-map.jpg",
+      "scope": "aircraft",
+      "sha256": "998486776e11f8ab02dcece13c9a7593e0c99c106e32456f2bbcd9018fe93e4c",
+      "bytes": 352957,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/EFB-DB/world-map.jpg"
+    },
+    {
+      "path": "Models/787-8.xml",
+      "scope": "aircraft",
+      "sha256": "3c817297ecfc101cdc37b1fe138e07ebacf9cc3e811218f83aa51f54b984a448",
+      "bytes": 69389,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/787-8.xml"
+    },
+    {
+      "path": "Models/FlightDeck/atc-wx_letering.png",
+      "scope": "aircraft",
+      "sha256": "d283d287b64017390d13b80ad786a91d0b2ecf428f67e57a4805dc9137410ce5",
+      "bytes": 45987,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/atc-wx_letering.png"
+    },
+    {
+      "path": "Models/FlightDeck/atc-wx.png",
+      "scope": "aircraft",
+      "sha256": "897b8bb1c53a493274afb062a5ce3e4592cba601ec8255db408e26ad23b7046e",
+      "bytes": 41926,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/atc-wx.png"
+    },
+    {
+      "path": "Models/FlightDeck/ati.png",
+      "scope": "aircraft",
+      "sha256": "3dfda3eedf49fed510a0fd8b7729d2dc6385126285797bff26d145264479a1d4",
+      "bytes": 61546,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/ati.png"
+    },
+    {
+      "path": "Models/FlightDeck/ati2.png",
+      "scope": "aircraft",
+      "sha256": "765df6bcb8d3528a2dc8bed7bcf92c92c0518d462225a46d4c1a1f369ed29355",
+      "bytes": 22300,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/ati2.png"
+    },
+    {
+      "path": "Models/FlightDeck/audio-pnl_lettering.png",
+      "scope": "aircraft",
+      "sha256": "459ececefe7945616a8067c6e59579544e98252d9832048091bccf48d785c86c",
+      "bytes": 105374,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/audio-pnl_lettering.png"
+    },
+    {
+      "path": "Models/FlightDeck/audio-pnl.png",
+      "scope": "aircraft",
+      "sha256": "05ab132a827ec471fe7df6297e4bee6b51be1b481e051d01da6ce3be3e432146",
+      "bytes": 43915,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/audio-pnl.png"
+    },
+    {
+      "path": "Models/FlightDeck/b787.flightdeck.xml",
+      "scope": "aircraft",
+      "sha256": "6f99c1d401aa6dd72643df8d77021cb84e85f91b5af21989f155f26a6b72c732",
+      "bytes": 92141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/b787.flightdeck.xml"
+    },
+    {
+      "path": "Models/FlightDeck/boeing-logo.png",
+      "scope": "aircraft",
+      "sha256": "a8388db1ab29d3d35b14f52d9becdebbb96454cb83f12946bba14a5749fd9798",
+      "bytes": 30695,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/boeing-logo.png"
+    },
+    {
+      "path": "Models/FlightDeck/carpet.png",
+      "scope": "aircraft",
+      "sha256": "987d2a2df4684acade3c2d803394c77a0aec8ffbdd2f6681760f5067be3bcc64",
+      "bytes": 721654,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/carpet.png"
+    },
+    {
+      "path": "Models/FlightDeck/clock.png",
+      "scope": "aircraft",
+      "sha256": "ca1f530fd5bf870a011e31f2547137dfdc8a344091837d97922261621dbbef9b",
+      "bytes": 20049,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/clock.png"
+    },
+    {
+      "path": "Models/FlightDeck/digits.png",
+      "scope": "aircraft",
+      "sha256": "f028c6fff5851c782c4a0259642665907a3e796fb5afe5f8b22e43fc6bc2df52",
+      "bytes": 38850,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/digits.png"
+    },
+    {
+      "path": "Models/FlightDeck/EFIS_lettering.png",
+      "scope": "aircraft",
+      "sha256": "3eb8b67dd337dc73b9367fc9ef651e6ddf89fb5ea4d4314b9d31c88d64b9aad9",
+      "bytes": 44941,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/EFIS_lettering.png"
+    },
+    {
+      "path": "Models/FlightDeck/extra1.png",
+      "scope": "aircraft",
+      "sha256": "6c840bfddb574a0e754bab366a82d9333e599aa0910f6003830392bc1e993d94",
+      "bytes": 162086,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/extra1.png"
+    },
+    {
+      "path": "Models/FlightDeck/extra2.png",
+      "scope": "aircraft",
+      "sha256": "353993df93a9815966b0bca2e141c68f97ec5f538c7dc1cdbd5d870f03be10e1",
+      "bytes": 49854,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/extra2.png"
+    },
+    {
+      "path": "Models/FlightDeck/flightdeck.ac",
+      "scope": "aircraft",
+      "sha256": "af3a2ee32df6193c46accbc43001e4e3636d4751134de65d69bdea4094050100",
+      "bytes": 3413917,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/flightdeck.ac"
+    },
+    {
+      "path": "Models/FlightDeck/flightdeck.png",
+      "scope": "aircraft",
+      "sha256": "79a23a9e8458a1162c56ded7bbee2250e5baa3aee950c59f3510d5b127e9120d",
+      "bytes": 40487,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/flightdeck.png"
+    },
+    {
+      "path": "Models/FlightDeck/hud.ac",
+      "scope": "aircraft",
+      "sha256": "15058c52e52d6c3c37a2e02f4b53609cd2468eeba38f21de8da0294859d36fba",
+      "bytes": 74003,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/hud.ac"
+    },
+    {
+      "path": "Models/FlightDeck/hud.xml",
+      "scope": "aircraft",
+      "sha256": "683a6ebf49661e3c4779c75d30f1637daba60f012bc6b1299367e3a2cdc1ee42",
+      "bytes": 53721,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/hud.xml"
+    },
+    {
+      "path": "Models/FlightDeck/hud1.xml",
+      "scope": "aircraft",
+      "sha256": "4d4eeac68b99e4d1359ed26385b51c97ac20cc7ab8459b72e7affc9b97016d2f",
+      "bytes": 53736,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/hud1.xml"
+    },
+    {
+      "path": "Models/FlightDeck/lettering.png",
+      "scope": "aircraft",
+      "sha256": "d449d105bf2419ba7ced47faabfd9f8ca7cbe6c73ca90dc0ca464212661267fb",
+      "bytes": 62056,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/lettering.png"
+    },
+    {
+      "path": "Models/FlightDeck/mainpanel.png",
+      "scope": "aircraft",
+      "sha256": "a93573c5a642101fdbd6c5d2e76dd8f518107bfce22c02acd4e8e9bbc7d94b05",
+      "bytes": 3319059,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/mainpanel.png"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel_base.png",
+      "scope": "aircraft",
+      "sha256": "76f73cafdff4e52384f2bab4ceb0d5a065c17e8c01118e0def4e3adc55a7a7ce",
+      "bytes": 117715,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel_base.png"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel_extra.png",
+      "scope": "aircraft",
+      "sha256": "4ca2a17e2333407f64372f802e1873b507328238067f26f43c90b351c1854ea0",
+      "bytes": 14437,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel_extra.png"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel_lettering.png",
+      "scope": "aircraft",
+      "sha256": "4fba49e2a868ab1f3798a0c34d5cc290f52b58341491a5774123d59fe89e3d50",
+      "bytes": 82805,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel_lettering.png"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel_panels.png",
+      "scope": "aircraft",
+      "sha256": "ecef1160adff4ba6b0c6301fbdb440133539ec80eb1f4a6097248b30db3713b1",
+      "bytes": 673978,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel_panels.png"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel.ac",
+      "scope": "aircraft",
+      "sha256": "2b15ba2d5d12eeb7e8fcd6da608c195d8749b58603197109672e40cbee5b1f43",
+      "bytes": 348664,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel.ac"
+    },
+    {
+      "path": "Models/FlightDeck/OHpanel.xml",
+      "scope": "aircraft",
+      "sha256": "b0c64af53ad98dacf2c1b9308c9abf7d61b6d692e5720fb9d5c8c05e03a0bb63",
+      "bytes": 40465,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/OHpanel.xml"
+    },
+    {
+      "path": "Models/FlightDeck/pfd3.png",
+      "scope": "aircraft",
+      "sha256": "41f4d345e74f079b248e8afe0cbae29517d24606bfc01e794b1776944918109f",
+      "bytes": 205842,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/pfd3.png"
+    },
+    {
+      "path": "Models/FlightDeck/reflection-day.png",
+      "scope": "aircraft",
+      "sha256": "f2ef7259e3a7de6693f9e69f879ebf0a32667bb1e2854a3030b9811e7b13338f",
+      "bytes": 278883,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/reflection-day.png"
+    },
+    {
+      "path": "Models/FlightDeck/seat-leather.png",
+      "scope": "aircraft",
+      "sha256": "53c65f02a54ff65cf33582b11604a38712f3d7c2edc718c0b95bb0cd72c6888b",
+      "bytes": 713615,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/seat-leather.png"
+    },
+    {
+      "path": "Models/FlightDeck/seat-plastic.png",
+      "scope": "aircraft",
+      "sha256": "ecdfd09997b7bbeb96c59ecd2d69f19861976aac3fcbe6392247600a82c43b3f",
+      "bytes": 224937,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/seat-plastic.png"
+    },
+    {
+      "path": "Models/FlightDeck/shell.png",
+      "scope": "aircraft",
+      "sha256": "076282b23b1f8619df01ee151a5a1979b8ea91e755294444c08808deefedd890",
+      "bytes": 960027,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/shell.png"
+    },
+    {
+      "path": "Models/FlightDeck/throttle.png",
+      "scope": "aircraft",
+      "sha256": "c3d414b3f47722d56bfce4ca37fe38dc11b8c9c33c7e0a5970740b27840c7739",
+      "bytes": 28475,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/throttle.png"
+    },
+    {
+      "path": "Models/FlightDeck/Trim.png",
+      "scope": "aircraft",
+      "sha256": "dd89be733f17f97f255c4fe07c94fea9c859890e0aeabe4c01b199c80936b74a",
+      "bytes": 30347,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/FlightDeck/Trim.png"
+    },
+    {
+      "path": "Models/fog_shader.png",
+      "scope": "aircraft",
+      "sha256": "58305a1f1da6873e4dfa200943a3af8799ff81e1477d79b23acbef9dc0c9e264",
+      "bytes": 200680,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/fog_shader.png"
+    },
+    {
+      "path": "Models/fog.ac",
+      "scope": "aircraft",
+      "sha256": "f1ed1cb69ae8d38e6528429a0604aa75ed0a99457ca4f4b4f61484e792092900",
+      "bytes": 5421,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/fog.ac"
+    },
+    {
+      "path": "Models/fog.xml",
+      "scope": "aircraft",
+      "sha256": "8b721cc18ebfd09ec9c3b2ab2c8a0adbc3fee0b322f29156dd7226d935f96c96",
+      "bytes": 937,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/fog.xml"
+    },
+    {
+      "path": "Models/Instruments/alt-tape.png",
+      "scope": "aircraft",
+      "sha256": "ddcd253d63521b7a7e7dabe0edaca4cbc6682bed6b2c99259fc11751a978f19f",
+      "bytes": 261249,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/ati.png",
+      "scope": "aircraft",
+      "sha256": "3dfda3eedf49fed510a0fd8b7729d2dc6385126285797bff26d145264479a1d4",
+      "bytes": 61546,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/ati.png"
+    },
+    {
+      "path": "Models/Instruments/cam_combobox.png",
+      "scope": "aircraft",
+      "sha256": "026dbc7eb293fa929a9dc90446cfb843c6d4d44d5fa1e8b27ae7bb48f8b6fc03",
+      "bytes": 15270,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cam_combobox.png"
+    },
+    {
+      "path": "Models/Instruments/cam.ac",
+      "scope": "aircraft",
+      "sha256": "fb835079b5ff657ebd9338deffb7c79329c73728a8331bd159ef2217a594c3c3",
+      "bytes": 3901,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cam.ac"
+    },
+    {
+      "path": "Models/Instruments/CAM.xml",
+      "scope": "aircraft",
+      "sha256": "038a9687dc0519981d6b2fb1d0c53a794a9209ab902710af1616f30b5e0d7954",
+      "bytes": 3303,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/CAM.xml"
+    },
+    {
+      "path": "Models/Instruments/cdu-base.png",
+      "scope": "aircraft",
+      "sha256": "a451283aa9de9215b8b2f40826d0808b77ae8e808cdf6bf77da090ae9e6b89f1",
+      "bytes": 1978,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cdu-base.png"
+    },
+    {
+      "path": "Models/Instruments/cdu.ac",
+      "scope": "aircraft",
+      "sha256": "08440f660648cb9860b90fde266a778b4b0084efec8c48384961d3638564bf7e",
+      "bytes": 26442,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cdu.ac"
+    },
+    {
+      "path": "Models/Instruments/cdu.png",
+      "scope": "aircraft",
+      "sha256": "d1a887b24af2d1d6759ef4f3041bc5baeef426ccf3a1e77a0aa034e48cd5edbc",
+      "bytes": 47286,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cdu.png"
+    },
+    {
+      "path": "Models/Instruments/CDU.xml",
+      "scope": "aircraft",
+      "sha256": "dffcabb72b168e4cc7512db1c264467f59f6e58b2ed4acc810e598192cb888d3",
+      "bytes": 56013,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/CDU.xml"
+    },
+    {
+      "path": "Models/Instruments/cdu1.ac",
+      "scope": "aircraft",
+      "sha256": "14d1a3525070742f493cfdf83767b78e81c379743249e6c2c9ecd432fbe712d8",
+      "bytes": 26549,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cdu1.ac"
+    },
+    {
+      "path": "Models/Instruments/CDU1.xml",
+      "scope": "aircraft",
+      "sha256": "14486b2c982b6c2f9e228a354283216797c67c29c458093ba8e8cb45087502ca",
+      "bytes": 56456,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/CDU1.xml"
+    },
+    {
+      "path": "Models/Instruments/CDU2.xml",
+      "scope": "aircraft",
+      "sha256": "e11c6f694ba067e546cf174be2f7ec64e725dab9e372c019798256e8985c5686",
+      "bytes": 23149,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/CDU2.xml"
+    },
+    {
+      "path": "Models/Instruments/cdu2screen.ac",
+      "scope": "aircraft",
+      "sha256": "b6295492818d9a4b079df8bab28c5085297c74859acc8e77dcb52c1d8e13252e",
+      "bytes": 1194,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/cdu2screen.ac"
+    },
+    {
+      "path": "Models/Instruments/clock.png",
+      "scope": "aircraft",
+      "sha256": "ca1f530fd5bf870a011e31f2547137dfdc8a344091837d97922261621dbbef9b",
+      "bytes": 20049,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/clock.png"
+    },
+    {
+      "path": "Models/Instruments/digits.png",
+      "scope": "aircraft",
+      "sha256": "d953dd8c57183cf8ed41117e8818d133818c483c858b4d60f40bf1fe2903d376",
+      "bytes": 38666,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/digits.png"
+    },
+    {
+      "path": "Models/Instruments/doors.ac",
+      "scope": "aircraft",
+      "sha256": "e434940f713a939df2a0e6dcda98b03052ba1f492159f2ee2038df2f03c54a11",
+      "bytes": 495,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/doors.ac"
+    },
+    {
+      "path": "Models/Instruments/doors.png",
+      "scope": "aircraft",
+      "sha256": "51ed13739b7e19a75cfddfb999b4975ae0a58d5da9aedd2bc60b3c0ef8997451",
+      "bytes": 58493,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/doors.png"
+    },
+    {
+      "path": "Models/Instruments/DOORS.xml",
+      "scope": "aircraft",
+      "sha256": "575aa8a4cfec12c6946d56a0cd14ba9d3aaa1a01764b8b10132a73c24d088fa6",
+      "bytes": 369,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/DOORS.xml"
+    },
+    {
+      "path": "Models/Instruments/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "6b39b1ee9aad7556c8efdc651c3074055512786ce388f59283df2433a78b3186",
+      "bytes": 26191,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/eicas.png",
+      "scope": "aircraft",
+      "sha256": "7bd4b390cc7857203d252ee671c262acbf8a6d398eb5955ee325e01896e95e6a",
+      "bytes": 16113,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/eicas.rgb",
+      "scope": "aircraft",
+      "sha256": "ade054654a6bc2aa341a92188406d39baf9bae1b864d24f1cb17a9ae86a297bb",
+      "bytes": 162742,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/eicas.rgb"
+    },
+    {
+      "path": "Models/Instruments/EICAS.xml",
+      "scope": "aircraft",
+      "sha256": "ac74514f0df1dd007d5e3f9286206ce59cb4477eab92b164315f1691080af98f",
+      "bytes": 63313,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/EICAS.xml"
+    },
+    {
+      "path": "Models/Instruments/elec.ac",
+      "scope": "aircraft",
+      "sha256": "19b5c095539b91715e96dcd54644062d317042efae8ecd255fc82075f4143f50",
+      "bytes": 5232,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/elec.ac"
+    },
+    {
+      "path": "Models/Instruments/ELEC.xml",
+      "scope": "aircraft",
+      "sha256": "aeeaa086068f497150c7a394915dc9f04a10e0204a34f216710f3ac55d27bd61",
+      "bytes": 3398,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/ELEC.xml"
+    },
+    {
+      "path": "Models/Instruments/electric.png",
+      "scope": "aircraft",
+      "sha256": "ded5bd4402115c3c77707bcc5ceb4dcf3c1d0b709e5ee83d73d505a4a24dc34d",
+      "bytes": 139033,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/electric.png"
+    },
+    {
+      "path": "Models/Instruments/fmc_help.png",
+      "scope": "aircraft",
+      "sha256": "cfd4da090fd7ff4cc328ff3a084d73fb91e38e943a9cb7577b385e4ceeddb5ee",
+      "bytes": 5733,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/fmc_help.png"
+    },
+    {
+      "path": "Models/Instruments/fuel.ac",
+      "scope": "aircraft",
+      "sha256": "494460c6782ec6349fa4e9f4bdbc87e85b8c60c2113d954d4865c04048cd6919",
+      "bytes": 4779,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/fuel.ac"
+    },
+    {
+      "path": "Models/Instruments/fuel.png",
+      "scope": "aircraft",
+      "sha256": "8fb53c848e00bb50ed63b04acf9c6084111657f9daf062b60d7ee22c9aea2863",
+      "bytes": 65641,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/fuel.png"
+    },
+    {
+      "path": "Models/Instruments/FUEL.xml",
+      "scope": "aircraft",
+      "sha256": "1583c190b07d3f52976430e8d9ec341d14de1bedef44ba89140b79bacab273f8",
+      "bytes": 4062,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/FUEL.xml"
+    },
+    {
+      "path": "Models/Instruments/gear.ac",
+      "scope": "aircraft",
+      "sha256": "26d3e06197f3bfa00931bdabe0687c1161443cee2bbdb86c46b2d75324eacd76",
+      "bytes": 5431,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/gear.ac"
+    },
+    {
+      "path": "Models/Instruments/gear.png",
+      "scope": "aircraft",
+      "sha256": "5146d17e9a025d884e952f7772323e39d105af49162211dcfd373789c9661702",
+      "bytes": 63002,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/gear.png"
+    },
+    {
+      "path": "Models/Instruments/GEAR.xml",
+      "scope": "aircraft",
+      "sha256": "3fd9a7253661830b2eda187e5d22698116a0c1f04bad54b09b7f36a9deff7842",
+      "bytes": 17516,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/GEAR.xml"
+    },
+    {
+      "path": "Models/Instruments/heat.ac",
+      "scope": "aircraft",
+      "sha256": "0b539275bec319fc0effdf6cc25fb89b2f9177cb19cfcc7024e51cd5bcdeeeee",
+      "bytes": 5087,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/heat.ac"
+    },
+    {
+      "path": "Models/Instruments/HEAT.xml",
+      "scope": "aircraft",
+      "sha256": "4d70b1b4fb1e7b52104afa6f029761d1f0ee767c04a9f62fa8551030f7bf228a",
+      "bytes": 4579,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/HEAT.xml"
+    },
+    {
+      "path": "Models/Instruments/heating.png",
+      "scope": "aircraft",
+      "sha256": "08b5ea717f760771c639e82ed1a1c6e2223eeba1faf3c7d6980e01ffb09de2ac",
+      "bytes": 53567,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/heating.png"
+    },
+    {
+      "path": "Models/Instruments/horizon.png",
+      "scope": "aircraft",
+      "sha256": "163ee0e27db0e99368a72b8696e743466f4468ddd1a9b35301a527639031f479",
+      "bytes": 30767,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/horizon.png"
+    },
+    {
+      "path": "Models/Instruments/hsiarc.png",
+      "scope": "aircraft",
+      "sha256": "cd6ba25590bad975772e355d78a8adb2b1981d6f3c417e11d6728e9c0e3571cc",
+      "bytes": 40649,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/hsiarc.png"
+    },
+    {
+      "path": "Models/Instruments/hsiarc2.png",
+      "scope": "aircraft",
+      "sha256": "af475e7ece0036eaba576330706ae1ef230bc55a47d84f805104866880c12829",
+      "bytes": 50444,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/hsiarc2.png"
+    },
+    {
+      "path": "Models/Instruments/hyd-anim.png",
+      "scope": "aircraft",
+      "sha256": "70f27ec7fac920f3b6d66202aea343022f017d1a1a2ec2933a5a6940b07e7ffb",
+      "bytes": 4608,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/hyd-anim.png"
+    },
+    {
+      "path": "Models/Instruments/hyd.ac",
+      "scope": "aircraft",
+      "sha256": "b78d812be2b9720389e8dd05d4138f1062499878bd145e2e1daf0bff82969e79",
+      "bytes": 9055,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/hyd.ac"
+    },
+    {
+      "path": "Models/Instruments/hyd.png",
+      "scope": "aircraft",
+      "sha256": "1eaa4a57de05efbea617b0490a34472d0403351e5cd3dd49492525e7889f9b7f",
+      "bytes": 106512,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/hyd.png"
+    },
+    {
+      "path": "Models/Instruments/HYD.xml",
+      "scope": "aircraft",
+      "sha256": "2552bedb99d80a8e1e6028343298deb13387733a8585b4469db85239d2771770",
+      "bytes": 5551,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/HYD.xml"
+    },
+    {
+      "path": "Models/Instruments/intro.png",
+      "scope": "aircraft",
+      "sha256": "1055dedf763565346504d809b0d101251b41141833aa71806901a07616659176",
+      "bytes": 30064,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/intro.png"
+    },
+    {
+      "path": "Models/Instruments/mag-compass.ac",
+      "scope": "aircraft",
+      "sha256": "512278ec013e875f3adb67bc66d34b301536193375c62306da48ca93c96e6317",
+      "bytes": 8056,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mag-compass.ac"
+    },
+    {
+      "path": "Models/Instruments/mag-compass.png",
+      "scope": "aircraft",
+      "sha256": "ce14fb7f99eb8b7e27eb123be41d8a91935995a81cbb6ee3a4222f74b7f1221a",
+      "bytes": 6835,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mag-compass.png"
+    },
+    {
+      "path": "Models/Instruments/mag-compass.xml",
+      "scope": "aircraft",
+      "sha256": "308ddfb285293adc489eb2cda4f854b2cdfd022bb66377d7f95df27bb77ee243",
+      "bytes": 308,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mag-compass.xml"
+    },
+    {
+      "path": "Models/Instruments/mainpanel.png",
+      "scope": "aircraft",
+      "sha256": "7b5c9ff347ba46b78a11080d5dfaca9e01b6357cc0a226cb7389651b0f118439",
+      "bytes": 3244625,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mainpanel.png"
+    },
+    {
+      "path": "Models/Instruments/mfd-menu.ac",
+      "scope": "aircraft",
+      "sha256": "b48868546a00c4e79a900f595338ae30f45c811ae2fb15b5a3cbcacd6cbc82de",
+      "bytes": 6832,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mfd-menu.ac"
+    },
+    {
+      "path": "Models/Instruments/mfd-menu.png",
+      "scope": "aircraft",
+      "sha256": "98eb514b78a9a048a432ff0c5d48252520eb62110c50811e9d8f5fe81a754bd9",
+      "bytes": 9985,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mfd-menu.png"
+    },
+    {
+      "path": "Models/Instruments/mfd-nav.ac",
+      "scope": "aircraft",
+      "sha256": "32160d74d35d49d8d6c48b6f400c9dd147ffb4876bedd949f2718b49f0f49ac3",
+      "bytes": 113399,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mfd-nav.ac"
+    },
+    {
+      "path": "Models/Instruments/mfd-ndfull.ac",
+      "scope": "aircraft",
+      "sha256": "c3e9cc353d16e12de7589baae4beecd51af67ac6b8bae5bc148681b34714ddaf",
+      "bytes": 74582,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/mfd-ndfull.ac"
+    },
+    {
+      "path": "Models/Instruments/MFD.xml",
+      "scope": "aircraft",
+      "sha256": "8be1bfc80699005f216b38736b16331b74489bf3b8bbef07fa352ef72cb0d7e1",
+      "bytes": 8397,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/MFD.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD2.xml",
+      "scope": "aircraft",
+      "sha256": "c5384472efb3f4ca9049bab84afd7db12761b7fd390b81aaaa19e52a3aaf0f49",
+      "bytes": 8694,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/MFD2.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD3.xml",
+      "scope": "aircraft",
+      "sha256": "21c53fdcce5c26adb94ae2f2ec13675808f7d13b35a0e2e4de3aa588fd3cf3c3",
+      "bytes": 8531,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/MFD3.xml"
+    },
+    {
+      "path": "Models/Instruments/NAV.xml",
+      "scope": "aircraft",
+      "sha256": "3f17cc7801a37037dbf495315e204dd1f996b0fe72c83ca1eb847d12ae9354f3",
+      "bytes": 571528,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/NAV.xml"
+    },
+    {
+      "path": "Models/Instruments/NDFULL.xml",
+      "scope": "aircraft",
+      "sha256": "d0c7edbf74d2f0452917bd00e46032c3e91f900f6dd966cdd9f78453e87b0a21",
+      "bytes": 387645,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/NDFULL.xml"
+    },
+    {
+      "path": "Models/Instruments/pfd-extra.png",
+      "scope": "aircraft",
+      "sha256": "ab38740361358dd7260d98fecccfaf97ca0054716d933f50cd21e1eba5e1b1b1",
+      "bytes": 15328,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/pfd-extra.png"
+    },
+    {
+      "path": "Models/Instruments/pfd.ac",
+      "scope": "aircraft",
+      "sha256": "37e88c7b0ebaaf379d51a17a5965ae4174f78f494e33ca2c7b6d1a1eb60bebc3",
+      "bytes": 22759,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/pfd.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD1.xml",
+      "scope": "aircraft",
+      "sha256": "5afcfbb387fafc2a06cd6ca5266ea44dc13ce3019ecca2d2961d91cf75d33521",
+      "bytes": 16467,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/PFD1.xml"
+    },
+    {
+      "path": "Models/Instruments/pfd2.ac",
+      "scope": "aircraft",
+      "sha256": "1a18106f09f16ed3f5c29b3d1a945bbf733c77b9f1ed989d7a6971a11965cf6b",
+      "bytes": 23066,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/pfd2.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD2.xml",
+      "scope": "aircraft",
+      "sha256": "04e30768906b8deea3f25e41e7f87beb679dfb562c87d7c8039f3c128d71e81d",
+      "bytes": 16467,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/PFD2.xml"
+    },
+    {
+      "path": "Models/Instruments/pneu.ac",
+      "scope": "aircraft",
+      "sha256": "578d6d97f7f34cd6a54cf8c6db54b67db4398331e4f670be098a0d393f262d12",
+      "bytes": 487,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/pneu.ac"
+    },
+    {
+      "path": "Models/Instruments/PNEU.xml",
+      "scope": "aircraft",
+      "sha256": "9477d44d83cb25544b179846321febc405ce6703532e4c3142f9bb7140a4718d",
+      "bytes": 4812,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/PNEU.xml"
+    },
+    {
+      "path": "Models/Instruments/presure.png",
+      "scope": "aircraft",
+      "sha256": "6672766402ed022ac5f43816860829f2c68af256884909b6b1f425c0f653f197",
+      "bytes": 193476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/presure.png"
+    },
+    {
+      "path": "Models/Instruments/spd-tape.png",
+      "scope": "aircraft",
+      "sha256": "eb87284dbac90bd23117166c424486f85f4f45141a6d58b3a741b348e37cf10d",
+      "bytes": 44294,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/symbols.png",
+      "scope": "aircraft",
+      "sha256": "585f5ee3083248860397ed53a5cbbc997cf7e2d09d259084200880fda160cb8c",
+      "bytes": 30533,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/sysinfo.png",
+      "scope": "aircraft",
+      "sha256": "e4727c3c2c662b1627487e202146de33c3ee0acd93cb825cacc70a51a8695644",
+      "bytes": 6302,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/sysinfo.png"
+    },
+    {
+      "path": "Models/Instruments/terrain-gradient.png",
+      "scope": "aircraft",
+      "sha256": "11dfc6221c72faaaf4a236270fde9eceafa28cf092e888fb9382abee4661ab3a",
+      "bytes": 462,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-gradient.png"
+    },
+    {
+      "path": "Models/Instruments/terrain-map-full.ac",
+      "scope": "aircraft",
+      "sha256": "2262a8a95f2f579c45eb335151e0faece86ce8801bc2bd3fca14c8b73a6b5172",
+      "bytes": 304205,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-map-full.ac"
+    },
+    {
+      "path": "Models/Instruments/terrain-map-full.xml",
+      "scope": "aircraft",
+      "sha256": "827cf9ee2aba7b95b0d6a4a368694d2971d42a00d4689f0f15a42c73725240d3",
+      "bytes": 348608,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-map-full.xml"
+    },
+    {
+      "path": "Models/Instruments/terrain-map-pixel.ac",
+      "scope": "aircraft",
+      "sha256": "e0183ed5beed529fe80382fd758160e71ce851d96b40712042f0a521c43727a1",
+      "bytes": 340690,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-map-pixel.ac"
+    },
+    {
+      "path": "Models/Instruments/terrain-map-pixel.xml",
+      "scope": "aircraft",
+      "sha256": "a92795a90b9bfd801116c11d0b61f7edd513b2d26172cf5b2befd9697220ca24",
+      "bytes": 345537,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-map-pixel.xml"
+    },
+    {
+      "path": "Models/Instruments/terrain-map.png",
+      "scope": "aircraft",
+      "sha256": "757827f81f3fd9edee6982513eb36a1e6ad4674a3152dd8f11c3024ad8c06112",
+      "bytes": 1177,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/terrain-map.png"
+    },
+    {
+      "path": "Models/Instruments/vnav.png",
+      "scope": "aircraft",
+      "sha256": "bba652e40d6634317d76161641f852da0a4b5097613dde595e9bedc72e3c79d5",
+      "bytes": 5254,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/vnav.png"
+    },
+    {
+      "path": "Models/Instruments/world-map-8192.jpg",
+      "scope": "aircraft",
+      "sha256": "8d9efa6e71ca10a8728d74fd10d3f59af734fcb199b1398ca91b5d66508b643b",
+      "bytes": 2406898,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/world-map-8192.jpg"
+    },
+    {
+      "path": "Models/Instruments/wxradar.png",
+      "scope": "aircraft",
+      "sha256": "d29e14b1339e1d00aa7144ec2ce5281a230b64efcf50b0fa86b0dc2f0e463820",
+      "bytes": 4737,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Instruments/wxradar.png"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/787-8",
+    "commit": "b79677d148bc7f573c55accb3cb96450b89156a2",
+    "entry": "Models/FlightDeck/b787.flightdeck.xml",
+    "sourceDirectory": "b787",
+    "viewpoint": {
+      "source": "787-8-set.xml",
+      "position": [
+        -0.603,
+        2.242,
+        -22.612
+      ],
+      "pitchDeg": -10.3,
+      "fovDeg": 60
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 60,
+      "lookPitch": -0.17976891295541597
+    },
+    "parentTransformChain": [],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  },
+  "sharedFrom": "b787"
+}

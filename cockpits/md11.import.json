@@ -1,0 +1,863 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/md11.glb",
+  "bytes": 18366156,
+  "triangles": 243389,
+  "nodes": 94,
+  "meshes": 91,
+  "images": 53,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_engine_2",
+      "kind": "engine"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    }
+  ],
+  "sourceMeshes": 1710,
+  "drawGroups": 91,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/cockpit.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/cockpit.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/overhead_1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/overhead_1.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/compass/compass.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/compass/compass.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/overhead_2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/overhead_2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/FCP/FCP.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/FCP/FCP.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/seat.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/cockpit_seat.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/pedestal.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/pedestal.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/stby-ai/stby-ai.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/stby-ai/stby-ai.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/stby-alt/stby-alt.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/stby-alt/stbyalt.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/brakes/brakes.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/brakes/brakes.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/Radio/radio1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/Radio/radio.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/radar/radar.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/radar/radar.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/tcas/tcas.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/tcas/tcas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/audioselector/audioselector.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/audioselector/audioselector.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/screenselector/screenselector.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/screenselector/screenselector.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/cdu/boeing.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/cdu/boeing.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/display-text-value.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/PFD/PFD_L.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/PFD/PFD_L.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/EAD_1_GE.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/EAD_1_GE.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/SD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/CONFIG.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/CONFIG.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/STATUS.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/STATUS.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/MISC.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/MISC.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/CONSEQ.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/CONSEQ.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/ND.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/instruments/EAD/ND.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "MD-11-main.xml",
+    "position": [
+      -0.5238,
+      7.2709,
+      -26.8
+    ],
+    "pitchDeg": 0,
+    "fovDeg": 80
+  },
+  "sourceFiles": [
+    {
+      "path": "MD-11-main.xml",
+      "scope": "aircraft",
+      "sha256": "5c1207dfe3c05644176efb2e57bfa068a9442dc638b332aa1a0c02465bf568c4",
+      "bytes": 34220,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11-main.xml"
+    },
+    {
+      "path": "Models/cockpit/buttons.png",
+      "scope": "aircraft",
+      "sha256": "5ec6e2cf7ae75d6b8e3e61ce0578bba8858555d8e7e53133200766fb1aeb8b33",
+      "bytes": 66430,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/buttons.png"
+    },
+    {
+      "path": "Models/cockpit/carpet.png",
+      "scope": "aircraft",
+      "sha256": "dacce19585e2c5bb049c116df7daba46e420005cc5703b3b299ef48948400355",
+      "bytes": 4472375,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/carpet.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit_1.png",
+      "scope": "aircraft",
+      "sha256": "c4c847ba6e74d91485609d133d18db6dcf0dcc1a4899339f75fe198e542a527d",
+      "bytes": 401883,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_1.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit_2.png",
+      "scope": "aircraft",
+      "sha256": "5a0484d86a7072fcad3ea0157553166e2ce57855aedf404cfdb7a2f87eea80ce",
+      "bytes": 404748,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_2.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit_seat.ac",
+      "scope": "aircraft",
+      "sha256": "777e1a264ba13ffb34d0df9f83a3ac288160709792d50b9abdbf632043c81cb5",
+      "bytes": 761862,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_seat.ac"
+    },
+    {
+      "path": "Models/cockpit/cockpit_side.png",
+      "scope": "aircraft",
+      "sha256": "b50d04557cb018ab535197b3d3e2910abb2b971bc8f87c5b4d49a9d7641a1663",
+      "bytes": 467809,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_side.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit.ac",
+      "scope": "aircraft",
+      "sha256": "b78c24d3e41957d28feec79a6017543601ae9ea99df5058936af53e58426d4b1",
+      "bytes": 5887866,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit.ac"
+    },
+    {
+      "path": "Models/cockpit/cockpit.xml",
+      "scope": "aircraft",
+      "sha256": "d81ee6b4383b0d6a737777966e0f73ac0c7fdc3d17c3903856a42d51c4a0317b",
+      "bytes": 19522,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit.xml"
+    },
+    {
+      "path": "Models/cockpit/dashboard.png",
+      "scope": "aircraft",
+      "sha256": "895ab494dee44a6f5a33289fd320c46cc910ae2b98ff4865b32cbf250435423e",
+      "bytes": 375577,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/dashboard.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.ac",
+      "scope": "aircraft",
+      "sha256": "0f1d03480cd44408e09888af35a60580564c50732c0d9d6f22908f1f748f7847",
+      "bytes": 108046,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.png",
+      "scope": "aircraft",
+      "sha256": "3a6c562249368a1b2f0d1d91fe10ce82e4f8d373b4264891d52f9c20e08096dc",
+      "bytes": 72574,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.xml",
+      "scope": "aircraft",
+      "sha256": "adafa8fae9f1d89c4651605d50164bace5e796f2bb4cdcdd54e4b4c6904c96cf",
+      "bytes": 670,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.ac",
+      "scope": "aircraft",
+      "sha256": "ed56b10d7ff5feebda5d9fa5f2054d1f49b4882c7de3266b75428cdcd90302a9",
+      "bytes": 129412,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.png",
+      "scope": "aircraft",
+      "sha256": "54265d3e88a2a913d30fb3165cb8fd1f08c982a32dd1d522b9e8201831330a0f",
+      "bytes": 115019,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.xml",
+      "scope": "aircraft",
+      "sha256": "58c456ea63b63c607aa21a2a905c59ce5955fd164fe0b3e6bc343e3640babb71",
+      "bytes": 4768,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/knob.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing_grey.png",
+      "scope": "aircraft",
+      "sha256": "bccd4d343d53d3415534853001e9b4ba8601dcffbca993e5cf4fcbfe2cdf6b95",
+      "bytes": 71851,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing_grey.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing.ac",
+      "scope": "aircraft",
+      "sha256": "424a70443ee8c6a1e16a8339ed43dc9791a9ee3991c1fd56fa10434275360576",
+      "bytes": 111528,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing.xml",
+      "scope": "aircraft",
+      "sha256": "755eafb9f1146242294878ea3ff87155b602a4882f4ca88cfd9d064dd7a0f3b6",
+      "bytes": 42745,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.ac",
+      "scope": "aircraft",
+      "sha256": "ba7fa385a8f4e4ade70b2f9cc78ff38b1c5fed079b95f4bde7b247cf4192c7dc",
+      "bytes": 135962,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.png",
+      "scope": "aircraft",
+      "sha256": "bb03aef630d508f0ffdf675aba6813b957c87a321c4f8a97767202f8a1dcf983",
+      "bytes": 51325,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.xml",
+      "scope": "aircraft",
+      "sha256": "1c6abc8249497203344ab11646842563739769077eb57d61bdd1125be92e5778",
+      "bytes": 922,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.ac",
+      "scope": "aircraft",
+      "sha256": "4722b9844aa2bb8171db8f063f61c1be8f1b329535e7614bdde70a802196bb78",
+      "bytes": 9543,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.png",
+      "scope": "aircraft",
+      "sha256": "77dbd74713b4484e4792f743bd5788e287595a1737df83a63b35b0867cd9b35e",
+      "bytes": 37062,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.xml",
+      "scope": "aircraft",
+      "sha256": "c553a1a5773e3c40d497beb95a6bf26843327c37fadfaf7192cf939ba589ea70",
+      "bytes": 6493,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.ac",
+      "scope": "aircraft",
+      "sha256": "026bcbc1e0ef0365cdf8e67b1bd4ecafc4e307fa2fcab3ca183afb45e9853add",
+      "bytes": 810,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.png",
+      "scope": "aircraft",
+      "sha256": "0bbaacbddc39bd98070bf715459f6a20c55a8f2c5e5bb5ee9b9d1154d14875cb",
+      "bytes": 6100,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.xml",
+      "scope": "aircraft",
+      "sha256": "48cb1aa31ea646325cd8db2548b805ebd9f295ee47160c60f30d0bba074d08a7",
+      "bytes": 61,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD_1_GE.ac",
+      "scope": "aircraft",
+      "sha256": "ea036a8592aaa1ecb2ccfa0fb82915756e57638247f14d8a1cdd16f3a88f192b",
+      "bytes": 9120,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD_1_GE.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD_1_GE.xml",
+      "scope": "aircraft",
+      "sha256": "96e8f87ce388e2b8d72eb6387c0f20de411438997e13fb204787a46f499c3405",
+      "bytes": 32647,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD_1_GE.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ead_2.png",
+      "scope": "aircraft",
+      "sha256": "170825960d621e65a0afc8ce00c8681cca0497fa7fc27def9127e4797afa3899",
+      "bytes": 432,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ead_2.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD.png",
+      "scope": "aircraft",
+      "sha256": "d8066bf422d0b75575680d8fe4788a4a406426c6c55994503ff840a3f3f85449",
+      "bytes": 13483,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.ac",
+      "scope": "aircraft",
+      "sha256": "b0d2cd971660a90e398a7fe7a4d4469be27c7ae61299fa559c4285b2b6e87543",
+      "bytes": 808,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.png",
+      "scope": "aircraft",
+      "sha256": "e20171511f6ed412e1c8c0fdc1223f325a88953ffc61061f33614159d74e466f",
+      "bytes": 6691,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.xml",
+      "scope": "aircraft",
+      "sha256": "c885f43e3e944150170f35df90c499314a1c44e34ca63189d4d4cd41c94adf1c",
+      "bytes": 59,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ND.ac",
+      "scope": "aircraft",
+      "sha256": "66662e8f60750051429557d20991a3a6be1f2e86b5c76fbe941e0674a605a312",
+      "bytes": 809,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ND.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ND.xml",
+      "scope": "aircraft",
+      "sha256": "578f47fc6fec542a0f1edb8da376e3d80951126b85a645a9f373006f9c3d2060",
+      "bytes": 641,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ND.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/numbers.png",
+      "scope": "aircraft",
+      "sha256": "f73f321ceb977ad6918141df7bbba031d8401faf7aed3e96b9396033696b310e",
+      "bytes": 5890,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/purple.png",
+      "scope": "aircraft",
+      "sha256": "700964218fb33f7d6a5126fe2b28733d4316e6e7c2f330ad2a434abbc3603f59",
+      "bytes": 141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/purple.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/red.png",
+      "scope": "aircraft",
+      "sha256": "b789489e65ef90e4087a6ffab831a0c448456b310ddcd0ef074fe215b6f1f3db",
+      "bytes": 137,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/red.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/screen.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/screen.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/SD.xml",
+      "scope": "aircraft",
+      "sha256": "7242d8cff7213dd3d122ab30ef2f709346cafddaa57102d756da7d11048b40a0",
+      "bytes": 1631,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/SD.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.ac",
+      "scope": "aircraft",
+      "sha256": "23d0439ad900f4de48fffc58fda551f2bc136e094fe0d2ea25b3027a9754688b",
+      "bytes": 810,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.png",
+      "scope": "aircraft",
+      "sha256": "a088deb5e87d4090df86336f3977859a13b48007c6b763fc4c55fb12919917f1",
+      "bytes": 11850,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.xml",
+      "scope": "aircraft",
+      "sha256": "ba12cfc6582d2e0ba9ed2980cb4ff182ef3c1ae27fbaf3cc6d52e6e42470a02d",
+      "bytes": 61,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/white.png",
+      "scope": "aircraft",
+      "sha256": "bbaeb0e41e34d484a3865e90db1ec803c46d991e96e143205fff665a8e2168c1",
+      "bytes": 141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/white.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/yellow.png",
+      "scope": "aircraft",
+      "sha256": "628b450afeec6dd7bb076b471a342a5bad29b9945d541128ed79bdcdaabd4b56",
+      "bytes": 139,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/yellow.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/APpanel_BTN.png",
+      "scope": "aircraft",
+      "sha256": "7e953f5fac5654fec7ae537a230e1da0925253ad118b9d1b2a39fc8766d23119",
+      "bytes": 61187,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/APpanel_BTN.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/FCP.ac",
+      "scope": "aircraft",
+      "sha256": "0847646c28b79f52985b0d94d5cd8385395bde0e0927bce6e52f5d7d641b4b21",
+      "bytes": 666779,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/FCP.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/FCP.xml",
+      "scope": "aircraft",
+      "sha256": "57c39c7932abc3467f048e1073b1b0ee16c0f069db403bda76ad5149851001d5",
+      "bytes": 61096,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/FCP.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/MCP.png",
+      "scope": "aircraft",
+      "sha256": "0e4ab8764cb2779e4c985c0bcfca9995b2b88c02db4f4ab8ebb9369920fbbe1b",
+      "bytes": 308732,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/MCP.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/alt-tape.png",
+      "scope": "aircraft",
+      "sha256": "b56f4d171769a07b343fa1afb5d7a457df9117d79073c0c10b7cfd4bef7835d0",
+      "bytes": 44136,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/apoff.JPG",
+      "scope": "aircraft",
+      "sha256": "983beaf7a629227558ec62205da9f1fbe1a43c9b9180811716bdf587abd85933",
+      "bytes": 27332,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/apoff.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/apoff1.JPG",
+      "scope": "aircraft",
+      "sha256": "ab79dafe53ba468a43cb6447459d2f7d36c8ec7f36861847f62d58f697c37f80",
+      "bytes": 26174,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/apoff1.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/atoff.JPG",
+      "scope": "aircraft",
+      "sha256": "2f5d66e12f88730bc50c5b30fb6b8e9c820a6009991477cde3095468efca7b15",
+      "bytes": 20008,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/atoff.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/atoff1.JPG",
+      "scope": "aircraft",
+      "sha256": "b2c7395f053308c160e211cc81bb15fb294be527226522e01fbbe8ccb1625a7f",
+      "bytes": 19375,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/atoff1.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/numbers.png",
+      "scope": "aircraft",
+      "sha256": "902ca3703ec26086218f9a743d67f1c5f64830eb9f9a327f2a80f1417aaa5f8e",
+      "bytes": 75069,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/PFD_L.ac",
+      "scope": "aircraft",
+      "sha256": "d2041ded543238a4749ceedc80628c331ff12dce9ff023a424f54718a1d001a9",
+      "bytes": 124369,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/PFD_L.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/PFD_L.xml",
+      "scope": "aircraft",
+      "sha256": "698386488377d064009a8eb5933e24e60f78b2103f177c5b3826fb0e52d64f5a",
+      "bytes": 71058,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/PFD_L.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/pfd3d.png",
+      "scope": "aircraft",
+      "sha256": "d690fcdaf30f86e518ca137869fc68f79711fde6d6aad9726f43c97388cbc3a9",
+      "bytes": 100827,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/pfd3d.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/spd-tape.png",
+      "scope": "aircraft",
+      "sha256": "04413a25873acf21f31394edac495332fd1d7201dd939c093f4d4104f4ecfca6",
+      "bytes": 21331,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/taxi.png",
+      "scope": "aircraft",
+      "sha256": "77a3f0d7be9ba8b95c9e0add07d7295fa76153702ca3499ebb6ab062ed98c74c",
+      "bytes": 1187,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/taxi.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.ac",
+      "scope": "aircraft",
+      "sha256": "6297b8bb177aafa53b7b50b9e06053c622ed03fb15bd9852fe7d5d628af6ec0e",
+      "bytes": 87750,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.png",
+      "scope": "aircraft",
+      "sha256": "6875f40f1c197a47cdbfb1ce1030e153694b998d353b003894c4a3bcab59add7",
+      "bytes": 64562,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.xml",
+      "scope": "aircraft",
+      "sha256": "e47b5832f7f84589bfd3266b890c887f3971bd22ea4cfdf9568c11cc111074d9",
+      "bytes": 479,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio.ac",
+      "scope": "aircraft",
+      "sha256": "20a82fa90f4176f4ac45a59c8151e908bd29304846835fa71ac2509f5236693c",
+      "bytes": 88813,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio.png",
+      "scope": "aircraft",
+      "sha256": "370a102f8ca40fe30275f35fda8eaa7d0943f7cd58b2ab54f3217fed96bad28d",
+      "bytes": 63722,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio1.xml",
+      "scope": "aircraft",
+      "sha256": "c0e291a7fdd6134789528743a7cf4e3f8331113599a605818b0007d9a671ddf2",
+      "bytes": 11727,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio1.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/knob.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.ac",
+      "scope": "aircraft",
+      "sha256": "71a33ce2cca99359e7b8eb9d726011045ac28cceb2143bea05397c6179b091c2",
+      "bytes": 80629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.png",
+      "scope": "aircraft",
+      "sha256": "aa2eee8e3d9aa3899263f382c62e719ffe43a1d132aeccf34a87b5cdf2f3f112",
+      "bytes": 53219,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.xml",
+      "scope": "aircraft",
+      "sha256": "30ba5e3fd399f9878cbaa60a5966fcbe654222c357c0de66414ab5e3fca9951e",
+      "bytes": 9185,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector2.png",
+      "scope": "aircraft",
+      "sha256": "3a1d0401d5177377b0418a12db24ec325dab9b29cb32ddaf34c2fb3a6ba75d66",
+      "bytes": 53309,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector2.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/pfd3d.png",
+      "scope": "aircraft",
+      "sha256": "d690fcdaf30f86e518ca137869fc68f79711fde6d6aad9726f43c97388cbc3a9",
+      "bytes": 100827,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/pfd3d.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.ac",
+      "scope": "aircraft",
+      "sha256": "c4541aa06ac505343afc3f1ef81e5fb45f12475a288d1bcc874509f617147772",
+      "bytes": 263875,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.png",
+      "scope": "aircraft",
+      "sha256": "abbdcc45aa195ab4ffa6fb58cf4a80f2d870190caef84c1d4b7287b119179fbf",
+      "bytes": 17524,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.xml",
+      "scope": "aircraft",
+      "sha256": "e1308e99d592452b618c1a6dab7c16c5ac9e403737ae9e33597aa8d11335f2d0",
+      "bytes": 4111,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stby-ai.png",
+      "scope": "aircraft",
+      "sha256": "992707fd87c6decb67b24bc6cda3ff84e2408221c31fd4e4211154dcca9cc522",
+      "bytes": 16648,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stby-ai.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stby-alt.xml",
+      "scope": "aircraft",
+      "sha256": "7346980f53d1b04ce8ddc60cd112cb957d4e585651a611dac269613e8668a654",
+      "bytes": 6237,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stby-alt.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stbyalt.ac",
+      "scope": "aircraft",
+      "sha256": "b7c1b0063feb54d05c5528b33839be91c7fc796575a89c707ed2fb8f1cd1cb01",
+      "bytes": 268797,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stbyalt.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stbyalt.png",
+      "scope": "aircraft",
+      "sha256": "a4d3d0430adb2e0643b18a36b6dcbab39c14acfe3114829d4bb425de611606e1",
+      "bytes": 54783,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stbyalt.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.ac",
+      "scope": "aircraft",
+      "sha256": "b0f4ac1a00204d6935836e592384767af0ee732662415a8e7c125ff37585be98",
+      "bytes": 77480,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.png",
+      "scope": "aircraft",
+      "sha256": "52c41b11f58cbbb6a25ed9ffefe08981954e4604b96c5dcda7e8101f9647a05f",
+      "bytes": 77045,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.xml",
+      "scope": "aircraft",
+      "sha256": "a5f320887b6a8168fed67224620a22c8587dd0ede3796caa1c964877133ec54e",
+      "bytes": 9784,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.xml"
+    },
+    {
+      "path": "Models/cockpit/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/knob.png"
+    },
+    {
+      "path": "Models/cockpit/numbers.png",
+      "scope": "aircraft",
+      "sha256": "3de54aee4c0e219cd116fb87ace2c2d6aeb6dceba82195c5f6582142b08e36c6",
+      "bytes": 7489,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.ac",
+      "scope": "aircraft",
+      "sha256": "ae834ab45d8303e9b58ae3cab0449ce02dbc349cc0cde8b35434af5c2a9b9d71",
+      "bytes": 2636755,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.ac"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.png",
+      "scope": "aircraft",
+      "sha256": "378b3d25f2589e229a798f83f067c06985afcd3282fa87dc100a9f243e34615b",
+      "bytes": 472043,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.xml",
+      "scope": "aircraft",
+      "sha256": "70aa85a34e0d8728222d97ffd249d7c9ce0b15ec0b1a822c435410934fa0ee88",
+      "bytes": 61036,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.xml"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.ac",
+      "scope": "aircraft",
+      "sha256": "34b2ecf4ba9fbd32a21ae7e056ed69094ff7f72aac2776ab8c667b51263699b4",
+      "bytes": 2002602,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.ac"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.png",
+      "scope": "aircraft",
+      "sha256": "896f88c3f17f0ce7a0d57909bd612dd460710ef624127c8f5362d0e00eb1e340",
+      "bytes": 405850,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.xml",
+      "scope": "aircraft",
+      "sha256": "61ed6d8f59f86ff956c21b57cd0f4860aaee6a2445e569fefbd91c9c56fec239",
+      "bytes": 3422,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.xml"
+    },
+    {
+      "path": "Models/cockpit/overhead_text.png",
+      "scope": "aircraft",
+      "sha256": "3cff60ae75b7e77970539033be189942d68088e1909624cf9cb98abe94802e84",
+      "bytes": 82782,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_text.png"
+    },
+    {
+      "path": "Models/cockpit/pedestal.ac",
+      "scope": "aircraft",
+      "sha256": "a32ae1e1c359e58d25e4d6a58f7338d1a278298e389988b3b17c51b5cb061dfd",
+      "bytes": 1198827,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.ac"
+    },
+    {
+      "path": "Models/cockpit/pedestal.png",
+      "scope": "aircraft",
+      "sha256": "367044fa7c7319350a0c4d1f4efd4b4f79ae6f585767f46090f5b69d09f37a50",
+      "bytes": 442777,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.png"
+    },
+    {
+      "path": "Models/cockpit/pedestal.xml",
+      "scope": "aircraft",
+      "sha256": "3f360bd6ca3ea43eef38193415e4cbb79d1603eef3c2f2cecd7b9513999ca0e3",
+      "bytes": 31117,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.xml"
+    },
+    {
+      "path": "Models/cockpit/screen.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/screen.png"
+    },
+    {
+      "path": "Models/cockpit/seat.png",
+      "scope": "aircraft",
+      "sha256": "706b827a32414adea150e363a2e726e07639b06bca24246f8a87a4de8abdbe62",
+      "bytes": 457909,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/seat.png"
+    },
+    {
+      "path": "Models/cockpit/seat.xml",
+      "scope": "aircraft",
+      "sha256": "505a6d47fbf1759f6b0dc041507435be84b7963500b9138662866114c8d20eee",
+      "bytes": 2037,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/seat.xml"
+    },
+    {
+      "path": "Models/cockpit/yoke.png",
+      "scope": "aircraft",
+      "sha256": "d4715f462cf2d78bb7585dbe3eab87d7b1a685fb144cc70d2d1443662d8212ec",
+      "bytes": 123360,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/yoke.png"
+    },
+    {
+      "path": "Models/MD-11.xml",
+      "scope": "aircraft",
+      "sha256": "57ffe48a82acc1f10041e1f7479324afb84b5140ffd33331243251a7fee33425",
+      "bytes": 84194,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/display-text-value.xml",
+      "scope": "fgdata",
+      "sha256": "e3645538307d46d6895aa1704f9fa3354fa73caf0e8954161875c6ecfa1ff486",
+      "bytes": 1803,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/display-text-value.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/MD-11",
+    "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+    "entry": "Models/cockpit/cockpit.xml",
+    "sourceDirectory": "md11",
+    "viewpoint": {
+      "source": "MD-11-main.xml",
+      "position": [
+        -0.5238,
+        7.2709,
+        -26.8
+      ],
+      "pitchDeg": 0,
+      "fovDeg": 80
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 80,
+      "lookPitch": 0
+    },
+    "parentTransformChain": [],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}

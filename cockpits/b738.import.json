@@ -1,0 +1,888 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b738.glb",
+  "bytes": 5404204,
+  "triangles": 48472,
+  "nodes": 75,
+  "meshes": 51,
+  "images": 23,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_engine_2",
+      "kind": "engine"
+    }
+  ],
+  "omittedNodes": [],
+  "sourceMeshes": 583,
+  "drawGroups": 51,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/cockpit.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/cockpit.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/flightdesk.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/flightdesk.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/autopilot-panel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/autopilot-panel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/efis-control-panel-left.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/efis-control-panel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/efis-control-panel-right.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/PFD/PFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/PFD/EFIS.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/ND/nd_l.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/ND/nd_l.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/ND/nd_r.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/ND/nd_r.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/EICAS/eicas.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/EICAS/EFIS.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/CLOCK/chronometer.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/CLOCK/clock.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/att-ball.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/att-ball.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/vor.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/vor.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/standby-asi.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/Instruments/STANDBY/standby-asi.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/pedals.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/pedals.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/pedestal.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/pedestal.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu2/boeing.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu2/boeing.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/landinglight.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "738-set.xml",
+    "position": [
+      -0.51,
+      1.28,
+      -17.18
+    ],
+    "pitchDeg": -8,
+    "fovDeg": 75,
+    "fovNote": "Viewer field of view; the upstream captain view omits an explicit FOV."
+  },
+  "viewerLookPitchDeg": -8,
+  "viewerFov": 75,
+  "sourceFiles": [
+    {
+      "path": "737-ng-set-common.xml",
+      "scope": "aircraft",
+      "sha256": "b5e5f3de756adeee94ffbd6c4369f21bc9822222da7353d7790713fefc0e5a42",
+      "bytes": 27897,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/737-ng-set-common.xml"
+    },
+    {
+      "path": "738-set.xml",
+      "scope": "aircraft",
+      "sha256": "fab6898a21b9aeed949e2795152ef79d604f9f35f90c83fb44852aa26056b861",
+      "bytes": 8942,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/738-set.xml"
+    },
+    {
+      "path": "738.xml",
+      "scope": "aircraft",
+      "sha256": "8d7ab0f7f4c4e0a5e37c7b03bfb89e98d09acd8bfd065ae1a83963858d0d488a",
+      "bytes": 84855,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/738.xml"
+    },
+    {
+      "path": "LICENSE",
+      "scope": "aircraft",
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad",
+      "bytes": 18047,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE"
+    },
+    {
+      "path": "Models/737-800.ac",
+      "scope": "aircraft",
+      "sha256": "41c4d99099a607866504ca0af33d926e32ecbd5b2b9346b039e5ba9c8f338c81",
+      "bytes": 700543,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/737-800.ac"
+    },
+    {
+      "path": "Models/737-800.png",
+      "scope": "aircraft",
+      "sha256": "0e8e285ad0b98c499d15aff82e1f6537f30312af2ea7612960cd845e537d239a",
+      "bytes": 221672,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/737-800.png"
+    },
+    {
+      "path": "Models/737-model-common.xml",
+      "scope": "aircraft",
+      "sha256": "e68b661b5b464b0d4ba6a9e4d52f078096fb4d707e6bbeb54f8e21349429054f",
+      "bytes": 5638,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/737-model-common.xml"
+    },
+    {
+      "path": "Models/737-panel.png",
+      "scope": "aircraft",
+      "sha256": "297b0cd4574b80aa03986cc4521bfb0cb3ff88901dd010cbcd21acb0dd67ef2f",
+      "bytes": 460751,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/737-panel.png"
+    },
+    {
+      "path": "Models/738.xml",
+      "scope": "aircraft",
+      "sha256": "ab90fe80b24e297ea3e6dee7f2d321c67346e9bef044a3ddf549aeb3135dc61b",
+      "bytes": 2041,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/738.xml"
+    },
+    {
+      "path": "Models/cent-panel.png",
+      "scope": "aircraft",
+      "sha256": "eb5fcf6f12e973a55cda007fb99141dad7ae08e3334208c25355dea4ce06c288",
+      "bytes": 293894,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/cent-panel.png"
+    },
+    {
+      "path": "Models/cockpit.ac",
+      "scope": "aircraft",
+      "sha256": "014d41df04373bd0c5d6097cd95d29afc4c9e054df8c63eb61aab380618655cd",
+      "bytes": 575146,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/cockpit.ac"
+    },
+    {
+      "path": "Models/cockpit.xml",
+      "scope": "aircraft",
+      "sha256": "cfc1c0900dcd2defe640edbea5f3d88a17ba680ef1c6101182726d804fe5d6d2",
+      "bytes": 43994,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/cockpit.xml"
+    },
+    {
+      "path": "Models/digits2.png",
+      "scope": "aircraft",
+      "sha256": "23bcbc1f3ae8eed492a7b234dfefd180678c32b7a70d1d3bd6e52ca3ca0b3532",
+      "bytes": 5921,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/digits2.png"
+    },
+    {
+      "path": "Models/du-panel.png",
+      "scope": "aircraft",
+      "sha256": "4760b9d7e47a9a916192f33dac3cc556a56109e2f6250edb8d86ccf34fbf7413",
+      "bytes": 56446,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/du-panel.png"
+    },
+    {
+      "path": "Models/Effects/smoke.png",
+      "scope": "aircraft",
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "bytes": 6482,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Effects/smoke.png"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-left.xml",
+      "scope": "aircraft",
+      "sha256": "c5d9c4746f7a7aae369aa9579f76fc5e586b780fd387370981c68cc176fd5156",
+      "bytes": 2052,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Effects/tyre-smoke-left.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-nose.xml",
+      "scope": "aircraft",
+      "sha256": "35bbb17ffe643334016c66d6329b4ca196856a50079f0add399b81c3f26aa0bc",
+      "bytes": 2045,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Effects/tyre-smoke-nose.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-right.xml",
+      "scope": "aircraft",
+      "sha256": "cdc222dd68e845b9c2935e37f05a903fd2198840c733efdc10e790deea728dda",
+      "bytes": 2044,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Effects/tyre-smoke-right.xml"
+    },
+    {
+      "path": "Models/flightdesk.ac",
+      "scope": "aircraft",
+      "sha256": "76c2da3b6c1ae5a5dfb4b05a41e0b587f22d0846bcde1e8057ca93e6d6093121",
+      "bytes": 388138,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/flightdesk.ac"
+    },
+    {
+      "path": "Models/flightdesk.xml",
+      "scope": "aircraft",
+      "sha256": "03e9b54b398fc240ccb03c021a49983a773af34ae4c501909460bbda63297887",
+      "bytes": 5620,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/flightdesk.xml"
+    },
+    {
+      "path": "Models/HorzStab.ac",
+      "scope": "aircraft",
+      "sha256": "c9102107c5f43e189101ac568ee2d05e1d852d52f7fe190a5e2b1dcd547c9bbc",
+      "bytes": 15715,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/HorzStab.ac"
+    },
+    {
+      "path": "Models/HorzStab.xml",
+      "scope": "aircraft",
+      "sha256": "761dc582a863008b8304f2e129b21acb268644f6e8091b1339cc53d31cd1c46e",
+      "bytes": 2563,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/HorzStab.xml"
+    },
+    {
+      "path": "Models/Instruments/autopilot-panel.ac",
+      "scope": "aircraft",
+      "sha256": "c2e64f67f6230b7383d3b8e3bf525bf126753072a3e3fbd828ce64291fe0cb8a",
+      "bytes": 277585,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/autopilot-panel.ac"
+    },
+    {
+      "path": "Models/Instruments/autopilot-panel.xml",
+      "scope": "aircraft",
+      "sha256": "379aa315d56d294930ee52f6374d9c4ad613de84ef0451c7b01102187fbfd1dc",
+      "bytes": 36672,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/autopilot-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/autopilot-pnl-lettering.png",
+      "scope": "aircraft",
+      "sha256": "d745c32dba33031c0052ede320eeec8aadfd9c1e67adfbaed52ffdd6fe0f7365",
+      "bytes": 26888,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/autopilot-pnl-lettering.png"
+    },
+    {
+      "path": "Models/Instruments/autopilot-pnl.png",
+      "scope": "aircraft",
+      "sha256": "8e0af8b9c5a7d93b2ef1f5b13a9ca97bfcd0e79076651a46e45adb6ecc5c694a",
+      "bytes": 129234,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/autopilot-pnl.png"
+    },
+    {
+      "path": "Models/Instruments/CDU/cdu.ac",
+      "scope": "aircraft",
+      "sha256": "bc9a2a38f09fb945e1ab2db4e334c8041fc76717ff3b90af992d732d09ac38a7",
+      "bytes": 145231,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CDU/cdu.ac"
+    },
+    {
+      "path": "Models/Instruments/CDU/cdu.png",
+      "scope": "aircraft",
+      "sha256": "6e13bb78dcd08a1a7486b1f9c1684be9352e5ee61a23545a1eaa138f471c8ecd",
+      "bytes": 84749,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CDU/cdu.png"
+    },
+    {
+      "path": "Models/Instruments/CDU/cdu.xml",
+      "scope": "aircraft",
+      "sha256": "c2d864446187ed9771fc5ce4a78d53b9497080bb5f9dc516a45c13354ac4d424",
+      "bytes": 85,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CDU/cdu.xml"
+    },
+    {
+      "path": "Models/Instruments/CLOCK/chronometer.xml",
+      "scope": "aircraft",
+      "sha256": "92b1ab7e65d84ccba6b2c312587aea81822ae2a5cc91dedda0709d473fe0d812",
+      "bytes": 2807,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CLOCK/chronometer.xml"
+    },
+    {
+      "path": "Models/Instruments/CLOCK/clock.ac",
+      "scope": "aircraft",
+      "sha256": "3e4642c62d1b4dbd7bc6970b832d49c8235bd2553a2d16f9a0a7dc17f0a4a1c0",
+      "bytes": 38291,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CLOCK/clock.ac"
+    },
+    {
+      "path": "Models/Instruments/CLOCK/clock.png",
+      "scope": "aircraft",
+      "sha256": "59dbe1e5199e6802ca50659b3a96c72eb0b4788ec38382f9f05d0931fff60d99",
+      "bytes": 28390,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/CLOCK/clock.png"
+    },
+    {
+      "path": "Models/Instruments/digits2.png",
+      "scope": "aircraft",
+      "sha256": "4622dd89275287b842247062addfa9a3a3aeba62a94d7d658e03f49edfe73de3",
+      "bytes": 5571,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/digits2.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/airport-display.xml",
+      "scope": "aircraft",
+      "sha256": "9d1f224caa90f6c40c9c5c54785bf4a75e9d52cb7c20432e67f5d867a71df59b",
+      "bytes": 553,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/airport-display.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/chart.xml",
+      "scope": "aircraft",
+      "sha256": "fcefb576e8950f109e1bf28701c8ed7c1f233da13c4e07240a645671efa555fc",
+      "bytes": 1070,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/chart.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/charttext.xml",
+      "scope": "aircraft",
+      "sha256": "43ecc7f2c35bc5f625d456f62c2515a9318aed98c5dbb2739c63b65a8dd071d5",
+      "bytes": 2851,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/charttext.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.ac",
+      "scope": "aircraft",
+      "sha256": "0b40bac93e2d126ab8d6a7bd1a06a3b5376e18674c876a36bfa150f0c793d6c4",
+      "bytes": 40272,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/EFB.ac"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.png",
+      "scope": "aircraft",
+      "sha256": "9c1fb00f8ccbbd2c491950bc7a5ce0a723442fcb920c54b328d6f2a277ab8efb",
+      "bytes": 26202,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/EFB.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.xml",
+      "scope": "aircraft",
+      "sha256": "0e8bebc3e84ad8f0128fe9f338c1a93429bdb5e7b5e1d349444e1a11749be4a4",
+      "bytes": 1554,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/EFB.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/transparent.png",
+      "scope": "aircraft",
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "bytes": 154,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFB/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/efis-control-panel-left.xml",
+      "scope": "aircraft",
+      "sha256": "f41a9f4d551d76086792c4f6a4b89ed11acec1daaab1fec0fbf66c4e9021dee8",
+      "bytes": 11750,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/efis-control-panel-left.xml"
+    },
+    {
+      "path": "Models/Instruments/efis-control-panel-right.xml",
+      "scope": "aircraft",
+      "sha256": "606a316f079f96c2ead7e7f71e3a35ec3169d04ba97b47fc1d3e5220bc549c56",
+      "bytes": 11784,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/efis-control-panel-right.xml"
+    },
+    {
+      "path": "Models/Instruments/efis-control-panel.ac",
+      "scope": "aircraft",
+      "sha256": "c1bbf93e58728ffbe079d922f65ad72138de05c2b1262d3173e40f365ce93b73",
+      "bytes": 357782,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/efis-control-panel.ac"
+    },
+    {
+      "path": "Models/Instruments/EFIS-lettering.png",
+      "scope": "aircraft",
+      "sha256": "688399a96c9bc64d11dd5c5515db8414e8c1325db46807f7e0b91788edc60384",
+      "bytes": 57874,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFIS-lettering.png"
+    },
+    {
+      "path": "Models/Instruments/EFIS.png",
+      "scope": "aircraft",
+      "sha256": "e0d6a33ac14b1d5ce44ed558b9e7a8480b42a0c341c0b31c123c2685945853d9",
+      "bytes": 258775,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EFIS.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/efis-frame.png",
+      "scope": "aircraft",
+      "sha256": "3ae028097163f5cf76543b8ad7267e977ad29073716831a78457bcaef6ef771b",
+      "bytes": 6321,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/EFIS.ac",
+      "scope": "aircraft",
+      "sha256": "9d28c1b7c099edaaa836ce6db97227080106de044c84982137df06a39e211368",
+      "bytes": 10462,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/EFIS.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.xml",
+      "scope": "aircraft",
+      "sha256": "f3567f7e9b5bcce5768c583031ef23042e043071525e0a2e23084940e447cf20",
+      "bytes": 325,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/eicas.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/screen-test.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/screen-test.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/upperEICAS.nas",
+      "scope": "aircraft",
+      "sha256": "dea8ec655a05bbf71d83d1597230653b05369a55ed70f56f65b8a053ab4e4bef",
+      "bytes": 6675,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/upperEICAS.nas"
+    },
+    {
+      "path": "Models/Instruments/EICAS/upperEICAS.svg",
+      "scope": "aircraft",
+      "sha256": "ff281271e29ab80bf97f6015cd162e181c84e9e450fa8f7426a9ec605f5b13e6",
+      "bytes": 178329,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/EICAS/upperEICAS.svg"
+    },
+    {
+      "path": "Models/Instruments/ND/efis-frame.png",
+      "scope": "aircraft",
+      "sha256": "3ae028097163f5cf76543b8ad7267e977ad29073716831a78457bcaef6ef771b",
+      "bytes": 6321,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/ND/nd_l.ac",
+      "scope": "aircraft",
+      "sha256": "c7fdc89a1fb695a90fb033ca7c68471b21d9fcaf77c3a260539889acf79aee44",
+      "bytes": 10455,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/nd_l.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/nd_l.xml",
+      "scope": "aircraft",
+      "sha256": "909da982bf3514e2a323cecb9a2423bae06fc6220c947e7a2765781fb551631a",
+      "bytes": 322,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/nd_l.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/nd_r.ac",
+      "scope": "aircraft",
+      "sha256": "348eda37024b16633ec13e792df6a8492e329d24b67818bccf9ae043eb7f3523",
+      "bytes": 10455,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/nd_r.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/nd_r.xml",
+      "scope": "aircraft",
+      "sha256": "50b066cc1cec2c18505e598dfb190e34b64114a40d78e036e1a0904239c866e2",
+      "bytes": 326,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/nd_r.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/screen-test.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/ND/screen-test.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/efis-frame.png",
+      "scope": "aircraft",
+      "sha256": "3ae028097163f5cf76543b8ad7267e977ad29073716831a78457bcaef6ef771b",
+      "bytes": 6321,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/EFIS.ac",
+      "scope": "aircraft",
+      "sha256": "b89576181386c1d310445b6eee3b108627f56305fabd9b3565043127f2bddcb0",
+      "bytes": 10455,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/EFIS.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.nas",
+      "scope": "aircraft",
+      "sha256": "617f29ac04b0e2874651e75fde0aff657e5c8f81fa6a0e67b9b0b1a2485cfcec",
+      "bytes": 39594,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/PFD.nas"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.svg",
+      "scope": "aircraft",
+      "sha256": "a42f94785bda42a778bdfb0b79f51d529374468a40b8874753739e6cdf6020a5",
+      "bytes": 446096,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/PFD.svg"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.xml",
+      "scope": "aircraft",
+      "sha256": "e4f7809ae6dfbb36c440a20459bf616519ead5b980831c4cfa71114ec0e69f1e",
+      "bytes": 311,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/screen-test.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/PFD/screen-test.png"
+    },
+    {
+      "path": "Models/Instruments/pfd2.png",
+      "scope": "aircraft",
+      "sha256": "ad8746b35ddf1782b581d3e9f18044f6655341535bb06b270d315aa4f6fe9515",
+      "bytes": 42552,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/pfd2.png"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/altasi.png",
+      "scope": "aircraft",
+      "sha256": "e6d8ac9cdb7b293773f55a7c21c32c15bc7a65d5d3d89d261fcd236e59c4ffa8",
+      "bytes": 45141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/altasi.png"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/ati.png",
+      "scope": "aircraft",
+      "sha256": "bed18a776038fddb2b6a3d664051440cdea48cb37b1bc0fea8ee25ae13227aed",
+      "bytes": 53308,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/ati.png"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/att-ball.ac",
+      "scope": "aircraft",
+      "sha256": "f60ed2fef119f693436beed827f4f4cbec0b78c9478ebbd34d510c85729cb88f",
+      "bytes": 46096,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/att-ball.ac"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/att-ball.xml",
+      "scope": "aircraft",
+      "sha256": "0bb1bfda005000a874c31f5f2bad5eb668e62e81e44105a4b7cd1a6b840f1845",
+      "bytes": 1037,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/att-ball.xml"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/standby-asi.ac",
+      "scope": "aircraft",
+      "sha256": "70016a2f125d9cbbf8d71f4f938cf5513eec64c6e188e05a73a9b15b5dec9759",
+      "bytes": 41310,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/standby-asi.ac"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/standby-asi.xml",
+      "scope": "aircraft",
+      "sha256": "6c59c70220d0df7c51e4b012d0c3f9fae763a9bbf0cb102ff5a119f60c07b1c3",
+      "bytes": 5840,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/standby-asi.xml"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/vor.ac",
+      "scope": "aircraft",
+      "sha256": "53d31e394fb89c31055f972b11a95f52d2c864436c203b3e8a9a0b65cfc2d8f3",
+      "bytes": 28842,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/vor.ac"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/vor.png",
+      "scope": "aircraft",
+      "sha256": "15de71cce6dde74d17bb01da4363857efa359953e3881cac80561874cb162b7c",
+      "bytes": 140422,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/vor.png"
+    },
+    {
+      "path": "Models/Instruments/STANDBY/vor.xml",
+      "scope": "aircraft",
+      "sha256": "2d095ba9fcbe0391e838523e6c8d0ac6babe09afdb0614a4a32f009b1924cf91",
+      "bytes": 3517,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Instruments/STANDBY/vor.xml"
+    },
+    {
+      "path": "Models/landinglight.ac",
+      "scope": "aircraft",
+      "sha256": "62115caa340ff7ecf9174aa23952f864b93171d309218b64aff786b9703e2ce9",
+      "bytes": 30409,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/landinglight.ac"
+    },
+    {
+      "path": "Models/landinglight.png",
+      "scope": "aircraft",
+      "sha256": "952dc1e17e8511d6bdd0c8ed23a2b1bb38b382046810ef79ce89c2f675656d8d",
+      "bytes": 852219,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/landinglight.png"
+    },
+    {
+      "path": "Models/lights.png",
+      "scope": "aircraft",
+      "sha256": "044cec9a4df3faac10fcd64e1874fb74305f1032c65dfdf93d610ed68e1be3d7",
+      "bytes": 214409,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights.png"
+    },
+    {
+      "path": "Models/lights/beacon.xml",
+      "scope": "aircraft",
+      "sha256": "f3f33fc99cf210f2789093a34b90699a88c61490a3f8c2d67c4ca414f5bc2a0d",
+      "bytes": 874,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/beacon.xml"
+    },
+    {
+      "path": "Models/lights/flash.ac",
+      "scope": "aircraft",
+      "sha256": "0f312b121fd91abb83d54cd14a8573928b35978f0ddcd6952fba03d48e04fe22",
+      "bytes": 508,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/flash.ac"
+    },
+    {
+      "path": "Models/lights/flash.xml",
+      "scope": "aircraft",
+      "sha256": "38ca8f88272813f6850b2182cc2ec254189520b4c56ebe4128d5681e3ab279d6",
+      "bytes": 877,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/flash.xml"
+    },
+    {
+      "path": "Models/lights/GreenLight.ac",
+      "scope": "aircraft",
+      "sha256": "851f7f18de72652143f632939ae445e6745939db92cbd06a5b390b4282f03a81",
+      "bytes": 902,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/GreenLight.ac"
+    },
+    {
+      "path": "Models/lights/GreenLight.xml",
+      "scope": "aircraft",
+      "sha256": "69f620b1e015f15c3f6b7017ad8f4679652f2469d7e33492e067799cec394696",
+      "bytes": 875,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/GreenLight.xml"
+    },
+    {
+      "path": "Models/lights/landinglight.xml",
+      "scope": "aircraft",
+      "sha256": "a0686c91bb56905ef4dc146ae4d3acbd5938317dd96fc1f84ccfed4b95ac2754",
+      "bytes": 1080,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/landinglight.xml"
+    },
+    {
+      "path": "Models/lights/lights.rgb",
+      "scope": "aircraft",
+      "sha256": "c4e1b20d7a1d8b478edca64bca9725cb9475bdc0a8058e4411b86c1d40171bf0",
+      "bytes": 82785,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/lights.rgb"
+    },
+    {
+      "path": "Models/lights/RedLight.ac",
+      "scope": "aircraft",
+      "sha256": "06e9fe0250a2d6998db14e5cb9e327f3fece356de414601533f936bd3249bb02",
+      "bytes": 903,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/RedLight.ac"
+    },
+    {
+      "path": "Models/lights/RedLight.xml",
+      "scope": "aircraft",
+      "sha256": "95d35047a286dec459c4c15e3d3a718ff32c6fb86785848efe54b46b4a971be4",
+      "bytes": 873,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/RedLight.xml"
+    },
+    {
+      "path": "Models/lights/WhiteLight.ac",
+      "scope": "aircraft",
+      "sha256": "17968dccde78e7fe322c27a09af40fe771ec3b9a41aea0de9460226b17070466",
+      "bytes": 888,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/lights/WhiteLight.ac"
+    },
+    {
+      "path": "Models/LWing.ac",
+      "scope": "aircraft",
+      "sha256": "452e8c5d43f38780fec10b6f520287ff0ed5a1e452b143c14404c1466fd3de35",
+      "bytes": 386296,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/LWing.ac"
+    },
+    {
+      "path": "Models/LWing.xml",
+      "scope": "aircraft",
+      "sha256": "5d619d8fe50ec60468914ba6be85d2fe4a57ae0d8eadfd338d5011c956d7fff2",
+      "bytes": 14508,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/LWing.xml"
+    },
+    {
+      "path": "Models/nosegear.ac",
+      "scope": "aircraft",
+      "sha256": "f33bbeb01770070b1309dd49c79a9cf53e092aa5c32aa2b4297e6710449faca4",
+      "bytes": 171454,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/nosegear.ac"
+    },
+    {
+      "path": "Models/NoseGear.xml",
+      "scope": "aircraft",
+      "sha256": "bff932b584230e641b76e05ea8bc3a76a07cb8c0fb93a70a8d834e8b67ee387c",
+      "bytes": 4163,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/NoseGear.xml"
+    },
+    {
+      "path": "Models/oh-panel.ac",
+      "scope": "aircraft",
+      "sha256": "0e5094e9c42abdd48a5afc16c4c0701ebd452869172c9be236c5c0da9908fb05",
+      "bytes": 394290,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/oh-panel.ac"
+    },
+    {
+      "path": "Models/OH-PANEL.png",
+      "scope": "aircraft",
+      "sha256": "de02a3593076bebbc2e75799f17c50a2a1dfe02214e3da7ac52d06566dc809ec",
+      "bytes": 687153,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/OH-PANEL.png"
+    },
+    {
+      "path": "Models/pedals.ac",
+      "scope": "aircraft",
+      "sha256": "0e5f21e0069aef0ab8f2abcdba938251c92feda228ed43490d174659dca17855",
+      "bytes": 39277,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/pedals.ac"
+    },
+    {
+      "path": "Models/pedals.xml",
+      "scope": "aircraft",
+      "sha256": "c8c22ff98bf138a91dd6217ab8d6a18ecf929969a1f08239a07a0f0fd706a72a",
+      "bytes": 663,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/pedals.xml"
+    },
+    {
+      "path": "Models/pedestal.ac",
+      "scope": "aircraft",
+      "sha256": "ae9ab9344f71573370e409535922ceb22bf9d3ea13858dfdbc314d249c7ed0ce",
+      "bytes": 1104265,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/pedestal.ac"
+    },
+    {
+      "path": "Models/pedestal.xml",
+      "scope": "aircraft",
+      "sha256": "1ddbc42fc94e6ea09a721d659863ab516dae7c75fc7f45bf7ccf8b94737402ad",
+      "bytes": 1287,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/pedestal.xml"
+    },
+    {
+      "path": "Models/RWing.ac",
+      "scope": "aircraft",
+      "sha256": "17a43824710b0d4f46ad361124b9aa01cbae728ad96f826966af300a14292435",
+      "bytes": 394135,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/RWing.ac"
+    },
+    {
+      "path": "Models/RWing.xml",
+      "scope": "aircraft",
+      "sha256": "3fce9e1cc2711e441ad21953efc31326747914ad1dd0a033b857efb965584228",
+      "bytes": 14532,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/RWing.xml"
+    },
+    {
+      "path": "Models/VertStab.ac",
+      "scope": "aircraft",
+      "sha256": "ff51151c4df9c48a3482c5b2fa47c3ca6905a7bc34ecfd9e600dccbcbbaa758b",
+      "bytes": 24816,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/VertStab.ac"
+    },
+    {
+      "path": "Models/VertStab.xml",
+      "scope": "aircraft",
+      "sha256": "5198d361a7ff24b6176d3357c7b0728d6fb268b86e8a45fc2fd78b1b18f96733",
+      "bytes": 484,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/VertStab.xml"
+    },
+    {
+      "path": "Models/winglet.ac",
+      "scope": "aircraft",
+      "sha256": "0804f42dbd096068b138bcbb348bca52296a29036f38e67710b1f9b2096e0e12",
+      "bytes": 626016,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/winglet.ac"
+    },
+    {
+      "path": "Models/winglet.xml",
+      "scope": "aircraft",
+      "sha256": "17abe7503bdef6f3c712bec583b70103e0668e649b9043333ec287189f9ca14b",
+      "bytes": 87,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/winglet.xml"
+    },
+    {
+      "path": "README.md",
+      "scope": "aircraft",
+      "sha256": "02707c8f8b2e08f33aac696f1a37d496c4c2bdf060e8d004afda8904b1e5d46d",
+      "bytes": 40,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/README.md"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu2/boeing-brown.png",
+      "scope": "fgdata",
+      "sha256": "7efea00f614e009f57e63c2ac62eacf57aeee7133fa7ec06af862083005b3f7c",
+      "bytes": 91301,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu2/boeing-brown.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu2/boeing-grey.png",
+      "scope": "fgdata",
+      "sha256": "1282635be3a33a61559352a98dee5c4e207175b67c06603743a32486f32ce80e",
+      "bytes": 73629,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu2/boeing-grey.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu2/boeing.ac",
+      "scope": "fgdata",
+      "sha256": "7dfad31d7043d3db4edf9a0e794998e6ce0043e73274d460b2a6f2c48ed35b39",
+      "bytes": 147302,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu2/boeing.ac"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu2/boeing.nas",
+      "scope": "fgdata",
+      "sha256": "415cef62e1bdbc70ce57d6774b1ee9e7a242811c00353279c5cc39c6a202fba1",
+      "bytes": 38603,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu2/boeing.nas"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu2/boeing.xml",
+      "scope": "fgdata",
+      "sha256": "648ba9aa8c89c0d51777403fdbc9c54c6756f2f444c6ea485e1adf7992dc910c",
+      "bytes": 23717,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu2/boeing.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/737-800",
+    "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+    "entry": "Models/cockpit.xml",
+    "sourceDirectory": "b738",
+    "viewpoint": {
+      "source": "738-set.xml",
+      "position": [
+        -0.51,
+        1.28,
+        -17.18
+      ],
+      "pitchDeg": -8,
+      "fovDeg": 75,
+      "fovNote": "Viewer field of view; the upstream captain view omits an explicit FOV."
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 75,
+      "lookPitch": -0.13962634015954636
+    },
+    "parentTransformChain": [],
+    "entryTransform": {
+      "source": "Models/cockpit.xml#offsets",
+      "transform": {
+        "x-m": -18.31
+      },
+      "note": "Applied once by the XML entry. The aircraft wrapper repeats the same positioning role and is not stacked again."
+    }
+  }
+}

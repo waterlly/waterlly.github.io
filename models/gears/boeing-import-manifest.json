@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "b748",
+      "modelPath": "/models/gears/b748.glb",
+      "repository": "https://github.com/JMaverick16/747-8",
+      "commit": "0ed6056990828084bd51770e3ad73d0b61a1ad61",
+      "license": "GPL-2.0",
+      "attribution": "FlightGear 747-8 Intercontinental by John Williams, Grupo FGBr and JMaverick16; source cockpit developed from Gijs de Rooy and credited 747-400 contributors.",
+      "sourceFamily": "b748",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/747-8i_gear.ac",
+          "url": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_gear.ac",
+          "sha256": "9570957cc62f0ac31a15cf2a8f716b358e20a933f085190c64edef0db08944e3",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b748-COPYING.txt",
+      "sha256": "38272f83ec75924b9c23f88af6ef9f30d0444e5d9f949133caaee2df2d9c1acc",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b748.glb",
+      "bytes": 972844,
+      "triangles": 9112,
+      "nodes": 62,
+      "meshes": 50,
+      "images": 3,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 50,
+      "drawGroups": 50,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/747-8i_gear.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b707",
+      "modelPath": "/models/gears/b707.glb",
+      "repository": "https://github.com/FGMEMBERS/707",
+      "commit": "c4ca312c8664ebc7554af1e254c5127bc7130591",
+      "license": "GPL-3.0-or-later",
+      "attribution": "FlightGear Boeing 707 by Marc Kraus, Lake of Constance Hangar, originally by Innis Cunningham; authors and specific cockpit GPL3-or-later notice retained.",
+      "sourceFamily": "b707",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/707.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/707/c4ca312c8664ebc7554af1e254c5127bc7130591/Models/707.ac",
+          "sha256": "8045d22a2cc9dbaa732f8e2ce32a9676d3a86aa7d780c3fd5d9685669c13d10d",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b707-COPYING.txt",
+      "sha256": "3758e96b9fed42ecd6d3c8e5dafb138bf9a3391b59186dc8318eb35c86b69ddb",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b707.glb",
+      "bytes": 1699328,
+      "triangles": 10225,
+      "nodes": 25,
+      "meshes": 17,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 17,
+      "drawGroups": 17,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/boeing-local-2026-10-22/b707-gear.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b707/Models/707.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b707/Models/wheels.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b738",
+      "modelPath": "/models/gears/b738.glb",
+      "repository": "https://github.com/FGMEMBERS/737-800",
+      "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+      "license": "GPL-2.0",
+      "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml.",
+      "sourceFamily": "b738",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/nosegear.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/nosegear.ac",
+          "sha256": "f33bbeb01770070b1309dd49c79a9cf53e092aa5c32aa2b4297e6710449faca4",
+          "onlineVerified": true
+        },
+        {
+          "path": "Models/LWing.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/LWing.ac",
+          "sha256": "452e8c5d43f38780fec10b6f520287ff0ed5a1e452b143c14404c1466fd3de35",
+          "onlineVerified": true
+        },
+        {
+          "path": "Models/RWing.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/RWing.ac",
+          "sha256": "17a43824710b0d4f46ad361124b9aa01cbae728ad96f826966af300a14292435",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b738-COPYING.txt",
+      "sha256": "c93d9ab790132c6242c1051728bfc58a34edd43861c7fba8618fe06c875b1d1a",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b738.glb",
+      "bytes": 979540,
+      "triangles": 9852,
+      "nodes": 55,
+      "meshes": 36,
+      "images": 0,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 36,
+      "drawGroups": 36,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/boeing-local-2026-10-22/b738-gear.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/nosegear.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/LWing.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/RWing.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b739",
+      "modelPath": "/models/gears/b739.glb",
+      "repository": "https://github.com/FGMEMBERS/737-800",
+      "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+      "license": "GPL-2.0",
+      "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml.",
+      "sourceFamily": "b738",
+      "sharedFamily": "b738",
+      "sourceFiles": [
+        {
+          "path": "Models/nosegear.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/nosegear.ac",
+          "sha256": "f33bbeb01770070b1309dd49c79a9cf53e092aa5c32aa2b4297e6710449faca4",
+          "onlineVerified": true
+        },
+        {
+          "path": "Models/LWing.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/LWing.ac",
+          "sha256": "452e8c5d43f38780fec10b6f520287ff0ed5a1e452b143c14404c1466fd3de35",
+          "onlineVerified": true
+        },
+        {
+          "path": "Models/RWing.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/RWing.ac",
+          "sha256": "17a43824710b0d4f46ad361124b9aa01cbae728ad96f826966af300a14292435",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b739-COPYING.txt",
+      "sha256": "7238f27700c3cd1855fddd69651468bc55eafe9740e324f07fed897b1fb4dc1d",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b739.glb",
+      "bytes": 979540,
+      "triangles": 9852,
+      "nodes": 55,
+      "meshes": 36,
+      "images": 0,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 36,
+      "drawGroups": 36,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/boeing-local-2026-10-22/b739-gear.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/nosegear.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/LWing.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b738/Models/RWing.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b757",
+      "modelPath": "/models/gears/b757.glb",
+      "repository": "https://github.com/FGMEMBERS/757-200",
+      "commit": "873a9a12ec1a2451ece37dff3bc1fbc888615042",
+      "license": "GPL-2.0",
+      "attribution": "Original model by Liam Gathercole, Skyop, Isais Prestes; exterior and cockpit models reworked by Juuso Tapaninen; John Williams and other contributors listed in AUTHORS.",
+      "sourceFamily": "b757",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/757-200.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/757-200.ac",
+          "sha256": "5a93e64c3a2e2b027f3fa9aaaf77d688cf43f946acc15fde1307a43c283a4ca6",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b757-COPYING.txt",
+      "sha256": "0498ecb27189000e9176263b7e9241edda347852ae1ed04db93754930b326ed4",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b757.glb",
+      "bytes": 5542900,
+      "triangles": 54414,
+      "nodes": 38,
+      "meshes": 26,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 26,
+      "drawGroups": 26,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/757-200.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b773",
+      "modelPath": "/models/gears/b773.glb",
+      "repository": "https://github.com/FGMEMBERS/777-300",
+      "commit": "5830a22e40595be91f9f0e64e84651a3f8014a13",
+      "license": "GPL-2.0",
+      "attribution": "FlightGear Boeing 777-300: Syd Adams, Justin Smithies, Karla, Wojciech Kaczmarski, Leszek Tejwan and credited 777-300 contributors.",
+      "sourceFamily": "b773",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/777-300ER.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300ER.ac",
+          "sha256": "44e524cc826e8d1416c89addcf89e2f8fc904bcc30c59aeae5b92434533b7f75",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b773-COPYING.txt",
+      "sha256": "c2f64bd7a323c0ee9b0b72517f687fd1ea5d5eff08284f6e04abf745aeca959b",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b773.glb",
+      "bytes": 1372660,
+      "triangles": 10276,
+      "nodes": 64,
+      "meshes": 36,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 36,
+      "drawGroups": 41,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b773/Models/777-300ER.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b787",
+      "modelPath": "/models/gears/b787.glb",
+      "repository": "https://github.com/FGMEMBERS/787-8",
+      "commit": "b79677d148bc7f573c55accb3cb96450b89156a2",
+      "license": "GPL-2.0",
+      "attribution": "Omega95 (cockpit, instruments and systems) and 787-8 contributors listed in Authors.txt.",
+      "sourceFamily": "b787",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/787-8.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/787-8.ac",
+          "sha256": "1a6a038f1c9616c7415546f59e555adc19a5cec239a0533634af480ff344b084",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b787-COPYING.txt",
+      "sha256": "99cd53467534187b1e8bbf089e0834975238ca4ec24fb5aef2fdbb498d38650c",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b787.glb",
+      "bytes": 1516108,
+      "triangles": 13389,
+      "nodes": 27,
+      "meshes": 21,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 21,
+      "drawGroups": 21,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/787-8.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b789",
+      "modelPath": "/models/gears/b789.glb",
+      "repository": "https://github.com/FGMEMBERS/787-8",
+      "commit": "b79677d148bc7f573c55accb3cb96450b89156a2",
+      "license": "GPL-2.0",
+      "attribution": "Omega95 (cockpit, instruments and systems) and 787-8 contributors listed in Authors.txt.",
+      "sourceFamily": "b787",
+      "sharedFamily": "b787",
+      "sourceFiles": [
+        {
+          "path": "Models/787-8.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/787-8.ac",
+          "sha256": "1a6a038f1c9616c7415546f59e555adc19a5cec239a0533634af480ff344b084",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b789-COPYING.txt",
+      "sha256": "99cd53467534187b1e8bbf089e0834975238ca4ec24fb5aef2fdbb498d38650c",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b789.glb",
+      "bytes": 1516108,
+      "triangles": 13389,
+      "nodes": 27,
+      "meshes": 21,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 21,
+      "drawGroups": 21,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/787-8.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "b38m",
+      "modelPath": "/models/gears/b38m.glb",
+      "repository": "https://github.com/REXO-77/737-MAX",
+      "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+      "license": "GPL-2.0",
+      "attribution": "REXO-77 737-MAX project: original model by omri_ha_muglob; SP-NTX, Captain Jake and Semir Gebran (3D modelling), Israel Emmanuel, Marsdolphin and other contributors listed in README.md.",
+      "sourceFamily": "b38m",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/737-8.ac",
+          "url": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/737-8.ac",
+          "sha256": "8fd009e891aa677c33ce5ac73f0df648beb9c3cca8056f592f4f5b18d2fe5b37",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/b38m-COPYING.txt",
+      "sha256": "384bfd7db459551c169ce2b7f810f92835657b812d812840a5ad6261c4cf3489",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/b38m.glb",
+      "bytes": 1587772,
+      "triangles": 15404,
+      "nodes": 30,
+      "meshes": 28,
+      "images": 2,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 28,
+      "drawGroups": 32,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b38m/Models/737-8.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "md11",
+      "modelPath": "/models/gears/md11.glb",
+      "repository": "https://github.com/FGMEMBERS/MD-11",
+      "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+      "license": "GPL-2.0-or-later",
+      "attribution": "MD-11 interior and exterior 3D models by Juuso Tapaninen; instruments, animation and systems by John Williams, Josh Davidson, and other contributors listed in AUTHORS.",
+      "sourceFamily": "md11",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/MD-11.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11.ac",
+          "sha256": "7e36826be6947c96ec2b0b9f40f4b73a43d5f866b5a305071b7994694cbab5d4",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/md11-COPYING.txt",
+      "sha256": "88055125d1b441c5ded9fbacaef12955122d13a1b7f50bdcba45eb6f249c67cd",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/md11.glb",
+      "bytes": 4872340,
+      "triangles": 44644,
+      "nodes": 36,
+      "meshes": 31,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 31,
+      "drawGroups": 31,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/MD-11.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    },
+    {
+      "id": "an225",
+      "modelPath": "/models/gears/an225.glb",
+      "repository": "https://github.com/FGMEMBERS/AN-225-Mrija",
+      "commit": "0a6879d2c7777653d5dba1623531ce1f024e2ecd",
+      "license": "GPL-3.0-or-later",
+      "attribution": "FlightGear AN-225 Mrija: Herbert Wagner (HerbyW), Firefly, Eagel and original AN-225 contributors as credited in the panel source and aircraft readme.",
+      "sourceFamily": "an225",
+      "sharedFamily": null,
+      "sourceFiles": [
+        {
+          "path": "Models/AN225-48.ac",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/AN-225-Mrija/0a6879d2c7777653d5dba1623531ce1f024e2ecd/Models/AN225-48.ac",
+          "sha256": "cc9189be29af2c5f40dd9f62c2b45f3db33b9ff3bc914105c1dc22b7b303f7f9",
+          "onlineVerified": true
+        }
+      ],
+      "licensePath": "/models/gears/an225-COPYING.txt",
+      "sha256": "f01017e4541a82fae422f485a41cb2c54e859e649cc95adc31a8a4ac54f09af9",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/an225.glb",
+      "bytes": 2143532,
+      "triangles": 6400,
+      "nodes": 85,
+      "meshes": 80,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 80,
+      "drawGroups": 80,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/an225/Models/AN225-48.ac"
+      ],
+      "missing": [],
+      "warnings": []
+    }
+  ]
+}

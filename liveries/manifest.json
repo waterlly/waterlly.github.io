@@ -1,0 +1,3327 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-10-19",
+  "aircraft": {
+    "c182": {
+      "compatibility": {
+        "model": "/models/C182.glb",
+        "modelSha256": "36bb450032f16bb7f10b849807658efea409e09f190f7bfde5e2c0a0d2062290",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Default.png",
+        "defaultEmbeddedSha256": "a38b342609add7f6b5f69b9243300e426544b1231dfe5dba14f2030b8d448d35",
+        "defaultUpstreamSha256": "c847b6586f8d28f4c96955e40c6edddf1dff456f299e60e0421b10cca84f237e",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "defaultPixelIdentical": false,
+        "defaultMeanAbsoluteRGBAError": [
+          0.22454619407653809,
+          0.22485458850860596,
+          0.22499465942382812,
+          0
+        ],
+        "uvEvidence": "Same C182S 4096x2048 atlas; embedded default and upstream default differ by < 0.225/255 mean per RGB channel, preserving fuselage, wing, wheel and propeller UV islands.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "Blade",
+          "Fuselage"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "d-elfp",
+          "name": "D-ELFP",
+          "textures": [
+            {
+              "path": "/liveries/c182/d-elfp/D-ELFP.png",
+              "materials": [
+                "Blade",
+                "Fuselage"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/D-ELFP.png",
+              "sha256": "88138f42f93172b966dda799058ed97e1c0730227ea36a6d47df97e989306194",
+              "width": 4096,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "Default.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/C182/blob/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/D-ELFP.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/D-ELFP.xml",
+            "path": "/liveries/c182/d-elfp/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/C182",
+          "commit": "ef35ae89b422b4f78c0f6125035681b0eb41dd3c",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/C182/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/LICENSE",
+              "sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b"
+            },
+            {
+              "path": "/liveries/licenses/C182/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/AUTHORS",
+              "sha256": "0b9dcdb954dc266079ed53ac8cbe378ba2859cb75c544806a7e68077414a082a"
+            },
+            {
+              "path": "/liveries/licenses/C182/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/README.md",
+              "sha256": "07ba5aa205239c33cb4940c29dc3820176ab97752c5e67bf280a1387f8c81006"
+            }
+          ],
+          "attribution": "C182S team; texture credits include Heiko Schulz and Gilberto Agostinho. Per-livery author not separately identified in the livery XML; retained AUTHORS and README.md provide upstream credits.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/HHS81/c182-Textures"
+        },
+        {
+          "id": "n182pj",
+          "name": "N182PJ",
+          "textures": [
+            {
+              "path": "/liveries/c182/n182pj/N182PJ.png",
+              "materials": [
+                "Blade",
+                "Fuselage"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/N182PJ.png",
+              "sha256": "4926f6d8e681cceff46d07dc20a8e8a0fc3d646e01a9fd58bc6742a274aa7878",
+              "width": 4096,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "Default.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/C182/blob/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/N182PJ.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Liveries/N182PJ.xml",
+            "path": "/liveries/c182/n182pj/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/C182",
+          "commit": "ef35ae89b422b4f78c0f6125035681b0eb41dd3c",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/C182/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/LICENSE",
+              "sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b"
+            },
+            {
+              "path": "/liveries/licenses/C182/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/AUTHORS",
+              "sha256": "0b9dcdb954dc266079ed53ac8cbe378ba2859cb75c544806a7e68077414a082a"
+            },
+            {
+              "path": "/liveries/licenses/C182/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/README.md",
+              "sha256": "07ba5aa205239c33cb4940c29dc3820176ab97752c5e67bf280a1387f8c81006"
+            }
+          ],
+          "attribution": "C182S team; texture credits include Heiko Schulz and Gilberto Agostinho. Per-livery author not separately identified in the livery XML; retained AUTHORS and README.md provide upstream credits.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/HHS81/c182-Textures"
+        }
+      ]
+    },
+    "a320": {
+      "compatibility": {
+        "model": "/models/A320.glb",
+        "modelSha256": "e0972773364e17e7a94fe6823e82e7c2aef7d90c3b12e608e0e38dd057fdcbc7",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/A320-NWA.png",
+        "defaultEmbeddedSha256": "c0b9d1796670b82a177270b29d2f7de3bfe7e0b645d64cb0872e28b0adb9631a",
+        "defaultUpstreamSha256": "6acd8eb6769ecedc29c91f07b42cd1cc7309c79fa29a43638738c5a313ae196f",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "defaultPixelIdentical": false,
+        "defaultMeanAbsoluteRGBAError": [
+          45.606648445129395,
+          40.94279861450195,
+          41.22033500671387,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Same atlas islands verified by original/upstream texture comparison; only paint/registration differs.",
+        "imageIndices": [
+          0,
+          1,
+          2
+        ],
+        "materialNames": [
+          "DefaultWhite.004",
+          "DefaultWhite.006",
+          "DefaultWhite.007",
+          "DefaultWhite.009",
+          "DefaultWhite.011",
+          "DefaultWhite.012"
+        ],
+        "unchangedAtlasLandmark": {
+          "rect": [
+            448,
+            704,
+            576,
+            832
+          ],
+          "meanRgbError": 0.1789,
+          "description": "Textured, non-flat 128x128 landmark in both embedded default and pinned upstream default; same pixel coordinates and atlas orientation despite differing airline paint."
+        }
+      },
+      "liveries": [
+        {
+          "id": "british-airways",
+          "name": "British Airways",
+          "textures": [
+            {
+              "path": "/liveries/a320/british-airways/A320-BAW.png",
+              "materials": [
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011",
+                "DefaultWhite.012"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-BAW.png",
+              "sha256": "3f0a620e7d0e0ad4fd2193d8678deb4ec6f895851082ffc20a19633b2e5f61c0",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A320-NWA.png",
+                "A318-BAW.png",
+                "NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-BAW.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-211/BAW.xml",
+            "path": "/liveries/a320/british-airways/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors, including fredb, curt, mfranz, Ryan Miller, Durk Talsma, janodesbois, F-JJTH and James Turner; individual livery authors not identified by the selected XML files.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Paintkit/a320.paintkit.xcf"
+        },
+        {
+          "id": "air-france",
+          "name": "Air France",
+          "textures": [
+            {
+              "path": "/liveries/a320/air-france/A320-AFR.png",
+              "materials": [
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011",
+                "DefaultWhite.012"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-AFR.png",
+              "sha256": "1cb10de1f69472384a37dc5afb80a02bdc9d0058f1241acf3ab85f3ab3664950",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A320-NWA.png",
+                "A318-BAW.png",
+                "NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-AFR.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-211/AFR.xml",
+            "path": "/liveries/a320/air-france/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors, including fredb, curt, mfranz, Ryan Miller, Durk Talsma, janodesbois, F-JJTH and James Turner; individual livery authors not identified by the selected XML files.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Paintkit/a320.paintkit.xcf"
+        },
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa",
+          "textures": [
+            {
+              "path": "/liveries/a320/lufthansa/A320-DLH.png",
+              "materials": [
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011",
+                "DefaultWhite.012"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-DLH.png",
+              "sha256": "50f06c12584314e25122dd549654e06dbb06f9230b22fdafaa914a573f38a280",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A320-NWA.png",
+                "A318-BAW.png",
+                "NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-DLH.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors, including fredb, curt, mfranz, Ryan Miller, Durk Talsma, janodesbois, F-JJTH and James Turner; individual livery authors not identified by the selected XML files.",
+          "definition": {
+            "path": "/liveries/a320/lufthansa/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-211/DLH.xml"
+          },
+          "sourcePng": "Models/Liveries/A320-DLH.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        },
+        {
+          "id": "easyjet",
+          "name": "easyJet",
+          "textures": [
+            {
+              "path": "/liveries/a320/easyjet/A320-EZY.png",
+              "materials": [
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011",
+                "DefaultWhite.012"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-EZY.png",
+              "sha256": "a6cafb888263c7cea9cf75122347aadc775bb4e0fa30fb1529b774ccdd1da8c1",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A320-NWA.png",
+                "A318-BAW.png",
+                "NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-EZY.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors, including fredb, curt, mfranz, Ryan Miller, Durk Talsma, janodesbois, F-JJTH and James Turner; individual livery authors not identified by the selected XML files.",
+          "definition": {
+            "path": "/liveries/a320/easyjet/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A320-211/EZY.xml"
+          },
+          "sourcePng": "Models/Liveries/A320-EZY.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "a321": {
+      "compatibility": {
+        "model": "/models/A321.glb",
+        "modelSha256": "da8e85b9b11745a711fa1aa9c30f6971a3da1f22ad6fc9dec3688a14c380d3e6",
+        "projection": "runtime-livery-projection.mjs uv1 (channel 1)",
+        "materialNames": [
+          "a321-livery-projection"
+        ],
+        "sourceModel": "FlightGear A321",
+        "targetModel": "custom A321",
+        "uvEvidence": "Measured side projection onto existing body and vertical tail triangles. Native positions, normals and uv are unchanged; render-clone indices are stably partitioned by material, preserving the exact multiset of oriented triangles. Both sides read in their correct directions. Wings, engines and gear retain original materials.",
+        "limitations": [
+          "Non-native UV adaptation: panel, door and window locations are approximate."
+        ],
+        "atlasBodyRows": [
+          [
+            0.155,
+            0.237
+          ],
+          [
+            0.378,
+            0.461
+          ]
+        ],
+        "atlasTailBlocks": [
+          [
+            0.79,
+            0.004,
+            0.97,
+            0.155
+          ],
+          [
+            0.02,
+            0.227,
+            0.2,
+            0.378
+          ]
+        ]
+      },
+      "liveries": [
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa（适配）",
+          "textures": [
+            {
+              "path": "/liveries/a321/lufthansa.png",
+              "materials": [
+                "a321-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/LH.png",
+              "sha256": "310bd9ea86b045c5cfdcb4c6d4a5143b04e42236784f7e9746e12d3a57788f06",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/LH.png",
+          "license": "GPL-3.0",
+          "repository": "https://github.com/FGMEMBERS/A321",
+          "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+          "attribution": "FlightGear community aircraft repaint from FGMEMBERS/A321; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a321-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/License.txt",
+              "sha256": "46d1316cfd45dd703ecfaf5be8f998c29fc94185719d76b7fd439389cdcbd34f"
+            }
+          ]
+        },
+        {
+          "id": "air-canada",
+          "name": "Air Canada（适配）",
+          "textures": [
+            {
+              "path": "/liveries/a321/air-canada.png",
+              "materials": [
+                "a321-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/AC.png",
+              "sha256": "6cbfbcb099a1896bdce0187bb99d7dc1587bfbb2227953f6cbd8aaefe4aaa7ab",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/AC.png",
+          "license": "GPL-3.0",
+          "repository": "https://github.com/FGMEMBERS/A321",
+          "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+          "attribution": "FlightGear community aircraft repaint from FGMEMBERS/A321; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a321-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/License.txt",
+              "sha256": "46d1316cfd45dd703ecfaf5be8f998c29fc94185719d76b7fd439389cdcbd34f"
+            }
+          ]
+        }
+      ]
+    },
+    "a319": {
+      "compatibility": {
+        "model": "/models/A319.glb",
+        "modelSha256": "5a0c505ece53bd8e676091b1abcedc6c779e1e86636a4b5c367b76bcb3c9e29d",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/A319-NWA.png",
+        "defaultEmbeddedSha256": "0cb5c2845d6d4a354477da182b82c44e3d208fe0169dfb6c392e04a7eb1c8162",
+        "defaultUpstreamSha256": "b9e5cb4d350bf6fc744a2e1b1581679b872df3adeee8d8819355d239eb0758d5",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "defaultPixelIdentical": false,
+        "defaultMeanAbsoluteRGBAError": [
+          23.921772003173828,
+          31.3533353805542,
+          31.174182891845703,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Same atlas islands verified by original/upstream texture comparison; only paint/registration differs.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "DefaultWhite",
+          "DefaultWhite.004",
+          "DefaultWhite.006",
+          "DefaultWhite.007",
+          "DefaultWhite.009",
+          "DefaultWhite.011"
+        ],
+        "unchangedAtlasLandmark": {
+          "rect": [
+            768,
+            512,
+            896,
+            640
+          ],
+          "meanRgbError": 0.2724,
+          "description": "Textured, non-flat 128x128 landmark in both embedded default and pinned upstream default; same pixel coordinates and atlas orientation despite differing airline paint."
+        }
+      },
+      "liveries": [
+        {
+          "id": "air-france",
+          "name": "Air France",
+          "textures": [
+            {
+              "path": "/liveries/a319/air-france/AFR.png",
+              "materials": [
+                "DefaultWhite",
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/AFR.png",
+              "sha256": "b2342df03290ec747287bc6d65c4bd91a4638dcc2e3f1d306a004c3dca559337",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A319-NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/AFR.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/AFR.xml",
+            "path": "/liveries/a319/air-france/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors; individual livery authors not identified by the selected XML files. See retained README.md.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Paintkit/a319.paintkit.xcf"
+        },
+        {
+          "id": "easyjet",
+          "name": "easyJet",
+          "textures": [
+            {
+              "path": "/liveries/a319/easyjet/EZY.png",
+              "materials": [
+                "DefaultWhite",
+                "DefaultWhite.004",
+                "DefaultWhite.006",
+                "DefaultWhite.007",
+                "DefaultWhite.009",
+                "DefaultWhite.011"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/EZY.png",
+              "sha256": "79159ee18f5664f4222a85cd9ce8d8354d40434d9cda91113d7a63a86564eb55",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "A319-NWA.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/EZY.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Liveries/A319-111/EZY.xml",
+            "path": "/liveries/a319/easyjet/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A320-family/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A320-family/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/README.md",
+              "sha256": "8a90c2cb3cd3506ee870f7454bb3ec741706e0ff537e72618794cd09eeeca9be"
+            }
+          ],
+          "attribution": "FGMEMBERS/A320-family contributors; individual livery authors not identified by the selected XML files. See retained README.md.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/Paintkit/a319.paintkit.xcf"
+        }
+      ]
+    },
+    "a333": {
+      "compatibility": {
+        "model": "/models/a333.glb",
+        "modelSha256": "ef2013d8593c2dd6897d4436bae84dab22fef8334d956ea4b9f5c7409843a790",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/323_blank.png",
+        "defaultEmbeddedSha256": "740413c3f9052ec089bbbbb6fd637e2f123f37ba900e13127507b113537b4870",
+        "defaultUpstreamSha256": "058d7b4e0688ad376c0d2dfde1875a4085bcce43357e243c78b7b2dcd69ea4af",
+        "dimensions": [
+          2048,
+          1024
+        ],
+        "defaultPixelIdentical": true,
+        "defaultMeanAbsoluteRGBAError": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "uvEvidence": "Source glTF UVs and original embedded paint remain unchanged. Matching FlightGear family PNG atlas replaces only the documented painted material image groups; wings, fan and other nonpaint maps remain original.",
+        "imageIndices": [
+          0,
+          1
+        ],
+        "materialNames": [
+          "ac3dmat1_003",
+          "ac3dmat1_013",
+          "ac3dmat1_014"
+        ],
+        "nativeUv": true
+      },
+      "liveries": [
+        {
+          "id": "korean-air",
+          "name": "Korean Air",
+          "textures": [
+            {
+              "path": "/liveries/a333/korean-air/KAL.png",
+              "materials": [
+                "ac3dmat1_003",
+                "ac3dmat1_013",
+                "ac3dmat1_014"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/KAL.png",
+              "sha256": "9c13ed2dc404e83e3f5f69a7dd28ec56027eec8d829522d9c6230af126c69db6",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_23_blank_png_001",
+                "_03_blank_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/KAL.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/KAL.xml",
+            "path": "/liveries/a333/korean-air/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A330-300",
+          "commit": "7d9307698904c6e20af6a089f4292d07005d08a9",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A330-300/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README",
+              "sha256": "2cf9e06248b89086ad5a36d234d4daf696fe79b854d536b4bd157e533ae527fc"
+            }
+          ],
+          "attribution": "Omega Hangar / FGMEMBERS/A330-300 contributors; individual livery authors not identified by the selected XML files. See retained README.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Paintkit/A330-323.xcf"
+        },
+        {
+          "id": "delta",
+          "name": "Delta Air Lines",
+          "textures": [
+            {
+              "path": "/liveries/a333/delta/DAL.png",
+              "materials": [
+                "ac3dmat1_003",
+                "ac3dmat1_013",
+                "ac3dmat1_014"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/DAL.png",
+              "sha256": "68b5741dec3d51aa551c1dc536ea2a0b3d8a1ba1cb6390ba56fadda86e96d820",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_23_blank_png_001",
+                "_03_blank_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/DAL.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/DAL.xml",
+            "path": "/liveries/a333/delta/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A330-300",
+          "commit": "7d9307698904c6e20af6a089f4292d07005d08a9",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A330-300/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README",
+              "sha256": "2cf9e06248b89086ad5a36d234d4daf696fe79b854d536b4bd157e533ae527fc"
+            }
+          ],
+          "attribution": "Omega Hangar / FGMEMBERS/A330-300 contributors; individual livery authors not identified by the selected XML files. See retained README.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Paintkit/A330-323.xcf"
+        },
+        {
+          "id": "thai-airways",
+          "name": "Thai Airways",
+          "textures": [
+            {
+              "path": "/liveries/a333/thai-airways/THA.png",
+              "materials": [
+                "ac3dmat1_003",
+                "ac3dmat1_013",
+                "ac3dmat1_014"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/THA.png",
+              "sha256": "cabce23fccb51329947d8f3bd1dbd7de1db7026c3a42c791c691e4235ecf3aa4",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_23_blank_png_001",
+                "_03_blank_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/THA.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/A330-300",
+          "commit": "7d9307698904c6e20af6a089f4292d07005d08a9",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A330-300/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            },
+            {
+              "path": "/liveries/licenses/A330-300/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/README",
+              "sha256": "2cf9e06248b89086ad5a36d234d4daf696fe79b854d536b4bd157e533ae527fc"
+            }
+          ],
+          "attribution": "Omega Hangar / FGMEMBERS/A330-300 contributors; individual livery authors not identified by the selected XML files. See retained README.",
+          "definition": {
+            "path": "/liveries/a333/thai-airways/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/Liveries/A330-323/THA.xml"
+          },
+          "sourcePng": "Models/Liveries/A330-323/THA.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "a343": {
+      "compatibility": {
+        "model": "/models/a343.glb",
+        "modelSha256": "9ee9f2f187f50faec372de5e88b0ab1ff3d863e0e3a6017899c9cb6f029e08e1",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/House.png",
+        "defaultEmbeddedSha256": "5096ae4e39d918690a0c048bca5f0a5f6d5cb6c089727406e137bca511999b01",
+        "defaultUpstreamSha256": "d367ec598699d630b2517d3b2365580380c33b6aae8bb247ed50d24777b1958a",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "defaultPixelIdentical": true,
+        "defaultMeanAbsoluteRGBAError": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Embedded default and upstream default have identical decoded pixels.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "_Black_.002",
+          "_DarkGra.002",
+          "_LightGr.001",
+          "_White_.001",
+          "ac3dmat1.001",
+          "ac3dmat8.002",
+          "DefaultWhite",
+          "DefaultWhite.002",
+          "DefaultWhite.003",
+          "DefaultWhite.004",
+          "DefaultWhite.005",
+          "DefaultWhite.007",
+          "DefaultWhite.008",
+          "DefaultWhite.010",
+          "DefaultWhite.011",
+          "Flaps"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa",
+          "textures": [
+            {
+              "path": "/liveries/a343/lufthansa/DLH.png",
+              "materials": [
+                "_Black_.002",
+                "_DarkGra.002",
+                "_LightGr.001",
+                "_White_.001",
+                "ac3dmat1.001",
+                "ac3dmat8.002",
+                "DefaultWhite",
+                "DefaultWhite.002",
+                "DefaultWhite.003",
+                "DefaultWhite.004",
+                "DefaultWhite.005",
+                "DefaultWhite.007",
+                "DefaultWhite.008",
+                "DefaultWhite.010",
+                "DefaultWhite.011",
+                "Flaps"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/DLH.png",
+              "sha256": "fd85a54553ae46f9a8e2b0807d67705fbc5970712defd910084d35d29a5ba0fb",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "House.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/DLH.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/DLH.xml",
+            "path": "/liveries/a343/lufthansa/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A340-313X",
+          "commit": "516adc0039659a01dbd96763dca62d80af84a6f5",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A340-313X/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A340-313X/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Authors.txt",
+              "sha256": "9c98aa17e3193ac3d72f0c63a01bfc517b2f30cdd8524fed3a1c7fd2b7a10f10"
+            },
+            {
+              "path": "/liveries/licenses/A340-313X/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/README.md",
+              "sha256": "292cf35a81ebe4523f5ad85d422bca0bc1eb5d757fe71f064cf70f40c631afc7"
+            }
+          ],
+          "attribution": "FGMEMBERS/A340-313X contributors. Lufthansa livery by evaair714 per Authors.txt; Cathay Pacific individual author not separately identified, general livery credits retained in Authors.txt.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Paintkit/A340-313X-paintkit.xcf"
+        },
+        {
+          "id": "cathay-pacific",
+          "name": "Cathay Pacific",
+          "textures": [
+            {
+              "path": "/liveries/a343/cathay-pacific/CPA.png",
+              "materials": [
+                "_Black_.002",
+                "_DarkGra.002",
+                "_LightGr.001",
+                "_White_.001",
+                "ac3dmat1.001",
+                "ac3dmat8.002",
+                "DefaultWhite",
+                "DefaultWhite.002",
+                "DefaultWhite.003",
+                "DefaultWhite.004",
+                "DefaultWhite.005",
+                "DefaultWhite.007",
+                "DefaultWhite.008",
+                "DefaultWhite.010",
+                "DefaultWhite.011",
+                "Flaps"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/CPA.png",
+              "sha256": "58db4e5efd6d4dc270ef5ad446624cb789401b4b501d86ac2d8a582dfb1b0f2b",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "House.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/CPA.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Liveries/CPA.xml",
+            "path": "/liveries/a343/cathay-pacific/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A340-313X",
+          "commit": "516adc0039659a01dbd96763dca62d80af84a6f5",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A340-313X/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A340-313X/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Authors.txt",
+              "sha256": "9c98aa17e3193ac3d72f0c63a01bfc517b2f30cdd8524fed3a1c7fd2b7a10f10"
+            },
+            {
+              "path": "/liveries/licenses/A340-313X/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/README.md",
+              "sha256": "292cf35a81ebe4523f5ad85d422bca0bc1eb5d757fe71f064cf70f40c631afc7"
+            }
+          ],
+          "attribution": "FGMEMBERS/A340-313X contributors. Lufthansa livery by evaair714 per Authors.txt; Cathay Pacific individual author not separately identified, general livery credits retained in Authors.txt.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Paintkit/A340-313X-paintkit.xcf"
+        }
+      ]
+    },
+    "b757": {
+      "compatibility": {
+        "model": "/models/757.glb",
+        "modelSha256": "8bafff761d2340765a616ab826cda18deb429e1a6ece0d94c940bb63d483595c",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/FIN.png",
+        "defaultEmbeddedSha256": "3e581683dc9e458d9223384c8dd69c45c640bee5c741efe12a5d218d43720c68",
+        "defaultUpstreamSha256": "cff8c0fc29ef4aa95e4d9cb851225483b0de3a6ceebf76993b5c1666ea5ff09e",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "defaultPixelIdentical": false,
+        "defaultMeanAbsoluteRGBAError": [
+          34.176167488098145,
+          34.399742126464844,
+          26.682976722717285,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Same atlas islands verified by original/upstream texture comparison; only paint/registration differs.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "DefaultWhite.000",
+          "DefaultWhite.001",
+          "DefaultWhite.003",
+          "glass",
+          "light",
+          "Material.010",
+          "Paint.001",
+          "Paint.003",
+          "Paint.004",
+          "Paint.005"
+        ],
+        "unchangedAtlasLandmark": {
+          "rect": [
+            640,
+            704,
+            768,
+            832
+          ],
+          "meanRgbError": 0,
+          "description": "Textured, non-flat 128x128 landmark in both embedded default and pinned upstream default; same pixel coordinates and atlas orientation despite differing airline paint."
+        }
+      },
+      "liveries": [
+        {
+          "id": "british-airways",
+          "name": "British Airways",
+          "textures": [
+            {
+              "path": "/liveries/b757/british-airways/BAW.png",
+              "materials": [
+                "DefaultWhite.000",
+                "DefaultWhite.001",
+                "DefaultWhite.003",
+                "glass",
+                "light",
+                "Material.010",
+                "Paint.001",
+                "Paint.003",
+                "Paint.004",
+                "Paint.005"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/BAW.png",
+              "sha256": "ca62fa7e8f33c6de755fb7d3922176c41340ef2f86d29eefb775bb621ceae6e8",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "FIN.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/BAW.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/BAW.xml",
+            "path": "/liveries/b757/british-airways/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/757-200",
+          "commit": "873a9a12ec1a2451ece37dff3bc1fbc888615042",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/757-200/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/757-200/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/AUTHORS",
+              "sha256": "46171fc8e6b5eaf35b78ff201c439c1a15fb92a20519edf2b9541f13843de11b"
+            },
+            {
+              "path": "/liveries/licenses/757-200/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            }
+          ],
+          "attribution": "FGMEMBERS/757-200 contributors; per-livery author not separately identified in selected XML files, upstream AUTHORS retained.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/paintkit.xcf"
+        },
+        {
+          "id": "united",
+          "name": "United Airlines",
+          "textures": [
+            {
+              "path": "/liveries/b757/united/UAL.png",
+              "materials": [
+                "DefaultWhite.000",
+                "DefaultWhite.001",
+                "DefaultWhite.003",
+                "glass",
+                "light",
+                "Material.010",
+                "Paint.001",
+                "Paint.003",
+                "Paint.004",
+                "Paint.005"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/UAL.png",
+              "sha256": "d7ca3cafa07a67f1afe7a80d6fe0a3f52cfb4f0f48c8ee4a44562c992dfb2038",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "FIN.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/UAL.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/UAL.xml",
+            "path": "/liveries/b757/united/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/757-200",
+          "commit": "873a9a12ec1a2451ece37dff3bc1fbc888615042",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/757-200/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/757-200/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/AUTHORS",
+              "sha256": "46171fc8e6b5eaf35b78ff201c439c1a15fb92a20519edf2b9541f13843de11b"
+            },
+            {
+              "path": "/liveries/licenses/757-200/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            }
+          ],
+          "attribution": "FGMEMBERS/757-200 contributors; per-livery author not separately identified in selected XML files, upstream AUTHORS retained.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/paintkit.xcf"
+        }
+      ]
+    },
+    "md11": {
+      "compatibility": {
+        "model": "/models/md11.glb",
+        "modelSha256": "102d97048bdf7661caa95b54433302633a18da3343a6d2b5919ea412e7547686",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/md11.png",
+        "defaultEmbeddedSha256": "988d4c2ebdf954ad0fb13a4dffe6b46cc23779c7bf1a286c7f329c7d1b4160a9",
+        "defaultUpstreamSha256": "50aceac8ca65026855353ffdbe14736410c630ae20ab5301e95fe11e07e43913",
+        "dimensions": [
+          4096,
+          1024
+        ],
+        "defaultPixelIdentical": true,
+        "defaultMeanAbsoluteRGBAError": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Embedded default and upstream default have identical decoded pixels.",
+        "imageIndices": [
+          2
+        ],
+        "materialNames": [
+          "Material.003",
+          "Material.007",
+          "tire.001"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "delta",
+          "name": "Delta Air Lines",
+          "textures": [
+            {
+              "path": "/liveries/md11/delta/DAL.png",
+              "materials": [
+                "Material.003",
+                "Material.007",
+                "tire.001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/DAL.png",
+              "sha256": "4b23c2f165db300440a11e385932644445a0a8640fbd60ee31b3a90c8fe995d2",
+              "width": 4096,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "md11.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/DAL.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/DAL.xml",
+            "path": "/liveries/md11/delta/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/MD-11",
+          "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+          "license": "GPL-2.0-or-later",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/MD-11/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/AUTHORS",
+              "sha256": "808d196e3512aba6d320754a2c6a907679f584b1a5b3ed1fb5e40bc9cb496d66"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/README.md",
+              "sha256": "0fe9f5dae5274d8c7f816d701f3ce88e03f69c91a5cb17280658f222bba61a72"
+            }
+          ],
+          "attribution": "Delta livery by John Taillor; Finnair livery by Juuso Tapaninen, as recorded in upstream AUTHORS.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/md11paintkit.xcf"
+        },
+        {
+          "id": "finnair",
+          "name": "Finnair",
+          "textures": [
+            {
+              "path": "/liveries/md11/finnair/FIN.png",
+              "materials": [
+                "Material.003",
+                "Material.007",
+                "tire.001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/FIN.png",
+              "sha256": "3cc16b931b0a2bf24d81634140feb21825b083c93967a44e22868d95a94a37b1",
+              "width": 4096,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "md11.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/FIN.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/FIN.xml",
+            "path": "/liveries/md11/finnair/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/MD-11",
+          "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+          "license": "GPL-2.0-or-later",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/MD-11/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/AUTHORS",
+              "sha256": "808d196e3512aba6d320754a2c6a907679f584b1a5b3ed1fb5e40bc9cb496d66"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/README.md",
+              "sha256": "0fe9f5dae5274d8c7f816d701f3ce88e03f69c91a5cb17280658f222bba61a72"
+            }
+          ],
+          "attribution": "Delta livery by John Taillor; Finnair livery by Juuso Tapaninen, as recorded in upstream AUTHORS.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/md11paintkit.xcf"
+        }
+      ]
+    },
+    "b787": {
+      "compatibility": {
+        "model": "/models/B788.glb",
+        "modelSha256": "3aadb364c26ab61523bff4637020805b199eefa10e9fafe0e7834649ca54cd1e",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/BOE.png",
+        "defaultEmbeddedSha256": "9f63939aaa64de1c1882bc02d1c2382bcb6af01ba6684764befbf5953efcf054",
+        "defaultUpstreamSha256": "559a830a69dcf7204c61cd21462cc0c5547c98bb55f344f5cf7c87b800f5434e",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "defaultPixelIdentical": true,
+        "defaultMeanAbsoluteRGBAError": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Embedded default and upstream default have identical decoded pixels.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "Chrome.000",
+          "Chrome.001wi",
+          "engine.000",
+          "Lights.000",
+          "skin.001"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "american",
+          "name": "American Airlines",
+          "textures": [
+            {
+              "path": "/liveries/b787/american/AAL.png",
+              "materials": [
+                "Chrome.000",
+                "Chrome.001wi",
+                "engine.000",
+                "Lights.000",
+                "skin.001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/AAL.png",
+              "sha256": "6da142091ef352990524465883c876815ebb64c563949c1dab51d165a225952b",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "BOE.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/787-8/blob/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/AAL.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/American%20Airlines.xml",
+            "path": "/liveries/b787/american/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/787-8",
+          "commit": "b79677d148bc7f573c55accb3cb96450b89156a2",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/787-8/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/787-8/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Authors.txt",
+              "sha256": "e6f42cdc411ad7b8e0bf7c552f81b7bbbc492fba4dfc2e6ab4c7ee6c1f7aadd5"
+            },
+            {
+              "path": "/liveries/licenses/787-8/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/README",
+              "sha256": "762115c110a49802283d8f36e3a23347f0dd3bea69672cd2cae6b275a51d9df7"
+            }
+          ],
+          "attribution": "Omega Hangar / FGMEMBERS/787-8 contributors; upstream Authors.txt retained, selected XML files do not identify individual livery artists.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/787-8/blob/b79677d148bc7f573c55accb3cb96450b89156a2/PaintKit/paintkit.xcf"
+        },
+        {
+          "id": "latam",
+          "name": "LATAM",
+          "textures": [
+            {
+              "path": "/liveries/b787/latam/LATAM-Livery.png",
+              "materials": [
+                "Chrome.000",
+                "Chrome.001wi",
+                "engine.000",
+                "Lights.000",
+                "skin.001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/LATAM-Livery.png",
+              "sha256": "6f0539dba3684cf7a34f91059553b30de7cc416a1154138b42e71b23eaf7e387",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "BOE.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/787-8/blob/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/LATAM-Livery.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Models/Liveries/LATAM.xml",
+            "path": "/liveries/b787/latam/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/787-8",
+          "commit": "b79677d148bc7f573c55accb3cb96450b89156a2",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/787-8/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/787-8/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/Authors.txt",
+              "sha256": "e6f42cdc411ad7b8e0bf7c552f81b7bbbc492fba4dfc2e6ab4c7ee6c1f7aadd5"
+            },
+            {
+              "path": "/liveries/licenses/787-8/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-8/b79677d148bc7f573c55accb3cb96450b89156a2/README",
+              "sha256": "762115c110a49802283d8f36e3a23347f0dd3bea69672cd2cae6b275a51d9df7"
+            }
+          ],
+          "attribution": "Omega Hangar / FGMEMBERS/787-8 contributors; upstream Authors.txt retained, selected XML files do not identify individual livery artists.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/787-8/blob/b79677d148bc7f573c55accb3cb96450b89156a2/PaintKit/paintkit.xcf"
+        }
+      ]
+    },
+    "b38m": {
+      "compatibility": {
+        "model": "/models/B38M.glb",
+        "modelSha256": "0a592dc6748399d9c8e335b327787c1f92897958ab8f42f419516c811108287f",
+        "projection": "runtime-b38m-livery-projection.mjs: triangle-region UV seams, channel2 Air China / channel3 Ryanair and Southwest",
+        "materialNames": [
+          "b38m-livery-projection",
+          "b38m-ng-engine",
+          "b38m-ng-winglet"
+        ],
+        "sourceModel": "FlightGear 737-800 NG paintkits",
+        "targetModel": "AMPG 737 MAX 8",
+        "uvEvidence": "Paint regions are classified per real mesh triangle, with identical appended render vertices at UV seams. Native vertex values, UV0, oriented triangles and original model bytes are retained. Fin sampling stays inside the source fin polygon; body roof/belly and engine/winglet panels use separate clean atlas regions. Authored cockpit glass and independent cabin glazing remain unpainted.",
+        "limitations": [
+          "Non-native NG paintkit adaptation: source panel and door positions remain approximate.",
+          "No source NG registration or 737-800 variant text is represented as a MAX8 marking."
+        ],
+        "atlasBodyRows": [
+          [
+            0.028,
+            0.111
+          ],
+          [
+            0.18,
+            0.263
+          ]
+        ],
+        "atlasTailBlocks": [
+          [
+            0.012,
+            0.366,
+            0.21,
+            0.492
+          ],
+          [
+            0.808,
+            0.366,
+            0.987,
+            0.492
+          ]
+        ],
+        "channels": {
+          "2": "Dedicated 737-800 NG atlas body, fin, nacelle and winglet projection for Ryanair, Southwest and Air China.",
+          "3": "NG atlas with large Ryanair/Southwest titles reserved above the independent cabin-window row; fin/engine/winglet layout as channel 2."
+        },
+        "cabinWindows": "runtime-b38m-windows.mjs: 45 opaque, skin-conformed rounded glass/rim windows per side for original and NG paints. The independent mesh is hidden for channel 1 MAX9 paints, which already contain their own painted window row. No transparent holes or borrowed texture ownership."
+      },
+      "liveries": [
+        {
+          "id": "ryanair",
+          "name": "Ryanair 瑞安航空",
+          "textures": [
+            {
+              "path": "/liveries/b38m/ryanair/max8.png",
+              "materials": [
+                "b38m-livery-projection",
+                "b38m-ng-engine",
+                "b38m-ng-winglet"
+              ],
+              "channel": 3,
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.png",
+              "sha256": "d464a05651564fd4d5dd7adf38433130a96f04313f3e986d0dcfa06e2f5ef7b3",
+              "width": 1254,
+              "height": 1254,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/737-800/blob/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/737-800",
+          "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+          "sourceModel": "FlightGear Boeing 737-800 NG",
+          "targetModel": "AMPG Boeing 737 MAX 8",
+          "attribution": "FlightGear 737-800 contributors; original airline artwork retained from the pinned livery PNG.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            }
+          ],
+          "originalTexture": {
+            "path": "/liveries/b38m/ryanair/source.png",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.png",
+            "sha256": "59a4e6fdb4782d30bb4152c65301a805ba491c32f13975fc1dafdf733fe68fb1",
+            "gitBlobSha": "a9a20d7d5603c695a0dfbbd2d1b59a0438510de9",
+            "width": 2048,
+            "height": 2048
+          },
+          "modification": "737-800 NG source atlas adapted to MAX 8 using a separate channel 3 (upper-body title-safe) side/fin/engine/winglet projection. imagegen precise-object-edit removed NG registration and variant lettering; original atlas is retained as source.png. Generated edit is 1254 square and preserves the atlas layout. Native GLB bytes, vertex positions, UV0, windows and fan materials are unchanged.",
+          "limitations": [
+            "A non-native NG paintkit adaptation, not an exact MAX 8 factory repaint.",
+            "Source panel/door markings and decorative stripe locations remain approximate; no source registration is presented as a MAX 8 registration."
+          ],
+          "editTool": "imagegen built-in",
+          "editPrompt": "Remove only the two NG registration strings and short registration digits; preserve all atlas positions, airline text, logos, colors and white background."
+        },
+        {
+          "id": "southwest",
+          "name": "Southwest 西南航空",
+          "textures": [
+            {
+              "path": "/liveries/b38m/southwest/max8.png",
+              "materials": [
+                "b38m-livery-projection",
+                "b38m-ng-engine",
+                "b38m-ng-winglet"
+              ],
+              "channel": 3,
+              "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/SWA-new.png",
+              "sha256": "0d20ae8178af676f3033bd9a77d0fd86ba397765cf781874c1bb94107d4eb584",
+              "width": 1254,
+              "height": 1254,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/YV3399/737-800YV/blob/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/SWA-new.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/YV3399/737-800YV",
+          "commit": "9d967d89dd2ee0ae1bf01d00c49839a574aa9da5",
+          "sourceModel": "FlightGear Boeing 737-800 NG",
+          "targetModel": "AMPG Boeing 737 MAX 8",
+          "attribution": "FlightGear 737-800 contributors; original airline artwork retained from the pinned livery PNG.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800YV/LICENSE",
+              "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            }
+          ],
+          "originalTexture": {
+            "path": "/liveries/b38m/southwest/source.png",
+            "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/SWA-new.png",
+            "sha256": "282e7212f72d28740ab917e9b89d01ce1903cdd9d683e63468813d91cd05cfcc",
+            "gitBlobSha": "942fa4b6f810e62c5823e1c675b60c0089d187a3",
+            "width": 2048,
+            "height": 2048
+          },
+          "modification": "737-800 NG source atlas adapted to MAX 8 using a separate channel 3 (upper-body title-safe) side/fin/engine/winglet projection. imagegen precise-object-edit removed NG registration and variant lettering; original atlas is retained as source.png. Generated edit is 1254 square and preserves the atlas layout. Native GLB bytes, vertex positions, UV0, windows and fan materials are unchanged.",
+          "limitations": [
+            "A non-native NG paintkit adaptation, not an exact MAX 8 factory repaint.",
+            "Source panel/door markings and decorative stripe locations remain approximate; no source registration is presented as a MAX 8 registration."
+          ],
+          "editTool": "imagegen built-in",
+          "editPrompt": "Remove only the two NG registration strings and short registration digits; preserve all atlas positions, airline text, logos, colors and white background."
+        },
+        {
+          "id": "air-china",
+          "name": "Air China 中国国际航空",
+          "textures": [
+            {
+              "path": "/liveries/b38m/air-china/max8.png",
+              "materials": [
+                "b38m-livery-projection",
+                "b38m-ng-engine",
+                "b38m-ng-winglet"
+              ],
+              "channel": 2,
+              "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/CCA.png",
+              "sha256": "5497f0cf64dced2cf176cdf34fa419f986d115896e6464041dfac81347dcdde3",
+              "width": 1254,
+              "height": 1254,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/YV3399/737-800YV/blob/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/CCA.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/YV3399/737-800YV",
+          "commit": "9d967d89dd2ee0ae1bf01d00c49839a574aa9da5",
+          "sourceModel": "FlightGear Boeing 737-800 NG",
+          "targetModel": "AMPG Boeing 737 MAX 8",
+          "attribution": "FlightGear 737-800 contributors; original Air China repaint credits FGPRC 0762.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800YV/LICENSE",
+              "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            }
+          ],
+          "originalTexture": {
+            "path": "/liveries/b38m/air-china/source.png",
+            "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Liveries-800/CCA.png",
+            "sha256": "3194df6c6e6bbbb893e691cabc55e5c39cd064cc9a409f12927e43c14457ab1f",
+            "gitBlobSha": "27b634ad0ea4e938cbf7de74c8d5491582c65a97",
+            "width": 2048,
+            "height": 2048
+          },
+          "modification": "737-800 NG source atlas adapted to MAX 8 using a separate channel 2 side/fin/engine/winglet projection. imagegen precise-object-edit removed NG registration and variant lettering; original atlas is retained as source.png. Generated edit is 1254 square and preserves the atlas layout. Native GLB bytes, vertex positions, UV0, windows and fan materials are unchanged.",
+          "limitations": [
+            "A non-native NG paintkit adaptation, not an exact MAX 8 factory repaint.",
+            "Source panel/door markings and decorative stripe locations remain approximate; no source registration is presented as a MAX 8 registration."
+          ],
+          "editTool": "imagegen built-in",
+          "editPrompt": "Remove only the two BOEING 737-800 markings; preserve all atlas positions, airline text, logos, colors, credit and white background."
+        }
+      ],
+      "retiredLiveries": [
+        {
+          "id": "united",
+          "name": "United Airlines（适配）",
+          "textures": [
+            {
+              "path": "/liveries/b38m/united.png",
+              "materials": [
+                "b38m-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/UAL-2019.png",
+              "sha256": "7d3f29c75ed5984d220de0dbf437bd9e3e8b310ee77d3dceb0b83a8edcf248d0",
+              "width": 8192,
+              "height": 8192,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/REXO-77/737-MAX/blob/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/UAL-2019.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/REXO-77/737-MAX",
+          "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+          "attribution": "FlightGear community aircraft repaint from REXO-77/737-MAX; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b38m-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/LICENSE",
+              "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+            }
+          ],
+          "retiredReason": "MAX9 full body atlas is not a reliable match for this MAX8 mesh and painted-window/title layout; not selectable."
+        },
+        {
+          "id": "icelandair",
+          "name": "Icelandair（适配）",
+          "textures": [
+            {
+              "path": "/liveries/b38m/icelandair.png",
+              "materials": [
+                "b38m-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/ICE.png",
+              "sha256": "256ccb6dd17975584474a161603148ab60ea107bcded4d35f0668c06b77b6849",
+              "width": 8192,
+              "height": 8192,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/REXO-77/737-MAX/blob/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/ICE.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/REXO-77/737-MAX",
+          "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+          "attribution": "FlightGear community aircraft repaint from REXO-77/737-MAX; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b38m-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/LICENSE",
+              "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+            }
+          ],
+          "retiredReason": "MAX9 full body atlas is not a reliable match for this MAX8 mesh and painted-window/title layout; not selectable."
+        }
+      ]
+    },
+    "a350": {
+      "compatibility": {
+        "model": "/models/a350.glb",
+        "modelSha256": "a8795b4524868324cb9b88ec4b2377a5cf397e9a3f244f3f74e7047bacf7721d",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/a350xwb.png",
+        "defaultEmbeddedSha256": "103193032e1044452d3927cd6adc5e9146dacbaf09675d08214e7d833cb6b874",
+        "defaultUpstreamSha256": "c20b8368c104e957a48016205e689d3ba496c23740a1cf9717609dd7fd204be9",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "defaultPixelIdentical": true,
+        "defaultMeanAbsoluteRGBAError": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "uvEvidence": "Same FlightGear model texture atlas and upstream livery XML texture binding. Embedded default and upstream default have identical decoded pixels.",
+        "imageIndices": [
+          1
+        ],
+        "materialNames": [
+          "Material.002",
+          "skin.000",
+          "skin.003"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "qatar",
+          "name": "Qatar Airways",
+          "textures": [
+            {
+              "path": "/liveries/a350/qatar/QTR.png",
+              "materials": [
+                "Material.002",
+                "skin.000",
+                "skin.003"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/QTR.png",
+              "sha256": "46ff95f26be045507aa80371641143a31639c2063df22b8f8507675fc3431496",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "a350xwb.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/QTR.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/QTR.xml",
+            "path": "/liveries/a350/qatar/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A350XWB",
+          "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+          "license": "GPL-2.0-or-later",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A350XWB/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A350XWB/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/README.md",
+              "sha256": "8ceec317f8a9a12259b0e70048a6ad6063935e8ea2b735142f275381ab481bcd"
+            }
+          ],
+          "attribution": "Sbyx, Jormappapa and other A350XWB contributors, as recorded in upstream README.md; individual livery artist not separately identified by selected XML files.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Paintkit/a350xwb.xcf"
+        },
+        {
+          "id": "finnair",
+          "name": "Finnair",
+          "textures": [
+            {
+              "path": "/liveries/a350/finnair/FIN.png",
+              "materials": [
+                "Material.002",
+                "skin.000",
+                "skin.003"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/FIN.png",
+              "sha256": "25b5d32de9c0152384a71f19cc91f91d76ac0cc14746ab1a618df1e8ce564092",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "a350xwb.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/FIN.png",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/FIN.xml",
+            "path": "/liveries/a350/finnair/livery.xml"
+          },
+          "repository": "https://github.com/FGMEMBERS/A350XWB",
+          "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+          "license": "GPL-2.0-or-later",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A350XWB/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A350XWB/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/README.md",
+              "sha256": "8ceec317f8a9a12259b0e70048a6ad6063935e8ea2b735142f275381ab481bcd"
+            }
+          ],
+          "attribution": "Sbyx, Jormappapa and other A350XWB contributors, as recorded in upstream README.md; individual livery artist not separately identified by selected XML files.",
+          "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Paintkit/a350xwb.xcf"
+        },
+        {
+          "id": "cathay-pacific",
+          "name": "Cathay Pacific",
+          "textures": [
+            {
+              "path": "/liveries/a350/cathay-pacific/CPA.png",
+              "materials": [
+                "Material.002",
+                "skin.000",
+                "skin.003"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/CPA.png",
+              "sha256": "63d0a6df80727ecbb1a8a9a156ba9a92fbf361630ebce417ec646bf063420f8c",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "a350xwb.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/CPA.png",
+          "license": "GPL-2.0-or-later",
+          "repository": "https://github.com/FGMEMBERS/A350XWB",
+          "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/A350XWB/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/A350XWB/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/README.md",
+              "sha256": "8ceec317f8a9a12259b0e70048a6ad6063935e8ea2b735142f275381ab481bcd"
+            }
+          ],
+          "attribution": "Sbyx, Jormappapa and other A350XWB contributors, as recorded in upstream README.md; individual livery artist not separately identified by selected XML files.",
+          "definition": {
+            "path": "/liveries/a350/cathay-pacific/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Liveries/CPA.xml"
+          },
+          "sourcePng": "Models/Liveries/CPA.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "b738": {
+      "compatibility": {
+        "model": "/models/B738.glb",
+        "modelSha256": "bcd3e90c37e0cf834c218791d10c0e567ae4b90c0315c09e16a2218292d46962",
+        "defaultUpstream": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/737-800.png",
+        "defaultEmbeddedSha256": "1e86785f01520c82656525c78fba8530a797598074016e8412f8f7837aad44aa",
+        "defaultUpstreamSha256": "0e8e285ad0b98c499d15aff82e1f6537f30312af2ea7612960cd845e537d239a",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "defaultPixelIdentical": false,
+        "defaultMeanAbsoluteRGBAError": [
+          0.09804773330688477,
+          0.08888053894042969,
+          0.09971928596496582,
+          0
+        ],
+        "sourceAtlasPixelIdentical": true,
+        "uvEvidence": "The original fr24 source archive 737-800.png.001.png is byte-identical to this pinned 737-800 default atlas. Both airline PNGs share this native 2048x2048 UV layout; the embedded default differs only by JPEG compression. No UV projection or airline repaint was fabricated.",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "DefaultWhite_000",
+          "DefaultWhite_001",
+          "DefaultWhite_002",
+          "DefaultWhite_003",
+          "DefaultWhite_005",
+          "DefaultWhite_008",
+          "DefaultWhite_010",
+          "DefaultWhite_011",
+          "DefaultWhite_012",
+          "DefaultWhite_014",
+          "DefaultWhite_015",
+          "DefaultWhite_016",
+          "DefaultWhite_017",
+          "DefaultWhite_018",
+          "DefaultWhite_019",
+          "DefaultWhite_023",
+          "DefaultWhite_024"
+        ]
+      },
+      "liveries": [
+        {
+          "id": "klm",
+          "name": "KLM",
+          "repository": "https://github.com/FGMEMBERS/737-800",
+          "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+          "source": "https://github.com/FGMEMBERS/737-800/blob/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KLM-800.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            },
+            {
+              "path": "/liveries/licenses/737-800/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/README.md",
+              "sha256": "02707c8f8b2e08f33aac696f1a37d496c4c2bdf060e8d004afda8904b1e5d46d"
+            }
+          ],
+          "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml. Livery name and original PNG retained from the matching upstream livery XML.",
+          "textures": [
+            {
+              "path": "/liveries/b738/klm/KLM-800.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_001",
+                "DefaultWhite_002",
+                "DefaultWhite_003",
+                "DefaultWhite_005",
+                "DefaultWhite_008",
+                "DefaultWhite_010",
+                "DefaultWhite_011",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019",
+                "DefaultWhite_023",
+                "DefaultWhite_024"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KLM-800.png",
+              "sha256": "20700385be85f88fb85e762697f6674b1471b18c493827a1cb8feed0e0abe07b",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ryanair",
+          "name": "Ryanair",
+          "repository": "https://github.com/FGMEMBERS/737-800",
+          "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+          "source": "https://github.com/FGMEMBERS/737-800/blob/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            },
+            {
+              "path": "/liveries/licenses/737-800/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/README.md",
+              "sha256": "02707c8f8b2e08f33aac696f1a37d496c4c2bdf060e8d004afda8904b1e5d46d"
+            }
+          ],
+          "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml. Livery name and original PNG retained from the matching upstream livery XML.",
+          "textures": [
+            {
+              "path": "/liveries/b738/ryanair/RYR-800.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_001",
+                "DefaultWhite_002",
+                "DefaultWhite_003",
+                "DefaultWhite_005",
+                "DefaultWhite_008",
+                "DefaultWhite_010",
+                "DefaultWhite_011",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019",
+                "DefaultWhite_023",
+                "DefaultWhite_024"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.png",
+              "sha256": "59a4e6fdb4782d30bb4152c65301a805ba491c32f13975fc1dafdf733fe68fb1",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "american-airlines",
+          "name": "American Airlines",
+          "textures": [
+            {
+              "path": "/liveries/b738/american-airlines/AAL.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_001",
+                "DefaultWhite_002",
+                "DefaultWhite_003",
+                "DefaultWhite_005",
+                "DefaultWhite_008",
+                "DefaultWhite_010",
+                "DefaultWhite_011",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019",
+                "DefaultWhite_023",
+                "DefaultWhite_024"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/AAL.png",
+              "sha256": "8a5cb1edea4cbb3a320f2ee41a7916beadce0c48fac809647c65938046953d3e",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/737-800/blob/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/AAL.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/737-800",
+          "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            },
+            {
+              "path": "/liveries/licenses/737-800/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/README.md",
+              "sha256": "02707c8f8b2e08f33aac696f1a37d496c4c2bdf060e8d004afda8904b1e5d46d"
+            }
+          ],
+          "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml. Livery name and original PNG retained from the matching upstream livery XML.",
+          "definition": {
+            "path": "/liveries/b738/american-airlines/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/AAL.xml"
+          },
+          "sourcePng": "Models/Liveries-800/AAL.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        },
+        {
+          "id": "korean-air",
+          "name": "Korean Air",
+          "textures": [
+            {
+              "path": "/liveries/b738/korean-air/KAL.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_001",
+                "DefaultWhite_002",
+                "DefaultWhite_003",
+                "DefaultWhite_005",
+                "DefaultWhite_008",
+                "DefaultWhite_010",
+                "DefaultWhite_011",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019",
+                "DefaultWhite_023",
+                "DefaultWhite_024"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KAL.png",
+              "sha256": "85fe858024bf567d4753858ee691fa56da18df5a4d9e21deb5822753a668dec9",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/737-800/blob/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KAL.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/737-800",
+          "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            },
+            {
+              "path": "/liveries/licenses/737-800/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/README.md",
+              "sha256": "02707c8f8b2e08f33aac696f1a37d496c4c2bdf060e8d004afda8904b1e5d46d"
+            }
+          ],
+          "attribution": "FlightGear Boeing 737-800 / 737NG: David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), Michael Soitanen (development), and FGMEMBERS contributors, as credited in 737-ng-set-common.xml. Livery name and original PNG retained from the matching upstream livery XML.",
+          "definition": {
+            "path": "/liveries/b738/korean-air/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KAL.xml"
+          },
+          "sourcePng": "Models/Liveries-800/KAL.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "a346": {
+      "compatibility": {
+        "model": "/models/A346.glb",
+        "modelSha256": "ae6de727ad441979ddef6c6727b065488498c53e3b17519d0e7f23665a0882c4",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "_Black__000",
+          "_DarkGra_000",
+          "_LightGr_000",
+          "_White__000",
+          "ac3dmat1_005",
+          "ac3dmat8"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Source glTF UVs and original embedded paint remain unchanged. Matching FlightGear family PNG atlas replaces only the documented painted material image groups; wings, fan and other nonpaint maps remain original."
+      },
+      "liveries": [
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa",
+          "repository": "https://github.com/FGMEMBERS/A340-600HGW",
+          "commit": "126f2329a711f6cd5ed4aa1dec893279801c6aa4",
+          "source": "https://github.com/FGMEMBERS/A340-600HGW/blob/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/DLH.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a346/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/a346/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Authors.txt",
+              "sha256": "80c4bd1e839276903e145ddd4fbb7754a5979e973d75382f611e322dbc2b2353"
+            },
+            {
+              "path": "/liveries/licenses/a346/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/README.md",
+              "sha256": "a1f6c56b370cafa3c33da6ff1942cf440c4b50d6b2bec0f0a0de21832a9c5cd2"
+            }
+          ],
+          "attribution": "Original FlightGear A346 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/a346/lufthansa/DLH.png",
+              "materials": [
+                "_Black__000",
+                "_DarkGra_000",
+                "_LightGr_000",
+                "_White__000",
+                "ac3dmat1_005",
+                "ac3dmat8"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/DLH.png",
+              "sha256": "0713204f20a5528a503b7dac045f9945c76b77137671d49ddcef13baa80bcb62",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "Default_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cathay-pacific",
+          "name": "Cathay Pacific",
+          "repository": "https://github.com/FGMEMBERS/A340-600HGW",
+          "commit": "126f2329a711f6cd5ed4aa1dec893279801c6aa4",
+          "source": "https://github.com/FGMEMBERS/A340-600HGW/blob/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/CPA.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a346/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/COPYING",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            },
+            {
+              "path": "/liveries/licenses/a346/Authors.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Authors.txt",
+              "sha256": "80c4bd1e839276903e145ddd4fbb7754a5979e973d75382f611e322dbc2b2353"
+            },
+            {
+              "path": "/liveries/licenses/a346/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/README.md",
+              "sha256": "a1f6c56b370cafa3c33da6ff1942cf440c4b50d6b2bec0f0a0de21832a9c5cd2"
+            }
+          ],
+          "attribution": "Original FlightGear A346 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/a346/cathay-pacific/CPA.png",
+              "materials": [
+                "_Black__000",
+                "_DarkGra_000",
+                "_LightGr_000",
+                "_White__000",
+                "ac3dmat1_005",
+                "ac3dmat8"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/CPA.png",
+              "sha256": "986396a6c132dbef845d43a1fa5db0ef9392a661cef5f4b76c855fff898a4a27",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "Default_png_001"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "b739": {
+      "compatibility": {
+        "model": "/models/B739.glb",
+        "modelSha256": "3c33295ab5533e27365a0b67015c3b5591481973c196ea44df11fe7569893770",
+        "imageIndices": [
+          0,
+          1
+        ],
+        "materialNames": [
+          "DefaultWhite_000",
+          "DefaultWhite_003",
+          "DefaultWhite_012",
+          "DefaultWhite_014",
+          "DefaultWhite_015",
+          "DefaultWhite_016",
+          "DefaultWhite_017",
+          "DefaultWhite_018",
+          "DefaultWhite_019",
+          "DefaultWhite_001",
+          "DefaultWhite_008",
+          "DefaultWhite_023",
+          "DefaultWhite_024",
+          "DefaultWhite_025"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Native image-1 737-900 fuselage/door UVs use actual Liveries-900 PNGs, never 800 body strips. Image-0 shared engine-shell/fin/winglet UV regions are documented separately; fans, glass and wing-root fairing retain original maps. No projection or model changes.",
+        "materialImageGroups": {
+          "body900": [
+            "DefaultWhite_000",
+            "DefaultWhite_003",
+            "DefaultWhite_012",
+            "DefaultWhite_014",
+            "DefaultWhite_015",
+            "DefaultWhite_016",
+            "DefaultWhite_017",
+            "DefaultWhite_018",
+            "DefaultWhite_019"
+          ],
+          "shared800": [
+            "DefaultWhite_001",
+            "DefaultWhite_008",
+            "DefaultWhite_023",
+            "DefaultWhite_024",
+            "DefaultWhite_025"
+          ]
+        }
+      },
+      "liveries": [
+        {
+          "id": "korean-air",
+          "name": "Korean Air · 737-900",
+          "textures": [
+            {
+              "path": "/liveries/b739/korean-air/KAL-900.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_003",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/KAL-900.png",
+              "sha256": "e3b9ee8c8ade35a20edb466127f9471c06498e323a3a04b3a9c5cf7761295f3a",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-900_png_001"
+              ]
+            },
+            {
+              "path": "/liveries/b739/korean-air/KAL-900.png",
+              "materials": [
+                "DefaultWhite_001",
+                "DefaultWhite_008",
+                "DefaultWhite_023",
+                "DefaultWhite_024",
+                "DefaultWhite_025"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/KAL-900.png",
+              "sha256": "e3b9ee8c8ade35a20edb466127f9471c06498e323a3a04b3a9c5cf7761295f3a",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/737NG/blob/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/KAL-900.xml",
+          "license": "GPL-2.0-or-later",
+          "repository": "https://github.com/FGMEMBERS/737NG",
+          "commit": "36e9efe73960fe02b7ec7d626713a4bae713ba23",
+          "sourceModel": "FlightGear Boeing 737-900",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            }
+          ],
+          "licenseEvidence": {
+            "source": "https://wiki.flightgear.org/Boeing_737NG_%28old%29",
+            "statement": "Official FlightGear aircraft wiki identifies this old 737NG (-600/-700/-800/-900) family as GPLv2+. The pinned 737NG repository has no standalone LICENSE file; the GPL text retained here is explicitly sourced from the related 737-800 repository, not misattributed to 737NG.",
+            "checked": "2026-10-23"
+          },
+          "attribution": "David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), and FlightGear 737NG contributors, as credited in the pinned 737-ng-common-set.xml. Original airline artwork/name retained from each matching 900 livery XML.",
+          "definition": {
+            "path": "/liveries/b739/korean-air/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/KAL-900.xml"
+          },
+          "gitBlobSha": "7b1da109d7c342c761c85bb8c120bcd09cf5378d",
+          "modification": "Original Boeing 737-900 PNG bytes retained. Native 900 fuselage/door material image group and 800 shared engine/fin/winglet image group are bound separately using their measured native UV regions. Aircraft GLB bytes, geometry, UVs, glass, fans and default livery are unchanged.",
+          "sharedPartsPolicy": "900 body PNG -> the 9 materials originally using _37-900_png_001. Only the five engine shell, fin and winglet materials from _37-800_png_001 use the atlas shared regions. Original fan/interior/wing-root fairing maps and independent windows are retained. The cached Models/737-800.png wireframe paintkit is never displayed."
+        },
+        {
+          "id": "lion-air",
+          "name": "Lion Air · 737-900",
+          "textures": [
+            {
+              "path": "/liveries/b739/lion-air/LNI-900.png",
+              "materials": [
+                "DefaultWhite_000",
+                "DefaultWhite_003",
+                "DefaultWhite_012",
+                "DefaultWhite_014",
+                "DefaultWhite_015",
+                "DefaultWhite_016",
+                "DefaultWhite_017",
+                "DefaultWhite_018",
+                "DefaultWhite_019"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/LNI-900.png",
+              "sha256": "b6bf097d3a4b2aa035f7aaf01f2b0f93edce5a2e0749745cabe5e0ad63e274cd",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-900_png_001"
+              ]
+            },
+            {
+              "path": "/liveries/b739/lion-air/LNI-900.png",
+              "materials": [
+                "DefaultWhite_001",
+                "DefaultWhite_008",
+                "DefaultWhite_023",
+                "DefaultWhite_024",
+                "DefaultWhite_025"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/LNI-900.png",
+              "sha256": "b6bf097d3a4b2aa035f7aaf01f2b0f93edce5a2e0749745cabe5e0ad63e274cd",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/737NG/blob/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/LNI-900.xml",
+          "license": "GPL-2.0-or-later",
+          "repository": "https://github.com/FGMEMBERS/737NG",
+          "commit": "36e9efe73960fe02b7ec7d626713a4bae713ba23",
+          "sourceModel": "FlightGear Boeing 737-900",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/737-800/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/LICENSE",
+              "commit": "9126249dd0236479ad723f3e7c4c7139455c7d81",
+              "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+            }
+          ],
+          "licenseEvidence": {
+            "source": "https://wiki.flightgear.org/Boeing_737NG_%28old%29",
+            "statement": "Official FlightGear aircraft wiki identifies this old 737NG (-600/-700/-800/-900) family as GPLv2+. The pinned 737NG repository has no standalone LICENSE file; the GPL text retained here is explicitly sourced from the related 737-800 repository, not misattributed to 737NG.",
+            "checked": "2026-10-23"
+          },
+          "attribution": "David Culp (FDM), Syd Adams (glass instruments), Innis Cunningham (3D and panel), and FlightGear 737NG contributors, as credited in the pinned 737-ng-common-set.xml. Original airline artwork/name retained from each matching 900 livery XML.",
+          "definition": {
+            "path": "/liveries/b739/lion-air/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/737NG/36e9efe73960fe02b7ec7d626713a4bae713ba23/Models/Liveries-900/LNI-900.xml"
+          },
+          "gitBlobSha": "5205f887d210b5839cba8aa352725bbea9ed77e8",
+          "modification": "Original Boeing 737-900 PNG bytes retained. Native 900 fuselage/door material image group and 800 shared engine/fin/winglet image group are bound separately using their measured native UV regions. Aircraft GLB bytes, geometry, UVs, glass, fans and default livery are unchanged.",
+          "sharedPartsPolicy": "900 body PNG -> the 9 materials originally using _37-900_png_001. Only the five engine shell, fin and winglet materials from _37-800_png_001 use the atlas shared regions. Original fan/interior/wing-root fairing maps and independent windows are retained. The cached Models/737-800.png wireframe paintkit is never displayed."
+        }
+      ]
+    },
+    "b773": {
+      "compatibility": {
+        "model": "/models/B773.glb",
+        "modelSha256": "1e603506018776b7cca79e24e7e1f838a29890e24890452bd2c0d0dcfe072717",
+        "imageIndices": [
+          0,
+          1
+        ],
+        "materialNames": [
+          "Paint",
+          "Paint_002",
+          "dark",
+          "emit_001",
+          "emit_003",
+          "flatblack_001",
+          "nospec",
+          "rubber",
+          "rubber_001"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Source glTF UVs and original embedded paint remain unchanged. Matching FlightGear family PNG atlas replaces only the documented painted material image groups; wings, fan and other nonpaint maps remain original."
+      },
+      "liveries": [
+        {
+          "id": "air-france",
+          "name": "Air France",
+          "repository": "https://github.com/FGMEMBERS/777-300",
+          "commit": "5830a22e40595be91f9f0e64e84651a3f8014a13",
+          "source": "https://github.com/FGMEMBERS/777-300/blob/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/AFR.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b773/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/AUTHORS",
+              "sha256": "121496543b23807d91fe0853d02fb70d5db528f27b8baa17502a358c97874d65"
+            },
+            {
+              "path": "/liveries/licenses/b773/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/README.md",
+              "sha256": "ab6af77435f58cc0c9d4c31dfe05656e45187cc7c7fc02aada401a7642125463"
+            },
+            {
+              "path": "/liveries/licenses/b773/COPYING.TXT",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/COPYING.TXT",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            }
+          ],
+          "attribution": "Original FlightGear B773 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/b773/air-france/AFR.png",
+              "materials": [
+                "Paint",
+                "Paint_002",
+                "dark",
+                "emit_001",
+                "emit_003",
+                "flatblack_001",
+                "nospec",
+                "rubber",
+                "rubber_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/AFR.png",
+              "sha256": "6a997e7e575248ebdc6b5716b4459e3c34541429a0d82e71006e0b71ce18a03f",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "paint1_png",
+                "paint1_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "british-airways",
+          "name": "British Airways",
+          "repository": "https://github.com/FGMEMBERS/777-300",
+          "commit": "5830a22e40595be91f9f0e64e84651a3f8014a13",
+          "source": "https://github.com/FGMEMBERS/777-300/blob/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/BAW.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b773/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/AUTHORS",
+              "sha256": "121496543b23807d91fe0853d02fb70d5db528f27b8baa17502a358c97874d65"
+            },
+            {
+              "path": "/liveries/licenses/b773/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/README.md",
+              "sha256": "ab6af77435f58cc0c9d4c31dfe05656e45187cc7c7fc02aada401a7642125463"
+            },
+            {
+              "path": "/liveries/licenses/b773/COPYING.TXT",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/COPYING.TXT",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            }
+          ],
+          "attribution": "Original FlightGear B773 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/b773/british-airways/BAW.png",
+              "materials": [
+                "Paint",
+                "Paint_002",
+                "dark",
+                "emit_001",
+                "emit_003",
+                "flatblack_001",
+                "nospec",
+                "rubber",
+                "rubber_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/BAW.png",
+              "sha256": "b23e3b1c8bdd2494caba55f14222cba6c966190ff3523efd5195c56f28822b01",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "paint1_png",
+                "paint1_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cathay-pacific",
+          "name": "Cathay Pacific",
+          "textures": [
+            {
+              "path": "/liveries/b773/cathay-pacific/CPA-paint.png",
+              "materials": [
+                "Paint",
+                "Paint_002",
+                "dark",
+                "emit_001",
+                "emit_003",
+                "flatblack_001",
+                "nospec",
+                "rubber",
+                "rubber_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/CPA-paint.png",
+              "sha256": "908c19186390a1ce402755b07023fc58d1ccffb453c9c25e12829c152d191b26",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "paint1_png",
+                "paint1_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/777-300/blob/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/CPA-paint.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/777-300",
+          "commit": "5830a22e40595be91f9f0e64e84651a3f8014a13",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b773/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/AUTHORS",
+              "sha256": "121496543b23807d91fe0853d02fb70d5db528f27b8baa17502a358c97874d65"
+            },
+            {
+              "path": "/liveries/licenses/b773/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/README.md",
+              "sha256": "ab6af77435f58cc0c9d4c31dfe05656e45187cc7c7fc02aada401a7642125463"
+            },
+            {
+              "path": "/liveries/licenses/b773/COPYING.TXT",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/COPYING.TXT",
+              "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa"
+            }
+          ],
+          "attribution": "Original FlightGear B773 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "definition": {
+            "path": "/liveries/b773/cathay-pacific/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/CPA.xml"
+          },
+          "sourcePng": "Models/Liveries/PNG/CPA-paint.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "an225": {
+      "compatibility": {
+        "model": "/models/AN225.glb",
+        "modelSha256": "2db40996bf305ff33c2a2cd25f23d53d7cddb23b6d1b6b4604aae80178910273",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "ac3dmat1",
+          "ac3dmat13"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Exact native embedded atlas decoded and recolored in place by scripts/derive-expanded-fleet-paint.py. Unrelated legacy FlightGear full-skin PNGs are not compatible with this model UV and are not used.",
+        "derivation": "native-atlas-recolor"
+      },
+      "liveries": [
+        {
+          "id": "blue-markings-derived",
+          "name": "Blue markings · derived",
+          "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
+          "license": "GPL-2.0",
+          "textures": [
+            {
+              "path": "/liveries/an225/blue-markings-derived/native-atlas.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat13"
+              ],
+              "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
+              "sha256": "a7b5776d0b555e94cfeded9b75b315743c8ea0ed88ee399bb7809ff894e5686e",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "AN225-tx-001_rgb_001"
+              ]
+            }
+          ],
+          "repository": "https://github.com/Flightradar24/fr24-3d-models",
+          "commit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/an225/COPYING",
+              "source": "https://raw.githubusercontent.com/Flightradar24/fr24-3d-models/dd53267690c6a4ecbb290a3acf0284333a5d68a9/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original Flightradar24 / FlightGear native atlas and credited model contributors. Project-authored colorway derived from that GPL2 atlas; not a downloaded airline repaint.",
+          "modification": "Recolor existing colored markings only. Native atlas dimensions, UV layout, lettering positions, unpainted pixels and alpha remain unchanged.",
+          "changedPixels": 41661,
+          "preservedPixels": 1006915
+        },
+        {
+          "id": "charcoal-markings-derived",
+          "name": "Charcoal markings · derived",
+          "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
+          "license": "GPL-2.0",
+          "textures": [
+            {
+              "path": "/liveries/an225/charcoal-markings-derived/native-atlas.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat13"
+              ],
+              "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
+              "sha256": "a919440f47f1c4a025f14dcf36c51cb0f985645ea36297ab29665929f72aef21",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "AN225-tx-001_rgb_001"
+              ]
+            }
+          ],
+          "repository": "https://github.com/Flightradar24/fr24-3d-models",
+          "commit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/an225/COPYING",
+              "source": "https://raw.githubusercontent.com/Flightradar24/fr24-3d-models/dd53267690c6a4ecbb290a3acf0284333a5d68a9/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original Flightradar24 / FlightGear native atlas and credited model contributors. Project-authored colorway derived from that GPL2 atlas; not a downloaded airline repaint.",
+          "modification": "Recolor existing colored markings only. Native atlas dimensions, UV layout, lettering positions, unpainted pixels and alpha remain unchanged.",
+          "changedPixels": 41661,
+          "preservedPixels": 1006915
+        }
+      ]
+    },
+    "b789": {
+      "compatibility": {
+        "model": "/models/B789.glb",
+        "modelSha256": "53088fe43b3e4771c3c9eaf2e0348582c21108bb548e306f972203072c1f9645",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "Chrome_000",
+          "Chrome_001wi",
+          "Lights_000",
+          "engine_000",
+          "skin_001"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Source glTF UVs and original embedded paint remain unchanged. Matching FlightGear family PNG atlas replaces only the documented painted material image groups; wings, fan and other nonpaint maps remain original."
+      },
+      "liveries": [
+        {
+          "id": "ana",
+          "name": "ANA",
+          "repository": "https://github.com/FGMEMBERS/787-9",
+          "commit": "f58fce9fa08517f2fb1c19fc39bbb11773d4473c",
+          "source": "https://github.com/FGMEMBERS/787-9/blob/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/ANA.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b789/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README",
+              "sha256": "9503b6182834be5262b6d5118b21c128d62114c084b163152f31484949e74098"
+            },
+            {
+              "path": "/liveries/licenses/b789/README-wingflexer",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README-wingflexer",
+              "sha256": "996dbaf232d56bfcd8712133b0094ef684135af7934424e9212070d7268f72bc"
+            },
+            {
+              "path": "/liveries/licenses/b789/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/COPYING",
+              "sha256": "b15f41248f0957edfd2d91202ee810a6ef2d92c0256d330585d806677306a706"
+            },
+            {
+              "path": "/liveries/licenses/b789/Authors-of-the-787-8.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Authors-of-the-787-8.txt",
+              "sha256": "dd4da34b0351fd4f9ee94ed908d102ca18a85e1f03add41c8158e4eeac4c8d80"
+            },
+            {
+              "path": "/liveries/licenses/b789/787-9-authors.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/787-9-authors.md",
+              "sha256": "f6abf350bdd6b80d6a2cff74b40b915d9d2ddb03cd6d33ef5ac2d91c2b3f3bda"
+            },
+            {
+              "path": "/liveries/licenses/b789/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original FlightGear B789 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/b789/ana/ANA.png",
+              "materials": [
+                "Chrome_000",
+                "Chrome_001wi",
+                "Lights_000",
+                "engine_000",
+                "skin_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/ANA.png",
+              "sha256": "2f2421f25b2e5286a955336496182309debd8ba3808a1d3f92d3daf2f1e6cfa8",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "BOE_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "british-airways",
+          "name": "British Airways",
+          "repository": "https://github.com/FGMEMBERS/787-9",
+          "commit": "f58fce9fa08517f2fb1c19fc39bbb11773d4473c",
+          "source": "https://github.com/FGMEMBERS/787-9/blob/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/BAW.xml",
+          "license": "GPL-2.0",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b789/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README",
+              "sha256": "9503b6182834be5262b6d5118b21c128d62114c084b163152f31484949e74098"
+            },
+            {
+              "path": "/liveries/licenses/b789/README-wingflexer",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README-wingflexer",
+              "sha256": "996dbaf232d56bfcd8712133b0094ef684135af7934424e9212070d7268f72bc"
+            },
+            {
+              "path": "/liveries/licenses/b789/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/COPYING",
+              "sha256": "b15f41248f0957edfd2d91202ee810a6ef2d92c0256d330585d806677306a706"
+            },
+            {
+              "path": "/liveries/licenses/b789/Authors-of-the-787-8.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Authors-of-the-787-8.txt",
+              "sha256": "dd4da34b0351fd4f9ee94ed908d102ca18a85e1f03add41c8158e4eeac4c8d80"
+            },
+            {
+              "path": "/liveries/licenses/b789/787-9-authors.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/787-9-authors.md",
+              "sha256": "f6abf350bdd6b80d6a2cff74b40b915d9d2ddb03cd6d33ef5ac2d91c2b3f3bda"
+            },
+            {
+              "path": "/liveries/licenses/b789/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original FlightGear B789 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "textures": [
+            {
+              "path": "/liveries/b789/british-airways/BAW.png",
+              "materials": [
+                "Chrome_000",
+                "Chrome_001wi",
+                "Lights_000",
+                "engine_000",
+                "skin_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/BAW.png",
+              "sha256": "bcd7ea3b29f6133efb7880b364120602226144d347033f34b38d70cc13dec678",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "BOE_png_001"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "united",
+          "name": "United Airlines",
+          "textures": [
+            {
+              "path": "/liveries/b789/united/UAL.png",
+              "materials": [
+                "Chrome_000",
+                "Chrome_001wi",
+                "Lights_000",
+                "engine_000",
+                "skin_001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/UAL.png",
+              "sha256": "fd1e07a862bd8d747ff469d9dc7f8759f2ef504bbca1fdd7a9e67b0c951eede0",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": [
+                "BOE_png_001"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/787-9/blob/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/UAL.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/787-9",
+          "commit": "f58fce9fa08517f2fb1c19fc39bbb11773d4473c",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b789/README",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README",
+              "sha256": "9503b6182834be5262b6d5118b21c128d62114c084b163152f31484949e74098"
+            },
+            {
+              "path": "/liveries/licenses/b789/README-wingflexer",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/README-wingflexer",
+              "sha256": "996dbaf232d56bfcd8712133b0094ef684135af7934424e9212070d7268f72bc"
+            },
+            {
+              "path": "/liveries/licenses/b789/COPYING",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/COPYING",
+              "sha256": "b15f41248f0957edfd2d91202ee810a6ef2d92c0256d330585d806677306a706"
+            },
+            {
+              "path": "/liveries/licenses/b789/Authors-of-the-787-8.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Authors-of-the-787-8.txt",
+              "sha256": "dd4da34b0351fd4f9ee94ed908d102ca18a85e1f03add41c8158e4eeac4c8d80"
+            },
+            {
+              "path": "/liveries/licenses/b789/787-9-authors.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/787-9-authors.md",
+              "sha256": "f6abf350bdd6b80d6a2cff74b40b915d9d2ddb03cd6d33ef5ac2d91c2b3f3bda"
+            },
+            {
+              "path": "/liveries/licenses/b789/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original FlightGear B789 family livery artists and model contributors, as credited in the retained upstream license, readme and livery XML. Original downloaded PNG and livery name retained without repainting.",
+          "definition": {
+            "path": "/liveries/b789/united/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/787-9/f58fce9fa08517f2fb1c19fc39bbb11773d4473c/Models/Liveries/UAL.xml"
+          },
+          "sourcePng": "Models/Liveries/UAL.png",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        }
+      ]
+    },
+    "a380": {
+      "compatibility": {
+        "model": "/models/a380.glb",
+        "modelSha256": "4f50e6259c043f994e060052119e4cf8c64338b45ca2c5a3b28a77aa9d98bb7a",
+        "imageIndices": [
+          0
+        ],
+        "materialNames": [
+          "Livery",
+          "ac3dmat1_005",
+          "ac3dmat1_007",
+          "iCone_002",
+          "iCone_005"
+        ],
+        "nativeUv": true,
+        "uvEvidence": "Exact native embedded atlas decoded and recolored in place by scripts/derive-expanded-fleet-paint.py. Unrelated legacy FlightGear full-skin PNGs are not compatible with this model UV and are not used.",
+        "derivation": "native-atlas-recolor"
+      },
+      "liveries": [
+        {
+          "id": "emerald-derived",
+          "name": "Emerald prototype · derived",
+          "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
+          "license": "GPL-2.0",
+          "textures": [
+            {
+              "path": "/liveries/a380/emerald-derived/native-atlas.png",
+              "materials": [
+                "Livery",
+                "ac3dmat1_005",
+                "ac3dmat1_007",
+                "iCone_002",
+                "iCone_005"
+              ],
+              "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
+              "sha256": "3587bbea4e603e7bc88f2940afd5019eb25721699ff9950e3cf8d565b7aa7860",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "F-WWDD_png"
+              ]
+            }
+          ],
+          "repository": "https://github.com/Flightradar24/fr24-3d-models",
+          "commit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a380/COPYING",
+              "source": "https://raw.githubusercontent.com/Flightradar24/fr24-3d-models/dd53267690c6a4ecbb290a3acf0284333a5d68a9/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original Flightradar24 / FlightGear native atlas and credited model contributors. Project-authored colorway derived from that GPL2 atlas; not a downloaded airline repaint.",
+          "modification": "Recolor existing colored markings only. Native atlas dimensions, UV layout, lettering positions, unpainted pixels and alpha remain unchanged.",
+          "changedPixels": 364424,
+          "preservedPixels": 1732728
+        },
+        {
+          "id": "burgundy-derived",
+          "name": "Burgundy prototype · derived",
+          "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
+          "license": "GPL-2.0",
+          "textures": [
+            {
+              "path": "/liveries/a380/burgundy-derived/native-atlas.png",
+              "materials": [
+                "Livery",
+                "ac3dmat1_005",
+                "ac3dmat1_007",
+                "iCone_002",
+                "iCone_005"
+              ],
+              "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
+              "sha256": "f7091ab49329d75da9b3209e8b0596470c1a5a90bdad0185e55ec2f4a31fbbd9",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "F-WWDD_png"
+              ]
+            }
+          ],
+          "repository": "https://github.com/Flightradar24/fr24-3d-models",
+          "commit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a380/COPYING",
+              "source": "https://raw.githubusercontent.com/Flightradar24/fr24-3d-models/dd53267690c6a4ecbb290a3acf0284333a5d68a9/LICENSE",
+              "sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73"
+            }
+          ],
+          "attribution": "Original Flightradar24 / FlightGear native atlas and credited model contributors. Project-authored colorway derived from that GPL2 atlas; not a downloaded airline repaint.",
+          "modification": "Recolor existing colored markings only. Native atlas dimensions, UV layout, lettering positions, unpainted pixels and alpha remain unchanged.",
+          "changedPixels": 364424,
+          "preservedPixels": 1732728
+        }
+      ]
+    },
+    "b748": {
+      "compatibility": {
+        "model": "/models/B748.glb",
+        "modelSha256": "f4aed2e6f6ca3c7fc24c109e8acda8816ec4a4b88af0a0f04104917a0e46f782",
+        "nativeUv": true,
+        "imageIndices": [
+          4,
+          0,
+          1
+        ],
+        "sourceAtlasPixelIdentical": true,
+        "uvEvidence": "All three original fuselage, fan and wing PNGs are pixel-identical to this exact local GLB embedded atlas. Native UVs retained.",
+        "defaults": [
+          {
+            "image": 4,
+            "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/fuselage.png",
+            "embeddedSha256": "c2b7a31ad73ed11df2693173fdf0cca5d1dee1526dabdd342e9bdc2c9958c4d3",
+            "sourceSha256": "7d2e8268a615d1962bdce6b63bfdb9de20e889077ecf45d93a69076d4ffbb904",
+            "byteIdentical": false
+          },
+          {
+            "image": 0,
+            "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/turbofan.png",
+            "embeddedSha256": "9438a8e5d58243fa3b35c09188625c29b299c48c11733dec536aba037afaefa3",
+            "sourceSha256": "21c4ebd6310dad864190f6fba01b0d94a16a727862d3b567996541cdef79f9d3",
+            "byteIdentical": false
+          },
+          {
+            "image": 1,
+            "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/wings.png",
+            "embeddedSha256": "2da55f37d0ed9c9e45a16fae6fee84eba86669376fa2da7574456aff62d36122",
+            "sourceSha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
+            "byteIdentical": false
+          }
+        ]
+      },
+      "liveries": [
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa",
+          "textures": [
+            {
+              "path": "/liveries/b748/lufthansa/DLH_fuselage.png",
+              "materials": [
+                "M_747_400_l.012",
+                "Material.000",
+                "plane_white.004"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH_fuselage.png",
+              "sha256": "64c02c5a1d65710934feabed8a79b1b7de83710d432c12bb3d6efb1e0260cb81",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "fuselage.png"
+              ]
+            },
+            {
+              "path": "/liveries/b748/lufthansa/DLH_turbofan.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat12",
+                "ac3dmat13",
+                "ac3dmat6",
+                "plane_white.003",
+                "turbofan_int_block"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH_turbofan.png",
+              "sha256": "bd6a0faee65734d825e02c0a2bd25eda4c543b3dac39ff25460d38293e76834f",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "turbofan.png"
+              ]
+            },
+            {
+              "path": "/liveries/b748/lufthansa/wings.png",
+              "materials": [
+                "ac3dmat14",
+                "DefaultWhite.004",
+                "M_747_400_l.007",
+                "plane_white"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/wings.png",
+              "sha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "wings.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/JMaverick16/747-8/blob/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH.xml",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/JMaverick16/747-8",
+          "commit": "0ed6056990828084bd51770e3ad73d0b61a1ad61",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b748/LICENSE",
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/LICENSE",
+              "sha256": "39db8f9acf036595a2566ea3fe560bc7bd65d8749f088e0f4a4ef2f8a6cb4b34"
+            },
+            {
+              "path": "/liveries/licenses/b748/README",
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/README",
+              "sha256": "694c25d002aed6660b3e72a6aa98325281915842125f282d0e29419bad5ca42e"
+            }
+          ],
+          "attribution": "Original 747-8 project paint artists, John Williams, Grupo FGBr, JMaverick16 and source contributors as credited in the retained README.",
+          "definition": {
+            "path": "/liveries/b748/lufthansa/livery.xml",
+            "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH.xml"
+          },
+          "modification": "Original upstream PNG bytes retained; native UV material groups only, original model default unchanged."
+        },
+        {
+          "id": "korean-air",
+          "name": "Korean Air",
+          "textures": [
+            {
+              "path": "/liveries/b748/korean-air/KAL_fuselage.png",
+              "materials": [
+                "M_747_400_l.012",
+                "Material.000",
+                "plane_white.004"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL_fuselage.png",
+              "sha256": "add1cb33fbb20a0d8fcf1515b2ea2c6a41f67628d6b8769fd6b7482775ff25cd",
+              "width": 2048,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "fuselage.png"
+              ]
+            },
+            {
+              "path": "/liveries/b748/korean-air/KAL_turbofan.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat12",
+                "ac3dmat13",
+                "ac3dmat6",
+                "plane_white.003",
+                "turbofan_int_block"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL_turbofan.png",
+              "sha256": "ebdeb06afad243829298693883bf46025b8df46d175a8136419621b206335d17",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "turbofan.png"
+              ]
+            },
+            {
+              "path": "/liveries/b748/korean-air/wings.png",
+              "materials": [
+                "ac3dmat14",
+                "DefaultWhite.004",
+                "M_747_400_l.007",
+                "plane_white"
+              ],
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/wings.png",
+              "sha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "wings.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/JMaverick16/747-8/blob/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL.xml",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/JMaverick16/747-8",
+          "commit": "0ed6056990828084bd51770e3ad73d0b61a1ad61",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b748/LICENSE",
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/LICENSE",
+              "sha256": "39db8f9acf036595a2566ea3fe560bc7bd65d8749f088e0f4a4ef2f8a6cb4b34"
+            },
+            {
+              "path": "/liveries/licenses/b748/README",
+              "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/README",
+              "sha256": "694c25d002aed6660b3e72a6aa98325281915842125f282d0e29419bad5ca42e"
+            }
+          ],
+          "attribution": "Original 747-8 project paint artists, John Williams, Grupo FGBr, JMaverick16 and source contributors as credited in the retained README.",
+          "definition": {
+            "path": "/liveries/b748/korean-air/livery.xml",
+            "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL.xml"
+          },
+          "modification": "Original upstream PNG bytes retained; native UV material groups only, original model default unchanged."
+        }
+      ]
+    },
+    "b707": {
+      "compatibility": {
+        "model": "/models/B707.glb",
+        "modelSha256": "8065204f76b03329909d10f680a531268b6534f1f6cba148400aae6e56553f6b",
+        "nativeUv": true,
+        "imageIndices": [
+          0
+        ],
+        "sourceAtlasPixelIdentical": false,
+        "uvEvidence": "Matched original Prestes 707 family UV layout: same fuselage strips, tail islands and engine fan positions. The local Lufthansa 707-400 artwork differs from upstream LH lettering; no claim of identical pixels. Modern Marc Kraus 707 full-skin PNGs are incompatible and are not used.",
+        "defaults": [
+          {
+            "image": 0,
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/LH.png",
+            "embeddedSha256": "f70d46e854b7bc473836c8ff5ffd6b7713f607c783a7af50b2b9c9333e95a1f7",
+            "sourceSha256": "50069c8978ce12c8b8b321f784f8b9de789f415bf928fa5114ed501add58809f",
+            "byteIdentical": false
+          }
+        ]
+      },
+      "liveries": [
+        {
+          "id": "pan-am",
+          "name": "Pan American",
+          "textures": [
+            {
+              "path": "/liveries/b707/pan-am/PAA.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat1.002",
+                "ac3dmat13",
+                "fuselage_paint",
+                "glass"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/PAA.png",
+              "sha256": "b2818adefda5544171d9defb7c08bc923c7664394a0d8e501c2f2f520d6bbaa4",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "embedded image 0"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/707-320/blob/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/PAA.xml",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/707-320",
+          "commit": "c5e583dac2c918ac65117af6a9094ea2fe603abe",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b707/COPYING.TXT",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/COPYING.TXT",
+              "sha256": "b15f41248f0957edfd2d91202ee810a6ef2d92c0256d330585d806677306a706"
+            },
+            {
+              "path": "/liveries/licenses/b707/AUTHORS.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/AUTHORS.txt",
+              "sha256": "dba4c5defb46903b12275d762ee0b8a4632a4e0207a584101f1aa9e7935bb2ef"
+            },
+            {
+              "path": "/liveries/licenses/b707/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/README.md",
+              "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
+            }
+          ],
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "definition": {
+            "path": "/liveries/b707/pan-am/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/PAA.xml"
+          },
+          "modification": "Original upstream PNG bytes retained; native UV material groups only, original model default unchanged."
+        },
+        {
+          "id": "twa",
+          "name": "TWA",
+          "textures": [
+            {
+              "path": "/liveries/b707/twa/TWA.png",
+              "materials": [
+                "ac3dmat1",
+                "ac3dmat1.002",
+                "ac3dmat13",
+                "fuselage_paint",
+                "glass"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/TWA.png",
+              "sha256": "4821e673af9e4ef9bdbd2e4784fc5b4ad6ee81ea1fdc4d3f229625547bbffdfd",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "embedded image 0"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/707-320/blob/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/TWA.xml",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/707-320",
+          "commit": "c5e583dac2c918ac65117af6a9094ea2fe603abe",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b707/COPYING.TXT",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/COPYING.TXT",
+              "sha256": "b15f41248f0957edfd2d91202ee810a6ef2d92c0256d330585d806677306a706"
+            },
+            {
+              "path": "/liveries/licenses/b707/AUTHORS.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/AUTHORS.txt",
+              "sha256": "dba4c5defb46903b12275d762ee0b8a4632a4e0207a584101f1aa9e7935bb2ef"
+            },
+            {
+              "path": "/liveries/licenses/b707/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/README.md",
+              "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
+            }
+          ],
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "definition": {
+            "path": "/liveries/b707/twa/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/TWA.xml"
+          },
+          "modification": "Original upstream PNG bytes retained; native UV material groups only, original model default unchanged."
+        }
+      ]
+    }
+  }
+}

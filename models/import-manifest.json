@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-22",
+  "tool": "CesiumGS gltf-pipeline 4.3.1",
+  "files": [
+    {
+      "id": "a333",
+      "sourceBytes": 1719695,
+      "sourceSha256": "2c4556a82cb6158152d38cf06c95ec9ffb0edbc8815c64030fe021e6f5121af1",
+      "modelPath": "/models/a333.glb",
+      "convertedBytes": 1703952,
+      "convertedSha256": "ef2013d8593c2dd6897d4436bae84dab22fef8334d956ea4b9f5c7409843a790",
+      "assetVersion": "2.0",
+      "lengthCalibration": 63.7,
+      "nodes": 1,
+      "meshes": 1,
+      "images": 12,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/a333.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "a333.glb"
+    },
+    {
+      "id": "a346",
+      "sourceBytes": 3141359,
+      "sourceSha256": "c82425bb173c41f9a75f25fbe3368efc03e186afd20ac0eed3141676d58ad2f4",
+      "modelPath": "/models/A346.glb",
+      "convertedBytes": 3113592,
+      "convertedSha256": "ae6de727ad441979ddef6c6727b065488498c53e3b17519d0e7f23665a0882c4",
+      "assetVersion": "2.0",
+      "lengthCalibration": 75.36,
+      "nodes": 211,
+      "meshes": 152,
+      "images": 5,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/a346.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "a346.glb"
+    },
+    {
+      "id": "b739",
+      "sourceBytes": 902576,
+      "sourceSha256": "6c3d94ae131949fa93c5f8207bd80c5897c6946a13e3810cb6610b0d4194bad7",
+      "modelPath": "/models/B739.glb",
+      "convertedBytes": 874504,
+      "convertedSha256": "3c33295ab5533e27365a0b67015c3b5591481973c196ea44df11fe7569893770",
+      "assetVersion": "2.0",
+      "lengthCalibration": 42.1,
+      "nodes": 1,
+      "meshes": 1,
+      "images": 2,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/b739.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "b739.glb"
+    },
+    {
+      "id": "b773",
+      "sourceBytes": 1345621,
+      "sourceSha256": "df0663ff62b50cd8308c847337eb7ba90dc2c0a5b6803f2cd0ae29deebd6915d",
+      "modelPath": "/models/B773.glb",
+      "convertedBytes": 1320000,
+      "convertedSha256": "1e603506018776b7cca79e24e7e1f838a29890e24890452bd2c0d0dcfe072717",
+      "assetVersion": "2.0",
+      "lengthCalibration": 73.9,
+      "nodes": 123,
+      "meshes": 80,
+      "images": 3,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/b773.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "b773.glb"
+    },
+    {
+      "id": "an225",
+      "sourceBytes": 3423514,
+      "sourceSha256": "9a11ed2b7ec06283efebabb466fb7c9baffef121e7ec7f289c457e81ffd1a3be",
+      "modelPath": "/models/AN225.glb",
+      "convertedBytes": 2248152,
+      "convertedSha256": "2db40996bf305ff33c2a2cd25f23d53d7cddb23b6d1b6b4604aae80178910273",
+      "assetVersion": "2.0",
+      "lengthCalibration": 84,
+      "nodes": 314,
+      "meshes": 310,
+      "images": 1,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/an225.gltf"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "an225.gltf"
+    },
+    {
+      "id": "b789",
+      "sourceBytes": 1336476,
+      "sourceSha256": "c891fd29642d7cf7c4f7d9d4a0708acab88ab8c11571bc1224524c0b84030675",
+      "modelPath": "/models/B789.glb",
+      "convertedBytes": 1321456,
+      "convertedSha256": "53088fe43b3e4771c3c9eaf2e0348582c21108bb548e306f972203072c1f9645",
+      "assetVersion": "2.0",
+      "lengthCalibration": 62.8,
+      "nodes": 16,
+      "meshes": 10,
+      "images": 4,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/b789.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "b789.glb"
+    },
+    {
+      "id": "a380",
+      "sourceBytes": 6483204,
+      "sourceSha256": "eb24e3f0c8b7a415823e6a7d25b36f2174ca99e225b4ef3bf5e7f33855e96afb",
+      "modelPath": "/models/a380.glb",
+      "convertedBytes": 6443120,
+      "convertedSha256": "4f50e6259c043f994e060052119e4cf8c64338b45ca2c5a3b28a77aa9d98bb7a",
+      "assetVersion": "2.0",
+      "lengthCalibration": 72.72,
+      "nodes": 544,
+      "meshes": 524,
+      "images": 5,
+      "animations": 0,
+      "upstreamMatches": [
+        "models/a380.glb"
+      ],
+      "license": "GPL-2.0",
+      "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
+      "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
+      "sourceFilename": "a380 (1).glb"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset": "OurAirports open paved runways for the five planner airports",
+  "upstream": "https://ourairports.com/data/",
+  "revision": "03565b612558de9d9ec27ca7a1e99a4f9d2619ba",
+  "retrieved": "2026-10-12",
+  "sha256": "9374b0aeaa0a0ecee3ad02c5ff3974b83300497dc468b45f01954bec36e38c64",
+  "sources": [
+    {
+      "file": "airports.csv",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/03565b612558de9d9ec27ca7a1e99a4f9d2619ba/airports.csv",
+      "sha256": "eb99a7ca14a63612b82d1c33694b2f8963b7cc42b7a6128142e8f1b9c5be23e5",
+      "bytes": 12744869
+    },
+    {
+      "file": "runways.csv",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/03565b612558de9d9ec27ca7a1e99a4f9d2619ba/runways.csv",
+      "sha256": "a1575b7885909a01824b33d69cfb9fc8f8acc106a19c192635e7a2bda464726f",
+      "bytes": 3969042
+    }
+  ],
+  "license": "Public domain",
+  "terms": "https://ourairports.com/data/",
+  "dictionary": "https://ourairports.com/help/data-dictionary.html",
+  "airportCount": 5,
+  "runwayCount": 16,
+  "selection": "closed=0 and surface ASP/CON/PEM; default longest published runway, then ID",
+  "heading": "true initial bearing calculated from the supplied low-end to high-end coordinates",
+  "geometry": "No runway endpoints are extrapolated. Runtime length is endpoint distance in the local frame; publishedLength retains the CSV value. Displaced thresholds and reported dimension discrepancies are preserved.",
+  "elevation": "Published airport and runway endpoint elevations in metres above mean sea level. These reference values are not a terrain DEM or live collision samples.",
+  "excluded": [
+    {
+      "airport": "KSEA",
+      "sourceId": "302282",
+      "closed": "1",
+      "surface": ""
+    },
+    {
+      "airport": "LFPG",
+      "sourceId": "608470",
+      "closed": "0",
+      "surface": "GRASS"
+    }
+  ]
+}

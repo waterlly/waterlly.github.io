@@ -1,0 +1,11 @@
+an225 user-supplied airframe
+
+Original: /Users/lee/Desktop/an225.gltf
+Original SHA-256: 9a11ed2b7ec06283efebabb466fb7c9baffef121e7ec7f289c457e81ffd1a3be
+Byte-identical upstream: https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf
+License: GPL-2.0, retained in an225-COPYING.txt.
+Conversion: glTF 1.0 to embedded glTF 2.0 using CesiumGS gltf-pipeline 4.3.1.
+Served asset: /models/AN225.glb
+Served SHA-256: 2db40996bf305ff33c2a2cd25f23d53d7cddb23b6d1b6b4604aae80178910273
+Originals and conversion manifest retained under work/imports/user-fleet-2026-10-22/.
+Runtime controls and landing gear are simulator adapters; source buffers and UVs remain preserved in the served GLB.

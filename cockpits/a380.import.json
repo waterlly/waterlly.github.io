@@ -1,0 +1,1044 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/a380.glb",
+  "bytes": 19005452,
+  "triangles": 230416,
+  "nodes": 67,
+  "meshes": 54,
+  "images": 32,
+  "instruments": [
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    }
+  ],
+  "omittedNodes": [],
+  "sourceMeshes": 1493,
+  "drawGroups": 54,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_shell.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fcu.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_fcu.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/glare.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_glare.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/hud.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_hud.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/inner.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_inner.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/misc.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_misc.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/ohp.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_ohp.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/panel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_panel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/pedals.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_pedals.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/pedestal.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_pedestal.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/Instruments/PFD/PFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/Instruments/PFD/pfd-3d.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/brk.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380-omega-source/Models/FlightDeck/fd_brk.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "A380-common.xml",
+    "position": [
+      -0.54,
+      -1.597,
+      -19.53
+    ],
+    "pitchDeg": -5.73,
+    "fovDeg": 90
+  },
+  "viewerLookPitchDeg": -5.73,
+  "viewerFov": 90,
+  "sourceFiles": [
+    {
+      "path": "A380-aero.xml",
+      "scope": "aircraft",
+      "bytes": 33018,
+      "sha256": "bbae60183a32ca713e2926d25dffe818a464936b84af42c0a3a9670d1eca002d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380-aero.xml"
+    },
+    {
+      "path": "A380-common.xml",
+      "scope": "aircraft",
+      "bytes": 35373,
+      "sha256": "6856a268c4605d2af0179d7a452b73c5d0f11cdff69bb04cd1b8f8a801336a74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380-common.xml"
+    },
+    {
+      "path": "A380-documentation.md",
+      "scope": "aircraft",
+      "bytes": 4182,
+      "sha256": "2868e12a2711c02072bffa88d7e1325638ccf004497245f05395b800194af7ff",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380-documentation.md"
+    },
+    {
+      "path": "A380-omega-set.xml",
+      "scope": "aircraft",
+      "bytes": 44272,
+      "sha256": "b00291674599e950b28bdfb8154f119f87e5b7bd8efc74c919d5b226a2226e70",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380-omega-set.xml"
+    },
+    {
+      "path": "A380-tutorial.xml",
+      "scope": "aircraft",
+      "bytes": 35596,
+      "sha256": "80f4ff55f72897e32c2c57f54567051e22884ee3ec51fd72568351bdb614548e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380-tutorial.xml"
+    },
+    {
+      "path": "A380.xml",
+      "scope": "aircraft",
+      "bytes": 43686,
+      "sha256": "e2ab647c0095d18df5f2e73e8a3847ab9c0c3614bb261baf3b41c01e49afde02",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/A380.xml"
+    },
+    {
+      "path": "COPYING",
+      "scope": "aircraft",
+      "bytes": 18007,
+      "sha256": "dcc100d4161cc0b7177545ab6e47216f84857cda3843847c792a25289852dcaa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/COPYING"
+    },
+    {
+      "path": "License/cc-by-nc-3.0.txt",
+      "scope": "aircraft",
+      "bytes": 17701,
+      "sha256": "a64b481ba886d9ab551771dd96e08c501455a970931891aaad979ddbefdca247",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/License/cc-by-nc-3.0.txt"
+    },
+    {
+      "path": "License/gpl-2.0.txt",
+      "scope": "aircraft",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/License/gpl-2.0.txt"
+    },
+    {
+      "path": "License/README",
+      "scope": "aircraft",
+      "bytes": 1122,
+      "sha256": "ce94177b47d64ab2c70dcc9673b10a0e723e04bfb50608e2abe07217318748e8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/License/README"
+    },
+    {
+      "path": "License/README.md",
+      "scope": "aircraft",
+      "bytes": 6,
+      "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/License/README.md"
+    },
+    {
+      "path": "Models/a380.ac",
+      "scope": "aircraft",
+      "bytes": 3772941,
+      "sha256": "15198e5ab70dfc989007adf20bf8d12a670f46e705417a5f14593a9c56e9243b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/a380.ac"
+    },
+    {
+      "path": "Models/A380.xml",
+      "scope": "aircraft",
+      "bytes": 74675,
+      "sha256": "e4ad1a6ab67471d005a1498f6fc6328316c01e4ae021c305038ac4c1ef00f8f0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/A380.xml"
+    },
+    {
+      "path": "Models/extra.png",
+      "scope": "aircraft",
+      "bytes": 759294,
+      "sha256": "451befa7988499baaf5157d949693a5319519e52dc9e472143a837fa5a9cb588",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/extra.png"
+    },
+    {
+      "path": "Models/FlightDeck/_fd_inner.ac",
+      "scope": "aircraft",
+      "bytes": 1516487,
+      "sha256": "51bb86104ee840c36b3be7d66353b33cbb8387da7e74415b06dbf8124e6f6454",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/_fd_inner.ac"
+    },
+    {
+      "path": "Models/FlightDeck/brake.png",
+      "scope": "aircraft",
+      "bytes": 107369,
+      "sha256": "49e563356f6040979117f248973d0576b1340e6af5649e19c65aed6804832c4f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/brake.png"
+    },
+    {
+      "path": "Models/FlightDeck/brk.xml",
+      "scope": "aircraft",
+      "bytes": 1532,
+      "sha256": "1141bfbc5476156ee0aa04a209331d5aaf11048eb750a48a9d10f1901a62befe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/brk.xml"
+    },
+    {
+      "path": "Models/FlightDeck/canvas.png",
+      "scope": "aircraft",
+      "bytes": 1882,
+      "sha256": "a2604cddb1f1a81ed869afa31acb8c72fdc99b24c2c3fb7a2e26f3228d94f7d0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/canvas.png"
+    },
+    {
+      "path": "Models/FlightDeck/center_console.png",
+      "scope": "aircraft",
+      "bytes": 906214,
+      "sha256": "a78c7cb5e64729c788765940da3e3e65c0e3df423d93ab5ba6953780fb9f19a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/center_console.png"
+    },
+    {
+      "path": "Models/FlightDeck/clock.png",
+      "scope": "aircraft",
+      "bytes": 158955,
+      "sha256": "98a675ad7d0492c8fc964110e9c3ba14b209ae02c8327e793dff4b2acce21662",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/clock.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit_1.png",
+      "scope": "aircraft",
+      "bytes": 1406772,
+      "sha256": "599e6b99b55f640915794c0838c2215a798c2a52de119cda66010bdffa62bcaa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/cockpit_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit_2.png",
+      "scope": "aircraft",
+      "bytes": 1621028,
+      "sha256": "68dc2fb23786c553de592354b38d4febce6937dfab1442523db9a188b6dbf3f6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/cockpit_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit_3.png",
+      "scope": "aircraft",
+      "bytes": 749678,
+      "sha256": "f257bdffb83318fa0b33bbcc49bbf65fe6833b55555cfb4407dd209a4f0a5795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/cockpit_3.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit_4.png",
+      "scope": "aircraft",
+      "bytes": 894757,
+      "sha256": "409202ae5427278732c4a2642dd6cb5955382ffdf3d73d5ea9828e06d24f41bb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/cockpit_4.png"
+    },
+    {
+      "path": "Models/FlightDeck/dashboard.png",
+      "scope": "aircraft",
+      "bytes": 821777,
+      "sha256": "7b2f03f6d2ce845f621e826985f85cd9cc73515e0715fec1eb2d389d2c967a74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/dashboard.png"
+    },
+    {
+      "path": "Models/FlightDeck/efis_vor_adf.png",
+      "scope": "aircraft",
+      "bytes": 4878,
+      "sha256": "38c8ac32514de4496565319959cf4e9c1886043e957280e144e3dc431eacf9b8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/efis_vor_adf.png"
+    },
+    {
+      "path": "Models/FlightDeck/efis.png",
+      "scope": "aircraft",
+      "bytes": 8143,
+      "sha256": "aab6bb5080777270b7bb9182b4e4978a5240b9cca192d1b60e06b225434430da",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/efis.png"
+    },
+    {
+      "path": "Models/FlightDeck/fcu.png",
+      "scope": "aircraft",
+      "bytes": 3766,
+      "sha256": "663fbf63e7930bd180d4c9c468fba3489edfe73150fb0ae4c6c9a83dae5cb259",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fcu.png"
+    },
+    {
+      "path": "Models/FlightDeck/fcu.xml",
+      "scope": "aircraft",
+      "bytes": 81899,
+      "sha256": "e6332fe3e472fe0b7bf3453304d8dead88aa0503d0e98ca2150c40261945e687",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fcu.xml"
+    },
+    {
+      "path": "Models/FlightDeck/fd_brk.ac",
+      "scope": "aircraft",
+      "bytes": 34903,
+      "sha256": "617f6413bbd8a2f4c33305e9c5e5404357c6321476f2801fe5f8827917ac6218",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_brk.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_fcu.ac",
+      "scope": "aircraft",
+      "bytes": 1008348,
+      "sha256": "b4b2d05739e9a7300dd8b42d64a5fa61a610da9a808893be6ac946b00ed09315",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_fcu.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_glare.ac",
+      "scope": "aircraft",
+      "bytes": 488431,
+      "sha256": "21b3266cd70a0ae1323dd79705f2da8dfd8478b23163ece414020d09f6e738fe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_glare.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_hud.ac",
+      "scope": "aircraft",
+      "bytes": 594648,
+      "sha256": "f64be20da6d98546b1ecf4d43c1c11082b332a57a532815a304f31538f6fe78e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_hud.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_inner.ac",
+      "scope": "aircraft",
+      "bytes": 1583071,
+      "sha256": "fe9e1cbca534c5677b39bf6ae656e0b7f0a2a7219d0fd13c492e964ab0599205",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_inner.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_misc.ac",
+      "scope": "aircraft",
+      "bytes": 120752,
+      "sha256": "cfef57c74ddb36c1c74fea10d9159c5657301d5d44ed2efc1cb817b2bac1e658",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_misc.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_ohp.ac",
+      "scope": "aircraft",
+      "bytes": 3501986,
+      "sha256": "ad1cbd679d8feb43c01737cd902b8b2880dada61084e48ed51b83ee502cbf91d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_ohp.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_panel.ac",
+      "scope": "aircraft",
+      "bytes": 675746,
+      "sha256": "e136206932f4237f4474c97402975ceff8e2f9834cad4832049b0af3583f955c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_panel.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_panel2.ac",
+      "scope": "aircraft",
+      "bytes": 715296,
+      "sha256": "fec10768a99e12eda181ffe2f0829d44a94a7b20e4179937d596123295e48c42",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_panel2.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_pedals.ac",
+      "scope": "aircraft",
+      "bytes": 159160,
+      "sha256": "18b00ffdbdbdb6736c719567706a3ef73c5933392518fa7c1af7bba0b9793557",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_pedals.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_pedestal.ac",
+      "scope": "aircraft",
+      "bytes": 4217893,
+      "sha256": "f082d5911bcb1f802392b625abc3cc30587de3e4117057b9202b7acdb0044a5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_pedestal.ac"
+    },
+    {
+      "path": "Models/FlightDeck/fd_shell.ac",
+      "scope": "aircraft",
+      "bytes": 4660283,
+      "sha256": "37d96df424ab68bc61161808b176a52d9eff286010190e88a31030ef71dad27c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/fd_shell.ac"
+    },
+    {
+      "path": "Models/FlightDeck/firealarm.png",
+      "scope": "aircraft",
+      "bytes": 57437,
+      "sha256": "771065e673d373ba870b24aafcb866ba511889941261227c0da25727a6182c40",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/firealarm.png"
+    },
+    {
+      "path": "Models/FlightDeck/flightdeck.xml",
+      "scope": "aircraft",
+      "bytes": 2381,
+      "sha256": "cc9790b46f1c06e154fb636bc1a3df19534838f46f52999315cde82dde83551c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/flightdeck.xml"
+    },
+    {
+      "path": "Models/FlightDeck/frame.png",
+      "scope": "aircraft",
+      "bytes": 754094,
+      "sha256": "103b658cdc025a63b8c440d767228daab734f71b410024140b97632681b749e1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/frame.png"
+    },
+    {
+      "path": "Models/FlightDeck/gear_ind.png",
+      "scope": "aircraft",
+      "bytes": 33260,
+      "sha256": "c91a2d68a039820f5a81ac6efe4244c54372f8c6968df00b3487321b40a5273d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/gear_ind.png"
+    },
+    {
+      "path": "Models/FlightDeck/glare.xml",
+      "scope": "aircraft",
+      "bytes": 399,
+      "sha256": "e78753cd77ac9fb573464b2b91578ce00725f95ce20c7155ab6fc646e255f92d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/glare.xml"
+    },
+    {
+      "path": "Models/FlightDeck/headset.png",
+      "scope": "aircraft",
+      "bytes": 177807,
+      "sha256": "1548897bdd1c2797c22fcc78d776cecb76073f34321e448920a60fd57ac3fc68",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/headset.png"
+    },
+    {
+      "path": "Models/FlightDeck/hud.png",
+      "scope": "aircraft",
+      "bytes": 1870,
+      "sha256": "9dd8619408e4d7e83b150a7a6f9e535d67830123210b6f901040c4ffdc04db77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/hud.png"
+    },
+    {
+      "path": "Models/FlightDeck/hud.xml",
+      "scope": "aircraft",
+      "bytes": 1750,
+      "sha256": "c40372950704e062a3b3e7d2ce81436b8a0949d31f7500a27a9238a5dbc0d2ad",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/hud.xml"
+    },
+    {
+      "path": "Models/FlightDeck/inner.xml",
+      "scope": "aircraft",
+      "bytes": 5899,
+      "sha256": "ce40edab42e4e6836fe711bf401a71c2ab897f361015616c073ecde051fa5ed2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/inner.xml"
+    },
+    {
+      "path": "Models/FlightDeck/knob.png",
+      "scope": "aircraft",
+      "bytes": 984,
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/knob.png"
+    },
+    {
+      "path": "Models/FlightDeck/mcp_text.png",
+      "scope": "aircraft",
+      "bytes": 19036,
+      "sha256": "143e03d28aa6e3d3f17ddfb63f764a018dec859a4e813beb3acb1fc5ed801ed3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/mcp_text.png"
+    },
+    {
+      "path": "Models/FlightDeck/mcp.png",
+      "scope": "aircraft",
+      "bytes": 1498919,
+      "sha256": "7de3d5fbd22295382bedc5106eed6b86189fa8e878331f874e3f974c265d422d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/mcp.png"
+    },
+    {
+      "path": "Models/FlightDeck/misc.xml",
+      "scope": "aircraft",
+      "bytes": 398,
+      "sha256": "4fa6bc331f0712c36003983e461085b2087b66855d2b52fc97469d0114549946",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/misc.xml"
+    },
+    {
+      "path": "Models/FlightDeck/ohp_buttons_avail.png",
+      "scope": "aircraft",
+      "bytes": 20139,
+      "sha256": "290f0976f0c25c218e798031dc170cc24f33e20a3cd2c15cc62cc5a9c2523a09",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/ohp_buttons_avail.png"
+    },
+    {
+      "path": "Models/FlightDeck/ohp_buttons_avail2.png",
+      "scope": "aircraft",
+      "bytes": 26449,
+      "sha256": "1020a6797396e367bdfe107d31ef7a59480c22438f67162d13f72e5d8e11ce26",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/ohp_buttons_avail2.png"
+    },
+    {
+      "path": "Models/FlightDeck/ohp_buttons.png",
+      "scope": "aircraft",
+      "bytes": 17581,
+      "sha256": "677c4565aaf89f7cca20828f57387f4ee186092ca55503d586e25c6b7bccf102",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/ohp_buttons.png"
+    },
+    {
+      "path": "Models/FlightDeck/ohp.xml",
+      "scope": "aircraft",
+      "bytes": 89936,
+      "sha256": "26da8e0e1453ae9372ac886729f91c65bc19fca3302fc28e0e90c50cb7fed266",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/ohp.xml"
+    },
+    {
+      "path": "Models/FlightDeck/overhead_2.png",
+      "scope": "aircraft",
+      "bytes": 29492,
+      "sha256": "58380298e7b64aeef2e2005f4f12db56bce25957bcfcb3fb2fa839c3dd442693",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/overhead_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/overhead_integ.png",
+      "scope": "aircraft",
+      "bytes": 272240,
+      "sha256": "6914b401bb3c991298a375b8c59275cd74c34af8949d9712dea3173e0588b1b0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/overhead_integ.png"
+    },
+    {
+      "path": "Models/FlightDeck/overhead.png",
+      "scope": "aircraft",
+      "bytes": 1747520,
+      "sha256": "e3e271f92bca77e7a41a3734726bbea0bd82ad3fa7c7da746c6ca5bacd694f80",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/overhead.png"
+    },
+    {
+      "path": "Models/FlightDeck/panel_integ.png",
+      "scope": "aircraft",
+      "bytes": 18728,
+      "sha256": "1487eceb9f3f89c5049759b751764ec5517a68364d89de4e9b7a7c694d4df669",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/panel_integ.png"
+    },
+    {
+      "path": "Models/FlightDeck/panel.xml",
+      "scope": "aircraft",
+      "bytes": 8632,
+      "sha256": "27e4f75a3d248df18714e179ae9a83aeb9f23f0d78f72a9b1985523751911492",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/panel.xml"
+    },
+    {
+      "path": "Models/FlightDeck/pedals.xml",
+      "scope": "aircraft",
+      "bytes": 1703,
+      "sha256": "814c9a3b9bd67c20840cc1149ef06de2b14c71be2b8e501d9f57d8b53d7a0a27",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/pedals.xml"
+    },
+    {
+      "path": "Models/FlightDeck/pedestal.xml",
+      "scope": "aircraft",
+      "bytes": 13977,
+      "sha256": "cc603f113f6dec5c99107c13b8abe6e99d25a42eb380af16ebf813fd55c2e3ae",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/pedestal.xml"
+    },
+    {
+      "path": "Models/FlightDeck/screen.png",
+      "scope": "aircraft",
+      "bytes": 50365,
+      "sha256": "4e7a8c76c557a4f1a729cd2d801b3b4836ad8ad3822fa596acf464d18850bc9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/screen.png"
+    },
+    {
+      "path": "Models/FlightDeck/something.png",
+      "scope": "aircraft",
+      "bytes": 40984,
+      "sha256": "d29ee0ab54b09c8ef711413cb45fce0fb734f15024e1b7b56f4d3a3cd0136840",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/something.png"
+    },
+    {
+      "path": "Models/FlightDeck/stndby.png",
+      "scope": "aircraft",
+      "bytes": 49092,
+      "sha256": "40f357162d2fef9ab400ddccd3c326d0ff222701fed84a6422859bbae4205060",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/stndby.png"
+    },
+    {
+      "path": "Models/FlightDeck/text.png",
+      "scope": "aircraft",
+      "bytes": 41167,
+      "sha256": "3ccea9f81b3888cca13bcbd2467003179a387fe47976d5847ab0df197294dd5b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/text.png"
+    },
+    {
+      "path": "Models/FlightDeck/transparent.png",
+      "scope": "aircraft",
+      "bytes": 1154,
+      "sha256": "ac028c874bd8ca6696c9771a5be48d240886a42afce33eb19c3cb8adaec2d3b7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/FlightDeck/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/atc_request.png",
+      "scope": "aircraft",
+      "bytes": 131019,
+      "sha256": "f5191504a364dd46d855080410b9583d3b0dc73f7bbf8a2e89c5da1d5d5f1be6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/atc_request.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/atccomm.png",
+      "scope": "aircraft",
+      "bytes": 52034,
+      "sha256": "cdd345adc0f82598dec66039e8273bc00d060f0c597d1378f033bd0873a96e4c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/atccomm.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fcubkup.png",
+      "scope": "aircraft",
+      "bytes": 50687,
+      "sha256": "6e925dfb4092a0a41bdbd52e664bd85b8a2945aef23fa9876125de5bb57359bf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fcubkup.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_active_fpln.png",
+      "scope": "aircraft",
+      "bytes": 207355,
+      "sha256": "3fc0ace607ac7688de28d9bc30b220dc8076c8f15383a247f0b4b5dcc328023d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_active_fpln.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_active_fpln2.png",
+      "scope": "aircraft",
+      "bytes": 155915,
+      "sha256": "3143b38f18962809ab4684f5094423510173a56917506863a826b4cf3825f463",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_active_fpln2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_active_fuel&load.png",
+      "scope": "aircraft",
+      "bytes": 176038,
+      "sha256": "2da0dd4debc2b7cad870d6b5ee63b8e803e6d02ad1a2469d05ea8f92d632e97b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_active_fuel&load.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_active_init.png",
+      "scope": "aircraft",
+      "bytes": 152210,
+      "sha256": "e568426b6354ead0e0534e8bd1859ea13129fc1192eecfba800e15c51b6832b6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_active_init.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_active_perf.png",
+      "scope": "aircraft",
+      "bytes": 159135,
+      "sha256": "ef01d72ebf2959fd6bb8fbe14fecb1638acf16cea9018e87ac0f9e6f579c3564",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_active_perf.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/fms_position_navaids.png",
+      "scope": "aircraft",
+      "bytes": 112627,
+      "sha256": "549272f0a33010c2c226881b010d4b527eb68be2c18d0f376456540f408e0cfe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/fms_position_navaids.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/surv_controls.png",
+      "scope": "aircraft",
+      "bytes": 149440,
+      "sha256": "781f2f783a5973a8aff8ce5bd2b4342c707b10fb4796469a40a7f35c16648042",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/surv_controls.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/static_images/surv_status.png",
+      "scope": "aircraft",
+      "bytes": 107302,
+      "sha256": "82e4f4c1a8ebf505162671899e997fc418a151d5c20a499449f976018fea774e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/static_images/surv_status.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/widgets.xml",
+      "scope": "aircraft",
+      "bytes": 687,
+      "sha256": "ca2d19dc0087e1114ae1a99ad6e876c6f0b86983d7095770d2a0f1c88f97f20c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/MFD/widgets.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/api_key.xml",
+      "scope": "aircraft",
+      "bytes": 159,
+      "sha256": "d4ca2bac018012b439ddfd94e94d2d4923c0a215b6edf8df6cdf0f8a8e452ac5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/api_key.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/res/A320neo_symbols.png",
+      "scope": "aircraft",
+      "bytes": 23985,
+      "sha256": "eb07645571aea0dea071ba3a230a7f63554bd2d6dab4ffcbe0df937351fe0136",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/A320neo_symbols.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/airbus_symbols.png",
+      "scope": "aircraft",
+      "bytes": 14814,
+      "sha256": "59c9e0857e2eabeca1b935bea494fc42b515a7e18a221f00ae68a4a54ec988c1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/airbus_symbols.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/black.png",
+      "scope": "aircraft",
+      "bytes": 135,
+      "sha256": "bc03dd863f993d6f38a21585a05b5b25db7082f6868abfa8de4b58950d776be0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/black.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/hsi2a.png",
+      "scope": "aircraft",
+      "bytes": 22140,
+      "sha256": "0e339b907f7236d10924314be90ae55a6e198f12da6a47435c6a3cd79e619e18",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/hsi2a.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/hsiarc.png",
+      "scope": "aircraft",
+      "bytes": 33184,
+      "sha256": "997491a1c982a7ceea2e7128bfbf78304f82b2238303545bde4d0782935d2eb2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/hsiarc.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/Main_Displays.png",
+      "scope": "aircraft",
+      "bytes": 5720528,
+      "sha256": "f4a0258848958bdb2e723399095b62ec2b0aba5c5d2bed4534564ff6fa5a68bf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/Main_Displays.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/mask.png",
+      "scope": "aircraft",
+      "bytes": 3999,
+      "sha256": "8727e4ce6aca001c75467dd4c7a42c7251064e57660be8eb591350a566922e27",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/mask.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/maskfull.png",
+      "scope": "aircraft",
+      "bytes": 10155,
+      "sha256": "3fabf5bb6147b8d4ddec1efc16e12a173bb457c54df6edc2a14aa8c40d9a6daa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/maskfull.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/nd-empty.ac",
+      "scope": "aircraft",
+      "bytes": 26,
+      "sha256": "6c419cffa7229fefe50bb1c57783f97afc89f19a0386f6eeb34aa950813c03cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/nd-empty.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/res/ND.ac",
+      "scope": "aircraft",
+      "bytes": 873,
+      "sha256": "222093a25f948e7a361a2b6db4e204ccd37f6d801ec8a9b5940ae584602a1569",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/ND.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/res/od_wxradar.png",
+      "scope": "aircraft",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/od_wxradar.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/screen.png",
+      "scope": "aircraft",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/screen.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/symbols.png",
+      "scope": "aircraft",
+      "bytes": 44555,
+      "sha256": "6f672159d3f00ffc4043ff24a850a5052d1fa83ee205f26d69c40730636ffbbb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/terrain-gradient.png",
+      "scope": "aircraft",
+      "bytes": 552,
+      "sha256": "ea61128894187299b671c0ea92f29e89035f1f56a7cba695c969887cc9e30b9f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/terrain-gradient.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/terrain-map-pixel.ac",
+      "scope": "aircraft",
+      "bytes": 298104,
+      "sha256": "6f6f6928cdc251bf84e9918d783ec5aa3d324416b8f3c0bb2810a71370e2d35e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/terrain-map-pixel.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/res/transparent.png",
+      "scope": "aircraft",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/ND/res/wxecho.png",
+      "scope": "aircraft",
+      "bytes": 4069,
+      "sha256": "6fadb1893c7529328b8869ac49ffc59d36189bf344309ead152acf7297724a07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/ND/res/wxecho.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/a380.png",
+      "scope": "aircraft",
+      "bytes": 3951,
+      "sha256": "2309125485be9feda957d279ed70ab5e68486ac88d666cc2f0a8381a5c514617",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/a380.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/alt-tape-2.png",
+      "scope": "aircraft",
+      "bytes": 1995,
+      "sha256": "4f74cab1afa65d703cad03d4a0e2aa98c2887d7546b30d015ee23ce639a01f62",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/alt-tape-2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/alt-tape.png",
+      "scope": "aircraft",
+      "bytes": 8734,
+      "sha256": "6e457b622f181f7199363428abe8edf89a9e9394e41eb6331caae21a66361a37",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/autoland.png",
+      "scope": "aircraft",
+      "bytes": 3917,
+      "sha256": "1b1f95a3a3bf7f1c7b44634e1768755c88024e4a1e25de65289ec4fdc8a6354a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/autoland.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/hdg-tape.png",
+      "scope": "aircraft",
+      "bytes": 23828,
+      "sha256": "067ece86b5a56d5cff3e7a0c2caa8ffe2e25dac04c6e2f408a7fd3607371cbad",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/hdg-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/horizon.png",
+      "scope": "aircraft",
+      "bytes": 171607,
+      "sha256": "9ecbe11834abaf99bb8fa0d64e531d9cda4b4e72a01a3b267b61cc554589d825",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/horizon.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/mask.png",
+      "scope": "aircraft",
+      "bytes": 9621,
+      "sha256": "69f825950f6aeadf9a63190c498371ae9d928d7398cddbb608923a050b6ac521",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/mask.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfd-3d.ac",
+      "scope": "aircraft",
+      "bytes": 20912,
+      "sha256": "cf1247fc228daf04bd05708813feecbefe329f09100eb260bfceae5570971566",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/pfd-3d.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.xml",
+      "scope": "aircraft",
+      "bytes": 29850,
+      "sha256": "3ff75b4f175f65542eb4dfd676456c03f1ecf5697ad071ee7066359129f97807",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/spd-tape.png",
+      "scope": "aircraft",
+      "bytes": 35772,
+      "sha256": "f60e0524a34d25a95ea2b3d194e80f89c0ce7647f6392b6716490a405aec5dc6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/spdtrend.png",
+      "scope": "aircraft",
+      "bytes": 6263,
+      "sha256": "730827e16bfc9932783603a54f405c95c965a4a1787b2939e7b1ffca623f1912",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/spdtrend.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/symbols.png",
+      "scope": "aircraft",
+      "bytes": 17514,
+      "sha256": "fa370532562c01f70bd74411f02a8e691f95110086c738dc2f8a916b4df199b5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/PFD/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/SD/fctl/background.png",
+      "scope": "aircraft",
+      "bytes": 14102,
+      "sha256": "79331592630f1ffe10b995a5ce52a509b35fa03ae81a97037961587480a3e292",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/fctl/background.png"
+    },
+    {
+      "path": "Models/Instruments/SD/fuel/engine_l.png",
+      "scope": "aircraft",
+      "bytes": 4059,
+      "sha256": "d4afd252f0d38e63fd697814b4c87eaf8e7d24e244311f2d58506d0dd3f52088",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/fuel/engine_l.png"
+    },
+    {
+      "path": "Models/Instruments/SD/fuel/engine_r.png",
+      "scope": "aircraft",
+      "bytes": 4107,
+      "sha256": "791a0a3a2aa33a23b1c79abeb7f92f930e75040dd87c3e23f9504bdcc783a954",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/fuel/engine_r.png"
+    },
+    {
+      "path": "Models/Instruments/SD/hyd/engine.png",
+      "scope": "aircraft",
+      "bytes": 16303,
+      "sha256": "732b4a3fe6266ec3989b46e47f04dce92db6fe919980417e3595e60ffcf809a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/hyd/engine.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/apu.png",
+      "scope": "aircraft",
+      "bytes": 54726,
+      "sha256": "9371953a0f140fcbb7b0ad65eaf9338631df1ab602d7271f30a509f3b4967fe4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/apu.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/elec_ac.png",
+      "scope": "aircraft",
+      "bytes": 114548,
+      "sha256": "0bbd0c4165ae954404b188ce99ff77a9c6ab61685d4749b320c940edf935ab44",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/elec_ac.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/elec_dc.png",
+      "scope": "aircraft",
+      "bytes": 125025,
+      "sha256": "a0f555b18e4e54395455e717d3b49312bc81dab4bf30137905d7823cb9da2ab7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/elec_dc.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/engine.png",
+      "scope": "aircraft",
+      "bytes": 151332,
+      "sha256": "e94bf8302337e0c22a3f82737657abe04b1d5752cae0a4c2ef3c82d2d3814780",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/engine.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/fctl.png",
+      "scope": "aircraft",
+      "bytes": 116806,
+      "sha256": "c71bc84af0c1849aa20b615074f285958fae30655e7b7451f64c293f348de375",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/fctl.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/fuel.png",
+      "scope": "aircraft",
+      "bytes": 197495,
+      "sha256": "164eff48212867dae78a18e56294aec9e4f1999286075fad32d33de20a10c9d7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/fuel.png"
+    },
+    {
+      "path": "Models/Instruments/SD/static_images/hyd.png",
+      "scope": "aircraft",
+      "bytes": 113338,
+      "sha256": "11c1d186a0d2ed46ee8e178c47b9f7763bc5c8b25a1e128646986df1db8e6020",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/Instruments/SD/static_images/hyd.png"
+    },
+    {
+      "path": "Models/landing-gears.png",
+      "scope": "aircraft",
+      "bytes": 203618,
+      "sha256": "d3336a1e4e5db57836817464567f2b422ef678f811cb56e109768779a1b1fb9a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/landing-gears.png"
+    },
+    {
+      "path": "Models/rr_fan.png",
+      "scope": "aircraft",
+      "bytes": 105186,
+      "sha256": "8de96bebf8d6bacf02c41440ce62fa6fe5a42fb2b3ed5074b2ca0f630368f6b7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/rr_fan.png"
+    },
+    {
+      "path": "Models/tail.png",
+      "scope": "aircraft",
+      "bytes": 247236,
+      "sha256": "95dae38de3feee9c3aff2f3abaafb018039fc2dfeb9813dea0e90ebbfb0a3004",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/tail.png"
+    },
+    {
+      "path": "Models/trent900.ac",
+      "scope": "aircraft",
+      "bytes": 1202476,
+      "sha256": "eff3be9aa972d15b5e4ecf52796b09c2ad62b383cd8017f125f9829f4bdc3445",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/trent900.ac"
+    },
+    {
+      "path": "Models/trent900.xml",
+      "scope": "aircraft",
+      "bytes": 2228,
+      "sha256": "90503d580f8c46da86ef2f90fd52188f195465740262382bf361bfd9df9c201f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/trent900.xml"
+    },
+    {
+      "path": "Models/wheels.png",
+      "scope": "aircraft",
+      "bytes": 1114916,
+      "sha256": "0dc01308f2cd82c0bb4745c74f48fedf4ca42c8d4370741afe16005fefef9454",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/wheels.png"
+    },
+    {
+      "path": "Models/wing.png",
+      "scope": "aircraft",
+      "bytes": 681505,
+      "sha256": "65e9789bffa7038a5121f3637229dd48c7f8013cceacd0d0620ec8a382d8e6fe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/Models/wing.png"
+    },
+    {
+      "path": "README.md",
+      "scope": "aircraft",
+      "bytes": 5136,
+      "sha256": "17aa08fcca385ac95b41061fe40590aa9919760e191ece73f0f2922e440a7f76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380-omega/0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b/README.md"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A380-omega",
+    "commit": "0d1e6ad7e33853a9eb94e2f590cdb86411fb5c2b",
+    "entry": "Models/FlightDeck/flightdeck.xml",
+    "sourceDirectory": "a380-omega-source",
+    "viewpoint": {
+      "source": "A380-common.xml",
+      "position": [
+        -0.54,
+        -1.597,
+        -19.53
+      ],
+      "pitchDeg": -5.73,
+      "fovDeg": 90
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 90,
+      "lookPitch": -0.10000736613927509
+    },
+    "parentTransformChain": [
+      {
+        "source": "Aircraft model root / cockpit mount",
+        "transform": {
+          "x-m": -30,
+          "z-m": -8.7
+        }
+      },
+      {
+        "source": "Aircraft model cockpit mount",
+        "transform": {
+          "x-m": 10.48,
+          "y-m": -0.02,
+          "z-m": 6.9
+        }
+      }
+    ]
+  }
+}

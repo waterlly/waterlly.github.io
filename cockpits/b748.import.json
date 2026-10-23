@@ -1,0 +1,2080 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b748.glb",
+  "bytes": 6343308,
+  "triangles": 60171,
+  "nodes": 89,
+  "meshes": 69,
+  "images": 27,
+  "instruments": [
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_engine_2",
+      "kind": "engine"
+    },
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    }
+  ],
+  "omittedNodes": [
+    {
+      "name": "eicas-lower",
+      "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_elec.xml",
+      "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
+      "reason": "Explicit non-cockpit submodel exclusion."
+    },
+    {
+      "name": "eicas-lower",
+      "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_fuel.xml",
+      "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
+      "reason": "Explicit non-cockpit submodel exclusion."
+    },
+    {
+      "name": "eicas-lower",
+      "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_gear.xml",
+      "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
+      "reason": "Explicit non-cockpit submodel exclusion."
+    }
+  ],
+  "sourceMeshes": 1052,
+  "drawGroups": 69,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/cockpit.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/yokes.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/yokes.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EFB/EFB.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/overhead.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/overhead.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/seats.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/seats.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/pedestal.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/pedestal.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/cdu/boeing.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/boeing.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/display-text-value.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/forward.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/forward.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EICAS/eicas_eng.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EICAS/eicas_eng.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EICAS/flap-gear.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EICAS/flap-gear.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/display-number.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/null.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/display-text.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/PFD/PFD3d.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/PFD/PFD3d.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/chronometer/chronometer.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/chronometer/chronometer.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-ai.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-ai.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-asi.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-asi.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-alt.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/stby-alt.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/glareshield.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/glareshield.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/mag-compass.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/Instruments/mag-compass.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "747-8-main.xml",
+    "position": [
+      -0.53,
+      3.91048,
+      -28
+    ],
+    "pitchDeg": -12,
+    "fovDeg": 75
+  },
+  "viewerLookPitchDeg": -12,
+  "viewerFov": 75,
+  "sourceFiles": [
+    {
+      "path": "747-8-f-set.xml",
+      "scope": "aircraft",
+      "bytes": 9617,
+      "sha256": "d4d5487cbab9040b45b7a19c468feabed385228811f149e32c7d07a1851f41b8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/747-8-f-set.xml"
+    },
+    {
+      "path": "747-8-f-yasim.xml",
+      "scope": "aircraft",
+      "bytes": 11645,
+      "sha256": "79aa7d3eca57ffaa8efe350faf50e14075d7402383ea5477a90b11bb77d65297",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/747-8-f-yasim.xml"
+    },
+    {
+      "path": "747-8-main.xml",
+      "scope": "aircraft",
+      "bytes": 29456,
+      "sha256": "430afaca7a7fdd935d13e930eb894b469c55192196555c9b84d193a8b9fc4161",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/747-8-main.xml"
+    },
+    {
+      "path": "747-8-set.xml",
+      "scope": "aircraft",
+      "bytes": 10290,
+      "sha256": "7014e4bf36b2c1cf92c219a8f398574292a343b978a09b99df55f69484ad528c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/747-8-set.xml"
+    },
+    {
+      "path": "747-8-yasim.xml",
+      "scope": "aircraft",
+      "bytes": 11787,
+      "sha256": "de08799e8d8ed4acadd83e9027df9e1eb1ad4244c3bdf5f15aa181ae2005ada7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/747-8-yasim.xml"
+    },
+    {
+      "path": "LICENSE",
+      "scope": "aircraft",
+      "bytes": 18026,
+      "sha256": "39db8f9acf036595a2566ea3fe560bc7bd65d8749f088e0f4a4ef2f8a6cb4b34",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/LICENSE"
+    },
+    {
+      "path": "Models/747-8.ac",
+      "scope": "aircraft",
+      "bytes": 2223133,
+      "sha256": "ad027b5385a9c675d30b385d4b175d72d61d1435c850a0552228230469887da6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8.ac"
+    },
+    {
+      "path": "Models/747-8.xml",
+      "scope": "aircraft",
+      "bytes": 68113,
+      "sha256": "0287fab7774bfd0b0b2be2ef52dd969f1b87e4bb42307f974d3b83361364af7d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8.xml"
+    },
+    {
+      "path": "Models/747-8(F).ac",
+      "scope": "aircraft",
+      "bytes": 1754625,
+      "sha256": "653eeeec04c04bfe41e8ea028c001e4982a2bc4e92d3cd02c80dfbaa48790805",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8(F).ac"
+    },
+    {
+      "path": "Models/747-8(F).xml",
+      "scope": "aircraft",
+      "bytes": 65788,
+      "sha256": "04ab2d0ad6d59b6fd2aaa41b802992a8f0248bd6e8018635959cd4aa254b477a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8(F).xml"
+    },
+    {
+      "path": "Models/747-8F-fo.xml",
+      "scope": "aircraft",
+      "bytes": 288,
+      "sha256": "98681f42b96db413b33111f6e8cf02c4ad82d790a2c67fa0bf835a179697e064",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8F-fo.xml"
+    },
+    {
+      "path": "Models/747-8i_gear_t.png",
+      "scope": "aircraft",
+      "bytes": 35652,
+      "sha256": "5c40b78fe5ec4a9c2389b2749e2e947cfb463f4d3d8868830264a61aeb260817",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_gear_t.png"
+    },
+    {
+      "path": "Models/747-8i_gear.ac",
+      "scope": "aircraft",
+      "bytes": 870429,
+      "sha256": "9570957cc62f0ac31a15cf2a8f716b358e20a933f085190c64edef0db08944e3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_gear.ac"
+    },
+    {
+      "path": "Models/747-8i_gear.xml",
+      "scope": "aircraft",
+      "bytes": 23210,
+      "sha256": "37b20b3a71fb1009b761b33983e39f8cdff463295f45e90073766b21fb7f8f11",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_gear.xml"
+    },
+    {
+      "path": "Models/747-8i_tire1.png",
+      "scope": "aircraft",
+      "bytes": 13512,
+      "sha256": "fc53cafdf5c6b3cfe9c8715fb063657f5b44bbd3795c79b320d49b51fc80fad7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_tire1.png"
+    },
+    {
+      "path": "Models/747-8i_tire2.png",
+      "scope": "aircraft",
+      "bytes": 13412,
+      "sha256": "e05516ed9e25c654f4e2660dd0bb048045cd0c4c963e5560bdf8e18c7046e65a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_tire2.png"
+    },
+    {
+      "path": "Models/747-8i_tire3.png",
+      "scope": "aircraft",
+      "bytes": 1493,
+      "sha256": "496e9edd8bf8161d67029cdc970399ab8bd8e15d8f878f65bbd6d69f56c6ef35",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i_tire3.png"
+    },
+    {
+      "path": "Models/747-8i-fo.xml",
+      "scope": "aircraft",
+      "bytes": 288,
+      "sha256": "98681f42b96db413b33111f6e8cf02c4ad82d790a2c67fa0bf835a179697e064",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/747-8i-fo.xml"
+    },
+    {
+      "path": "Models/carpet.png",
+      "scope": "aircraft",
+      "bytes": 28257,
+      "sha256": "63ef476a0b8519efc4f220afc5f87282932fa17f543e9ab0c9c13cf86937ba7f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/carpet.png"
+    },
+    {
+      "path": "Models/chrome1.png",
+      "scope": "aircraft",
+      "bytes": 6058,
+      "sha256": "c7ec00f81564d39977055c4a379c794f9afff2756c344383899cb2dd7f36afd2",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/chrome1.png"
+    },
+    {
+      "path": "Models/cockpit.png",
+      "scope": "aircraft",
+      "bytes": 135711,
+      "sha256": "807938ebdc4173cb7b7d83295690e8c565b8ec1e843f3e53ea7a69d678a5b5b3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/cockpit.png"
+    },
+    {
+      "path": "Models/Cockpit/ap_panel.png",
+      "scope": "aircraft",
+      "bytes": 254011,
+      "sha256": "f7c3ecfcf320a9c863ae13c766b1d5b1f0db1871e92b9cf7504997b7b2c76554",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/ap_panel.png"
+    },
+    {
+      "path": "Models/Cockpit/APDigits.png",
+      "scope": "aircraft",
+      "bytes": 54370,
+      "sha256": "b9b2d97fcc13c22951a8215460d92916522241b32c40756e383af0331c4c3149",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/APDigits.png"
+    },
+    {
+      "path": "Models/Cockpit/autopilot_panel_efis.png",
+      "scope": "aircraft",
+      "bytes": 3993,
+      "sha256": "57c7d29c9f89cab0f9c47ec22d84eb601798c20fdb1e9be2c40e1cf91886cf4b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/autopilot_panel_efis.png"
+    },
+    {
+      "path": "Models/Cockpit/autopilot_panel_eicas.png",
+      "scope": "aircraft",
+      "bytes": 2080,
+      "sha256": "13626c7d88e3b6f801f543004a49fab421cb2f7b47cce83c4c996faf6cdf6115",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/autopilot_panel_eicas.png"
+    },
+    {
+      "path": "Models/Cockpit/carpet.png",
+      "scope": "aircraft",
+      "bytes": 28257,
+      "sha256": "63ef476a0b8519efc4f220afc5f87282932fa17f543e9ab0c9c13cf86937ba7f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/carpet.png"
+    },
+    {
+      "path": "Models/Cockpit/cockpit.xml",
+      "scope": "aircraft",
+      "bytes": 1436,
+      "sha256": "57d8adec3cebfb2c87cac965cfce9ebbe333701c0144035637af41d941c338d5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/cockpit.xml"
+    },
+    {
+      "path": "Models/Cockpit/couro_marrom.png",
+      "scope": "aircraft",
+      "bytes": 105022,
+      "sha256": "4449f32b5886d03d310206b3a290a9d8babf9e4575a8ac440579d8708c7fbdf9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/couro_marrom.png"
+    },
+    {
+      "path": "Models/Cockpit/crt_capt.png",
+      "scope": "aircraft",
+      "bytes": 7771,
+      "sha256": "93f4936aa50697d4625e24ca1095ec978dac5a59965dc734af9b414461567b84",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/crt_capt.png"
+    },
+    {
+      "path": "Models/Cockpit/crt_fd.png",
+      "scope": "aircraft",
+      "bytes": 7757,
+      "sha256": "90007c53db40a12f001913aa5bcadabf314cb29064f41e050172e06faeea3d76",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/crt_fd.png"
+    },
+    {
+      "path": "Models/Cockpit/digits.png",
+      "scope": "aircraft",
+      "bytes": 12231,
+      "sha256": "919e26cffd369edc9f00ecae19ed76e4a7ff76bae2282b6a8b0fdf97b2d556c9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/digits.png"
+    },
+    {
+      "path": "Models/Cockpit/display-number.xml",
+      "scope": "aircraft",
+      "bytes": 1827,
+      "sha256": "16a7bcff090e82b13fa573e6477c7a762edeb9b1262d4ec7c194cd3a1fb14709",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/display-number.xml"
+    },
+    {
+      "path": "Models/Cockpit/display-text-value.xml",
+      "scope": "aircraft",
+      "bytes": 1807,
+      "sha256": "2e381829c95061f56a5675848b0c6697b03b309a6738b58429ca02181456e62d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/display-text-value.xml"
+    },
+    {
+      "path": "Models/Cockpit/display-text.xml",
+      "scope": "aircraft",
+      "bytes": 1745,
+      "sha256": "abc5509a821a25f0afef7dd9915b27a96430eab19deb21cfc8f12cc0b928a5e5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/display-text.xml"
+    },
+    {
+      "path": "Models/Cockpit/EFISctl.png",
+      "scope": "aircraft",
+      "bytes": 95290,
+      "sha256": "48b98700b2cfe8c32de5fb70f3db8d96a227c3e32984256b6f3d23bc1aa7276b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/EFISctl.png"
+    },
+    {
+      "path": "Models/Cockpit/eicas_panel.png",
+      "scope": "aircraft",
+      "bytes": 1901,
+      "sha256": "759cdef6dda2fb1ced2703466731de75ca8de1964b85770a093ade0ce37e04de",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/eicas_panel.png"
+    },
+    {
+      "path": "Models/Cockpit/eicas_upper.png",
+      "scope": "aircraft",
+      "bytes": 21062,
+      "sha256": "a0f0294c1501733dc1b22a2de0050de5478ee89a0e59060e8fc23dc33ba049a9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/eicas_upper.png"
+    },
+    {
+      "path": "Models/Cockpit/flap.png",
+      "scope": "aircraft",
+      "bytes": 711,
+      "sha256": "6ed0d8494c88dd836a72430fb7578c9dec0c92f8103d9bfa867ea7765e95f87c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/flap.png"
+    },
+    {
+      "path": "Models/Cockpit/forward.ac",
+      "scope": "aircraft",
+      "bytes": 882966,
+      "sha256": "3646af9a8515d749361b61b946e3d745fbfd58017a8b355c5728d4256ea856f6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/forward.ac"
+    },
+    {
+      "path": "Models/Cockpit/forward.png",
+      "scope": "aircraft",
+      "bytes": 1953114,
+      "sha256": "a5e9b36580d9a51ccc304724436511f3d09a011ef2549e753afcdc41953d7b0e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/forward.png"
+    },
+    {
+      "path": "Models/Cockpit/forward.xml",
+      "scope": "aircraft",
+      "bytes": 12807,
+      "sha256": "5a7799d70c52c472e87962549e306e962a4bee462e8b5b419d0f4c7da5b30b75",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/forward.xml"
+    },
+    {
+      "path": "Models/Cockpit/glareshield_lit.png",
+      "scope": "aircraft",
+      "bytes": 45924,
+      "sha256": "24b3623e06a5a27b1b734dfa9fc3ccc6f13b71f9d5a94ac2a90670abcf231288",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/glareshield_lit.png"
+    },
+    {
+      "path": "Models/Cockpit/glareshield_switches.png",
+      "scope": "aircraft",
+      "bytes": 33213,
+      "sha256": "8337813f68fa3d9d1a33600af53ababaa4ab4a317f41b44228077bcde9aa4dda",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/glareshield_switches.png"
+    },
+    {
+      "path": "Models/Cockpit/glareshield.ac",
+      "scope": "aircraft",
+      "bytes": 344253,
+      "sha256": "effba11d09fd80433017d1f20442495521d5d896dcdaa242948e0eb38e0dde49",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/glareshield.ac"
+    },
+    {
+      "path": "Models/Cockpit/glareshield.xml",
+      "scope": "aircraft",
+      "bytes": 58319,
+      "sha256": "d571001abf6069ae0caa05bfa6a35198d90189de18b09f84e03f216601f3a6e6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/glareshield.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/annun.rgb",
+      "scope": "aircraft",
+      "bytes": 82253,
+      "sha256": "c4aafc190839c770fdb0966c63140dc632f55f197c153fdcc3ebcee29af4816d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/annun.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/arc.rgb",
+      "scope": "aircraft",
+      "bytes": 25183,
+      "sha256": "315880fb528b9667c4619988bf9f25f692b86720935bf63f1289994a85b09b3d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/arc.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/asi-face-1.rgb",
+      "scope": "aircraft",
+      "bytes": 49756,
+      "sha256": "b69a2ea823b45566ad94d131dc3c3ca605dad2af57d99cbe3481c79080d57949",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/asi-face-1.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/ati.png",
+      "scope": "aircraft",
+      "bytes": 43236,
+      "sha256": "7876b39872f292999be1eacc0979585fdf89ce4407f1bbf2caf429a1274cf0ea",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/ati.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/autopilot-panel.xml",
+      "scope": "aircraft",
+      "bytes": 35502,
+      "sha256": "4a215e9014bff465dbc2fb239f515150e6e2ad66b087215fb037512dd2610e9a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/autopilot-panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/cdu/boeing.xml",
+      "scope": "aircraft",
+      "bytes": 40475,
+      "sha256": "077b38de3f6abc7c939f93b1f3f7894b2b567faa3a8b5ae841356e73a0257d7d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/cdu/boeing.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/digits.rgb",
+      "scope": "aircraft",
+      "bytes": 38695,
+      "sha256": "de839daafc388f68eb6f7cc3eae072684052d655cac9ad0fca69e4427911c935",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/digits.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EFB/airport-display.xml",
+      "scope": "aircraft",
+      "bytes": 552,
+      "sha256": "7d3ef071710feb54460787a51f6cb0196baca8194491e33cf8ad7d1fdb73ee9d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EFB/airport-display.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EFB/chart.xml",
+      "scope": "aircraft",
+      "bytes": 635,
+      "sha256": "24988f17691d5bfca44dfbedac42e37d86d50fafb33100a82154781b8f5ea49e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EFB/chart.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EFB/charttext.xml",
+      "scope": "aircraft",
+      "bytes": 2762,
+      "sha256": "e48a0297f84421429e3aa6e2ce9659642d58c6ce48cf01efc17b0b97ba239064",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EFB/charttext.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EFB/EFB.xml",
+      "scope": "aircraft",
+      "bytes": 576,
+      "sha256": "9c1891a3a02f5a613ac0e7a6c73b9c5e1233dc1098348347e1a740a5e08f8b39",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EFB/EFB.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EFB/transparent.png",
+      "scope": "aircraft",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EFB/transparent.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/efis.rgb",
+      "scope": "aircraft",
+      "bytes": 110548,
+      "sha256": "83b3ebd56c28f657218723935937b7b1a3126558556dbc7a7b6624804090f72e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/efis.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/eicas_eng.ac",
+      "scope": "aircraft",
+      "bytes": 15010,
+      "sha256": "aea64467e98cb4e1ac55dac82fe18064a0b3fc880571170a287592ffc5e6a99c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/eicas_eng.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/digits.png",
+      "scope": "aircraft",
+      "bytes": 38797,
+      "sha256": "e036fb033814b024d6a9a81a73edd3c4790ba4755dbdb44e5a393e73d132dd21",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/digits.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/efis.png",
+      "scope": "aircraft",
+      "bytes": 42245,
+      "sha256": "73bd37e9373c35ed6561442dfebfc8cba11df4be8fa8ed8514e511a0b817cdd1",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/efis.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_elec.ac",
+      "scope": "aircraft",
+      "bytes": 15699,
+      "sha256": "cd56c56b230013e3a3684f9a5ec8b6a5ff76e94b9b4bce047afbc1c5a0e0664d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_elec.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_elec.png",
+      "scope": "aircraft",
+      "bytes": 49914,
+      "sha256": "4b9e412a388d261c3ee1001ea46223e7a85e57ef03fa527c4412fbd225a881ba",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_elec.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_elec.xml",
+      "scope": "aircraft",
+      "bytes": 7150,
+      "sha256": "903332c19a0e9ced94a4e12e36023564ef54294806522580df457720a5f050b8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_elec.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_eng.ac",
+      "scope": "aircraft",
+      "bytes": 10262,
+      "sha256": "487c8bd8eaf0eec2332f57936929f71f5ef2ecbc9cc2d049b66c466adebee4b4",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_eng.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_eng.png",
+      "scope": "aircraft",
+      "bytes": 37740,
+      "sha256": "706f37332fa807e895d2b8d9346050ef7e421ff9a113d4d31400a8c1ebf5a6a6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_eng.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_eng.xml",
+      "scope": "aircraft",
+      "bytes": 30182,
+      "sha256": "5d5481fd084c62463cd58b67b33c0b471b5078d1ae99da82c5925d5f6e950e00",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_eng.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_fuel.ac",
+      "scope": "aircraft",
+      "bytes": 17093,
+      "sha256": "09776179700d251f31f61aa5ac284c85890a4233d92d057c6bb56056dae1bc7e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_fuel.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_fuel.png",
+      "scope": "aircraft",
+      "bytes": 15280,
+      "sha256": "da00142882add56c93d9e02dfd157587645f45cc87c19b66ec3c770d7498a08b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_fuel.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_fuel.xml",
+      "scope": "aircraft",
+      "bytes": 15898,
+      "sha256": "7accb2f8a613ebea9d39c6fc0ed5252d0430b8a942459f7729e6db7f8829d072",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_fuel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_gear.ac",
+      "scope": "aircraft",
+      "bytes": 2773,
+      "sha256": "71af7a2cfa203898c586951afee8b66c43d87f4c0af456b0e5305ad3aaee4720",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_gear.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_gear.png",
+      "scope": "aircraft",
+      "bytes": 16377,
+      "sha256": "9df9ae1174d4fffea76847f019811f924606f273d248bed29423a9dd1d2eb81b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_gear.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas_gear.xml",
+      "scope": "aircraft",
+      "bytes": 2484,
+      "sha256": "a4dddf05be6159531cdf43ddf009e7ff5adfbc94accceef4e00b2e4ebf4fc600",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas_gear.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
+      "scope": "aircraft",
+      "bytes": 921,
+      "sha256": "9aa155e6c2bf0f7e5590279b05fae6a53334539cf9963fa12e5877ec59cd5359",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas-lower.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas-text-panel.xml",
+      "scope": "aircraft",
+      "bytes": 369,
+      "sha256": "99aeb3ff25fd6d358f0641b6631d896278d5ca800754fdcb06f84354054b0268",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas-text-panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas-upper.xml",
+      "scope": "aircraft",
+      "bytes": 10627,
+      "sha256": "5a40885c5e204749c96c1acda9a7616ec8f98de1da173c6ac857b6e4e20661db",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas-upper.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/eicas.png",
+      "scope": "aircraft",
+      "bytes": 9627,
+      "sha256": "56217bf5bb31d886a878d9846a0eb085788ad0e7174a827996c2dac135743e86",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/eicas.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/flap-gear.ac",
+      "scope": "aircraft",
+      "bytes": 12173,
+      "sha256": "e88d98e9b540492bd85b296079ec4a654086030c66472f04a393190f3755443f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/flap-gear.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/flap-gear.xml",
+      "scope": "aircraft",
+      "bytes": 5340,
+      "sha256": "97e90b4dd3a3b959cbb8c23fb858b3cb185852595f97b2b3ba9b148bb2cbb76f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/flap-gear.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/msg.xml",
+      "scope": "aircraft",
+      "bytes": 3296,
+      "sha256": "26f7c28f5ddf230a262a87fbc3773c5099e08b6778726352ac986d67e4ac6a17",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/msg.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/null.ac",
+      "scope": "aircraft",
+      "bytes": 25,
+      "sha256": "3ffdebc85d7910aba155f165e78f74cc7fceeed06ec195fd78675c4d4787544c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/null.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/EICAS/upper.png",
+      "scope": "aircraft",
+      "bytes": 15929,
+      "sha256": "0b5ab735d4bb77c64bd2a5130f08df7e767000b2e04eef2ad46636fbee0f171b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/EICAS/upper.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FDcross.ac",
+      "scope": "aircraft",
+      "bytes": 886,
+      "sha256": "fc83185f5107156aab7b3db29a2ef59fa8a3e5d31bdb22b6b3da65507aeff0b7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FDcross.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FDcross.xml",
+      "scope": "aircraft",
+      "bytes": 1453,
+      "sha256": "bae82e1e23d56956e04fda01f977ef36803f92256bc669282c82533adc4085e7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FDcross.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FMC/FMC.xml",
+      "scope": "aircraft",
+      "bytes": 571,
+      "sha256": "e894acfe757ae2cf3e5081c0624215bf6e8062110715ca1a6200f7b02d0d5f12",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FMC/FMC.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FMC/fmctext.xml",
+      "scope": "aircraft",
+      "bytes": 2762,
+      "sha256": "e48a0297f84421429e3aa6e2ce9659642d58c6ce48cf01efc17b0b97ba239064",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FMC/fmctext.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FMC/text-panel.xml",
+      "scope": "aircraft",
+      "bytes": 378,
+      "sha256": "79ed4ca23f45be8586c200aca39e71b0c816ddd205c5554e4a1b101f8b37f44b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FMC/text-panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/FMC/transparent.png",
+      "scope": "aircraft",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/FMC/transparent.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/lower_eicas.xml",
+      "scope": "aircraft",
+      "bytes": 17387,
+      "sha256": "0fb97a83e15f0906ac7a89d8987e1389bc48fcc5b93205640cacb4e4db0b1f62",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/lower_eicas.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/mag-compass.ac",
+      "scope": "aircraft",
+      "bytes": 8262,
+      "sha256": "3977fd22a1959ea42b02d6f7031f5686ec7dbf6a1eb8a5b2208ee014e4d8463a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/mag-compass.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/mag-compass.png",
+      "scope": "aircraft",
+      "bytes": 6855,
+      "sha256": "5cd36cf550b170d0ac7c7db86b8d14a7298eaae74293bc6d248d06ae5ce57bcf",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/mag-compass.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/mag-compass.xml",
+      "scope": "aircraft",
+      "bytes": 309,
+      "sha256": "5660ccc864a10566f29815eb86bed88db3e0396ae26b26ff0dca830990842896",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/mag-compass.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/nd.ac",
+      "scope": "aircraft",
+      "bytes": 64486,
+      "sha256": "4aad1a50382b0be65541fdc4b585d8bb56d96bcbfd499fe1dbb782b31aa16283",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/nd.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/nd.png",
+      "scope": "aircraft",
+      "bytes": 2857,
+      "sha256": "2b4f545f46304e575982d161a1a2ba37762b42b746b88769666702996c09275b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/nd.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/od_wxradar.rgb",
+      "scope": "aircraft",
+      "bytes": 9308,
+      "sha256": "ab2ee876f2a64d9e4f25de8ecc53eaa7a31cb7effb733890f861cf04d7463a03",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/od_wxradar.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/pfd.ac",
+      "scope": "aircraft",
+      "bytes": 27816,
+      "sha256": "703a9624762a55436fb77ffed0164cc8d1e613870638d255c8c4df7fb44df1ed",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/pfd.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/pfd.xml",
+      "scope": "aircraft",
+      "bytes": 17960,
+      "sha256": "5a21d95906f8a77b81a7963ec848c9292576417d999ee1f59d468ec9bd4f15bc",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/pfd.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/ai.xml",
+      "scope": "aircraft",
+      "bytes": 858,
+      "sha256": "4e7bd371844a81d1f9bfb06ba9281e9ba58fd27fe27206b53fc0acafca7c8336",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/ai.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/alt-tape.png",
+      "scope": "aircraft",
+      "bytes": 232863,
+      "sha256": "d83bf98a486c74f332ddf57b3a3e5295e0e30afcfb4acd02b89e8a0e4c2f2baa",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/alttape.xml",
+      "scope": "aircraft",
+      "bytes": 4710,
+      "sha256": "e75783e91cb7a02b61a5ae3f31370eb207c5761d231bb246c000bc91aa42630a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/alttape.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/ati.png",
+      "scope": "aircraft",
+      "bytes": 66192,
+      "sha256": "206f77638e659e350db5dafd169372a6327e5b91c005ea7748278628aacd2f8e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/ati.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/EFIS.ac",
+      "scope": "aircraft",
+      "bytes": 13083,
+      "sha256": "47148595b8765bd6d56dce95ccdae1ebca1ab76292f0a4b354a856044f99edb8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/EFIS.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/fd.xml",
+      "scope": "aircraft",
+      "bytes": 1377,
+      "sha256": "030cfc41e9d0d23fe5cf5448991a5985f018b521943b086ab88b397396dbd789",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/fd.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/gs-scale.xml",
+      "scope": "aircraft",
+      "bytes": 1325,
+      "sha256": "b1c23dca52837ca8d0e060542263c51315b478099117553bc577a87be406ca42",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/gs-scale.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/hdg.xml",
+      "scope": "aircraft",
+      "bytes": 713,
+      "sha256": "60e984e0d2b502473e28291f0e19169ec6f5e12560011cd61bc8682ce1940164",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/hdg.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/loc-scale.xml",
+      "scope": "aircraft",
+      "bytes": 1119,
+      "sha256": "3dce8aa18235bce5c4999fe765379c521034450e5ebd263db780f8d3948874e0",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/loc-scale.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/mask.xml",
+      "scope": "aircraft",
+      "bytes": 416,
+      "sha256": "6e0baef5711d754ffe0c471519c3e9721ad3b4a518730e3c2a751456210242a7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/mask.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/pfd-panel.xml",
+      "scope": "aircraft",
+      "bytes": 3545,
+      "sha256": "d0b690830053395b70ac62e4141048b5450d9f09f6575ebf3461e8266f8cb938",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/pfd-panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/PFD.xml",
+      "scope": "aircraft",
+      "bytes": 1102,
+      "sha256": "d42853dfbe2de68a2d35c9778ff0027eb35ee9ac9d4629b126b5b0f90adf41af",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/pfd2.png",
+      "scope": "aircraft",
+      "bytes": 44894,
+      "sha256": "dd4c470386ce9c9d81daa1aa4dd94f65aaf74813bdbe4b916db65f3199e3a233",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/pfd2.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/PFD3d.ac",
+      "scope": "aircraft",
+      "bytes": 43487,
+      "sha256": "a45e9f09efbf41c239e8bf1c4bf2dac173ab48a702faccca67885e119814891f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/PFD3d.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/pfd3d.png",
+      "scope": "aircraft",
+      "bytes": 56452,
+      "sha256": "8881d3436a698be5ba1407f6f03bf9d255f3635a5792917fcfadafcc50b68df7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/pfd3d.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/PFD3d.xml",
+      "scope": "aircraft",
+      "bytes": 41984,
+      "sha256": "ac2c1d60281449a12c564c705706f46cf1d167f236d183a23f53acb70d144fa5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/PFD3d.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/pfdmask.png",
+      "scope": "aircraft",
+      "bytes": 15917,
+      "sha256": "60d4ebb01df622d59e2f825cc9b39f0620579fb0a8930b3d541e2173ea8a6ee5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/pfdmask.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/pfdtext.xml",
+      "scope": "aircraft",
+      "bytes": 10424,
+      "sha256": "04f02a80f6ff9f07bb8ca77fd1d474b110d96bd86df080deafabf0093aaef220",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/pfdtext.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/spd-tape.png",
+      "scope": "aircraft",
+      "bytes": 14420,
+      "sha256": "dd56ecf476b401e4ded4b1e255af12dcdf5943b0887c1c7968f29a974d556109",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/speed.xml",
+      "scope": "aircraft",
+      "bytes": 876,
+      "sha256": "9793692926236e56da449e57ca84dcc975724886bd123873c80816bb0172cedd",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/speed.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/text-panel.xml",
+      "scope": "aircraft",
+      "bytes": 553,
+      "sha256": "f29474fe42ab2877c0a08e7387970c4e17ed0c6cd51aa072ab99e637e9e9b835",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/text-panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/transparent.png",
+      "scope": "aircraft",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/transparent.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/PFD/vsi.xml",
+      "scope": "aircraft",
+      "bytes": 1781,
+      "sha256": "2efd3c6e76bc3a0bb15a95955503894047adafdc0596880094eb313a2eda091e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/PFD/vsi.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/pfd1.png",
+      "scope": "aircraft",
+      "bytes": 3058,
+      "sha256": "bea66244f1ef2c26da94e5d146f51aa7719f8c6a6dca5e97e98ef70856bede8c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/pfd1.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/pfd2.png",
+      "scope": "aircraft",
+      "bytes": 36302,
+      "sha256": "97bf3fef96d306e6a23bdc47d43c6468187141f820b9d5da948832dc5af03b14",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/pfd2.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/radar_background.rgb",
+      "scope": "aircraft",
+      "bytes": 21404,
+      "sha256": "db09ccb7a8dd8a33a9fb2d707772f51f78d77ecd3b3a24723e9ac91041db2777",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/radar_background.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/standby-altimeter.rgb",
+      "scope": "aircraft",
+      "bytes": 29254,
+      "sha256": "254676eee993d52c6474abfd6b32271de472db93c52322c3948afa4caac853c6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/standby-altimeter.rgb"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-ai.ac",
+      "scope": "aircraft",
+      "bytes": 50753,
+      "sha256": "726a17c0f2eea256e60a80fb1d3ce93d36e1b992f4eb1d886301d99c6aa86689",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-ai.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-ai.png",
+      "scope": "aircraft",
+      "bytes": 89527,
+      "sha256": "fa057a34e0832dc24f50cfe84ced780395bef0c6a6729ee0462064f3c22c2d63",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-ai.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-ai.xml",
+      "scope": "aircraft",
+      "bytes": 955,
+      "sha256": "02d380aee09eb863168f1d60bef8ae1c68f01f0ffd123d7b0d0ff6757346363d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-ai.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-alt.ac",
+      "scope": "aircraft",
+      "bytes": 11151,
+      "sha256": "21eabc6be8574c01ca3c90d837c2682a2f11e8b2202bcfb3be85eb83125484bb",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-alt.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-alt.png",
+      "scope": "aircraft",
+      "bytes": 12637,
+      "sha256": "1117e93a78eca7bfef69eef6832dc2a798cc4818e02c11075f35c99549e707bc",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-alt.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-alt.xml",
+      "scope": "aircraft",
+      "bytes": 2508,
+      "sha256": "aa2cf96db6c0fb604181bf6141e4f74d4c07aa24af18cf31c00fa73423ec29f2",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-alt.xml"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-asi.ac",
+      "scope": "aircraft",
+      "bytes": 3125,
+      "sha256": "4e12d28e2b3a3e53ad7a18b1fe2653a9b1fe11324a01c31aa017a6b09d13f363",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-asi.ac"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-asi.png",
+      "scope": "aircraft",
+      "bytes": 28726,
+      "sha256": "74a859fa5afa4fdb5e959292c13bf6594db8cb6a56819846fef834277ff969e9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-asi.png"
+    },
+    {
+      "path": "Models/Cockpit/Instruments/stby-asi.xml",
+      "scope": "aircraft",
+      "bytes": 805,
+      "sha256": "c50598df3d9df45a5053c463f94039473e7f381ab3671b3be9961740344fd330",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/Instruments/stby-asi.xml"
+    },
+    {
+      "path": "Models/Cockpit/knob.ac",
+      "scope": "aircraft",
+      "bytes": 31839,
+      "sha256": "0495f32f0a56c38689f33dd13f7f98f30eb4fc84ce9f8ce668255f797863c0e3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/knob.ac"
+    },
+    {
+      "path": "Models/Cockpit/null.ac",
+      "scope": "aircraft",
+      "bytes": 25,
+      "sha256": "3ffdebc85d7910aba155f165e78f74cc7fceeed06ec195fd78675c4d4787544c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/null.ac"
+    },
+    {
+      "path": "Models/Cockpit/OSGtext/display-text-value.xml",
+      "scope": "aircraft",
+      "bytes": 1745,
+      "sha256": "50d8c827dc2fcc0281f4d10532332ec0ce60d1c50104e429567ea140dadaee9d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/OSGtext/display-text-value.xml"
+    },
+    {
+      "path": "Models/Cockpit/OSGtext/display-text.xml",
+      "scope": "aircraft",
+      "bytes": 1775,
+      "sha256": "8b747c16f8b867efcbf93bed023ab5941ed2c65558020c88c88e1a8d0e6af1c8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/OSGtext/display-text.xml"
+    },
+    {
+      "path": "Models/Cockpit/overhead_lit.png",
+      "scope": "aircraft",
+      "bytes": 50459,
+      "sha256": "a36a4d609f835d4041e0d4688bf0c3b6f4b73ae48ee1dc0d3d48ed2067a33d5a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/overhead_lit.png"
+    },
+    {
+      "path": "Models/Cockpit/overhead_panel_orig.png",
+      "scope": "aircraft",
+      "bytes": 126808,
+      "sha256": "1a53731fa62b6d8b48d2541a1ffbd0a292e0abf88813c87547215f990bdef451",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/overhead_panel_orig.png"
+    },
+    {
+      "path": "Models/Cockpit/overhead_switches.png",
+      "scope": "aircraft",
+      "bytes": 11842,
+      "sha256": "acd5d54b1017c0fff99f9b876ddb5874dad9ff6a8ac4eb2e6f78709d6d841378",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/overhead_switches.png"
+    },
+    {
+      "path": "Models/Cockpit/overhead.ac",
+      "scope": "aircraft",
+      "bytes": 1687264,
+      "sha256": "9f5d6d12e7c41fae98b217fc296d5368ec8e781aec1c050a35076552eed658a9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/overhead.ac"
+    },
+    {
+      "path": "Models/Cockpit/overhead.xml",
+      "scope": "aircraft",
+      "bytes": 100140,
+      "sha256": "43b5b5b040c4418e4e9b86f7e387c9da24d6dba897df4074c589b0447bf3641d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/overhead.xml"
+    },
+    {
+      "path": "Models/Cockpit/pedals.png",
+      "scope": "aircraft",
+      "bytes": 8941,
+      "sha256": "ceb6d53eed8a470d01a3b1025f45691d9563a5994aec538db626fd51502c46a4",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pedals.png"
+    },
+    {
+      "path": "Models/Cockpit/pedestal_throttle.png",
+      "scope": "aircraft",
+      "bytes": 36777,
+      "sha256": "439d7a9a5766961ad199b746cc6adc85dc11365cfd60fc6180ec530b13b88c88",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pedestal_throttle.png"
+    },
+    {
+      "path": "Models/Cockpit/pedestal.ac",
+      "scope": "aircraft",
+      "bytes": 1598460,
+      "sha256": "8d2e4b8dbca903fdc42e426289bdf581f32e8175fade236d02c11ae218044d8c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pedestal.ac"
+    },
+    {
+      "path": "Models/Cockpit/pedestal.png",
+      "scope": "aircraft",
+      "bytes": 854705,
+      "sha256": "5b159b0ae2dbd6b3776877c864fc4abe6f1b1abdd023170e8cc3181999e75287",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pedestal.png"
+    },
+    {
+      "path": "Models/Cockpit/pedestal.xml",
+      "scope": "aircraft",
+      "bytes": 47472,
+      "sha256": "2a665e2d3c7690bf69cc481a4bcd0970e81573e5cf22399d50123d3b8216a3f7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pedestal.xml"
+    },
+    {
+      "path": "Models/Cockpit/pelego.png",
+      "scope": "aircraft",
+      "bytes": 26695,
+      "sha256": "c5362ecca5b0af2597d2141868069803d4b75ba4cd24fa43ffdbe6d879d1278f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/pelego.png"
+    },
+    {
+      "path": "Models/Cockpit/screen.png",
+      "scope": "aircraft",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/screen.png"
+    },
+    {
+      "path": "Models/Cockpit/seats_1.png",
+      "scope": "aircraft",
+      "bytes": 1466,
+      "sha256": "dd52f2566e81d04e1adbb648f5c92bc037fc2604749eb82c57f3fd1863ec42f5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/seats_1.png"
+    },
+    {
+      "path": "Models/Cockpit/seats.ac",
+      "scope": "aircraft",
+      "bytes": 78614,
+      "sha256": "8d53fce2f13ab3db881677f009ad0f438bbc8073cb1fb9008bef43e570d89ebd",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/seats.ac"
+    },
+    {
+      "path": "Models/Cockpit/seats.xml",
+      "scope": "aircraft",
+      "bytes": 2198,
+      "sha256": "9c2b8be94aa51f91fd35a0cd22fe4745943e396ae5c4c58219454a3fd889859d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/seats.xml"
+    },
+    {
+      "path": "Models/Cockpit/sourcel.png",
+      "scope": "aircraft",
+      "bytes": 10361,
+      "sha256": "1f16993ae8a52a9f2ed684b8eafd2a994d50795b8a018f421513fec920fc181d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/sourcel.png"
+    },
+    {
+      "path": "Models/Cockpit/throttle.png",
+      "scope": "aircraft",
+      "bytes": 48455,
+      "sha256": "bf9aa9e095858e4d90fe6cbdc2019478fea0a658fb97900de40471f28724a5af",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/throttle.png"
+    },
+    {
+      "path": "Models/Cockpit/transparent.png",
+      "scope": "aircraft",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/transparent.png"
+    },
+    {
+      "path": "Models/Cockpit/wipers.ac",
+      "scope": "aircraft",
+      "bytes": 25383,
+      "sha256": "e88d3accf6cc1d20a0fd2a435b94007f2fb01a09706e58705291b04cd6b95d76",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/wipers.ac"
+    },
+    {
+      "path": "Models/Cockpit/wipers.xml",
+      "scope": "aircraft",
+      "bytes": 3496,
+      "sha256": "d9d1448e009d308c06e58f9c742a07fd4ab2d1ebeacd3513781d1a2cc4f82bda",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/wipers.xml"
+    },
+    {
+      "path": "Models/Cockpit/yokes_reflection.png",
+      "scope": "aircraft",
+      "bytes": 2064,
+      "sha256": "2dd803b1779ab06ec659889a622c88da86d7709d8cdeb1f4fac38b972754973a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/yokes_reflection.png"
+    },
+    {
+      "path": "Models/Cockpit/yokes.ac",
+      "scope": "aircraft",
+      "bytes": 795401,
+      "sha256": "140db88888f355251c56fe096223fdef3124bd584fa14b4ee5bdb6293cec5029",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/yokes.ac"
+    },
+    {
+      "path": "Models/Cockpit/yokes.png",
+      "scope": "aircraft",
+      "bytes": 251,
+      "sha256": "ab4dd286bdb9df5e0b966d64fabdaea1e3b0449b0c6546b58a2e4fc30b44f590",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/yokes.png"
+    },
+    {
+      "path": "Models/Cockpit/yokes.xml",
+      "scope": "aircraft",
+      "bytes": 3078,
+      "sha256": "778495194fd4f61ee5163d547812f28da9de5b21829bde7670c32b1041899a40",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Cockpit/yokes.xml"
+    },
+    {
+      "path": "Models/Effects/chrome.png",
+      "scope": "aircraft",
+      "bytes": 5042,
+      "sha256": "d20c5d5b491f886252cc61399f2b09c066225bcb6cc6c49054ce420761a7c6d1",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/chrome.png"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation-left.xml",
+      "scope": "aircraft",
+      "bytes": 2496,
+      "sha256": "d587519744a75d644a2a8e65999902dce88b29ba003b7493f1d83c19c95f0c9e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Condensation/condensation-left.xml"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation-right.xml",
+      "scope": "aircraft",
+      "bytes": 2497,
+      "sha256": "060fbf158b3e22977e695b98876b51b9b669dda440b8bc102ed1b9d0031ac183",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Condensation/condensation-right.xml"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation.rgb",
+      "scope": "aircraft",
+      "bytes": 18816,
+      "sha256": "fbe9b9f87fbf2872cfefad230559f64241a57f9264791984e5a28468f5c386c9",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Condensation/condensation.rgb"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail.rgb",
+      "scope": "aircraft",
+      "bytes": 76715,
+      "sha256": "10da3d397034b1d389aefbabfa1f3942f88a006029bc541fb05a8a927bfe295d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/contrail.rgb"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail0.xml",
+      "scope": "aircraft",
+      "bytes": 3009,
+      "sha256": "523b6ad0c8df47b31a7da52da2857d5f70a33dd2825f9198007b18809376a29a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/contrail0.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail1.xml",
+      "scope": "aircraft",
+      "bytes": 3009,
+      "sha256": "0a1316acdf0b30357d18aa2388e0b0b6e1ad6b355370f428ef063510aff98d6f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/contrail1.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail2.xml",
+      "scope": "aircraft",
+      "bytes": 3009,
+      "sha256": "66cf032a4cc671a0668140c220a66cdd58a1a1bf8326b06525527019f51657a6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/contrail2.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail3.xml",
+      "scope": "aircraft",
+      "bytes": 3009,
+      "sha256": "4bee67ff78c8805981c234e7dcea398d2a73710c04c9e7312e2db6bd97d0a115",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/contrail3.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/exhaust.xml",
+      "scope": "aircraft",
+      "bytes": 1907,
+      "sha256": "b6705ae21d27e6bb2452f0f4f56f61da1a5a60f5514f666bfbe0133880faa465",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/exhaust.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/smoke.png",
+      "scope": "aircraft",
+      "bytes": 7217,
+      "sha256": "80d6f82dd3286a3780c7e3eeb2e2e632c448dda64c4041e4aeddea4c5ad5ff15",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Contrail/smoke.png"
+    },
+    {
+      "path": "Models/Effects/fire.rgb",
+      "scope": "aircraft",
+      "bytes": 141152,
+      "sha256": "216bcfbfc7f3c01d5ef2ee3c2280cd4e06d3a365fda02aa7897cb494f8d76c45",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/fire.rgb"
+    },
+    {
+      "path": "Models/Effects/fire.xml",
+      "scope": "aircraft",
+      "bytes": 1918,
+      "sha256": "ce57fb05677b5335364c1ed922ef454dc0cb05828960f12644d681e0ea1cb4c7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/fire.xml"
+    },
+    {
+      "path": "Models/Effects/fuel-dump.xml",
+      "scope": "aircraft",
+      "bytes": 1748,
+      "sha256": "a3bb57d14bb600e67521d4f748ae1f5f1b3e1ad7b38c3c32c32575f2350307a0",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/fuel-dump.xml"
+    },
+    {
+      "path": "Models/Effects/lightmap_engine.png",
+      "scope": "aircraft",
+      "bytes": 75976,
+      "sha256": "ab57a409fc25141d19dbc99e8fbc008183b9cc72c3f434c77739f285cca1562c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_engine.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_forward.png",
+      "scope": "aircraft",
+      "bytes": 94380,
+      "sha256": "55bf196a11ae630f5b6cadbef62b01d093823cd006ea3f06e93dc334dac690f5",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_forward.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_fuselage.png",
+      "scope": "aircraft",
+      "bytes": 98724,
+      "sha256": "f368f6501ebf06fd04c3a0818fe236e6f5aa19c89c988d2d0543a89f475b1736",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_fuselage.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_glareshield.png",
+      "scope": "aircraft",
+      "bytes": 59300,
+      "sha256": "b7b59b40aa6ce67bf9ffd29f3836b8ec632f1370585db063c235aca519f9abd4",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_glareshield.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_overhead_switches.png",
+      "scope": "aircraft",
+      "bytes": 3119,
+      "sha256": "0710a29d6ef9e76ffb0680e5893f597fbec119ffd55c7e116bc3827ec95794c3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_overhead_switches.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_overhead.png",
+      "scope": "aircraft",
+      "bytes": 26658,
+      "sha256": "c1958efeb1cb7f8d84bb36c11d216e5edb5bf44178471170b031dfc1c1543973",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_overhead.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_pedestal.png",
+      "scope": "aircraft",
+      "bytes": 56798,
+      "sha256": "cd4bd640cadf5ea7825a06426fb746620cdda72e1c2195f1ff07f402073ed576",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_pedestal.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_throttle.png",
+      "scope": "aircraft",
+      "bytes": 18064,
+      "sha256": "59f6037ec6bc454df7495880c964a3554b746464280b50b1f1d8ccb89a38c195",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_throttle.png"
+    },
+    {
+      "path": "Models/Effects/lightmap_wing.png",
+      "scope": "aircraft",
+      "bytes": 34712,
+      "sha256": "cb9d16e71a06203e06218a6253eb63ad00a0f055d23e7eccbd14a0f2f03e3bb8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap_wing.png"
+    },
+    {
+      "path": "Models/Effects/lightmap.png",
+      "scope": "aircraft",
+      "bytes": 208124,
+      "sha256": "5ad6fad6afce7047df8917321c2cdedb21daa06ea24264cfab672996ab29c41a",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/lightmap.png"
+    },
+    {
+      "path": "Models/Effects/normalmap.png",
+      "scope": "aircraft",
+      "bytes": 71637,
+      "sha256": "e5ef6b1f34dfd7a3a97f79be732bd0db8f67f5b3dd0c669b1e00f912be3891d4",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/normalmap.png"
+    },
+    {
+      "path": "Models/Effects/particle.png",
+      "scope": "aircraft",
+      "bytes": 568,
+      "sha256": "1b70d122e6dd2b0d558b2750fe0a155341ee73a9d3b08f1fa36e339cddf69140",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/particle.png"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-nose.xml",
+      "scope": "aircraft",
+      "bytes": 2309,
+      "sha256": "1183d9992df72bfd2b38005866817b76710adb1841c2605ccb4a962019c904cc",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Rain/rain-nose.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-port.xml",
+      "scope": "aircraft",
+      "bytes": 2310,
+      "sha256": "82aefd7778282b6b2eb4841fff72dd9c9aa649d4265aa1dec64015d8d89cbb20",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Rain/rain-port.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-stbd.xml",
+      "scope": "aircraft",
+      "bytes": 2309,
+      "sha256": "6337d8c4c1b88ff7d49859dee066ff9d9a2a8e563816d5e83b000b5a5c0ed757",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Rain/rain-stbd.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-tail.xml",
+      "scope": "aircraft",
+      "bytes": 2492,
+      "sha256": "46ecc19d164af6a3d097a480ebd697e561c767f3c4398829ab462789ee34f582",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Rain/rain-tail.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/smoke.png",
+      "scope": "aircraft",
+      "bytes": 6482,
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Rain/smoke.png"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/smoke.png",
+      "scope": "aircraft",
+      "bytes": 6482,
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/TireSmoke/smoke.png"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/tyre-smoke.xml",
+      "scope": "aircraft",
+      "bytes": 1839,
+      "sha256": "134627d0c616a347f0ca9db994d1c2bb97c0747c79be36d7e1e130a041ea77db",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/TireSmoke/tyre-smoke.xml"
+    },
+    {
+      "path": "Models/Effects/Vortex/vortex.ac",
+      "scope": "aircraft",
+      "bytes": 339,
+      "sha256": "0ff0ab8af355051de5140fbc5f4fa4ed925e3645d3d5718489a9243ac033189e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Vortex/vortex.ac"
+    },
+    {
+      "path": "Models/Effects/Vortex/vortex.xml",
+      "scope": "aircraft",
+      "bytes": 632,
+      "sha256": "df2b3846ec1e4c0ade7da3bad5e7b304871a0947c840ebbb08137980ae8480a4",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Effects/Vortex/vortex.xml"
+    },
+    {
+      "path": "Models/fire.xml",
+      "scope": "aircraft",
+      "bytes": 5743,
+      "sha256": "686a03fd765ec45e0789bbb64ac5aa21ec82fdb0375ff325b45817f97a90560e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/fire.xml"
+    },
+    {
+      "path": "Models/freighter_lights.png",
+      "scope": "aircraft",
+      "bytes": 136924,
+      "sha256": "30722f059272d5a727489330402f633a7db6f68f174e2e02669c22e55c1089fb",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/freighter_lights.png"
+    },
+    {
+      "path": "Models/freighter.png",
+      "scope": "aircraft",
+      "bytes": 102545,
+      "sha256": "bfc77cc2a2977c0a8fcd2905c5ee7068652005ffe423cf491bcd6ca91e42d5a8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/freighter.png"
+    },
+    {
+      "path": "Models/fuselage_light.png",
+      "scope": "aircraft",
+      "bytes": 152212,
+      "sha256": "8bce78a9e87e20cac895d99a4324dba9e30054c7032b0dd5963d42ea73f1bfd8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/fuselage_light.png"
+    },
+    {
+      "path": "Models/fuselage.png",
+      "scope": "aircraft",
+      "bytes": 62231,
+      "sha256": "7d2e8268a615d1962bdce6b63bfdb9de20e889077ecf45d93a69076d4ffbb904",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/fuselage.png"
+    },
+    {
+      "path": "Models/Lights/beacon/beacon.ac",
+      "scope": "aircraft",
+      "bytes": 405,
+      "sha256": "969a8878de0ccde9d1ccf39f3c6221039f13824a7226db087beef45c09fe24b2",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/beacon/beacon.ac"
+    },
+    {
+      "path": "Models/Lights/beacon/beacon.xml",
+      "scope": "aircraft",
+      "bytes": 1665,
+      "sha256": "391e2a4b9b0d8e95b47a127d82e54d1e55f9321885afa2b2baf4c96c3813aa7e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/beacon/beacon.xml"
+    },
+    {
+      "path": "Models/Lights/beacon/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/beacon/transparent.png"
+    },
+    {
+      "path": "Models/Lights/bluelight/blueflash.ac",
+      "scope": "aircraft",
+      "bytes": 673,
+      "sha256": "ad4114e34331dd41dea2a373f76859ff67d355bebb5321775800989abb3477b7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/bluelight/blueflash.ac"
+    },
+    {
+      "path": "Models/Lights/bluelight/blueflash.xml",
+      "scope": "aircraft",
+      "bytes": 1403,
+      "sha256": "ac20e4da2f7daeeb565ae37887eee9ae6df00c653211ac37f4cfd3e27676904c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/bluelight/blueflash.xml"
+    },
+    {
+      "path": "Models/Lights/bluelight/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/bluelight/transparent.png"
+    },
+    {
+      "path": "Models/Lights/greennav/greenflash.ac",
+      "scope": "aircraft",
+      "bytes": 394,
+      "sha256": "961d61c1863b0e457ba9847fd81b57c4834c39d6a3406bcb4030be6964608d87",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/greennav/greenflash.ac"
+    },
+    {
+      "path": "Models/Lights/greennav/greenflash.xml",
+      "scope": "aircraft",
+      "bytes": 1404,
+      "sha256": "56f3e98a987d8cdf7ab4087649df48df1c23d812262a8ebcb82081b29cbfbc10",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/greennav/greenflash.xml"
+    },
+    {
+      "path": "Models/Lights/greennav/greennav.ac",
+      "scope": "aircraft",
+      "bytes": 4122,
+      "sha256": "5fd3a9033a7e3ccee31f215ba22053b35c83f86071b86508e97fdf181d4446ba",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/greennav/greennav.ac"
+    },
+    {
+      "path": "Models/Lights/greennav/greennav.xml",
+      "scope": "aircraft",
+      "bytes": 762,
+      "sha256": "5d7029b30e3591eabb57e8a410d7146562357640245493c5647580753f7b3b25",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/greennav/greennav.xml"
+    },
+    {
+      "path": "Models/Lights/greennav/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/greennav/transparent.png"
+    },
+    {
+      "path": "Models/Lights/landinglights/landing_L.ac",
+      "scope": "aircraft",
+      "bytes": 2930,
+      "sha256": "affc4a3a0849d2ceb9f5ac26b3edbbd6984deabea40af41c267725c9bc07bc35",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/landing_L.ac"
+    },
+    {
+      "path": "Models/Lights/landinglights/landing_light_L.xml",
+      "scope": "aircraft",
+      "bytes": 2521,
+      "sha256": "adec8d48517d644393f14faff3d6bba299e7cd7e69fb8c5d979d67e4483959df",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/landing_light_L.xml"
+    },
+    {
+      "path": "Models/Lights/landinglights/landing_light_R.xml",
+      "scope": "aircraft",
+      "bytes": 2545,
+      "sha256": "d348a4fd6b181ba255c4d0df340a9578f24e8d375415fd9e81641bef4b48c30d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/landing_light_R.xml"
+    },
+    {
+      "path": "Models/Lights/landinglights/landing_R.ac",
+      "scope": "aircraft",
+      "bytes": 2934,
+      "sha256": "33d251182d6c6012cbf9111ed46eac5bd763eda9c905f748f060412d6226e724",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/landing_R.ac"
+    },
+    {
+      "path": "Models/Lights/landinglights/landing.ac",
+      "scope": "aircraft",
+      "bytes": 4365,
+      "sha256": "7e9a5aa3a291d14ef1486ce2817516fb429fcfdf590df1357545b7652739d73d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/landing.ac"
+    },
+    {
+      "path": "Models/Lights/landinglights/noselanding.ac",
+      "scope": "aircraft",
+      "bytes": 441,
+      "sha256": "43bd989b5acb047c00d79aaf717328cfa49b490560fa207c4912ac6a6250cfc3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/noselanding.ac"
+    },
+    {
+      "path": "Models/Lights/landinglights/noselanding.xml",
+      "scope": "aircraft",
+      "bytes": 3000,
+      "sha256": "7affe3b6c24d83b715b6fe2739cc8d371b91fe83cd6144f51e394d091ed2f1e2",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/noselanding.xml"
+    },
+    {
+      "path": "Models/Lights/landinglights/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/landinglights/transparent.png"
+    },
+    {
+      "path": "Models/Lights/luminosidade/light_spot.png",
+      "scope": "aircraft",
+      "bytes": 1822,
+      "sha256": "a9dbd37a69b2a423c5114ec2aebf3b746d699847490a1f4ac0ff4c791175d866",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/luminosidade/light_spot.png"
+    },
+    {
+      "path": "Models/Lights/luminosidade/luminosidade.ac",
+      "scope": "aircraft",
+      "bytes": 962,
+      "sha256": "011034319861f4f9d76994f2f5967b7b0c8ced099718bc0d85568b1a3786faf3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/luminosidade/luminosidade.ac"
+    },
+    {
+      "path": "Models/Lights/luminosidade/luminosidade.xml",
+      "scope": "aircraft",
+      "bytes": 5780,
+      "sha256": "0e20f6766478656b126bc98074367077fda653d8a7055bbd9b09f3e64eabf904",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/luminosidade/luminosidade.xml"
+    },
+    {
+      "path": "Models/Lights/rednav/redflash.ac",
+      "scope": "aircraft",
+      "bytes": 405,
+      "sha256": "33fc2778db0814a35661c07147cfcfb4fe78a32fa2429b72396329bb69faf670",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/rednav/redflash.ac"
+    },
+    {
+      "path": "Models/Lights/rednav/redflash.xml",
+      "scope": "aircraft",
+      "bytes": 1394,
+      "sha256": "87be28f50cdedd771f1314f74498c687a5c44175dcd7a2dec5abe0bb3ddcd88c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/rednav/redflash.xml"
+    },
+    {
+      "path": "Models/Lights/rednav/rednav.ac",
+      "scope": "aircraft",
+      "bytes": 4062,
+      "sha256": "8ca49bd41b02753a34c047bd969bbfc00d73d201056dc9c83cf0bda98817504c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/rednav/rednav.ac"
+    },
+    {
+      "path": "Models/Lights/rednav/rednav.xml",
+      "scope": "aircraft",
+      "bytes": 756,
+      "sha256": "9e95a9851db26d92815f8163fa24ba7d50d2c7738c104bef6913440ccecd13ad",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/rednav/rednav.xml"
+    },
+    {
+      "path": "Models/Lights/rednav/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/rednav/transparent.png"
+    },
+    {
+      "path": "Models/Lights/strobewhite/logo-lights.xml",
+      "scope": "aircraft",
+      "bytes": 1100,
+      "sha256": "5d1b819457526e8cc8c0589823a4e3fa01b6d59c3541105199e84304cf569b3e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/logo-lights.xml"
+    },
+    {
+      "path": "Models/Lights/strobewhite/strobe.xml",
+      "scope": "aircraft",
+      "bytes": 1447,
+      "sha256": "66e9a58bd0393a566a9d629e50738e3eeacfd06afb03528f00725196b3b80509",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/strobe.xml"
+    },
+    {
+      "path": "Models/Lights/strobewhite/transparent.png",
+      "scope": "aircraft",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/transparent.png"
+    },
+    {
+      "path": "Models/Lights/strobewhite/whiteflash.ac",
+      "scope": "aircraft",
+      "bytes": 392,
+      "sha256": "3cb1788234ec60cd84c1868deeae5b32eda676cbc1e44ef0e74be7ad1b25c241",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/whiteflash.ac"
+    },
+    {
+      "path": "Models/Lights/strobewhite/whitelight.ac",
+      "scope": "aircraft",
+      "bytes": 394,
+      "sha256": "0dee738065639a6241e0c5bb62a2f7c440fbde35945c95886fc60a921eedae19",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/whitelight.ac"
+    },
+    {
+      "path": "Models/Lights/strobewhite/whitelight.xml",
+      "scope": "aircraft",
+      "bytes": 1392,
+      "sha256": "1e86c405258e1951d29b4822390ec6b0eeaf1c17586536b5872ecdef568e5773",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/strobewhite/whitelight.xml"
+    },
+    {
+      "path": "Models/Lights/winglights.xml",
+      "scope": "aircraft",
+      "bytes": 979,
+      "sha256": "8e22393726f1f49bbbfe56dca1d4a61e8bdb37553c800ac37b8b7034e8042a37",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Lights/winglights.xml"
+    },
+    {
+      "path": "Models/Liveries/748I/DLH_fuselage.png",
+      "scope": "aircraft",
+      "bytes": 116679,
+      "sha256": "64c02c5a1d65710934feabed8a79b1b7de83710d432c12bb3d6efb1e0260cb81",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH_fuselage.png"
+    },
+    {
+      "path": "Models/Liveries/748I/DLH_turbofan.png",
+      "scope": "aircraft",
+      "bytes": 339372,
+      "sha256": "bd6a0faee65734d825e02c0a2bd25eda4c543b3dac39ff25460d38293e76834f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH_turbofan.png"
+    },
+    {
+      "path": "Models/Liveries/748I/DLH.xml",
+      "scope": "aircraft",
+      "bytes": 466,
+      "sha256": "f0e14d48f98622469f667cb44baae1a22d5e4d08b0c235c49f6031ff1da87767",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH.xml"
+    },
+    {
+      "path": "Models/Liveries/748I/KAL_fuselage.png",
+      "scope": "aircraft",
+      "bytes": 168636,
+      "sha256": "add1cb33fbb20a0d8fcf1515b2ea2c6a41f67628d6b8769fd6b7482775ff25cd",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL_fuselage.png"
+    },
+    {
+      "path": "Models/Liveries/748I/KAL_turbofan.png",
+      "scope": "aircraft",
+      "bytes": 415406,
+      "sha256": "ebdeb06afad243829298693883bf46025b8df46d175a8136419621b206335d17",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL_turbofan.png"
+    },
+    {
+      "path": "Models/Liveries/748I/KAL.xml",
+      "scope": "aircraft",
+      "bytes": 469,
+      "sha256": "07493773aeb096a3f1a8f4d1ae013b1939745bf2926a8e04654166c49782544b",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL.xml"
+    },
+    {
+      "path": "Models/Liveries/748I/wings.png",
+      "scope": "aircraft",
+      "bytes": 130736,
+      "sha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/wings.png"
+    },
+    {
+      "path": "Models/null.ac",
+      "scope": "aircraft",
+      "bytes": 25,
+      "sha256": "3ffdebc85d7910aba155f165e78f74cc7fceeed06ec195fd78675c4d4787544c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/null.ac"
+    },
+    {
+      "path": "Models/particle.png",
+      "scope": "aircraft",
+      "bytes": 568,
+      "sha256": "1b70d122e6dd2b0d558b2750fe0a155341ee73a9d3b08f1fa36e339cddf69140",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/particle.png"
+    },
+    {
+      "path": "Models/Service/Fueltender/F_T_short_VolvoFM-set.xml",
+      "scope": "aircraft",
+      "bytes": 1760,
+      "sha256": "17673ac76a6a7cfd59c860f62917b9fb153e0e7327923999b773df822a851fc8",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/F_T_short_VolvoFM-set.xml"
+    },
+    {
+      "path": "Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM_cargo.png",
+      "scope": "aircraft",
+      "bytes": 219602,
+      "sha256": "2ce7637bc3642fbcf3688f117a4376118f73383fa10e6e5fa04303d7157c1c07",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM-texaco.xml",
+      "scope": "aircraft",
+      "bytes": 200,
+      "sha256": "0bcb9f67d7dec0f1b58fa8f8a7d45886cb9ffcb32fbf30f1b915126b69d51151",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM-texaco.xml"
+    },
+    {
+      "path": "Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM.ac",
+      "scope": "aircraft",
+      "bytes": 288824,
+      "sha256": "4fedb29350289ef7e04f766fcceb619c9ab876828eadfa84f5f544899e791aac",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM.ac"
+    },
+    {
+      "path": "Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM.png",
+      "scope": "aircraft",
+      "bytes": 294657,
+      "sha256": "01347c9a7158845afc72333fc1c676562551fcada4c29ba4c56ae0478b024a7c",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/Fuel_Truck_Short_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Fueltender/fueltender.xml",
+      "scope": "aircraft",
+      "bytes": 2745,
+      "sha256": "c11953f4166636cdba5d214e4118b57b4484e0b8cfe2e3f274efcdb15709e55d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/fueltender.xml"
+    },
+    {
+      "path": "Models/Service/Fueltender/texaco/Fuel_Truck_Short_VolvoFM_cargo.png",
+      "scope": "aircraft",
+      "bytes": 225971,
+      "sha256": "a0f0a0851baead8c62980ec1775b72b392d23cae80fe761e1a052696a0481984",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/texaco/Fuel_Truck_Short_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Fueltender/texaco/Fuel_Truck_Short_VolvoFM.png",
+      "scope": "aircraft",
+      "bytes": 296040,
+      "sha256": "1db01932d4a1443369b2b26eda3a894b944a75a0332ed6d4aa957c2bfa9fee01",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Fueltender/texaco/Fuel_Truck_Short_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Pushback/pushback.ac",
+      "scope": "aircraft",
+      "bytes": 693609,
+      "sha256": "4a0800db53e6e63252b3756f3159a161ef913615c9e1795e45677a8007195db6",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Pushback/pushback.ac"
+    },
+    {
+      "path": "Models/Service/Pushback/pushback.png",
+      "scope": "aircraft",
+      "bytes": 28901,
+      "sha256": "803024d28be8252b472771f8f7ca19cafffb331a9176a6c7e1b8d235f1a7c1e7",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Pushback/pushback.png"
+    },
+    {
+      "path": "Models/Service/Pushback/pushback.xml",
+      "scope": "aircraft",
+      "bytes": 5356,
+      "sha256": "ebc8af3a11ae272842ac3fd92ff0dc69e97a5cf5d108f1a9e8f752ff54635ce1",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Service/Pushback/pushback.xml"
+    },
+    {
+      "path": "Models/Shadow/shadow.ac",
+      "scope": "aircraft",
+      "bytes": 441,
+      "sha256": "24ce77f481398b70ac979a4e020bf31dccf8e7abf93e5f3482fac16642b0756d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Shadow/shadow.ac"
+    },
+    {
+      "path": "Models/Shadow/shadow.png",
+      "scope": "aircraft",
+      "bytes": 32163,
+      "sha256": "84a98338196510e4fc5bd3673e652ecf1270b7f315d3084ce8a5e7119cc12307",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Shadow/shadow.png"
+    },
+    {
+      "path": "Models/Shadow/shadow.xml",
+      "scope": "aircraft",
+      "bytes": 2309,
+      "sha256": "2a315f7ad5b999451cd54485abffa8cce9e07e71d0ba84e472914127f1c4b259",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Shadow/shadow.xml"
+    },
+    {
+      "path": "Models/smoke.png",
+      "scope": "aircraft",
+      "bytes": 6532,
+      "sha256": "cc5fa7cc90d3b150aba622024a64af73639f31f94b4e094f2f5c5875ba62be17",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/smoke.png"
+    },
+    {
+      "path": "Models/turbofan-lts.png",
+      "scope": "aircraft",
+      "bytes": 111266,
+      "sha256": "791c1a8b7e9f4edfb61fb48c0a0cbe68de95224133f1b3566bc656777bfb095d",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/turbofan-lts.png"
+    },
+    {
+      "path": "Models/turbofan.png",
+      "scope": "aircraft",
+      "bytes": 417010,
+      "sha256": "21c4ebd6310dad864190f6fba01b0d94a16a727862d3b567996541cdef79f9d3",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/turbofan.png"
+    },
+    {
+      "path": "Models/wings-lts.png",
+      "scope": "aircraft",
+      "bytes": 63116,
+      "sha256": "d18ff18c9fb7da601d909a386b3547076b1ae025dcebb37a034c8210053ebd72",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/wings-lts.png"
+    },
+    {
+      "path": "Models/wings.png",
+      "scope": "aircraft",
+      "bytes": 130736,
+      "sha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/wings.png"
+    },
+    {
+      "path": "README",
+      "scope": "aircraft",
+      "bytes": 1138,
+      "sha256": "694c25d002aed6660b3e72a6aa98325281915842125f282d0e29419bad5ca42e",
+      "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/README"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/README",
+      "scope": "fgdata",
+      "sha256": "3e2307c4df653e036193fdbc3c117b0f8367394c1af807c1857107d4e1efaff1",
+      "bytes": 1143,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/README"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing.ac",
+      "scope": "fgdata",
+      "sha256": "16b6c97945698f8fbe049d0e7c73aaa9d70e9a9f9baef0831cadf48b17ed1e49",
+      "bytes": 153487,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing.ac"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing.nas",
+      "scope": "fgdata",
+      "sha256": "3a48053c956b40b95ed222aa4bcb3fd944144cd9ae7b1d3fbde2aa5146f28d70",
+      "bytes": 25655,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing.nas"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing.xml",
+      "scope": "fgdata",
+      "sha256": "a3abf607730174acf03b31051eaf0130bf162bd5bff0ce013bf53fe4e00fc2ab",
+      "bytes": 40675,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing_brown.png",
+      "scope": "fgdata",
+      "sha256": "6e13bb78dcd08a1a7486b1f9c1684be9352e5ee61a23545a1eaa138f471c8ecd",
+      "bytes": 84749,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing_brown.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing_grey.png",
+      "scope": "fgdata",
+      "sha256": "1282635be3a33a61559352a98dee5c4e207175b67c06603743a32486f32ce80e",
+      "bytes": 73629,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing_grey.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing_lightmap.png",
+      "scope": "fgdata",
+      "sha256": "69d5a83dcfd513dd6412e3e796224e843559328db3605bb995272200debe3b74",
+      "bytes": 5020,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing_lightmap.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/display-text-value.xml",
+      "scope": "fgdata",
+      "sha256": "e3645538307d46d6895aa1704f9fa3354fa73caf0e8954161875c6ecfa1ff486",
+      "bytes": 1803,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/display-text-value.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/chronometer/chronometer.ac",
+      "scope": "fgdata",
+      "sha256": "8cc0789da2ce2e736055255e05374ed10e06f6111efb1ea083a393e8aaf6960b",
+      "bytes": 40455,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/chronometer/chronometer.ac"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/chronometer/chronometer.png",
+      "scope": "fgdata",
+      "sha256": "a54c6403494820a1f315edd2e71dc6e0df4e05931fb69d159dfbdcbc33e81bbc",
+      "bytes": 29375,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/chronometer/chronometer.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/chronometer/chronometer.xml",
+      "scope": "fgdata",
+      "sha256": "f54d7fb4fc7ba7b4883d312aaf0beb33cfbb61e7f7b0c6da322005ee727b619e",
+      "bytes": 10107,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/chronometer/chronometer.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/JMaverick16/747-8",
+    "commit": "0ed6056990828084bd51770e3ad73d0b61a1ad61",
+    "entry": "Models/Cockpit/cockpit.xml",
+    "sourceDirectory": "b748",
+    "viewpoint": {
+      "source": "747-8-main.xml",
+      "position": [
+        -0.53,
+        3.91048,
+        -28
+      ],
+      "pitchDeg": -12,
+      "fovDeg": 75
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 75,
+      "lookPitch": -0.20943951023931953
+    },
+    "parentTransformChain": [
+      {
+        "source": "Aircraft model root / cockpit mount",
+        "transform": {
+          "x-m": -3.8699,
+          "z-m": 0.1256
+        }
+      }
+    ]
+  }
+}

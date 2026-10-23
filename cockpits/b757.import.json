@@ -1,0 +1,1048 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b757.glb",
+  "bytes": 23370960,
+  "triangles": 223380,
+  "nodes": 152,
+  "meshes": 134,
+  "images": 71,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    }
+  ],
+  "sourceMeshes": 1308,
+  "drawGroups": 134,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Flightdeck/Flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Flightdeck/flightdeck.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Flightdeck/Yokes/yokes.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Flightdeck/Yokes/yokes.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/AI/AI.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/AI/AI.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/RDR-160/RDR-160.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/RDR-160/RDR160.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ND/efis_L.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ND/efis_L.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ND/efis_R.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ND/efis_R.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/EFB/EFB.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/EFB/EFB.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Altimeter/altimeter.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Altimeter/altimeter.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Stby-AI/stby-ai.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Stby-AI/stby-ai.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/chronometer/chronometer.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/chronometer/chronometer.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ASI_big/asi.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ASI_big/asi.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ASI/asi.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/ASI/asi.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/EICAS/eicas.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/EICAS/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/secondary_EICAS/eicas.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/secondary_EICAS/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/cdu/boeing.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/cdu/boeing.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/display-text-value.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/VSI/VSI.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/VSI/VSI.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/VOR/VOR.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/VOR/vor.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Autobrakes/autobrakes.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Autobrakes/autobrakes.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Flaps/flaps.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Flaps/flaps.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/MCP/MCP.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/MCP/MCP.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/OHpanel/OHpanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/OHpanel/OHpanel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/stab_trim/stab_trim.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/stab_trim/stab_trim.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/Radiopanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/Radiopanel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/ADF.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/ADF.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/NAV.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/NAV.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/transponder.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Radiopanel/transponder.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Compass/mag-compass.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b757/Models/Instruments/Compass/mag-compass.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "757-main.xml",
+    "position": [
+      -0.55,
+      1.7,
+      2.09
+    ],
+    "pitchDeg": -13.5,
+    "fovDeg": 85
+  },
+  "sourceFiles": [
+    {
+      "path": "757-main.xml",
+      "scope": "aircraft",
+      "sha256": "95bd02dade47e73c5cb62ae1a7659d6ebe6c6c71e63acafa3615c4ca1d0b5ed1",
+      "bytes": 26036,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/757-main.xml"
+    },
+    {
+      "path": "Models/757-200.xml",
+      "scope": "aircraft",
+      "sha256": "f99b85183dd1cbf4982174a9add3065e20739f54c3219cbdd1b8078f366f3839",
+      "bytes": 82106,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/757-200.xml"
+    },
+    {
+      "path": "Models/Flightdeck/center_console.png",
+      "scope": "aircraft",
+      "sha256": "ff956e757eb87e259e9272bcb2bd71fdff57692c5f0550a99180903e6893d4b8",
+      "bytes": 760545,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/center_console.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_2.png",
+      "scope": "aircraft",
+      "sha256": "9d551d287a5095923498baa7af98a00d3c658691a2a75954951c9cf6f0c254b3",
+      "bytes": 460545,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_2.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_3.png",
+      "scope": "aircraft",
+      "sha256": "8dbcdc3b1958d379a8d89fdae4e8c7fbfd616131e6533e7bdfa314ff15131540",
+      "bytes": 567388,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_3.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_4.png",
+      "scope": "aircraft",
+      "sha256": "65a92d755d6b5e369a0234581c21e1439f7eee7aa1d126af9928acc164b8d05e",
+      "bytes": 451300,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_4.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_light2.png",
+      "scope": "aircraft",
+      "sha256": "888fba58672fcbbe4797df03874ca7b6409201317d48f75b99926d7e45e2ef4b",
+      "bytes": 34692,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_light2.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_panels.png",
+      "scope": "aircraft",
+      "sha256": "92ec5766c5d8a1fc6ed02144422165fa0a72ac071aeb397a9bc7aa62b4933dae",
+      "bytes": 559210,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_panels.png"
+    },
+    {
+      "path": "Models/Flightdeck/cockpit_seat.png",
+      "scope": "aircraft",
+      "sha256": "cefb011f29c5049c2602ae7d034cc01b6ef3d0f07aeaaab0d7bff905e7d49c65",
+      "bytes": 667860,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/cockpit_seat.png"
+    },
+    {
+      "path": "Models/Flightdeck/digits.png",
+      "scope": "aircraft",
+      "sha256": "3e54c2ba409bb06c5c3cc52ef9b66fa319885cd2810ba324bad32e1611ace26b",
+      "bytes": 24269,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/digits.png"
+    },
+    {
+      "path": "Models/Flightdeck/flightdeck.ac",
+      "scope": "aircraft",
+      "sha256": "2501549634a999db2e713db2d785debf67d4d9de3232c41fb7a1d35bc360c890",
+      "bytes": 6803195,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/flightdeck.ac"
+    },
+    {
+      "path": "Models/Flightdeck/Flightdeck.xml",
+      "scope": "aircraft",
+      "sha256": "a003099b8c5417e4ef7f626fec4019bfa35381d4ae3d2395e63251c99355ddd6",
+      "bytes": 56041,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/Flightdeck.xml"
+    },
+    {
+      "path": "Models/Flightdeck/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/knob.png"
+    },
+    {
+      "path": "Models/Flightdeck/panels.png",
+      "scope": "aircraft",
+      "sha256": "86f17000341bf3b113917aadcee7316a1e1b713bb1f2a7c07bbc6b8dee79a5d8",
+      "bytes": 619906,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/panels.png"
+    },
+    {
+      "path": "Models/Flightdeck/side_panels.png",
+      "scope": "aircraft",
+      "sha256": "f6581bcfcca283288d15319bd58b37b9dd71ee036c464740e4cab853b9f7194d",
+      "bytes": 610524,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/side_panels.png"
+    },
+    {
+      "path": "Models/Flightdeck/text_center.png",
+      "scope": "aircraft",
+      "sha256": "f41bd5bb55be74d08ac68b3ad9ed1a71c97f825be589e22f9ec9fbdbc31e5268",
+      "bytes": 6435,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/text_center.png"
+    },
+    {
+      "path": "Models/Flightdeck/text.png",
+      "scope": "aircraft",
+      "sha256": "2216490f7a5ad17cdb94aad9ecadb736f3cc0ad3196971b61131c639e09dc029",
+      "bytes": 48728,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/text.png"
+    },
+    {
+      "path": "Models/Flightdeck/text2.png",
+      "scope": "aircraft",
+      "sha256": "71d29dd7aa0ae6e230fb98a7326575e5fb3bc38239bac8e5b623249c93ed854b",
+      "bytes": 10782,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/text2.png"
+    },
+    {
+      "path": "Models/Flightdeck/toinen.png",
+      "scope": "aircraft",
+      "sha256": "4a39d767ab7631e073b234112e2b80754659067fb6c3c798638e792079d55ac6",
+      "bytes": 786800,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/toinen.png"
+    },
+    {
+      "path": "Models/Flightdeck/window2.png",
+      "scope": "aircraft",
+      "sha256": "f71643001700156aa1a26b83f3cb1321d65f00a154eac707d5af16719a6bded3",
+      "bytes": 289077,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/window2.png"
+    },
+    {
+      "path": "Models/Flightdeck/Yokes/yokes_2.png",
+      "scope": "aircraft",
+      "sha256": "04948600f9c4364ec7e14d2a178ec30691407c2fcf277a31bcaa60e4f956026e",
+      "bytes": 325788,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/Yokes/yokes_2.png"
+    },
+    {
+      "path": "Models/Flightdeck/Yokes/yokes.ac",
+      "scope": "aircraft",
+      "sha256": "be186f554f59209e8a1e3a9b16b903826931ed9c416c583091fc695bae4aabe9",
+      "bytes": 1023744,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/Yokes/yokes.ac"
+    },
+    {
+      "path": "Models/Flightdeck/Yokes/yokes.png",
+      "scope": "aircraft",
+      "sha256": "0372904b43eaa0457d6345cc0ab15194f7028762f8ebeff956257cbea13b6061",
+      "bytes": 286996,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/Yokes/yokes.png"
+    },
+    {
+      "path": "Models/Flightdeck/Yokes/yokes.xml",
+      "scope": "aircraft",
+      "sha256": "c7198b62c12506a8682c0690250473ab520c2fe06af7e80afbb4285d51d7d2e2",
+      "bytes": 3603,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Flightdeck/Yokes/yokes.xml"
+    },
+    {
+      "path": "Models/Instruments/AI/AI.ac",
+      "scope": "aircraft",
+      "sha256": "b1ac7b5ef070a874e0df93347fdad260cb7a1bbce7eb1c7126ee3b04087d96dd",
+      "bytes": 31159,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/AI/AI.ac"
+    },
+    {
+      "path": "Models/Instruments/AI/AI.xml",
+      "scope": "aircraft",
+      "sha256": "b46a35b9d74f1cf4529afb6acc0e8be90fbe4bac0d0801fdf8b216cb33b6734f",
+      "bytes": 8879,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/AI/AI.xml"
+    },
+    {
+      "path": "Models/Instruments/AI/ati.png",
+      "scope": "aircraft",
+      "sha256": "098ab31560564041afb949c4da64c2da5c07380e7a2a1bf51b247baab7e68660",
+      "bytes": 54676,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/AI/ati.png"
+    },
+    {
+      "path": "Models/Instruments/AI/efis.png",
+      "scope": "aircraft",
+      "sha256": "4be527c0e5a943ee2a143e2170cf677d1902a8b3e223ed1214154c668e6d55fd",
+      "bytes": 101441,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/AI/efis.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/altimeter.ac",
+      "scope": "aircraft",
+      "sha256": "16ff115fc7d8d68ca0d4fe15b261349c7c24684bb452c21a8a499fb1315ceb08",
+      "bytes": 31353,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Altimeter/altimeter.ac"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/altimeter.xml",
+      "scope": "aircraft",
+      "sha256": "ff2669a8f0ea60c20037342db3ba95afece987b1a9734c673001f900480ee8d7",
+      "bytes": 6129,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Altimeter/altimeter.xml"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/bezel.png",
+      "scope": "aircraft",
+      "sha256": "4f569fff41bad844aa715e691f1acb92f38ebb558ff7fe32ae7e4d08bbb78cf5",
+      "bytes": 72810,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Altimeter/bezel.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/digits.png",
+      "scope": "aircraft",
+      "sha256": "bd5c66a749847f89b0e30c4c2266bd8caba0e0f97dec626301812f81cdc96b55",
+      "bytes": 10606,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Altimeter/digits.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/face.png",
+      "scope": "aircraft",
+      "sha256": "09de4e839215e2d9d6e78fb6fbbe4b694f1d7e5bd49952bb29fe4d853c87dfb7",
+      "bytes": 9343,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Altimeter/face.png"
+    },
+    {
+      "path": "Models/Instruments/ASI_big/asi.ac",
+      "scope": "aircraft",
+      "sha256": "9841fe35f16d1ce19b72355f960fc46d4e641e37d5f07e78cb961c00686fda15",
+      "bytes": 24516,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI_big/asi.ac"
+    },
+    {
+      "path": "Models/Instruments/ASI_big/asi.xml",
+      "scope": "aircraft",
+      "sha256": "347c1217e5c8abf81018a0efd5c4e5135da2807486dff84889356b914b992a08",
+      "bytes": 7184,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI_big/asi.xml"
+    },
+    {
+      "path": "Models/Instruments/ASI_big/bezel.png",
+      "scope": "aircraft",
+      "sha256": "cd627125c58f6d6fc35c37e07b8d5f466100d6a793020b02bd447064d6ae449b",
+      "bytes": 68492,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI_big/bezel.png"
+    },
+    {
+      "path": "Models/Instruments/ASI_big/digits.png",
+      "scope": "aircraft",
+      "sha256": "bd5c66a749847f89b0e30c4c2266bd8caba0e0f97dec626301812f81cdc96b55",
+      "bytes": 10606,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI_big/digits.png"
+    },
+    {
+      "path": "Models/Instruments/ASI_big/stby-asi.png",
+      "scope": "aircraft",
+      "sha256": "8e75910279d11c90c48914ffcbec2b50e0a6f7108c8b7c8694a0b5a4d5be375c",
+      "bytes": 32383,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI_big/stby-asi.png"
+    },
+    {
+      "path": "Models/Instruments/ASI/asi.ac",
+      "scope": "aircraft",
+      "sha256": "bad25714db01c5143e637685c65d506dfd2c3b730f7d514fd07813cb2d9c87f9",
+      "bytes": 17304,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI/asi.ac"
+    },
+    {
+      "path": "Models/Instruments/ASI/asi.xml",
+      "scope": "aircraft",
+      "sha256": "719c51bae06facc8cd2417559939f841a478b2d1d61d9589dc5a3974dc71fab3",
+      "bytes": 1502,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI/asi.xml"
+    },
+    {
+      "path": "Models/Instruments/ASI/bezel.png",
+      "scope": "aircraft",
+      "sha256": "cd627125c58f6d6fc35c37e07b8d5f466100d6a793020b02bd447064d6ae449b",
+      "bytes": 68492,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI/bezel.png"
+    },
+    {
+      "path": "Models/Instruments/ASI/stby-asi.png",
+      "scope": "aircraft",
+      "sha256": "74a859fa5afa4fdb5e959292c13bf6594db8cb6a56819846fef834277ff969e9",
+      "bytes": 28726,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ASI/stby-asi.png"
+    },
+    {
+      "path": "Models/Instruments/Autobrakes/autobrakes_lights.png",
+      "scope": "aircraft",
+      "sha256": "9047116e9f6c08a6db375733622dda054a7a1ed7bc1f2e4da5cd5e2df83772c7",
+      "bytes": 4295,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Autobrakes/autobrakes_lights.png"
+    },
+    {
+      "path": "Models/Instruments/Autobrakes/autobrakes.ac",
+      "scope": "aircraft",
+      "sha256": "291db317ab5f0315d5dfd8f8dbca25e003782ff6a7301618a6b26cdbbd665fb3",
+      "bytes": 23852,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Autobrakes/autobrakes.ac"
+    },
+    {
+      "path": "Models/Instruments/Autobrakes/autobrakes.png",
+      "scope": "aircraft",
+      "sha256": "f8afee5c1bde727a2f1fc527c933aa8d29c21debcff191955f9ecf40fdf0d27d",
+      "bytes": 251887,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Autobrakes/autobrakes.png"
+    },
+    {
+      "path": "Models/Instruments/Autobrakes/autobrakes.xml",
+      "scope": "aircraft",
+      "sha256": "ed17f347c996b1261facc4e70b5606b607a7b08b5fc1165367c55363d30409eb",
+      "bytes": 1903,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Autobrakes/autobrakes.xml"
+    },
+    {
+      "path": "Models/Instruments/Autobrakes/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Autobrakes/knob.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing_brown.png",
+      "scope": "aircraft",
+      "sha256": "78a61d1bdbd79d7debf72347211e8cf3b419460686a186a113d7e20ad72b334b",
+      "bytes": 80408,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/cdu/boeing_brown.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing.ac",
+      "scope": "aircraft",
+      "sha256": "16b6c97945698f8fbe049d0e7c73aaa9d70e9a9f9baef0831cadf48b17ed1e49",
+      "bytes": 153487,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/cdu/boeing.ac"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing.xml",
+      "scope": "aircraft",
+      "sha256": "c2b8552d30998dc3508f372c8761e986fe458dcdc191fd8190344abe16e673c6",
+      "bytes": 42620,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/cdu/boeing.xml"
+    },
+    {
+      "path": "Models/Instruments/chronometer/chronometer.ac",
+      "scope": "aircraft",
+      "sha256": "696350bac347cd9ba13977c3d30437ebc70dfed63e20dbce48868b44f62fc611",
+      "bytes": 35030,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/chronometer/chronometer.ac"
+    },
+    {
+      "path": "Models/Instruments/chronometer/chronometer.png",
+      "scope": "aircraft",
+      "sha256": "77c064b1f16ea60731d7d882ae5fef2b8f995be863f4576bdd6315a95e8ba1da",
+      "bytes": 52436,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/chronometer/chronometer.png"
+    },
+    {
+      "path": "Models/Instruments/chronometer/chronometer.xml",
+      "scope": "aircraft",
+      "sha256": "1e492bdf9689ff11ff2e3171280f04cf5c267f0833a775c6aec8ba6389182efe",
+      "bytes": 10175,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/chronometer/chronometer.xml"
+    },
+    {
+      "path": "Models/Instruments/Compass/mag-compass_textures.png",
+      "scope": "aircraft",
+      "sha256": "bcc64db613926cef46a00759fe4fd76bd9dc08580f84bc3204159ef1d8db1c81",
+      "bytes": 100425,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Compass/mag-compass_textures.png"
+    },
+    {
+      "path": "Models/Instruments/Compass/mag-compass.ac",
+      "scope": "aircraft",
+      "sha256": "5236926f92ed63170ee0c0ff4b7c92e2452868be7c93ed2f5e1f371b5b47eb75",
+      "bytes": 40716,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Compass/mag-compass.ac"
+    },
+    {
+      "path": "Models/Instruments/Compass/mag-compass.png",
+      "scope": "aircraft",
+      "sha256": "76b900582c390c6a3ef6c37f4d35d457e7ba0db97d2a1b974248f029d9d7cebf",
+      "bytes": 9242,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Compass/mag-compass.png"
+    },
+    {
+      "path": "Models/Instruments/Compass/mag-compass.xml",
+      "scope": "aircraft",
+      "sha256": "6ca86bb8ead79e8b07e00a6799c4616f921a857301df5327973cc521d00d9c0e",
+      "bytes": 439,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Compass/mag-compass.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.ac",
+      "scope": "aircraft",
+      "sha256": "cbb735568351aabbbf5cf1489e0dbbdb12c3417d4289b057723abf8de7e46540",
+      "bytes": 32910,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EFB/EFB.ac"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.png",
+      "scope": "aircraft",
+      "sha256": "fa84fc46641facd218e9d949a982783fce53ef8176e56b2d60a20afa622ddbb1",
+      "bytes": 81661,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EFB/EFB.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.xml",
+      "scope": "aircraft",
+      "sha256": "3c69dc7b724bbc9cc1a7abb9aa15a0788f5162d29714dfe82c8348d602f49785",
+      "bytes": 9752,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EFB/EFB.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "b7b83b4146484fabe901b0f9421385b7f274d116ce24d59b9d074e19597fa919",
+      "bytes": 12860,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EICAS/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.png",
+      "scope": "aircraft",
+      "sha256": "9b899b3f0bb20d6440755f50153e4ed6cf56ca13629b94cbf231d4986f570a62",
+      "bytes": 67148,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EICAS/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.xml",
+      "scope": "aircraft",
+      "sha256": "9004fc03c0873e6fcd8e659023d6b85018ec0683d9535cc89907dab7ac6f0f3a",
+      "bytes": 1240,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/EICAS/eicas.xml"
+    },
+    {
+      "path": "Models/Instruments/Flaps/flaps.ac",
+      "scope": "aircraft",
+      "sha256": "bdba4f4d8e34e8c30f957dab99f72f94e1d490ec03d13fe94aa40fd7ae9a5297",
+      "bytes": 8415,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Flaps/flaps.ac"
+    },
+    {
+      "path": "Models/Instruments/Flaps/flaps.png",
+      "scope": "aircraft",
+      "sha256": "7c9626a38143f05d6d95e5b8d1c374448067f89ba96db31125743c8c6808e074",
+      "bytes": 7963,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Flaps/flaps.png"
+    },
+    {
+      "path": "Models/Instruments/Flaps/flaps.xml",
+      "scope": "aircraft",
+      "sha256": "66b3f9fb34892f0edf1db092cb10380f053cb5da688b374f116c322d9d0c3d24",
+      "bytes": 1027,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Flaps/flaps.xml"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP_lights.png",
+      "scope": "aircraft",
+      "sha256": "b857505bcd36c909731cbb09fd1acf857f9626df6a104ef56137f3df1e933849",
+      "bytes": 511744,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/MCP/MCP_lights.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP_textures.png",
+      "scope": "aircraft",
+      "sha256": "aa0124bcbcb8c95ecc27925868e335be3d114804215489f368b27128342fc3a2",
+      "bytes": 367069,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/MCP/MCP_textures.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP.ac",
+      "scope": "aircraft",
+      "sha256": "bf7d4bcdf65fcb9e60c611816bff0bfbeba7bb91d2a465e11059d8632f29483c",
+      "bytes": 264565,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/MCP/MCP.ac"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP.png",
+      "scope": "aircraft",
+      "sha256": "3b17799456b1a6beee8d713c7b61ba2c3315b1c9a438952c53a6fa9db6a7b5af",
+      "bytes": 58903,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/MCP/MCP.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP.xml",
+      "scope": "aircraft",
+      "sha256": "0e4c6c0b6a3ee2a5582d29ba017e61d6e2970fc7597b372a6ddff401da17be11",
+      "bytes": 43378,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/MCP/MCP.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/efis_L.ac",
+      "scope": "aircraft",
+      "sha256": "f3cc81b2cfff1478f1249c452e75e19e74e329ec223dedd614566616515ff8c2",
+      "bytes": 8959,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/efis_L.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/efis_L.xml",
+      "scope": "aircraft",
+      "sha256": "b27538d64fbd3cb941b0eb8c901e00f4fd559288efade122abb4a51153635408",
+      "bytes": 864,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/efis_L.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/efis_R.ac",
+      "scope": "aircraft",
+      "sha256": "8fbfdcebabf626b35cde577942c9fb9e6ac706ed0ab7c89faf03f04bca75119d",
+      "bytes": 8959,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/efis_R.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/efis_R.xml",
+      "scope": "aircraft",
+      "sha256": "81a125c38295448ad504348f0e952b4a0df8c9f00f1d69202ac2db3706336536",
+      "bytes": 868,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/efis_R.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/efis.png",
+      "scope": "aircraft",
+      "sha256": "4be527c0e5a943ee2a143e2170cf677d1902a8b3e223ed1214154c668e6d55fd",
+      "bytes": 101441,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/efis.png"
+    },
+    {
+      "path": "Models/Instruments/ND/screen.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/ND/screen.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/background.png",
+      "scope": "aircraft",
+      "sha256": "229c9610d78aa7f9b528443182f38a6fa6c4057cabb623ad671de0a4191aa671",
+      "bytes": 219337,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/background.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/breaker_panel_lights.png",
+      "scope": "aircraft",
+      "sha256": "7791044ff3cee15ec8dd7a8fb0eac0be5330ca9cf5e2172ec9e92957c6b1860a",
+      "bytes": 167185,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/breaker_panel_lights.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/breaker_panel.png",
+      "scope": "aircraft",
+      "sha256": "1d6d20fc538b7a591cddec74195fa6a5059545e60e22f2085d188b108d014262",
+      "bytes": 617489,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/breaker_panel.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/button.png",
+      "scope": "aircraft",
+      "sha256": "fa781712b174d86303b91af500c7e095637f9dd6d271a430304b1a7fbd2abd97",
+      "bytes": 2358,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/button.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/button2.png",
+      "scope": "aircraft",
+      "sha256": "a05191fb75431e883a9370cefd2b33459b9a8af40cedd15063de5ca4a91ebc4a",
+      "bytes": 4318,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/button2.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/button3.png",
+      "scope": "aircraft",
+      "sha256": "d1d3f5edb8a4f398b09447869a9d80645e02fdfa5d3e5b65ec9a8d8b48f51476",
+      "bytes": 4150,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/button3.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/knob.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/MCP.png",
+      "scope": "aircraft",
+      "sha256": "d9eca51dbffefd4add40124d87015ef35d15c3ff0a404ecd5c1ab544bf2365d9",
+      "bytes": 63555,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/MCP.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel_2.png",
+      "scope": "aircraft",
+      "sha256": "628270dae6d0b28ee73efacb275bb1addd12c9893deec41dc5c07d5ba6224040",
+      "bytes": 861007,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel_2.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel_3.png",
+      "scope": "aircraft",
+      "sha256": "f8045d73fc17e8e1e15951b9137797f2eadeb776b35f8a7b97a7a29c74db2125",
+      "bytes": 634378,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel_3.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel_lights.png",
+      "scope": "aircraft",
+      "sha256": "5f08f116459b5f4824ab21bea606080dd014eb46a6f43fb486d90821887a30a5",
+      "bytes": 79564,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel_lights.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel_lights2.png",
+      "scope": "aircraft",
+      "sha256": "c81e5afc0b8f126c12f3e4762d3f6932987effa38593e98ea3ddcc308f2561f7",
+      "bytes": 71704,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel_lights2.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel_lights3.png",
+      "scope": "aircraft",
+      "sha256": "4e9391607e541cb0db199ccec1c61a797f4815de08d20d582dd44d44484c9c21",
+      "bytes": 31942,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel_lights3.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/OHpanel.ac",
+      "scope": "aircraft",
+      "sha256": "72ab459bc961d55e93ea0672aab9a2f80303261a642029a52d45187d76567706",
+      "bytes": 8270024,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/OHpanel.ac"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel.png",
+      "scope": "aircraft",
+      "sha256": "aa1fd6ba9bd27a43cd94d54fbd1d0419cef77c3d473ce051b7647743b0fbbb1a",
+      "bytes": 852100,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/ohpanel.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/OHpanel.xml",
+      "scope": "aircraft",
+      "sha256": "bad07351f969cd3d109354ac49316419cad6e73da8c907f2536f2fff51c4dda2",
+      "bytes": 63770,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/OHpanel.xml"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/text.png",
+      "scope": "aircraft",
+      "sha256": "8f8ba674c126e850adf05516d218478e5c782a00670fc69e5c7b4130cab30c4a",
+      "bytes": 12169,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/OHpanel/text.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/ADF.ac",
+      "scope": "aircraft",
+      "sha256": "3cdec99634cf69515a774aef30c8c6935638db74f8d1b43d6c1619373a0d0aa3",
+      "bytes": 65113,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/ADF.ac"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/ADF.xml",
+      "scope": "aircraft",
+      "sha256": "ad163b5251ee5869ad6d8d2ba04ef08fff632d345b2af1710b0026af38e39305",
+      "bytes": 7511,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/ADF.xml"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/cockpit_2.png",
+      "scope": "aircraft",
+      "sha256": "9d3050a81df7caab5cd8f797bd66a0d23f5d635721fbbacf63f27a2d81c5a339",
+      "bytes": 513726,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/cockpit_2.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/cockpit-1.png",
+      "scope": "aircraft",
+      "sha256": "b7fc1bc247fd374c20e4edd97d7d4d3694686a8b9dd3021b63a7df73548946a9",
+      "bytes": 174177,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/cockpit-1.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/NAV.ac",
+      "scope": "aircraft",
+      "sha256": "9feadc1c1c935ee0fb8643b04b8dcd2d7e62b54bcbef495421e8bd96c3a1e9cc",
+      "bytes": 27317,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/NAV.ac"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/NAV.xml",
+      "scope": "aircraft",
+      "sha256": "666b565cc6e90b95a3ae20f94b51d1830e0cd849f58b024ca48d1393f63dd318",
+      "bytes": 8663,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/NAV.xml"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel.ac",
+      "scope": "aircraft",
+      "sha256": "9d356b97c6a5c4ab03b8263a5efc97607395e3d34a20d162718a17b521829101",
+      "bytes": 88638,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/Radiopanel.ac"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel.png",
+      "scope": "aircraft",
+      "sha256": "3e54c2ba409bb06c5c3cc52ef9b66fa319885cd2810ba324bad32e1611ace26b",
+      "bytes": 24269,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/Radiopanel.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel.xml",
+      "scope": "aircraft",
+      "sha256": "77f64572cc667b3b45747b2302af917a00e72a369ddab02d2cf28d2582bb80cc",
+      "bytes": 8062,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/Radiopanel.xml"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/transponder.ac",
+      "scope": "aircraft",
+      "sha256": "a60c91d0fae93487641b57abbb0974305a4a56db2c11ca8a0960c06801168016",
+      "bytes": 43715,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/transponder.ac"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/transponder.xml",
+      "scope": "aircraft",
+      "sha256": "c869518990923acca5071199501bdd148f974f03f88815af1651c55e18c71dff",
+      "bytes": 9024,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Radiopanel/transponder.xml"
+    },
+    {
+      "path": "Models/Instruments/secondary_EICAS/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "b7b83b4146484fabe901b0f9421385b7f274d116ce24d59b9d074e19597fa919",
+      "bytes": 12860,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/secondary_EICAS/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/secondary_EICAS/eicas.png",
+      "scope": "aircraft",
+      "sha256": "9b899b3f0bb20d6440755f50153e4ed6cf56ca13629b94cbf231d4986f570a62",
+      "bytes": 67148,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/secondary_EICAS/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/secondary_EICAS/eicas.xml",
+      "scope": "aircraft",
+      "sha256": "41e562a32616ecbb247a729a4ae0cebc37efe03ce838b0b14695a6df864625b8",
+      "bytes": 1258,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/secondary_EICAS/eicas.xml"
+    },
+    {
+      "path": "Models/Instruments/stab_trim/stab_trim.ac",
+      "scope": "aircraft",
+      "sha256": "f717ecc5686bfde177639900db791471fcf2fe976dee6a72eeb3defeaa9752db",
+      "bytes": 10034,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/stab_trim/stab_trim.ac"
+    },
+    {
+      "path": "Models/Instruments/stab_trim/stab_trim.png",
+      "scope": "aircraft",
+      "sha256": "fc8658d37a037d25245330bd68cce1a15531381207c34d3aabef5c69360c7f91",
+      "bytes": 444455,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/stab_trim/stab_trim.png"
+    },
+    {
+      "path": "Models/Instruments/stab_trim/stab_trim.xml",
+      "scope": "aircraft",
+      "sha256": "443526351ac474639a52ea22ccdcc49421482e29fa6403fd41c9391349863753",
+      "bytes": 401,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/stab_trim/stab_trim.xml"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/ati.png",
+      "scope": "aircraft",
+      "sha256": "6e33a27195ad9bffb1fe0b8c2e8fd23b8f30d6d8fb83d64ad23f9c6eefa59549",
+      "bytes": 4567,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Stby-AI/ati.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/bezel.png",
+      "scope": "aircraft",
+      "sha256": "b4ef7fce51966f6bd0cf7c26d5703d732ea2eb44acbe4da39fecdfd0b6b0831e",
+      "bytes": 72810,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Stby-AI/bezel.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/stby-ai.ac",
+      "scope": "aircraft",
+      "sha256": "d8645edc4f67c7896bd342f171f65d15a469c12be0d4c6d650d33a70ec0a1d85",
+      "bytes": 34823,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Stby-AI/stby-ai.ac"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/stby-ai.png",
+      "scope": "aircraft",
+      "sha256": "448195e08e0e247c2097ffd680116cb65fda93363accbfee43c130792d81e04e",
+      "bytes": 75239,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Stby-AI/stby-ai.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/stby-ai.xml",
+      "scope": "aircraft",
+      "sha256": "f8c1d7c7872660e905a9ef459a1b75cee57cbe7d3812d662ba1c197589bdd36b",
+      "bytes": 2460,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/Stby-AI/stby-ai.xml"
+    },
+    {
+      "path": "Models/Instruments/VOR/vor.ac",
+      "scope": "aircraft",
+      "sha256": "a80ec2f9a80d6ba6a17bec46944c4efeb67eb6a976ee7d3feaa0af8933fbe513",
+      "bytes": 24243,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VOR/vor.ac"
+    },
+    {
+      "path": "Models/Instruments/VOR/vor.png",
+      "scope": "aircraft",
+      "sha256": "0b0302cf7e50d1868a490cea9cc252c0d7dd0ab1314876ffa6d309a8929f7736",
+      "bytes": 192234,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VOR/vor.png"
+    },
+    {
+      "path": "Models/Instruments/VOR/VOR.xml",
+      "scope": "aircraft",
+      "sha256": "990f4f927677f9040bb5d5c0074d53b68025f8c5063387e345ca93daa30eb87d",
+      "bytes": 5738,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VOR/VOR.xml"
+    },
+    {
+      "path": "Models/Instruments/VSI/bezel.png",
+      "scope": "aircraft",
+      "sha256": "b4ef7fce51966f6bd0cf7c26d5703d732ea2eb44acbe4da39fecdfd0b6b0831e",
+      "bytes": 72810,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VSI/bezel.png"
+    },
+    {
+      "path": "Models/Instruments/VSI/vsi-face.png",
+      "scope": "aircraft",
+      "sha256": "8c4cb9737296cbbf5356ff31d3f1fef322c23f8ce7fc8ae7da202f0bace75d73",
+      "bytes": 16352,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VSI/vsi-face.png"
+    },
+    {
+      "path": "Models/Instruments/VSI/VSI.ac",
+      "scope": "aircraft",
+      "sha256": "4c4d90ef288235622cc84b217027dcb55cd324c9d293ac7248a20f1bb34e57c9",
+      "bytes": 6392,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VSI/VSI.ac"
+    },
+    {
+      "path": "Models/Instruments/VSI/VSI.xml",
+      "scope": "aircraft",
+      "sha256": "0aff4b64602e9fdef9846aa9baa58888104465a7c793a00331b8e72fefe4c164",
+      "bytes": 1329,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Instruments/VSI/VSI.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/display-text-value.xml",
+      "scope": "fgdata",
+      "sha256": "e3645538307d46d6895aa1704f9fa3354fa73caf0e8954161875c6ecfa1ff486",
+      "bytes": 1803,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/display-text-value.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/RDR-160/bkgrd.png",
+      "scope": "fgdata",
+      "sha256": "1afc5d7a385ce88fbd88951763bc1dfa02c9eec8607c8f0a57a54bcfbde38dc3",
+      "bytes": 6488,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/RDR-160/bkgrd.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/RDR-160/RDR-160.xml",
+      "scope": "fgdata",
+      "sha256": "63de880691cb56c262305734cf58c874d50dd4aada51059eb8943e13ac2b9b66",
+      "bytes": 7426,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/RDR-160/RDR-160.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/RDR-160/RDR160.ac",
+      "scope": "fgdata",
+      "sha256": "1493bf5b17a12fbc28548f08819972aaf97fd31352b6c8ff28b8f5290ee69f43",
+      "bytes": 54217,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/RDR-160/RDR160.ac"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/RDR-160/RDR160.png",
+      "scope": "fgdata",
+      "sha256": "bbef46cf2be5917fdbf330db9eb925b3828c24f267b5d4c4e2ba9e952336ed6a",
+      "bytes": 13222,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/RDR-160/RDR160.png"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/757-200",
+    "commit": "873a9a12ec1a2451ece37dff3bc1fbc888615042",
+    "entry": "Models/Flightdeck/Flightdeck.xml",
+    "sourceDirectory": "b757",
+    "viewpoint": {
+      "source": "757-main.xml",
+      "position": [
+        -0.55,
+        1.7,
+        2.09
+      ],
+      "pitchDeg": -13.5,
+      "fovDeg": 85
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 85,
+      "lookPitch": -0.23561944901923448
+    },
+    "parentTransformChain": [
+      {
+        "source": "Models/757-200.xml#model(Aircraft/757-200/Models/Flightdeck/Flightdeck.xml)",
+        "transform": {
+          "x-m": 0.1786
+        }
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}

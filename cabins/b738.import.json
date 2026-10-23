@@ -1,0 +1,298 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/b738.glb",
+  "bytes": 3992276,
+  "triangles": 73560,
+  "nodes": 16,
+  "meshes": 15,
+  "images": 6,
+  "instruments": [],
+  "omittedNodes": [],
+  "sourceMeshes": 71,
+  "drawGroups": 15,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cabin-research/YV3399--737-800YV/.skybound-cabin-b738.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cabin-research/YV3399--737-800YV/Models/737-800.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cabin-research/YV3399--737-800YV/Models/seats/passengers/passenger-seating.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cabin-research/YV3399--737-800YV/Models/seats/passengers/738PassengerSeats.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    0,
+    1.4,
+    0
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-b738.xml",
+    "sha256": "dd50cda3f7b7491d04d87588c2635e0b36452a3fadd31b7b31a0e5c8ea67f1dd",
+    "text": "<PropertyList><model><path>Models/737-800.ac</path><offsets></offsets></model><model><path>Models/seats/passengers/passenger-seating.xml</path><offsets></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "737-800YV-set.xml",
+      "bytes": 10960,
+      "sha256": "5c3e1e258a48e719432a689c43420cc6ab992e424e8bb269bd77f25390721361",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/737-800YV-set.xml"
+    },
+    {
+      "path": "737ng-common.xml",
+      "bytes": 29983,
+      "sha256": "9987dddde5dd5397ca19feb5b9ebaf034bcd44de004da0e977049e1db4aaeeb8",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/737ng-common.xml"
+    },
+    {
+      "path": "Models/737-800.ac",
+      "bytes": 786376,
+      "sha256": "c45133b549293f780e19e7645cce1a3a9084fb1fde65febc040d2f8d01e53452",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/737-800.ac"
+    },
+    {
+      "path": "Models/737-800.png",
+      "bytes": 439826,
+      "sha256": "81b5fb50780ad065885b052211e344b3167443d97516dce66284bf44f58bc1c6",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/737-800.png"
+    },
+    {
+      "path": "Models/737-800.xml",
+      "bytes": 25940,
+      "sha256": "5cd21df22c77462c0965901e4147e4fe85d01bb09b90bd62898cd0045409608c",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/737-800.xml"
+    },
+    {
+      "path": "Models/737-panel.png",
+      "bytes": 247464,
+      "sha256": "f34209d33d306c007d24fc3abdb1376722ae18b9b38e9adda7c652578c4f171b",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/737-panel.png"
+    },
+    {
+      "path": "Models/Fairing.png",
+      "bytes": 1854,
+      "sha256": "c43c32ba38e54294d1b41fc2a319eb2d9f5f2c3c60899d6561f4ea99b158fc3e",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/Fairing.png"
+    },
+    {
+      "path": "Models/HorzStab.png",
+      "bytes": 70764,
+      "sha256": "f645175534464f458445df33d719b3584e1b18c18eca20809f5591b4404de0d7",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/HorzStab.png"
+    },
+    {
+      "path": "Models/carpete-preto.png",
+      "bytes": 730795,
+      "sha256": "eb2abf6d5dd662b5138185ae6d0127f9dfd3f750e38ca251441041da87120dab",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/carpete-preto.png"
+    },
+    {
+      "path": "Models/cent-panel.png",
+      "bytes": 277581,
+      "sha256": "6b9e659f99d8ceab10a89831526a013b23207500337a94636c97d1e619681b6e",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/cent-panel.png"
+    },
+    {
+      "path": "Models/chrome.png",
+      "bytes": 4047,
+      "sha256": "dcc09d57dcd5cb77e2446903d274be4dba2d5baf5a9d24c6886f881bb15afc0e",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/chrome.png"
+    },
+    {
+      "path": "Models/circuit-brakers.png",
+      "bytes": 429548,
+      "sha256": "db7349b5cfd51627be84fe087e0c22ed19c0f953cc118ae4a02c983cbe3a7798",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/circuit-brakers.png"
+    },
+    {
+      "path": "Models/cockpit.ac",
+      "bytes": 285754,
+      "sha256": "a1dd1c77e619c1399873913102fe87d2f2fdaf72e41b90c6f647fa0ac7976d3b",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/cockpit.ac"
+    },
+    {
+      "path": "Models/cockpitdoor.png",
+      "bytes": 729814,
+      "sha256": "002b8ca23b218f93d49c117ab8569187837eca2f2f731138353af861ea6c62c2",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/cockpitdoor.png"
+    },
+    {
+      "path": "Models/colors.png",
+      "bytes": 1820,
+      "sha256": "a0d2d59fdeac0552625400d0bf6c591072853bc3de07bf50669f58d019218148",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/colors.png"
+    },
+    {
+      "path": "Models/crossfeed.png",
+      "bytes": 11574,
+      "sha256": "a761449b0da7a75cc8d1fcac9b3b2afe60a41b83aa43bffb00db4cf840ce7a9d",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/crossfeed.png"
+    },
+    {
+      "path": "Models/digits2.png",
+      "bytes": 5558,
+      "sha256": "0e1c8ba986593cff09ed5ee130771b9a4bf8431fd288c59c39db0fd6893c8afd",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/digits2.png"
+    },
+    {
+      "path": "Models/du-panel.png",
+      "bytes": 45607,
+      "sha256": "b620c945a2f8ee1bebb70344dd30a0a61371299f1caea29b9232e412691c6737",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/du-panel.png"
+    },
+    {
+      "path": "Models/fans-spiral.png",
+      "bytes": 113299,
+      "sha256": "b5fa9b5ec1a3534fac0cda36207c861f4cbb5f9fa67211c939d2aedbc5427bb6",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/fans-spiral.png"
+    },
+    {
+      "path": "Models/gear.png",
+      "bytes": 26432,
+      "sha256": "3984fc6187f435397e874627b9cf1ee180ec01738f051b98ba53dca21ed170db",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/gear.png"
+    },
+    {
+      "path": "Models/knob.png",
+      "bytes": 20692,
+      "sha256": "ec27a81284a26aa09a5bee7ca73fa56407c111e11aad8d4f7f249f6223c0ed2d",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/knob.png"
+    },
+    {
+      "path": "Models/lamp_knob_gray.png",
+      "bytes": 201753,
+      "sha256": "7ffc9a48caf6398a650d9fd28af71202c82a0b0b6c1ed3a67be86243f9f9f39c",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/lamp_knob_gray.png"
+    },
+    {
+      "path": "Models/landinglight.png",
+      "bytes": 852219,
+      "sha256": "952dc1e17e8511d6bdd0c8ed23a2b1bb38b382046810ef79ce89c2f675656d8d",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/landinglight.png"
+    },
+    {
+      "path": "Models/lights.png",
+      "bytes": 159044,
+      "sha256": "bfe63eeb2d16b745f6145b413b257f28d82d0cb19e57e5a9227be48c5ce9c7b8",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/lights.png"
+    },
+    {
+      "path": "Models/mainwheel.png",
+      "bytes": 25323,
+      "sha256": "b00dfb48488d38488c791c39237432ac3ba1f23ca3db1402fd740d0f8e70d98b",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/mainwheel.png"
+    },
+    {
+      "path": "Models/newwings.png",
+      "bytes": 1820,
+      "sha256": "831f73e21938a717b401b15dcb6ad6f49f5a1921b2e2298bcc4530d395b5f7de",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/newwings.png"
+    },
+    {
+      "path": "Models/pedestal.png",
+      "bytes": 127918,
+      "sha256": "64a2bc9cf492f56884282750f51bd21a5f43d1110ad28723f840bcc8e767b9d6",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/pedestal.png"
+    },
+    {
+      "path": "Models/pedestaltexture.png",
+      "bytes": 3009,
+      "sha256": "71a0e14369b345a70890937be2f5e488c751fdec0a88bda4d04f13762596cf0f",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/pedestaltexture.png"
+    },
+    {
+      "path": "Models/plastico-couro.png",
+      "bytes": 128304,
+      "sha256": "24231c5be9686d345451d5a556f3c7bd0a2abe6dd46e486ca9e5931ec9b1d291",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/plastico-couro.png"
+    },
+    {
+      "path": "Models/seats/passengers/738PassengerSeats.ac",
+      "bytes": 3791214,
+      "sha256": "1faf9e7cfdbba51298817b8876dbc7d054ebb50abf8e900e5c9d526af39e53f7",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/738PassengerSeats.ac"
+    },
+    {
+      "path": "Models/seats/passengers/Copy of ceiling.png",
+      "bytes": 35744,
+      "sha256": "8442d71936a993de9e83542ac320200d426116dc2da544ea1c19735c59c42c76",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/Copy%20of%20ceiling.png"
+    },
+    {
+      "path": "Models/seats/passengers/bulkhead.png",
+      "bytes": 4600,
+      "sha256": "4bb2f46ee2e5e35bff231d6b864477d893c80cfd2dc3205fb66597e0e568a296",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/bulkhead.png"
+    },
+    {
+      "path": "Models/seats/passengers/carpeting.png",
+      "bytes": 1816,
+      "sha256": "297ef4f90590f523079bb303ff0d59be65cb9a142f00e482bb14536ee2505db4",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/carpeting.png"
+    },
+    {
+      "path": "Models/seats/passengers/ceiling.png",
+      "bytes": 30481,
+      "sha256": "c4b60dbe96f7baa47dee34c46d2d878d9b80d268bc84bda8b6acf1124be375eb",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/ceiling.png"
+    },
+    {
+      "path": "Models/seats/passengers/neo-cabin-economy.png",
+      "bytes": 614556,
+      "sha256": "f062032a542e52cc9a58bddd2a0f3cc315e3dc166a8003f1356e5a9c37da3119",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/neo-cabin-economy.png"
+    },
+    {
+      "path": "Models/seats/passengers/neo-cabin-premium.png",
+      "bytes": 468563,
+      "sha256": "ffb7784fab262393b2a23ac6215ee7bc9fa75001af685f1c83604e391ab015c4",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/neo-cabin-premium.png"
+    },
+    {
+      "path": "Models/seats/passengers/passenger-seating.xml",
+      "bytes": 120,
+      "sha256": "e9e601db30a799cd0cbac590832da429380b896a421e2934f074a285071e38f7",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/seats/passengers/passenger-seating.xml"
+    },
+    {
+      "path": "Models/speedbrake.png",
+      "bytes": 1991,
+      "sha256": "cf2d79fbed2032cec5d97b2a4eb72ddda845491de6aa6a938ee239a39a483cbe",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/speedbrake.png"
+    },
+    {
+      "path": "Models/switch.png",
+      "bytes": 12951,
+      "sha256": "01bba34d06eda7af0e4b3b144a5fdd0aa3368752013d043e027937a4eac99814",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/switch.png"
+    },
+    {
+      "path": "Models/tiller.png",
+      "bytes": 83952,
+      "sha256": "d1a4e486ad2e6036da18c5a12cd06ac7d10bcca46d59aad86718bf4cb2ddb446",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/tiller.png"
+    },
+    {
+      "path": "Models/trim.png",
+      "bytes": 1460,
+      "sha256": "2bbf6054186ac121332950eeaa33596bf95d9d91fd61c77991066b17204bd2c1",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/trim.png"
+    },
+    {
+      "path": "Models/vol.png",
+      "bytes": 392,
+      "sha256": "da1bb5d3b6f97e83f88aa7140f35c73d64069e8bab572ac125e12d9575b58d9e",
+      "source": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Models/vol.png"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/YV3399/737-800YV",
+    "commit": "9d967d89dd2ee0ae1bf01d00c49839a574aa9da5",
+    "components": [
+      {
+        "path": "Models/737-800.ac",
+        "offsets": {}
+      },
+      {
+        "path": "Models/seats/passengers/passenger-seating.xml",
+        "offsets": {}
+      }
+    ]
+  }
+}

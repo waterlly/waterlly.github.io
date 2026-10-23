@@ -1,0 +1,21 @@
+This aircraft was modified and updated in a joint effort by the following people:
+
+* Heiko Schulz (hhs81): 3D model, fdm, textures, bug tracking, testing 
+Email: heiko.h.schulz@gmx.net
+
+* Gilberto Agostinho (gsagostinho): textures, xml, bug tracking, testing 
+Email: gilbertohasnofb@gmail.com
+
+* Benedikt Hallinger (benih): Startup States, Davtron 803, Audio Panel, Fuel system, Oil management, external heating, Custom registration, bug tracking and fixes, testing and more
+
+* onox: advice, nasal-scripts, testing
+
+* Wayne Bragg (wlbragg): rain effect, advice
+
+* Ron Jensen (jentron)
+
+* Daniel Dubreuil (Dany93)
+
+* Stuart Buchanan
+
+* David Megginson 

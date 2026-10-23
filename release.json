@@ -1,0 +1,12 @@
+{
+  "name": "SKYBOUND",
+  "release": "2026-10-23",
+  "hosting": "GitHub Pages",
+  "entrypoint": "/",
+  "mode": "static",
+  "featuresRequiringBackend": [
+    "accounts",
+    "multiplayer",
+    "chat"
+  ]
+}

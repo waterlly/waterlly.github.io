@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "url": "https://www.openstreetmap.org/copyright",
+  "airports": [
+    {
+      "code": "RJTT",
+      "nodes": 4265,
+      "ways": 595,
+      "source": "OSM main API extract, work/airport-facilities/RJTT.osm"
+    },
+    {
+      "code": "ZBAA",
+      "nodes": 5896,
+      "ways": 830,
+      "source": "OSM main API extract, work/airport-facilities/ZBAA.osm"
+    },
+    {
+      "code": "KSEA",
+      "nodes": 2338,
+      "ways": 275,
+      "source": "OSM main API extract, work/airport-facilities/KSEA.osm"
+    },
+    {
+      "code": "LFPG",
+      "nodes": 3084,
+      "ways": 536,
+      "source": "OSM main API extract, work/airport-facilities/LFPG.osm"
+    },
+    {
+      "code": "OMDB",
+      "nodes": 2304,
+      "ways": 349,
+      "source": "OSM main API extract, work/airport-facilities/OMDB.osm"
+    }
+  ]
+}

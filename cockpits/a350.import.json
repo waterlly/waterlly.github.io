@@ -1,0 +1,636 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/a350.glb",
+  "bytes": 23484804,
+  "triangles": 139694,
+  "nodes": 74,
+  "meshes": 59,
+  "images": 40,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    }
+  ],
+  "sourceMeshes": 1090,
+  "drawGroups": 59,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/A350XWB-900-flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/flightdeck.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Upper-ECAM/Upper-ECAM.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Upper-ECAM/res/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Upper-ECAM/Upper-ECAM2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Upper-ECAM/res/eicas2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/PFD/PFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/PFD/res/pfd-3d.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/PFD/PFD2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/ND/ND_L.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/ND/ND_L.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/ND/ND_R.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/ND/ND_R.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/A350XWB-900-EICAS.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/flightdeck-screen.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/EICAS/EICAS-right.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/EICAS/res/eicas2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/EICAS/EICAS-left.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/EICAS/res/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Bottom-ECAM/Bottom-ECAM.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Bottom-ECAM/res/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Bottom-ECAM/Bottom-ECAM2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/Instruments/Bottom-ECAM/res/eicas2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/MCP/MCP.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/MCP/mcp.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/overhead/overhead.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/overhead/overhead.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/RMP/radio.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/standby/stndby.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/center_console/center_console.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/flightdeck/center_console/center_console.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "A350XWB-common.xml",
+    "position": [
+      -0.5326,
+      3.02,
+      -29.5
+    ],
+    "pitchDeg": -8,
+    "fovDeg": 72
+  },
+  "sourceFiles": [
+    {
+      "path": "A350XWB-common.xml",
+      "scope": "aircraft",
+      "sha256": "d6bdc588aa11ff4bf61694b36dd76a9525ede4a51f2a2d1261316091d65d5dc2",
+      "bytes": 23053,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/A350XWB-common.xml"
+    },
+    {
+      "path": "Models/A350XWB-900-flightdeck.xml",
+      "scope": "aircraft",
+      "sha256": "81e39fd93168d1188355bf252c3c7c20b1bb791061c38ff8623ba828a297455b",
+      "bytes": 24492,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/A350XWB-900-flightdeck.xml"
+    },
+    {
+      "path": "Models/A350XWB-900.xml",
+      "scope": "aircraft",
+      "sha256": "3a6b0227cc6ae50f5a07de529aa5081bd022d08c4b9a66eda6afb1f5fc3b26de",
+      "bytes": 53651,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/A350XWB-900.xml"
+    },
+    {
+      "path": "Models/flightdeck/A350XWB-900-EICAS.xml",
+      "scope": "aircraft",
+      "sha256": "0a91cde916f08e2e8950dd1ddba9a6f73020275a024141e8a72a26414251c32d",
+      "bytes": 107,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/A350XWB-900-EICAS.xml"
+    },
+    {
+      "path": "Models/flightdeck/center_console/center_console.ac",
+      "scope": "aircraft",
+      "sha256": "e572f9ffbcde5821c21ddc904852a5227dd3943cf695062ec818063883f21082",
+      "bytes": 1802886,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/center_console.ac"
+    },
+    {
+      "path": "Models/flightdeck/center_console/center_console.png",
+      "scope": "aircraft",
+      "sha256": "8b7451bff8c6f2447fd25dc6fbfe2a2bcf4b27734eb36d158a058be3533815d6",
+      "bytes": 973454,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/center_console.png"
+    },
+    {
+      "path": "Models/flightdeck/center_console/center_console.xml",
+      "scope": "aircraft",
+      "sha256": "ee3c30a45dd1937ecd7af1f4e8bf6f5197875e057558a8c8c083c90b78dff303",
+      "bytes": 1368,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/center_console.xml"
+    },
+    {
+      "path": "Models/flightdeck/center_console/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/knob.png"
+    },
+    {
+      "path": "Models/flightdeck/center_console/text_2.png",
+      "scope": "aircraft",
+      "sha256": "80e3487d58fa68a9c3ceefdbf12b587d0807804818cefc60f02158a6eb1158c7",
+      "bytes": 67689,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/text_2.png"
+    },
+    {
+      "path": "Models/flightdeck/center_console/text.png",
+      "scope": "aircraft",
+      "sha256": "9879a531957da4e05b1797e54a63a94512cfc57630e255e537865b68f98d467d",
+      "bytes": 38899,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/center_console/text.png"
+    },
+    {
+      "path": "Models/flightdeck/cockpit_2.png",
+      "scope": "aircraft",
+      "sha256": "542cc2464211fa1da65e428e18d88f1158ac1bf70eaebbd0aa02d9f7bf8ce6c6",
+      "bytes": 752900,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/cockpit_2.png"
+    },
+    {
+      "path": "Models/flightdeck/cockpit_3.png",
+      "scope": "aircraft",
+      "sha256": "c4c624132b132f81037887b7b3bced28625cfc3b83c713039e84068187cd8660",
+      "bytes": 1047060,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/cockpit_3.png"
+    },
+    {
+      "path": "Models/flightdeck/cockpit_seat.png",
+      "scope": "aircraft",
+      "sha256": "98075883706d83be28b525ad14f972631e6f5cfa17b9c342593b3da2063384ec",
+      "bytes": 1750044,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/cockpit_seat.png"
+    },
+    {
+      "path": "Models/flightdeck/cockpit.png",
+      "scope": "aircraft",
+      "sha256": "a306a970ce7841aa42db2181b1d7dd10a825090fc63a7f2f85923a30cd17954b",
+      "bytes": 912760,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/cockpit.png"
+    },
+    {
+      "path": "Models/flightdeck/dashboard.png",
+      "scope": "aircraft",
+      "sha256": "3eab7630208a5da35a7b03c21a87927b77d1753f89d0cc65bad4c7191c4c999c",
+      "bytes": 1113745,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/dashboard.png"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/EICAS-left.xml",
+      "scope": "aircraft",
+      "sha256": "4a3c1b2bd815df65af55d0b6b4e6c6ba56288288e8a90f5c28b0ebab974ff202",
+      "bytes": 193,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/EICAS-left.xml"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/EICAS-right.xml",
+      "scope": "aircraft",
+      "sha256": "e5af0c214b267bfa903a80cc95f8c4938e9a8cd5a41902eaf8093c36e7c6e2c4",
+      "bytes": 195,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/EICAS-right.xml"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/res/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "7f5dc535187bb1f1f625e5192b8d6a8e784467ae852545e44a352807bb545f86",
+      "bytes": 2114,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/res/eicas.ac"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/res/eicas.png",
+      "scope": "aircraft",
+      "sha256": "6b04feaca509d3c6ed87f03f94d6eda8fd29a14087dc8e2469956a59c3c79c18",
+      "bytes": 2571763,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/res/eicas.png"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/res/eicas2.ac",
+      "scope": "aircraft",
+      "sha256": "8675f33acc95e31d3fe251aad4cfe70e995f60900f6816c93ec68331eb848f14",
+      "bytes": 2115,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/res/eicas2.ac"
+    },
+    {
+      "path": "Models/flightdeck/EICAS/res/eicas2.png",
+      "scope": "aircraft",
+      "sha256": "351f6d575bc587addc06be0c05c955abebccec0bb9607330921b306f59b94902",
+      "bytes": 1746991,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/EICAS/res/eicas2.png"
+    },
+    {
+      "path": "Models/flightdeck/flightdeck-screen.ac",
+      "scope": "aircraft",
+      "sha256": "fa76764ecc9156f04f7feca155cb612600f341c3ff97a7ab72bea03662c669a6",
+      "bytes": 20902,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/flightdeck-screen.ac"
+    },
+    {
+      "path": "Models/flightdeck/flightdeck.ac",
+      "scope": "aircraft",
+      "sha256": "5610db3e857aaa4ca837229b3781f4ff48a15bd67f25f994f5d02ff75a368338",
+      "bytes": 4311856,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/flightdeck.ac"
+    },
+    {
+      "path": "Models/flightdeck/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/knob.png"
+    },
+    {
+      "path": "Models/flightdeck/MCP/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/MCP/knob.png"
+    },
+    {
+      "path": "Models/flightdeck/MCP/mcp.ac",
+      "scope": "aircraft",
+      "sha256": "966e671213630d67bd310765a0a1368c891185c6fb4a273ad65facf88bd4dfb5",
+      "bytes": 1356357,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/MCP/mcp.ac"
+    },
+    {
+      "path": "Models/flightdeck/MCP/mcp.png",
+      "scope": "aircraft",
+      "sha256": "6595dce3437c351c43680a915ef80a49ab8d886f10143f7792892f36ee628ca1",
+      "bytes": 1251064,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/MCP/mcp.png"
+    },
+    {
+      "path": "Models/flightdeck/MCP/MCP.xml",
+      "scope": "aircraft",
+      "sha256": "a896b470176c4a7bc5b9f0d22ce174c7b16c16959e81723cf04f37603d9db7ae",
+      "bytes": 1051,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/MCP/MCP.xml"
+    },
+    {
+      "path": "Models/flightdeck/MCP/text.png",
+      "scope": "aircraft",
+      "sha256": "2fbc10e84fedd406700712fa4ef01cddaf944e70705631e1ac3c5774e61bf911",
+      "bytes": 6643,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/MCP/text.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/buttons.png",
+      "scope": "aircraft",
+      "sha256": "e22d2e3d19916ff938d399a34a4347717c0e3d02036e240ebb0e55c72ea3ad75",
+      "bytes": 12211,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/buttons.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/firealarm.png",
+      "scope": "aircraft",
+      "sha256": "771065e673d373ba870b24aafcb866ba511889941261227c0da25727a6182c40",
+      "bytes": 57437,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/firealarm.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/knob.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/OH.png",
+      "scope": "aircraft",
+      "sha256": "a0eff84c7ecba7c9615ca0da4447a91e078390b0d1d9433e99936b990d092bf2",
+      "bytes": 1139482,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/OH.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/overhead.ac",
+      "scope": "aircraft",
+      "sha256": "34a833b474bfb5863650bf3ab25c451eee9e062c8ede00cec5a59addb4536360",
+      "bytes": 1257451,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/overhead.ac"
+    },
+    {
+      "path": "Models/flightdeck/overhead/overhead.png",
+      "scope": "aircraft",
+      "sha256": "e3e271f92bca77e7a41a3734726bbea0bd82ad3fa7c7da746c6ca5bacd694f80",
+      "bytes": 1747520,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/overhead.png"
+    },
+    {
+      "path": "Models/flightdeck/overhead/overhead.xml",
+      "scope": "aircraft",
+      "sha256": "68a669fca9e81531e9e34a850a17b6854333900e58b63386ead290114c78fa7e",
+      "bytes": 9920,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/overhead/overhead.xml"
+    },
+    {
+      "path": "Models/flightdeck/RMP/frame.png",
+      "scope": "aircraft",
+      "sha256": "c9c1c00cda237f2344614655ed36701a48545f60383e5d3c7c98cefef7e52425",
+      "bytes": 731606,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/RMP/frame.png"
+    },
+    {
+      "path": "Models/flightdeck/RMP/radio.ac",
+      "scope": "aircraft",
+      "sha256": "1b7bca92346ede79ae5aeb0b588e2619b49227c8ca3b89593ce1fabb0e431a1b",
+      "bytes": 504801,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/RMP/radio.ac"
+    },
+    {
+      "path": "Models/flightdeck/screen.png",
+      "scope": "aircraft",
+      "sha256": "9abc2e102569f18a6f58c1bd6cbb0a01bb031033c228e3b76ab9a6b3697bb547",
+      "bytes": 31298,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/screen.png"
+    },
+    {
+      "path": "Models/flightdeck/sidestick.png",
+      "scope": "aircraft",
+      "sha256": "c7417d2cd6b6079fb9721fe7d45240cc6d9b2158a2a37a477f4a4607a79f08e0",
+      "bytes": 790729,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/sidestick.png"
+    },
+    {
+      "path": "Models/flightdeck/standby/stndby.ac",
+      "scope": "aircraft",
+      "sha256": "b1a361abdbf0e57b7e21468c02e95894c025912b4cc130eae77edb17857abfb9",
+      "bytes": 24322,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/standby/stndby.ac"
+    },
+    {
+      "path": "Models/flightdeck/standby/stndby.png",
+      "scope": "aircraft",
+      "sha256": "1ec670c19e74c3688b3d335304b83cde0d6bd0764fd0601a5d87e02b999110b5",
+      "bytes": 46964,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/flightdeck/standby/stndby.png"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/Bottom-ECAM.xml",
+      "scope": "aircraft",
+      "sha256": "7ed9f0b9084860be92b510f0c5ab55c64b9e970b6201dffe824422eeabf639d1",
+      "bytes": 196,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/Bottom-ECAM.xml"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/Bottom-ECAM2.xml",
+      "scope": "aircraft",
+      "sha256": "34099b7725e5813ce6c048143bf319873e62307c5536ba244bef10ba1a6a14e6",
+      "bytes": 198,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/Bottom-ECAM2.xml"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/res/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "c3ccd7b92dedf93169b3ff9537baa5b2ea14d0b2fc135908e00a6d39fb3c276f",
+      "bytes": 8114,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/res/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/res/eicas.png",
+      "scope": "aircraft",
+      "sha256": "01b946801348c697e618f86dcb66ba12c35d5d4a5e38cd804161db63aa049617",
+      "bytes": 171098,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/res/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/res/eicas2.ac",
+      "scope": "aircraft",
+      "sha256": "8675f33acc95e31d3fe251aad4cfe70e995f60900f6816c93ec68331eb848f14",
+      "bytes": 2115,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/res/eicas2.ac"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/res/eicas2.png",
+      "scope": "aircraft",
+      "sha256": "775c9e4c1dfb9aa0d67c6c4a75be617f1eebeac8380316108b24ae0cadbc369f",
+      "bytes": 308675,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/res/eicas2.png"
+    },
+    {
+      "path": "Models/Instruments/Bottom-ECAM/res/symbols.png",
+      "scope": "aircraft",
+      "sha256": "ec7e5693aa5e257aad50a8ec5f5f5203b13b445e7d7000447922376d95e2ccca",
+      "bytes": 1161,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Bottom-ECAM/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_L.ac",
+      "scope": "aircraft",
+      "sha256": "52e5bcd5a01f0e20910de512eafc24afd7b6c368bcf85ec594f53fe856d7f20e",
+      "bytes": 476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/ND/ND_L.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_L.xml",
+      "scope": "aircraft",
+      "sha256": "014c274d3506a02920e48b8e9ccdd44a1830bdea2c8ce7b8aea3e3162497dafb",
+      "bytes": 339,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/ND/ND_L.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_R.ac",
+      "scope": "aircraft",
+      "sha256": "7b7ec4250d4cf3995cf87376597db7d4bdacbc01565d0bd2a7b87b1421b2aaeb",
+      "bytes": 476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/ND/ND_R.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_R.xml",
+      "scope": "aircraft",
+      "sha256": "e8d1f6d3c7dd854b46c183010c6e058612a7bd3e75190682986140dc7a54a84a",
+      "bytes": 343,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/ND/ND_R.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/screen.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/ND/screen.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.xml",
+      "scope": "aircraft",
+      "sha256": "8b5cd80dd9f9d1e9930f60db0a89b5d4fa278e625af745b3435ac5d7315ce952",
+      "bytes": 22757,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD2.xml",
+      "scope": "aircraft",
+      "sha256": "8b5cd80dd9f9d1e9930f60db0a89b5d4fa278e625af745b3435ac5d7315ce952",
+      "bytes": 22757,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/PFD2.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/alt-tape-2.png",
+      "scope": "aircraft",
+      "sha256": "4f74cab1afa65d703cad03d4a0e2aa98c2887d7546b30d015ee23ce639a01f62",
+      "bytes": 1995,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/alt-tape-2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/alt-tape.png",
+      "scope": "aircraft",
+      "sha256": "9357c44c919684126b57a3a811270bf5e94152f3bf91a86686c27ad2493edc8a",
+      "bytes": 8742,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/autoland.png",
+      "scope": "aircraft",
+      "sha256": "1b1f95a3a3bf7f1c7b44634e1768755c88024e4a1e25de65289ec4fdc8a6354a",
+      "bytes": 3917,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/autoland.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/hdg-tape.png",
+      "scope": "aircraft",
+      "sha256": "067ece86b5a56d5cff3e7a0c2caa8ffe2e25dac04c6e2f408a7fd3607371cbad",
+      "bytes": 23828,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/hdg-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/horizon.png",
+      "scope": "aircraft",
+      "sha256": "de20b2febbdb0bab104e9ee7c37f9243c6f6b17042a5b86ee7ffa14cc58582e1",
+      "bytes": 210353,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/horizon.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/mask.png",
+      "scope": "aircraft",
+      "sha256": "3587b7751bfb949acef49f4fa2d36a86267e9b2c3c9c1ee6c347c02d10e82be2",
+      "bytes": 11046,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/mask.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/pfd-3d.ac",
+      "scope": "aircraft",
+      "sha256": "c6307f0735cd16b811dbee877e9e16b42cc6ca83b84fb3fa23c7e3793cc9b206",
+      "bytes": 14479,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/pfd-3d.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/spd-tape.png",
+      "scope": "aircraft",
+      "sha256": "c93933a2f27557dfd4a6175499dc9be55c54d3013d3e6104cf7a7f83a3323d69",
+      "bytes": 34387,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/spdtrend.png",
+      "scope": "aircraft",
+      "sha256": "730827e16bfc9932783603a54f405c95c965a4a1787b2939e7b1ffca623f1912",
+      "bytes": 6263,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/spdtrend.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/symbols.png",
+      "scope": "aircraft",
+      "sha256": "65dbeb62243db09129cdd7847391349032b450ef1834e998f5d21ec06776558a",
+      "bytes": 17124,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/PFD/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "c3ccd7b92dedf93169b3ff9537baa5b2ea14d0b2fc135908e00a6d39fb3c276f",
+      "bytes": 8114,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/res/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas.png",
+      "scope": "aircraft",
+      "sha256": "9612eae28cb2bf1bf75a7ea627155a0b36efab86f9a7fea5bbe9b9ba0803efac",
+      "bytes": 540375,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/res/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas2.ac",
+      "scope": "aircraft",
+      "sha256": "23765f33a9411d16c2cf2ed59612790da92d5bc1c698dc98c6e1aee1c48fdd8b",
+      "bytes": 2251,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/res/eicas2.ac"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas2.png",
+      "scope": "aircraft",
+      "sha256": "182cd0b12c2f3d2459a5eaa959a34045d6489a7a44fd034c7ed871dff85baad3",
+      "bytes": 111941,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/res/eicas2.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/symbols.png",
+      "scope": "aircraft",
+      "sha256": "ec7e5693aa5e257aad50a8ec5f5f5203b13b445e7d7000447922376d95e2ccca",
+      "bytes": 1161,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/Upper-ECAM.xml",
+      "scope": "aircraft",
+      "sha256": "c4e37b4cbbeb3b7d5ed71deaff997524cf8d11d394bacaf3b12d7de84072b59d",
+      "bytes": 9591,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/Upper-ECAM.xml"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/Upper-ECAM2.xml",
+      "scope": "aircraft",
+      "sha256": "9e3d769e7fc37c81255d3465fc65898783daf0d8e286a931b8c9d224bdd96e21",
+      "bytes": 197,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/Instruments/Upper-ECAM/Upper-ECAM2.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A350XWB",
+    "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+    "entry": "Models/A350XWB-900-flightdeck.xml",
+    "sourceDirectory": "a350",
+    "viewpoint": {
+      "source": "A350XWB-common.xml",
+      "position": [
+        -0.5326,
+        3.02,
+        -29.5
+      ],
+      "pitchDeg": -8,
+      "fovDeg": 72
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 72,
+      "lookPitch": -0.13962634015954636
+    },
+    "parentTransformChain": [
+      {
+        "source": "Models/A350XWB-900.xml#offsets",
+        "transform": {
+          "x-m": -32.8,
+          "z-m": 0.7
+        }
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}

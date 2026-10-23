@@ -1,0 +1,1042 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/c182.glb",
+  "bytes": 9650628,
+  "triangles": 38672,
+  "nodes": 11,
+  "meshes": 10,
+  "images": 6,
+  "instruments": [],
+  "omittedNodes": [],
+  "sourceMeshes": 116,
+  "drawGroups": 10,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/c182/.skybound-cabin-c182.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/c182/Models/interior-model.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    -0.25,
+    0.54,
+    1.88
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-c182.xml",
+    "sha256": "21530211aa88353fd4639338fcae1b1dee752cdd9cbbb13f0eafad3e9509e183",
+    "text": "<PropertyList><model><path>Models/interior-model.ac</path><offsets></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "Models/CWS.Ann.png",
+      "bytes": 68370,
+      "sha256": "8507a657931e3ac443b02558a3995f750b8f3deb5b5b5454ceb599bd76850e07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/CWS.Ann.png"
+    },
+    {
+      "path": "Models/Default.png",
+      "bytes": 2905562,
+      "sha256": "c847b6586f8d28f4c96955e40c6edddf1dff456f299e60e0421b10cca84f237e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Default.png"
+    },
+    {
+      "path": "Models/Effects/001.png",
+      "bytes": 25227,
+      "sha256": "547b6afff7d9372dceccb34eadba74966bc366e5b3cdeeb8d7eee208086fb604",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/001.png"
+    },
+    {
+      "path": "Models/Effects/002.png",
+      "bytes": 14673,
+      "sha256": "1a8751dfd100add4b0596895e1a6bd231283e9b43a44c556cecd47910218df5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/002.png"
+    },
+    {
+      "path": "Models/Effects/003.png",
+      "bytes": 25854,
+      "sha256": "c45a66bf13ba01f46c0c733f49a5e26676ef5f614c65b7573bd55fca8c5fb6d9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/003.png"
+    },
+    {
+      "path": "Models/Effects/004.png",
+      "bytes": 12649,
+      "sha256": "babf44a5c929baee4f2b4a784cb54291b84a93ac1898d534654a481c68e50005",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/004.png"
+    },
+    {
+      "path": "Models/Effects/005.png",
+      "bytes": 3129,
+      "sha256": "79238174f0b3e2441720c46339b8cce2c8be2c19a1507831e726b51b8bbe3b82",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/005.png"
+    },
+    {
+      "path": "Models/Effects/006.png",
+      "bytes": 5779,
+      "sha256": "adda20433b589dba786ed23bb61decff848a2f77fa38158db4c76067b13395a5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/006.png"
+    },
+    {
+      "path": "Models/Effects/LMCabin.png",
+      "bytes": 4210747,
+      "sha256": "89473eba25be54490c0c4f7a2f827041c71531adbd9f42d214cd8752d4e0b931",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/LMCabin.png"
+    },
+    {
+      "path": "Models/Effects/LMControls.png",
+      "bytes": 671876,
+      "sha256": "85cf95ee1056abcc31bf478260ad988a141cbfbc6dfb1e9b68c0d2b23bca1db4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/LMControls.png"
+    },
+    {
+      "path": "Models/Effects/LMPanel.png",
+      "bytes": 7724231,
+      "sha256": "d86c3f0bc3fe14517d74659050d50e7a07aa9bbbdf87dc3e3b73fd58d455f108",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/LMPanel.png"
+    },
+    {
+      "path": "Models/Effects/LMSeats.png",
+      "bytes": 1110045,
+      "sha256": "403c98d33daa2b1299db2c7907daf5bf21831129120f93cb6c79c2c2b706699e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/LMSeats.png"
+    },
+    {
+      "path": "Models/Effects/NM.png",
+      "bytes": 464766,
+      "sha256": "e8b6f32082c0a61eac08460a1ae3e37cffa53560923e52b2307fc4f72ee265ba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/NM.png"
+    },
+    {
+      "path": "Models/Effects/Normalmap.bac.png",
+      "bytes": 762826,
+      "sha256": "5fe0c94c60755324eec2cc1154be1bb7737c648f3983c72a1919b65815eb2dc3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/Normalmap.bac.png"
+    },
+    {
+      "path": "Models/Effects/Normalmap.png",
+      "bytes": 530181,
+      "sha256": "8101a11825bc6f9d7f6e582468d0fe8f15f42bc87a7fa0c42d04fbcc376f86ff",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/Normalmap.png"
+    },
+    {
+      "path": "Models/Effects/beacon.ac",
+      "bytes": 512,
+      "sha256": "8c681039f570f3c1e651f48ef2a17d36eb2120984c0202db9469fcb927dae7d2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/beacon.ac"
+    },
+    {
+      "path": "Models/Effects/beacon.xml",
+      "bytes": 708,
+      "sha256": "507f33ad5dc9c7a26e7732c4daf694b5f7001e057d39a8ac2b28d2fb3b977a04",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/beacon.xml"
+    },
+    {
+      "path": "Models/Effects/c182_cowlsmoke-left.xml",
+      "bytes": 3063,
+      "sha256": "d2d24a7aa35eded5e62759ceed6ed87c6350d2456542d0357199d02a0d8fbbdb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/c182_cowlsmoke-left.xml"
+    },
+    {
+      "path": "Models/Effects/c182_cowlsmoke-right.xml",
+      "bytes": 3064,
+      "sha256": "a771cb3f806fe6f8f2f6b3ddacacf9f5f7a40e1d7ea586fbcf31a98ef3b63476",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/c182_cowlsmoke-right.xml"
+    },
+    {
+      "path": "Models/Effects/c182_enginesmoke.xml",
+      "bytes": 2751,
+      "sha256": "1c71d33a1fa6bd6181d1b963316fe49e4198f1cce284e2bd9bca8e6bf76fb1eb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/c182_enginesmoke.xml"
+    },
+    {
+      "path": "Models/Effects/green-navlight.ac",
+      "bytes": 441,
+      "sha256": "44251c121f8b1d037cebcc474546f1d652d21725105baaff033750ea43ecacd0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/green-navlight.ac"
+    },
+    {
+      "path": "Models/Effects/green-navlight.xml",
+      "bytes": 736,
+      "sha256": "aebfa2604e6b046a4f6796e3a2b33b7dba4ebb0d620049d89c8bf7f1701b485f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/green-navlight.xml"
+    },
+    {
+      "path": "Models/Effects/greymap.bac.png",
+      "bytes": 2945,
+      "sha256": "bc47c1bd7bc34b48a3465ae455e1987f4edfa6b0defadc29d3265aad68efa3c4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/greymap.bac.png"
+    },
+    {
+      "path": "Models/Effects/greymap.png",
+      "bytes": 6572749,
+      "sha256": "589c486470e138a67d237a9eb159d5649d5d1341b985d94e4586effc1d502fa2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/greymap.png"
+    },
+    {
+      "path": "Models/Effects/left-strobe.ac",
+      "bytes": 516,
+      "sha256": "e186a683b81095d8b140e219aa8ff959ed348e7f2c1037c336fab127ef9d4042",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/left-strobe.ac"
+    },
+    {
+      "path": "Models/Effects/left-strobe.xml",
+      "bytes": 737,
+      "sha256": "f22a127af9c781a2da9dd0f7552580273da79789bfbddd30348f31c9d59efea9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/left-strobe.xml"
+    },
+    {
+      "path": "Models/Effects/procedural_light.ac",
+      "bytes": 1701,
+      "sha256": "0feeaad513e94368bd0ed7a8a37a4479bb4a3b9c40733594b1525779909b8133",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/procedural_light.ac"
+    },
+    {
+      "path": "Models/Effects/red-navlight.ac",
+      "bytes": 435,
+      "sha256": "94a324e64d2b212d4772d74fb515340fc133e1388a2dddf1afbfc904d1b30d83",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/red-navlight.ac"
+    },
+    {
+      "path": "Models/Effects/red-navlight.xml",
+      "bytes": 731,
+      "sha256": "4d3b873199c313fb0ec712c89f0b2299ad2e1d108ee8286e939b66b2dc8492be",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/red-navlight.xml"
+    },
+    {
+      "path": "Models/Effects/right-strobe.ac",
+      "bytes": 489,
+      "sha256": "e8fcf2710294d6d911bf8fdaed154140010ad89f41f885f1a6f9797cdd80333a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/right-strobe.ac"
+    },
+    {
+      "path": "Models/Effects/right-strobe.xml",
+      "bytes": 739,
+      "sha256": "12586a0c7010146371a0160176e6ad2c42a2702cd309c176afa43cf4b7c9bb30",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/right-strobe.xml"
+    },
+    {
+      "path": "Models/Effects/shadow.ac",
+      "bytes": 109205,
+      "sha256": "5fa150a6d06e934b6f8a0f7e845e2eb32134af01f3d422e6f8b9132f823de35d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/shadow.ac"
+    },
+    {
+      "path": "Models/Effects/shadow.xml",
+      "bytes": 2260,
+      "sha256": "ad752b93ff1a1c7cd56e016f9ef91ed37ba35ea6957d43ba274c422d3523e7c4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/shadow.xml"
+    },
+    {
+      "path": "Models/Effects/smoke.png",
+      "bytes": 6482,
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/smoke.png"
+    },
+    {
+      "path": "Models/Effects/strobes.ac",
+      "bytes": 467,
+      "sha256": "e96ac264cbcaa2a6049d7566d2f0f77b03a93014fbbc914dc06f1e60f33fb098",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/strobes.ac"
+    },
+    {
+      "path": "Models/Effects/tail-navlight.ac",
+      "bytes": 750,
+      "sha256": "5383a0a20d9a3edd9a710d30da978ed3bbdb10ddc10cd2f2798cce14a1d3a6d3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/tail-navlight.ac"
+    },
+    {
+      "path": "Models/Effects/tail-navlight.xml",
+      "bytes": 1261,
+      "sha256": "45b44141eb84044b7fc76fb33f5faebc65aaf286ca5440b484f2960acf0f6b0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Effects/tail-navlight.xml"
+    },
+    {
+      "path": "Models/Immat/immat-white.png",
+      "bytes": 15140,
+      "sha256": "4ecbedd4f5f36449b648b52952b9e70f3d1f03636c6a84ddc49326f8a3211cd2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Immat/immat-white.png"
+    },
+    {
+      "path": "Models/Immat/immat.ac",
+      "bytes": 16406,
+      "sha256": "6a7d7c6f430f5207148377bce0cd37773fabda91a22926d65ef0a1e5bf178928",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Immat/immat.ac"
+    },
+    {
+      "path": "Models/Immat/immat.png",
+      "bytes": 13720,
+      "sha256": "f45b37c49adf67a690b4022a9123ff65eeb6c56073311f12af06347b6f9f2c79",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Immat/immat.png"
+    },
+    {
+      "path": "Models/Immat/immat.xml",
+      "bytes": 14163,
+      "sha256": "c22fe97fb7b5969c113d093fb0be6a3f084e0c663c6da546061d8ee259211029",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Immat/immat.xml"
+    },
+    {
+      "path": "Models/Instruments/AI.ac",
+      "bytes": 82237,
+      "sha256": "8389cd36c0d3ce67ec1b6793901cccb6e44b8f35ce5f65fd40ba5b3db431ae01",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/AI.ac"
+    },
+    {
+      "path": "Models/Instruments/AI1.png",
+      "bytes": 34457,
+      "sha256": "5720382bcbf80d3fd7547c6b921eb41c9ee7f14562dd1b422db5f9696fd0a844",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/AI1.png"
+    },
+    {
+      "path": "Models/Instruments/AI1.rgb",
+      "bytes": 25892,
+      "sha256": "4e2c03bb850cf38e09cf2603beceff95abb7d28900399495a0c981a57de29f9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/AI1.rgb"
+    },
+    {
+      "path": "Models/Instruments/AI2.png",
+      "bytes": 26506,
+      "sha256": "df25135dda1dcf80a25c53554cf198db59823e344834e54082d5c6c07867ca04",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/AI2.png"
+    },
+    {
+      "path": "Models/Instruments/AI2.rgb",
+      "bytes": 20124,
+      "sha256": "76454575c3ff399ac97d8b33bfca69f6e484a786fcc65839663ca3982885c015",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/AI2.rgb"
+    },
+    {
+      "path": "Models/Instruments/Airspeed.ac",
+      "bytes": 16861,
+      "sha256": "a0915c69267c0d1b016531d80189040e6b79ec50107c6870f0ba12096369c32d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Airspeed.ac"
+    },
+    {
+      "path": "Models/Instruments/Airspeed.xml",
+      "bytes": 9859,
+      "sha256": "93c29c6b653f02935988b8b574ab029fe9c19e5a2814197349d2628e38d77505",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Airspeed.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/KR87.png",
+      "bytes": 15847,
+      "sha256": "39f44fea7eb3ca2ee248bf19ad1a9112f8169a692ca1550628da752a66cfd828",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/KR87.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/digits_alpha.rgb",
+      "bytes": 4577,
+      "sha256": "01c180ecd2cfa6a2085fa4a43ec7b85e1b252f0b4cf009f8607ec3bc8f37195c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/digits_alpha.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/digits_red.rgb",
+      "bytes": 15219,
+      "sha256": "e255b2c8dc7229ea8462ace7b9d6a3394062a23135fae3e2e57573665440cf37",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/digits_red.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/digits_white.rgb",
+      "bytes": 15263,
+      "sha256": "d547deb7a1fce8ac25dfa79851ec5d6a9cf8faa4c39c4f0413eb503b20f9f600",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/digits_white.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/garmin.png",
+      "bytes": 206753,
+      "sha256": "bafb925b725544845f6e53aaab9edfe2e9e92e2508c0e49d98cfe13bc0e53036",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/garmin.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/gma340.ac",
+      "bytes": 25944,
+      "sha256": "7ae70fdc8c0872240b46b7a98c0d47159812481c5890be333dfb574c12a21624",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/gma340.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/gma340.png",
+      "bytes": 197991,
+      "sha256": "e21e783984819b9fa7899d66bcdaed2dc629b9bc96f0176af821bbc5c735c2fb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/gma340.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/gma340.xml",
+      "bytes": 67324,
+      "sha256": "72c7fd21ac43d1578050099fe9f45f7b96dbce97d1846125a9103c44316813df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/gma340.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/gma340properties.xml",
+      "bytes": 1713,
+      "sha256": "12009c22d3a33f4955397e7ef17fbaa584c21c752b6e6f3672541ea5ce789658",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/gma340properties.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/KAP140TwoAxisAlt.xml",
+      "bytes": 29635,
+      "sha256": "e51a9871c522cfe28cd600855ef5ed0a10f49649ad245568933a775369ca96ce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/KAP140TwoAxisAlt.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140-single.png",
+      "bytes": 13055,
+      "sha256": "16728a4513017cc9b6cb814d952e53fd254fcf4bd2bdbf046a815cd0d3eda362",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140-single.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140-singletest.png",
+      "bytes": 10635,
+      "sha256": "27b32c618a6e4736517c9c0daa2caab5e8ce86d1d6cd53f60e4e603a718978eb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140-singletest.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140-two-alt.png",
+      "bytes": 28105,
+      "sha256": "31f80fc9e8874639ba864d00c31d107e8fce2342e1cda6185db4c80541eca18c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140-two-alt.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140-two.png",
+      "bytes": 18404,
+      "sha256": "9bdd07f8a03b09e8ca9eabe59cb48e60a5ed77963f74dba2fcd3b2d636dae5e1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140-two.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140.ac",
+      "bytes": 35664,
+      "sha256": "25607d820e51a053acd4dad6e30c41ea931847a2e4e8e0ff127c44e7b6ccf0ed",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/Resources/kap140_inw.rgb",
+      "bytes": 149690,
+      "sha256": "a4bfa54de44c70555a66872828be7ce2e298c3c1d5c1fab92437207fbd438a7b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/Resources/kap140_inw.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/digits.rgb",
+      "bytes": 14507,
+      "sha256": "5d608468b82369a5a108c780d47bbee2e7274646e626539f3dd64de30f315382",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/digits.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/kap140.ac",
+      "bytes": 35660,
+      "sha256": "b4661b3f2c665b6a72b597588fdec8e33febb8e21104975adc770b6ac27f20c6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/kap140.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/kap140.rgb",
+      "bytes": 127503,
+      "sha256": "bd349d665ebcdd04ff36e11bbe2ef77415c788174e668c342a473b8fdcc252fe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/kap140.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kap140/knob.rgb",
+      "bytes": 1088,
+      "sha256": "9be088a3094d50f5b381bee2e9cd77347dfc34b7c6e7d86b52098beb498b61b7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kap140/knob.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kma24.ac",
+      "bytes": 41885,
+      "sha256": "386845a3c4a20674ac56ab4d3e0315213354148683cd7ac8dd6c35c71667591d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kma24.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kma24.rgb",
+      "bytes": 181231,
+      "sha256": "5852825356fec734fa6c8714c0f55605339ca69e2893ddc846cf3497c626adc6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kma24.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kma24.xml",
+      "bytes": 4013,
+      "sha256": "d700017ba788fdee229ac428d0a2d84acf19914a2ddd46f27e20165721d13843",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kma24.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kn62a.ac",
+      "bytes": 22946,
+      "sha256": "f200a2deff83132637123465aac1529feb7c9496d5d605a77e459cd3960a9b1b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kn62a.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kn62a.rgb",
+      "bytes": 134059,
+      "sha256": "db5ef8bee1b0d83ddf014cdaea8e04a6d583e3cbe74d6e2b770392b2ea423e52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kn62a.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kn62a.xml",
+      "bytes": 28269,
+      "sha256": "e987bd065f45c374014f945217d93bcb97dc2f2120ef42d7f95ef437b700aea1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kn62a.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/knobs.rgb",
+      "bytes": 14697,
+      "sha256": "f633961c3dc1827f6ccc60d60e9f72dc432a27ef149c4692c49e51eb08570611",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/knobs.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kr87.ac",
+      "bytes": 25907,
+      "sha256": "61d0a64bd793c5d096b4f2058cebb7028df8ecaa442b0976c8f7235051574751",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kr87.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kr87.rgb",
+      "bytes": 69769,
+      "sha256": "131d4d7302f019ca321ec0dd1945dab30722bcfa8002e5f45ce13183fd40784b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kr87.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kr87.xml",
+      "bytes": 27302,
+      "sha256": "dff19d057601cc7da04e1567650bf37abbb0e3f32c37746f91f7b2dfe9594333",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kr87.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kt76c.ac",
+      "bytes": 31118,
+      "sha256": "973e62e63c547b7c52ddfd9e8f838a9d24b334f3ce0958a7f506c8435aab5936",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kt76c.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kt76c.rgb",
+      "bytes": 152353,
+      "sha256": "ae243b8e3d4be94b46171ab4f9debdbb589b5b53ff66a2e22711f02c1d8a50f1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kt76c.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kt76c.xml",
+      "bytes": 19992,
+      "sha256": "57905fd97560d6d48fbc20b6fb6598bebb968f6979d7932c33dfc82bf1fa3864",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kt76c.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kx165-1.xml",
+      "bytes": 35718,
+      "sha256": "2486866ab3a20c9767317fab595a13a9a9b3ae8374d8d68153f66e2d9599d2ff",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kx165-1.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kx165-2.xml",
+      "bytes": 35719,
+      "sha256": "dc75f55542ea38e6f1f4e337f6915675e16ee6890063ccea9e0ba7bd2c7d4e13",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kx165-2.xml"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kx165.ac",
+      "bytes": 37646,
+      "sha256": "8061d06f9106a72e4f868089a003d0c2cc77f5031662c321ac462f989235a46a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kx165.ac"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kx165.png",
+      "bytes": 48758,
+      "sha256": "ebc8161f93c34b7cff74bfd66262d52441e0ad6ec326aaee7561c4e78ece3879",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kx165.png"
+    },
+    {
+      "path": "Models/Instruments/Avionics/kx165.rgb",
+      "bytes": 118544,
+      "sha256": "495c08c6d6caa8c345b46251ea081c153d6224bc972befd609055d157718dc72",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/kx165.rgb"
+    },
+    {
+      "path": "Models/Instruments/Avionics/transparent-bg.rgb",
+      "bytes": 1920,
+      "sha256": "5dc801e6cd127781b389c4b13c8950f5281b7aed167ae4e64d9255347d15673d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Avionics/transparent-bg.rgb"
+    },
+    {
+      "path": "Models/Instruments/Compass-base.png",
+      "bytes": 24360,
+      "sha256": "06fff0e2e0d13307bc2beb5d68ec597f40f3dd58e55218775c8846dc06339087",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Compass-base.png"
+    },
+    {
+      "path": "Models/Instruments/Compass-tex.png",
+      "bytes": 10677,
+      "sha256": "4dae1016c09040c9877914d323566d4913c0b54d11a0e6164e2f9eefd53d646e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Compass-tex.png"
+    },
+    {
+      "path": "Models/Instruments/Compass.ac",
+      "bytes": 124508,
+      "sha256": "33177a81ae2b3651e50f5c43b9c35b790d8e73667a7893e14e31489cdc6c0f93",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Compass.ac"
+    },
+    {
+      "path": "Models/Instruments/Compass.xml",
+      "bytes": 2343,
+      "sha256": "b67592c4e0acd64f9abc617cf2a1cefa742aa2413db435f5d35f5d3f86b99efa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Compass.xml"
+    },
+    {
+      "path": "Models/Instruments/Davtron803/Davtron803.ac",
+      "bytes": 36586,
+      "sha256": "240c35a72d0578d99aa4558e6f4ae674273bb0a460d2b2b762570624d4852739",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Davtron803/Davtron803.ac"
+    },
+    {
+      "path": "Models/Instruments/Davtron803/Davtron803.png",
+      "bytes": 108231,
+      "sha256": "02333bc7533aa67fd089de13918fcd4485c89bb11d8d3b4700e7edd8b5a6b5ea",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Davtron803/Davtron803.png"
+    },
+    {
+      "path": "Models/Instruments/Davtron803/davtron803.xml",
+      "bytes": 33474,
+      "sha256": "ffedfcb9e3710504102c88f1044d09c92397ff61a90bddb33c2240ba86482090",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Davtron803/davtron803.xml"
+    },
+    {
+      "path": "Models/Instruments/Davtron803/lcd-line.png",
+      "bytes": 165,
+      "sha256": "5ee36afee47df522d3d05dbc8408b7693f60709b9fbde32f562ffaeac9bcc3e8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Davtron803/lcd-line.png"
+    },
+    {
+      "path": "Models/Instruments/ELT/ArtexELT.ac",
+      "bytes": 67646,
+      "sha256": "ff1fb9c0694eceb8b9cc81a3341ddc70182f9bc5356a70802e144c9c81d7d88a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ELT/ArtexELT.ac"
+    },
+    {
+      "path": "Models/Instruments/ELT/ArtexELT.png",
+      "bytes": 13699,
+      "sha256": "633c5ced72ef72f859073762221d88fd34459e3564ce45a9d8394bffe3feeb24",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ELT/ArtexELT.png"
+    },
+    {
+      "path": "Models/Instruments/ELT/ArtexELT.xml",
+      "bytes": 7604,
+      "sha256": "3224476c63d74c132ff08b15e07be447f44bd603e9ad4082668b15e07af8d9f2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ELT/ArtexELT.xml"
+    },
+    {
+      "path": "Models/Instruments/Faces1.rgb",
+      "bytes": 132213,
+      "sha256": "98f4d845a873429b554603bd4b9189e9e9584b38c499a7b1ed80f448e2c59ceb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Faces1.rgb"
+    },
+    {
+      "path": "Models/Instruments/ManPressFuelFlow.ac",
+      "bytes": 14664,
+      "sha256": "08a6b091eaca378700dc733dc4f5c39be4daa10147d18f80933f62c9b6cbf44f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ManPressFuelFlow.ac"
+    },
+    {
+      "path": "Models/Instruments/ManPressFuelFlow.xml",
+      "bytes": 5079,
+      "sha256": "6cfc14b72c300cb37763e513c7bbbec8f427c929561ecf037e683fd63022d847",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ManPressFuelFlow.xml"
+    },
+    {
+      "path": "Models/Instruments/Tach.ac",
+      "bytes": 21529,
+      "sha256": "4460b8c65db5fa2d7461fbbf8e8c44c1fcf9df55fc80d6f21104f38aafe28ae6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Tach.ac"
+    },
+    {
+      "path": "Models/Instruments/Tach.xml",
+      "bytes": 5530,
+      "sha256": "cfc99a9ee122b79d7b303083d8a9b224cad9f0236a1a815361f0e119afdb1b80",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/Tach.xml"
+    },
+    {
+      "path": "Models/Instruments/ai-gauge.xml",
+      "bytes": 5873,
+      "sha256": "6e1c66dbb2a83504e85ee779def22aa28a181bfb98f956074306f88b9020df07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ai-gauge.xml"
+    },
+    {
+      "path": "Models/Instruments/alt2.ac",
+      "bytes": 23011,
+      "sha256": "68ef5d35091c2e816ecb07c12875b856e0725172fab9810b494d92f59fdcff36",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/alt2.ac"
+    },
+    {
+      "path": "Models/Instruments/altimeter.png",
+      "bytes": 168234,
+      "sha256": "37bd5cd52206e9ca79b1d5249776482735124a212cf7962a6cc4a4ca660de191",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/altimeter.png"
+    },
+    {
+      "path": "Models/Instruments/altimeter.xml",
+      "bytes": 5097,
+      "sha256": "01ef6449e3e704e5d87ffbf3edfda7c623286d4d956d102a0ad0dbe51b458196",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/altimeter.xml"
+    },
+    {
+      "path": "Models/Instruments/egt.ac",
+      "bytes": 21040,
+      "sha256": "38c5ffdf72c7304eba6acb9cc68b60540fd7c40a4130f8881aeb4a95138af78e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/egt.ac"
+    },
+    {
+      "path": "Models/Instruments/egt.png",
+      "bytes": 29406,
+      "sha256": "0de1d9a2ef69381c70ac26ec26da833c1e34d4274d4cfd76b62e716befbc8cc9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/egt.png"
+    },
+    {
+      "path": "Models/Instruments/egt.xml",
+      "bytes": 5254,
+      "sha256": "c504d16e338e586fce7168e9c43b158d691aca13c38b0ac86469845aa7252ff1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/egt.xml"
+    },
+    {
+      "path": "Models/Instruments/fuelqty.ac",
+      "bytes": 11342,
+      "sha256": "1c4c587a2ca46ebedbaa2eb6d5ec8e85a798e560dae58c8fa680c2080df63d22",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/fuelqty.ac"
+    },
+    {
+      "path": "Models/Instruments/fuelqty.png",
+      "bytes": 30854,
+      "sha256": "b15d6a39149832d670806819e2163d64d9a86166b0986cfb151571cc67f2b1ca",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/fuelqty.png"
+    },
+    {
+      "path": "Models/Instruments/fuelqty.xml",
+      "bytes": 4003,
+      "sha256": "f99ca466fc82e6345a52a31301b9fd622ef0d66b7409253efac90bcdda5cc66f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/fuelqty.xml"
+    },
+    {
+      "path": "Models/Instruments/hi.ac",
+      "bytes": 62663,
+      "sha256": "9e2a83837af959bc39e5541a6b119ff980b1aa783d99a38accdc43d8f500fdeb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hi.ac"
+    },
+    {
+      "path": "Models/Instruments/hi.png",
+      "bytes": 251467,
+      "sha256": "640cc0ca26cfee0d0825c29f4987a98a0eb7d7c6be988c823749f5b440d1b59a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hi.png"
+    },
+    {
+      "path": "Models/Instruments/hi.xml",
+      "bytes": 15640,
+      "sha256": "1eb68814e6c45322052ab0263cb258e879f8a321ca3879cd405ae1697fdd0440",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hi.xml"
+    },
+    {
+      "path": "Models/Instruments/hobbs/hobbs.ac",
+      "bytes": 10095,
+      "sha256": "cab1e1b7f95dfc19a1134bd9d375c4600ec036c57704c48a3a0c8ead969bdabb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hobbs/hobbs.ac"
+    },
+    {
+      "path": "Models/Instruments/hobbs/hobbs.png",
+      "bytes": 58314,
+      "sha256": "36efb65126c3f486d8031400211817a0235928c48776075a78fe62af68f78fe5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hobbs/hobbs.png"
+    },
+    {
+      "path": "Models/Instruments/hobbs/hobbs.xml",
+      "bytes": 3356,
+      "sha256": "b1438752d9a0e47d90d5cd0a922a090a6b49e1e10620605daa3fff25232665aa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hobbs/hobbs.xml"
+    },
+    {
+      "path": "Models/Instruments/hobbs.png",
+      "bytes": 58314,
+      "sha256": "36efb65126c3f486d8031400211817a0235928c48776075a78fe62af68f78fe5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/hobbs.png"
+    },
+    {
+      "path": "Models/Instruments/ki227_228.ac",
+      "bytes": 65874,
+      "sha256": "baf3d4e4944190d433ceac5567e3f9996db8ffb4e54ea46731c6495ff0f448ad",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ki227_228.ac"
+    },
+    {
+      "path": "Models/Instruments/ki227_228.rgb",
+      "bytes": 129883,
+      "sha256": "bbf888296ff3565e139ab0ba73d2c3de4de06c15878b8d1a2a6156e55d2ba794",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ki227_228.rgb"
+    },
+    {
+      "path": "Models/Instruments/ki227_228.xml",
+      "bytes": 5724,
+      "sha256": "3f220da8ddeb04f071930143cc20b79ea2ed3794558a9daf1c275fcdb5d410fd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/ki227_228.xml"
+    },
+    {
+      "path": "Models/Instruments/kingindicator.rgb",
+      "bytes": 116436,
+      "sha256": "043b1708599389dd08fc775dfdf305c400370013321168699bd31397fc5bcbe5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/kingindicator.rgb"
+    },
+    {
+      "path": "Models/Instruments/manpressfuelflow.png",
+      "bytes": 32905,
+      "sha256": "25c2ea19557e5e908f221c9513f213b8e36cf1b25ffa1fef3ba8eeb3d543e955",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/manpressfuelflow.png"
+    },
+    {
+      "path": "Models/Instruments/oil.ac",
+      "bytes": 14611,
+      "sha256": "b7a8707afef1e4abc0b14ff5cb7844f3c69b08e5978030ec7588855ad20d9bc9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/oil.ac"
+    },
+    {
+      "path": "Models/Instruments/oil.png",
+      "bytes": 34143,
+      "sha256": "8887963cbb465dbdacfdfbeb0130ffaf0bc1d72e687a70af9b0f223c0e035819",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/oil.png"
+    },
+    {
+      "path": "Models/Instruments/oil.xml",
+      "bytes": 3947,
+      "sha256": "bee4fa203c3fa4cc0db731232563c71bd18784c5aa9cbe71b0c88dfc5c8e5b77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/oil.xml"
+    },
+    {
+      "path": "Models/Instruments/tach-skylane.png",
+      "bytes": 33884,
+      "sha256": "812e8f7e4c871f126b2c4a74875debe220c8f6e9c6904d13c0eb7351f324bb51",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/tach-skylane.png"
+    },
+    {
+      "path": "Models/Instruments/turn-gauge.ac",
+      "bytes": 23634,
+      "sha256": "27beec58bfa2e5c41bcafe8d20e0f678f53cb9ff09d84ec56b8fc1b05f045165",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/turn-gauge.ac"
+    },
+    {
+      "path": "Models/Instruments/turn.png",
+      "bytes": 39411,
+      "sha256": "163d0206df200d04cc418496757f227e1705a50076de4c4598b9185460087ded",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/turn.png"
+    },
+    {
+      "path": "Models/Instruments/turn.xml",
+      "bytes": 3483,
+      "sha256": "50b578a95993bc20e18d6ec35a12360c5f529e9041309ddb638eb05a26a2285a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/turn.xml"
+    },
+    {
+      "path": "Models/Instruments/vacamp.ac",
+      "bytes": 14604,
+      "sha256": "b8f136fa12faf03e7ce927e4b4b11d029bb0864c3c52c7f8a09f21d12c2d526d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vacamp.ac"
+    },
+    {
+      "path": "Models/Instruments/vacamp.png",
+      "bytes": 26133,
+      "sha256": "51bb33ba9140c883ed9f84a3669521f021d53f40175cc5513c4fa7fd12a0b707",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vacamp.png"
+    },
+    {
+      "path": "Models/Instruments/vacamp.xml",
+      "bytes": 3982,
+      "sha256": "8d2cc51d5bed59e05f4990e0cdf210972b8b650f853a06491d933abcf1718a7f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vacamp.xml"
+    },
+    {
+      "path": "Models/Instruments/vor/GS.png",
+      "bytes": 5908,
+      "sha256": "4ccefdbc70c53fa44a780e78a2f086c7b57b20e5799092c39288d9bd9c612709",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/GS.png"
+    },
+    {
+      "path": "Models/Instruments/vor/TO-FR.png",
+      "bytes": 5641,
+      "sha256": "bf84c361bc3b7cee9465db9dfad4f2e4cfea1dc323e68db53b3649c9b40d1316",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/TO-FR.png"
+    },
+    {
+      "path": "Models/Instruments/vor/knob.png",
+      "bytes": 4838,
+      "sha256": "32b75c61175609493610a7fc888e81518ee3e093b3e4fbf0b22a84858ded9173",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/knob.png"
+    },
+    {
+      "path": "Models/Instruments/vor/vor.ac",
+      "bytes": 7178,
+      "sha256": "8ce42b551ef5ecffe6b652ddadd62945dbaa0ab37bc9ab6e73e44717d43e9433",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor.ac"
+    },
+    {
+      "path": "Models/Instruments/vor/vor.xml",
+      "bytes": 6846,
+      "sha256": "7911dd08531464ca078a67c3794f84775d64df42654fbb9de3f5b47685b8de52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor.xml"
+    },
+    {
+      "path": "Models/Instruments/vor/vor01.png",
+      "bytes": 158772,
+      "sha256": "a24611c3658d09f20c0ca748b0f10790f83b2c7f49fce0413dbf66fcd8d9072b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor01.png"
+    },
+    {
+      "path": "Models/Instruments/vor/vor02.png",
+      "bytes": 189121,
+      "sha256": "27b4f12c3995100d0833ae998f73c7c6f222291d7bda64a32833f7e08a72bcc7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor02.png"
+    },
+    {
+      "path": "Models/Instruments/vor/vor03.png",
+      "bytes": 86070,
+      "sha256": "7def39c28c8f8ac4fa053d220705e206ce85c19feaf5daa2374b8550a3ef7002",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor03.png"
+    },
+    {
+      "path": "Models/Instruments/vor/vor2.xml",
+      "bytes": 6842,
+      "sha256": "0cb66708205c2bcbf466f36762da943f23e307dfba5c04c43d31cd51463bd136",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vor/vor2.xml"
+    },
+    {
+      "path": "Models/Instruments/vsi.ac",
+      "bytes": 48939,
+      "sha256": "2500487b7cc9cb8ece68311a7c174355cdd4193a7265db5bf526631d0119bc43",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vsi.ac"
+    },
+    {
+      "path": "Models/Instruments/vsi.png",
+      "bytes": 25622,
+      "sha256": "cf4b75bfcf3f55f4dcc47fde411483ebac8223fb0b0d3a4073094bf91939a81d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vsi.png"
+    },
+    {
+      "path": "Models/Instruments/vsi.xml",
+      "bytes": 3688,
+      "sha256": "7f345b839a05cb612d57d9f193b69940ff23463d5e531602cccb85a9956d16e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Instruments/vsi.xml"
+    },
+    {
+      "path": "Models/Lights.png",
+      "bytes": 153278,
+      "sha256": "753c7905ac38eda3a8203ece494aae6be706c5d8b950f7a5da0812a97c38a208",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/Lights.png"
+    },
+    {
+      "path": "Models/PanelTexturing-Controls.png",
+      "bytes": 1839465,
+      "sha256": "7ffd74202eb27efc8253cd8326ecbab8a0eede34a8fc51e01ec488c558a833e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/PanelTexturing-Controls.png"
+    },
+    {
+      "path": "Models/PanelTexturing-Interior.png",
+      "bytes": 2986618,
+      "sha256": "cc439279d543edd6864751d0f0d4c94cdf155e7810ba1c2503106e76e184e47b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/PanelTexturing-Interior.png"
+    },
+    {
+      "path": "Models/PanelTexturing-MainPanel.png",
+      "bytes": 1525115,
+      "sha256": "3ae6745f1bcc44b87c6a32b16d69e960a5d3ce166ad4fbe3349ab1b2d3b0c5cd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/PanelTexturing-MainPanel.png"
+    },
+    {
+      "path": "Models/PanelTexturing-Seats.png",
+      "bytes": 2056159,
+      "sha256": "5c3499e751c8f763b0dd4084db03b0f39a6166a84217e84f1955455be53cab57",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/PanelTexturing-Seats.png"
+    },
+    {
+      "path": "Models/PropBlur.png",
+      "bytes": 184281,
+      "sha256": "b213b013fb4237842bcbc949f3f1998c947f466af6f2da62150848eff666bc72",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/PropBlur.png"
+    },
+    {
+      "path": "Models/UVMap.png",
+      "bytes": 4418551,
+      "sha256": "91173428f5e9740885f62a5ba5a5fbe2854976cd7c536822647c5ac633d6ed25",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/UVMap.png"
+    },
+    {
+      "path": "Models/c182s.ac",
+      "bytes": 2230263,
+      "sha256": "6bdf5ea24c89664ac84c670b44b97fa3beb1471df1b97e31a20335ece421d644",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/c182s.ac"
+    },
+    {
+      "path": "Models/c182s.xml",
+      "bytes": 66523,
+      "sha256": "588aaf4a5da5df047c5912f1547af1de8a1e0cdc1513c21d4c8e00510bdbcb9b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/c182s.xml"
+    },
+    {
+      "path": "Models/flaps.png",
+      "bytes": 46726,
+      "sha256": "b977d9d52280efc7f018b63f819f4e5e09c7605de15a621cd3eac3c50f6d830a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/flaps.png"
+    },
+    {
+      "path": "Models/interior-model.ac",
+      "bytes": 3967189,
+      "sha256": "11fdc8d5482566773d08e46e9a8ed670e3fe1d72fb46f3c2ae12e44d93b04ec5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/interior-model.ac"
+    },
+    {
+      "path": "Models/interior-model.xml",
+      "bytes": 109805,
+      "sha256": "37605204d9b7509cb46adfa21085b410d1a5f291534db7869944a19cfbff8842",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/interior-model.xml"
+    },
+    {
+      "path": "Models/magneto-switch.png",
+      "bytes": 56630,
+      "sha256": "843f6de37b81b477f5f468845750bf2520acc11169e0b70af2f107cf0aad600d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/magneto-switch.png"
+    },
+    {
+      "path": "c182s-checklists.xml",
+      "bytes": 139489,
+      "sha256": "c89c00e54f499ba3e7251397931c41406214fdbe6ced42150a7f628b7b37f917",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182s-checklists.xml"
+    },
+    {
+      "path": "c182s-electrical.xml",
+      "bytes": 12373,
+      "sha256": "1148214d28231840627842f804ec036669e03e0b53035bc57a98df02085ae01e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182s-electrical.xml"
+    },
+    {
+      "path": "c182s-set.xml",
+      "bytes": 48943,
+      "sha256": "02ae20d34c0197c76736c1006e5957299b2bf9b95455966d8d9a3204735931ce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182s-set.xml"
+    },
+    {
+      "path": "c182s-sound.xml",
+      "bytes": 46421,
+      "sha256": "d0fc51bdc105126ea8d62e719117af71b473cef7b5ff3c256cd147495bc8f2ef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182s-sound.xml"
+    },
+    {
+      "path": "c182s.xml",
+      "bytes": 70064,
+      "sha256": "6fb2f94bc0c15c43b3bd5f1e7734838152910397b76ba9196f720384bc59d097",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182s.xml"
+    },
+    {
+      "path": "c182t.xml",
+      "bytes": 57085,
+      "sha256": "b12ccdd62ce822ff8b314355571677570aa1b54ea2f85c6d00598562cdcdbd49",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/c182t.xml"
+    },
+    {
+      "path": "generic-autopilot.xml",
+      "bytes": 21124,
+      "sha256": "97683e1de264cccc4d58a2f7761183e22fc5945aac58ca214dad616dc29889c5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/generic-autopilot.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/C182",
+    "commit": "ef35ae89b422b4f78c0f6125035681b0eb41dd3c",
+    "components": [
+      {
+        "path": "Models/interior-model.ac",
+        "offsets": {}
+      }
+    ]
+  }
+}

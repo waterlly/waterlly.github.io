@@ -1,0 +1,14 @@
+Airbus A350 model — local source provenance
+
+User-specified source: /Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/a350/glTF2/A350.glb
+Served asset: public/models/a350.glb (the actual lowercase filename is retained).
+SHA-256: a8795b4524868324cb9b88ec4b2377a5cf397e9a3f244f3f74e7047bacf7721d
+
+The served asset is byte-for-byte identical to the user-specified file. It was already present locally; no substitute model was downloaded and no geometry, node names, vertex buffers, materials or textures were changed.
+
+The source directory includes COPYING containing the GNU General Public License, Version 2, June 1991. That document is retained verbatim in A350-COPYING.txt. The local library README states that its models come from the fr24-3d-models and FGMEMBERS collections; it does not name this particular model's author. No individual attribution has been invented.
+
+Corresponding local editable file: /Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/a350/a350.blend
+The supplied files do not identify an A350-900 or A350-1000 variant. Runtime length calibration to 66.8 m is a simulator approximation, not a source-file variant certification.
+
+The asset supplies separate named flap, slat, control-surface and landing-gear-door meshes. It has no glTF animation clips and no rendered landing tyres or extended landing legs. The simulator's moving landing gear is generated separately; the original Cube, Cylinder, fuselage, engine, wing and door geometry is retained.

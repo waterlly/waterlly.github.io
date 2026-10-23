@@ -1,0 +1,9 @@
+{
+  "id": "b748",
+  "source": "/Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/b748/glTF2/B748.glb",
+  "modelPath": "/models/B748.glb",
+  "bytes": 2520048,
+  "sha256": "f4aed2e6f6ca3c7fc24c109e8acda8816ec4a4b88af0a0f04104917a0e46f782",
+  "license": "/Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/b748/LICENSE"
+}
+Original license bytes preserved in b748-COPYING.txt

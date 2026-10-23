@@ -1,0 +1,11 @@
+b773 user-supplied airframe
+
+Original: /Users/lee/Desktop/b773.glb
+Original SHA-256: df0663ff62b50cd8308c847337eb7ba90dc2c0a5b6803f2cd0ae29deebd6915d
+Byte-identical upstream: https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/b773.glb
+License: GPL-2.0, retained in b773-COPYING.txt.
+Conversion: glTF 1.0 to embedded glTF 2.0 using CesiumGS gltf-pipeline 4.3.1.
+Served asset: /models/B773.glb
+Served SHA-256: 1e603506018776b7cca79e24e7e1f838a29890e24890452bd2c0d0dcfe072717
+Originals and conversion manifest retained under work/imports/user-fleet-2026-10-22/.
+Runtime controls and landing gear are simulator adapters; source buffers and UVs remain preserved in the served GLB.

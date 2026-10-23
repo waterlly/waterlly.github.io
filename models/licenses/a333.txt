@@ -1,0 +1,11 @@
+a333 user-supplied airframe
+
+Original: /Users/lee/Desktop/a333.glb
+Original SHA-256: 2c4556a82cb6158152d38cf06c95ec9ffb0edbc8815c64030fe021e6f5121af1
+Byte-identical upstream: https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a333.glb
+License: GPL-2.0, retained in a333-COPYING.txt.
+Conversion: glTF 1.0 to embedded glTF 2.0 using CesiumGS gltf-pipeline 4.3.1.
+Served asset: /models/a333.glb
+Served SHA-256: ef2013d8593c2dd6897d4436bae84dab22fef8334d956ea4b9f5c7409843a790
+Originals and conversion manifest retained under work/imports/user-fleet-2026-10-22/.
+Runtime controls and landing gear are simulator adapters; source buffers and UVs remain preserved in the served GLB.

@@ -1,0 +1,1444 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/md11.glb",
+  "bytes": 467364,
+  "triangles": 16133,
+  "nodes": 4,
+  "meshes": 3,
+  "images": 1,
+  "instruments": [],
+  "omittedNodes": [],
+  "sourceMeshes": 12,
+  "drawGroups": 3,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/.skybound-cabin-md11.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/Cabin/cargo_area.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    0,
+    7.45,
+    0
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-md11.xml",
+    "sha256": "6f7b6b35461760e299b190c67a04700d6c1a875b498c8e65c92219e67a7bac66",
+    "text": "<PropertyList><model><path>Models/Cabin/cargo_area.ac</path><offsets></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "MD-11-main.xml",
+      "bytes": 34220,
+      "sha256": "5c1207dfe3c05644176efb2e57bfa068a9442dc638b332aa1a0c02465bf568c4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11-main.xml"
+    },
+    {
+      "path": "MD-11-set.xml",
+      "bytes": 2677,
+      "sha256": "eb8dbca6758c3eac06844b553d7985f9f89285c080ae4c581a54eee437936d2f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11-set.xml"
+    },
+    {
+      "path": "MD-11.xml",
+      "bytes": 11139,
+      "sha256": "c6ddb56aa314ca9e6cca7667a73ac45061c0b62b7f0870919e7457a04d7b71b7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11.xml"
+    },
+    {
+      "path": "MD-11F-set.xml",
+      "bytes": 2252,
+      "sha256": "3a75f8bd6eca4e2d31fd2f9999d575cc9b00ffe9d6a407295ee6cddb6954ef00",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11F-set.xml"
+    },
+    {
+      "path": "MD-11F.xml",
+      "bytes": 11139,
+      "sha256": "562825b1a8c021c3399ca3984e278512e8bb07586e5f9d950470198ecebce77c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/MD-11F.xml"
+    },
+    {
+      "path": "Models/APpanel_BTN.png",
+      "bytes": 64673,
+      "sha256": "4a18caeace54764463fc5f68a0bb18985c7c64bf76c300e42ad1fad689649245",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/APpanel_BTN.png"
+    },
+    {
+      "path": "Models/Cabin/UPS.png",
+      "bytes": 259027,
+      "sha256": "dcd070626223f000d5070ddbd24ae795c1dfe42b1cafc0609d39ed650994a8be",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/UPS.png"
+    },
+    {
+      "path": "Models/Cabin/cabin.ac",
+      "bytes": 1701545,
+      "sha256": "17dc30747d871d801382ed6660592ab086eead5d52249d40abae286cb1889dfd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/cabin.ac"
+    },
+    {
+      "path": "Models/Cabin/cabin.xml",
+      "bytes": 102,
+      "sha256": "166c829b913b02e0e2ae3bd6daebd67301931e4fd5d218c48fc860645caf7635",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/cabin.xml"
+    },
+    {
+      "path": "Models/Cabin/cargo.png",
+      "bytes": 46413,
+      "sha256": "d789afa19d3d37fe75f575f1345e61dbe89bb685cf9a3400dac84e333ad59f34",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/cargo.png"
+    },
+    {
+      "path": "Models/Cabin/cargo.xml",
+      "bytes": 242,
+      "sha256": "77b96b4988400011aaa43fe227b7ae1ab787a1f8e67850e3de54c2ea3a5851cf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/cargo.xml"
+    },
+    {
+      "path": "Models/Cabin/cargo_area.ac",
+      "bytes": 1335127,
+      "sha256": "193594e1d4d00f5eb9972b20c6c32688b5672d1702281237d35254129ce1e15f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Cabin/cargo_area.ac"
+    },
+    {
+      "path": "Models/Effects/carpet.png",
+      "bytes": 7978939,
+      "sha256": "7ec15e5bb3be06caf44524fca4162a8f7ac15b602f275b48d84e2daf0dd769e2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/carpet.png"
+    },
+    {
+      "path": "Models/Effects/contrail-eng1.xml",
+      "bytes": 3008,
+      "sha256": "094072eed8138072c552f8e3036fffd170c09a3aa00f1df2e5dbbcb7ef31383b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/contrail-eng1.xml"
+    },
+    {
+      "path": "Models/Effects/contrail-eng2.xml",
+      "bytes": 3008,
+      "sha256": "96c2f75511efdac5ba1af502c7638ae5e414be8a2c50d1d9b7fd1437f4bc97f9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/contrail-eng2.xml"
+    },
+    {
+      "path": "Models/Effects/contrail-eng3.xml",
+      "bytes": 3008,
+      "sha256": "b3a9d699826c0f391904a0b4f5e30e16a0c744789066a281d0e64ee69d55e0df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/contrail-eng3.xml"
+    },
+    {
+      "path": "Models/Effects/dashboard.png",
+      "bytes": 360128,
+      "sha256": "07ce13e47669859e69d5f50313a224d53bb21421d0012a8953de1b84122129e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/dashboard.png"
+    },
+    {
+      "path": "Models/Effects/fuel-dump.xml",
+      "bytes": 1748,
+      "sha256": "a3bb57d14bb600e67521d4f748ae1f5f1b3e1ad7b38c3c32c32575f2350307a0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/fuel-dump.xml"
+    },
+    {
+      "path": "Models/Effects/lightmap-1.png",
+      "bytes": 80608,
+      "sha256": "47cc0096d29127cb14f6994538534a91bb1ae67ad421ff96f82b504981c094fd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/lightmap-1.png"
+    },
+    {
+      "path": "Models/Effects/lightmap-2.png",
+      "bytes": 69915,
+      "sha256": "063cfdd0078dc57bf5d3b66aff1203cdd025e078a96dff8b14a80c4684ea96d1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/lightmap-2.png"
+    },
+    {
+      "path": "Models/Effects/lightmap-eng.png",
+      "bytes": 31968,
+      "sha256": "f2c4d28dd2dcf58ff02aa63d7245f536dfd9e3b9183e6b7cc55f6d22449e326b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/lightmap-eng.png"
+    },
+    {
+      "path": "Models/Effects/md11.png",
+      "bytes": 96979,
+      "sha256": "2e95066415ebb26a7d29ad7d432e3ab1d76b78ec682b00905630fd96c69377af",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/md11.png"
+    },
+    {
+      "path": "Models/Effects/md11F.png",
+      "bytes": 96866,
+      "sha256": "8eafa742903ac5c60f20ca8891be6f13cbcea1ece9f6d6757f542607bd2f0d40",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/md11F.png"
+    },
+    {
+      "path": "Models/Effects/particle.png",
+      "bytes": 568,
+      "sha256": "1b70d122e6dd2b0d558b2750fe0a155341ee73a9d3b08f1fa36e339cddf69140",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/particle.png"
+    },
+    {
+      "path": "Models/Effects/seat.png",
+      "bytes": 604922,
+      "sha256": "2ddca63f18d4344d209f373acd2e25f4f8d7896625b9bec4fb358ecfa1510321",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/seat.png"
+    },
+    {
+      "path": "Models/Effects/smoke.png",
+      "bytes": 6411,
+      "sha256": "4258599b9f59addd8b1a4527cc4290b4e513ef7e79a77d102e6a1455d4e8c5d4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/smoke.png"
+    },
+    {
+      "path": "Models/Effects/tiresmoke.png",
+      "bytes": 134672,
+      "sha256": "0ee4cd09ee7cfdee045b60de2e2b5c2ced6a166160068f8a79cf023cdf7e2117",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/tiresmoke.png"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-0.xml",
+      "bytes": 2963,
+      "sha256": "cdcb23512dc76daa1c219114deb1eb4cd0fe3cd01175eb60269615c5a43bef14",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/tyre-smoke-0.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-1.xml",
+      "bytes": 2963,
+      "sha256": "ec2d152e820a79da006c3cfbb8aa88f7c58e2e3efa1fab946cd07fe007db5a74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/tyre-smoke-1.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-2.xml",
+      "bytes": 2963,
+      "sha256": "d0fcf7c09ce5d3a409a6db5f3d8db45693e76a635ef11cab6e9f3c084c381be6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/tyre-smoke-2.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-3.xml",
+      "bytes": 3081,
+      "sha256": "d42f4c2a6e079aed74a0532ae646431c246a7f63f542a152405b2a1d3a5501c5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/tyre-smoke-3.xml"
+    },
+    {
+      "path": "Models/Effects/wings.png",
+      "bytes": 36534,
+      "sha256": "c490f9738e30e6d9b6482bc33e1a9af2d2eaf19669d3d99554265239ce2ab7d8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Effects/wings.png"
+    },
+    {
+      "path": "Models/FED.png",
+      "bytes": 200894,
+      "sha256": "75af9d2ac5b8a62162c41e9ae58ac144bdfd25c0c94f137bc0cbfa766e0c113f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/FED.png"
+    },
+    {
+      "path": "Models/Lights/MD-11-lighting.xml",
+      "bytes": 10159,
+      "sha256": "e67f9a6a635e3b72600b682d3b90ec4f8e5e0b06dd5481a7531e48052d63c118",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/MD-11-lighting.xml"
+    },
+    {
+      "path": "Models/Lights/beacon.xml",
+      "bytes": 402,
+      "sha256": "364ca5b3ded0b0a83c78dd650c188cc9cc1328e2da2bade7e064bc4352ee9607",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/beacon.xml"
+    },
+    {
+      "path": "Models/Lights/beacon_light.xml",
+      "bytes": 1050,
+      "sha256": "5281f6ce5d6ed788d35cc323159bb189c8dbe1e7317d4db0948236a9f80a27fa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/beacon_light.xml"
+    },
+    {
+      "path": "Models/Lights/dashboard-light.xml",
+      "bytes": 1012,
+      "sha256": "8a2dfdc7dff441a9512383d13520474c7cdb4244292af71d303099a3ca50d875",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/dashboard-light.xml"
+    },
+    {
+      "path": "Models/Lights/empty.ac",
+      "bytes": 26,
+      "sha256": "6c419cffa7229fefe50bb1c57783f97afc89f19a0386f6eeb34aa950813c03cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/empty.ac"
+    },
+    {
+      "path": "Models/Lights/greennav.ac",
+      "bytes": 699,
+      "sha256": "29b16d13bb1ee942d4fab98604c3ba29c64ad5403b85bd6cafca087a4f94ce2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/greennav.ac"
+    },
+    {
+      "path": "Models/Lights/greennav.xml",
+      "bytes": 401,
+      "sha256": "e1bf1df6501464e0cb84508e2695add4b6b3690ef1ea3bd9be0e9f77f5ea78e4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/greennav.xml"
+    },
+    {
+      "path": "Models/Lights/landing.ac",
+      "bytes": 17349,
+      "sha256": "5dbb23773f2b8dacad64d3e223e99bd57277331d06f1cf875553391a48d2d653",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/landing.ac"
+    },
+    {
+      "path": "Models/Lights/light-cone.ac",
+      "bytes": 17884,
+      "sha256": "700daac95209271f666ef36747897b67d635e288d039f526693cbffde5fd9349",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-cone.ac"
+    },
+    {
+      "path": "Models/Lights/light-cone.xml",
+      "bytes": 1069,
+      "sha256": "fee5e9df938313b6b0e2f68f25a430cad12140ff5fc09153d17b549ca014a35e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-cone.xml"
+    },
+    {
+      "path": "Models/Lights/light-flare.ac",
+      "bytes": 12282,
+      "sha256": "653f58955cf504929343b94680b71f894729d185fa377d8e38fb16597352ae24",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-flare.ac"
+    },
+    {
+      "path": "Models/Lights/light-green.xml",
+      "bytes": 1050,
+      "sha256": "d6672127ef70d18ec8a10065a54842bdd41de6907f29b46faf21f17776b47d4f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-green.xml"
+    },
+    {
+      "path": "Models/Lights/light-logo.xml",
+      "bytes": 1013,
+      "sha256": "0d5817d774ecec2d6c87275f3dd860deb3af884913afc7848a7dbfc2f70e53b3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-logo.xml"
+    },
+    {
+      "path": "Models/Lights/light-logo2.xml",
+      "bytes": 1014,
+      "sha256": "0f75fb4b4b2e8046c75fc2d03c30f2d92a6da0790ab6774663731c61e2ffe22c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-logo2.xml"
+    },
+    {
+      "path": "Models/Lights/light-red.xml",
+      "bytes": 1045,
+      "sha256": "32ae2f50177fc780f03bf0f127dba22836ddd38f3fdf2b2d466ae97f9a6097b6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-red.xml"
+    },
+    {
+      "path": "Models/Lights/light-white.xml",
+      "bytes": 924,
+      "sha256": "5d06af54c371d2b62cbe488bbed06647bc1f925f204a1f2a4364c379ae8ff216",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/light-white.xml"
+    },
+    {
+      "path": "Models/Lights/lights.png",
+      "bytes": 95055,
+      "sha256": "26016ccc93b13329122485d10ca7de5e6d9a15c83bcbbe13727d38c4753143f6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/lights.png"
+    },
+    {
+      "path": "Models/Lights/mcp-light.xml",
+      "bytes": 1006,
+      "sha256": "a026db76f46747d420a8300f4f39e7aa8ae216e6bd210a281484f2b4f7876692",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/mcp-light.xml"
+    },
+    {
+      "path": "Models/Lights/oh-light.xml",
+      "bytes": 1005,
+      "sha256": "a19d552a2e5b4580f0de34da927aacd295858474bbfaf0fbbf6e16c3e0735f1a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/oh-light.xml"
+    },
+    {
+      "path": "Models/Lights/pedestal-light.xml",
+      "bytes": 1012,
+      "sha256": "0092551f607fd44df64950e470b993740321540dc1f88b1233c8d6384b8560cd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/pedestal-light.xml"
+    },
+    {
+      "path": "Models/Lights/rednav.ac",
+      "bytes": 697,
+      "sha256": "8dfb0aeb2a316595c2df4b279d77f778dc359062b253084fbad5e32e6c62fec4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/rednav.ac"
+    },
+    {
+      "path": "Models/Lights/rednav.xml",
+      "bytes": 402,
+      "sha256": "364ca5b3ded0b0a83c78dd650c188cc9cc1328e2da2bade7e064bc4352ee9607",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/rednav.xml"
+    },
+    {
+      "path": "Models/Lights/strobe.xml",
+      "bytes": 2317,
+      "sha256": "cdaf57e5259ed8a5c19bdc95cc58769e3ac1bb2fd492eb2392d03ae424d40d60",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/strobe.xml"
+    },
+    {
+      "path": "Models/Lights/taxi-nose.xml",
+      "bytes": 983,
+      "sha256": "4d874d8f7f0f3bfa3e9dcd49fd111437cc9322c3b5a954b14a4f260e713cac21",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/taxi-nose.xml"
+    },
+    {
+      "path": "Models/Lights/transparentlight.ac",
+      "bytes": 673,
+      "sha256": "4a443d88cc68899dd5052a5b9d48372b6694d9b46a16f4772ae6b7bfce67391e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/transparentlight.ac"
+    },
+    {
+      "path": "Models/Lights/transparentlight.xml",
+      "bytes": 519,
+      "sha256": "b6cc9bdf782f8d5669d1d429e46fd41d657757370a72f7ebaf13dd48b2968509",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/transparentlight.xml"
+    },
+    {
+      "path": "Models/Lights/whitelight.ac",
+      "bytes": 340,
+      "sha256": "c23fdb33bba7db5b2c8a7e9aaf49b26dfa95b00e927f7aac901f424dab2fe287",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/whitelight.ac"
+    },
+    {
+      "path": "Models/Lights/whitelight.xml",
+      "bytes": 405,
+      "sha256": "38c16885dd2f5c9a447e94b632c90a5ff4705f94444a0ad9c205c7f42f9d8bf3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/whitelight.xml"
+    },
+    {
+      "path": "Models/Lights/wing-light-left.xml",
+      "bytes": 1080,
+      "sha256": "5cd5f70fd532a0e03b1a31da5c9778018f01c75075ba42f7f2ebe460ca8645c0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/wing-light-left.xml"
+    },
+    {
+      "path": "Models/Lights/wing-light-right.xml",
+      "bytes": 1079,
+      "sha256": "7f11695d8aeb3d32bb8300bda9e3a1c7efa364f5aa1b99a825aa2d312bbdb363",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Lights/wing-light-right.xml"
+    },
+    {
+      "path": "Models/MD-11-windows.xml",
+      "bytes": 461,
+      "sha256": "030a3c6a68da5e9c3b7e8f70a663a8a899a4b7e44f83594983a416d25644ea3f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11-windows.xml"
+    },
+    {
+      "path": "Models/MD-11.ac",
+      "bytes": 7456646,
+      "sha256": "7e36826be6947c96ec2b0b9f40f4b73a43d5f866b5a305071b7994694cbab5d4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11.ac"
+    },
+    {
+      "path": "Models/MD-11.xml",
+      "bytes": 84194,
+      "sha256": "57ffe48a82acc1f10041e1f7479324afb84b5140ffd33331243251a7fee33425",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11.xml"
+    },
+    {
+      "path": "Models/MD-11F.ac",
+      "bytes": 7052611,
+      "sha256": "dcfbff30cf856376053e20afb0d47908ed726692c88673be890eff002036ec45",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11F.ac"
+    },
+    {
+      "path": "Models/MD-11F.xml",
+      "bytes": 80199,
+      "sha256": "b31bb6c8253a573ecc7077738605c30ef0a4d482dd97c9305b182c395bcfd65f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/MD-11F.xml"
+    },
+    {
+      "path": "Models/Services/Baggage/Catering_Loader_Truck_VolvoFM.png",
+      "bytes": 294656,
+      "sha256": "159e2e8a13d3c110181e6ae6753301daee2b754c1ab94f22c991bd5df630c795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/Catering_Loader_Truck_VolvoFM.png"
+    },
+    {
+      "path": "Models/Services/Baggage/baggage_trailer.png",
+      "bytes": 350392,
+      "sha256": "f4a2d45389da0db6f23004338f862f914632937c3ba07375242f444cc96d9b5e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/baggage_trailer.png"
+    },
+    {
+      "path": "Models/Services/Baggage/baggage_trailer_bags.png",
+      "bytes": 203892,
+      "sha256": "d268e4dd5a8d7728f23990e0b1aa158f4f1d9f24e3b9cbc45eb4f4d689f5e869",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/baggage_trailer_bags.png"
+    },
+    {
+      "path": "Models/Services/Baggage/cargo_ramp.ac",
+      "bytes": 1102734,
+      "sha256": "efee051608fdfda55a35a6bb1e3d5a3c122fd6716075153f67ed9983b5ddb2c8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/cargo_ramp.ac"
+    },
+    {
+      "path": "Models/Services/Baggage/container_AKH.png",
+      "bytes": 245154,
+      "sha256": "fd5f9dd108122eff5836f257bd9c0167991bebfdb5da0d5badc9fc71f3750184",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/container_AKH.png"
+    },
+    {
+      "path": "Models/Services/Baggage/container_trailer.png",
+      "bytes": 272794,
+      "sha256": "bbfa690f7bdcdab99c82eab0b54a6596c130323479f22838e80fb23c49e4a1a3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/container_trailer.png"
+    },
+    {
+      "path": "Models/Services/Baggage/texture2.png",
+      "bytes": 30983,
+      "sha256": "e2a7961de7894ab0aa87119cb0bef6892847e4023213122012ce45a22fdda522",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Baggage/texture2.png"
+    },
+    {
+      "path": "Models/Services/Catering/Catering_Loader_Truck_VolvoFM-stowed.ac",
+      "bytes": 270410,
+      "sha256": "0d815fb7fd2291cdfcc691ebbdf0b9638e1f3f35eefd6fc3fcd46f1622a1f720",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/Catering_Loader_Truck_VolvoFM-stowed.ac"
+    },
+    {
+      "path": "Models/Services/Catering/Catering_Loader_Truck_VolvoFM.ac",
+      "bytes": 192422,
+      "sha256": "423b8fc9f21f94467310b423525119250153f4d5b0111451421c32de886907a2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/Catering_Loader_Truck_VolvoFM.ac"
+    },
+    {
+      "path": "Models/Services/Catering/Catering_Loader_Truck_VolvoFM.png",
+      "bytes": 294656,
+      "sha256": "159e2e8a13d3c110181e6ae6753301daee2b754c1ab94f22c991bd5df630c795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/Catering_Loader_Truck_VolvoFM.png"
+    },
+    {
+      "path": "Models/Services/Catering/Catering_Loader_Truck_VolvoFM.xml",
+      "bytes": 1761,
+      "sha256": "8cb95d2682aed04ba24f9feb900fc2d2723ec07ae7f8ca965297e7418301c726",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/Catering_Loader_Truck_VolvoFM.xml"
+    },
+    {
+      "path": "Models/Services/Catering/Catering_Loader_Truck_VolvoFM_cargo.png",
+      "bytes": 297727,
+      "sha256": "88bf0f6068042d7702b80abb458e7c7a92185952a04d65e3e8699f679f53bbce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/Catering_Loader_Truck_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Services/Catering/L_T_VolvoFM-4_5m-set.xml",
+      "bytes": 7883,
+      "sha256": "c7517065c1e2568e656b6c4e0a56e2393d6f7166242ffbf89eb9c845e2611d07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/L_T_VolvoFM-4_5m-set.xml"
+    },
+    {
+      "path": "Models/Services/Catering/warning-light.ac",
+      "bytes": 707,
+      "sha256": "cb81def769542f2b938c752da85bc09fc4cc44d533312ea72031d4417acef762",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/warning-light.ac"
+    },
+    {
+      "path": "Models/Services/Catering/warning-light.png",
+      "bytes": 10635,
+      "sha256": "f18e2aeb9c16acc443756fe73b65bc6ddfa7396db0de4df3974d66f7b3735395",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/warning-light.png"
+    },
+    {
+      "path": "Models/Services/Catering/warning-light.xml",
+      "bytes": 671,
+      "sha256": "c1c5f5c94fc095a67f80c06293a0dd3ddc38a15fc08dc6d66d4cc3279cd15dbc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Catering/warning-light.xml"
+    },
+    {
+      "path": "Models/Services/Chokes/choke_left.ac",
+      "bytes": 3716,
+      "sha256": "dc92b4f5764534f98031d9b85bcaeb0e87b076a404f4c207d4ae7e4e152c17c7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Chokes/choke_left.ac"
+    },
+    {
+      "path": "Models/Services/Chokes/choke_nose.ac",
+      "bytes": 3678,
+      "sha256": "2432e5d6944ae60a23f00557377539bb1ef73aa9a3369489f64989133fdd0b0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Chokes/choke_nose.ac"
+    },
+    {
+      "path": "Models/Services/Chokes/choke_right.ac",
+      "bytes": 3740,
+      "sha256": "60092d3f2531c49ec93d21233a99acfacbd427760f5eec8a356bbabbe68b7d63",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Chokes/choke_right.ac"
+    },
+    {
+      "path": "Models/Services/Chokes/yellow-black.png",
+      "bytes": 6051,
+      "sha256": "1cd4272225ca6e35ef23c2047b2a94b396dc7e527579035a9d4f8d5780e5af02",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Chokes/yellow-black.png"
+    },
+    {
+      "path": "Models/Services/De-Icing/volvo_deicing_truck.ac",
+      "bytes": 305046,
+      "sha256": "f4aaedef8e3804e50b0ff62ae93b69e4cd8ab5816ab81d1d3d9798c3265fe186",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/De-Icing/volvo_deicing_truck.ac"
+    },
+    {
+      "path": "Models/Services/De-Icing/volvo_deicing_truck.png",
+      "bytes": 294656,
+      "sha256": "159e2e8a13d3c110181e6ae6753301daee2b754c1ab94f22c991bd5df630c795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/De-Icing/volvo_deicing_truck.png"
+    },
+    {
+      "path": "Models/Services/De-Icing/volvo_deicing_truck.xml",
+      "bytes": 13284,
+      "sha256": "27a22d56ebf0afef4ec31dccfd19144fa3f7cad0b69737cdc7fcf270c29cc108",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/De-Icing/volvo_deicing_truck.xml"
+    },
+    {
+      "path": "Models/Services/De-Icing/volvo_deicing_truck_cargo.png",
+      "bytes": 284031,
+      "sha256": "77570c85fde7032337f5b12ae786947954f3171aad5cdd091a9d3ebd087c8aca",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/De-Icing/volvo_deicing_truck_cargo.png"
+    },
+    {
+      "path": "Models/Services/De-Icing/volvo_deicing_truck_water.png",
+      "bytes": 6532,
+      "sha256": "8a870e0557357bf90b64813fd6d10402c259f482a9183b185b452fadb8e5ff6d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/De-Icing/volvo_deicing_truck_water.png"
+    },
+    {
+      "path": "Models/Services/External-Power/ext-pwr-box.ac",
+      "bytes": 98197,
+      "sha256": "0abbe19625c0dbb4e452d000187ec0b97ac438f5733c7cb9681e7e17992fcfc5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/External-Power/ext-pwr-box.ac"
+    },
+    {
+      "path": "Models/Services/External-Power/texture.png",
+      "bytes": 320734,
+      "sha256": "5c4c6c821e6e020aa552eebe78d48ba65b8319253f6f676748af5ae2bcf8ba14",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/External-Power/texture.png"
+    },
+    {
+      "path": "Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.ac",
+      "bytes": 292804,
+      "sha256": "25c313e9cec6a595a054806701b79b654debbe072b4f9cc8e9ef36f429286a5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.ac"
+    },
+    {
+      "path": "Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.png",
+      "bytes": 297657,
+      "sha256": "d99dc8e9228d383cf339b71180afec56fa8cdbaf944b6ed8e4001809e59a08a2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.png"
+    },
+    {
+      "path": "Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM_cargo.png",
+      "bytes": 263687,
+      "sha256": "98cc397ca76487e9e8a5f8511ecc97f586364013720bcd1fb0b5a13ecac60ab2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Services/Stairs/blank.png",
+      "bytes": 195451,
+      "sha256": "5c85177beaf0b58589f1adf82a702ba3a2583a1bca956e4436a6a13450262489",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/blank.png"
+    },
+    {
+      "path": "Models/Services/Stairs/blue-shade.png",
+      "bytes": 440927,
+      "sha256": "5711d99705d644140276274c943270763b981e3b1918e7ea7708b76370ecc13a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/blue-shade.png"
+    },
+    {
+      "path": "Models/Services/Stairs/blue-stripes.png",
+      "bytes": 297948,
+      "sha256": "a2101ef9075832464abcf6c46cdc7334731279417040a71226b3054ef48f9235",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/blue-stripes.png"
+    },
+    {
+      "path": "Models/Services/Stairs/dark-red.png",
+      "bytes": 236835,
+      "sha256": "07d0b96554c93d6a2bd7900e0ac2059e930436993c5720318391fe9ebe6c2b75",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/dark-red.png"
+    },
+    {
+      "path": "Models/Services/Stairs/emirates.png",
+      "bytes": 248069,
+      "sha256": "f171486d062e5d7ada66059f8715e11da570d985c5ac0e487e956647d815a498",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/emirates.png"
+    },
+    {
+      "path": "Models/Services/Stairs/green-orange.png",
+      "bytes": 257772,
+      "sha256": "a8756024f3495c1ed9bba9cb6e71109242bcd3c7874a6a0f08e60fae12f4f40f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/green-orange.png"
+    },
+    {
+      "path": "Models/Services/Stairs/malaysia.png",
+      "bytes": 355816,
+      "sha256": "f4ae6057f521b7036b2a4433928b95a8b175e70b2f6e2319a6ca32ca9a3fadd7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/malaysia.png"
+    },
+    {
+      "path": "Models/Services/Stairs/merlion.png",
+      "bytes": 289635,
+      "sha256": "30c90f9e5f5870ca9a3300e292ca857438001778c719d6a8f6d83eece37cea49",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/merlion.png"
+    },
+    {
+      "path": "Models/Services/Stairs/stairs-metal.png",
+      "bytes": 142836,
+      "sha256": "cfc3c2dc1c220dbc35a4358f320c3150d0eb6ccd3dc304ca0f94cc53455d2494",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/stairs-metal.png"
+    },
+    {
+      "path": "Models/Services/Stairs/stairs.ac",
+      "bytes": 262508,
+      "sha256": "c9f6ad3c5e5f94dbd3271a3c3242879067e4d7096f4a4eeb269eb9b6f7e4474f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/stairs.ac"
+    },
+    {
+      "path": "Models/Services/Stairs/stairs.xml",
+      "bytes": 616,
+      "sha256": "e8665559108b8bae42bb0d2bf9c2746ae6a5ddf8f44874977463ec4f987eb35d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/stairs.xml"
+    },
+    {
+      "path": "Models/Services/Stairs/truck.png",
+      "bytes": 294656,
+      "sha256": "159e2e8a13d3c110181e6ae6753301daee2b754c1ab94f22c991bd5df630c795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/truck.png"
+    },
+    {
+      "path": "Models/Services/Stairs/white-grey.png",
+      "bytes": 228757,
+      "sha256": "05fbc9c194e73664d91a66f7d744e487befad423e98ba07c4de8b6a66afd70bb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Services/Stairs/white-grey.png"
+    },
+    {
+      "path": "Models/chrome1.png",
+      "bytes": 6045,
+      "sha256": "064937b36155364b07e73ad453500d40e941dacb4fb5a71b72aa281b6d850793",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/chrome1.png"
+    },
+    {
+      "path": "Models/cockpit/buttons.png",
+      "bytes": 66430,
+      "sha256": "5ec6e2cf7ae75d6b8e3e61ce0578bba8858555d8e7e53133200766fb1aeb8b33",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/buttons.png"
+    },
+    {
+      "path": "Models/cockpit/carpet.png",
+      "bytes": 4472375,
+      "sha256": "dacce19585e2c5bb049c116df7daba46e420005cc5703b3b299ef48948400355",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/carpet.png"
+    },
+    {
+      "path": "Models/cockpit/chrome1.png",
+      "bytes": 6058,
+      "sha256": "c7ec00f81564d39977055c4a379c794f9afff2756c344383899cb2dd7f36afd2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/chrome1.png"
+    },
+    {
+      "path": "Models/cockpit/chrome_cockpit.png",
+      "bytes": 6087,
+      "sha256": "8720cf855c73c074e072a175b9f1cd19ec28f77337e942de6f7c2f5717157845",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/chrome_cockpit.png"
+    },
+    {
+      "path": "Models/cockpit/chrome_cockpit_red.png",
+      "bytes": 2163,
+      "sha256": "c40de298a4a395e7c14d1ff04a3703f00a74f239c4a014bb3fb18a55e551bb46",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/chrome_cockpit_red.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit.ac",
+      "bytes": 5887866,
+      "sha256": "b78c24d3e41957d28feec79a6017543601ae9ea99df5058936af53e58426d4b1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit.ac"
+    },
+    {
+      "path": "Models/cockpit/cockpit.xml",
+      "bytes": 19522,
+      "sha256": "d81ee6b4383b0d6a737777966e0f73ac0c7fdc3d17c3903856a42d51c4a0317b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit.xml"
+    },
+    {
+      "path": "Models/cockpit/cockpit_1.png",
+      "bytes": 401883,
+      "sha256": "c4c847ba6e74d91485609d133d18db6dcf0dcc1a4899339f75fe198e542a527d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_1.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit_2.png",
+      "bytes": 404748,
+      "sha256": "5a0484d86a7072fcad3ea0157553166e2ce57855aedf404cfdb7a2f87eea80ce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_2.png"
+    },
+    {
+      "path": "Models/cockpit/cockpit_seat.ac",
+      "bytes": 761862,
+      "sha256": "777e1a264ba13ffb34d0df9f83a3ac288160709792d50b9abdbf632043c81cb5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_seat.ac"
+    },
+    {
+      "path": "Models/cockpit/cockpit_side.png",
+      "bytes": 467809,
+      "sha256": "b50d04557cb018ab535197b3d3e2910abb2b971bc8f87c5b4d49a9d7641a1663",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/cockpit_side.png"
+    },
+    {
+      "path": "Models/cockpit/dashboard.png",
+      "bytes": 375577,
+      "sha256": "895ab494dee44a6f5a33289fd320c46cc910ae2b98ff4865b32cbf250435423e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/dashboard.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.ac",
+      "bytes": 9543,
+      "sha256": "4722b9844aa2bb8171db8f063f61c1be8f1b329535e7614bdde70a802196bb78",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.png",
+      "bytes": 37062,
+      "sha256": "77dbd74713b4484e4792f743bd5788e287595a1737df83a63b35b0867cd9b35e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONFIG.xml",
+      "bytes": 6493,
+      "sha256": "c553a1a5773e3c40d497beb95a6bf26843327c37fadfaf7192cf939ba589ea70",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONFIG.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.ac",
+      "bytes": 810,
+      "sha256": "026bcbc1e0ef0365cdf8e67b1bd4ecafc4e307fa2fcab3ca183afb45e9853add",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.png",
+      "bytes": 6100,
+      "sha256": "0bbaacbddc39bd98070bf715459f6a20c55a8f2c5e5bb5ee9b9d1154d14875cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/CONSEQ.xml",
+      "bytes": 61,
+      "sha256": "48cb1aa31ea646325cd8db2548b805ebd9f295ee47160c60f30d0bba074d08a7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/CONSEQ.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD.png",
+      "bytes": 13483,
+      "sha256": "d8066bf422d0b75575680d8fe4788a4a406426c6c55994503ff840a3f3f85449",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD_1_GE.ac",
+      "bytes": 9120,
+      "sha256": "ea036a8592aaa1ecb2ccfa0fb82915756e57638247f14d8a1cdd16f3a88f192b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD_1_GE.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/EAD_1_GE.xml",
+      "bytes": 32647,
+      "sha256": "96e8f87ce388e2b8d72eb6387c0f20de411438997e13fb204787a46f499c3405",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/EAD_1_GE.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.ac",
+      "bytes": 808,
+      "sha256": "b0d2cd971660a90e398a7fe7a4d4469be27c7ae61299fa559c4285b2b6e87543",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.png",
+      "bytes": 6691,
+      "sha256": "e20171511f6ed412e1c8c0fdc1223f325a88953ffc61061f33614159d74e466f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/MISC.xml",
+      "bytes": 59,
+      "sha256": "c885f43e3e944150170f35df90c499314a1c44e34ca63189d4d4cd41c94adf1c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/MISC.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/Msg.xml",
+      "bytes": 3299,
+      "sha256": "7bf6b4d2729fef03b4ba37af0cce34c87674959d01147203255fb223cbeea06d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/Msg.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ND.ac",
+      "bytes": 809,
+      "sha256": "66662e8f60750051429557d20991a3a6be1f2e86b5c76fbe941e0674a605a312",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ND.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ND.xml",
+      "bytes": 641,
+      "sha256": "578f47fc6fec542a0f1edb8da376e3d80951126b85a645a9f373006f9c3d2060",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ND.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/SD.xml",
+      "bytes": 1631,
+      "sha256": "7242d8cff7213dd3d122ab30ef2f709346cafddaa57102d756da7d11048b40a0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/SD.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.ac",
+      "bytes": 810,
+      "sha256": "23d0439ad900f4de48fffc58fda551f2bc136e094fe0d2ea25b3027a9754688b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.png",
+      "bytes": 11850,
+      "sha256": "a088deb5e87d4090df86336f3977859a13b48007c6b763fc4c55fb12919917f1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/STATUS.xml",
+      "bytes": 61,
+      "sha256": "ba12cfc6582d2e0ba9ed2980cb4ff182ef3c1ae27fbaf3cc6d52e6e42470a02d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/STATUS.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/black.png",
+      "bytes": 113,
+      "sha256": "1d19d49c1e6125786f23549f4815e8eb75bb5601fc5f630181ac1f9f665d772b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/black.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/ead_2.png",
+      "bytes": 432,
+      "sha256": "170825960d621e65a0afc8ce00c8681cca0497fa7fc27def9127e4797afa3899",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/ead_2.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/numbers.png",
+      "bytes": 5890,
+      "sha256": "f73f321ceb977ad6918141df7bbba031d8401faf7aed3e96b9396033696b310e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/purple.png",
+      "bytes": 141,
+      "sha256": "700964218fb33f7d6a5126fe2b28733d4316e6e7c2f330ad2a434abbc3603f59",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/purple.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/red.png",
+      "bytes": 137,
+      "sha256": "b789489e65ef90e4087a6ffab831a0c448456b310ddcd0ef074fe215b6f1f3db",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/red.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/screen.png",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/screen.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/white.png",
+      "bytes": 141,
+      "sha256": "bbaeb0e41e34d484a3865e90db1ec803c46d991e96e143205fff665a8e2168c1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/white.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/EAD/yellow.png",
+      "bytes": 139,
+      "sha256": "628b450afeec6dd7bb076b471a342a5bad29b9945d541128ed79bdcdaabd4b56",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/EAD/yellow.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/APpanel_BTN.png",
+      "bytes": 61187,
+      "sha256": "7e953f5fac5654fec7ae537a230e1da0925253ad118b9d1b2a39fc8766d23119",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/APpanel_BTN.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/FCP.ac",
+      "bytes": 666779,
+      "sha256": "0847646c28b79f52985b0d94d5cd8385395bde0e0927bce6e52f5d7d641b4b21",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/FCP.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/FCP.xml",
+      "bytes": 61096,
+      "sha256": "57c39c7932abc3467f048e1073b1b0ee16c0f069db403bda76ad5149851001d5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/FCP.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/FCP/MCP.png",
+      "bytes": 308732,
+      "sha256": "0e4ab8764cb2779e4c985c0bcfca9995b2b88c02db4f4ab8ebb9369920fbbe1b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/FCP/MCP.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/ND/ND_L.ac",
+      "bytes": 491,
+      "sha256": "a28d0d45a4e193e5dfe1e9a7c60cf1f1c1266736b082a98cc4f652e9ab56225f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/ND/ND_L.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/ND/ND_L.xml",
+      "bytes": 942,
+      "sha256": "5f7349213c96faa800d022834bb4f27cbf41ca80a52858a786c14b7174f01f57",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/ND/ND_L.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/ND/ND_R.ac",
+      "bytes": 491,
+      "sha256": "4a733081e781f4100750e10a60b11346f4d43adce7ae6296eb1898da01208b85",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/ND/ND_R.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/ND/ND_R.xml",
+      "bytes": 946,
+      "sha256": "b7ad01caf446fb7b3a302456c7d5f0fccb6b592a82758a0b6ea9a91e4f3395ab",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/ND/ND_R.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/ND/screen.png",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/ND/screen.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/PFD_L.ac",
+      "bytes": 124369,
+      "sha256": "d2041ded543238a4749ceedc80628c331ff12dce9ff023a424f54718a1d001a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/PFD_L.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/PFD_L.xml",
+      "bytes": 71058,
+      "sha256": "698386488377d064009a8eb5933e24e60f78b2103f177c5b3826fb0e52d64f5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/PFD_L.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/alt-tape.png",
+      "bytes": 44136,
+      "sha256": "b56f4d171769a07b343fa1afb5d7a457df9117d79073c0c10b7cfd4bef7835d0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/apoff.JPG",
+      "bytes": 27332,
+      "sha256": "983beaf7a629227558ec62205da9f1fbe1a43c9b9180811716bdf587abd85933",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/apoff.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/apoff1.JPG",
+      "bytes": 26174,
+      "sha256": "ab79dafe53ba468a43cb6447459d2f7d36c8ec7f36861847f62d58f697c37f80",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/apoff1.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/atoff.JPG",
+      "bytes": 20008,
+      "sha256": "2f5d66e12f88730bc50c5b30fb6b8e9c820a6009991477cde3095468efca7b15",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/atoff.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/atoff1.JPG",
+      "bytes": 19375,
+      "sha256": "b2c7395f053308c160e211cc81bb15fb294be527226522e01fbbe8ccb1625a7f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/atoff1.JPG"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/numbers.png",
+      "bytes": 75069,
+      "sha256": "902ca3703ec26086218f9a743d67f1c5f64830eb9f9a327f2a80f1417aaa5f8e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/pfd3d.png",
+      "bytes": 100827,
+      "sha256": "d690fcdaf30f86e518ca137869fc68f79711fde6d6aad9726f43c97388cbc3a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/pfd3d.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/spd-tape.png",
+      "bytes": 21331,
+      "sha256": "04413a25873acf21f31394edac495332fd1d7201dd939c093f4d4104f4ecfca6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/PFD/taxi.png",
+      "bytes": 1187,
+      "sha256": "77a3f0d7be9ba8b95c9e0add07d7295fa76153702ca3499ebb6ab062ed98c74c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/PFD/taxi.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/chrome_cockpit.png",
+      "bytes": 6087,
+      "sha256": "8720cf855c73c074e072a175b9f1cd19ec28f77337e942de6f7c2f5717157845",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/chrome_cockpit.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio.ac",
+      "bytes": 88813,
+      "sha256": "20a82fa90f4176f4ac45a59c8151e908bd29304846835fa71ac2509f5236693c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio.png",
+      "bytes": 63722,
+      "sha256": "370a102f8ca40fe30275f35fda8eaa7d0943f7cd58b2ab54f3217fed96bad28d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio1.xml",
+      "bytes": 11727,
+      "sha256": "c0e291a7fdd6134789528743a7cf4e3f8331113599a605818b0007d9a671ddf2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio1.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/Radio/radio2.xml",
+      "bytes": 10867,
+      "sha256": "c545cdfb6b1ee58fbe1d35db4e27bd5ed30f7c35768e37c602f9ffc8639cbeda",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/Radio/radio2.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.ac",
+      "bytes": 108046,
+      "sha256": "0f1d03480cd44408e09888af35a60580564c50732c0d9d6f22908f1f748f7847",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.png",
+      "bytes": 72574,
+      "sha256": "3a6c562249368a1b2f0d1d91fe10ce82e4f8d373b4264891d52f9c20e08096dc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/audioselector.xml",
+      "bytes": 670,
+      "sha256": "adafa8fae9f1d89c4651605d50164bace5e796f2bb4cdcdd54e4b4c6904c96cf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/audioselector.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/audioselector/chrome_cockpit.png",
+      "bytes": 6087,
+      "sha256": "8720cf855c73c074e072a175b9f1cd19ec28f77337e942de6f7c2f5717157845",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/audioselector/chrome_cockpit.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.ac",
+      "bytes": 129412,
+      "sha256": "ed56b10d7ff5feebda5d9fa5f2054d1f49b4882c7de3266b75428cdcd90302a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.png",
+      "bytes": 115019,
+      "sha256": "54265d3e88a2a913d30fb3165cb8fd1f08c982a32dd1d522b9e8201831330a0f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/brakes.xml",
+      "bytes": 4768,
+      "sha256": "58c456ea63b63c607aa21a2a905c59ce5955fd164fe0b3e6bc343e3640babb71",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/brakes.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/chrome_cockpit.png",
+      "bytes": 6087,
+      "sha256": "8720cf855c73c074e072a175b9f1cd19ec28f77337e942de6f7c2f5717157845",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/chrome_cockpit.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/brakes/knob.png",
+      "bytes": 984,
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/brakes/knob.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing.ac",
+      "bytes": 111528,
+      "sha256": "424a70443ee8c6a1e16a8339ed43dc9791a9ee3991c1fd56fa10434275360576",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing.xml",
+      "bytes": 42745,
+      "sha256": "755eafb9f1146242294878ea3ff87155b602a4882f4ca88cfd9d064dd7a0f3b6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing_grey.png",
+      "bytes": 71851,
+      "sha256": "bccd4d343d53d3415534853001e9b4ba8601dcffbca993e5cf4fcbfe2cdf6b95",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing_grey.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/boeing_lightmap.png",
+      "bytes": 5020,
+      "sha256": "69d5a83dcfd513dd6412e3e796224e843559328db3605bb995272200debe3b74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/boeing_lightmap.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/cdu/display-text-value.xml",
+      "bytes": 1745,
+      "sha256": "50d8c827dc2fcc0281f4d10532332ec0ce60d1c50104e429567ea140dadaee9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/cdu/display-text-value.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.ac",
+      "bytes": 135962,
+      "sha256": "ba7fa385a8f4e4ade70b2f9cc78ff38b1c5fed079b95f4bde7b247cf4192c7dc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.png",
+      "bytes": 51325,
+      "sha256": "bb03aef630d508f0ffdf675aba6813b957c87a321c4f8a97767202f8a1dcf983",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/compass/compass.xml",
+      "bytes": 922,
+      "sha256": "1c6abc8249497203344ab11646842563739769077eb57d61bdd1125be92e5778",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/compass/compass.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.ac",
+      "bytes": 87750,
+      "sha256": "6297b8bb177aafa53b7b50b9e06053c622ed03fb15bd9852fe7d5d628af6ec0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.png",
+      "bytes": 64562,
+      "sha256": "6875f40f1c197a47cdbfb1ce1030e153694b998d353b003894c4a3bcab59add7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/radar/radar.xml",
+      "bytes": 479,
+      "sha256": "e47b5832f7f84589bfd3266b890c887f3971bd22ea4cfdf9568c11cc111074d9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/radar/radar.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/knob.png",
+      "bytes": 984,
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/knob.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.ac",
+      "bytes": 80629,
+      "sha256": "71a33ce2cca99359e7b8eb9d726011045ac28cceb2143bea05397c6179b091c2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.png",
+      "bytes": 53219,
+      "sha256": "aa2eee8e3d9aa3899263f382c62e719ffe43a1d132aeccf34a87b5cdf2f3f112",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector.xml",
+      "bytes": 9185,
+      "sha256": "30ba5e3fd399f9878cbaa60a5966fcbe654222c357c0de66414ab5e3fca9951e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/screenselector/screenselector2.png",
+      "bytes": 53309,
+      "sha256": "3a1d0401d5177377b0418a12db24ec325dab9b29cb32ddaf34c2fb3a6ba75d66",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/screenselector/screenselector2.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/pfd3d.png",
+      "bytes": 100827,
+      "sha256": "d690fcdaf30f86e518ca137869fc68f79711fde6d6aad9726f43c97388cbc3a9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/pfd3d.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.ac",
+      "bytes": 263875,
+      "sha256": "c4541aa06ac505343afc3f1ef81e5fb45f12475a288d1bcc874509f617147772",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.png",
+      "bytes": 17524,
+      "sha256": "abbdcc45aa195ab4ffa6fb58cf4a80f2d870190caef84c1d4b7287b119179fbf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-ai/stby-ai.xml",
+      "bytes": 4111,
+      "sha256": "e1308e99d592452b618c1a6dab7c16c5ac9e403737ae9e33597aa8d11335f2d0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-ai/stby-ai.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stby-ai.png",
+      "bytes": 16648,
+      "sha256": "992707fd87c6decb67b24bc6cda3ff84e2408221c31fd4e4211154dcca9cc522",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stby-ai.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stby-alt.xml",
+      "bytes": 6237,
+      "sha256": "7346980f53d1b04ce8ddc60cd112cb957d4e585651a611dac269613e8668a654",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stby-alt.xml"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stbyalt.ac",
+      "bytes": 268797,
+      "sha256": "b7c1b0063feb54d05c5528b33839be91c7fc796575a89c707ed2fb8f1cd1cb01",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stbyalt.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/stby-alt/stbyalt.png",
+      "bytes": 54783,
+      "sha256": "a4d3d0430adb2e0643b18a36b6dcbab39c14acfe3114829d4bb425de611606e1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/stby-alt/stbyalt.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/chrome_cockpit.png",
+      "bytes": 6087,
+      "sha256": "8720cf855c73c074e072a175b9f1cd19ec28f77337e942de6f7c2f5717157845",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/chrome_cockpit.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.ac",
+      "bytes": 77480,
+      "sha256": "b0f4ac1a00204d6935836e592384767af0ee732662415a8e7c125ff37585be98",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.ac"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.png",
+      "bytes": 77045,
+      "sha256": "52c41b11f58cbbb6a25ed9ffefe08981954e4604b96c5dcda7e8101f9647a05f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.png"
+    },
+    {
+      "path": "Models/cockpit/instruments/tcas/tcas.xml",
+      "bytes": 9784,
+      "sha256": "a5f320887b6a8168fed67224620a22c8587dd0ede3796caa1c964877133ec54e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/instruments/tcas/tcas.xml"
+    },
+    {
+      "path": "Models/cockpit/knob.png",
+      "bytes": 984,
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/knob.png"
+    },
+    {
+      "path": "Models/cockpit/numbers.png",
+      "bytes": 7489,
+      "sha256": "3de54aee4c0e219cd116fb87ace2c2d6aeb6dceba82195c5f6582142b08e36c6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/numbers.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.ac",
+      "bytes": 2636755,
+      "sha256": "ae834ab45d8303e9b58ae3cab0449ce02dbc349cc0cde8b35434af5c2a9b9d71",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.ac"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.png",
+      "bytes": 472043,
+      "sha256": "378b3d25f2589e229a798f83f067c06985afcd3282fa87dc100a9f243e34615b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_1.xml",
+      "bytes": 61036,
+      "sha256": "70aa85a34e0d8728222d97ffd249d7c9ce0b15ec0b1a822c435410934fa0ee88",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_1.xml"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.ac",
+      "bytes": 2002602,
+      "sha256": "34b2ecf4ba9fbd32a21ae7e056ed69094ff7f72aac2776ab8c667b51263699b4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.ac"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.png",
+      "bytes": 405850,
+      "sha256": "896f88c3f17f0ce7a0d57909bd612dd460710ef624127c8f5362d0e00eb1e340",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.png"
+    },
+    {
+      "path": "Models/cockpit/overhead_2.xml",
+      "bytes": 3422,
+      "sha256": "61ed6d8f59f86ff956c21b57cd0f4860aaee6a2445e569fefbd91c9c56fec239",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_2.xml"
+    },
+    {
+      "path": "Models/cockpit/overhead_text.png",
+      "bytes": 82782,
+      "sha256": "3cff60ae75b7e77970539033be189942d68088e1909624cf9cb98abe94802e84",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/overhead_text.png"
+    },
+    {
+      "path": "Models/cockpit/pedestal.ac",
+      "bytes": 1198827,
+      "sha256": "a32ae1e1c359e58d25e4d6a58f7338d1a278298e389988b3b17c51b5cb061dfd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.ac"
+    },
+    {
+      "path": "Models/cockpit/pedestal.png",
+      "bytes": 442777,
+      "sha256": "367044fa7c7319350a0c4d1f4efd4b4f79ae6f585767f46090f5b69d09f37a50",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.png"
+    },
+    {
+      "path": "Models/cockpit/pedestal.xml",
+      "bytes": 31117,
+      "sha256": "3f360bd6ca3ea43eef38193415e4cbb79d1603eef3c2f2cecd7b9513999ca0e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/pedestal.xml"
+    },
+    {
+      "path": "Models/cockpit/screen.png",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/screen.png"
+    },
+    {
+      "path": "Models/cockpit/seat.png",
+      "bytes": 457909,
+      "sha256": "706b827a32414adea150e363a2e726e07639b06bca24246f8a87a4de8abdbe62",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/seat.png"
+    },
+    {
+      "path": "Models/cockpit/seat.xml",
+      "bytes": 2037,
+      "sha256": "505a6d47fbf1759f6b0dc041507435be84b7963500b9138662866114c8d20eee",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/seat.xml"
+    },
+    {
+      "path": "Models/cockpit/windshield.png",
+      "bytes": 29281,
+      "sha256": "f861067ea4ed376b784214c69e9658799e7e5fda501a9b9bacf2966876af5d5b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/windshield.png"
+    },
+    {
+      "path": "Models/cockpit/yoke.png",
+      "bytes": 123360,
+      "sha256": "d4715f462cf2d78bb7585dbe3eab87d7b1a685fb144cc70d2d1443662d8212ec",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/cockpit/yoke.png"
+    },
+    {
+      "path": "Models/fan.png",
+      "bytes": 136998,
+      "sha256": "e11e0790c4ca791b5ee2b47c8a339702edb32d0f4ef96fb13466feabee1ad2c9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/fan.png"
+    },
+    {
+      "path": "Models/landinggear.png",
+      "bytes": 557631,
+      "sha256": "6307fcbf5a5e9c349f52e912abce1940aa1a698488c5d7c1252593c51c7099c8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/landinggear.png"
+    },
+    {
+      "path": "Models/md11.png",
+      "bytes": 185684,
+      "sha256": "50aceac8ca65026855353ffdbe14736410c630ae20ab5301e95fe11e07e43913",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/md11.png"
+    },
+    {
+      "path": "Models/wings.png",
+      "bytes": 472812,
+      "sha256": "058db3aa9f4f9356e350e2f8e1cc568db8a57d1f6585bf386185bcb0d92f8bab",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/wings.png"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/MD-11",
+    "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+    "components": [
+      {
+        "path": "Models/Cabin/cargo_area.ac",
+        "offsets": {}
+      }
+    ]
+  }
+}

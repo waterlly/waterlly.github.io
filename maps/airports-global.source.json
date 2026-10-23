@@ -1,0 +1,1502 @@
+{
+  "dataset": "OurAirports worldwide open land airports and supplied runway geometry",
+  "upstream": "https://ourairports.com/data/",
+  "revision": "03565b612558de9d9ec27ca7a1e99a4f9d2619ba",
+  "sources": [
+    {
+      "file": "airports.csv",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/03565b612558de9d9ec27ca7a1e99a4f9d2619ba/airports.csv",
+      "sha256": "eb99a7ca14a63612b82d1c33694b2f8963b7cc42b7a6128142e8f1b9c5be23e5",
+      "bytes": 12744869
+    },
+    {
+      "file": "runways.csv",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/03565b612558de9d9ec27ca7a1e99a4f9d2619ba/runways.csv",
+      "sha256": "a1575b7885909a01824b33d69cfb9fc8f8acc106a19c192635e7a2bda464726f",
+      "bytes": 3969042
+    }
+  ],
+  "license": "Public domain",
+  "terms": "https://ourairports.com/data/",
+  "dictionary": "https://ourairports.com/help/data-dictionary.html",
+  "airportCount": 48088,
+  "countryCount": 239,
+  "runwayCount": 14288,
+  "airportTypes": {
+    "large_airport": 1175,
+    "medium_airport": 4105,
+    "small_airport": 42808
+  },
+  "airportsWithRunways": 10845,
+  "unknownAirportElevations": 5021,
+  "totalOutputBytes": 33078402,
+  "outputs": [
+    {
+      "file": "airports-global.json",
+      "bytes": 12279255,
+      "sha256": "51ecda26883f95bf48143f9b2555054a2c5c514f7414d7b1c65f848e08075ac8"
+    },
+    {
+      "file": "airport-details/AE.json",
+      "bytes": 23026,
+      "sha256": "6a2981994f090f92f4011c699578e104c1f8dc6b7532cc5fb8f1f2e277b09467"
+    },
+    {
+      "file": "airport-details/AF.json",
+      "bytes": 25972,
+      "sha256": "72325f0a123c04fcc16166a6aaadaf3331ae269b78652aa4185f6cdec05003ee"
+    },
+    {
+      "file": "airport-details/AG.json",
+      "bytes": 1863,
+      "sha256": "7b0fd2a154e135e13c5bde5be9987687a0681ac839713c8d5014ee43a2270d17"
+    },
+    {
+      "file": "airport-details/AI.json",
+      "bytes": 796,
+      "sha256": "65ec50927a275d39b617185ceb568d905461f0b12b6f7abe6380a304372d6f90"
+    },
+    {
+      "file": "airport-details/AL.json",
+      "bytes": 2276,
+      "sha256": "32624571e254dd0caa4422f4572092ae95fd890d81dfcba2b940d26a629961a8"
+    },
+    {
+      "file": "airport-details/AM.json",
+      "bytes": 6029,
+      "sha256": "d9620d9f04d407bdce2e6d25f35112f8374cc5a56e70fef16a826c0feb7b4ca0"
+    },
+    {
+      "file": "airport-details/AO.json",
+      "bytes": 44643,
+      "sha256": "a77a737a2a2d67e3314a8a822ca0704faaec90da70cb9a6a49e7a2f66a41757f"
+    },
+    {
+      "file": "airport-details/AQ.json",
+      "bytes": 13241,
+      "sha256": "5bea3f69dcea3222706aa25d19fb8a8e95d8169a9d02eb249c7c30561625009b"
+    },
+    {
+      "file": "airport-details/AR.json",
+      "bytes": 319567,
+      "sha256": "20fe9e4fba060ce75616e6dce2e2d74b5ad16d67bf83b0a54d4d193575a97664"
+    },
+    {
+      "file": "airport-details/AS.json",
+      "bytes": 2823,
+      "sha256": "392004a61d58a79ba948e6165a1cfa9805cecf5cfdf1f9ef5ccbf476d6742792"
+    },
+    {
+      "file": "airport-details/AT.json",
+      "bytes": 49041,
+      "sha256": "2678549dffe516597ab779eb42c220cc7a9a0c6a305133e5721971c1e1a9b0ab"
+    },
+    {
+      "file": "airport-details/AU.json",
+      "bytes": 900485,
+      "sha256": "a710290a3d1f2e721fb86f6b89edac4868eb19501f61c656c772a190d6f43369"
+    },
+    {
+      "file": "airport-details/AW.json",
+      "bytes": 815,
+      "sha256": "fa40db68e1c039f946430c58ed739161e83f170ae8bb7f13556c2e4c153a391b"
+    },
+    {
+      "file": "airport-details/AZ.json",
+      "bytes": 16098,
+      "sha256": "d76b566604db1cbc3be5c5e080bdc1963ff67f1785dbd05cdea01706b0d1950a"
+    },
+    {
+      "file": "airport-details/BA.json",
+      "bytes": 8619,
+      "sha256": "e451ccaa1813bc6320c1d6aa4ae3799ee0c4aca1060d0beda900104c1969c09c"
+    },
+    {
+      "file": "airport-details/BB.json",
+      "bytes": 817,
+      "sha256": "a19aad1c89d642095df1f9b0210ad9b31cd0141f7c6b3d56d1b38ca7527d2c17"
+    },
+    {
+      "file": "airport-details/BD.json",
+      "bytes": 9650,
+      "sha256": "37beadbe980e1cb38d1a427cb5b570aa3eeb4a19f3bc3b70c70dab4486b7473c"
+    },
+    {
+      "file": "airport-details/BE.json",
+      "bytes": 26609,
+      "sha256": "bdefe9b380a0936016ebd8c13126fdad8df8e9017c5e192fbf97c46300f8668d"
+    },
+    {
+      "file": "airport-details/BF.json",
+      "bytes": 15099,
+      "sha256": "af5aef37367597048c5423e68ab786bb76fc9f04d252cbdf20a5cd389bfdd381"
+    },
+    {
+      "file": "airport-details/BG.json",
+      "bytes": 43359,
+      "sha256": "a91a2db45255981be0ebc9c1f0d9b72661c73fd91af60a018e54a430b1ec6dbd"
+    },
+    {
+      "file": "airport-details/BH.json",
+      "bytes": 2341,
+      "sha256": "48b615d70610ef01b3080fdc6044ce454751059678b0bcf60a330bb767bf969c"
+    },
+    {
+      "file": "airport-details/BI.json",
+      "bytes": 2253,
+      "sha256": "a1ca8c4bbeb1d23ef929a0eb424361f384ebc6ed0b01ae53526dac3dcf3455d7"
+    },
+    {
+      "file": "airport-details/BJ.json",
+      "bytes": 3398,
+      "sha256": "8cd21099a1f93c99013d03fe5bc5f735d3f22521af7e64a39cebfa1475e826cb"
+    },
+    {
+      "file": "airport-details/BL.json",
+      "bytes": 764,
+      "sha256": "0482f5128198e7218ec7473f81dd4870208d3aee89a479b16ad0838cddc49927"
+    },
+    {
+      "file": "airport-details/BM.json",
+      "bytes": 773,
+      "sha256": "44f08c74a2e13aae2f48c7080cf6f91c5cb15b33735ac5d043626b2d408f2427"
+    },
+    {
+      "file": "airport-details/BN.json",
+      "bytes": 1095,
+      "sha256": "246a4939ea225dfae682b34702ca2d52caca5aaae9ea190a51f8ad215955f767"
+    },
+    {
+      "file": "airport-details/BO.json",
+      "bytes": 71945,
+      "sha256": "8a23fbe73a4a36a590e8b9015dc07186fc548571bab17e31c49df2ce8f48a657"
+    },
+    {
+      "file": "airport-details/BQ.json",
+      "bytes": 2328,
+      "sha256": "3a6af401991eae0bad731dff0226d98b57fb3c3e009e3a443dd9f0e63e53a143"
+    },
+    {
+      "file": "airport-details/BR.json",
+      "bytes": 1789889,
+      "sha256": "49f48e16d7579fdb0c3ed7eb198cb18ecf4178f5f8df98ff54a6100a69db919c"
+    },
+    {
+      "file": "airport-details/BS.json",
+      "bytes": 31004,
+      "sha256": "aceb77a729f06be65e5f27756864b9095bd9ff2f0d34683a2488869a7b8a9bde"
+    },
+    {
+      "file": "airport-details/BT.json",
+      "bytes": 2604,
+      "sha256": "3ee3fda829ac20e55c1115d593a9a6d630609b9d89ed005c5d29230390b3f2e3"
+    },
+    {
+      "file": "airport-details/BW.json",
+      "bytes": 43884,
+      "sha256": "73d54874c4cef8dcbfdc521d8c1ebe5a9a900379b175d277d75f3de0b6038ba2"
+    },
+    {
+      "file": "airport-details/BY.json",
+      "bytes": 17330,
+      "sha256": "369fd1b20906c77e5f0d93cb52ad6bab4362f171ca5ddb21b7e489515aa0079f"
+    },
+    {
+      "file": "airport-details/BZ.json",
+      "bytes": 8809,
+      "sha256": "99863ac647b2ac5d0129d716d3a330af0218b608db9fc27b9264202b4e3c8a40"
+    },
+    {
+      "file": "airport-details/CA.json",
+      "bytes": 747473,
+      "sha256": "a637b3f8fee0ebc41f5bbe7f6ef71e59e7c6efc37dd1a01c5f3bb8ff2c8ebfae"
+    },
+    {
+      "file": "airport-details/CC.json",
+      "bytes": 813,
+      "sha256": "af0baac3ad740f4fc4cfc8d3b71abb3c3e8638c48c9e7a1fddc97a0bcc733b28"
+    },
+    {
+      "file": "airport-details/CD.json",
+      "bytes": 88898,
+      "sha256": "e1ecf56ce8fee2adbc8ff133bb6ceba9db87946a12eb0b60b43cec3168cca7b5"
+    },
+    {
+      "file": "airport-details/CF.json",
+      "bytes": 13526,
+      "sha256": "d8de29ae5d59fcabb231b2aed6fb759269785795501ad67a2adf3f39d7e9b8fe"
+    },
+    {
+      "file": "airport-details/CG.json",
+      "bytes": 18213,
+      "sha256": "50f99930b3118d76a603dde592d9926d615b4b486e9b6078b3be772e1f7c0654"
+    },
+    {
+      "file": "airport-details/CH.json",
+      "bytes": 48475,
+      "sha256": "34daf5e465940201972478e3d064520f194f88a21d96ff22c9a1c8d2d91d571b"
+    },
+    {
+      "file": "airport-details/CI.json",
+      "bytes": 11659,
+      "sha256": "1e65326d272906b558ebf66fa9a7f33b8a5733dfb296a80873a078ad889e70c4"
+    },
+    {
+      "file": "airport-details/CK.json",
+      "bytes": 4458,
+      "sha256": "23de90ff7b2a0d7de91d7b1efbc7229eb63e90964614c06be1b5072dbac161e9"
+    },
+    {
+      "file": "airport-details/CL.json",
+      "bytes": 141183,
+      "sha256": "6670e8006dc8c52b203752c5102290ac6ffe2100db0a46c091fa740d67a474b0"
+    },
+    {
+      "file": "airport-details/CM.json",
+      "bytes": 17383,
+      "sha256": "a19f0644f953d1edf90e680f2918ebde8384b66bc9deb4b330e44a08f7440900"
+    },
+    {
+      "file": "airport-details/CN.json",
+      "bytes": 226215,
+      "sha256": "7eb4c01539cb9cfe6d6d55c0a200733a17a6a4fc214a6fba402b1194ef5c8855"
+    },
+    {
+      "file": "airport-details/CO.json",
+      "bytes": 234231,
+      "sha256": "dfed43b6107c22acdca538734afae9e74e7baabe2af7f798fa4febef69b1d236"
+    },
+    {
+      "file": "airport-details/CR.json",
+      "bytes": 49772,
+      "sha256": "682e07cc8154c0646c7814442e488d8e43807f97a8a0b0892e568ab28eb5ad08"
+    },
+    {
+      "file": "airport-details/CU.json",
+      "bytes": 52117,
+      "sha256": "d9635119f72355a5a0ace1b382ebd5e5bede761f53993d3cff60a3ba3e6690ba"
+    },
+    {
+      "file": "airport-details/CV.json",
+      "bytes": 4694,
+      "sha256": "52822b410c6f83cd9cea7a8bca9a7e91aee25905fd4713f5a616ca153c74f4cb"
+    },
+    {
+      "file": "airport-details/CW.json",
+      "bytes": 807,
+      "sha256": "e28c94ba75bcda17de462858dfe6b8bd2585a2df5da134f60519bd863b051e42"
+    },
+    {
+      "file": "airport-details/CX.json",
+      "bytes": 833,
+      "sha256": "0fb9440974cd2fc1bcefbd09b3f8ed72386097b0abca3ce89a0c26c14625af96"
+    },
+    {
+      "file": "airport-details/CY.json",
+      "bytes": 6330,
+      "sha256": "566c272f83e87f5088e9fb03ead8b4af0e9388c7bd925cea32e47a1dfc585079"
+    },
+    {
+      "file": "airport-details/CZ.json",
+      "bytes": 137466,
+      "sha256": "b434d579370ac70474ab693df958612e8c1295c52822b744cbec7a05689ccfed"
+    },
+    {
+      "file": "airport-details/DE.json",
+      "bytes": 390129,
+      "sha256": "39b07ae12276c5d2c7ed313f64febb439af92e3a175b5d4b412f18099976e2af"
+    },
+    {
+      "file": "airport-details/DJ.json",
+      "bytes": 3394,
+      "sha256": "204ec2f5fec7557589628eec23bbc8c6fb16b41df8dfb63e630a71061ad946ea"
+    },
+    {
+      "file": "airport-details/DK.json",
+      "bytes": 48918,
+      "sha256": "72866deb65fc2daedba67025a4c57e730d1aa87f3921939a3483b2c42fb472cf"
+    },
+    {
+      "file": "airport-details/DM.json",
+      "bytes": 1534,
+      "sha256": "7a112a2c1d8dcbd97c2b217fe4e0e4790bcbc094532e8eb2777c2b68f9473953"
+    },
+    {
+      "file": "airport-details/DO.json",
+      "bytes": 14884,
+      "sha256": "fe527f1d050c9892c07c179552936320228f0ddf839f6cccec5e7e1d5d9e3ad7"
+    },
+    {
+      "file": "airport-details/DZ.json",
+      "bytes": 64128,
+      "sha256": "b69b4efaa532a68dc18d2e32d37094163e3a97cdac5c0bb88f1505283a1eed8e"
+    },
+    {
+      "file": "airport-details/EC.json",
+      "bytes": 115704,
+      "sha256": "f1ba1c85b827c87550108dadf003d27a6b96f02d9aadd7c5ee493cd08c1a5b37"
+    },
+    {
+      "file": "airport-details/EE.json",
+      "bytes": 13656,
+      "sha256": "a162a391e29892c80180d566f527352def718edca77bee99a5e07f38fb584b4c"
+    },
+    {
+      "file": "airport-details/EG.json",
+      "bytes": 61828,
+      "sha256": "5420b65bf7fe20da3f0a2fa48c21d52c0402df0f6210edc37c85ea63e00af625"
+    },
+    {
+      "file": "airport-details/EH.json",
+      "bytes": 5900,
+      "sha256": "005fef537f25de5ad70ec42a5712ccd01519cec2b3277d247578285fbb156918"
+    },
+    {
+      "file": "airport-details/ER.json",
+      "bytes": 7315,
+      "sha256": "99f16b5ebc016a57825d0ec3cdba759947578f0b34f40d103351b5fa2b66fe56"
+    },
+    {
+      "file": "airport-details/ES.json",
+      "bytes": 151399,
+      "sha256": "b1122a5ceb2fde21274f96536459f5216d0a5f6a24d117846e8e09f494635f90"
+    },
+    {
+      "file": "airport-details/ET.json",
+      "bytes": 24345,
+      "sha256": "d8f27a263ed2f028f61f756eac4245f2b0b588ac0e4ba5a5d5c6b4a7e974117e"
+    },
+    {
+      "file": "airport-details/FI.json",
+      "bytes": 63895,
+      "sha256": "16f6067667b9010beefda366a3a20946e1c6788405dd90eeb8a83ce4ebd3a560"
+    },
+    {
+      "file": "airport-details/FJ.json",
+      "bytes": 10985,
+      "sha256": "1bbe21f47e2acc3ea1b0aac9943b03da1c3e5abff66e8ea5f8304b54d40757af"
+    },
+    {
+      "file": "airport-details/FK.json",
+      "bytes": 12175,
+      "sha256": "78a900386dec6502c412d992593d1e64751bf44c0b0e2b3d683d712307bb8f16"
+    },
+    {
+      "file": "airport-details/FM.json",
+      "bytes": 3976,
+      "sha256": "a223f5df214827d75997fbd94a9dac6184bd3deae6546c08c1b9e078f45e3466"
+    },
+    {
+      "file": "airport-details/FO.json",
+      "bytes": 752,
+      "sha256": "c6f12b4d10e13064310d8300bdde9994825dbaa0d69176889f60358641f70c9d"
+    },
+    {
+      "file": "airport-details/FR.json",
+      "bytes": 486624,
+      "sha256": "fb3660f945cad8ed575d54a8e47c3b8444ed67d9fb68d76d45c2ac5f48fad7ee"
+    },
+    {
+      "file": "airport-details/GA.json",
+      "bytes": 17672,
+      "sha256": "78b1760805d3c6d4547858a8f9da432d3d8bb53b0730a341e12bd8715cc042a9"
+    },
+    {
+      "file": "airport-details/GB.json",
+      "bytes": 403775,
+      "sha256": "67760c0471ed51b63db1967f6751a2b3147d596059fc05258dc3beb0ea627ad7"
+    },
+    {
+      "file": "airport-details/GD.json",
+      "bytes": 1118,
+      "sha256": "8ee5245aa79adce4b1ea849e9590623a2f44baf9e56b1ead30707d6e76372200"
+    },
+    {
+      "file": "airport-details/GE.json",
+      "bytes": 11029,
+      "sha256": "6c1bf59fa4cb53ec8cdda3156a5838ec9d5f2178207be78d9ce9a3cc3cec7f37"
+    },
+    {
+      "file": "airport-details/GF.json",
+      "bytes": 7387,
+      "sha256": "747666548998a873d49fb599c56c01a47c464f46123d70333d3b37fa569c4add"
+    },
+    {
+      "file": "airport-details/GG.json",
+      "bytes": 2402,
+      "sha256": "88cce2f9388c8692d42a678476252dc987198b1244441378794e586e33e0c08e"
+    },
+    {
+      "file": "airport-details/GH.json",
+      "bytes": 6019,
+      "sha256": "1497dde9f7289119dee2bb25145a2a9430c2366b84eef8b653a255d8cd9d6fa5"
+    },
+    {
+      "file": "airport-details/GI.json",
+      "bytes": 765,
+      "sha256": "7514c7ac9724eb752fb3f2d1cf0164c2f3c799a5595f6047c80bc7530f6c1b91"
+    },
+    {
+      "file": "airport-details/GL.json",
+      "bytes": 13250,
+      "sha256": "854462d68f982f9fd09cd33d38a7fa60086967d09bc1b72fc10547f46acab330"
+    },
+    {
+      "file": "airport-details/GM.json",
+      "bytes": 812,
+      "sha256": "686f589a94e887ad004d700d353994c62be297a5f8008e29b995e0c8d1f6c0fa"
+    },
+    {
+      "file": "airport-details/GN.json",
+      "bytes": 7737,
+      "sha256": "2470d3344087ce1ba7d693bd2826b2e54fc824f6056a610d87d63e87cea1cfeb"
+    },
+    {
+      "file": "airport-details/GP.json",
+      "bytes": 3241,
+      "sha256": "a62565134c2109b3267ffec30b8e7773e0e7a99e62f50d76311110d625e3c194"
+    },
+    {
+      "file": "airport-details/GQ.json",
+      "bytes": 3031,
+      "sha256": "11aa8c323a943f78f8e4ce0d59ff152cd306da57f15f7f0b0cb9b05f5a3ee63f"
+    },
+    {
+      "file": "airport-details/GR.json",
+      "bytes": 50580,
+      "sha256": "42a7d662be82f81bb63c526933284464e4781bd5ac37f502e228f644ec2875a9"
+    },
+    {
+      "file": "airport-details/GT.json",
+      "bytes": 22074,
+      "sha256": "57723ca707267156ab3e01936af6ce5a38471f4c41f4b896da561403a814ca1e"
+    },
+    {
+      "file": "airport-details/GU.json",
+      "bytes": 2839,
+      "sha256": "1d747d714333e25adffacbd12d6332561d7d32afc757b5a18b444bdb260c43d6"
+    },
+    {
+      "file": "airport-details/GW.json",
+      "bytes": 4297,
+      "sha256": "237c8b960ff01edfa1d4c51b55c3feb6fa8067d4cd8b81328444c81757c8071f"
+    },
+    {
+      "file": "airport-details/GY.json",
+      "bytes": 18866,
+      "sha256": "3c54eb167c4b2d24b81f2e24625bd3d17505cb74e8cd61181a8d68a371699755"
+    },
+    {
+      "file": "airport-details/HK.json",
+      "bytes": 2481,
+      "sha256": "25a4bdffa96a1acca46a8e41207d67baebb4c14f490011e9d371574b244dfb7e"
+    },
+    {
+      "file": "airport-details/HN.json",
+      "bytes": 42880,
+      "sha256": "eae17d6fe474f9aeca60070aee8829657534d754ef15e4a0c47b9e2718a293c6"
+    },
+    {
+      "file": "airport-details/HR.json",
+      "bytes": 23746,
+      "sha256": "ddd65b12e71db978bd4d3a8c4fba33173faa94ff93692171d08723c958d9c5da"
+    },
+    {
+      "file": "airport-details/HT.json",
+      "bytes": 6905,
+      "sha256": "96491d4aa9d775b5fc7c5cb09202bdb405f619c437f91ebd1c321e7e7c3ba230"
+    },
+    {
+      "file": "airport-details/HU.json",
+      "bytes": 44326,
+      "sha256": "d55672dd2b9488e4682756ca507bc2a3515e7c7c49785b2a6b8f1d3e2b95430e"
+    },
+    {
+      "file": "airport-details/ID.json",
+      "bytes": 248344,
+      "sha256": "6348401b4602602a7f843705c9cbc5d27116f284bd5503fb2c7c772538b1e7a2"
+    },
+    {
+      "file": "airport-details/IE.json",
+      "bytes": 36938,
+      "sha256": "4e4f723804fc0da7854225b4bf137a00b2dc2c4fe207b76353103c90dee7ce1a"
+    },
+    {
+      "file": "airport-details/IL.json",
+      "bytes": 29708,
+      "sha256": "128fb61afee47c37287dd36e73a4328f207a069a36d92c19ad9d70f1dd85c723"
+    },
+    {
+      "file": "airport-details/IM.json",
+      "bytes": 2098,
+      "sha256": "4e19f26e3989a555f23d09bbb0703e3cd65b134f6c98922ad9138d3b25759bfe"
+    },
+    {
+      "file": "airport-details/IN.json",
+      "bytes": 204056,
+      "sha256": "858a036b712d492ecba37c6b83ed82fa0cc2171c8b7c7a01b9d348d7fff9a42e"
+    },
+    {
+      "file": "airport-details/IO.json",
+      "bytes": 810,
+      "sha256": "47c1ded44f23a190d2012f67d260e468ddbac8e5c36db7f2311d6ec00c74d916"
+    },
+    {
+      "file": "airport-details/IQ.json",
+      "bytes": 32084,
+      "sha256": "e8ad211199194afbd2b40fa27c7ee560a50383ee7da9867baf9d57655b0c61c0"
+    },
+    {
+      "file": "airport-details/IR.json",
+      "bytes": 105326,
+      "sha256": "d44a71d5771d251132d26c5746c23983e1ceb855e78e1e9f92efe7d8f337c8a1"
+    },
+    {
+      "file": "airport-details/IS.json",
+      "bytes": 31574,
+      "sha256": "ab1a1f057ba4fa54cc47ad82bfb8d59b10975022d7217e2d1344fba05c0007bd"
+    },
+    {
+      "file": "airport-details/IT.json",
+      "bytes": 252791,
+      "sha256": "f93dbdb9af724b0dde517a84f87ec7c5090a95716534233301916a2e2f936a54"
+    },
+    {
+      "file": "airport-details/JE.json",
+      "bytes": 763,
+      "sha256": "eb7f65ff1ca83746e0cb073c622435bd1fe7abb45bdf7bba04c1668f84fa4d1f"
+    },
+    {
+      "file": "airport-details/JM.json",
+      "bytes": 8297,
+      "sha256": "055d654a56ce019e45f5b5e5b6b8632f07839e4fbd2b1c575e6047511022dd58"
+    },
+    {
+      "file": "airport-details/JO.json",
+      "bytes": 10040,
+      "sha256": "31dcae937e9dd468ac6868d9664bdf9b91065d6a2b740864d4559525a07b0af0"
+    },
+    {
+      "file": "airport-details/JP.json",
+      "bytes": 145396,
+      "sha256": "9baf5d3bc22f42de5afece35bf3c74f3d300b7d24ccde1eff92855458eb9048c"
+    },
+    {
+      "file": "airport-details/KE.json",
+      "bytes": 107123,
+      "sha256": "e0b51b1a53d154f056532c408e75ce94d92dfd012f79b61febb43a08de999a85"
+    },
+    {
+      "file": "airport-details/KG.json",
+      "bytes": 8115,
+      "sha256": "e153207859e4b25cd993de49639f313b7993bf0c7402f265c70e5547bc79d2e7"
+    },
+    {
+      "file": "airport-details/KH.json",
+      "bytes": 5530,
+      "sha256": "8e62cb4e1207b3c2810646d8a2844715be9e8a2516828402bde21dd1f00328ac"
+    },
+    {
+      "file": "airport-details/KI.json",
+      "bytes": 7594,
+      "sha256": "7b8bcfdc2f7f9032fd1f173a051b8e61fa90874601b395d4f256e79399176ccc"
+    },
+    {
+      "file": "airport-details/KM.json",
+      "bytes": 2359,
+      "sha256": "c613fe22f944fc19003843ad8d87ee6d2836cfec4f8ccd871a4d1aa9bf5c3efc"
+    },
+    {
+      "file": "airport-details/KN.json",
+      "bytes": 1574,
+      "sha256": "f619ce741bf62e65406ef63ecab1ff68224158d1114adfffcfe608247c93e764"
+    },
+    {
+      "file": "airport-details/KP.json",
+      "bytes": 23962,
+      "sha256": "98ed3087b7adf93c3d6e0e459ca9a47cd6490ccfa4682453511da11a1aa02bd7"
+    },
+    {
+      "file": "airport-details/KR.json",
+      "bytes": 69439,
+      "sha256": "e19d4bd31234ce81d3f07da19859c137615fe4aba11c7b4b0f7e7f3fd45970a2"
+    },
+    {
+      "file": "airport-details/KW.json",
+      "bytes": 4943,
+      "sha256": "37a290e2558438c45b813175fd8ed5adada251c5c6f5616823d3d01ae3961e1d"
+    },
+    {
+      "file": "airport-details/KY.json",
+      "bytes": 1887,
+      "sha256": "fc0396bac917346d8cf12102a1a8725bbb3c965eea00945c678358b1adcc32a0"
+    },
+    {
+      "file": "airport-details/KZ.json",
+      "bytes": 44627,
+      "sha256": "b629a2cb65954b45991d48d686a59130202639cd16de400963c3eec846546aee"
+    },
+    {
+      "file": "airport-details/LA.json",
+      "bytes": 9882,
+      "sha256": "5fa74ab262887d612cca0d6a4ffdd5e861100aeef237b45925b38bb0733145ce"
+    },
+    {
+      "file": "airport-details/LB.json",
+      "bytes": 4460,
+      "sha256": "a544776739065705dbb7a0145891c4c8b775741e5dfa5857f0d8e13e28726d6e"
+    },
+    {
+      "file": "airport-details/LC.json",
+      "bytes": 1599,
+      "sha256": "ce861dd16b42239c76d94945718d88ac121b08d9f69647809ef3c25e44af89ff"
+    },
+    {
+      "file": "airport-details/LK.json",
+      "bytes": 10941,
+      "sha256": "b98b04eb3e8a83fadd4f9e54d9589d9f3715add8040397688ee2e925101c2fd4"
+    },
+    {
+      "file": "airport-details/LR.json",
+      "bytes": 6444,
+      "sha256": "c4874819bff667e1f2378994555d8f5ad2ea3b4f913f3e820cb88b406bce98c8"
+    },
+    {
+      "file": "airport-details/LS.json",
+      "bytes": 11812,
+      "sha256": "d814258191b690428dfe720a50df3dd92180203e8d85408c40a5b86e23130a26"
+    },
+    {
+      "file": "airport-details/LT.json",
+      "bytes": 21403,
+      "sha256": "1a171db8475be26f46d28d9b25c74b860940448310ab14226b21a80a29e9b0de"
+    },
+    {
+      "file": "airport-details/LU.json",
+      "bytes": 1365,
+      "sha256": "8a4b6abbd8fca9651e6abc4b7b375100825058077ac7a80381b6b37c47c2306b"
+    },
+    {
+      "file": "airport-details/LV.json",
+      "bytes": 17539,
+      "sha256": "fdecee14e775b68a9a698382f775c4c1055e577c3b9cf964aee25785b0f8e628"
+    },
+    {
+      "file": "airport-details/LY.json",
+      "bytes": 54496,
+      "sha256": "6809d7d4c883f18540ed1ada15a319af2bec551884103b1837945e6728f11f31"
+    },
+    {
+      "file": "airport-details/MA.json",
+      "bytes": 22782,
+      "sha256": "50735326da96511ed32e5e1aea0b5d5c64dbb290575abb1165955fb7472385c5"
+    },
+    {
+      "file": "airport-details/MD.json",
+      "bytes": 5071,
+      "sha256": "4133b595905d218f5d0e333b4ecf4d4456fb015c503f088fc03311df8edb92a4"
+    },
+    {
+      "file": "airport-details/ME.json",
+      "bytes": 2479,
+      "sha256": "4906c04a822620f32f02c4f53f7ecac1c9ee1d3c68442b22b5fe15090bb6e0bf"
+    },
+    {
+      "file": "airport-details/MF.json",
+      "bytes": 822,
+      "sha256": "13e1fe0de1b9f236266d16394926a7b2d69dd40668af11d0c478eced05f6c72a"
+    },
+    {
+      "file": "airport-details/MG.json",
+      "bytes": 41541,
+      "sha256": "5bd81a3a3398a35b803a8eed8c87e7bc45687ef078902fa94d3c4aa138c499b8"
+    },
+    {
+      "file": "airport-details/MH.json",
+      "bytes": 11464,
+      "sha256": "5b2f318597b1ba0b3f9054def860e04259d69b1fa1ab931b75bc7ebd9904cd8d"
+    },
+    {
+      "file": "airport-details/MK.json",
+      "bytes": 8499,
+      "sha256": "dc23aa5e67a581f8c3a0d37525b1e08bf881e585692fd07376e5e86520cebf4f"
+    },
+    {
+      "file": "airport-details/ML.json",
+      "bytes": 13492,
+      "sha256": "560556de5b52fc8adba168da75f108ddb593c5130ce24c38270932d8c072dcfc"
+    },
+    {
+      "file": "airport-details/MM.json",
+      "bytes": 39096,
+      "sha256": "0838030df08f06b1426bef0a81d01484886be4302a49fc274e7819c28e7aa8ad"
+    },
+    {
+      "file": "airport-details/MN.json",
+      "bytes": 15215,
+      "sha256": "601a2a4a02a7eb72d2f1bc0847b9a8a35b44f6bf5021450f3d199dcb78eb2d1a"
+    },
+    {
+      "file": "airport-details/MO.json",
+      "bytes": 832,
+      "sha256": "1bbc4133ef1614494b1f60c8b4832ff26e12fa040f690291b1ba7f9aa6ec36b9"
+    },
+    {
+      "file": "airport-details/MP.json",
+      "bytes": 2690,
+      "sha256": "a9fcb823b94c64f3ec5a416f5293668323397d3b89cdad7a9ddeadd2af4590b4"
+    },
+    {
+      "file": "airport-details/MQ.json",
+      "bytes": 835,
+      "sha256": "bb54fd420dae287c62907a3ebdbc65b89419900123e298c21bda58c7c266f809"
+    },
+    {
+      "file": "airport-details/MR.json",
+      "bytes": 12517,
+      "sha256": "13e6e975abaf2153815622f544271c7acca6add2a05c2f25f6d3f3ff3df4bd6c"
+    },
+    {
+      "file": "airport-details/MS.json",
+      "bytes": 335,
+      "sha256": "add110c661f841a18db63202c1db4082625d17da4df065905cb90045ec399386"
+    },
+    {
+      "file": "airport-details/MT.json",
+      "bytes": 1201,
+      "sha256": "c2d82910182dea074a9e0d8fbaa1f651964cdf090c1ccd399eb8997d16139d28"
+    },
+    {
+      "file": "airport-details/MU.json",
+      "bytes": 3367,
+      "sha256": "c37c27710e67ab241452974f6e431e9e93a9b6e0d2da982218dfaad767e5f236"
+    },
+    {
+      "file": "airport-details/MV.json",
+      "bytes": 9121,
+      "sha256": "6b262525d330df69d0272acb0e2dd994653623e0f43232bf2f19f431811a73b9"
+    },
+    {
+      "file": "airport-details/MW.json",
+      "bytes": 12167,
+      "sha256": "ba607549407ca271b2f971bdff47cd1cc9daca3c93a3e893b138d3798e171281"
+    },
+    {
+      "file": "airport-details/MX.json",
+      "bytes": 540388,
+      "sha256": "db0779ffa5747c87ec7de5a8195840a4e05a5581a2705c16877ca700ef4691a2"
+    },
+    {
+      "file": "airport-details/MY.json",
+      "bytes": 43743,
+      "sha256": "c87fe2a5b9681e0ae50b2385f44af7aec6b4eae7ff68a995cdaee0723c2966dc"
+    },
+    {
+      "file": "airport-details/MZ.json",
+      "bytes": 37679,
+      "sha256": "a16a6e8e40c0f1a018b1c3d380c977345598a6fee17f585846927d05a302e24b"
+    },
+    {
+      "file": "airport-details/NA.json",
+      "bytes": 101511,
+      "sha256": "4d26875c7bca3166c3f7218ffb11cd2c82a05cdd2f3f26566200ff203384c0ae"
+    },
+    {
+      "file": "airport-details/NC.json",
+      "bytes": 11364,
+      "sha256": "aba14c7618a55d9f6726f756e816a529fdacbc41c06010b32eaf015f22777370"
+    },
+    {
+      "file": "airport-details/NE.json",
+      "bytes": 12095,
+      "sha256": "e373faf76170d29677cfc18048af65fe15d624d5ba40fc61579644defaa5786c"
+    },
+    {
+      "file": "airport-details/NF.json",
+      "bytes": 1310,
+      "sha256": "c3b538a1d956de0b39034bf13cc1f31acd63e1b0088def9f1f28ccc66e645d8c"
+    },
+    {
+      "file": "airport-details/NG.json",
+      "bytes": 28844,
+      "sha256": "21ee40f8c0651c0eaf2301d6e024d178973ee1c3437bf5ece57dc74431e3ad1a"
+    },
+    {
+      "file": "airport-details/NI.json",
+      "bytes": 15235,
+      "sha256": "73ba67775ac3a93e6a0870f0c03184fdb9d5aeb65884fd3f580ef5fb883dda62"
+    },
+    {
+      "file": "airport-details/NL.json",
+      "bytes": 26726,
+      "sha256": "cff4d01a150d5d5dd5fb9015b911d8297a60e8762fa14a9c084685c710c39b78"
+    },
+    {
+      "file": "airport-details/NO.json",
+      "bytes": 71512,
+      "sha256": "f0739d550827d20b8de1e2cdb8a1003facf0355f5c525c6c1e3b1e33fe499c48"
+    },
+    {
+      "file": "airport-details/NP.json",
+      "bytes": 18749,
+      "sha256": "da30b9a1c6ea95c81830efb055e3b7d8c7046e09e40a01db59a319f1f8e47b3f"
+    },
+    {
+      "file": "airport-details/NR.json",
+      "bytes": 814,
+      "sha256": "bba00e23cb02bb55520929553d01038e90df13e324fec4d7cc1bde668d0fe555"
+    },
+    {
+      "file": "airport-details/NU.json",
+      "bytes": 811,
+      "sha256": "a6b30fae8d717ac0171188ada953c915ea070a61a115b16df49870eb5c8efe85"
+    },
+    {
+      "file": "airport-details/NZ.json",
+      "bytes": 104130,
+      "sha256": "f2c1114913f1c05b33a9c5a12926392f33a39dbb1d8fa1333edbaea1804d2787"
+    },
+    {
+      "file": "airport-details/OM.json",
+      "bytes": 16177,
+      "sha256": "da97147ac380e9ed676a6645ea68e5ccb6258d863d3b3b6149e62e73268c1f3e"
+    },
+    {
+      "file": "airport-details/PA.json",
+      "bytes": 34089,
+      "sha256": "c5b38b01ffa19a7b2536384982ba7e0d7927549beddc7997d4efa05cb63e6ade"
+    },
+    {
+      "file": "airport-details/PE.json",
+      "bytes": 75104,
+      "sha256": "a338bd0b7e4fee7e7b9d00a62dea27a32045e81d0bd847b20bc85f9ffbc8be7a"
+    },
+    {
+      "file": "airport-details/PF.json",
+      "bytes": 30484,
+      "sha256": "4e0e1811020a228d4ee01e9b109c64c818a9978e7c9ae81792e96811b2475bd8"
+    },
+    {
+      "file": "airport-details/PG.json",
+      "bytes": 176983,
+      "sha256": "2b28c2c5db6c1c21de97094579819beff26ca2ece4a3c5e0a85ad5029c06c94e"
+    },
+    {
+      "file": "airport-details/PH.json",
+      "bytes": 105534,
+      "sha256": "1701acfcbb651ef52147d1eb56d7d30f64e1013fb183c32a482a529b182ece3c"
+    },
+    {
+      "file": "airport-details/PK.json",
+      "bytes": 72766,
+      "sha256": "fe525c457e5e4a916bc4549404175c9106a70db1ffdbd8ec1bb54280dd6fd5b4"
+    },
+    {
+      "file": "airport-details/PL.json",
+      "bytes": 118157,
+      "sha256": "f445b43afca34545ac89401437cad22b212fefd81a2d65b877cad03c57106330"
+    },
+    {
+      "file": "airport-details/PM.json",
+      "bytes": 1535,
+      "sha256": "1cfb8bda9547606cefe53f2c151ee7af1e45a475089994172fe7fe3d2480db5d"
+    },
+    {
+      "file": "airport-details/PR.json",
+      "bytes": 10766,
+      "sha256": "76301f9fa04d1c1640f97c4ee9f9e2b20d01394211b490b8ff95071744b58829"
+    },
+    {
+      "file": "airport-details/PT.json",
+      "bytes": 54741,
+      "sha256": "1f539ef58cb447e785ff6b77730050032d6e66dcd63adeaf3bedd70f38afea53"
+    },
+    {
+      "file": "airport-details/PW.json",
+      "bytes": 1371,
+      "sha256": "a15a2516817a502476f223d43cd027e9aba3073078efbc84f90b0a5adf9908cf"
+    },
+    {
+      "file": "airport-details/PY.json",
+      "bytes": 32954,
+      "sha256": "fa997580337974fded1326b9aa27b5294089b96565fec5bcda26a7b8a16e7bf5"
+    },
+    {
+      "file": "airport-details/QA.json",
+      "bytes": 4463,
+      "sha256": "0ec8cc72fd5fe0b38fb0d339ad9c2cf76be0493acc01a75188d964d928556d84"
+    },
+    {
+      "file": "airport-details/RE.json",
+      "bytes": 3546,
+      "sha256": "8b29f0e6369f8b90677cefd59a865d5ecf42dae376257e5ae0591cf776b5499b"
+    },
+    {
+      "file": "airport-details/RO.json",
+      "bytes": 45459,
+      "sha256": "77d06e287daf0f7f2c07ea55b9933aeca99710966e8f56465e1d78b4c4de8c58"
+    },
+    {
+      "file": "airport-details/RS.json",
+      "bytes": 20428,
+      "sha256": "5966a06d40129b9cb65374c7b8fd637eac128447ad2e9da7bfe831a6ff1efd40"
+    },
+    {
+      "file": "airport-details/RU.json",
+      "bytes": 337379,
+      "sha256": "98d28374cc66108a55b3327a6f9fba3db7d0f873db2d7bcc2f98c2cd9042c413"
+    },
+    {
+      "file": "airport-details/RW.json",
+      "bytes": 3787,
+      "sha256": "ae42ec29b20832376011190049232a9d5a35ffdce5fd5d5da1ec926f7a53d77d"
+    },
+    {
+      "file": "airport-details/SA.json",
+      "bytes": 61244,
+      "sha256": "5802f18423a58165ccdb135cb2169f0a24d674c95cc326c4d7135feaacdb9169"
+    },
+    {
+      "file": "airport-details/SB.json",
+      "bytes": 12480,
+      "sha256": "757ce9b5f27c5fb13f2d55c62e12d47e858e77dc433bc57f2f9381cbbec7ea69"
+    },
+    {
+      "file": "airport-details/SC.json",
+      "bytes": 7429,
+      "sha256": "5d1dc441942d792a0d22f26f5f845c1955f6076e2cdc1ad1d1c9b425a03b207a"
+    },
+    {
+      "file": "airport-details/SD.json",
+      "bytes": 18459,
+      "sha256": "bb85fe97d1c29614430c59cd2390d6f6fc149c57e6df08e028b312772fea014b"
+    },
+    {
+      "file": "airport-details/SE.json",
+      "bytes": 105943,
+      "sha256": "34461251f2c0d443a532ceba7a0b209684572943eade865c86e0fbe151aa1179"
+    },
+    {
+      "file": "airport-details/SG.json",
+      "bytes": 7307,
+      "sha256": "5eba93d207efb2348f7a74647266f2089927054fc33616f87077348a776cd051"
+    },
+    {
+      "file": "airport-details/SH.json",
+      "bytes": 1569,
+      "sha256": "0e560eadf22159f11063d8822985e3b727547413f8652444be5bd26cc71b40a3"
+    },
+    {
+      "file": "airport-details/SI.json",
+      "bytes": 15070,
+      "sha256": "7b671b08433076bd632ce830201795ab77e5554c291ba6bc451abb9c80306a32"
+    },
+    {
+      "file": "airport-details/SK.json",
+      "bytes": 41438,
+      "sha256": "b484368c52081065828145d2bf78b6213af60b19d404917e658e4e1fb86dfa04"
+    },
+    {
+      "file": "airport-details/SL.json",
+      "bytes": 2834,
+      "sha256": "2e728cc46554eec54aaec122ad276cc7fc5f34b01a78decdfa91f9f3b23a4a65"
+    },
+    {
+      "file": "airport-details/SM.json",
+      "bytes": 323,
+      "sha256": "8cf935db225af47403870b7046d63a4664e9f11a5c7679a55d8f5ff816034936"
+    },
+    {
+      "file": "airport-details/SN.json",
+      "bytes": 11147,
+      "sha256": "2bbfe818bdc39c09e986691bf8df2be8c580dfc5ab72662abfc5f560afc3a31c"
+    },
+    {
+      "file": "airport-details/SO.json",
+      "bytes": 14253,
+      "sha256": "5cd9ca02b44f2ffc8aee4af782eecd7748965c0f8937b8114c5d764c37c712fb"
+    },
+    {
+      "file": "airport-details/SR.json",
+      "bytes": 16744,
+      "sha256": "47a5799a0fe07dc27af83848fcf70ac4db9db43ea33f8837f245b685358df80e"
+    },
+    {
+      "file": "airport-details/SS.json",
+      "bytes": 28034,
+      "sha256": "45917320edcf0a55ac43f3d7a48e03217c9b406991ad7f3ca641334b51af31a1"
+    },
+    {
+      "file": "airport-details/ST.json",
+      "bytes": 1595,
+      "sha256": "edc7a47dbd20104abf71567e2c52c94935515e4fa4225e0a76cc119b41de8d0e"
+    },
+    {
+      "file": "airport-details/SV.json",
+      "bytes": 9952,
+      "sha256": "9f2ccdd98fc5046f94f4994dbc9b50c2dfbdbd868ceb5293e3293e10a345de32"
+    },
+    {
+      "file": "airport-details/SX.json",
+      "bytes": 786,
+      "sha256": "58ef5e6d20030a9708655ec276853799b30a7944ed9dc61eb84cb1173b48a066"
+    },
+    {
+      "file": "airport-details/SY.json",
+      "bytes": 25887,
+      "sha256": "f2fa3406962961cb26182529b083ef6e308b3e69e26a1c71ff0825b3b6844de0"
+    },
+    {
+      "file": "airport-details/SZ.json",
+      "bytes": 5289,
+      "sha256": "d9eef222248133c14f79f95b838af6f87b5ffbc2ff97740e369cd65113cb0b03"
+    },
+    {
+      "file": "airport-details/TC.json",
+      "bytes": 4609,
+      "sha256": "7e6ae52b7733ba055a9ec2479b26391f9eff47fdb64a424b786b160e33aa590d"
+    },
+    {
+      "file": "airport-details/TD.json",
+      "bytes": 15207,
+      "sha256": "65ba783bb94b9030bb5c2c104a8b07e3c6507f1ff6a19574008d1f3029cb840f"
+    },
+    {
+      "file": "airport-details/TF.json",
+      "bytes": 1245,
+      "sha256": "5acd22388580b7aa561323636b4a327cae11083c5323711a3694b0eccf6fe4be"
+    },
+    {
+      "file": "airport-details/TG.json",
+      "bytes": 3003,
+      "sha256": "1aa98f824f0acb508637be99524c5106cae2d7ede473dda98f801827d7ac73bc"
+    },
+    {
+      "file": "airport-details/TH.json",
+      "bytes": 61053,
+      "sha256": "0326d9604b5d4b3f14336f42b515d186f50653664d34f226be77f97cfb6f2fc4"
+    },
+    {
+      "file": "airport-details/TJ.json",
+      "bytes": 10552,
+      "sha256": "5e86a5ad479d94b87dab48739c0dbe885c25f2e4c51364b928f09d5d3bcb41e8"
+    },
+    {
+      "file": "airport-details/TL.json",
+      "bytes": 4705,
+      "sha256": "7270d486c941878a36c8ee2f6868c6eba69555a3e3eb60ead6520387274a96fd"
+    },
+    {
+      "file": "airport-details/TM.json",
+      "bytes": 14996,
+      "sha256": "59d78d4f5ea5ec81186134e1574f2e74c7f1f33c2bb69ee84bd0b5c417110aac"
+    },
+    {
+      "file": "airport-details/TN.json",
+      "bytes": 11753,
+      "sha256": "add62f636599c1ecc01473828bf6ee4440e14fafe67e4858414a4364e294dbdb"
+    },
+    {
+      "file": "airport-details/TO.json",
+      "bytes": 3793,
+      "sha256": "03bb60a19d017769c8d7d56df2080729328a6c5b6c697ecf7929935b027cdcc2"
+    },
+    {
+      "file": "airport-details/TR.json",
+      "bytes": 81901,
+      "sha256": "81ad49f58028e829e1a97393e412f76964842910f056b57918b7a19443938beb"
+    },
+    {
+      "file": "airport-details/TT.json",
+      "bytes": 2333,
+      "sha256": "dd60d86b37c35b2c5dcb8b0f62612f35ee48d31cb21ad77e939ca3a240e22ed4"
+    },
+    {
+      "file": "airport-details/TV.json",
+      "bytes": 337,
+      "sha256": "b95b03f32bf99df1f2a6a99dad0b066ccf0ee79003a0d32b28ebd67e5d325db1"
+    },
+    {
+      "file": "airport-details/TW.json",
+      "bytes": 28922,
+      "sha256": "2f374e608aaa6da78cf123c3aadeda68591f52fb9aa316c1840ea82e3ae58710"
+    },
+    {
+      "file": "airport-details/TZ.json",
+      "bytes": 65495,
+      "sha256": "9f30415e30ea2e1d413403f44629366e4930e588282d2f40626fcdb680525c50"
+    },
+    {
+      "file": "airport-details/UA.json",
+      "bytes": 57212,
+      "sha256": "098f3699aae0ba35eb314a6b238a00dbbd17ae75255ad6b97cdb5f4c463938c2"
+    },
+    {
+      "file": "airport-details/UG.json",
+      "bytes": 14736,
+      "sha256": "1fa00eae95400d28eff80d859944252c5a9c3dde5f3d3d1697f9a4deae1cf258"
+    },
+    {
+      "file": "airport-details/UM.json",
+      "bytes": 1870,
+      "sha256": "d052697d650ec005ba86868db3f7672d0e49d5bb9b0ce57d4b86ca2e3f2574bd"
+    },
+    {
+      "file": "airport-details/US.json",
+      "bytes": 8007834,
+      "sha256": "8f3c5b1cbd194b85c7fb9dae3b5b3a9211c5d3956db2d34ebc439567d76eca01"
+    },
+    {
+      "file": "airport-details/UY.json",
+      "bytes": 26677,
+      "sha256": "bd49499a5b7912cb4f20f3418c3f56c59b652241f70d1a338c167641349aaad9"
+    },
+    {
+      "file": "airport-details/UZ.json",
+      "bytes": 29244,
+      "sha256": "53eee981a254c0404589a8e3f4c87ea97faf0034934f15303226e2e0a610a5a1"
+    },
+    {
+      "file": "airport-details/VC.json",
+      "bytes": 2904,
+      "sha256": "6dc53d09efa90e453175c4d684171720e2b01da681ee6fc460fa10367a663456"
+    },
+    {
+      "file": "airport-details/VE.json",
+      "bytes": 201218,
+      "sha256": "c28efebcb8039915a622eecedb5a9b2939e701c17945b737d9039e75cc6b43dd"
+    },
+    {
+      "file": "airport-details/VG.json",
+      "bytes": 1434,
+      "sha256": "414eb628fd6560351542d73a158a7b69bff94269f09c637ed929bffec7ec4c16"
+    },
+    {
+      "file": "airport-details/VI.json",
+      "bytes": 1542,
+      "sha256": "19fe0617b1cee0a26f9502d51f2ad0fa3dce59653cf1bc1421adec8419fb9a7b"
+    },
+    {
+      "file": "airport-details/VN.json",
+      "bytes": 25983,
+      "sha256": "8f071c2ae2294018bb6c3242620cc561bdb0d27845844822a2c6c6ac666b32b1"
+    },
+    {
+      "file": "airport-details/VU.json",
+      "bytes": 11075,
+      "sha256": "59535a082ee7a5ba16a09d2571bab3a1381dbcfd197708268ac1f0521c7a9185"
+    },
+    {
+      "file": "airport-details/WF.json",
+      "bytes": 1545,
+      "sha256": "ff624b52e1496ade48af2f0dceebb4a9ba3aaab70088bec2f5d75f6600173218"
+    },
+    {
+      "file": "airport-details/WS.json",
+      "bytes": 1657,
+      "sha256": "23509ff0932550e770813ac75acc3d8e4b6d3b0a3f883b50bd03ffe8c482aa12"
+    },
+    {
+      "file": "airport-details/XK.json",
+      "bytes": 1585,
+      "sha256": "e12246412210e914db723f50942a4913b037f0a15815b43c600830ae108e7016"
+    },
+    {
+      "file": "airport-details/XP.json",
+      "bytes": 1087,
+      "sha256": "4d087775f5e80adf1cefb33df8e7ff119f611b670ee408ce4e4b2f91038b3c8a"
+    },
+    {
+      "file": "airport-details/YE.json",
+      "bytes": 16319,
+      "sha256": "5e6c2a43cbc792a023dbd02cd09d3fac277ed2f72d0f9d974db202615d875710"
+    },
+    {
+      "file": "airport-details/YT.json",
+      "bytes": 819,
+      "sha256": "72beaa2c95fc34e3322160d920f023c0099ce6aa2cc163e943ee2142720cc1d8"
+    },
+    {
+      "file": "airport-details/ZA.json",
+      "bytes": 240475,
+      "sha256": "979ac657f53677b0d999246efd6776636aee40af5086702f322214c40b63e4b0"
+    },
+    {
+      "file": "airport-details/ZM.json",
+      "bytes": 41207,
+      "sha256": "b9ef2ded4746b96de975a6a2592ce437fb37653a2fc2a4f3434821030abadee4"
+    },
+    {
+      "file": "airport-details/ZW.json",
+      "bytes": 52994,
+      "sha256": "6a3a2d7d447f5354b5bc574d024913753240aaa4b9e1f64d13a815875d98e953"
+    }
+  ],
+  "selection": "large_airport, medium_airport, small_airport; valid finite coordinates; uppercase code matching [A-Z0-9][A-Z0-9_-]{0,19} and two-letter country",
+  "runwaySelection": "closed=0; valid supplied endpoints; positive finite published length/width; width below published length and endpoint distance; endpoint distance >=10m; endpoint distance/published length between 1/3 and 3 inclusive; all surface types allowed",
+  "defaultRunway": "Longest published valid runway, then ID; null when none. Original five airports retain their prior defaults and 16 paved runways.",
+  "geometry": "No endpoint coordinates are extrapolated. Runtime length is endpoint distance; publishedLength retains supplied dimension in metres. Missing endpoint elevations remain null.",
+  "heading": "True initial bearing from supplied low-end to high-end coordinates in radians",
+  "elevation": "Metres above mean sea level. elevationSource=published for supplied elevation; unknown-zero is an explicit zero fallback, not surveyed terrain height. Not a terrain DEM or live collision sample.",
+  "preservedAirports": {
+    "codes": [
+      "KSEA",
+      "LFPG",
+      "OMDB",
+      "RJTT",
+      "ZBAA"
+    ],
+    "file": "airports-runways.json",
+    "sha256": "9374b0aeaa0a0ecee3ad02c5ff3974b83300497dc468b45f01954bec36e38c64",
+    "globalCandidateRunwaysReplaced": 17,
+    "preservedRunwayCount": 16
+  },
+  "exclusions": {
+    "airports": {
+      "type:heliport": {
+        "count": 23238,
+        "sampleSourceIds": [
+          "6523",
+          "322658",
+          "6535",
+          "6536",
+          "6540",
+          "45437",
+          "6544",
+          "6547",
+          "324642",
+          "6553",
+          "506039",
+          "6556",
+          "6557",
+          "6558",
+          "6563",
+          "322300",
+          "6577",
+          "6579",
+          "6580",
+          "6582"
+        ]
+      },
+      "type:closed": {
+        "count": 13574,
+        "sampleSourceIds": [
+          "6541",
+          "6624",
+          "6633",
+          "6670",
+          "6704",
+          "6902",
+          "6940",
+          "6954",
+          "6975",
+          "7007",
+          "7174",
+          "7175",
+          "7232",
+          "7287",
+          "7335",
+          "7338",
+          "7443",
+          "7462",
+          "7544",
+          "4777"
+        ]
+      },
+      "type:seaplane_base": {
+        "count": 1273,
+        "sampleSourceIds": [
+          "321919",
+          "6605",
+          "6606",
+          "6608",
+          "6669",
+          "6696",
+          "6716",
+          "45410",
+          "6810",
+          "6864",
+          "6872",
+          "6928",
+          "6946",
+          "332752",
+          "6970",
+          "45416",
+          "6990",
+          "7025",
+          "7062",
+          "320961"
+        ]
+      },
+      "type:balloonport": {
+        "count": 63,
+        "sampleSourceIds": [
+          "7767",
+          "7829",
+          "9213",
+          "45530",
+          "10140",
+          "11644",
+          "46296",
+          "12432",
+          "12936",
+          "38811",
+          "601104",
+          "324445",
+          "355108",
+          "510458",
+          "510462",
+          "323838",
+          "343923",
+          "510463",
+          "331321",
+          "332718"
+        ]
+      }
+    },
+    "runways": {
+      "airport-not-in-catalog": {
+        "count": 12892,
+        "sampleSourceIds": [
+          "269408",
+          "265038",
+          "265039",
+          "265040",
+          "254597",
+          "264322",
+          "265041",
+          "265042",
+          "269409",
+          "506040",
+          "269410",
+          "269411",
+          "269413",
+          "265043",
+          "265044",
+          "265045",
+          "265046",
+          "265048",
+          "265049",
+          "265050"
+        ]
+      },
+      "missing-or-invalid-endpoint-coordinates": {
+        "count": 20271,
+        "sampleSourceIds": [
+          "255155",
+          "254165",
+          "506792",
+          "322128",
+          "257681",
+          "247972",
+          "250414",
+          "253429",
+          "246648",
+          "246649",
+          "252182",
+          "256603",
+          "251984",
+          "255958",
+          "255848",
+          "255865",
+          "254820",
+          "249208",
+          "249382",
+          "248635"
+        ]
+      },
+      "endpoint-length-published-length-mismatch": {
+        "count": 15,
+        "sampleSourceIds": [
+          "345167",
+          "254078",
+          "347509",
+          "251747",
+          "346186",
+          "507159",
+          "610195",
+          "240134",
+          "535432",
+          "234333",
+          "335809",
+          "352245",
+          "353065",
+          "236620",
+          "311016"
+        ]
+      },
+      "closed-or-unknown-status": {
+        "count": 827,
+        "sampleSourceIds": [
+          "245510",
+          "242170",
+          "250183",
+          "247542",
+          "240727",
+          "240728",
+          "240729",
+          "240731",
+          "264083",
+          "263518",
+          "263728",
+          "263766",
+          "550262",
+          "236103",
+          "236458",
+          "532565",
+          "261139",
+          "516706",
+          "260702",
+          "261928"
+        ]
+      },
+      "invalid-endpoint-geometry": {
+        "count": 17,
+        "sampleSourceIds": [
+          "254282",
+          "253680",
+          "607804",
+          "334943",
+          "350928",
+          "257211",
+          "250519",
+          "430317",
+          "271004",
+          "342819",
+          "235483",
+          "270885",
+          "233811",
+          "354741",
+          "354742",
+          "332818",
+          "337124"
+        ]
+      },
+      "invalid-published-dimensions": {
+        "count": 25,
+        "sampleSourceIds": [
+          "519949",
+          "259798",
+          "259826",
+          "317896",
+          "236246",
+          "259794",
+          "596432",
+          "349374",
+          "533850",
+          "316819",
+          "329080",
+          "599180",
+          "508039",
+          "602547",
+          "330389",
+          "353028",
+          "330150",
+          "260172",
+          "302304",
+          "521809"
+        ]
+      }
+    }
+  }
+}

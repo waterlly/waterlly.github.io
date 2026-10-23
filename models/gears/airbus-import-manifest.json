@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "a319",
+      "modelPath": "/models/gears/a319.glb",
+      "repository": "https://github.com/FGMEMBERS/A320-family",
+      "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+      "sourceEntry": "XMLs/A319.xml",
+      "sourceURL": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/A319.xml",
+      "sourceRoot": "work/imports/cockpits/a320",
+      "parentXML": "XMLs/A319.xml",
+      "parentTransforms": [
+        {
+          "x-m": -18.8499,
+          "z-m": 1.7005004
+        }
+      ],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a319-COPYING.txt",
+      "sha256": "fa3a63f21f0cccab3d7b244d19d461e409be0b59885c2c96d4cd78e82a833cb7",
+      "sourceFiles": [
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.nlg.tires.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.nlg.tires.ac",
+          "bytes": 161571,
+          "sha256": "31121291b967eba5608c5621592788e4d267015048542c288084412457cbc4a3",
+          "gitBlobSha1": "1b76b3b4a1151b7a9c86882ad083498f4e2dc08a",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.nlg.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.nlg.ac",
+          "bytes": 251383,
+          "sha256": "db031033e86182c196bdf1d6b6269bd8339f3bd37702605d033ece849bb2945f",
+          "gitBlobSha1": "5778e502df86da9bf337daa723fe446a14363ef1",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.left.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.left.ac",
+          "bytes": 228538,
+          "sha256": "9cca124a2c008df99f216c6342b8ecb6cbfc6a34c46d807c8427af68fcc86509",
+          "gitBlobSha1": "d33fb263dd2b486d5a6722757cbd83a3d2a18de6",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.tires.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.tires.ac",
+          "bytes": 162792,
+          "sha256": "241646381889be88de2721e3ebab291ceed6b77bbdc356f947062bb6c080a0f8",
+          "gitBlobSha1": "ec4b9e5abf19d5b35a5999ae9556e94998fc08d0",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.right.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.right.ac",
+          "bytes": 228486,
+          "sha256": "481997ed56ef2abcb64c85eaf261f146ef160563989e5b4e7fddec3e21e85c5c",
+          "gitBlobSha1": "154b25c618600c094fe1567e5cc7f56f37c83b48",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.right.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "NWA.png",
+          "path": "work/imports/cockpits/a320/Models/LandingGears/NWA.png",
+          "sha256": "6acd8eb6769ecedc29c91f07b42cd1cc7309c79fa29a43638738c5a313ae196f",
+          "bytes": 763038
+        },
+        {
+          "name": "mainwheel.png",
+          "path": "work/imports/cockpits/a320/Models/LandingGears/mainwheel.png",
+          "sha256": "b00dfb48488d38488c791c39237432ac3ba1f23ca3db1402fd740d0f8e70d98b",
+          "bytes": 25323
+        }
+      ],
+      "selectedNodes": [],
+      "sourceNodes": [
+        {
+          "name": "ACUTATOR",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "AXLE",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.01",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.02",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.FIT",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "Bearing",
+          "path": "Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "name": "Tires",
+          "path": "Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "name": "ACTUTATOR",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "LINKS.01",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "LINKS.02",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "Bearing",
+          "path": "Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "name": "Tires",
+          "path": "Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "name": "ACTUTATOR",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "LINKS.01",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "LINKS.02",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a319.glb",
+      "bytes": 1601012,
+      "triangles": 8159,
+      "nodes": 53,
+      "meshes": 29,
+      "images": 2,
+      "instruments": [],
+      "omittedNodes": [
+        {
+          "name": "Nose tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-nose.xml",
+          "sourceFile": "XMLs/LandingGears/a320.nlg.xml",
+          "reason": "Explicit source submodel exclusion."
+        },
+        {
+          "name": "Port tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-port.xml",
+          "sourceFile": "XMLs/LandingGears/a320.mlg.left.xml",
+          "reason": "Explicit source submodel exclusion."
+        },
+        {
+          "name": "Starboard tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-stbd.xml",
+          "sourceFile": "XMLs/LandingGears/a320.mlg.right.xml",
+          "reason": "Explicit source submodel exclusion."
+        }
+      ],
+      "sourceMeshes": 29,
+      "drawGroups": 29,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/airbus-native-gear-2026-10-22/a319-original-gears.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.nlg.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.nlg.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.nlg.tires.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.nlg.tires.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.left.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.left.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.tires.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.tires.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.right.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.right.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING"
+    },
+    {
+      "id": "a320",
+      "modelPath": "/models/gears/a320.glb",
+      "repository": "https://github.com/FGMEMBERS/A320-family",
+      "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+      "sourceEntry": "XMLs/A320.xml",
+      "sourceURL": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/A320.xml",
+      "sourceRoot": "work/imports/cockpits/a320",
+      "parentXML": "XMLs/A320.xml",
+      "parentTransforms": [
+        {
+          "x-m": -18.8499,
+          "z-m": 1.7005004
+        }
+      ],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a320-COPYING.txt",
+      "sha256": "c500ea83ecc8e8548732e80d3efcf9f77ecfeb8befa973de1e475a95fac54868",
+      "sourceFiles": [
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.nlg.tires.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.nlg.tires.ac",
+          "bytes": 161571,
+          "sha256": "31121291b967eba5608c5621592788e4d267015048542c288084412457cbc4a3",
+          "gitBlobSha1": "1b76b3b4a1151b7a9c86882ad083498f4e2dc08a",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.nlg.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.nlg.ac",
+          "bytes": 251383,
+          "sha256": "db031033e86182c196bdf1d6b6269bd8339f3bd37702605d033ece849bb2945f",
+          "gitBlobSha1": "5778e502df86da9bf337daa723fe446a14363ef1",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.left.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.left.ac",
+          "bytes": 228538,
+          "sha256": "9cca124a2c008df99f216c6342b8ecb6cbfc6a34c46d807c8427af68fcc86509",
+          "gitBlobSha1": "d33fb263dd2b486d5a6722757cbd83a3d2a18de6",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.tires.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.tires.ac",
+          "bytes": 162792,
+          "sha256": "241646381889be88de2721e3ebab291ceed6b77bbdc356f947062bb6c080a0f8",
+          "gitBlobSha1": "ec4b9e5abf19d5b35a5999ae9556e94998fc08d0",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "id": "a320",
+          "path": "Models/LandingGears/a320.mlg.right.ac",
+          "repository": "https://github.com/FGMEMBERS/A320-family",
+          "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/LandingGears/a320.mlg.right.ac",
+          "bytes": 228486,
+          "sha256": "481997ed56ef2abcb64c85eaf261f146ef160563989e5b4e7fddec3e21e85c5c",
+          "gitBlobSha1": "154b25c618600c094fe1567e5cc7f56f37c83b48",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a320/Models/LandingGears/a320.mlg.right.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "NWA.png",
+          "path": "work/imports/cockpits/a320/Models/LandingGears/NWA.png",
+          "sha256": "6acd8eb6769ecedc29c91f07b42cd1cc7309c79fa29a43638738c5a313ae196f",
+          "bytes": 763038
+        },
+        {
+          "name": "mainwheel.png",
+          "path": "work/imports/cockpits/a320/Models/LandingGears/mainwheel.png",
+          "sha256": "b00dfb48488d38488c791c39237432ac3ba1f23ca3db1402fd740d0f8e70d98b",
+          "bytes": 25323
+        }
+      ],
+      "selectedNodes": [],
+      "sourceNodes": [
+        {
+          "name": "ACUTATOR",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "AXLE",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.01",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.02",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "LINK.FIT",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.nlg.ac"
+        },
+        {
+          "name": "Bearing",
+          "path": "Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "name": "Tires",
+          "path": "Models/LandingGears/a320.nlg.tires.ac"
+        },
+        {
+          "name": "ACTUTATOR",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "LINKS.01",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "LINKS.02",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.mlg.left.ac"
+        },
+        {
+          "name": "Bearing",
+          "path": "Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "name": "Tires",
+          "path": "Models/LandingGears/a320.mlg.tires.ac"
+        },
+        {
+          "name": "ACTUTATOR",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "D_STRUCT.L",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "D_STRUCT.U",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "FITTING",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "LINKS.01",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "LINKS.02",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        },
+        {
+          "name": "OLEO",
+          "path": "Models/LandingGears/a320.mlg.right.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a320.glb",
+      "bytes": 1601012,
+      "triangles": 8159,
+      "nodes": 53,
+      "meshes": 29,
+      "images": 2,
+      "instruments": [],
+      "omittedNodes": [
+        {
+          "name": "Nose tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-nose.xml",
+          "sourceFile": "XMLs/LandingGears/a320.nlg.xml",
+          "reason": "Explicit source submodel exclusion."
+        },
+        {
+          "name": "Port tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-port.xml",
+          "sourceFile": "XMLs/LandingGears/a320.mlg.left.xml",
+          "reason": "Explicit source submodel exclusion."
+        },
+        {
+          "name": "Starboard tire smoke",
+          "path": "Aircraft/Generic/Effects/tyre-smoke-stbd.xml",
+          "sourceFile": "XMLs/LandingGears/a320.mlg.right.xml",
+          "reason": "Explicit source submodel exclusion."
+        }
+      ],
+      "sourceMeshes": 29,
+      "drawGroups": 29,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/airbus-native-gear-2026-10-22/a320-original-gears.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.nlg.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.nlg.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.nlg.tires.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.nlg.tires.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.left.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.left.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.tires.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.tires.ac",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/LandingGears/a320.mlg.right.xml",
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/LandingGears/a320.mlg.right.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A320-family/blob/00038142d3443d7f4aec9410520df608e8ae7ba8/COPYING"
+    },
+    {
+      "id": "a321",
+      "modelPath": "/models/gears/a321.glb",
+      "repository": "https://github.com/FGMEMBERS/A321",
+      "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+      "sourceEntry": "Models/a321-231.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/a321-231.ac",
+      "sourceRoot": "work/imports/cockpits/a321",
+      "parentXML": "Models/A321-231.xml",
+      "parentTransforms": [
+        {
+          "x-m": 0,
+          "y-m": 0,
+          "z-m": 1.22,
+          "pitch-deg": -1
+        }
+      ],
+      "license": "GPL-3.0",
+      "licensePath": "/models/gears/a321-COPYING.txt",
+      "sha256": "a780df2c7f815cd25742e49a4da760e1b46981595cdfeb9cd9b3fd89364eb62c",
+      "sourceFiles": [
+        {
+          "id": "a321",
+          "path": "Models/a321-231.ac",
+          "repository": "https://github.com/FGMEMBERS/A321",
+          "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/a321-231.ac",
+          "bytes": 1575066,
+          "sha256": "e8f2cfef7bca9fdc402216d2f35560f3ba38f581cc8304ff7fe1fd2435d6cdc6",
+          "gitBlobSha1": "5aedd422fb3b20766f321f772a8b6a23cb857b7e",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a321/Models/a321-231.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "USA-321.png",
+          "path": "work/imports/cockpits/a321/Models/USA-321.png",
+          "sha256": "7171698e76f8ffcbf342c8ca0f13eab3e95cbb4020fa7bfc4c2f00d29ee87b8e",
+          "bytes": 614425
+        }
+      ],
+      "selectedNodes": [
+        "GearFront",
+        "WheelFront",
+        "WheelLeft",
+        "WheelRight",
+        "GearMainRight",
+        "GearMainLeft"
+      ],
+      "sourceNodes": [
+        {
+          "name": "GearFront",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "WheelFront",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "WheelLeft",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "WheelRight",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "GearMainRight",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "GearFront",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "GearMainRight",
+          "path": "Models/a321-231.ac"
+        },
+        {
+          "name": "GearMainLeft",
+          "path": "Models/a321-231.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a321.glb",
+      "bytes": 1383648,
+      "triangles": 7692,
+      "nodes": 138,
+      "meshes": 8,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 8,
+      "drawGroups": 8,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a321/Models/a321-231.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/License.txt"
+    },
+    {
+      "id": "a333",
+      "modelPath": "/models/gears/a333.glb",
+      "repository": "https://github.com/FGMEMBERS/A330-300",
+      "commit": "7d9307698904c6e20af6a089f4292d07005d08a9",
+      "sourceEntry": "Models/a330-300-main.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/Models/a330-300-main.ac",
+      "sourceRoot": "work/imports/cockpits/a333",
+      "parentXML": "Models/A330-303-main.xml",
+      "parentTransforms": [],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a333-COPYING.txt",
+      "sha256": "7c9196c6816a2b529322d279d8ecc4ca3fb505ac30fde68e446eea21ed0b1624",
+      "sourceFiles": [
+        {
+          "id": "a333",
+          "path": "Models/a330-300-main.ac",
+          "repository": "https://github.com/FGMEMBERS/A330-300",
+          "commit": "7d9307698904c6e20af6a089f4292d07005d08a9",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A330-300/7d9307698904c6e20af6a089f4292d07005d08a9/Models/a330-300-main.ac",
+          "bytes": 2268657,
+          "sha256": "14896f0920b4042ed05ef70a8979c2aa7c2a16899345e333f91be4f3fb62f5ff",
+          "gitBlobSha1": "5eb99a049e0115bf31b8bb3fe8d4eeccb1f6962d",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a333/Models/a330-300-main.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "landing-gears.png",
+          "path": "work/imports/cockpits/a333/Models/landing-gears.png",
+          "sha256": "84007aececab4163d461bcd33908a2476e6304258763b7364a199939b21837df",
+          "bytes": 219135
+        }
+      ],
+      "selectedNodes": [
+        "LeftGear",
+        "RightGear",
+        "NoseGear"
+      ],
+      "sourceNodes": [],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a333.glb",
+      "bytes": 1542932,
+      "triangles": 13387,
+      "nodes": 126,
+      "meshes": 21,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 21,
+      "drawGroups": 21,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a333/Models/a330-300-main.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A330-300/blob/7d9307698904c6e20af6a089f4292d07005d08a9/COPYING"
+    },
+    {
+      "id": "a343",
+      "modelPath": "/models/gears/a343.glb",
+      "repository": "https://github.com/FGMEMBERS/A340-313X",
+      "commit": "516adc0039659a01dbd96763dca62d80af84a6f5",
+      "sourceEntry": "Models/A340-313X.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Models/A340-313X.ac",
+      "sourceRoot": "work/imports/cockpits/a343",
+      "parentXML": "Models/A340-313X-avion.xml",
+      "parentTransforms": [],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a343-COPYING.txt",
+      "sha256": "e0fb7f22c053b9798ed1c70f28b687cbd620be9510af1323f0d01e328707ea40",
+      "sourceFiles": [
+        {
+          "id": "a343",
+          "path": "Models/A340-313X.ac",
+          "repository": "https://github.com/FGMEMBERS/A340-313X",
+          "commit": "516adc0039659a01dbd96763dca62d80af84a6f5",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/A340-313X.ac",
+          "bytes": 4304157,
+          "sha256": "1792ca1918a25b6fc9d8f23504f5038e2daecb0577b7292690612bf1455dade2",
+          "gitBlobSha1": "cb388b56f01e4b992d3d1931d86237939f5fbabf",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a343/Models/A340-313X.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "gear.png",
+          "path": "work/imports/cockpits/a343/Models/gear.png",
+          "sha256": "a9471392d842a6b88e0823b93f0847a95221910f78216555747fcd2ce7c26521",
+          "bytes": 118612
+        }
+      ],
+      "selectedNodes": [
+        "left_gear",
+        "right_gear",
+        "mid_gear",
+        "nose_gear"
+      ],
+      "sourceNodes": [],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a343.glb",
+      "bytes": 682556,
+      "triangles": 5098,
+      "nodes": 208,
+      "meshes": 56,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 56,
+      "drawGroups": 56,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/A340-313X.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/COPYING"
+    },
+    {
+      "id": "a346",
+      "modelPath": "/models/gears/a346.glb",
+      "repository": "https://github.com/FGMEMBERS/A340-600HGW",
+      "commit": "126f2329a711f6cd5ed4aa1dec893279801c6aa4",
+      "sourceEntry": "Models/A340-600HGW.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A340-600HGW/blob/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW.ac",
+      "sourceRoot": "work/imports/livery-fleet-2026-10-22/a346",
+      "parentXML": "Models/A340-600HGW-avion.xml",
+      "parentTransforms": [],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a346-COPYING.txt",
+      "sha256": "4bcffb7e139faa611d8b019e4fc6580e05504a99e651118a24fa8641de8b9b58",
+      "sourceFiles": [
+        {
+          "id": "a346",
+          "path": "Models/A340-600HGW.ac",
+          "repository": "https://github.com/FGMEMBERS/A340-600HGW",
+          "commit": "126f2329a711f6cd5ed4aa1dec893279801c6aa4",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW.ac",
+          "bytes": 3179025,
+          "sha256": "d73035bf526c87cb7220f751cd8843144b867f3e4bf35bd293084801c53783cf",
+          "gitBlobSha1": "e7c9f00f0317eb770d3dad9c3efd88291cb6138a",
+          "onlineVerified": true,
+          "cache": "work/imports/livery-fleet-2026-10-22/a346/Models/A340-600HGW.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "gear.png",
+          "path": "work/imports/livery-fleet-2026-10-22/a346/Models/gear.png",
+          "sha256": "a9471392d842a6b88e0823b93f0847a95221910f78216555747fcd2ce7c26521",
+          "bytes": 118612
+        }
+      ],
+      "selectedNodes": [
+        "left_gear",
+        "right_gear",
+        "mid_gear",
+        "nose_gear"
+      ],
+      "sourceNodes": [],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a346.glb",
+      "bytes": 764588,
+      "triangles": 5750,
+      "nodes": 284,
+      "meshes": 65,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 65,
+      "drawGroups": 65,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/livery-fleet-2026-10-22/a346/Models/A340-600HGW.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A340-600HGW/blob/126f2329a711f6cd5ed4aa1dec893279801c6aa4/COPYING"
+    },
+    {
+      "id": "a350",
+      "modelPath": "/models/gears/a350.glb",
+      "repository": "https://github.com/FGMEMBERS/A350XWB",
+      "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+      "sourceEntry": "Models/A350XWB-900.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/A350XWB-900.ac",
+      "sourceRoot": "work/imports/cockpits/a350",
+      "parentXML": "Models/A350XWB-900.xml",
+      "parentTransforms": [
+        {
+          "x-m": -32.8,
+          "z-m": 0.7
+        }
+      ],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a350-COPYING.txt",
+      "sha256": "196425ffa3e0ed6d3f80316f6b919a45e9795d7422c59f74d2a782da36b104c3",
+      "sourceFiles": [
+        {
+          "id": "a350",
+          "path": "Models/A350XWB-900.ac",
+          "repository": "https://github.com/FGMEMBERS/A350XWB",
+          "commit": "04da937ab1ba0b07dabfd71d91aa33eb38316b90",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A350XWB/04da937ab1ba0b07dabfd71d91aa33eb38316b90/Models/A350XWB-900.ac",
+          "bytes": 5404110,
+          "sha256": "3fed417dd0bb6f2e7afc7e9d25dd285d2b95a108c5aaf5cfd118f6406bd8985e",
+          "gitBlobSha1": "28e1379bebd5738b36dbf416e3301ae388d44530",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a350/Models/A350XWB-900.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "landinggear.png",
+          "path": "work/imports/cockpits/a350/Models/landinggear.png",
+          "sha256": "a253a7a427c1ae6a4d8c33b5a9a11050680efb099cf4fe3de5e13ccd8961c981",
+          "bytes": 564890
+        }
+      ],
+      "selectedNodes": [
+        "front.strut.high",
+        "front.strut.high.2",
+        "front.strut.low",
+        "left.strut.low.2",
+        "left.strut.low",
+        "left.strut.up",
+        "right.strut.low",
+        "right.strut.low.2",
+        "right.strut.up",
+        "tyres",
+        "tyres.left.back",
+        "tyres.left.front",
+        "tyres.right.back",
+        "tyres.right.front"
+      ],
+      "sourceNodes": [
+        {
+          "name": "front.strut.high",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "front.strut.high.2",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "front.strut.low",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "left.strut.low",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "left.strut.low.2",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "left.strut.up",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "right.strut.low",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "right.strut.low.2",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "right.strut.up",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "tyres",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "tyres.left.back",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "tyres.left.front",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "tyres.right.back",
+          "path": "Models/A350XWB-900.ac"
+        },
+        {
+          "name": "tyres.right.front",
+          "path": "Models/A350XWB-900.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a350.glb",
+      "bytes": 3330952,
+      "triangles": 28453,
+      "nodes": 142,
+      "meshes": 14,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 14,
+      "drawGroups": 14,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a350/Models/A350XWB-900.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A350XWB/blob/04da937ab1ba0b07dabfd71d91aa33eb38316b90/COPYING"
+    },
+    {
+      "id": "a380",
+      "modelPath": "/models/gears/a380.glb",
+      "repository": "https://github.com/FGMEMBERS/A380",
+      "commit": "715e972134a2a708115419d2d301b14e8323922a",
+      "sourceEntry": "Models/a380.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/A380/blob/715e972134a2a708115419d2d301b14e8323922a/Models/a380.ac",
+      "sourceRoot": "work/imports/cockpits/a380",
+      "parentXML": "XML/a380.xml",
+      "parentTransforms": [
+        {
+          "z-m": -8.7,
+          "y-m": 0,
+          "x-m": -30,
+          "pitch-deg": 0
+        }
+      ],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/a380-COPYING.txt",
+      "sha256": "dd0148cb0c44a43a7ab3e5cb67b7fd7c7584e52f6f9361df928264ecce59bbe9",
+      "sourceFiles": [
+        {
+          "id": "a380",
+          "path": "Models/a380.ac",
+          "repository": "https://github.com/FGMEMBERS/A380",
+          "commit": "715e972134a2a708115419d2d301b14e8323922a",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/a380.ac",
+          "bytes": 795873,
+          "sha256": "df1b6de1d667d661a3a8573758950dc3c16305337a8a931c2f02f29a42d919fe",
+          "gitBlobSha1": "ad3b9028a6b0a8ed7ee15cb5ffbe3d17f937db24",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/a380/Models/a380.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "Tyre.png",
+          "path": "work/imports/cockpits/a380/Textures/Livery/House/Tyre.png",
+          "sha256": "ccc3b33c5602b93322c1f9741fe7faf1271cdeac5b26e41e440703b94e5ca9e2",
+          "bytes": 3388
+        }
+      ],
+      "selectedNodes": [
+        "bfwdaxle",
+        "blowerstrut",
+        "bmidaxle",
+        "bouterstrut",
+        "brearaxle",
+        "btruck",
+        "btyrela",
+        "btyrelf",
+        "btyrelm",
+        "btyrera",
+        "btyrerf",
+        "btyrerm",
+        "collar",
+        "lhsteercyl",
+        "linklower",
+        "linkupper",
+        "nlowerstrut",
+        "noseaxle",
+        "nouterstrut",
+        "rbfwdaxle",
+        "rblowerstrut",
+        "rbmidaxle",
+        "rbouterstrut",
+        "rbrearaxle",
+        "rbtruck",
+        "rbtyrela",
+        "rbtyrelf",
+        "rbtyrelm",
+        "rbtyrera",
+        "rbtyrerf",
+        "rbtyrerm",
+        "rhsteercyl",
+        "rwfwdaxle",
+        "rwlowerstrut",
+        "rwouterstrut",
+        "rwrearaxle",
+        "rwtruck",
+        "tyreln",
+        "tyrern",
+        "tyrerwla",
+        "tyrerwlf",
+        "tyrerwra",
+        "tyrerwrf",
+        "tyrewla",
+        "tyrewlf",
+        "tyrewra",
+        "tyrewrf",
+        "wfwdaxle",
+        "wlowerstrut",
+        "wouterstrut",
+        "wrearaxle",
+        "wtruck"
+      ],
+      "sourceNodes": [
+        {
+          "name": "bfwdaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "blowerstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "bmidaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "bouterstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "brearaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btruck",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrela",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrelf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrelm",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrera",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrerf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "btyrerm",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "collar",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "lhsteercyl",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "linklower",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "linkupper",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "nlowerstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "noseaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "nouterstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbfwdaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rblowerstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbmidaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbouterstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbrearaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtruck",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrela",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrelf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrelm",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrera",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrerf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rbtyrerm",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rhsteercyl",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rwfwdaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rwlowerstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rwouterstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rwrearaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "rwtruck",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyreln",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrern",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrerwla",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrerwlf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrerwra",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrerwrf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrewla",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrewlf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrewra",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "tyrewrf",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "wfwdaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "wlowerstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "wouterstrut",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "wrearaxle",
+          "path": "Models/a380.ac"
+        },
+        {
+          "name": "wtruck",
+          "path": "Models/a380.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/a380.glb",
+      "bytes": 796176,
+      "triangles": 7752,
+      "nodes": 86,
+      "meshes": 52,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 52,
+      "drawGroups": 52,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380/Models/a380.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/A380/blob/715e972134a2a708115419d2d301b14e8323922a/COPYING"
+    },
+    {
+      "id": "c182",
+      "modelPath": "/models/gears/c182.glb",
+      "repository": "https://github.com/FGMEMBERS/C182",
+      "commit": "ef35ae89b422b4f78c0f6125035681b0eb41dd3c",
+      "sourceEntry": "Models/c182s.ac",
+      "sourceURL": "https://github.com/FGMEMBERS/C182/blob/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/c182s.ac",
+      "sourceRoot": "work/imports/cockpits/c182",
+      "parentXML": "Models/c182s.xml",
+      "parentTransforms": [
+        {
+          "pitch-deg": 0,
+          "z-m": 0
+        }
+      ],
+      "license": "GPL-2.0",
+      "licensePath": "/models/gears/c182-COPYING.txt",
+      "sha256": "a99ed4a81062d6eab14a2607c20433e1ca68ab507bebb669cf7c1495d598ac8b",
+      "sourceFiles": [
+        {
+          "id": "c182",
+          "path": "Models/c182s.ac",
+          "repository": "https://github.com/FGMEMBERS/C182",
+          "commit": "ef35ae89b422b4f78c0f6125035681b0eb41dd3c",
+          "url": "https://raw.githubusercontent.com/FGMEMBERS/C182/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/Models/c182s.ac",
+          "bytes": 2230263,
+          "sha256": "6bdf5ea24c89664ac84c670b44b97fa3beb1471df1b97e31a20335ece421d644",
+          "gitBlobSha1": "c8c2cb377ace4ae66437d9d6300feff2f8afe02e",
+          "onlineVerified": true,
+          "cache": "work/imports/cockpits/c182/Models/c182s.ac"
+        }
+      ],
+      "textures": [
+        {
+          "name": "Default.png",
+          "path": "work/imports/cockpits/c182/Models/Default.png",
+          "sha256": "c847b6586f8d28f4c96955e40c6edddf1dff456f299e60e0421b10cca84f237e",
+          "bytes": 2905562
+        }
+      ],
+      "selectedNodes": [
+        "FrontWheel",
+        "MainWheel.L",
+        "MainWheel.R",
+        "MainStrut.L",
+        "MainStrut.R",
+        "NoseWheelFork",
+        "WheelFairing.L",
+        "WheelFairing.R",
+        "WheelFairingNose"
+      ],
+      "sourceNodes": [
+        {
+          "name": "FrontWheel",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "MainStrut.L",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "MainStrut.R",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "MainWheel.L",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "MainWheel.R",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "NoseWheelFork",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "WheelFairing.L",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "WheelFairing.R",
+          "path": "Models/c182s.ac"
+        },
+        {
+          "name": "WheelFairingNose",
+          "path": "Models/c182s.ac"
+        }
+      ],
+      "modification": "Retained source landing-gear geometry only; original AC3D/XML transforms and UV/image bytes preserved. Runtime fitting maps each authentic wheel to the existing shared contact footprint.",
+      "output": "/Users/lee/Documents/codex/test-astra/public/models/gears/c182.glb",
+      "bytes": 3652508,
+      "triangles": 7560,
+      "nodes": 92,
+      "meshes": 9,
+      "images": 1,
+      "instruments": [],
+      "omittedNodes": [],
+      "sourceMeshes": 9,
+      "drawGroups": 9,
+      "loaded": [
+        "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/c182/Models/c182s.ac"
+      ],
+      "missing": [],
+      "warnings": [],
+      "licenseSourceURL": "https://github.com/FGMEMBERS/C182/blob/ef35ae89b422b4f78c0f6125035681b0eb41dd3c/LICENSE"
+    }
+  ]
+}

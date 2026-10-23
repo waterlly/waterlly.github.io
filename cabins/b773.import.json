@@ -1,0 +1,3640 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/b773.glb",
+  "bytes": 3942348,
+  "triangles": 25383,
+  "nodes": 12,
+  "meshes": 11,
+  "images": 9,
+  "instruments": [],
+  "omittedNodes": [],
+  "sourceMeshes": 13,
+  "drawGroups": 11,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b773/.skybound-cabin-b773.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b773/Models/777-300.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    2.52,
+    0.35,
+    -8.38
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-b773.xml",
+    "sha256": "0c122afaed2c7a04bec0bdd0065bfd93ac97bc007a6b13d167badd290f2c9b45",
+    "text": "<PropertyList><model><path>Models/777-300.ac</path><offsets></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "777-300-FO-set.xml",
+      "bytes": 7573,
+      "sha256": "18cf4c32b4c3c924a1f738d1623fb37fbc65aacd9b4fe3ae580155192e972307",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/777-300-FO-set.xml"
+    },
+    {
+      "path": "777-300-set.xml",
+      "bytes": 43239,
+      "sha256": "2b345990e741b291852051303a234144a9f50f53e6df2397d83bf976f3254f7b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/777-300-set.xml"
+    },
+    {
+      "path": "777-300.xml",
+      "bytes": 13658,
+      "sha256": "b141a533efa3aaf68aa12d810b62ece48f84c3b369f0c489e2f79eb8a6d09cc5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/777-300.xml"
+    },
+    {
+      "path": "Models/777-300-FO.xml",
+      "bytes": 288,
+      "sha256": "98681f42b96db413b33111f6e8cf02c4ad82d790a2c67fa0bf835a179697e064",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300-FO.xml"
+    },
+    {
+      "path": "Models/777-300.ac",
+      "bytes": 7470744,
+      "sha256": "ba8666af23c697c913cb99c1377d2ffdeb229248851b2e9b3531b3aa3e768b89",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300.ac"
+    },
+    {
+      "path": "Models/777-300.xml",
+      "bytes": 95528,
+      "sha256": "732be36c1093b49c85806d20e3122b44d641e6b3b46cc1c0cd91de661bfd2fda",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300.xml"
+    },
+    {
+      "path": "Models/777-300ER.ac",
+      "bytes": 1601258,
+      "sha256": "44e524cc826e8d1416c89addcf89e2f8fc904bcc30c59aeae5b92434533b7f75",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300ER.ac"
+    },
+    {
+      "path": "Models/777-300ER.xml",
+      "bytes": 62863,
+      "sha256": "7ea42f77f85cb936f1aa27e8abc405e340eb2011addc86a8d368e0c7c4c29345",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/777-300ER.xml"
+    },
+    {
+      "path": "Models/9W-773.jpg",
+      "bytes": 18865,
+      "sha256": "6f82b5798284d314ffa1a4576b8379e18395f7a95b34d340b4799d6f833f6572",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/9W-773.jpg"
+    },
+    {
+      "path": "Models/9W.png",
+      "bytes": 231346,
+      "sha256": "af9ca23bdf4aefb5594615ed25ac9f3902e820b5987e0122a9a71cb4bb5697fa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/9W.png"
+    },
+    {
+      "path": "Models/APpanel.ac",
+      "bytes": 145711,
+      "sha256": "11a354e62810c6329aeaec787b927e0ed66a620fa8634358e5636e631591c775",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/APpanel.ac"
+    },
+    {
+      "path": "Models/APpanel.png",
+      "bytes": 269562,
+      "sha256": "5739d0878d44e1ca42939d5c4a05a99bf95f94f93b3b3b72bafaf5936c047f66",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/APpanel.png"
+    },
+    {
+      "path": "Models/APpanel.xml",
+      "bytes": 73655,
+      "sha256": "72b1efdac7e88c745ad25bde15c5b0d57988546fd5805adada579403e3fcc5ca",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/APpanel.xml"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation-left.xml",
+      "bytes": 2496,
+      "sha256": "d587519744a75d644a2a8e65999902dce88b29ba003b7493f1d83c19c95f0c9e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Condensation/condensation-left.xml"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation-right.xml",
+      "bytes": 2497,
+      "sha256": "060fbf158b3e22977e695b98876b51b9b669dda440b8bc102ed1b9d0031ac183",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Condensation/condensation-right.xml"
+    },
+    {
+      "path": "Models/Effects/Condensation/condensation.rgb",
+      "bytes": 18816,
+      "sha256": "fbe9b9f87fbf2872cfefad230559f64241a57f9264791984e5a28468f5c386c9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Condensation/condensation.rgb"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail.xml",
+      "bytes": 2607,
+      "sha256": "70304ec1e8a0457aa4643fca7fa0d34235e83c9ff1d750a4c966680b9ab45931",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Contrail/contrail.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail1.xml",
+      "bytes": 2607,
+      "sha256": "e83862dcc356f7afac24bcc8d7a76f30c6b46751e7e7b8d085dad96e61305896",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Contrail/contrail1.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail2.xml",
+      "bytes": 2607,
+      "sha256": "3e450da38774da6cb5dcde5738a57520b64c261fc76fa769ff2d2a9e69d028a6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Contrail/contrail2.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/contrail3.xml",
+      "bytes": 2607,
+      "sha256": "026f199253d451d0c20eb6fa5d8234996df24d5a8e2e8a74bf985a2377cee817",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Contrail/contrail3.xml"
+    },
+    {
+      "path": "Models/Effects/Contrail/smoke2.png",
+      "bytes": 4508,
+      "sha256": "c4dcb91a55a5e24ccc79fb511c70ada535db3273112749dd2fdd96ed396c19dc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Contrail/smoke2.png"
+    },
+    {
+      "path": "Models/Effects/Exaust/Exhaust.xml",
+      "bytes": 2545,
+      "sha256": "ea3ebaab4f5d8ca02fc6fb9113d5f310a142cb35b87948dec8844d3baebd569c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Exaust/Exhaust.xml"
+    },
+    {
+      "path": "Models/Effects/Exaust/contrail.rgb",
+      "bytes": 75152,
+      "sha256": "a1bb62f7161ebdc72253b2392797c8e020e790346fb6cea55814d4dbb75e41ac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Exaust/contrail.rgb"
+    },
+    {
+      "path": "Models/Effects/Oxygen_masks/oxy_masks.png",
+      "bytes": 366,
+      "sha256": "8375c69fee8940a893d42fefd3c7ed54449699bb0439cf9f8d6b710fc176f70b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Oxygen_masks/oxy_masks.png"
+    },
+    {
+      "path": "Models/Effects/Oxygen_masks/oxygen_mask.ac",
+      "bytes": 10244085,
+      "sha256": "3192bc8f211595a413260d84ba4cdeadefabe38ff1a0b373e6473e713d34be8c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Oxygen_masks/oxygen_mask.ac"
+    },
+    {
+      "path": "Models/Effects/Oxygen_masks/oxygen_mask.xml",
+      "bytes": 664,
+      "sha256": "e5ac973503aadde8fc4f23a567eb82b21de7701e4eb95d34a0cb89d95bf5061f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Oxygen_masks/oxygen_mask.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-nose.xml",
+      "bytes": 2309,
+      "sha256": "1183d9992df72bfd2b38005866817b76710adb1841c2605ccb4a962019c904cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Rain/rain-nose.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-port.xml",
+      "bytes": 2310,
+      "sha256": "82aefd7778282b6b2eb4841fff72dd9c9aa649d4265aa1dec64015d8d89cbb20",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Rain/rain-port.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-stbd.xml",
+      "bytes": 2309,
+      "sha256": "6337d8c4c1b88ff7d49859dee066ff9d9a2a8e563816d5e83b000b5a5c0ed757",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Rain/rain-stbd.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/rain-tail.xml",
+      "bytes": 2492,
+      "sha256": "46ecc19d164af6a3d097a480ebd697e561c767f3c4398829ab462789ee34f582",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Rain/rain-tail.xml"
+    },
+    {
+      "path": "Models/Effects/Rain/smoke.png",
+      "bytes": 6482,
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Rain/smoke.png"
+    },
+    {
+      "path": "Models/Effects/Smoke/smoke.png",
+      "bytes": 15427,
+      "sha256": "e68a4ec53047d154c338bf2897c6d295df2176674e56ed0b41d15f906bdd7f2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Smoke/smoke.png"
+    },
+    {
+      "path": "Models/Effects/Smoke/smoke.xml",
+      "bytes": 3024,
+      "sha256": "87ae0f0a6c463cfbba378801739f90b95842718a1b70935fad36ad2e6601eefc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Smoke/smoke.xml"
+    },
+    {
+      "path": "Models/Effects/Smoke/smoke1.xml",
+      "bytes": 3020,
+      "sha256": "7874bc99349fbb03567dc3bd34ea9f15de83ca845f9ab13f4061e7395905671d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Smoke/smoke1.xml"
+    },
+    {
+      "path": "Models/Effects/Smoke/smoke2.xml",
+      "bytes": 3020,
+      "sha256": "275823caeb6f7e3e06eb0d5a56bfaa03648d53d3caf93460248bed084ae034d1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Smoke/smoke2.xml"
+    },
+    {
+      "path": "Models/Effects/Smoke/smoke3.xml",
+      "bytes": 3020,
+      "sha256": "7c691391f8d2762cc06bd9c517b6c4e6f0a1dc4534f22f8d4f3111ad311e3885",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Smoke/smoke3.xml"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/smoke.png",
+      "bytes": 6482,
+      "sha256": "8891890e609058a1fc4cd1a8c8c46e5c89bd20d14293b375823d8c117f56de6f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/TireSmoke/smoke.png"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/tyre-smoke-nose.xml",
+      "bytes": 2555,
+      "sha256": "e901a48b2f784e0481548a36429155948a035ff5ea1992cb068e3b20f0ebb116",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/TireSmoke/tyre-smoke-nose.xml"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/tyre-smoke-port.xml",
+      "bytes": 2220,
+      "sha256": "0eac0f1703cda542d56cfab9bfd986278b89d3221d64a57e98a9c7e4491c6bd4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/TireSmoke/tyre-smoke-port.xml"
+    },
+    {
+      "path": "Models/Effects/TireSmoke/tyre-smoke-stbd.xml",
+      "bytes": 2221,
+      "sha256": "8fb846e6ae089551a035a4d633a6aca5be42c927bf24cf5e904db2a2349a9542",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/TireSmoke/tyre-smoke-stbd.xml"
+    },
+    {
+      "path": "Models/Effects/Vortex/vortex.ac",
+      "bytes": 339,
+      "sha256": "0ff0ab8af355051de5140fbc5f4fa4ed925e3645d3d5718489a9243ac033189e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Vortex/vortex.ac"
+    },
+    {
+      "path": "Models/Effects/Vortex/vortex.xml",
+      "bytes": 632,
+      "sha256": "df2b3846ec1e4c0ade7da3bad5e7b304871a0947c840ebbb08137980ae8480a4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/Vortex/vortex.xml"
+    },
+    {
+      "path": "Models/Effects/apufire.xml",
+      "bytes": 1676,
+      "sha256": "3df9e7e3f0c332c8886117acf834bbdde4aa4b67f4a38b74753e3807ead90b63",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/apufire.xml"
+    },
+    {
+      "path": "Models/Effects/contrail1.xml",
+      "bytes": 2277,
+      "sha256": "f97704b63fa538b7ad93bbc2bd297dbcc3bffe976d936d06a5d965b1d3dd3859",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/contrail1.xml"
+    },
+    {
+      "path": "Models/Effects/enginefire.xml",
+      "bytes": 1677,
+      "sha256": "c148d76d6e54067c0df724089a29af48dda30e26bc3374b3111e69a691471325",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/enginefire.xml"
+    },
+    {
+      "path": "Models/Effects/ext.png",
+      "bytes": 7305,
+      "sha256": "84d8acc92d4fc350572ed04ef668d7bb9610a7757bfd2e9d7969cbcd4af1ec8e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/ext.png"
+    },
+    {
+      "path": "Models/Effects/ext.xml",
+      "bytes": 1804,
+      "sha256": "c265175ec5e47e09fc4fcb78b135451e5513b24ef5c3f55c00b304d5b2587ba7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/ext.xml"
+    },
+    {
+      "path": "Models/Effects/fire.png",
+      "bytes": 6761,
+      "sha256": "456f247eea75ad8ec6310058442c58fd7a140da03bb67c3dad61dfe21364da26",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/fire.png"
+    },
+    {
+      "path": "Models/Effects/jettison.xml",
+      "bytes": 1812,
+      "sha256": "899063a25b59733dd54bebafb23efaaff966feabef8a67f939da9cb953368d80",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/jettison.xml"
+    },
+    {
+      "path": "Models/Effects/lightmap-C1.png",
+      "bytes": 102244,
+      "sha256": "cf7f669d8ae86e37eb7dcdfe241541ed3ffd2028482eb1d1c4fcbe6c31b55b5b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/lightmap-C1.png"
+    },
+    {
+      "path": "Models/Effects/lightmap-C2.png",
+      "bytes": 44340,
+      "sha256": "d477fa9c63c2778df6cc2e296726fd4636484c20a98563b9d12d374b79154d83",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/lightmap-C2.png"
+    },
+    {
+      "path": "Models/Effects/lightmap-F.png",
+      "bytes": 35451,
+      "sha256": "81124d3590e2ae0752dee70a77efad439bb982923e9ab44a1534164113fe9238",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/lightmap-F.png"
+    },
+    {
+      "path": "Models/Effects/smoke.png",
+      "bytes": 52788,
+      "sha256": "54b3d92d3323df1b9d1b70bc79c01601f8bbc01966501c10ed70b3dba5bbd69e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/smoke.png"
+    },
+    {
+      "path": "Models/Effects/tiresmoke.png",
+      "bytes": 134672,
+      "sha256": "0ee4cd09ee7cfdee045b60de2e2b5c2ced6a166160068f8a79cf023cdf7e2117",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/tiresmoke.png"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-left.xml",
+      "bytes": 2963,
+      "sha256": "ec2d152e820a79da006c3cfbb8aa88f7c58e2e3efa1fab946cd07fe007db5a74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/tyre-smoke-left.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-nose.xml",
+      "bytes": 2963,
+      "sha256": "537e2e6566d81d72839da397b2067119897a49c88d2f482c0501c0ef72846e9f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/tyre-smoke-nose.xml"
+    },
+    {
+      "path": "Models/Effects/tyre-smoke-right.xml",
+      "bytes": 2963,
+      "sha256": "a0502c0cf3ec78dd3b5437174691aaa37ae0c2cc2dfc9c59858f463ed34c23c0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Effects/tyre-smoke-right.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.ac",
+      "bytes": 118823,
+      "sha256": "49188b3fdb52c763aa196688d3fa7af1f6e8cca47bb429c43504cbd74b69f67b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFB.ac"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.png",
+      "bytes": 38689,
+      "sha256": "ba012b0de13a92d2db2e3e79c2de0dfb52b5d62dcb42133459902c9dbe3316dd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFB.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB.xml",
+      "bytes": 10627,
+      "sha256": "bc56c7dc719838f510eae2a02d5cf46c5084967ba1d3c299b977225d3f66f175",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFB.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFB_lettering.png",
+      "bytes": 47285,
+      "sha256": "cd2da5504b80bb6830c4f203228f60a2cf5754d2283afb8aa87709b94c0f2f4f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFB_lettering.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist1.png",
+      "bytes": 59608,
+      "sha256": "9b44a86a3823f494589088cdea83187b67a220a5ea4176d4719c77d61dfb6da5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist1.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist2.png",
+      "bytes": 44772,
+      "sha256": "f896c908c510087720cdd3ea7046924aa86fdbbd840062f7c6de456b83dfdd5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist2.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist3.png",
+      "bytes": 47024,
+      "sha256": "14a96c8ea2060c481026a563048c0bd1061de0900ff360d1e825419aa8660e28",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist3.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist4.png",
+      "bytes": 34682,
+      "sha256": "df769f989c5248321c183aa45ed0736f06be07e8c8c38846908c4a09efef0300",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist4.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist5.png",
+      "bytes": 49085,
+      "sha256": "a4522e44f42c49abcb91420ea2c306b32c1111b770c663f49908d8133a5706ef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist5.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist6.png",
+      "bytes": 50880,
+      "sha256": "a78cf4659f9fe27b7a21c0f036dd147bd0517a3a5f3747ecf5db88e81ead7ae6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist6.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist7.png",
+      "bytes": 42654,
+      "sha256": "e9ac3525975966a8db8a5e81ddc7581bb1c5f82b3dc307353bc904bee0c30a8d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist7.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBchecklist8.png",
+      "bytes": 72402,
+      "sha256": "4e0700e0a7baf72a6177642d9c6fdd1d1c64c8223f40948c2b579e9731d30cf3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBchecklist8.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual1.png",
+      "bytes": 87383,
+      "sha256": "55ab2536d26a3becab07aff07db0f6d3baadf35934d0ea559931303f71507fa4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual1.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual10.png",
+      "bytes": 100752,
+      "sha256": "f989b527c88a01edf88285cc532537d68b2c0d0ce4f64acbb42e46f40df0754b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual10.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual11.png",
+      "bytes": 68850,
+      "sha256": "7e37a141cb44b2b48ab56a648467c265510e59b554cbc3048e2762d7e0d20a47",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual11.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual12.png",
+      "bytes": 105766,
+      "sha256": "3767d3f67a09f3176519ef8ddbca2935fce0f3b86f3671d1afec7b0862eec5d2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual12.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual13.png",
+      "bytes": 75833,
+      "sha256": "4b357f0c1658e163b132a4a86fa6a09c8efaa86db0f9b0351f5b8f1698273c62",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual13.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual2.png",
+      "bytes": 93945,
+      "sha256": "b32120e9e5d9e51ca6dc1b46168779e286cb75d1678a217ab3c9317848bc501c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual2.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual3.png",
+      "bytes": 94073,
+      "sha256": "0fe40da2289741f39ef57ff0a43e16e9f397542979e246ae54f3457775f012e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual3.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual4.png",
+      "bytes": 79093,
+      "sha256": "3217cb910110b79ad4b6dc74259eed46833ed5aefc5e575c1177cc9a9e2587d2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual4.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual5.png",
+      "bytes": 116780,
+      "sha256": "b0cda80c835ec561ab83ce232ba098293d7b17e06983b7e1834d963bef6e5b74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual5.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual6.png",
+      "bytes": 72526,
+      "sha256": "25d684ba711df91a54af433be2a5cd6d45670ebbcf8b6dd3255da706df213cd3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual6.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual7.png",
+      "bytes": 97297,
+      "sha256": "1a9b75978e3cd6192f6a8b28e5183270d7d44768b3413e3dc323307eb088ea36",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual7.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual8.png",
+      "bytes": 69372,
+      "sha256": "ba032b25f248726ba8e7349ed18681b563490619210ad73f3e149ee31f781853",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual8.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBmanual9.png",
+      "bytes": 91438,
+      "sha256": "47cfaccc5e95910627e859ec60cb865b11c8ce9d352936915345d0314a7770cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBmanual9.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBperformance.png",
+      "bytes": 11315,
+      "sha256": "122d85a1f5c427334abdf0fbebf7648fc4740f51ceb5790c0800f789275b19c9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBperformance.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBstartup1.png",
+      "bytes": 46124,
+      "sha256": "6753111370c0fa2c655c7672171f9481f88b7eebc19756eca174b62c710c92e0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBstartup1.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBstartup2.png",
+      "bytes": 47334,
+      "sha256": "57683cec63c965694caa908570e38a93c3c169a88201558c91524106b503800c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBstartup2.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBstartup3.png",
+      "bytes": 29750,
+      "sha256": "cd018448c5168efc149089c31a5d0aa7fc1ad8e42ff374d8f001913fa72bf712",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBstartup3.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/EFBvideo1.png",
+      "bytes": 116056,
+      "sha256": "72b3fd3fb84d23a4e39fd9330e7c7db5e16b6ae7bfb2a776588a52aec08ccef0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/EFBvideo1.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/airport-display.xml",
+      "bytes": 552,
+      "sha256": "2c89018b558545c181107dec592b5104fbef461f850538f64ccc3202e5d1f1aa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/airport-display.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/chart.xml",
+      "bytes": 14229,
+      "sha256": "ba6a59ab84132b809e81592c9636b0d7e24996f9b3cf2cb26563b2be7ed736cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/chart.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/charttext.xml",
+      "bytes": 2928,
+      "sha256": "9eea6f4cae519edb98d012722afe57d0feb2dee875e635798626fe47e50582d0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/charttext.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl1.xml",
+      "bytes": 550,
+      "sha256": "b12f4a65fef9cd50bbd31a9a14c97256b9aa6da9413aeaf2e3863e1b19611b38",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl1.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl2.xml",
+      "bytes": 550,
+      "sha256": "8929ea73e480246341868e202896bc0300cc63ee0b0190fd7557e334ac9661b0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl2.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl3.xml",
+      "bytes": 550,
+      "sha256": "51128923a9d20dd50d83ed8fdeda6d922347297f0e7a3cb12e7a2c9c887ddb0c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl3.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl4.xml",
+      "bytes": 550,
+      "sha256": "9778b6492a65460722e1c521e933e5a1b25db493169aa509ea5b88e27649d70c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl4.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl5.xml",
+      "bytes": 550,
+      "sha256": "dee56679f75ac7036bf0651df3d93452b705eab4e9850e2ca318441e1bf69097",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl5.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl6.xml",
+      "bytes": 550,
+      "sha256": "ee2e0352c2cc8a49156270c52717233839f9fdcff5c79cfef262d402c849cd8e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl6.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl7.xml",
+      "bytes": 550,
+      "sha256": "83c5b2a9477412c4fb43e82915b54896160b9a8d148f69a990d44414ac11d4af",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl7.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/cl8.xml",
+      "bytes": 550,
+      "sha256": "f64824c5e93daa965b647708d927d04905a015dd904379f8c333295b3d9c685e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/cl8.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/glare.png",
+      "bytes": 78085,
+      "sha256": "02227a54eca4daba16de554122c3f9f4e598511f0d4b4c89c857a48cc9f65ca4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/glare.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/main_menu.png",
+      "bytes": 117722,
+      "sha256": "6f1164f0ac4b7a65198eca063222f6985571186a222638eb536afebeaa90cd8b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/main_menu.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/main_menu.xml",
+      "bytes": 546,
+      "sha256": "8bb8aac1902c4c916abc969c5ed5c3526848409c8d7348e172dd0c9d54a7114a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/main_menu.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om1.xml",
+      "bytes": 547,
+      "sha256": "0685ffd901be8cb635e1a62a50daa451d052f55a87d2e31def93d969cb8a7e82",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om1.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om10.xml",
+      "bytes": 548,
+      "sha256": "063535f1500291aebf10521706435c528a3057b6343350dc6fa8c2a7c0a06bb8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om10.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om11.xml",
+      "bytes": 548,
+      "sha256": "9d71d398ef5c6a6eefa72c1aba8ad057ef96f67c2c429aeed9a1343e2b7bf0af",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om11.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om12.xml",
+      "bytes": 548,
+      "sha256": "45bc690c67d1e36b631f2187375328fb5ae167f4161f48edf72e52680245927b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om12.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om13.xml",
+      "bytes": 548,
+      "sha256": "0352113b9512f0b471d3347a45fef845a6a7be57e1222aab7907461245daec67",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om13.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om2.xml",
+      "bytes": 547,
+      "sha256": "f665887b08e2972336abcbbfd1d7e9fd1687c1938810fdf27b021f4fa2c6c48a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om2.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om3.xml",
+      "bytes": 547,
+      "sha256": "91c4a35fda6b7b41bee3e78469bc36edf79aa7ad13f3cc9e5675a97abc5fb69c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om3.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om4.xml",
+      "bytes": 547,
+      "sha256": "f08cec1f2fe5b271abf94aab5491378614ae1cb921a54c1bb84e846be3a1d9f2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om4.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om5.xml",
+      "bytes": 547,
+      "sha256": "0e19a8bf7ef49278974eeac69a9928ef7b3f7a0da81b2e7d2788d57f75705b92",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om5.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om6.xml",
+      "bytes": 547,
+      "sha256": "e098189972ff3b5163cfa6ef0d50c2cd45e97c31bd59dcbacc836434ebaeef64",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om6.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om7.xml",
+      "bytes": 547,
+      "sha256": "832349dd33150b9263403a3b2b5ce46b0ea1cb0061b524da2132d009e7f8edc2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om7.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om8.xml",
+      "bytes": 547,
+      "sha256": "85d894bb1cd5d3f59079a567e99d32c4fabe1ca1fde20b8b4bbf5403aa4ae884",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om8.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/om9.xml",
+      "bytes": 547,
+      "sha256": "153263a92f9128f966a29ab3f59c3a16f69bf44a4ef978d53e570d6b3d8a4636",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/om9.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/su1.xml",
+      "bytes": 548,
+      "sha256": "13de12fe55b89e8b322633ceaf232ce6abdbcc0abea0c38702cf6f5a9b3050d7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/su1.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/su2.xml",
+      "bytes": 548,
+      "sha256": "acaae0f9bae4ebdc6a6ad216cf429e93bd5de7f89b1bbaba5bb6793acac842fa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/su2.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/su3.xml",
+      "bytes": 548,
+      "sha256": "3d438a24fe4239aad9b8935ea3efa5b18cb3ac2b04ded5e07a67fd77c301088a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/su3.xml"
+    },
+    {
+      "path": "Models/Instruments/EFB/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/EFB/video.xml",
+      "bytes": 546,
+      "sha256": "0db046e5cd86af765f752cc919a90ff4dfbeaf475c2379f29cf0e702705ecdb1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFB/video.xml"
+    },
+    {
+      "path": "Models/Instruments/EFIS/EFISctl.png",
+      "bytes": 73666,
+      "sha256": "beef9e1ecd2b54b5da754ca958448a33d00d5ae08b60f9ac519da9adfcd47bf4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFIS/EFISctl.png"
+    },
+    {
+      "path": "Models/Instruments/EFIS/efis-ctl.ac",
+      "bytes": 93126,
+      "sha256": "c707bddc35eda4a89aed232a5b6d0fc7296fa4a13d898a69ca0942ead3663c9b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFIS/efis-ctl.ac"
+    },
+    {
+      "path": "Models/Instruments/EFIS/efis-ctl.xml",
+      "bytes": 23353,
+      "sha256": "a64a6dd9593fbf319394819753089aeb8152b76f0cb92789ca9bd92eba24cdd1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFIS/efis-ctl.xml"
+    },
+    {
+      "path": "Models/Instruments/EFIS/efis-ctl2.xml",
+      "bytes": 24444,
+      "sha256": "34ec0a89cde953dd95b910bf1f58e4792afd89c56d899008e714ad0f9cb8516e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EFIS/efis-ctl2.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/EGT.xml",
+      "bytes": 6774,
+      "sha256": "8d92167e50df65c40a942b44e938891cb758fcf030212541fc61b1fdb1a284ac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/EGT.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/Flaps.xml",
+      "bytes": 1385,
+      "sha256": "28607ed2643209329a330bc6bbab0fbf0ac7404a38957445f7d7489b197b3956",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/Flaps.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/Gear.xml",
+      "bytes": 1593,
+      "sha256": "f3fb1db21c1613fdf16b6e3ed7eb2c9104011bf22d9c6bd7722c4701672a1f40",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/Gear.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/LHegt.xml",
+      "bytes": 546,
+      "sha256": "0409bafef72c6ef3018df737d899f62a712c29484bfd8369f570509a78351db6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/LHegt.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/LHepr.xml",
+      "bytes": 3448,
+      "sha256": "0e7259c5b3c4a83664272d754bbce51fac1062cfbbcead27ad72cfa240ebb2fc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/LHepr.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/LHn1.xml",
+      "bytes": 3447,
+      "sha256": "61ad36b5b1a0398c9e0b71d3efb66d06d23d78ffdc29860a6859b45bb813145c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/LHn1.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/Msg.xml",
+      "bytes": 2522,
+      "sha256": "74d78c72cc502a11dd060afa7e9b8c662abb1c55987e16aaeff13778e94c6785",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/Msg.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/N1.xml",
+      "bytes": 8967,
+      "sha256": "5c7882e0180c9f3ee31e768e829e9cbd9380e21face9d8b6b6e88b36780d09ac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/N1.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/RHegt.xml",
+      "bytes": 545,
+      "sha256": "e74e742d3709969d81341cf6316df7d9aa1998934608bca37d398ab8ce386603",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/RHegt.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/RHepr.xml",
+      "bytes": 3448,
+      "sha256": "08cb7c80eee572d5a799d92c5476c9cc60d9aec6e95143650a98af9599e6e98f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/RHepr.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/RHn1.xml",
+      "bytes": 3447,
+      "sha256": "5a9f721d3ca9b8468070f2daaedf8a3790e1887391bea563aaa47aa7998a0c4e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/RHn1.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/Spoilers.xml",
+      "bytes": 1398,
+      "sha256": "d23c526273dfc7a842d3135b7937d2afc8317255ae49796e5fcd4dc8c038ec81",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/Spoilers.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/analog.ac",
+      "bytes": 27767,
+      "sha256": "f788fe4d13dc93f523001fd036da4304b5ee027592aa79de0de5d79934697e78",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/analog.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/analog1.ac",
+      "bytes": 26769,
+      "sha256": "cd2529abd75a289bbb5ca69599d7dd8db76b43bd913f7bca961c9e7d19f54ffe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/analog1.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/belka.png",
+      "bytes": 12263,
+      "sha256": "20c9e30253dd332fc58f185b2b66de40c65ba0dcc65c6afd5d87638419b61f50",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/belka.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/efis-frame.png",
+      "bytes": 43615,
+      "sha256": "cb5b9506fbee3398e2d09cca19c971bc3ae642881f56c1828cc4ca1a5fc603be",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/efis-lit.png",
+      "bytes": 15036,
+      "sha256": "50de6e10125d813f876a6254118f425f0c9bb41a5d6342302aef3380a0bd97d9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/efis-lit.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas-3d.xml",
+      "bytes": 10051,
+      "sha256": "8ca60787048d71b6fcd22db88c48c0c59557eb21c284e92bb32b25e1b51d39a5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas-3d.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas-panel.xml",
+      "bytes": 4137,
+      "sha256": "9642afddae2915690e4215851431fe69a7f06377953517f53954f1b8729f6ded",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas-text-panel.xml",
+      "bytes": 600,
+      "sha256": "527a6cd8d964e09efa31a6a0f08705804d9434edaa126c96f9161175b961d03f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas-text-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.ac",
+      "bytes": 16435,
+      "sha256": "ca790044ea6fbab167582c6fb541ede5cd423043947c585ce8c0964b27b16936",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.png",
+      "bytes": 9680,
+      "sha256": "e3fdd3575f39891e09f0a6b96f6894108ad1059a7c7156a53a95af7571e7f42a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.xml",
+      "bytes": 1100,
+      "sha256": "0d194b12f1829204132fcc04f451e468716bb845b44965925dc056461733beba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicas.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicastext.xml",
+      "bytes": 9560,
+      "sha256": "21e577fa21fc31b3b4d2c4f1c33241f9a095157e602a0e0e2cc408de569055e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eicastext.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eng-gauges.xml",
+      "bytes": 548,
+      "sha256": "ddfc64d20e249f3a857b270ded9fb0becd64facfb1f2bd34d0b00e7c4215ea2f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/eng-gauges.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/flap-gear.ac",
+      "bytes": 13230,
+      "sha256": "d94c6d06525e390f2d448cb46f02043020f125ff164999cd9938e4acbdc7081e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/flap-gear.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/flap-gear.xml",
+      "bytes": 4827,
+      "sha256": "f44310c78683a1f992200946fed95d4548b208031dfcac1844d3c366a78730b0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/flap-gear.xml"
+    },
+    {
+      "path": "Models/Instruments/EICAS/gauges.png",
+      "bytes": 10374,
+      "sha256": "2f52ade29d2c50c088a170bd838ca40784a3ee8edb0f279c0d6acbe31f9a69c4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/gauges.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/glare.png",
+      "bytes": 78085,
+      "sha256": "02227a54eca4daba16de554122c3f9f4e598511f0d4b4c89c857a48cc9f65ca4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/glare.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/glare1.png",
+      "bytes": 57967,
+      "sha256": "1a62fff6563785f8ebc8334480e8b1e006feb6675052fcb6c89808f9d430f23a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/glare1.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/EICAS/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/APP.xml",
+      "bytes": 25061,
+      "sha256": "faf33cb64279e4b0c9ba8df61b989bdc8c523b261b189ccbaa4649e75f0c2df9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/APP.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/EFIS.ac",
+      "bytes": 13792,
+      "sha256": "3c2dd994674ebf5c35765c04d7e3cadd496eedb7766b1c901e75472f27aaeb13",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/EFIS.ac"
+    },
+    {
+      "path": "Models/Instruments/MFD/Hudraulic_overheat.png",
+      "bytes": 38392,
+      "sha256": "fc298b2477b9b9c36f3ea444277bafb559887ecf2295e633613caebde1b676d3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/Hudraulic_overheat.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/Hydraulic_airc1_ovht.png",
+      "bytes": 5684,
+      "sha256": "b67135193c7fc62946519507f2cb029a1c5900aed9f0a8c06b7f2b76828971f3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/Hydraulic_airc1_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/Hydraulic_airc2_ovht.png",
+      "bytes": 5626,
+      "sha256": "4365633a2cfbdfaa8ca4fbf70c6e0f5f48ebc7e54805b90c35693cc284e2d797",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/Hydraulic_airc2_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/Hydraulic_leng_ovht.png",
+      "bytes": 5809,
+      "sha256": "c25d42138c7ba7f577d4451f0f0ad9b0d6828ff85dd1dd6a624609866903c951",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/Hydraulic_leng_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/Hydraulic_reng_ovht.png",
+      "bytes": 5979,
+      "sha256": "2c2a2e4d20057d16cbc0e441863ce58261157b27bc23ae1c43a46535dee47c77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/Hydraulic_reng_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/MAP.xml",
+      "bytes": 35564,
+      "sha256": "7b6c4ed5600cd8464aed0182a3292f0685cdd4650a886f9b8b5eba549d267870",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/MAP.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ND.xml",
+      "bytes": 2814,
+      "sha256": "b639a6adb761697e66c752144281ad6320753e56789fc92c01f1aa1ab0d45278",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ND.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ND2.xml",
+      "bytes": 2818,
+      "sha256": "3d40d00ab1d460cac0667a84f7784ec28488dbdb1275ee0a82c7129a4179d7bc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ND2.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/NDB.png",
+      "bytes": 16647,
+      "sha256": "ee38190b3ed640e8a88dd61e7d9ee31a2d1101224abf2091bcf71479760f27b1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/NDB.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/PLAN.xml",
+      "bytes": 2861,
+      "sha256": "cc6f53990c22d9a3e2ac41edeebe3e42aeb97c5ba680b48a9d72d13d2fb5056c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/PLAN.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/VOR.xml",
+      "bytes": 19987,
+      "sha256": "0c460ed1bdbd5e7502be02df06439ad8caa93755ba94e6739441725c9a0a3e3a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/VOR.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/apptext.xml",
+      "bytes": 18785,
+      "sha256": "406f6d17391da545edc6b5a6bb3aa7d8cd0560af2ad9dafc53d2202a22d64cd7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/apptext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU.png",
+      "bytes": 3909,
+      "sha256": "4978de7081e8da0f4857befb45eca38ee26830e331ee3b84f3d33ea5020fd507",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU_1.png",
+      "bytes": 5812,
+      "sha256": "d98294cedeaf8ebeec4eb85c7e3cdd43db0d3fe267f80d7bd9d145ee60419fc2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU_1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU_2.png",
+      "bytes": 5550,
+      "sha256": "9ff7d259a4a684e86a31f7f00079dfe86e95769be33fbb6d47f81ed393a13731",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU_2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU_3.png",
+      "bytes": 7295,
+      "sha256": "71e0e0df3c8655a6c5b99df33560ccab16dd2b8e2e97c8d0e87c38197bc339e7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU_3.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU_run.png",
+      "bytes": 2073,
+      "sha256": "4c54e0fd1a155098ec9893069b5ad1f21af8a78f5c6b8a96fc27381b4301cbbd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU_run.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_APU_strt.png",
+      "bytes": 3136,
+      "sha256": "56082a07b751e2966e3ed954fad86095c4aec24035beba0b59ff8c66844d69fa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_APU_strt.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_ENG.png",
+      "bytes": 3338,
+      "sha256": "88f4043a230c9c532b94f49b848aace64c5a9b7b79e6e5a78f4092892207b009",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_ENG.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_ENG_1.png",
+      "bytes": 5134,
+      "sha256": "fc85cb648f06cdba03e723722721ddbcde661ee0ad813f8cdae9fd77abb54527",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_ENG_1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_ENG_2.png",
+      "bytes": 6663,
+      "sha256": "30bd85a3ff4163c8adb3785c42bfa1047ce234ad0db114e14ccffb5a2ffa2e0c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_ENG_2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_ENG_3.png",
+      "bytes": 8148,
+      "sha256": "8d24fa5a8b8695e8a1f4fe014a6f023681af27d23920170d2a56c816c5dc97e6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_ENG_3.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_ENG_strt.png",
+      "bytes": 2525,
+      "sha256": "62bef6fff4ae3626cecf765ca405bb89c69f4eff8009ca4ec8ad07775454051c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_ENG_strt.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_PACK.png",
+      "bytes": 2934,
+      "sha256": "6c20f22f9478e6654f338baced4063259b9f319bcfe467e978d824a30fcb0afd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_PACK.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_L_TRIM.png",
+      "bytes": 2803,
+      "sha256": "10a359344ea43c894c10c436e77e5622c6d3213e1b86603408c3c7d9772e0084",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_L_TRIM.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_ENG.png",
+      "bytes": 3483,
+      "sha256": "82798f114fc7c04cc31163f26d7361822cfe169d7594eced607a23ca62617af0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_ENG.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_ENG_1.png",
+      "bytes": 5239,
+      "sha256": "eb62e3bf8c7c3cf847ef35540d221a190e51b634a9f12435190d92cef862480a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_ENG_1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_ENG_2.png",
+      "bytes": 6689,
+      "sha256": "5fd920f086eb6d99fafc964aba0df32f139b3b31b6c711d88fb81b091afb28e6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_ENG_2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_ENG_3.png",
+      "bytes": 8241,
+      "sha256": "a1d232fa20ef3ebe2794b3f3aa7572620ba0780dec99a4fcfacd9b23009d1577",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_ENG_3.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_ENG_strt.png",
+      "bytes": 2524,
+      "sha256": "19e55bd0be26a07086bb7dc7cd3aa25057272085a1b3a22cd2d7e689998efe9f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_ENG_strt.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_PACK.png",
+      "bytes": 2907,
+      "sha256": "21a8cce54602f5362457e1593ab65d5895a780e12bebd959e38a20f05dfbddac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_PACK.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ba_R_TRIM.png",
+      "bytes": 2776,
+      "sha256": "477b45c709ddb44d2b502b05571c9421c1bbdd61e0a38aec9417b1723ab44d52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ba_R_TRIM.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/black.png",
+      "bytes": 135,
+      "sha256": "bc03dd863f993d6f38a21585a05b5b25db7082f6868abfa8de4b58950d776be0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/black.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ctrl-surf.xml",
+      "bytes": 8873,
+      "sha256": "d8967bab015e6964b2c0608f8ac1f3bad5e08daf5281a2931133557e36af3821",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/ctrl-surf.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/doors-info.xml",
+      "bytes": 1604,
+      "sha256": "9c598d439dfeb70372fbca7c02c172bca1c85396b1e73461e692385fb35d617e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/doors-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/doors.png",
+      "bytes": 58534,
+      "sha256": "5fbe14e6a9d8c235645c460751f01a0380f799ad87118d528609f8e4330faef4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/doors.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/doors_op1.png",
+      "bytes": 4436,
+      "sha256": "7e4caa7d4d4319454e9a11b36afac0c4257bfab90229fdb7ff8e1956a3bd03cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/doors_op1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/efis-frame.png",
+      "bytes": 13092,
+      "sha256": "9a7e0c079da5ad7acb71519068c278d2eb02976f942a8c98d6caf6dd2ab07092",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/electric-info.xml",
+      "bytes": 562,
+      "sha256": "c5bb0b539fb73169714ea7ff3511254b30e4133ff5e2c45662bcb7a47af67488",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/electric-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/electric.png",
+      "bytes": 101862,
+      "sha256": "cc3c8c8234ec042024486bd7189d7f29437bdd80dae282af237d311f7717f0cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/electric.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/electric1.png",
+      "bytes": 31844,
+      "sha256": "8abfc2438bc4ed173e5b260f50fb9a05b84f277b1e9888a0e22e0d0258a12db4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/electric1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel-info.xml",
+      "bytes": 11330,
+      "sha256": "e57212cbffc5e5147cd268092b4a6ce0db5de98bd1e24cc2e47b408ce39bc025",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel.png",
+      "bytes": 53477,
+      "sha256": "0c02e2dbbdb39d8a12897a0cfa9946f6eaeaa7804383056d8ac596f6e6b15805",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_APU.png",
+      "bytes": 301,
+      "sha256": "9b338b42c904f35d404708142f0610bdfc4ffba91ba077862493ffb09c58d1fe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_APU.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_C1.png",
+      "bytes": 508,
+      "sha256": "efdf117cc4a59bb4944478ad9caf4b34ec1f4441aa8172d538a694f71d5f3760",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_C1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_C2.png",
+      "bytes": 517,
+      "sha256": "1cce9267da51d03edba2894e9b583d567fcb7bfdd1ae5f45f43908753dc570a8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_C2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_L1.png",
+      "bytes": 460,
+      "sha256": "717bbabf1a1fcd8a35358cc43db9a11a4c3158dc3279387e6b3e37b9f71dfc7a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_L1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_L2.png",
+      "bytes": 478,
+      "sha256": "35b6cdb826ae8f42825942fa3b49b8434880fea88a9fe5676318e232f7a89fdf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_L2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_R1.png",
+      "bytes": 469,
+      "sha256": "921b445761351632a2105a0a79610c53dd86f9e974dc36292503087094fe6e66",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_R1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_R2.png",
+      "bytes": 488,
+      "sha256": "ca8c6e7813a4f560a9768c5248a65e57e5467685d941bb84ba8bf886b11ad79c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_R2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_X1.png",
+      "bytes": 540,
+      "sha256": "2f2e547680ed6356a8a73110ce5132e475b68a693a61ababb729b48da0744db1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_X1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/fuel_pump_X2.png",
+      "bytes": 535,
+      "sha256": "2f6ee54dba00baea040b900ccf166b6af5eb34a64542bd29b277bb9a7df6fe04",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/fuel_pump_X2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear-info.xml",
+      "bytes": 3841,
+      "sha256": "07ef76a7211f0e4ef7954b7bac84cc2f2bcbeafeb496999e536c840b1636a8a2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear.png",
+      "bytes": 82104,
+      "sha256": "dfadb227180bc8880d3b2ec150162f1932668bcbaf9c0208fe96fc3cb35a1d76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear_blocked.png",
+      "bytes": 50112,
+      "sha256": "087487ccb0589a89e825c122ff93b2ba33c0b38b807ec388ccc2ea3b5d102e45",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear_blocked.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear_down.png",
+      "bytes": 20464,
+      "sha256": "59160d7df2b6527f6f72f4adfb317848679817c3929034f31b4617bbdb1fe0c3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear_down.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear_ground.png",
+      "bytes": 25001,
+      "sha256": "5df81157195b5193be887e702f40f56561dd4f2c0cdb17ff95800a21a90adbdc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear_ground.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gear_overht.png",
+      "bytes": 26037,
+      "sha256": "da01fbc7ef1efb3874674368eb3808163e18ea47dad374fdb975952ccb287ccd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gear_overht.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/glare.png",
+      "bytes": 78085,
+      "sha256": "02227a54eca4daba16de554122c3f9f4e598511f0d4b4c89c857a48cc9f65ca4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/glare.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/glare2.png",
+      "bytes": 144647,
+      "sha256": "9bc2d387983bf27d5d181246c26ac0e4db0bece78c6c32426604694ed05f0640",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/glare2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gmcs-info.xml",
+      "bytes": 1152,
+      "sha256": "3a6dbad0eb4c2e4d8d06669c2749e9f8904103f808daf37e924234e8f846eff8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gmcs-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/gmcs.png",
+      "bytes": 172251,
+      "sha256": "52fff5aafc9d2d927415fd7447d810669de498410c458932c10a620512f98cef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gmcs.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/gmcs1.png",
+      "bytes": 53163,
+      "sha256": "7cdf6359f3ab874e5f8f6c2f4d4f6d277cb159a22e3dc135b64e05eefb76e2c4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/gmcs1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hsi.png",
+      "bytes": 24114,
+      "sha256": "aa239a0748397f2ab6447c1b6362bef70f497152cf7bac090a5ddae118807cb8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hsi.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hsiarc.png",
+      "bytes": 24586,
+      "sha256": "4da60db428c9c831f4ae935481f34da35d734b7b4afbc7af54bddaa57f7b5ec9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hsiarc.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_c1.png",
+      "bytes": 1540,
+      "sha256": "b74587d23c30c5bad0ffd27886b58cedd73d6a212e56ab647f743c0444352d56",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_c1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_c2.png",
+      "bytes": 1546,
+      "sha256": "a1c99a463b609be0eb60fd3e4b9b2be25411502d23ae157631558f3e8d4a7a63",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_c2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_elec_c1.png",
+      "bytes": 1551,
+      "sha256": "4589e4654fd6593b82046fc33f9bdece15f08c5967ba936e1218589370ee3445",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_elec_c1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_elec_c2.png",
+      "bytes": 1534,
+      "sha256": "b6f0318b676d1158f8bc81758426651a74267d02b72368893a63cfcb36d253af",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_elec_c2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_lelec.png",
+      "bytes": 1551,
+      "sha256": "eaddf489d1618fa2658f6aa953ec585d56535714893388411c7cdac361d26809",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_lelec.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_leng.png",
+      "bytes": 1537,
+      "sha256": "86e7646f9a4cc264a77106f344ad38cea6af2d804afa1c6de2a8f17e1cb3cd6d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_leng.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_relec.png",
+      "bytes": 1546,
+      "sha256": "96d169484757f8e1578e6f0a75e2cbec04864956b353cdfcd257393d2f42af85",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_relec.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydr_reng.png",
+      "bytes": 1538,
+      "sha256": "1bfd0fa8d0a626db02f51dd405082d5f9a4bc019cadb870aa2a6779860c7665e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydr_reng.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydraulic-info.xml",
+      "bytes": 9446,
+      "sha256": "0e7a8463e956a7e7c3a5b9161d8aeb7c43a8ff1a770e987cadf378d0eb262a5f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydraulic-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydraulic.png",
+      "bytes": 103096,
+      "sha256": "181329bd7eb177a90aa978e39c5f6699d451aa60e0d52236bd70ea58312fd691",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydraulic.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hydraulic_sys1.png",
+      "bytes": 13836,
+      "sha256": "9f50094cf835dbf3887f946633b392625d59c2259c8efa5616f0df584fdc5988",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/hydraulic_sys1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/information-info.xml",
+      "bytes": 571,
+      "sha256": "32b5b4824f171358b600d924081be6becc1dbff100524fbb52b9ad7380df2e6f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/information-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/information.png",
+      "bytes": 92734,
+      "sha256": "a01a98f32377485e33d2e16086a6ab4b49fafd85c51ec8e1e9d36a7bfcd96d1a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/information.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/maptext.xml",
+      "bytes": 27945,
+      "sha256": "23154732ce7eec9db14de3c76db9c7197c3422a825e2f149ce721105d53c4f53",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/maptext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mask.png",
+      "bytes": 6620,
+      "sha256": "ab85e18f9a6f508b5301875ea3b65f922c5ea8ff0bebc72b518a27da84586c8e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/mask.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/maskfull.png",
+      "bytes": 14940,
+      "sha256": "cb9f2c15f5ec6002a0bc79219de988b2ef355523193655225405f946b4b622fb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/maskfull.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfd-panel.xml",
+      "bytes": 8586,
+      "sha256": "047808f4126109eed55e85dee073afba443713a7468885da8d358ae69d3d5caa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/mfd-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfd-panel2.xml",
+      "bytes": 8601,
+      "sha256": "0e76bb62b911a1aba1722eb2d7a65beac048c36683b924de331164b3b08b0b3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/mfd-panel2.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfdtext-panel.xml",
+      "bytes": 2469,
+      "sha256": "8ed5809e2584b16c511be7454e0ed49537325efe2fc33ac894ebbff97612e638",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/mfdtext-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfdtext-panel2.xml",
+      "bytes": 2473,
+      "sha256": "be079bac6dee448e97a1d05705e28c4f9bc04d7dccee06adedafaa552b3a5df6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/mfdtext-panel2.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/od_wxradar.png",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/od_wxradar.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/plantext.xml",
+      "bytes": 8229,
+      "sha256": "956bb69a80436bfcdb5c52a8bb24746e3ffad795e1d3c67135405054aaf177b4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/plantext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/presure-info.xml",
+      "bytes": 16191,
+      "sha256": "a1e2150305628d3e8238f745bb3412eb8c1ecf224ec4bf5f9f9056f4c0fb3188",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/presure-info.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/presure.png",
+      "bytes": 147085,
+      "sha256": "bdedefeab9ebca5803c35f16a07a9c8665e756df35609f4a37f006acb4863266",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/presure.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/presure1.png",
+      "bytes": 25003,
+      "sha256": "2f0780be93198df7b8ca4e9068b33397e8d82d44a5a24b0b029576bb18969584",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/presure1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/radar.xml",
+      "bytes": 1963,
+      "sha256": "59243a424429db5673726f8e41ccb44746906264ed61ece219028d4d639c08a5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/radar.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/star_1.png",
+      "bytes": 269,
+      "sha256": "45f667e274a8a5136763be9d7f43719243a1c352a7ecbd49b2d8b0dce374cab1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/star_1.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/star_2.png",
+      "bytes": 270,
+      "sha256": "511085cb44c3456a0108c8ce4880d9ebf41c4a0c12dbc4909df3fb44f98f822d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/star_2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/symbols.png",
+      "bytes": 48954,
+      "sha256": "a0e9b92cd091561182d7cef8b185bf78db1d722645e78c2f22d62aa4688f609b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/symbols.xml",
+      "bytes": 2403,
+      "sha256": "4b3b27a1732e582ce036d0f4eb6a06c444c377494bab28080c24cc3cef301559",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/symbols.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/vortext.xml",
+      "bytes": 18785,
+      "sha256": "ffc1c2791249ffb8d5eac6ed71055b330ca48ef2fad1cbb7febda4b503cecce1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/vortext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/wxecho.png",
+      "bytes": 4411,
+      "sha256": "3a546d8044a05b4ce0042fe2cdc1263b1626a07fa4439ac03fa6d3fc2ae7fae1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/MFD/wxecho.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/EFIS.ac",
+      "bytes": 13792,
+      "sha256": "3c2dd994674ebf5c35765c04d7e3cadd496eedb7766b1c901e75472f27aaeb13",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/EFIS.ac"
+    },
+    {
+      "path": "Models/Instruments/NDB/EFISbckp.ac",
+      "bytes": 13207,
+      "sha256": "f77e41e9f4d5a113357353e0f5ea6105c2b3109174910fc395999fb464739eee",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/EFISbckp.ac"
+    },
+    {
+      "path": "Models/Instruments/NDB/Hudraulic_overheat.png",
+      "bytes": 15418,
+      "sha256": "282724811fd2d7ff600ff9d9fa8ad6c09f83b74db27204bdee99591790bfd031",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/Hudraulic_overheat.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/Hydraulic_airc1_ovht.png",
+      "bytes": 4150,
+      "sha256": "bbe09b4d8a87ea5f52719adce957cac67b88171fb97ffe99563cc0ffb320d20e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/Hydraulic_airc1_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/Hydraulic_airc2_ovht.png",
+      "bytes": 4065,
+      "sha256": "d75c61dbed368d243903db9f53168d1a18a6af322991ee0bfd741e5b78ae546c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/Hydraulic_airc2_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/Hydraulic_leng_ovht.png",
+      "bytes": 4160,
+      "sha256": "db2a94293a409e27e26f60d681492d359abc5cb1e5efff38c56fb36e78eaae53",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/Hydraulic_leng_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/Hydraulic_reng_ovht.png",
+      "bytes": 4179,
+      "sha256": "0cf02df8f3e8b37e6a31e0e5d670b0f16e7b2adbe71f437a1ae2cb30af9f8267",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/Hydraulic_reng_ovht.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/NDB-panel.xml",
+      "bytes": 5451,
+      "sha256": "df06a7b9fccae951f61adaacc22e89500b3cc187b5b8dbcff5a2e1eb1d1fdceb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/NDB-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/NDB.png",
+      "bytes": 17203,
+      "sha256": "c48b7c069a575f801e13e8f8197893ae06af75b8b83da56fbb6e247d112d158d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/NDB.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU.png",
+      "bytes": 5667,
+      "sha256": "4710a1e6015d8895a84d3de9b207fecc4e6dafc173c81e53213dc5bd8124fc3c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU_1.png",
+      "bytes": 5786,
+      "sha256": "e255829909115c10479935f40d638c9d6b8e5b3fb6ab0b365ecf1f3a9949e375",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU_1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU_2.png",
+      "bytes": 5790,
+      "sha256": "26b2447356981ee6e0572a28027d0d3a402bae7df229edeedd8142ea6ce2b4f2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU_2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU_3.png",
+      "bytes": 5783,
+      "sha256": "3fdf7dfcb47f99601f87892b6c4dc722fc737ac85fd2f0a6d375d0fdc6663109",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU_3.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU_run.png",
+      "bytes": 5605,
+      "sha256": "731726bf363fa90d9f7d09a012ceaa34446bb27dbd95ba19280be46536ea7ec5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU_run.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_APU_strt.png",
+      "bytes": 5689,
+      "sha256": "1ae9f23c42d9bf5d6dd4c9e3245a5c595fbefd5bd38f89903e830ebfc1327af2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_APU_strt.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_ENG.png",
+      "bytes": 5748,
+      "sha256": "75f70208718c55be45c64871683b8bc31e1a0edaf34c0a79f39472831d4496fd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_ENG.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_ENG_1.png",
+      "bytes": 5862,
+      "sha256": "79634422f6d4f0ac6a24bc5039d266addd1731929f9721c0d21dd71474f5d65a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_ENG_1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_ENG_2.png",
+      "bytes": 5857,
+      "sha256": "4dc46b0fedd9e44de817da8176f8e13c4daf02f4c5529a79504a7f0cf112da77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_ENG_2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_ENG_3.png",
+      "bytes": 5835,
+      "sha256": "2a2ffaaf2892a56e14c471988dc172740cbac09070ecb0cbb02588fb5afcdb5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_ENG_3.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_ENG_strt.png",
+      "bytes": 5689,
+      "sha256": "f97fccb866542a6f77f876e5718581d0a9a3718085d72ec2a96f2682a29abc6c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_ENG_strt.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_PACK.png",
+      "bytes": 5691,
+      "sha256": "3f324709487769a4abd206df235b9b16ec8c008e41982da057066db6b202d158",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_PACK.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_L_TRIM.png",
+      "bytes": 5693,
+      "sha256": "639575bd80922e99d054d64baa008ae3023d56e9a8e978e0d3b19b3813566193",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_L_TRIM.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_ENG.png",
+      "bytes": 5688,
+      "sha256": "de03b6d1e385ce093d437cf11fd3670b76f10e01169289a30ebe646f02d050e2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_ENG.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_ENG_1.png",
+      "bytes": 5786,
+      "sha256": "12a31f94157ece4da28915e881adb840a45262acc6bd6265509a2ac01a790ff3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_ENG_1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_ENG_2.png",
+      "bytes": 5824,
+      "sha256": "a2ac7df51f85d47d659ce1e1b509e23d71f8b26f2227216569059a513c7b8b3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_ENG_2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_ENG_3.png",
+      "bytes": 5770,
+      "sha256": "6cc7bcf820ecb8d265c37050362e9a76d8dd3e778bdf4880ec740041e02a4893",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_ENG_3.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_ENG_strt.png",
+      "bytes": 5676,
+      "sha256": "7bcaf4d967528fa801fb72c7ff9116e2339ab5ad9be69d92cccd31b82a0d4111",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_ENG_strt.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_PACK.png",
+      "bytes": 5684,
+      "sha256": "2c006352628d3860ada69ad8fcf84bd9dd03ccc8c7be2c9b9411a8d6a3457174",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_PACK.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ba_R_TRIM.png",
+      "bytes": 5696,
+      "sha256": "f6560a3ce1caf6b1b45ba7b56d2bf5d051431b47569615a13f3685162345dd8b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ba_R_TRIM.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ctrl-surf.xml",
+      "bytes": 5381,
+      "sha256": "875806038f37cbb2760128a8b713c1d1408e2e4319502f5a39276de7dd88b6fc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ctrl-surf.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/doors-info.xml",
+      "bytes": 1604,
+      "sha256": "bb4dd9016785869348020e5660b027b5bb9f1aa4ef05301bf4f273a235151532",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/doors-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/doors.png",
+      "bytes": 7130,
+      "sha256": "9aebd5bdcff89605c5f8b3e8597fef5a51c82bf1ee31e810144e7e96a4e41d04",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/doors.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/doors_op1.png",
+      "bytes": 1170,
+      "sha256": "c2fd1b6ae276ab00ae858572eab0067bea902b15614d143671357b8fb359b648",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/doors_op1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/efis-frame.png",
+      "bytes": 13092,
+      "sha256": "9a7e0c079da5ad7acb71519068c278d2eb02976f942a8c98d6caf6dd2ab07092",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/eicas2.png",
+      "bytes": 37349,
+      "sha256": "eb9cadbb4109080789f316fab0948799821919d98b5583d562b85d030192a7e5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/eicas2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/eicas2.xml",
+      "bytes": 9734,
+      "sha256": "dd0df85c7397b47880cc7caf63873026124e314060e164135dd99a7402323663",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/eicas2.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/electric-info.xml",
+      "bytes": 562,
+      "sha256": "bb66643bc30fbbedf78e7d409c817681a7be28133879d2d5b3c6991681872d3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/electric-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/electric.png",
+      "bytes": 57928,
+      "sha256": "87a779fed8bdb8f9976022467bb952279910e431ca5aee2e497f454ada7bf662",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/electric.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/electric1.png",
+      "bytes": 23105,
+      "sha256": "6f5b7dbe9a70d5f333e859ffcc46152771f51f57aa6703def2d5adcc86b8806e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/electric1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel-info.xml",
+      "bytes": 11927,
+      "sha256": "645753ce9bea31201c63ef2de5bc6af5bd3cd5d2ad4be608a842e0ff3f743436",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel.png",
+      "bytes": 38527,
+      "sha256": "9531af60fc8c80606fdfa0a5560b1d33aa6ea4970e28d5928dfdf062cf3701f5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_APU.png",
+      "bytes": 305,
+      "sha256": "d20e3b4afdb1dedc11b8bafb89630138d5929107eb2d9ed59f7b95e6592c52a3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_APU.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_C1.png",
+      "bytes": 411,
+      "sha256": "2a16a2cb2df3c8bd096b991fcd6ff7de1723b2b7545f20d26d93cab50c92d057",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_C1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_C2.png",
+      "bytes": 417,
+      "sha256": "11c4f176cde8d639afedca661f6f676ffd2ce372c6ecdd980c32a5cd4e1a8cbb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_C2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_L1.png",
+      "bytes": 386,
+      "sha256": "1fe2697f840ab37d2d0f2886fdde43031166af12aa3a2709b294cca8afa9656e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_L1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_L2.png",
+      "bytes": 396,
+      "sha256": "e79f5b3e959fa66eae04a424d69a0532a546876dc424d2a23f77d73ec0b728c0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_L2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_R1.png",
+      "bytes": 393,
+      "sha256": "5d8996dc89d869084e0fe10cc9033960b46edca2001f3d156d352c3f7891bd12",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_R1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_R2.png",
+      "bytes": 402,
+      "sha256": "3b4848e8ac329767e44ee4e52ac5255b06cd50b528a5f72400655dd6350bc0b8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_R2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_X1.png",
+      "bytes": 480,
+      "sha256": "f0a8fd5f2534e1a8cfd817e8c8d1540ce07595fa49e9069b43475f93b82ffbef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_X1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/fuel_pump_X2.png",
+      "bytes": 470,
+      "sha256": "31bd7bd9d5362858a371994234f9c1cd3ce65d4edd544e6b17310039b73b97e0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/fuel_pump_X2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear-info.xml",
+      "bytes": 3841,
+      "sha256": "964922926ca6a52a326b0f1f035fd5541ffede35155fb775483fd971b6b2c18c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear.png",
+      "bytes": 49289,
+      "sha256": "526bdd37df1b62e69a43b9b2a3cf314425488799cc617e1ee5344b4de5a40e7e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear_blocked.png",
+      "bytes": 12670,
+      "sha256": "3e85d9122423faa1ab07b39d6fab0048ff8ba5e3143725c7e1ddff3aa37beff8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear_blocked.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear_down.png",
+      "bytes": 7880,
+      "sha256": "bc44bb8bf45ab7a5ba6f3efcc896b5443c9dde3cb49ac382304e4ba43fac50d1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear_down.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear_ground.png",
+      "bytes": 10352,
+      "sha256": "fb4e2bd48ef93bef2841504b6c95c316da1b02be49e9258310525ebd66e14cb6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear_ground.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gear_overht.png",
+      "bytes": 10093,
+      "sha256": "5517e99635a176039a3f34493875ff9271b1bae291b8d1f4d544b84d98bb6ee7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gear_overht.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/glare.png",
+      "bytes": 88367,
+      "sha256": "326e3d65d72e6ca8c7f327b66b65f2976d923df9a12b0a344ca7081c792ebd8f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/glare.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/glare2.png",
+      "bytes": 185391,
+      "sha256": "694d72c9363626101deccb02ac6ea87f6f9a0c639c20d68b3d534e59df61559f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/glare2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gmcs-info.xml",
+      "bytes": 1152,
+      "sha256": "b83b7f082c141ceedf98debe313e6ef3defbe01672481535fc2fbe15c874b416",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gmcs-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/gmcs.png",
+      "bytes": 112879,
+      "sha256": "336fb4b7815bc630906ce8fecafc20b1cd28fe343c4426defad5711710d07ce8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gmcs.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/gmcs1.png",
+      "bytes": 30893,
+      "sha256": "a0feae8252e36f1eb05abdb46ca0e3a6ecf40ad90e5b4f121f1487fb01ae3132",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/gmcs1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_c1.png",
+      "bytes": 1585,
+      "sha256": "550804e72bf5feba48c6fab31589a0aeb89961f237fafc377b2d03d0754e84ac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_c1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_c2.png",
+      "bytes": 1585,
+      "sha256": "145a737cab854e4ecda67e6833822632b4b21fff7a11589cfdae6a3b2dabd17f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_c2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_elec_c1.png",
+      "bytes": 1586,
+      "sha256": "c470ff394bcf635471657edc9aabf918b89fb6d4338e30195b480eba1a23ac85",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_elec_c1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_elec_c2.png",
+      "bytes": 1585,
+      "sha256": "ec0b7837d4a61d60b1d18ac45eb57e9d9be0e02c38973f1e99c11484c30fd1df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_elec_c2.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_lelec.png",
+      "bytes": 1588,
+      "sha256": "d3abb9f0dd884f275910c02fa4c3a551d346a54a26fc7dca899d50ba7ecead76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_lelec.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_leng.png",
+      "bytes": 1583,
+      "sha256": "c968a8d0504de96ab98d7280c1774c3de6f4bcf5ab61f410da354b81fea2ac2e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_leng.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_relec.png",
+      "bytes": 1585,
+      "sha256": "f986a1fafcd53b575ebd473be27638aad359a99752eace81be301edd553ec905",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_relec.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydr_reng.png",
+      "bytes": 1584,
+      "sha256": "01459188ae05a41507bec07523247dd4b984e8467ca00045ff92090b52b464a1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydr_reng.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydraulic-info.xml",
+      "bytes": 9442,
+      "sha256": "31d77b8d44d78ec60ca1a0d153c67975a494f81c3a2e0f1e9e501e3ffcd48514",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydraulic-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydraulic.png",
+      "bytes": 60907,
+      "sha256": "e055300bf798e5376b80be637ba13a5ac5e65b59e90380ae3130b012516668df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydraulic.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/hydraulic_sys1.png",
+      "bytes": 13936,
+      "sha256": "5b9051a6b9f11866f6326e7e397c7c344d24d0dbd79b313c756e560ccd21f571",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/hydraulic_sys1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/information.png",
+      "bytes": 33084,
+      "sha256": "3ba339be3e4ff32548b81d91f358247417ba7ae80cd2a4447d063c02391e6025",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/information.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/ndb.ac",
+      "bytes": 22272,
+      "sha256": "8a69df35c4e1c1b34db8be5efedcf345e7a0d7152aa2b9ba2ba8517f008c162f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ndb.ac"
+    },
+    {
+      "path": "Models/Instruments/NDB/ndb.xml",
+      "bytes": 2302,
+      "sha256": "8ec38ae0c555c16a58b4dc9ddda9aedaba5f2dbd202b4c14d5f5fa32e493ee87",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/ndb.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/needle.png",
+      "bytes": 202,
+      "sha256": "1787530803b51605df727eaec820d3089e67ebadda19fa12a7bf4fbcd3b89da8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/needle.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/presure-info.xml",
+      "bytes": 16543,
+      "sha256": "7eb4037536279b38239d6084e89de1cf9406e4a7cc58e6ea346a77b36f1b1d54",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/presure-info.xml"
+    },
+    {
+      "path": "Models/Instruments/NDB/presure.png",
+      "bytes": 92125,
+      "sha256": "91712e90b82ea6436c42d577a174614ca7538c13784ea2df0b80ab48a4244aea",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/presure.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/presure1.png",
+      "bytes": 5637,
+      "sha256": "ed160330ba97ab67f4b808467fc4775e66ee46a37a932dedd94e6e751dd08087",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/presure1.png"
+    },
+    {
+      "path": "Models/Instruments/NDB/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/NDB/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/PDSTLaudio.ac",
+      "bytes": 227553,
+      "sha256": "dae2e3893dd9a3035e6d160932558cc63a1af55ef5873cd9fe0336188bb39e8c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/PDSTLaudio.ac"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/PDSTLaudio.xml",
+      "bytes": 55334,
+      "sha256": "958c20febdeb9e5e9249857f3cda97269cb2285922f748711833d23d6c1a0d8f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/PDSTLaudio.xml"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/audio-pnl.png",
+      "bytes": 158239,
+      "sha256": "0c40828d3734e08e8d36ed512a881bd57ec68ab004c5714c60efef3e6c5bbbdb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/audio-pnl.png"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/audio-pnl_greentext.png",
+      "bytes": 12049,
+      "sha256": "4516dcdeb3957a701f325029be53ced07078aa676a6827f09295ebfb34c6c90c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/audio-pnl_greentext.png"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/audio-pnl_lettering.png",
+      "bytes": 105374,
+      "sha256": "459ececefe7945616a8067c6e59579544e98252d9832048091bccf48d785c86c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/audio-pnl_lettering.png"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/dich-pnl.png",
+      "bytes": 32514,
+      "sha256": "1c87f4afdc6974f97048e4c59c04150c2cbf5ac7f89079395d56b37f4ca1a02d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/dich-pnl.png"
+    },
+    {
+      "path": "Models/Instruments/PDSTLaudio/evac_others.png",
+      "bytes": 69403,
+      "sha256": "4e28ea19cb0450d1919dd901909566899c521bbccb9ba820846bc73abe8fcbba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PDSTLaudio/evac_others.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/EFIS.ac",
+      "bytes": 13083,
+      "sha256": "47148595b8765bd6d56dce95ccdae1ebca1ab76292f0a4b354a856044f99edb8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/EFIS.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/Kopia ati.png",
+      "bytes": 67586,
+      "sha256": "d3af1d3432aa78752e804dd97a5fe2fe90e89f21da5e4fe5f3cfb671aa20b1cf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/Kopia%20ati.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/Kopia pfd3d.png",
+      "bytes": 58168,
+      "sha256": "d5163c691739faff485304a8302299e3b9036ffdbc3f66c7f248f32cf926c43d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/Kopia%20pfd3d.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.xml",
+      "bytes": 1082,
+      "sha256": "d27698850343a0a082659e8ab1f21bcb2b5eed7bbbd3986e9e50999713c1f6bf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD3d.ac",
+      "bytes": 56381,
+      "sha256": "a20a2ccc69c496046fb94695123cb8ad7275c40c6d098f5741bb5663aa75e012",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/PFD3d.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD3d.xml",
+      "bytes": 43839,
+      "sha256": "1186b02902deaff07cbc7a7b3bfeee2405b73cb560dc30ce68247d8c657f85ef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/PFD3d.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/ai.xml",
+      "bytes": 851,
+      "sha256": "02b2e4823668020dbfd8bdf72ee7d704a974df3fda26b93cf90f1abeeff5dc27",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/ai.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/alt-tape.png",
+      "bytes": 232863,
+      "sha256": "d83bf98a486c74f332ddf57b3a3e5295e0e30afcfb4acd02b89e8a0e4c2f2baa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/alttape.xml",
+      "bytes": 4673,
+      "sha256": "e3f3824e920039aa7152e7cafd1cd04cbc6c124233d8d0819c56ff62312f2f9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/alttape.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/ati.png",
+      "bytes": 66192,
+      "sha256": "206f77638e659e350db5dafd169372a6327e5b91c005ea7748278628aacd2f8e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/ati.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/efis-frame.png",
+      "bytes": 13092,
+      "sha256": "9a7e0c079da5ad7acb71519068c278d2eb02976f942a8c98d6caf6dd2ab07092",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/efis-frame.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/fd.xml",
+      "bytes": 1364,
+      "sha256": "e77f53ab71d71447f53e71bea14bb64a01ee34dcaae03315350302c1878fea23",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/fd.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/glare.png",
+      "bytes": 78085,
+      "sha256": "02227a54eca4daba16de554122c3f9f4e598511f0d4b4c89c857a48cc9f65ca4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/glare.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/glare2.png",
+      "bytes": 144647,
+      "sha256": "9bc2d387983bf27d5d181246c26ac0e4db0bece78c6c32426604694ed05f0640",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/glare2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/gs-scale.xml",
+      "bytes": 1312,
+      "sha256": "7e837bf0e7e81e9b13aae79a65da5ecad3cf4a48577b9c3c1c2bc55dac1f1dd2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/gs-scale.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/hdg.xml",
+      "bytes": 706,
+      "sha256": "e0083119008f28791a03d436776e08b74fce9d5aa4e07a41dea1ab89d8d48dfe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/hdg.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/loc-scale.xml",
+      "bytes": 1106,
+      "sha256": "42331dee498a0a257943d564c74e6babe1508248011fbb8423ec620ea352b7b9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/loc-scale.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/mask.xml",
+      "bytes": 409,
+      "sha256": "15902b99d2c8bab6484172571f0332a8a46a4791311fa3b88ce27629247bc6b1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/mask.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfd-panel.xml",
+      "bytes": 3538,
+      "sha256": "44f9087d2cee97f25f63ee9d9782ff86ccb88c94e5527f5489bf12cf89922e63",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/pfd-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfd2.png",
+      "bytes": 44894,
+      "sha256": "dd4c470386ce9c9d81daa1aa4dd94f65aaf74813bdbe4b916db65f3199e3a233",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/pfd2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfd3d.png",
+      "bytes": 48119,
+      "sha256": "585959e55cba6e5ef305cbae0c1116e9b988ca80081299001e28f2ee139a5f1b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/pfd3d.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfdmask.png",
+      "bytes": 15917,
+      "sha256": "60d4ebb01df622d59e2f825cc9b39f0620579fb0a8930b3d541e2173ea8a6ee5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/pfdmask.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfdtext.xml",
+      "bytes": 10424,
+      "sha256": "04f02a80f6ff9f07bb8ca77fd1d474b110d96bd86df080deafabf0093aaef220",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/pfdtext.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/spd-tape.png",
+      "bytes": 14420,
+      "sha256": "dd56ecf476b401e4ded4b1e255af12dcdf5943b0887c1c7968f29a974d556109",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/speed.xml",
+      "bytes": 869,
+      "sha256": "9f9ede45c3db21641d05d2787ce8f2f0c7fcc70a1d5e61634a1f21c33941ce20",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/speed.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/text-panel.xml",
+      "bytes": 547,
+      "sha256": "8fe16df7864d19f124e1f950a15b377c9688a152d1a70e1d25f8288b04bd0b59",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/text-panel.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/vsi.xml",
+      "bytes": 1769,
+      "sha256": "b0045fb7e16f1ab3b6f6dd135ff86f14efb907352d709e7b86ee7284c1542f4a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/PFD/vsi.xml"
+    },
+    {
+      "path": "Models/Instruments/asi-face-1.png",
+      "bytes": 29159,
+      "sha256": "c4394c78809641470785e1215bdd200e5ad8ce5a1f8b4fc8f6073083310d99e5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/asi-face-1.png"
+    },
+    {
+      "path": "Models/Instruments/ati.png",
+      "bytes": 49811,
+      "sha256": "fc14c6ad70393702aaaaacb44ab25d3bac6ffe21139fba0b70838bb6d277430a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/ati.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing.ac",
+      "bytes": 146327,
+      "sha256": "7d7e520e32b7bd483427a1464898acd03866796e4764312a85aa4fb8cbda2e13",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/boeing.ac"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing.xml",
+      "bytes": 39395,
+      "sha256": "6b90c99ea0fbda1d104ac587e5dc101eaddb35f7b0b2ac776dc117ba872b5864",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/boeing.xml"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing_brown.png",
+      "bytes": 84749,
+      "sha256": "6e13bb78dcd08a1a7486b1f9c1684be9352e5ee61a23545a1eaa138f471c8ecd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/boeing_brown.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing_grey.png",
+      "bytes": 73629,
+      "sha256": "1282635be3a33a61559352a98dee5c4e207175b67c06603743a32486f32ce80e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/boeing_grey.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/boeing_lightmap.png",
+      "bytes": 5020,
+      "sha256": "69d5a83dcfd513dd6412e3e796224e843559328db3605bb995272200debe3b74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/boeing_lightmap.png"
+    },
+    {
+      "path": "Models/Instruments/cdu/display-text-value.xml",
+      "bytes": 1745,
+      "sha256": "50d8c827dc2fcc0281f4d10532332ec0ce60d1c50104e429567ea140dadaee9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu/display-text-value.xml"
+    },
+    {
+      "path": "Models/Instruments/cdu.ac",
+      "bytes": 143893,
+      "sha256": "5dbb33c247e8e2f627d9b5905f1ccd4e0f7b919656e23aeec08814bfc5541a68",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu.ac"
+    },
+    {
+      "path": "Models/Instruments/cdu.png",
+      "bytes": 84749,
+      "sha256": "6e13bb78dcd08a1a7486b1f9c1684be9352e5ee61a23545a1eaa138f471c8ecd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu.png"
+    },
+    {
+      "path": "Models/Instruments/cdu.xml",
+      "bytes": 88,
+      "sha256": "8cf655c287e885233b980182af974d718f9af6b785bdc669c39db8624bb88153",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/cdu.xml"
+    },
+    {
+      "path": "Models/Instruments/chronometer.xml",
+      "bytes": 9744,
+      "sha256": "73a58cb0537ed0efd7b2be23eb4c1090c39a2d422b288abb660ad6c029674f1c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/chronometer.xml"
+    },
+    {
+      "path": "Models/Instruments/clock.ac",
+      "bytes": 41822,
+      "sha256": "cc7c1d971902e7b9e4bbb578d6142b514fd9330d53e76dd94be8e019aaf0a0a5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/clock.ac"
+    },
+    {
+      "path": "Models/Instruments/clock.png",
+      "bytes": 101867,
+      "sha256": "3e7781625be3a7a06b0872377cf58ac374a9f4c38f51c0de2df93eeb18ae61ca",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/clock.png"
+    },
+    {
+      "path": "Models/Instruments/clock_lettering.png",
+      "bytes": 111001,
+      "sha256": "8650cf76062488e733c856d41fe9606e62535e77664b884a8d7d6805d0b283f7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/clock_lettering.png"
+    },
+    {
+      "path": "Models/Instruments/digits.png",
+      "bytes": 39053,
+      "sha256": "1aaecbba63640c4e42f6c6a566e2305cd9ef73b74d8407fed797d3fc8cdc65cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/digits.png"
+    },
+    {
+      "path": "Models/Instruments/flightdeck.png",
+      "bytes": 47616,
+      "sha256": "bcb4870387ee3ec9919bff3a966622e3631e59e84d7f6a954e63652974230d72",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/flightdeck.png"
+    },
+    {
+      "path": "Models/Instruments/radio.ac",
+      "bytes": 41122,
+      "sha256": "2366c8a6e282dca74d4b5f10994d36ee78c2b4909d2b397bdde55cf28555f8fa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio.ac"
+    },
+    {
+      "path": "Models/Instruments/radio.png",
+      "bytes": 180662,
+      "sha256": "84f5c489858ecd9840425caf612f117de5eaa14f1cf2272b5eab75266de40cce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio.png"
+    },
+    {
+      "path": "Models/Instruments/radio1.xml",
+      "bytes": 14611,
+      "sha256": "54531789723b89dc659557554d99bcdc7f84d445eb13e0c1fd4332c22365d199",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio1.xml"
+    },
+    {
+      "path": "Models/Instruments/radio2.xml",
+      "bytes": 14611,
+      "sha256": "54531789723b89dc659557554d99bcdc7f84d445eb13e0c1fd4332c22365d199",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio2.xml"
+    },
+    {
+      "path": "Models/Instruments/radio2_old.xml",
+      "bytes": 11866,
+      "sha256": "554090d0895e7bfe448be79027561a75db0de6c325a0177402bdf85ef9f138b1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio2_old.xml"
+    },
+    {
+      "path": "Models/Instruments/radio3.xml",
+      "bytes": 14611,
+      "sha256": "54531789723b89dc659557554d99bcdc7f84d445eb13e0c1fd4332c22365d199",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio3.xml"
+    },
+    {
+      "path": "Models/Instruments/radio_lettering.png",
+      "bytes": 134711,
+      "sha256": "884f3d2e479db694acbf6fb23c0ff2e1d12c49720da46de908f6c881811bae61",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/radio_lettering.png"
+    },
+    {
+      "path": "Models/Instruments/standby-alt.png",
+      "bytes": 16321,
+      "sha256": "40f7a6d9dfe962ed89613031e5474e62bf37495b35547baec83071f9a388283d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/standby-alt.png"
+    },
+    {
+      "path": "Models/Instruments/stby-ai.ac",
+      "bytes": 36091,
+      "sha256": "e50f93722d1ae3b67153bc58572fd81d3781b4ef45fff2064447d9d22f2ffdc7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-ai.ac"
+    },
+    {
+      "path": "Models/Instruments/stby-ai.xml",
+      "bytes": 1327,
+      "sha256": "4f0ee37a006fca1e15b726d9457d05a452214aa1cedd2b64fabffa02db0c807c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-ai.xml"
+    },
+    {
+      "path": "Models/Instruments/stby-alt.ac",
+      "bytes": 51223,
+      "sha256": "7cdeee5171fdbdc2377f5a8cf792362cc0ea7aba21e2ce12dabfe5a12925388a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-alt.ac"
+    },
+    {
+      "path": "Models/Instruments/stby-alt.png",
+      "bytes": 14310,
+      "sha256": "70380148240abb734ac7da94c50490752653d243be942ba2a91b73d21fb12717",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-alt.png"
+    },
+    {
+      "path": "Models/Instruments/stby-alt.xml",
+      "bytes": 5569,
+      "sha256": "c26a4500349d6ebb72b7442de3792d347e376a5d85dff34706b5ccefb25763cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-alt.xml"
+    },
+    {
+      "path": "Models/Instruments/stby-asi.ac",
+      "bytes": 48439,
+      "sha256": "b78f545088d703114c2e545490ee51a3aec2cf36b8473a9d4c60bc3c5f43fd76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-asi.ac"
+    },
+    {
+      "path": "Models/Instruments/stby-asi.xml",
+      "bytes": 2395,
+      "sha256": "427f70026350fedfea585813c37f115eed03512e33704e7698712d34e7483d58",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/stby-asi.xml"
+    },
+    {
+      "path": "Models/Instruments/tcas-ctl.ac",
+      "bytes": 68215,
+      "sha256": "02085687ee45d121296385065b87d1341c0b4d82c7937730e60b5b36eb797e91",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/tcas-ctl.ac"
+    },
+    {
+      "path": "Models/Instruments/tcas-ctl.png",
+      "bytes": 107377,
+      "sha256": "62042fe84caa6bd9424ec797ecd256cb070bfca04e4d5419b49902e2de0049b3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/tcas-ctl.png"
+    },
+    {
+      "path": "Models/Instruments/tcas-ctl.xml",
+      "bytes": 9492,
+      "sha256": "2b4a269dbf44445dc541ac8c20932b772958b94bbcb05d58e203e5f6b1f454eb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/tcas-ctl.xml"
+    },
+    {
+      "path": "Models/Instruments/tcas-ctl_lettering.png",
+      "bytes": 101142,
+      "sha256": "fef35800a750813beb57fd38bcbde833ae81f2b78ae94d2ea9e5574522fe34b9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Instruments/tcas-ctl_lettering.png"
+    },
+    {
+      "path": "Models/LOGO.jpg",
+      "bytes": 45156,
+      "sha256": "3e4b289d4313e1c956d8ab8e41850f9e582e83b49ac6d25ff60bd3580f231876",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/LOGO.jpg"
+    },
+    {
+      "path": "Models/LOGO.png",
+      "bytes": 10058,
+      "sha256": "07b4e277a0a8aa8d9074ee5f51b3c70e81fb4ecb160112b294a1d479041268d5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/LOGO.png"
+    },
+    {
+      "path": "Models/Liveries/AFR.xml",
+      "bytes": 521,
+      "sha256": "043da717b44d25475f4d10f000116d330feab341f7d5bb8eed61630ed66183cd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/AFR.xml"
+    },
+    {
+      "path": "Models/Liveries/BAW.xml",
+      "bytes": 524,
+      "sha256": "b9066c0cc7c20058f1479bff2913ddd6230b2b8beea5d89a3546b9590f91872a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/BAW.xml"
+    },
+    {
+      "path": "Models/Liveries/PNG/AFR.png",
+      "bytes": 485143,
+      "sha256": "6a997e7e575248ebdc6b5716b4459e3c34541429a0d82e71006e0b71ce18a03f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/AFR.png"
+    },
+    {
+      "path": "Models/Liveries/PNG/BAW.png",
+      "bytes": 446354,
+      "sha256": "b23e3b1c8bdd2494caba55f14222cba6c966190ff3523efd5195c56f28822b01",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/BAW.png"
+    },
+    {
+      "path": "Models/Liveries/PNG/paint1.png",
+      "bytes": 196197,
+      "sha256": "c86702e83a2b76cb9718be5c66bd52395edd4da201c3e2891c37e04e031c4abf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries/PNG/paint1.png"
+    },
+    {
+      "path": "Models/Liveries-ER/AAL.png",
+      "bytes": 374530,
+      "sha256": "07aa6dc29dad8debe03d1b0afac81a67b59f5a6a0ae754a5740fd0db502abec7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/AAL.png"
+    },
+    {
+      "path": "Models/Liveries-ER/AAL.xml",
+      "bytes": 316,
+      "sha256": "bb7dfd357a7efb9a9ee5d864da1ed00b3ad51c908e1ade352879198534fde787",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/AAL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/ACA.png",
+      "bytes": 507921,
+      "sha256": "ffbcae5a6bba9df42e82eced234d99a300279d67af4b45f871e7f68f3b38d447",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/ACA.png"
+    },
+    {
+      "path": "Models/Liveries-ER/ACA.xml",
+      "bytes": 313,
+      "sha256": "8b8b89b47e198d0617a8736918db181f0d1522c8a90fb5f257248345707b328b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/ACA.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/AFR.png",
+      "bytes": 371242,
+      "sha256": "e22fc9a56e0d31dc73c81594f91e83611f8589fc04cf704bbcf37b37c9fb0413",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/AFR.png"
+    },
+    {
+      "path": "Models/Liveries-ER/BAW.png",
+      "bytes": 338924,
+      "sha256": "778e8a94ff9f9465dc1a9d0355c0c04fa1f9b9673e5e925792dec3e7ea0a746e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/BAW.png"
+    },
+    {
+      "path": "Models/Liveries-ER/BAW.xml",
+      "bytes": 524,
+      "sha256": "b9066c0cc7c20058f1479bff2913ddd6230b2b8beea5d89a3546b9590f91872a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/BAW.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/CPA-AWC.png",
+      "bytes": 418781,
+      "sha256": "8f40b5080472476848eaf4540b69828be50cfcba25c2c25a23ff3a885eaab87b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/CPA-AWC.png"
+    },
+    {
+      "path": "Models/Liveries-ER/CPA-AWC.xml",
+      "bytes": 350,
+      "sha256": "f29d5dbcde39bc2fb03befd13233db1268196950a79f91e4d465b12bd578a5e4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/CPA-AWC.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/CPA-paint.png",
+      "bytes": 391770,
+      "sha256": "47505b3d9db69535dc1fe6ff23cac1a22342c24f65cf3e97b3db039bc92ab32f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/CPA-paint.png"
+    },
+    {
+      "path": "Models/Liveries-ER/CPA.png",
+      "bytes": 589745,
+      "sha256": "2d95b7349c9d044af45737b0904c9afd6e85b2e7436f76222b83c6ed2e41b540",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/CPA.png"
+    },
+    {
+      "path": "Models/Liveries-ER/CPA.xml",
+      "bytes": 528,
+      "sha256": "62ff4212c9f26e511f44b154ca3801361ba7a5482c28c0109fc39603eb178887",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/CPA.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/Century-Airlines300ER.png",
+      "bytes": 670282,
+      "sha256": "f7cd2f3276e6e146781c7b0fe979d0dacb25cd91f05acf5f2c2849680bb63246",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/Century-Airlines300ER.png"
+    },
+    {
+      "path": "Models/Liveries-ER/Century-Airlines300ER.xml",
+      "bytes": 335,
+      "sha256": "d56c3f1a78a628b06ada41ca1363e457d165d90392d17d59b910828c8e400792",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/Century-Airlines300ER.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/DL.xml",
+      "bytes": 610,
+      "sha256": "58a53810e3b62b9b752418dd652305c85406115fe793b81e15f041e430c4318d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/DL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/EAU.png",
+      "bytes": 361999,
+      "sha256": "c811645b930d05391434e6a2f6fd61ac17b379ae8b876999bcefe2f6bf6ef184",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/EAU.png"
+    },
+    {
+      "path": "Models/Liveries-ER/EAU.xml",
+      "bytes": 320,
+      "sha256": "ae952a1c95fb3f1beaf169ffa903ee5ea8dc95bf16ecc0c88b021ec7fd643985",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/EAU.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/JAL.xml",
+      "bytes": 532,
+      "sha256": "5f01fedd07c244de661093565f1e8fdec9fab9ad98bd904976030f50a4cc5f63",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/JAL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/KAL.png",
+      "bytes": 275225,
+      "sha256": "0851172ee98762c9b13ff20a245f5fd88304f3b03827f8879e41de38cb495115",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/KAL.png"
+    },
+    {
+      "path": "Models/Liveries-ER/KAL.xml",
+      "bytes": 523,
+      "sha256": "293b8a3150ff35c08993dfac8aaa80568f60d32f58190ed21566910163d1b602",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/KAL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/KLM.png",
+      "bytes": 279881,
+      "sha256": "5961586ecdfa48bca1c734311a62be7abe125b5fb6ab5dddbc27f7208dd25d24",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/KLM.png"
+    },
+    {
+      "path": "Models/Liveries-ER/KLM.xml",
+      "bytes": 515,
+      "sha256": "f1f10a0a8c88972122bcc5e460ea32e1c60c57b4e1137a00645eca5dcc635d14",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/KLM.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/MIAC9.xml",
+      "bytes": 304,
+      "sha256": "86f9ab9731762529493ed8736bcdba0ace9ba70edf4c9a33b4760e0e5f0e342b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/MIAC9.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/MIAC977W.png",
+      "bytes": 330142,
+      "sha256": "758abaeceffeb6dd5f829d1555292dc6377ccd0c4de3de6c7907f4db097de27a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/MIAC977W.png"
+    },
+    {
+      "path": "Models/Liveries-ER/OW-CPA.png",
+      "bytes": 384228,
+      "sha256": "59ea1c2051c87d7972f9de5f5257949d3863ce7c3f9728c0448da4a38e21f8de",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/OW-CPA.png"
+    },
+    {
+      "path": "Models/Liveries-ER/OW-CPA.xml",
+      "bytes": 541,
+      "sha256": "6e0e3af2e2a8351097667167d9b9430d21b1479976980ee0662b314d47974d53",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/OW-CPA.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/OW-JAL.png",
+      "bytes": 372084,
+      "sha256": "0c591a556f28c70a8ca1f2d924e8c8e5e3cf5415fadbc30724eeaa3c1b82cd2d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/OW-JAL.png"
+    },
+    {
+      "path": "Models/Liveries-ER/OW-JAL.xml",
+      "bytes": 533,
+      "sha256": "3aff4b6f224d3e9576308558918116986dd233a55e9cceff91fdd2fb256fa7df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/OW-JAL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/PAL.xml",
+      "bytes": 301,
+      "sha256": "cd68f32214e84568f9acdb21909253e78c7e9741e9f1cb39ed8f388a1c79c302",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/PAL.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/REU.png",
+      "bytes": 311022,
+      "sha256": "d094ac31062b33e46d9f5d6544c0f0f65aeb606ed1c148ee7d73470ec3684953",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/REU.png"
+    },
+    {
+      "path": "Models/Liveries-ER/REU.xml",
+      "bytes": 323,
+      "sha256": "de25cdd88b89cdf59767720cac5e61bee3d234460945bbed2cfccbadae92e0f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/REU.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/SAA.png",
+      "bytes": 280087,
+      "sha256": "ac6367d2d21156aea71cab651819d927d66bcb6d5d8d121461aae1fa80a2c5b0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/SAA.png"
+    },
+    {
+      "path": "Models/Liveries-ER/SAA.xml",
+      "bytes": 325,
+      "sha256": "6437871f1a255680c3ccddf87d25f6db959b76928df6c965c2e72b27a40e7295",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/SAA.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/SIA.png",
+      "bytes": 1076860,
+      "sha256": "340335a1dd1fb618ed5c43608d5a02b6b2b28ebf95bc536476d374bb693f4456",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/SIA.png"
+    },
+    {
+      "path": "Models/Liveries-ER/SIA.xml",
+      "bytes": 321,
+      "sha256": "6ffd834259a7a70a8bc7d895d8a7d199d189e5d01bbdec64ec7823ce884eaf92",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/SIA.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/TAM-O.png",
+      "bytes": 207714,
+      "sha256": "061e2e77d8b0a05b7acaeb8398cfa1d0733852c1543a9f01c9912b095a9cce9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/TAM-O.png"
+    },
+    {
+      "path": "Models/Liveries-ER/TAM-O.xml",
+      "bytes": 315,
+      "sha256": "0f930ba15a625e337bb1ef42f234ccd2eb40c45e2636f7df2e105868ff04ade5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/TAM-O.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/TAM.png",
+      "bytes": 279811,
+      "sha256": "d6d49c94198a070fae85bb078877f2f78d45fb92bd3efbf1c25b12eb75f734e6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/TAM.png"
+    },
+    {
+      "path": "Models/Liveries-ER/TAM.xml",
+      "bytes": 516,
+      "sha256": "29db27aa1fd376b1af067719ff6f53ab2e0f357af69d16545a8200e59ff6b574",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/TAM.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/White.xml",
+      "bytes": 516,
+      "sha256": "6e1887a10979ae15bd858b7d2828711de0169bbab9fd3bf1cc2e55b593ac4f7a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/White.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/ZK-OKQ.png",
+      "bytes": 504376,
+      "sha256": "b25ad2d27bfdf81f44e7eaf6e4ca05cd1f1d85462789eca5510274a5cdeb99fb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/ZK-OKQ.png"
+    },
+    {
+      "path": "Models/Liveries-ER/ZK-OKQ.xml",
+      "bytes": 335,
+      "sha256": "20a75fc777bf4fb5c3f31864045e82547bbbcbd6076c8c2b7309013e61afa733",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/ZK-OKQ.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/arminair.xml",
+      "bytes": 601,
+      "sha256": "08a82b06fc57f2f5c37ee0b79eeceee6843044423e60d4253f03dde5fa571c7a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/arminair.xml"
+    },
+    {
+      "path": "Models/Liveries-ER/paint1.png",
+      "bytes": 346842,
+      "sha256": "39d60f59508b652d0abc4dca5621f44d4d06e30414b12584ccffc6b71d7693cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Liveries-ER/paint1.png"
+    },
+    {
+      "path": "Models/Model.jpg",
+      "bytes": 76464,
+      "sha256": "8f9b3199d955419eae8e7943562c9d391cecb63e5f99f2b4a7a8365a3faf20ff",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Model.jpg"
+    },
+    {
+      "path": "Models/OHlettering.png",
+      "bytes": 51433,
+      "sha256": "c134741215dda28cdb3ae9e780f1f225ffb66cd7cdad838fd2469f584ee34f3c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHlettering.png"
+    },
+    {
+      "path": "Models/OHpanel.ac",
+      "bytes": 4153144,
+      "sha256": "e80b7092c6c46575e4983a7feed3d3c134183a149f4210aab9221ca6a5413565",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel.ac"
+    },
+    {
+      "path": "Models/OHpanel.png",
+      "bytes": 701259,
+      "sha256": "8141ed8395df682f2e27192db9535d368aa857b1584eb34343f50221cb2656ee",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel.png"
+    },
+    {
+      "path": "Models/OHpanel.xml",
+      "bytes": 317647,
+      "sha256": "18ad8d6c3fb389878f03ef67a41f4c48c606383608e3f29a4d1d11eeec9cdbc7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel.xml"
+    },
+    {
+      "path": "Models/OHpanel2.png",
+      "bytes": 126819,
+      "sha256": "8ed5211b58a66fab0837f4e2585718c3982d326dd2f0e624559b33a74ecb1c0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel2.png"
+    },
+    {
+      "path": "Models/OHpanel3.png",
+      "bytes": 205641,
+      "sha256": "a1a7310da2f6dd9bd9fb77c9392aeaa99d53b2ecba765546eb5e526ae1ec9aa0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel3.png"
+    },
+    {
+      "path": "Models/OHpanel3_lettering.png",
+      "bytes": 239011,
+      "sha256": "85726a421a1be20e81f9fc2d99ac3170f013563b0f8aa3a52a3ddd5368903dba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel3_lettering.png"
+    },
+    {
+      "path": "Models/OHpanel4.png",
+      "bytes": 187492,
+      "sha256": "47e3af49bc2c7f86cd3d186fb18df7c01aa20e0c0fd83e576c8755ed60e40392",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel4.png"
+    },
+    {
+      "path": "Models/OHpanel4_lettering.png",
+      "bytes": 217528,
+      "sha256": "28f7d450de1898b83cef18f21fb21390c3b094c80f46a4473d1ecf2053ed3b3f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel4_lettering.png"
+    },
+    {
+      "path": "Models/OHpanel_back_L.png",
+      "bytes": 60734,
+      "sha256": "744a64487101a3ea509d88261c3b05358c8d8608932990e354f57fa5387c6224",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_back_L.png"
+    },
+    {
+      "path": "Models/OHpanel_back_R.png",
+      "bytes": 60734,
+      "sha256": "2628d84d2b8fc8386a92426253da4ec790d8990ed4addaaa9679e7d32b9bb01a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_back_R.png"
+    },
+    {
+      "path": "Models/OHpanel_left_lettering.png",
+      "bytes": 68643,
+      "sha256": "d7d9d223e6ff70f336b11194e96c2b5b1983e35c07859ceb70ffb5726af3350f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_left_lettering.png"
+    },
+    {
+      "path": "Models/OHpanel_left_lettering2.png",
+      "bytes": 28325,
+      "sha256": "7ec166baeabafa60ec6106f39bce6d6fbfc16c7c0b4e07128b4d1268b73090f1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_left_lettering2.png"
+    },
+    {
+      "path": "Models/OHpanel_right_lettering.png",
+      "bytes": 70776,
+      "sha256": "126e177e5339b71cd235a647e5e179066345394591168dfd1c1230b7773c1fe0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_right_lettering.png"
+    },
+    {
+      "path": "Models/OHpanel_right_lettering2.png",
+      "bytes": 25249,
+      "sha256": "6090788d9a3bdfbd9de2172e26638540093678956b87a2ed6e25abe9a600d071",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/OHpanel_right_lettering2.png"
+    },
+    {
+      "path": "Models/PAL-773.jpg",
+      "bytes": 11983,
+      "sha256": "dc5cdaf4a377b28600274f51346814cf51eeac11077416b87e6ba9b350ebe556",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/PAL-773.jpg"
+    },
+    {
+      "path": "Models/PAL.png",
+      "bytes": 286327,
+      "sha256": "75905bb3a0df03584734c64bb2884ed8ff66b63dfeeedf96dbd082436b5b583d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/PAL.png"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/attendant1.png",
+      "bytes": 360215,
+      "sha256": "ad2677330e9d635b3ec6dc1d3cadd84ee3887c25cc8bcf493ff63da32b18dc32",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/attendant1.png"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/attendant2.png",
+      "bytes": 378105,
+      "sha256": "5b41bebfef2de84d75922145cac0c6196128d51a16079be68b63e329af145df1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/attendant2.png"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/attendant3.png",
+      "bytes": 352547,
+      "sha256": "aed1609b5c489eff34f8eff34204ae7f3a10a31114e8a30c9ff434933255f55f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/attendant3.png"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants.ac",
+      "bytes": 2365677,
+      "sha256": "79b8b0457c3c9504809372bb7a65d7a4699fb16effb9c89881ed396e34b5759d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants.xml",
+      "bytes": 892,
+      "sha256": "cfdf1d4b8ce552ab00504e8041d2c5c3fe3a0bd9ed77afe58070fbde2c339146",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door1l.ac",
+      "bytes": 1503691,
+      "sha256": "4aee781d7ac810430f643dd5f28f6dee6ff895446b5f1d05b71a611f4c6673e0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door1l.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door1l.xml",
+      "bytes": 334,
+      "sha256": "d6d934e89f71eaf990dd5c121a6a9b0272a3bdc902300b09e5c1f8e19cfb1d58",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door1l.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door1r.ac",
+      "bytes": 1509545,
+      "sha256": "ee5d80728ec2604e165c62f6ef0f129f7485d06801045c37a3a3d41da7060b57",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door1r.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door1r.xml",
+      "bytes": 334,
+      "sha256": "db2b1f8cb77013f181861df96f793a25e664f1e34cb83142ff4a4bff080dfeac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door1r.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door2l.ac",
+      "bytes": 1503715,
+      "sha256": "5b376748ce41acd3a576eed6fab578afe27af9208da274c42a105bca797dbae0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door2l.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door2l.xml",
+      "bytes": 334,
+      "sha256": "4bb64ed3d29ee9628080969fe0c0bb2ee953293b32ed9ad93546b522cbe2c123",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door2l.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door2r.ac",
+      "bytes": 1509594,
+      "sha256": "0397ce28f35bf35a3c750c1a17654be93e1f96929286b1221c2efb12a2a81e29",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door2r.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door2r.xml",
+      "bytes": 334,
+      "sha256": "fa151e8775eb2a0954b6eb1965fc08aca5783f69b070caaf23aa59bcd6a568b0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door2r.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door3l.ac",
+      "bytes": 1497885,
+      "sha256": "1b43e50198b2097a52690d7a70e633bddfa28628fb39b7a1e1774cf5f171e036",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door3l.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door3l.xml",
+      "bytes": 334,
+      "sha256": "210079310386a4d84e19d5ece8354eabf7aaade8bcc3266ef6b8e6e1e3671e87",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door3l.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door3r.ac",
+      "bytes": 1503754,
+      "sha256": "4f025142a870250d288df5f1098284b040f3769602895b06e1c3aff0e1915582",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door3r.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door3r.xml",
+      "bytes": 334,
+      "sha256": "a671018c7d0f231b343b2af3453ee37b80fbbbaca774170f64fda7a5073f2729",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door3r.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door4l.ac",
+      "bytes": 1497909,
+      "sha256": "44fca5623061a12a48f599f34e46f42b0a07e1f53a3bd2a8c89dcfafb37e536c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door4l.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door4l.xml",
+      "bytes": 334,
+      "sha256": "260c0e3aee47d967b841cae168cf5f949c79f602f90e517e9e61045db0d894d7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door4l.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door4r.ac",
+      "bytes": 1503762,
+      "sha256": "2b0121238c6002656220793f36de68ad5fab559fb69a1d63021994e8e8665187",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door4r.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_door4r.xml",
+      "bytes": 334,
+      "sha256": "d5957cb288a2867ada23aa8ca0dbf5e9d7bcdbabfb3f2e824f441b064c5d281a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_door4r.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_reargalley.ac",
+      "bytes": 1609561,
+      "sha256": "a058d6f3c61cafc77f3c3c8da7871f90a4153b074a37719658d1f9d6b7c0f49e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_reargalley.ac"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/flight_attendants_reargalley.xml",
+      "bytes": 611,
+      "sha256": "2b170a6889cc88aaca55acb777fe125f7e18f6f4f650d8d6372dc9d8c2cf3cad",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/flight_attendants_reargalley.xml"
+    },
+    {
+      "path": "Models/Personel/Flight_attendants/galley-cart.png",
+      "bytes": 123309,
+      "sha256": "565fb235643cb74d3b77a3e2ad8b6ed46e69d163c5ee8086fa62da9c0e2a1ccc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Personel/Flight_attendants/galley-cart.png"
+    },
+    {
+      "path": "Models/Real-plane.jpg",
+      "bytes": 201628,
+      "sha256": "1ce588c4cb42441459d5c4134119d869021eeb41557d79fdf3e5791472c7dfb7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Real-plane.jpg"
+    },
+    {
+      "path": "Models/Service/Baggage/Catering_Loader_Truck_half_VolvoFM.png",
+      "bytes": 293679,
+      "sha256": "206effd3ee4b3d74c46f06e9d16942a12271f626f468fab3ed4d74a77860f63d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/Catering_Loader_Truck_half_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Baggage/Catering_Loader_Truck_half_VolvoFM_cargo.png",
+      "bytes": 249694,
+      "sha256": "b5b2a3b9bf6031bb9bc8b7fae664e4ed19081f6992149f559ce76befc6a6cd61",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/Catering_Loader_Truck_half_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Baggage/baggage.ac",
+      "bytes": 2954585,
+      "sha256": "1cc209e1c64bf8ae3aec4a508ab693657ac60072bb29b0215b28dced07b40ece",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/baggage.ac"
+    },
+    {
+      "path": "Models/Service/Baggage/baggage.xml",
+      "bytes": 3102,
+      "sha256": "3590309ce9bb62ac803e27ae26e6e9f618b79d1ec385e77c8def17074ca5f0d9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/baggage.xml"
+    },
+    {
+      "path": "Models/Service/Baggage/baggage_trailer.png",
+      "bytes": 350392,
+      "sha256": "f4a2d45389da0db6f23004338f862f914632937c3ba07375242f444cc96d9b5e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/baggage_trailer.png"
+    },
+    {
+      "path": "Models/Service/Baggage/baggage_trailer_bags.png",
+      "bytes": 203892,
+      "sha256": "d268e4dd5a8d7728f23990e0b1aa158f4f1d9f24e3b9cbc45eb4f4d689f5e869",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/baggage_trailer_bags.png"
+    },
+    {
+      "path": "Models/Service/Baggage/container_AKH.png",
+      "bytes": 245154,
+      "sha256": "fd5f9dd108122eff5836f257bd9c0167991bebfdb5da0d5badc9fc71f3750184",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/container_AKH.png"
+    },
+    {
+      "path": "Models/Service/Baggage/container_trailer.png",
+      "bytes": 272794,
+      "sha256": "bbfa690f7bdcdab99c82eab0b54a6596c130323479f22838e80fb23c49e4a1a3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/container_trailer.png"
+    },
+    {
+      "path": "Models/Service/Baggage/tow_tracktor_Volk_DFZ30.png",
+      "bytes": 191328,
+      "sha256": "0fac8aa8a4cf5d2589be247a5964ca4ebeb04b7a1cc676e1741b0db3200cc263",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/tow_tracktor_Volk_DFZ30.png"
+    },
+    {
+      "path": "Models/Service/Baggage/tow_tracktor_Volk_DFZ30_glass.png",
+      "bytes": 59135,
+      "sha256": "6b305fd4920264507ab2b5fb3885fc63901ecf86fe17953216208b2f6809f567",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/tow_tracktor_Volk_DFZ30_glass.png"
+    },
+    {
+      "path": "Models/Service/Baggage/ups.rgb",
+      "bytes": 292294,
+      "sha256": "73dd14440304f086060bff895f3aed35c7629d2fe73cc3017d416de421552545",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Baggage/ups.rgb"
+    },
+    {
+      "path": "Models/Service/Catering/Catering.ac",
+      "bytes": 519591,
+      "sha256": "2d23739c47d865dcffabb74e04956acee3015123ba22966dadd17a88bd0294cd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Catering/Catering.ac"
+    },
+    {
+      "path": "Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM.png",
+      "bytes": 293679,
+      "sha256": "206effd3ee4b3d74c46f06e9d16942a12271f626f468fab3ed4d74a77860f63d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM_4_5m.ac",
+      "bytes": 257064,
+      "sha256": "ffe0f808b8bc76dc42969ee8ce6112aa331bdcc9e571f548fa260e4f5f55d176",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM_4_5m.ac"
+    },
+    {
+      "path": "Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM_cargo.png",
+      "bytes": 266473,
+      "sha256": "a50ffbddc5bc2f1600ae6d98c7e8badf6b364dec6d5bd3aec6d029db6f98cd06",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Catering/Catering_Loader_Truck_half_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Catering/catering.xml",
+      "bytes": 219,
+      "sha256": "8451368f9593d9afe93c2f7076087d60e793cd3eb7359c82ffc643c4fde20b59",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Catering/catering.xml"
+    },
+    {
+      "path": "Models/Service/Evacuation/evacuation.ac",
+      "bytes": 1759210,
+      "sha256": "3a8ae9a7bbb9ca4d7daafd4a3404d004d4904eb290030c3eecf5828c50d38f6b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Evacuation/evacuation.ac"
+    },
+    {
+      "path": "Models/Service/Evacuation/evacuation.png",
+      "bytes": 10031,
+      "sha256": "219b13382aeaeecb17a359ffd8be048b76f2f5e2f165db8bbc2dcab70da0dda9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Evacuation/evacuation.png"
+    },
+    {
+      "path": "Models/Service/Evacuation/evacuation.xml",
+      "bytes": 1791,
+      "sha256": "0e8bb95958a4259d17b1eb4828ef597f8a0912fd4335441900b29125d1772c5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Evacuation/evacuation.xml"
+    },
+    {
+      "path": "Models/Service/Fuel/Fuel_Truck_Short_VolvoFM.png",
+      "bytes": 296437,
+      "sha256": "1816f2b4a6ad2c3ca434f7c132f87e5b87cd72e5f9394fe5560c7e5dc691f3d9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/Fuel_Truck_Short_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Fuel/Fuel_Truck_Short_VolvoFM_cargo.png",
+      "bytes": 230220,
+      "sha256": "5464c4b8d5b0c630b568e8fbb1d41d48f8afba244f8b0ba0fd745ab3be7ccff8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/Fuel_Truck_Short_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Fuel/fire-truck-muc.png",
+      "bytes": 48805,
+      "sha256": "7fb5b2029d00c8cc1576378c01ec2290765680ad50bc737a3938f1ca350fdd06",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/fire-truck-muc.png"
+    },
+    {
+      "path": "Models/Service/Fuel/fuel.ac",
+      "bytes": 819443,
+      "sha256": "769ef66dfbe98032b2f6fc62a85a4511bc3833db298c5b95b315782f827b7430",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/fuel.ac"
+    },
+    {
+      "path": "Models/Service/Fuel/fuel.xml",
+      "bytes": 1884,
+      "sha256": "6a50021764893ccf61f9dc115bc692796e1fcd101a491a2f13e43f7183bf3fd8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/fuel.xml"
+    },
+    {
+      "path": "Models/Service/Fuel/ups.rgb",
+      "bytes": 292294,
+      "sha256": "73dd14440304f086060bff895f3aed35c7629d2fe73cc3017d416de421552545",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Fuel/ups.rgb"
+    },
+    {
+      "path": "Models/Service/Service_Cargo/service.xml",
+      "bytes": 1163,
+      "sha256": "63fd55c65065da654ae6296102ec6a6acc906a0adc90e2c300f2a59d9f45bf59",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_Cargo/service.xml"
+    },
+    {
+      "path": "Models/Service/Service_Cargo/services-ag-ph.ac",
+      "bytes": 36486,
+      "sha256": "12cd4929b617fc15e53b5603e5b96acc4c22ab9b8357dd49e4e98e42cf19a2f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_Cargo/services-ag-ph.ac"
+    },
+    {
+      "path": "Models/Service/Service_Cargo/swissport.rgb",
+      "bytes": 326158,
+      "sha256": "a9df48eeb771768e351c8d0e917e57f4bd5e92c5e5812b2b36d40f8ebcce134d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_Cargo/swissport.rgb"
+    },
+    {
+      "path": "Models/Service/Service_PAX/Fuel_Truck_Short_VolvoFM.png",
+      "bytes": 294656,
+      "sha256": "159e2e8a13d3c110181e6ae6753301daee2b754c1ab94f22c991bd5df630c795",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_PAX/Fuel_Truck_Short_VolvoFM.png"
+    },
+    {
+      "path": "Models/Service/Service_PAX/Fuel_Truck_Short_VolvoFM_cargo.png",
+      "bytes": 219601,
+      "sha256": "c285be3d3c86d874279b440f744b901f4e74c3ed5ceeaf3a1b7618657bcf1f5d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_PAX/Fuel_Truck_Short_VolvoFM_cargo.png"
+    },
+    {
+      "path": "Models/Service/Service_PAX/services.xml",
+      "bytes": 1330,
+      "sha256": "80f2cfe55a897818d0f5bd7e6207cc53b6b9e6af44528488cd8ba5422cbdbc40",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_PAX/services.xml"
+    },
+    {
+      "path": "Models/Service/Service_PAX/services_2.ac",
+      "bytes": 507329,
+      "sha256": "74f90449b81edf23af0769d3790da70964ad279bcbceedcd704822b76559895d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_PAX/services_2.ac"
+    },
+    {
+      "path": "Models/Service/Service_PAX/ups.rgb",
+      "bytes": 292294,
+      "sha256": "73dd14440304f086060bff895f3aed35c7629d2fe73cc3017d416de421552545",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_PAX/ups.rgb"
+    },
+    {
+      "path": "Models/Service/Service_tech/generic-trailer-GPU.png",
+      "bytes": 193282,
+      "sha256": "7429e150ffeff35f327a48b57127cf3f767d31266cd47d6be63ed2bd8b8b462f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_tech/generic-trailer-GPU.png"
+    },
+    {
+      "path": "Models/Service/Service_tech/service_tech.ac",
+      "bytes": 876916,
+      "sha256": "feff86f755c4b3905d681254845a130286840c686c16092473eb5eb7e9ccab40",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_tech/service_tech.ac"
+    },
+    {
+      "path": "Models/Service/Service_tech/service_tech.xml",
+      "bytes": 1295,
+      "sha256": "1b313072311dab2439f4d940d7f126a93db60bd775697ff92f3388ccf2db4443",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_tech/service_tech.xml"
+    },
+    {
+      "path": "Models/Service/Service_tech/ups.rgb",
+      "bytes": 292294,
+      "sha256": "73dd14440304f086060bff895f3aed35c7629d2fe73cc3017d416de421552545",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_tech/ups.rgb"
+    },
+    {
+      "path": "Models/Service/Service_tech/van_silver.png",
+      "bytes": 19466,
+      "sha256": "3a5eeb47b156f7dbb3ebbb71b88eae6888df8f160afcb902234ac52b69d0524f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Service/Service_tech/van_silver.png"
+    },
+    {
+      "path": "Models/Trim.png",
+      "bytes": 109576,
+      "sha256": "ddd549eba7c485ba0021d40166013ec789f6ba731bd705cebfe75a39ce4fa764",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Trim.png"
+    },
+    {
+      "path": "Models/Trim_lettering.png",
+      "bytes": 112732,
+      "sha256": "8db42a9dfef50e80ef44cc60adc55a55b20391c11355de00aa417ac6bb2c5005",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/Trim_lettering.png"
+    },
+    {
+      "path": "Models/USA.png",
+      "bytes": 317014,
+      "sha256": "ed9efc3cf8937b4aa9a7e670304713f7ea933e562dd0e78b7df78fb43f409031",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/USA.png"
+    },
+    {
+      "path": "Models/adf.png",
+      "bytes": 250733,
+      "sha256": "d4751c543fa9396b6b4c248c3829fe07a8c5a2285689ec5c0deda147e3b18800",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/adf.png"
+    },
+    {
+      "path": "Models/arminair-Lights.png",
+      "bytes": 879933,
+      "sha256": "6b69a513738d5c64a7631708aed92ca6e46126c3e1befc11bdffad32b3f1b132",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/arminair-Lights.png"
+    },
+    {
+      "path": "Models/arminair.png",
+      "bytes": 869859,
+      "sha256": "3c6919323a1d6e2e7db4170248efa9c734a9dc2f71ed1c1ef6e9992e3cb867d8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/arminair.png"
+    },
+    {
+      "path": "Models/atc-wx.png",
+      "bytes": 276089,
+      "sha256": "e0c54caa9e0c87beb0778c8dfe73113c6fa14a5c20e6ce7dc9ccf3732b531c0d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/atc-wx.png"
+    },
+    {
+      "path": "Models/atc-wx_letering.png",
+      "bytes": 247147,
+      "sha256": "dd8f8a88a13829f5a99b86f360a711cdacebbb7e7f8498b8756f3bd54ac5bcd3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/atc-wx_letering.png"
+    },
+    {
+      "path": "Models/audio-pnl.png",
+      "bytes": 158239,
+      "sha256": "0c40828d3734e08e8d36ed512a881bd57ec68ab004c5714c60efef3e6c5bbbdb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/audio-pnl.png"
+    },
+    {
+      "path": "Models/audio-pnl_lettering.png",
+      "bytes": 105374,
+      "sha256": "459ececefe7945616a8067c6e59579544e98252d9832048091bccf48d785c86c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/audio-pnl_lettering.png"
+    },
+    {
+      "path": "Models/cargo_floor.png",
+      "bytes": 1427082,
+      "sha256": "831fbc708c64627b3bbc9035cf3d89c797482dedcf8f1ab64d20fbac3d522b0d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/cargo_floor.png"
+    },
+    {
+      "path": "Models/cargo_wall.png",
+      "bytes": 8005,
+      "sha256": "f7ddf1c00539ab5b5a4507650aeffbd773961184ae71e0eabb61b99502f09800",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/cargo_wall.png"
+    },
+    {
+      "path": "Models/ceiling.png",
+      "bytes": 102973,
+      "sha256": "26edb7f02a858cbe5ce833ec64a7f5d77e3e5e85c4f20382fd613c3800ce948d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/ceiling.png"
+    },
+    {
+      "path": "Models/ceiling_lettering1.png",
+      "bytes": 19714,
+      "sha256": "6769a0196482fc510d7a5d656995258025c719457ffe1fef6d41150b82dc6f21",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/ceiling_lettering1.png"
+    },
+    {
+      "path": "Models/ceiling_lettering2.png",
+      "bytes": 19087,
+      "sha256": "fad01f20314da36c6525c79db1fc19b5b55c69c8d95c23cb60fa817242edec7a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/ceiling_lettering2.png"
+    },
+    {
+      "path": "Models/chrome1.png",
+      "bytes": 6058,
+      "sha256": "c7ec00f81564d39977055c4a379c794f9afff2756c344383899cb2dd7f36afd2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/chrome1.png"
+    },
+    {
+      "path": "Models/chrome2.png",
+      "bytes": 5042,
+      "sha256": "d20c5d5b491f886252cc61399f2b09c066225bcb6cc6c49054ce420761a7c6d1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/chrome2.png"
+    },
+    {
+      "path": "Models/cocpit_lettering.png",
+      "bytes": 331515,
+      "sha256": "b4cdc77fa91e9ac9b0d719b9222637d13f6240819300bea09464854230987edd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/cocpit_lettering.png"
+    },
+    {
+      "path": "Models/compass.png",
+      "bytes": 13293,
+      "sha256": "bc7416a427c460aaf77529245a354614dc6149b83f2ee52b6a686f7a94ba4bfd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/compass.png"
+    },
+    {
+      "path": "Models/dich-pnl.png",
+      "bytes": 32514,
+      "sha256": "1c87f4afdc6974f97048e4c59c04150c2cbf5ac7f89079395d56b37f4ca1a02d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/dich-pnl.png"
+    },
+    {
+      "path": "Models/digits.png",
+      "bytes": 39053,
+      "sha256": "1aaecbba63640c4e42f6c6a566e2305cd9ef73b74d8407fed797d3fc8cdc65cb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/digits.png"
+    },
+    {
+      "path": "Models/entry.lights.png",
+      "bytes": 83058,
+      "sha256": "b75b3697a546f2a92930089a0fdf04f3a87a8e10d699bf6b8d2e4082b5660f4e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/entry.lights.png"
+    },
+    {
+      "path": "Models/entry.png",
+      "bytes": 246270,
+      "sha256": "6865ceee8341bd92bc8868d064dd47aa3c0e1881d70c22b91c3a7440aa530df2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/entry.png"
+    },
+    {
+      "path": "Models/evac_others.png",
+      "bytes": 69403,
+      "sha256": "4e28ea19cb0450d1919dd901909566899c521bbccb9ba820846bc73abe8fcbba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/evac_others.png"
+    },
+    {
+      "path": "Models/evac_others_lettering.png",
+      "bytes": 26897,
+      "sha256": "23acf089a24754187693e4425e7be48456665c140ea4f35200d2a0869dcd199b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/evac_others_lettering.png"
+    },
+    {
+      "path": "Models/fd1.png",
+      "bytes": 4041171,
+      "sha256": "3af6ccf4a9c84d122cfca753fdafc67418b85b91d8b27e8961e3daccae2e9d44",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/fd1.png"
+    },
+    {
+      "path": "Models/fd2.png",
+      "bytes": 2244002,
+      "sha256": "2e6591baf6006df1a54c1529a8cda1a678974aa0ea4a039d208ba493e8adf1e4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/fd2.png"
+    },
+    {
+      "path": "Models/fd3.png",
+      "bytes": 25237,
+      "sha256": "7ab205d932f6b79cd5d65b27ad2d71feb363323c9a56c9d8ab4aa11327cb4dea",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/fd3.png"
+    },
+    {
+      "path": "Models/fd3_lettering.png",
+      "bytes": 50662,
+      "sha256": "b6f35438aa989de0b85bfd128425ad9d99102df754b811acfb1316d91b58e65d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/fd3_lettering.png"
+    },
+    {
+      "path": "Models/flightdeck.ac",
+      "bytes": 5181806,
+      "sha256": "70bdba400a4b10457af3cf9be8278847cd69a7a7f9299e21cc0875003899d5d6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/flightdeck.ac"
+    },
+    {
+      "path": "Models/flightdeck.png",
+      "bytes": 363175,
+      "sha256": "a0893caddccab9743bae80bebe0c7b46515d32565bae2e2556fb06f07bae9ca4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/flightdeck.png"
+    },
+    {
+      "path": "Models/flightdeck.xml",
+      "bytes": 27231,
+      "sha256": "c21aca9311cb5450de2b364df763737d16212ab834d40626de0c8a3c18d8eafd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/flightdeck.xml"
+    },
+    {
+      "path": "Models/flightdeck01.png",
+      "bytes": 566251,
+      "sha256": "598cd0ef679081b6e2940b681ca5b995f167dd4a495b3b43848cc19447f5dd0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/flightdeck01.png"
+    },
+    {
+      "path": "Models/flightdeck3.png",
+      "bytes": 141116,
+      "sha256": "52ffa4e866e89cea6de8a33d9940e295c829e03bc14dce3a93eb2a4c0727ac77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/flightdeck3.png"
+    },
+    {
+      "path": "Models/floor.png",
+      "bytes": 551929,
+      "sha256": "15c69aa858ce6095b09efb2dae805d0d050c4d6de76dff7a941bbd4336fe65ed",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/floor.png"
+    },
+    {
+      "path": "Models/floor_emerlights1.png",
+      "bytes": 1934,
+      "sha256": "e9f200dde672ff8a3f858f23334110b359a91d11963333cc4f7a41de7b5cf4cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/floor_emerlights1.png"
+    },
+    {
+      "path": "Models/floor_emerlights2.png",
+      "bytes": 1954,
+      "sha256": "ca5a070940a3fb651ec668a4519b71e056447d4aa7265ff32ef9fac1afbda121",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/floor_emerlights2.png"
+    },
+    {
+      "path": "Models/gear-ctl.ac",
+      "bytes": 149299,
+      "sha256": "1c75680d6d6f22c5195f1fa1614f7b0b03832b7855528b87481bf361a865fd69",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/gear-ctl.ac"
+    },
+    {
+      "path": "Models/gear-ctl.xml",
+      "bytes": 14618,
+      "sha256": "486681f6e4c322ef00907a3c8fca2fcfd083ec05b7e89f50b31cacdf2a4f643d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/gear-ctl.xml"
+    },
+    {
+      "path": "Models/glareshield.png",
+      "bytes": 4344141,
+      "sha256": "a87456f1297b7514904aff5625c10d79f5a0dddad231489baee9ee1ac748f31d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/glareshield.png"
+    },
+    {
+      "path": "Models/ice.png",
+      "bytes": 157676,
+      "sha256": "ae3918583de9ce0d92102e73403bef9ab6aa480b4836230e44360382fed54093",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/ice.png"
+    },
+    {
+      "path": "Models/inb_DISP-lettering.png",
+      "bytes": 33308,
+      "sha256": "3bfb794369405beee9e988c03681d5452cdbe1cb6824a70835695b5d642f30e6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/inb_DISP-lettering.png"
+    },
+    {
+      "path": "Models/inb_DISP-template.png",
+      "bytes": 64969,
+      "sha256": "4b688c99a3a23236fa53fc34fd7de5d9161065e167d7910ad42327b7201ce6a0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/inb_DISP-template.png"
+    },
+    {
+      "path": "Models/inb_DISP.png",
+      "bytes": 78106,
+      "sha256": "d199c2ca812dfe0c37a9206152ae81816497a04994770e6b0d6aea13e79daef0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/inb_DISP.png"
+    },
+    {
+      "path": "Models/interior_ARA.png",
+      "bytes": 1431934,
+      "sha256": "26713c978a290bf1b70f8cf32231c8d3403b6005b783b2936d35ffcc1b42ac75",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/interior_ARA.png"
+    },
+    {
+      "path": "Models/leather.png",
+      "bytes": 518683,
+      "sha256": "c1abb121a67062f5da4e9ce29fb9b4ad9a6704407cdc280483716ae37c2d8756",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/leather.png"
+    },
+    {
+      "path": "Models/lettering.png",
+      "bytes": 201770,
+      "sha256": "de368f8683f570fcfc4957603f44b0955433f00c2b275633ab475e8d15bbef5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/lettering.png"
+    },
+    {
+      "path": "Models/light-cone.ac",
+      "bytes": 19758,
+      "sha256": "5ede92edb3d7566886f88c30073b992b00d051defd860fa81de08576c9503760",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/light-cone.ac"
+    },
+    {
+      "path": "Models/light-cone.xml",
+      "bytes": 219,
+      "sha256": "7cfda6f5f0f9dfcda81f6338f37c0439e7a656e4fd0c15ac206e3981894a9669",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/light-cone.xml"
+    },
+    {
+      "path": "Models/light.png",
+      "bytes": 16458,
+      "sha256": "6b3c213e00cc998deb9634fa2ef24f0562d0e5afb910d82c49d70050565f7592",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/light.png"
+    },
+    {
+      "path": "Models/light_spot.png",
+      "bytes": 1580,
+      "sha256": "1716e205a8a5554f9b5808a1ed7daa1d21f8a67c951fe1c2047190cf973ef54a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/light_spot.png"
+    },
+    {
+      "path": "Models/panel1.xml",
+      "bytes": 1498,
+      "sha256": "256201375a24a166af0b9a98bd0ed1cd0387a9a115b8815512fbe7f6120337a8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/panel1.xml"
+    },
+    {
+      "path": "Models/panel2.xml",
+      "bytes": 1511,
+      "sha256": "a8d1b20e648c57e24609415750f7bbaf12a1923b6653f9a6f075406895faa465",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/panel2.xml"
+    },
+    {
+      "path": "Models/pedestal.ac",
+      "bytes": 5723938,
+      "sha256": "1a27e1c7c1c9dba452c81145b8506b948d8d0087ec2402fa09180ac06ed98e0b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/pedestal.ac"
+    },
+    {
+      "path": "Models/pedestal.xml",
+      "bytes": 43392,
+      "sha256": "5a388cedeae33a6a1b6226b75986b4fe5251643c3b122698f48903f535f23e60",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/pedestal.xml"
+    },
+    {
+      "path": "Models/seat.png",
+      "bytes": 741733,
+      "sha256": "6a293a69d4eb2a5722b6c9afcb00d5dbbac467d3d7b463e490e7c500807e7d10",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/seat.png"
+    },
+    {
+      "path": "Models/seats.png",
+      "bytes": 543751,
+      "sha256": "e14f451d874c49d0b3534d29965dbca2ceffdf1649c559ac3de7e180f80ac62a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/seats.png"
+    },
+    {
+      "path": "Models/sidepanel.png",
+      "bytes": 15272,
+      "sha256": "ff3f2c25681911c1e217a51488c64c319a6c7a4284008e9183e429eb04d32ac4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/sidepanel.png"
+    },
+    {
+      "path": "Models/sidepanel_lettering.png",
+      "bytes": 14533,
+      "sha256": "345392145143562ef24bddd4d64b8060977125fad0dbffd61031a7afb6dbc2a8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/sidepanel_lettering.png"
+    },
+    {
+      "path": "Models/tasma_pitchtrim.png",
+      "bytes": 148229,
+      "sha256": "2c682bd077b7962298be4d673b4c6948acfff9ed14c53aa3bfa356cb693e24c2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/tasma_pitchtrim.png"
+    },
+    {
+      "path": "Models/transparent.png",
+      "bytes": 173117,
+      "sha256": "c9cf05bfeafc3a5a0d904616b7c372c21496bdcb77c17c18d6733f7447418906",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/transparent.png"
+    },
+    {
+      "path": "Models/wall.png",
+      "bytes": 39803,
+      "sha256": "3bbc90f52bd54baf80b2c8a5b79a703d1a721ad5a87c4bd2820b139d3af45e9d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/wall.png"
+    },
+    {
+      "path": "Models/wood.PNG",
+      "bytes": 157277,
+      "sha256": "1b63db516681c4bc0a41c8dde31abf09a2d1801f77245e10cde97f27a8153d6a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/777-300/5830a22e40595be91f9f0e64e84651a3f8014a13/Models/wood.PNG"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/777-300",
+    "commit": "5830a22e40595be91f9f0e64e84651a3f8014a13",
+    "components": [
+      {
+        "path": "Models/777-300.ac",
+        "offsets": {}
+      }
+    ]
+  }
+}

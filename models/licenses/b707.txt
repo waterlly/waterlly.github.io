@@ -1,0 +1,9 @@
+{
+  "id": "b707",
+  "source": "/Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/b707/glTF2/707.glb",
+  "modelPath": "/models/B707.glb",
+  "bytes": 1423152,
+  "sha256": "8065204f76b03329909d10f680a531268b6534f1f6cba148400aae6e56553f6b",
+  "license": "/Users/lee/Documents/3d-model/FlightAirMap-3dmodels-master/b707/LICENCE.txt"
+}
+Original license bytes preserved in b707-COPYING.txt

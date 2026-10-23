@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": "OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "retrievedAt": "2026-10-21T10:14:28.468675+00:00",
+  "airports": [
+    {
+      "code": "RJTT",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=139.765,35.54,139.795,35.56",
+      "sha256": "d74053da55b707e1d910707c3ffb943deb7fbca04a4583199ec1c710c181341c"
+    },
+    {
+      "code": "ZBAA",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=116.578,40.056,116.627,40.098",
+      "sha256": "97dcdee4a65d432862929e66881b4bba449c0879d22750d1639b45edf4bb27b0"
+    },
+    {
+      "code": "KSEA",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-122.313,47.427,-122.289,47.464",
+      "sha256": "caa2e548676170da0c646e09fe16499b30330ed73c42a08ea659c456a9a0f952"
+    },
+    {
+      "code": "LFPG",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.535,49.002,2.588,49.025",
+      "sha256": "bda76602eeb3056248fc37e3697f0206d1a9eac963f8cab90c0c736354a1ec9a"
+    },
+    {
+      "code": "OMDB",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=55.356,25.24,55.391,25.259",
+      "sha256": "eb64a2bec4a5925a042e04a3587de643305a44838ee089467fef13c0b9b973d2"
+    }
+  ]
+}

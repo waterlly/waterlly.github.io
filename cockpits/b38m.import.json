@@ -1,0 +1,679 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b38m.glb",
+  "bytes": 59488896,
+  "triangles": 928640,
+  "nodes": 85,
+  "meshes": 81,
+  "images": 77,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    }
+  ],
+  "sourceMeshes": 1126,
+  "drawGroups": 81,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b38m/Models/Cockpit/cockpit.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b38m/Models/Cockpit/cockpit.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b38m/Models/Cockpit/Overhead/OH-Panel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b38m/Models/Cockpit/Overhead/OH-Panel.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    -0.3
+  ],
+  "sourceViewpoint": {
+    "source": "737-8-set.xml",
+    "position": [
+      -0.51,
+      1.1,
+      -17.98
+    ],
+    "pitchDeg": -16,
+    "fovDeg": 65
+  },
+  "sourceFiles": [
+    {
+      "path": "737-8-set.xml",
+      "scope": "aircraft",
+      "sha256": "27282a20f3d21acbf28bd47764851f289ddc1ee801aed7fbef80dddfc975980c",
+      "bytes": 14406,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/737-8-set.xml"
+    },
+    {
+      "path": "Models/737-10.xml",
+      "scope": "aircraft",
+      "sha256": "4e395f1684a590f2fa25fa8338c994d4178ca4e5cf196eaf9ab6a8b0837a52ae",
+      "bytes": 35607,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/737-10.xml"
+    },
+    {
+      "path": "Models/Cockpit/annunciator-lit.png",
+      "scope": "aircraft",
+      "sha256": "e14373b83bb867c05d2f7d847c520b5c7e917f7d944152342f206c4bfca78096",
+      "bytes": 35143,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/annunciator-lit.png"
+    },
+    {
+      "path": "Models/Cockpit/annunciator-off.png",
+      "scope": "aircraft",
+      "sha256": "dad119e8b1b3d739536a4536ce50def873f89d382cf29f283bdd50236a71b752",
+      "bytes": 7892,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/annunciator-off.png"
+    },
+    {
+      "path": "Models/Cockpit/Black.png",
+      "scope": "aircraft",
+      "sha256": "7f3b64d2ed8b0384662d50dc48b88af90cc55802987da407ff7c579630c172e1",
+      "bytes": 994,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Black.png"
+    },
+    {
+      "path": "Models/Cockpit/body.png",
+      "scope": "aircraft",
+      "sha256": "aef9b49c1e133fc263370181aebd375393e80180377cd39bfef68f52324e8e6d",
+      "bytes": 1957,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/body.png"
+    },
+    {
+      "path": "Models/Cockpit/brake-press.png",
+      "scope": "aircraft",
+      "sha256": "f64726cd97eb1295abaa5cf54eac195b2f4775d4e2c7f6d0b121e2a0164c888d",
+      "bytes": 48905,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/brake-press.png"
+    },
+    {
+      "path": "Models/Cockpit/cockpit.ac",
+      "scope": "aircraft",
+      "sha256": "3a7465a53474c4899622161f7efa6749151336bb2410d0c2edd0d192be1c24bd",
+      "bytes": 48271116,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/cockpit.ac"
+    },
+    {
+      "path": "Models/Cockpit/cockpit.xml",
+      "scope": "aircraft",
+      "sha256": "239f78fcc2b07df22acc39c062bbfcfb948c11847b7c1551f49bc1b5e3d7c9bd",
+      "bytes": 62144,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/cockpit.xml"
+    },
+    {
+      "path": "Models/Cockpit/crs-knob.png",
+      "scope": "aircraft",
+      "sha256": "eaec9c90c91f65b2b4d186fa70430d234675a510bc71c62ab846e37d204042c7",
+      "bytes": 3586,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/crs-knob.png"
+    },
+    {
+      "path": "Models/Cockpit/ECAM.png",
+      "scope": "aircraft",
+      "sha256": "9684392fbd1daef2cb7a294b1a154b91a442a5aa225adcf09c927b0a08797d0b",
+      "bytes": 750506,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/ECAM.png"
+    },
+    {
+      "path": "Models/Cockpit/EFIS-base.png",
+      "scope": "aircraft",
+      "sha256": "1eece4b6baea40e994c0f8e101ecda623718b370991b554e1b703e044fcaeee6",
+      "bytes": 71065,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/EFIS-base.png"
+    },
+    {
+      "path": "Models/Cockpit/EFIS-button.png",
+      "scope": "aircraft",
+      "sha256": "0555cdc62ce0dfb7215c6e213e89f4c08e970e4d488e52db94d7faca4b6bbf05",
+      "bytes": 12401,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/EFIS-button.png"
+    },
+    {
+      "path": "Models/Cockpit/EFIS-knobs.png",
+      "scope": "aircraft",
+      "sha256": "8a707e89c35776d3240ee792dd4214cbe5faee2e082d40df35deeb85a25c033b",
+      "bytes": 31775,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/EFIS-knobs.png"
+    },
+    {
+      "path": "Models/Cockpit/fire-extinguish.png",
+      "scope": "aircraft",
+      "sha256": "d69b11d54a229fe47a7f46cba554efb6b0e1641f87af02b2fb616721bb343976",
+      "bytes": 70043,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/fire-extinguish.png"
+    },
+    {
+      "path": "Models/Cockpit/FMC GLARE_1.png",
+      "scope": "aircraft",
+      "sha256": "1079268d22e0288ca5b1249aeb238f50cb9da3b4021eda6530bac28cb9b861b1",
+      "bytes": 124639,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/FMC%20GLARE_1.png"
+    },
+    {
+      "path": "Models/Cockpit/FMC GLARE_2.png",
+      "scope": "aircraft",
+      "sha256": "8622f1ce7dbc22fd49a1cdf9a473219d7a3da2b31057c0d638394629946cb222",
+      "bytes": 210144,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/FMC%20GLARE_2.png"
+    },
+    {
+      "path": "Models/Cockpit/FMC_Annunicator.png",
+      "scope": "aircraft",
+      "sha256": "ae816da84cb2fc4ba3f493e5dbe2074fc00492dc7bb549b88d3afdf29a8015c9",
+      "bytes": 230574,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/FMC_Annunicator.png"
+    },
+    {
+      "path": "Models/Cockpit/FMC_GLARE_3.png",
+      "scope": "aircraft",
+      "sha256": "fb6d739a29425210351157f83dbc87b534492bb2596bbb3b18d9ad3046bb7738",
+      "bytes": 11456,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/FMC_GLARE_3.png"
+    },
+    {
+      "path": "Models/Cockpit/FMC_Screw.png",
+      "scope": "aircraft",
+      "sha256": "ce19408a46143aefdda93f94686969a14526af78c848a578a7ec38dd7936ecfa",
+      "bytes": 1959,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/FMC_Screw.png"
+    },
+    {
+      "path": "Models/Cockpit/forwardpanel-state-off.png",
+      "scope": "aircraft",
+      "sha256": "57fea9ac055e7c7f245e98c0c6b81dff2fb81a91cded9d9c776d0c25af4f6fae",
+      "bytes": 110281,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/forwardpanel-state-off.png"
+    },
+    {
+      "path": "Models/Cockpit/forwardpanel-state-on.png",
+      "scope": "aircraft",
+      "sha256": "4528ff014a3edd16b745c7e9b0627dea9c56eb9d3ff6115987644d0084f3ef9f",
+      "bytes": 275699,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/forwardpanel-state-on.png"
+    },
+    {
+      "path": "Models/Cockpit/fuel-ind.png",
+      "scope": "aircraft",
+      "sha256": "68003734e52947c9dc5f58d2a5cac2793067e15cc0b8a03e841dc483eca19a4f",
+      "bytes": 10397,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/fuel-ind.png"
+    },
+    {
+      "path": "Models/Cockpit/fwd-pedestal-panel.png",
+      "scope": "aircraft",
+      "sha256": "1de56939483bbd02fd83a10ef547c5897d90bd85332d89a3fa854a04ddfc89c7",
+      "bytes": 170647,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/fwd-pedestal-panel.png"
+    },
+    {
+      "path": "Models/Cockpit/fwd-pedestal.png",
+      "scope": "aircraft",
+      "sha256": "c34100fa5bfa436b3fa4a7579196d0e413311f8cbc153766f7de650da1256d62",
+      "bytes": 1922,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/fwd-pedestal.png"
+    },
+    {
+      "path": "Models/Cockpit/green.png",
+      "scope": "aircraft",
+      "sha256": "e495b6535e4cf0353c0508ce137b434a6de4578a21dc261ebd6cfd584774fabc",
+      "bytes": 118,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/green.png"
+    },
+    {
+      "path": "Models/Cockpit/Knob2.png",
+      "scope": "aircraft",
+      "sha256": "c15fe0dfa2b7c3354b868fda782498f01199e98bc4c68aa774b7a88c68fc5b4e",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Knob2.png"
+    },
+    {
+      "path": "Models/Cockpit/lever.png",
+      "scope": "aircraft",
+      "sha256": "be79eb39b23f09bb3daa609a6cf63517cf1c02b1eeca6e495110bcecb25c5f20",
+      "bytes": 797,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/lever.png"
+    },
+    {
+      "path": "Models/Cockpit/mcp-base.png",
+      "scope": "aircraft",
+      "sha256": "ebb7693594d18d05a57cd15d222136a45b92525f03a34dd99a0bd485e272333a",
+      "bytes": 163678,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/mcp-base.png"
+    },
+    {
+      "path": "Models/Cockpit/mcp-button.png",
+      "scope": "aircraft",
+      "sha256": "370b1c82f362d425bb999f01c88dc961b9577af9cc53b8eb136855a94250f843",
+      "bytes": 708,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/mcp-button.png"
+    },
+    {
+      "path": "Models/Cockpit/MCP-buttons.png",
+      "scope": "aircraft",
+      "sha256": "2ce5a3ff99a0caa6e2ba1b5485bedcd7c8c62e979f5aae586bf41c425f484ebb",
+      "bytes": 48937,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/MCP-buttons.png"
+    },
+    {
+      "path": "Models/Cockpit/mcp-enabled.png",
+      "scope": "aircraft",
+      "sha256": "5cd98b7fb77663a095a55a86b177b63c1a2dd8cdaee4378f51036795f2133be2",
+      "bytes": 177,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/mcp-enabled.png"
+    },
+    {
+      "path": "Models/Cockpit/MCWS.png",
+      "scope": "aircraft",
+      "sha256": "bffb36f38b754242f1369f89c9867481505515fe258dc655dd9ae17f52f354f5",
+      "bytes": 253041,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/MCWS.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/aft-overhead-lettering.png",
+      "scope": "aircraft",
+      "sha256": "0c9bdc6f1a9c1a31473dd498c9210295ab845921acea0f30d5313f8b42a80840",
+      "bytes": 117114,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/aft-overhead-lettering.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/aft-overhead-state-off.png",
+      "scope": "aircraft",
+      "sha256": "965abde37bf98b2839281b4f0d31c244e89cf5922579f5dc260c0b54de3ffc82",
+      "bytes": 57273,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/aft-overhead-state-off.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/aft-overhead-state-on.png",
+      "scope": "aircraft",
+      "sha256": "9ddfd346a258e0cdb641ae71c1c59c3c8e65472b479ba9c3d88d7ab8945922ce",
+      "bytes": 171591,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/aft-overhead-state-on.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/air-cond-guage.png",
+      "scope": "aircraft",
+      "sha256": "ffdd278eb4894a61a7656b004077c68e21544ae3a7c1d7f96c16c31830d6d8fe",
+      "bytes": 13528,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/air-cond-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/bleed-guage.png",
+      "scope": "aircraft",
+      "sha256": "83666970225bf89ade83b11f51a39169f63878b934e2c7a5b3ad6ffca0f7c3a4",
+      "bytes": 8717,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/bleed-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/cabin-alt-guage.png",
+      "scope": "aircraft",
+      "sha256": "aa7a8480fdce0d50b421929d71e9cc368b78c60ff1a527cd72769a69fd06b721",
+      "bytes": 23686,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/cabin-alt-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/cabin-climb-guage.png",
+      "scope": "aircraft",
+      "sha256": "902eac31dcb8dc3d25075449b0639a028a3f3866abed7f7eff56450610dc20b3",
+      "bytes": 14905,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/cabin-climb-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/ECAM.png",
+      "scope": "aircraft",
+      "sha256": "8409f1e77ef63690599f45ecece8e09fed8dca17ef17cb11bd0edf806d2c7a58",
+      "bytes": 686148,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/ECAM.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/forwardpanel-state-off.png",
+      "scope": "aircraft",
+      "sha256": "57fea9ac055e7c7f245e98c0c6b81dff2fb81a91cded9d9c776d0c25af4f6fae",
+      "bytes": 110281,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/forwardpanel-state-off.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/forwardpanel-state-on.png",
+      "scope": "aircraft",
+      "sha256": "4528ff014a3edd16b745c7e9b0627dea9c56eb9d3ff6115987644d0084f3ef9f",
+      "bytes": 275699,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/forwardpanel-state-on.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/fuel-guage.png",
+      "scope": "aircraft",
+      "sha256": "ce04597ae52cc04ca784e2b8007f58e17ad07a152bfc32988bf7ba60259f132f",
+      "bytes": 11591,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/fuel-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/fwd-overhead-lettering.png",
+      "scope": "aircraft",
+      "sha256": "8a8752a118adc2151de9be8ef0143a8ffe5eaeb6f2123e0cd6edf408cbf811bf",
+      "bytes": 572933,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/fwd-overhead-lettering.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/fwd-overhead-marks.png",
+      "scope": "aircraft",
+      "sha256": "68c6001885c6074a432e34beef4cbc07c5d918212e1e25ae8b6ffb8fea1b6503",
+      "bytes": 21767,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/fwd-overhead-marks.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/fwd-overhead-marks2.png",
+      "scope": "aircraft",
+      "sha256": "23c6726abcb7b74ca37f0b7152477844b2a92dc8902094b89925b817c9c4e767",
+      "bytes": 35926,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/fwd-overhead-marks2.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/guard-switch-red.png",
+      "scope": "aircraft",
+      "sha256": "f29b418a24f02b2d5ca70a226f032b8f52d42d3936c1c51a38bd4059370f51c4",
+      "bytes": 564,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/guard-switch-red.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/landing-lights.png",
+      "scope": "aircraft",
+      "sha256": "ea757a2a040838c44c1e3045b57f6d08d6591ebbe8d4c8dd08e94ce7b727ddcf",
+      "bytes": 250,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/landing-lights.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/le-devices.png",
+      "scope": "aircraft",
+      "sha256": "d761a5e20f3bc51ec40988098dd7237c1542ec20114794fa7a848053718ef77f",
+      "bytes": 740,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/le-devices.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/OH-Panel.ac",
+      "scope": "aircraft",
+      "sha256": "5baf4d30aac5d132acd2672083ffe670c724124a3f93f34d35cd297f224d2235",
+      "bytes": 11986971,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/OH-Panel.ac"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/OH-Panel.xml",
+      "scope": "aircraft",
+      "sha256": "b8021ffa98f1bc667a413b5ca0be7475d99295301514c15c274dff529a629795",
+      "bytes": 46303,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/OH-Panel.xml"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/overhead-off-state.png",
+      "scope": "aircraft",
+      "sha256": "a6fb8a791131874aa84654466256b4e7d8a8ecc4dd7a06c0611294966ed5b15a",
+      "bytes": 407559,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/overhead-off-state.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/overhead-state-on-test.png",
+      "scope": "aircraft",
+      "sha256": "be9826c981e6b5225c8b1010998d8c7bec645d1c96dc40656d2a81d8fc9a384a",
+      "bytes": 1254510,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/overhead-state-on-test.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/overhead-state-on2.png",
+      "scope": "aircraft",
+      "sha256": "430acb7c573e63b11ca904e00e578b145d42eca71dcb25e0eb0c678ccd09dd1e",
+      "bytes": 455498,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/overhead-state-on2.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/pass-oxy-guage.png",
+      "scope": "aircraft",
+      "sha256": "418bd025c2f436439e3fbfa71073a6b94ecf1894db61ebbb5cb572a7bc035599",
+      "bytes": 9372,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/pass-oxy-guage.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/socket.png",
+      "scope": "aircraft",
+      "sha256": "186e43739342cf146c4c5d407fd10aa28342e90b2cecd317ca57ff3e80b4e535",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/socket.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/switch.png",
+      "scope": "aircraft",
+      "sha256": "078bf7ef10231cb462a4b96d26c818d7eecc006b2af76aa99d6c1f37cccc1aa7",
+      "bytes": 401,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/switch.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/texture1.png",
+      "scope": "aircraft",
+      "sha256": "e3e5d8413c2afa3a840bf54d4aa370d8e901a14085c901e08b22a94e5895e16c",
+      "bytes": 177,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/texture1.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/texture2.png",
+      "scope": "aircraft",
+      "sha256": "404e35db177def97a6716a132776e2b04f3957b975328ac97a65dfe748788ee5",
+      "bytes": 177,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/texture2.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/texture3.png",
+      "scope": "aircraft",
+      "sha256": "c2e5c6f9869e9fe36f3aaad5d561789c381cf2aa7f54cb669f85a14ea3952301",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/texture3.png"
+    },
+    {
+      "path": "Models/Cockpit/Overhead/texture6.png",
+      "scope": "aircraft",
+      "sha256": "186e43739342cf146c4c5d407fd10aa28342e90b2cecd317ca57ff3e80b4e535",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/Overhead/texture6.png"
+    },
+    {
+      "path": "Models/Cockpit/parking-brake.png",
+      "scope": "aircraft",
+      "sha256": "89a10697ca49b647a605e98584bcb9404d350fa58902e92daaa6333b08125d6e",
+      "bytes": 28674,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/parking-brake.png"
+    },
+    {
+      "path": "Models/Cockpit/pd-light-off.png",
+      "scope": "aircraft",
+      "sha256": "9e5eeb3cec37e7accfbf4405f72684cec985bc62ce349690c2a3a2fac44dd768",
+      "bytes": 52932,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/pd-light-off.png"
+    },
+    {
+      "path": "Models/Cockpit/pd-light-on.png",
+      "scope": "aircraft",
+      "sha256": "b4d6eaf70b2be0719d46e287785b5c829f969c2f13bf6358355993106a464091",
+      "bytes": 86428,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/pd-light-on.png"
+    },
+    {
+      "path": "Models/Cockpit/pedestal-aft.png",
+      "scope": "aircraft",
+      "sha256": "db1c342fede8dbdfa05ee1c8b7ffd55e3a5662833e0140981c4047434f97a594",
+      "bytes": 243328,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/pedestal-aft.png"
+    },
+    {
+      "path": "Models/Cockpit/push-lever.png",
+      "scope": "aircraft",
+      "sha256": "27424422492d48a7105e0b4c307f4910bff4dc73718eafd1c39f9de7108b0113",
+      "bytes": 91279,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/push-lever.png"
+    },
+    {
+      "path": "Models/Cockpit/radio-vol.png",
+      "scope": "aircraft",
+      "sha256": "b5cd641c6e1fb470cd758996128dd833b92cfa312a6de0b8f288e92116b55256",
+      "bytes": 4597,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/radio-vol.png"
+    },
+    {
+      "path": "Models/Cockpit/rudder-trim-knob.png",
+      "scope": "aircraft",
+      "sha256": "2f616e75ba07496118716c696ff7bb1fc8947c1d87043b28c492d3def3a48a90",
+      "bytes": 7972,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/rudder-trim-knob.png"
+    },
+    {
+      "path": "Models/Cockpit/shell-tex.png",
+      "scope": "aircraft",
+      "sha256": "d4bee322e8fbaa9b4ac8d51afdb58905480f182a5ca781f6fb105b0673dfeb1b",
+      "bytes": 193,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/shell-tex.png"
+    },
+    {
+      "path": "Models/Cockpit/socket.png",
+      "scope": "aircraft",
+      "sha256": "c3194f87666ab4815460d8472a5d0735dac8fcfa2d0dd1529204e151e9ef47c4",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/socket.png"
+    },
+    {
+      "path": "Models/Cockpit/start-knob.png",
+      "scope": "aircraft",
+      "sha256": "ebe5f8f74d2e90714767c2ea7a8b1a695415c55cdbc10e72d9915ddb5c35d484",
+      "bytes": 20558,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/start-knob.png"
+    },
+    {
+      "path": "Models/Cockpit/tex-narrow.png",
+      "scope": "aircraft",
+      "sha256": "63d5a4fd537c3f1759c5732af5663173fe678386e2425a50b1dbbec96309ffe2",
+      "bytes": 141,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/tex-narrow.png"
+    },
+    {
+      "path": "Models/Cockpit/tex-wide.png",
+      "scope": "aircraft",
+      "sha256": "d5dd1014e21543fef472c410167a6215f03cbdd40f497368716bc0bc745bdab4",
+      "bytes": 4224,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/tex-wide.png"
+    },
+    {
+      "path": "Models/Cockpit/texture1.png",
+      "scope": "aircraft",
+      "sha256": "bf2abfd8854c6f611d7f298f5dc1e24a77126bc526eba1b0b3798f771fc2603e",
+      "bytes": 177,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/texture1.png"
+    },
+    {
+      "path": "Models/Cockpit/texture2.png",
+      "scope": "aircraft",
+      "sha256": "dcbb36eafdad26b7e8a44b15bdb96b97e7e1b1104471e2dda505ad090b9eeb6c",
+      "bytes": 177,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/texture2.png"
+    },
+    {
+      "path": "Models/Cockpit/texture3.png",
+      "scope": "aircraft",
+      "sha256": "cb679dead066fc906d854aeb3df29586131b11d7f28e4658c79e65e393ef64e5",
+      "bytes": 178,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/texture3.png"
+    },
+    {
+      "path": "Models/Cockpit/texture4.png",
+      "scope": "aircraft",
+      "sha256": "c2bc92d4249ebbbb1f89372b6ca44a9b29aa05aae13000474a0746e5004aa3e6",
+      "bytes": 118,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/texture4.png"
+    },
+    {
+      "path": "Models/Cockpit/texture6.png",
+      "scope": "aircraft",
+      "sha256": "71327d4107106f0c626b4c82a98b832c8b12a1deea3cf12386677457ed198334",
+      "bytes": 341,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/texture6.png"
+    },
+    {
+      "path": "Models/Cockpit/throttle-quad.png",
+      "scope": "aircraft",
+      "sha256": "b5db05f6a4209bab17a3cd90d8791eef0d11fdf3e4cb8e2287c0634c7e043eb7",
+      "bytes": 23407,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/throttle-quad.png"
+    },
+    {
+      "path": "Models/Cockpit/trim.png",
+      "scope": "aircraft",
+      "sha256": "644fb36152742b4cf2465d0bfb08cdff020b26a70dfe7a26f3464b40f777a10b",
+      "bytes": 2049,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/trim.png"
+    },
+    {
+      "path": "Models/Cockpit/window-trans.png",
+      "scope": "aircraft",
+      "sha256": "da138754a5ea7a2e9b5710cbede25e6a4562f60ec95eaaa7c0c6b9c0341e3287",
+      "bytes": 173,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/window-trans.png"
+    },
+    {
+      "path": "Models/Cockpit/yoke.png",
+      "scope": "aircraft",
+      "sha256": "385f450d9c3edd479a2b832c601953b23e4278fb0f0a68585d9bb793f95024d4",
+      "bytes": 129682,
+      "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Cockpit/yoke.png"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/REXO-77/737-MAX",
+    "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+    "entry": "Models/Cockpit/cockpit.xml",
+    "sourceDirectory": "b38m",
+    "viewpoint": {
+      "source": "737-8-set.xml",
+      "position": [
+        -0.51,
+        1.1,
+        -17.98
+      ],
+      "pitchDeg": -16,
+      "fovDeg": 65
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      -0.3
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 65,
+      "lookPitch": -0.17453292519943295
+    },
+    "parentTransformChain": [
+      {
+        "source": "Models/737-10.xml#model(Aircraft/737-MAX/Models/Cockpit/cockpit.xml)",
+        "transform": {
+          "x-m": -18.346929,
+          "z-m": 0.81421
+        }
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}

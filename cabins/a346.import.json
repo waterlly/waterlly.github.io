@@ -1,0 +1,194 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/a346.glb",
+  "bytes": 4346464,
+  "triangles": 72119,
+  "nodes": 7,
+  "meshes": 6,
+  "images": 6,
+  "instruments": [],
+  "omittedNodes": [],
+  "sourceMeshes": 1369,
+  "drawGroups": 6,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/livery-fleet-2026-10-22/a346/.skybound-cabin-a346.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/livery-fleet-2026-10-22/a346/Models/interior/interior.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/livery-fleet-2026-10-22/a346/Models/interior/cabin.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/livery-fleet-2026-10-22/a346/Models/interior/seating.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    0,
+    0.8,
+    4
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-a346.xml",
+    "sha256": "e94d82b5fcb0f519214e4225c16d44f3f2a87f53e3eca42c7185ebd1ac553145",
+    "text": "<PropertyList><model><path>Models/interior/interior.xml</path><offsets><z-m>-0.3</z-m></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "A340-600HGW-set.xml",
+      "bytes": 37628,
+      "sha256": "bde9da296df52a9a54158c3cebd611906a2c50e69541f75a38fa616e1f1641bb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/A340-600HGW-set.xml"
+    },
+    {
+      "path": "A340-600HGW.xml",
+      "bytes": 10714,
+      "sha256": "459edfa14b7cb3ee2fd22e882ef0d67311d5e529914fa4ba55b5b30c4d5b8abb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/A340-600HGW.xml"
+    },
+    {
+      "path": "Models/A340-600HGW (copia).ac",
+      "bytes": 3178939,
+      "sha256": "388b3ba47a1942b7bc14b28971f89fd283d6611e8976dc9ed2c0e7fb88055eb1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW%20(copia).ac"
+    },
+    {
+      "path": "Models/A340-600HGW-avion.xml",
+      "bytes": 53579,
+      "sha256": "3e278f97ec6bb81e66bfe2fbbe2bbb086c2558cbe7c90bebdc9669b5e90a3229",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW-avion.xml"
+    },
+    {
+      "path": "Models/A340-600HGW.ac",
+      "bytes": 3179025,
+      "sha256": "d73035bf526c87cb7220f751cd8843144b867f3e4bf35bd293084801c53783cf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW.ac"
+    },
+    {
+      "path": "Models/A340-600HGW.xml",
+      "bytes": 9799,
+      "sha256": "c04f77cc331e60da01684ef06b7c4e48fbad4c4ffd2406bff0f2d1faf9b794f7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/A340-600HGW.xml"
+    },
+    {
+      "path": "Models/Default.png",
+      "bytes": 470988,
+      "sha256": "446986bbbe77aef449223e3b4bd63372c2f309bd88058c3b5d3af3e0e652c525",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Default.png"
+    },
+    {
+      "path": "Models/Liveries/CPA.png",
+      "bytes": 468526,
+      "sha256": "986396a6c132dbef845d43a1fa5db0ef9392a661cef5f4b76c855fff898a4a27",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/CPA.png"
+    },
+    {
+      "path": "Models/Liveries/CPA.xml",
+      "bytes": 240,
+      "sha256": "d876171c98894f8189b0b9bd7eaf29682b1e5ece9c0dfd96efe31d414166b87c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/CPA.xml"
+    },
+    {
+      "path": "Models/Liveries/DLH.png",
+      "bytes": 393574,
+      "sha256": "0713204f20a5528a503b7dac045f9945c76b77137671d49ddcef13baa80bcb62",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/DLH.png"
+    },
+    {
+      "path": "Models/Liveries/DLH.xml",
+      "bytes": 235,
+      "sha256": "4812ec2deab0ee01ac9838921aec069fee8372e28e95a470597f810baa5f65e5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/Liveries/DLH.xml"
+    },
+    {
+      "path": "Models/enginefire.xml",
+      "bytes": 1995,
+      "sha256": "8db04a2273624084f87e71942272bbf826d95e4554e30f6a983e2768f73fcc3e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/enginefire.xml"
+    },
+    {
+      "path": "Models/fireball.xml",
+      "bytes": 1982,
+      "sha256": "615b601c4a75a7fb9424cee1b9fa2c575de03c1a693d471a448161032736a4ec",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/fireball.xml"
+    },
+    {
+      "path": "Models/gear.png",
+      "bytes": 118612,
+      "sha256": "a9471392d842a6b88e0823b93f0847a95221910f78216555747fcd2ce7c26521",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/gear.png"
+    },
+    {
+      "path": "Models/interior/Interior.png",
+      "bytes": 466285,
+      "sha256": "d9040327474e7c134ef987ea42a4799daa5a305fee24b83a3714bc17608a328d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/Interior.png"
+    },
+    {
+      "path": "Models/interior/Interior2.png",
+      "bytes": 345737,
+      "sha256": "53d3b54c8d7cf6b39ff0f002a92d32363e81ba9ab5dee5104a77801b4b46f481",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/Interior2.png"
+    },
+    {
+      "path": "Models/interior/cabin.ac",
+      "bytes": 1086810,
+      "sha256": "364ce8e3f259f29cf6c047cc0d3f442cc555a647dc5004437934f248935ec695",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/cabin.ac"
+    },
+    {
+      "path": "Models/interior/fabric.png",
+      "bytes": 116039,
+      "sha256": "d900410bd5d45756e35fc9338e72801437edea3bdc5382cfb52d80f8d0e8419e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/fabric.png"
+    },
+    {
+      "path": "Models/interior/interior.xml",
+      "bytes": 5785,
+      "sha256": "225b1b7acac0b2cb88ce68a7cba51613523595e376460c3edab2bc19f4b74d04",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/interior.xml"
+    },
+    {
+      "path": "Models/interior/seating.ac",
+      "bytes": 182943,
+      "sha256": "1be68f3cc9bc4c9ce7e143523749ef155e1f9920e161b86828b237ef3e012d0e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/seating.ac"
+    },
+    {
+      "path": "Models/interior/seperator.png",
+      "bytes": 24308,
+      "sha256": "5e5921ac80db87d846339fb68f1f1eb4980443642d05cdee33b1aa23f903c420",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/seperator.png"
+    },
+    {
+      "path": "Models/interior/seperator1.png",
+      "bytes": 25392,
+      "sha256": "0cedcd6e06e5b14925fa1040d2a36c83e001af57a9b7455992b83571455c5c52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/seperator1.png"
+    },
+    {
+      "path": "Models/interior/seperator2.png",
+      "bytes": 21370,
+      "sha256": "a315d5432030967e8a64c9196c26bda2f56b66fdf4b11ede0b0939a6c19b9b76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/interior/seperator2.png"
+    },
+    {
+      "path": "Models/untitled.ac",
+      "bytes": 2324228,
+      "sha256": "0703f033a1b77e75e0cca92a2ce20081bbf653b834d8f48a79b8fdca578225a7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/untitled.ac"
+    },
+    {
+      "path": "Models/untitleddown.ac",
+      "bytes": 853622,
+      "sha256": "ec1d4cc667f05207f3ecb2e5b01206d744cbb8c183eed4f0bfe475954e9195e4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-600HGW/126f2329a711f6cd5ed4aa1dec893279801c6aa4/Models/untitleddown.ac"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A340-600HGW",
+    "commit": "126f2329a711f6cd5ed4aa1dec893279801c6aa4",
+    "components": [
+      {
+        "path": "Models/interior/interior.xml",
+        "offsets": {
+          "z-m": -0.3
+        }
+      }
+    ]
+  }
+}

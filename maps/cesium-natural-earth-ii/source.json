@@ -1,0 +1,272 @@
+{
+  "name": "Natural Earth II, bundled with CesiumJS",
+  "repository": "https://github.com/CesiumGS/cesium",
+  "commit": "e1d443e8fdaae0535407b96f7560426583483424",
+  "upstreamDirectory": "packages/engine/Source/Assets/Textures/NaturalEarthII/",
+  "downloadedAt": "2026-10-06T01:26:11.757Z",
+  "type": "low-resolution global imagery",
+  "terrainElevation": false,
+  "maxLevel": 2,
+  "tileCount": 42,
+  "bytes": 475959,
+  "files": [
+    {
+      "path": "0/0/0.jpg",
+      "bytes": 12067,
+      "gitBlobSha": "0cad64662c7fa9980eebcf2204b25004032851aa",
+      "sha256": "919864197d2f27a165420331d47458614a056c36dcdf306ce89ed2248bd0041d"
+    },
+    {
+      "path": "0/1/0.jpg",
+      "bytes": 14055,
+      "gitBlobSha": "7e63bd63e15e41ae5cc6de1cf5c9d16ce6a3ac48",
+      "sha256": "f336509772ab57ee14e15c72579dd9fb0297c779c853d4c65db04bef78305b48"
+    },
+    {
+      "path": "1/0/0.jpg",
+      "bytes": 7278,
+      "gitBlobSha": "e65f1c78bbe8452384b85d7c668e9c6e2a45fdf7",
+      "sha256": "3f40b94a0adb4efe212899374d3dd2bc7abe0491ce3a30d89f4392f498a328cf"
+    },
+    {
+      "path": "1/0/1.jpg",
+      "bytes": 11399,
+      "gitBlobSha": "605f63f13ae6f7304fca2ebffa0420afdc3e1f8c",
+      "sha256": "76393f9322c791564a9dc9529822637fdcc8b63418be502f4ef0ab9ca2708664"
+    },
+    {
+      "path": "1/1/0.jpg",
+      "bytes": 10652,
+      "gitBlobSha": "319458e12a338f54f662f01f8a5966acbb26a891",
+      "sha256": "cec03089c65ac612ef0655739fd1c66e068a98739aec325ba8743aca7338e6f1"
+    },
+    {
+      "path": "1/1/1.jpg",
+      "bytes": 13142,
+      "gitBlobSha": "a6a3859d6c448595bf674abb88bc3c51c7d083b2",
+      "sha256": "b1b860b99fd3fdc1a91eb09576563efd5cc91d95f4e869fb436a35c4ff8994c6"
+    },
+    {
+      "path": "1/2/0.jpg",
+      "bytes": 9643,
+      "gitBlobSha": "6913a2b087bcaab44d4b1cb2a4cf7e92cea59062",
+      "sha256": "7c59ff20319379afea17d029fca11ea497fd16a4f9da574137948b0631c71c63"
+    },
+    {
+      "path": "1/2/1.jpg",
+      "bytes": 15312,
+      "gitBlobSha": "df89ed220abff86b7a6ebde048cd6427533a1e68",
+      "sha256": "ed0209ef589d9cc34a26663f8c9ecdd63de705482692290328cfd2fff984451d"
+    },
+    {
+      "path": "1/3/0.jpg",
+      "bytes": 10532,
+      "gitBlobSha": "8f27415e273302f8e68b11f041dabc05d323e8f7",
+      "sha256": "d7fa5cd581a7b1d004d6dfcf329a09cd51859dd503f864a85756a35a456a0030"
+    },
+    {
+      "path": "1/3/1.jpg",
+      "bytes": 13262,
+      "gitBlobSha": "ce2b06ecb08af6d7f0ed5a71aede2e75d7c1da79",
+      "sha256": "8637acf2981f7209ec449a5812c855650a7eeeca5bd8a9d328310bb2a5295b39"
+    },
+    {
+      "path": "2/0/0.jpg",
+      "bytes": 8157,
+      "gitBlobSha": "e3c0312010a8ff72e5d03f840ec730869f9d7642",
+      "sha256": "d12e2e52ae4d2e0c23ec15de8a1e006ccae0d3142b286578670cb4a8fd3f2311"
+    },
+    {
+      "path": "2/0/1.jpg",
+      "bytes": 9307,
+      "gitBlobSha": "f3ec3215035c09e69bb908d948cf84ac199f847d",
+      "sha256": "87a7ea00d62fe0517680cb58953e46faf9b325b9ce8e982c5a68b7e6c6c46822"
+    },
+    {
+      "path": "2/0/2.jpg",
+      "bytes": 7891,
+      "gitBlobSha": "b59816c01e1ff2e69ea11c313a197a3ff69e7c63",
+      "sha256": "eecc7078cc54ec05f96cdf472519d5f159797015afaad23c2e56bed2fb79b481"
+    },
+    {
+      "path": "2/0/3.jpg",
+      "bytes": 10341,
+      "gitBlobSha": "795f21227b0e8e5b2c0d91692cd02aa669b72888",
+      "sha256": "3d4dc525adaed0c3ddf5e5047bd1b348f2df473449c50b6b8175d5d073e7d88b"
+    },
+    {
+      "path": "2/1/0.jpg",
+      "bytes": 7852,
+      "gitBlobSha": "822b0651461a786d0d389dc6d5677aaef22dfa39",
+      "sha256": "e586e2884f6fe3a78291776b5bd4b190ffa0c9129c146ef78c7918e570e40e07"
+    },
+    {
+      "path": "2/1/1.jpg",
+      "bytes": 6850,
+      "gitBlobSha": "4dd18ea4e04acb2ab6f177b55201286a4f3f1ae4",
+      "sha256": "bd0b39a8e734b137e8017cb02f1bae541452bea034be5bc7e2bf8a6cb8a220ae"
+    },
+    {
+      "path": "2/1/2.jpg",
+      "bytes": 11581,
+      "gitBlobSha": "4540c7c9418013b85a24f431c468945ce8aa878c",
+      "sha256": "af8eb0a43423d28c7cb3a92553967205d9e3ced5738bd75f773d653fa5849c90"
+    },
+    {
+      "path": "2/1/3.jpg",
+      "bytes": 15862,
+      "gitBlobSha": "32c6e5ae28e354be0e2bc54ad06cdd5421087c4f",
+      "sha256": "48450e09b99e3283945bda85be1513a5ed28a4b1e58cd0b299c295d16c25935c"
+    },
+    {
+      "path": "2/2/0.jpg",
+      "bytes": 10657,
+      "gitBlobSha": "7c390948178866dcbea9f05c0726c306ef073385",
+      "sha256": "4615813c56a8ee304d78d3768c489a4e00a5c4542f2d937b6be7db7c12b42b28"
+    },
+    {
+      "path": "2/2/1.jpg",
+      "bytes": 12456,
+      "gitBlobSha": "3e7abe713796c195cd9b2fdd35bab1a56d93d923",
+      "sha256": "66df8171de54015866691a00fd03ad8c5c11dc75466a70d11a43b2020eb63dba"
+    },
+    {
+      "path": "2/2/2.jpg",
+      "bytes": 12262,
+      "gitBlobSha": "0e0f1e9b196e078a4f513705e50309bf3358c4cf",
+      "sha256": "669649edf6e1e0e66ee03224a792d5fb09e8aef7a7a187697a3c10f9a7904c5c"
+    },
+    {
+      "path": "2/2/3.jpg",
+      "bytes": 14940,
+      "gitBlobSha": "732c32f954742a50ed13b6e2411fcd5ee6826c53",
+      "sha256": "21585c5a2551120948ec5d0f04a533805b2ba63b7a5b961ad722fca25cf6299f"
+    },
+    {
+      "path": "2/3/0.jpg",
+      "bytes": 9531,
+      "gitBlobSha": "576ec70e73593bd2838014bb941e5a0af455f10f",
+      "sha256": "640f7fd8fd3e5923ef1b021476f13c1e6919f339b17e539b9e20fe6bc16240f7"
+    },
+    {
+      "path": "2/3/1.jpg",
+      "bytes": 10234,
+      "gitBlobSha": "6347041f95c17d40e9d1003e727896eb9f173fcc",
+      "sha256": "e418706ca6c844a67aa71e448ef97e703d5c3a9e3791db255366dad49b4adeb9"
+    },
+    {
+      "path": "2/3/2.jpg",
+      "bytes": 11678,
+      "gitBlobSha": "300aa5803058740c23a2f7feacdffc885fbc0d59",
+      "sha256": "79d04283b385d193bbf5bd84d40744c8f5bc8d6f52dfab8d965b647fdb61d72f"
+    },
+    {
+      "path": "2/3/3.jpg",
+      "bytes": 10754,
+      "gitBlobSha": "cd70fcad165330997fd48ec799aef92a95eb81d5",
+      "sha256": "4e693d36407dab81266071edbca5915872284532498dfa29472cc71b2810482d"
+    },
+    {
+      "path": "2/4/0.jpg",
+      "bytes": 8474,
+      "gitBlobSha": "eabb83c797f17f2d050def7490a89ec0dadfd923",
+      "sha256": "46e6a0608fc8261bbeaad8fffa995ee3c85fddebb3b463f3e391634ea8a2a9ec"
+    },
+    {
+      "path": "2/4/1.jpg",
+      "bytes": 12265,
+      "gitBlobSha": "54e6b007638c5635711fd66bf0e865cf2d293713",
+      "sha256": "0f341c2ace1b0b1803aa22c09c2ab8fde4c3a1a7cb013a963e750997deb6b1c2"
+    },
+    {
+      "path": "2/4/2.jpg",
+      "bytes": 16477,
+      "gitBlobSha": "311241c8d8dd68f5e0c9e6bdd93c92450720fc7d",
+      "sha256": "13a22c18a223ba4d8c2689793a5dff83e4e50b3790ddcb2a32ac5a97b8e1e0c8"
+    },
+    {
+      "path": "2/4/3.jpg",
+      "bytes": 11888,
+      "gitBlobSha": "5ba398c58a3c086277da6f16260bbca71dc14813",
+      "sha256": "93c5f45d481111b4cd2d38792cfb049e5176be566b622028e0704151c0c23aaf"
+    },
+    {
+      "path": "2/5/0.jpg",
+      "bytes": 7540,
+      "gitBlobSha": "e03c0c07743e7437915cceb6871f85322851ffb4",
+      "sha256": "7fbb096ff03dd162ae965a6c7e1c47e29599e7f3f1031ce59fb07ff669ca3995"
+    },
+    {
+      "path": "2/5/1.jpg",
+      "bytes": 10274,
+      "gitBlobSha": "01a1caf81b392c69579a146845461cb84fa24c72",
+      "sha256": "70b04e7e362cb4c80d8c7cce1a9401ef9c7606bb2c4b9de011dea58d79b8b4e6"
+    },
+    {
+      "path": "2/5/2.jpg",
+      "bytes": 16112,
+      "gitBlobSha": "372e3ef5b9f10ff2becee88d8d7f63da3df80cb7",
+      "sha256": "8d03e07689c97fff91497250f1cbeb19fbe5331f38bd91b38a44bb69745bb29b"
+    },
+    {
+      "path": "2/5/3.jpg",
+      "bytes": 11877,
+      "gitBlobSha": "fbcfa628f1d8b16cb5923858a851722ac939ab2d",
+      "sha256": "17b46ab558da6e9fa715a8ab365109bd808d897c53a9f5401da55dd6b9566a7a"
+    },
+    {
+      "path": "2/6/0.jpg",
+      "bytes": 6636,
+      "gitBlobSha": "334ab2581e88ff5d677a0f9d27b6647242f5d6bb",
+      "sha256": "e25e95c8a6dcb21f6668541c925ee670c42fdc0c0d409c520bf29542a2b3fc52"
+    },
+    {
+      "path": "2/6/1.jpg",
+      "bytes": 11564,
+      "gitBlobSha": "ebbc3a099b5bbe6d8d22b0e79231e6ccf595a969",
+      "sha256": "0a57813b25a70cf86a09bb251018e488b87e795cd2dbcaee7f8a9e80e7c449bf"
+    },
+    {
+      "path": "2/6/2.jpg",
+      "bytes": 16411,
+      "gitBlobSha": "c3a8e97c87b91e3dfd53501aec18385b34ad3f5a",
+      "sha256": "f0e9d28b216838c7c30375bb50a7c285203d4bad20eb581c2ee0b2468da20f8a"
+    },
+    {
+      "path": "2/6/3.jpg",
+      "bytes": 12756,
+      "gitBlobSha": "8f730f364ebd0a3db37383a638b4384662f1f733",
+      "sha256": "c2a663dcf812d9a7034d48707a33a2f341d22a99aa277f69b0e06f064de26fab"
+    },
+    {
+      "path": "2/7/0.jpg",
+      "bytes": 9032,
+      "gitBlobSha": "75235d6f8763163e1aff35b916422c00cc3a12a2",
+      "sha256": "65c1f1b10a04387f2f64b3c4bc111803ddbf32dd2708f02eabca048e88e8edf3"
+    },
+    {
+      "path": "2/7/1.jpg",
+      "bytes": 12957,
+      "gitBlobSha": "036d682ec89d85ce8bd3a0aaf645ad008a621850",
+      "sha256": "11ac8ae6af861b966d25ed660549d2a9ce164cb9e327a247655e949f967fbc2b"
+    },
+    {
+      "path": "2/7/2.jpg",
+      "bytes": 11362,
+      "gitBlobSha": "dfd214467650c8d131973094a957ea395bdbb9a1",
+      "sha256": "59ca5b5264df0421c42cc9d3e6369d91ff9f5f387fc8fd578c25b113cae52b78"
+    },
+    {
+      "path": "2/7/3.jpg",
+      "bytes": 11859,
+      "gitBlobSha": "82c2a34aae83ac3608136b3b6faaf132a409dc25",
+      "sha256": "7064a9817de3f19fbfc66c36d575fdd10a8d976a93f655b7b1bee591b07314b7"
+    },
+    {
+      "path": "tilemapresource.xml",
+      "bytes": 780,
+      "gitBlobSha": "d7734cce0b80d17b9b1a02cd12e9d5923541297f",
+      "sha256": "23f2983b716914e8fb3f011c62d975e67b3ad72c17c92657cd956315d6694529"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Boeing 737-800 / B738
+
+Source: Flightradar24/fr24-3d-models @ dd53267690c6a4ecbb290a3acf0284333a5d68a9, models/b738.glb.
+Original airframe: FGMEMBERS/737-800 (FlightGear), GPL-2.0.
+The original glTF 1.0 binary was upgraded to glTF 2.0 with CesiumGS gltf-pipeline 4.3.1.
+Served SHA-256: bcd3e90c37e0cf834c218791d10c0e567ae4b90c0315c09e16a2218292d46962
+All original geometry, embedded atlas, UVs and names are retained. Simulator adapters run at load time; they are not stored in the GLB.
+Editable original .blend/.dae, source atlas, conversion record and license are retained locally under work/imports/b738-candidates/fr24/.
+This is a distinct 737-800 NG aircraft, not the 737 MAX 8. Runtime physics are approximate game calibration.

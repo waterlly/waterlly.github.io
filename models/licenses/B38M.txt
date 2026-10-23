@@ -1,0 +1,13 @@
+Model Information:
+* title:	737 Max-8 (Free)
+* source:	https://sketchfab.com/3d-models/737-max-8-free-197ae72ceb5441efa91b8bdc2ee37050
+* author:	AMPG (https://sketchfab.com/AMGP3D)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "737 Max-8 (Free)" (https://sketchfab.com/3d-models/737-max-8-free-197ae72ceb5441efa91b8bdc2ee37050) by AMPG (https://sketchfab.com/AMGP3D) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Local adaptation: lossless packaging from glTF + scene.bin to self-contained GLB.
+The simulator removes only measured embedded landing-gear components at runtime and adds animated procedural landing gear. Original body, engine, wing and door materials are preserved.

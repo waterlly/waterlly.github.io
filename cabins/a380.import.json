@@ -1,0 +1,1947 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cabins/a380.glb",
+  "bytes": 13554648,
+  "triangles": 360762,
+  "nodes": 3,
+  "meshes": 2,
+  "images": 1,
+  "instruments": [],
+  "omittedNodes": [
+    {
+      "name": "pax-light-upper-left1",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-left2",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-left3",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-left4",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-left5",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-right1",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-right2",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-right3",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-right4",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    },
+    {
+      "name": "pax-light-upper-right5",
+      "path": "Aircraft/A380/XML/Lights/cabin-light.xml",
+      "sourceFile": "XML/cabin.xml",
+      "reason": "Explicit source submodel exclusion."
+    }
+  ],
+  "sourceMeshes": 3533,
+  "drawGroups": 2,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380/.skybound-cabin-a380.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380/XML/cabin.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a380/Models/cabin02.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "sourceEye": [
+    2.6223,
+    -0.1,
+    0.8602
+  ],
+  "generatedAssembly": {
+    "path": ".skybound-cabin-a380.xml",
+    "sha256": "dcd27523d1d80d8e0736aa748bf293ff223f6cd668142dcc49abee681424ed32",
+    "text": "<PropertyList><model><path>XML/cabin.xml</path><offsets><x-m>11.6</x-m><z-m>4.9</z-m></offsets></model></PropertyList>"
+  },
+  "sourceFiles": [
+    {
+      "path": "A380-autopilot_v1.xml",
+      "bytes": 50901,
+      "sha256": "c110b189a1686657e8c5561d8eb2c270fe0864a8dbde1ab6cbb08cf0ddd1cebb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/A380-autopilot_v1.xml"
+    },
+    {
+      "path": "A380-set.xml",
+      "bytes": 49853,
+      "sha256": "668f0ccc42f4ec32af92078b87ce302927b291b2920a09e684e91225a59ad58b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/A380-set.xml"
+    },
+    {
+      "path": "A380-tutorial.xml",
+      "bytes": 35590,
+      "sha256": "d2c7c4e1579478a2673e1338d59c26d681c0a19156f6d7562cfcdd7230821049",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/A380-tutorial.xml"
+    },
+    {
+      "path": "A380.xml",
+      "bytes": 29432,
+      "sha256": "0263adf36ef34e6c7a2a261ec8633bbcd6cd7c024d3665bf3bed996973ae84f1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/A380.xml"
+    },
+    {
+      "path": "A380_RJ.xml",
+      "bytes": 48240,
+      "sha256": "09dc9cd124aa22f2287ce5dfc06ec43d331061bd71f3954f640a278dc4baf16e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/A380_RJ.xml"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/arc.rgb",
+      "bytes": 25183,
+      "sha256": "315880fb528b9667c4619988bf9f25f692b86720935bf63f1289994a85b09b3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/arc.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/ati.rgb",
+      "bytes": 98801,
+      "sha256": "c363f0f2d3757f05150ab157f8f18785bfeb30a8e6f0e91a5bb8be6a6266b5ce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/ati.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/autobrk.ac",
+      "bytes": 28034,
+      "sha256": "443c5e5c2534a20b5912ca4ae177d28cadd7b3a40147c06ce92c055393496de9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/autobrk.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/button.ac",
+      "bytes": 828,
+      "sha256": "0ff9347efc04e2ba5406bebfc5a4d79b2c2a36ce7c70c8f073520aeddab70836",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/button.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/digits.rgb",
+      "bytes": 34515,
+      "sha256": "bbf5fb62ab9c27ede084c41207b6c725f0e8bcd7fd823c8f08a1277a773c4159",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/digits.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/efis.rgb",
+      "bytes": 110548,
+      "sha256": "83b3ebd56c28f657218723935937b7b1a3126558556dbc7a7b6624804090f72e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/efis.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/eicas.ac",
+      "bytes": 63653,
+      "sha256": "213b0f16cc59c5d7631746113e19a87fc78c245b988aa919cd2b4ce1300759ca",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/eicas.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/eicas.rgb",
+      "bytes": 32744,
+      "sha256": "2a5dca824f6605f6685ff84e5f2edec237bb30daaab48b7f23c67d5891af989a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/eicas.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/eicas_background2.rgb",
+      "bytes": 61392,
+      "sha256": "10807827e418f75e098426e2d64807addd3911574150709a58c68b06dda80a75",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/eicas_background2.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/flightdeck.rgb",
+      "bytes": 109285,
+      "sha256": "df9266bfe8f8fe11d4093b903a42fe47224b9e1c91edcf072408c8054c40d622",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/flightdeck.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/frontpanel.ac",
+      "bytes": 25291,
+      "sha256": "3522e01e6e3d3382f3ee1b3025ce85b3503c4ee847b61e84ff677c16bb301356",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/frontpanel.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/gear_lever.ac",
+      "bytes": 9842,
+      "sha256": "da2be397a64517cb295b9bdea69ae1bbdc6115f30a9806c8810a0d5d957a36bd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/gear_lever.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/gearlvr1.png",
+      "bytes": 27828,
+      "sha256": "9351a884641fcfb720d253da6796a728e47f7db0ec45ce3d868fa6c9eb2289f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/gearlvr1.png"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/gearlvr2.png",
+      "bytes": 121141,
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/gearlvr2.png"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/lights.rgb",
+      "bytes": 114341,
+      "sha256": "1c8d2b94da7ebd89ec9b48f3bc2fa9b0e187cd49c0332985b06162721cf91c17",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/lights.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/nd.ac",
+      "bytes": 60531,
+      "sha256": "66c37bfb25b465b44ca9d9ed1057bf08f721e1d76c2c20ebab9878ad6d1c7822",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/nd.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/nd.rgb",
+      "bytes": 16792,
+      "sha256": "6bde94db15ceb5a9a8671d90963f1e5f1232b46afce9ac058a7987b0cf76069d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/nd.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/od_wxradar.rgb",
+      "bytes": 9308,
+      "sha256": "ab2ee876f2a64d9e4f25de8ecc53eaa7a31cb7effb733890f861cf04d7463a03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/od_wxradar.rgb"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/panel-light.ac",
+      "bytes": 2887,
+      "sha256": "00fa7e7792ce0e84cd41feb8035b032c39cc3622cc658ac237968e016f72cc51",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/panel-light.ac"
+    },
+    {
+      "path": "Models/FlightDeck/FrontPanel/pfd3.ac",
+      "bytes": 12769,
+      "sha256": "0469446568ec5aaf92da0bf9542b35630747edf2b37a3d50d35ebaa99d1fcfe8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/FrontPanel/pfd3.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/efis_c.ac",
+      "bytes": 56452,
+      "sha256": "45fcb005f6f7028e8b3f120d31718a11cf682ef97e4c78264760e9d51bff9e2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/efis_c.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/efis_fo.ac",
+      "bytes": 55265,
+      "sha256": "1323313c975b9a543e160bce68cbd22ead2857bc0c86d7a64455922466ee05e0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/efis_fo.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/fcu_03.ac",
+      "bytes": 54165,
+      "sha256": "fc8d3edeb5c8421ebff2ca930c2caf6a51271a6dc0a5477958d043722a51ef9f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/fcu_03.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/wing_c.ac",
+      "bytes": 9347,
+      "sha256": "71a446e356edbeb515cf18cc2bb91b5a609aa44bfac68c1b79534cec6c660946",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/wing_c.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/wing_cz.ac",
+      "bytes": 10090,
+      "sha256": "511c6f9df2394b9fefc847dce90860cb3ecbc1ba2ff993727dd7ca364c00521e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/wing_cz.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Glareshield/wing_fo.ac",
+      "bytes": 8998,
+      "sha256": "f0151d7d590a6a09aad2e664978bbae416c27f7671e76b72d59a407b88ccbfa7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Glareshield/wing_fo.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/anti_ice_lights.ac",
+      "bytes": 137701,
+      "sha256": "fdf3d23e79fd0dfee0170ab2b4e06a5b66168bb302b16d38d509d31897083ab9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/anti_ice_lights.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/apu_adirs.ac",
+      "bytes": 41720,
+      "sha256": "490bef7d5e8267613d01a30330a9a19d2448986b4da6c8495664df1f7502ba89",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/apu_adirs.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/elec_air.ac",
+      "bytes": 60564,
+      "sha256": "6c53cb4015b4b9663c90c546cdaa1b3bce780c9e5c580d76f3dfcfccd9ea1434",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/elec_air.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/eng_fire.ac",
+      "bytes": 35621,
+      "sha256": "09bf4334b2a725046bd0f8c336049e1f660d0f1419b2fcc5229c5c7240aed17c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/eng_fire.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/gnd_hyd.ac",
+      "bytes": 6060,
+      "sha256": "54ab9e58dda2b53f33070afc6bcfe109f4dcb35438a28acfaf1cc1387402151f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/gnd_hyd.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/guard_black.ac",
+      "bytes": 3963,
+      "sha256": "29832718399e819f862b548c5da643208aadec91d87ee0a5525acf2dad331854",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/guard_black.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/guard_red.ac",
+      "bytes": 3912,
+      "sha256": "ca10f8e3fcb52a90e392901167a34df69da8c028ff1d5a6343ef5d44dd0b9107",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/guard_red.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/hyd_fuel.ac",
+      "bytes": 39482,
+      "sha256": "3446f6d3a35dde66c12fee85bf675de8579763715685b903d93eb3a9ea373e2a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/hyd_fuel.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/misc_c.ac",
+      "bytes": 58342,
+      "sha256": "14262c1acefaca08d42a7beefe949c1c5a6387e87d3c2bd80421434f4074dec1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/misc_c.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/misc_fo.ac",
+      "bytes": 27221,
+      "sha256": "8521f1a439c512f4d9c5dcd5761b0f7b59b846df82c5563c76ffa6c1b0de2962",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/misc_fo.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/misc_m.ac",
+      "bytes": 7269,
+      "sha256": "2645f262a479c38e238015a60bc1ac70742a838ba88f9b7e38ec5b3a46e2f647",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/misc_m.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Overhead/placeholders.ac",
+      "bytes": 2861,
+      "sha256": "7f50f3575bca54ad30a5c94c77c2c82ae944d0a20ce80c6679fbc09470f040dc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Overhead/placeholders.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/displayFrame.ac",
+      "bytes": 5048,
+      "sha256": "bc0102694edfbaf49031274af51fc483169dee943cf7ab717a846e939b56c2ba",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/displayFrame.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/ecam/sd_door.ac",
+      "bytes": 11491,
+      "sha256": "685412341f69f297509300f805013954856fe3d4912cecb0d73202041ee6fa5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/ecam/sd_door.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/ecam.ac",
+      "bytes": 17956,
+      "sha256": "2309de3e7788ebb196190dde8d15bba66b54848c2568a104e61b32b69b7deb01",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/ecam.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/eng_master.ac",
+      "bytes": 26016,
+      "sha256": "050fa91cb2786ab26e3901c1f0d851f231a3f8e3875ef31eed4452f865dd1e07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/eng_master.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/flap.ac",
+      "bytes": 13951,
+      "sha256": "035437f4a5e5e3101892cd1a95f457c85a3cf61ee786408b48fff775e739317f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/flap.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/mcdu_display.ac",
+      "bytes": 59702,
+      "sha256": "9be91f81b68c426a4ea78b6f3b349a2854bb14bf8ac4d6f6c971ba9faa9e4527",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/mcdu_display.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/mcdu_numpad.ac",
+      "bytes": 15930,
+      "sha256": "91cfec23899936d93f312e2329efa094584e451bbec1fbc3c051c4b390afdc3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/mcdu_numpad.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/mcdu_qwerty.ac",
+      "bytes": 9690,
+      "sha256": "b9f4aaf9e4c9877e2fce64c12a193c5f08ae97fc84090716fe5bc9a15127d500",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/mcdu_qwerty.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/misc1.ac",
+      "bytes": 42014,
+      "sha256": "665beb3e21eaa34c7e82de1edf30ebbc3cb9fd5920a28b1cc2f12e9659470927",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/misc1.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/pedestal.ac",
+      "bytes": 11124,
+      "sha256": "19f2f1dc47ab53a7ec5ecdb695694d499dc459e4b274bb23f14576b92f9d3aae",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/pedestal.ac"
+    },
+    {
+      "path": "Models/FlightDeck/Pedestal/speedbrake.ac",
+      "bytes": 5833,
+      "sha256": "2728ba7b0954773d59f8fa00c76f5bbc6703272674a3055fda263a62034646c9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/Pedestal/speedbrake.ac"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit-light.ac",
+      "bytes": 2808,
+      "sha256": "63706f1bed6449654c9c2b505fd0df2ed816a3e1b995c98f3f59084a93025e80",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/cockpit-light.ac"
+    },
+    {
+      "path": "Models/FlightDeck/flightdeck.ac",
+      "bytes": 200889,
+      "sha256": "2b272b1dcf872f4e807d6555c324d67116370ef5aed3fba4588ee2f7add3e0f2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/flightdeck.ac"
+    },
+    {
+      "path": "Models/FlightDeck/transparent-red.png",
+      "bytes": 181,
+      "sha256": "ead063254781e38897594946b67d75b3e5582b9850a1f059cf189c01d1dbf23e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/transparent-red.png"
+    },
+    {
+      "path": "Models/FlightDeck/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/FlightDeck/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/APP.xml",
+      "bytes": 16566,
+      "sha256": "e8a74c8f6fc0bb2198a4b02edb3293e0498a76d260577294b0b354baf66cc890",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/APP.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ARC.xml",
+      "bytes": 34133,
+      "sha256": "287284f52a5d1629c77bb8e0d02ff23ced06a70ff7d0929e92b47b3fdf093957",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ARC.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ARCmask.xml",
+      "bytes": 1858,
+      "sha256": "a69c2e2380cfea77bc44e91ec6d492c97dfd01bdd4c815d5655f768c384ff88e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ARCmask.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ARCtext.xml",
+      "bytes": 53053,
+      "sha256": "3c09575d4dacc93f7d3c76d24c8ad3b2ab8ac2874b15560ddf1d918a8d2c79e3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ARCtext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/EFIS2.ac",
+      "bytes": 360,
+      "sha256": "3232b7a9acbed0af64ebe3eb2941effa8aed35354f26e581192e564ded849982",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/EFIS2.ac"
+    },
+    {
+      "path": "Models/Instruments/MFD/MAP.xml",
+      "bytes": 73093,
+      "sha256": "2c85d5d9dedf4dc713d0206fc9d866535ca605cd9264db874ffe9f476ab5632c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/MAP.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ND.xml",
+      "bytes": 1228,
+      "sha256": "41e4a28d69a48a356ee9f72e633d2f8f53139202e58312df6256e656f08cb17a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ND.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/PLAN.xml",
+      "bytes": 5099,
+      "sha256": "7eaf57fc1e6cacc9e2e4e842cdd7234c1a83c05506954eadf86a1c752a0cbe77",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/PLAN.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ROSE.xml",
+      "bytes": 33230,
+      "sha256": "df0dcc99094fb1bc3dee23b71feea3808a4b6df606af61cbe2302fb8a3ef5f7a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ROSE.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ROSEmask.xml",
+      "bytes": 1875,
+      "sha256": "7acc99624b7ba5c5c37d150fa0b2a3cae1b7451938f0d4d82b32216b69da9f0b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ROSEmask.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/ROSEtext.xml",
+      "bytes": 39201,
+      "sha256": "1d6d8b8ea8406aa0ab3aab17e6fe69067702443f3e9e305821f677b7de0f1058",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/ROSEtext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/TAXI.xml",
+      "bytes": 5092,
+      "sha256": "df358ecb225a1a3a40518c80bbdaed1799462a7a49734fa1ea73c6e3abc98285",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/TAXI.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/TAXItext.xml",
+      "bytes": 3207,
+      "sha256": "cf3c9c07872a3540abf78fbf3e64a30bb7253857cd28e2805fe57f1cfc2a2f6a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/TAXItext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/VOR.xml",
+      "bytes": 5951,
+      "sha256": "d2169b5b3531cfcf96e8c3331d5de30e0c8426e0010da3930b1d52f58688affc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/VOR.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/airbus_symbols.png",
+      "bytes": 4299,
+      "sha256": "2aabe9c9e8ffb3c7375d26aa18c57ffd81510abae09472e8201617a746462299",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/airbus_symbols.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/apptext.xml",
+      "bytes": 12910,
+      "sha256": "17564d54bb6e49cbc2e6d1de4e987a9fc60f36587fbf5a3fbaaf77e08c890098",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/apptext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/black.png",
+      "bytes": 135,
+      "sha256": "bc03dd863f993d6f38a21585a05b5b25db7082f6868abfa8de4b58950d776be0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/black.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hsi.png",
+      "bytes": 24114,
+      "sha256": "aa239a0748397f2ab6447c1b6362bef70f497152cf7bac090a5ddae118807cb8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/hsi.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hsiarc.png",
+      "bytes": 26847,
+      "sha256": "4c853f25286ceee8af2a98a5bc5f885577f9550cbcc3586b882b745b559a2029",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/hsiarc.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/maptext.xml",
+      "bytes": 57031,
+      "sha256": "8025de6f3ee44204043977c567a0650e912a52d137acc1e825bfd19408339172",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/maptext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mask.png",
+      "bytes": 6529,
+      "sha256": "167cda834bb9d26718086575004aeccae15873d7b97893b5ff174eb3ac4b4089",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/mask.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/maskfull.png",
+      "bytes": 14940,
+      "sha256": "cb9f2c15f5ec6002a0bc79219de988b2ef355523193655225405f946b4b622fb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/maskfull.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfd-panel_c.xml",
+      "bytes": 7663,
+      "sha256": "5dfed95a0b10495dee532a3c6735263e2c9e1fae6cfcd62d62bf17c84d132fea",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/mfd-panel_c.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfd-panel_fo.xml",
+      "bytes": 7667,
+      "sha256": "82a1a005f237bfaae02ddd09bb998469d120c3f18a66787f01657e0e47def24a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/mfd-panel_fo.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfdtext-panel_c.xml",
+      "bytes": 5599,
+      "sha256": "91217742675e383c842fb6f5e44ba7314ea1fd54f2d0575c7a716f2cc3a3330c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/mfdtext-panel_c.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/mfdtext-panel_fo.xml",
+      "bytes": 5562,
+      "sha256": "59507ea5cefcd38810b73f318ffe7d25ec63261c9604d732780e299799ad8928",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/mfdtext-panel_fo.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/navtext.xml",
+      "bytes": 52079,
+      "sha256": "5fd6926061bb19a97d477fc3166dbe623ee06d9568e6a0710519d3ae0b7318cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/navtext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/od_wxradar.png",
+      "bytes": 629,
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/od_wxradar.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/plantext.xml",
+      "bytes": 8396,
+      "sha256": "10a0f538a185f573ac8ad68e9e2899066f5d1c7cc700d03a817a775720eb41ac",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/plantext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/radar.xml",
+      "bytes": 2634,
+      "sha256": "b323d43b88ac4403b2c37f54f1c55ce1fc7365af95b6a82bb6a5f1d5bbb69a61",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/radar.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/symbols.png",
+      "bytes": 44555,
+      "sha256": "6f672159d3f00ffc4043ff24a850a5052d1fa83ee205f26d69c40730636ffbbb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/symbols.xml",
+      "bytes": 2397,
+      "sha256": "7691a0f7486797a502f88780f981f83b7a25d0338560ad7b54e478d7e42496d6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/symbols.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/transparent.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/vortext.xml",
+      "bytes": 13171,
+      "sha256": "041380d2cfa7128430582d1b20bd8b7004b41e1c0baaa00eaee91b4d4ad0f191",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/vortext.xml"
+    },
+    {
+      "path": "Models/Instruments/MFD/wxecho.png",
+      "bytes": 4069,
+      "sha256": "6fadb1893c7529328b8869ac49ffc59d36189bf344309ead152acf7297724a07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/MFD/wxecho.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/ati.png",
+      "bytes": 49811,
+      "sha256": "fc14c6ad70393702aaaaacb44ab25d3bac6ffe21139fba0b70838bb6d277430a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/ati.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/flightdeck.png",
+      "bytes": 47590,
+      "sha256": "ab927b7f218286ec03e0914a9f2258bd51e81b8d054b9a44ffd7817e7cf64e66",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/flightdeck.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/metal.png",
+      "bytes": 575,
+      "sha256": "03a10f5ff6521ae51f68ed3120bffa8e57b8c139eb124cfc9aa7e39ec2ae194f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/metal.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/metal_screw.png",
+      "bytes": 707,
+      "sha256": "d7932954006c4e289cf160949c3b5b9d6b1b3a0eeb6e90e644d720446921e0cc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/metal_screw.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/panelback.png",
+      "bytes": 121141,
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/panelback.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-ai.ac",
+      "bytes": 43865,
+      "sha256": "9e96da039e2e793c8506995f6ab2d23dc26613198ad3a16c8764f730c5cd05cf",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-ai.ac"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-ai.xml",
+      "bytes": 917,
+      "sha256": "3a31971deac1f7b6aa002c65ba63d8ec2cdcae00ee9bc496d8c0f5f0adff790e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-ai.xml"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-alt.ac",
+      "bytes": 40406,
+      "sha256": "7b1237dc3c7e2eb8e5714341d687d8d2e58ed9ffb1ae885811d494660a423e9a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-alt.ac"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-alt.png",
+      "bytes": 14310,
+      "sha256": "70380148240abb734ac7da94c50490752653d243be942ba2a91b73d21fb12717",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-alt.png"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-alt.xml",
+      "bytes": 5783,
+      "sha256": "291bdaa137ff934d1fb34ceea2b9a571b1bec1296d71284ea0c2f006afbe4a84",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-alt.xml"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-asi.ac",
+      "bytes": 37691,
+      "sha256": "e7c53becbc68613e0a15c45afd7070d0812b65aeffbb9c0250c26c28f50b3ca5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-asi.ac"
+    },
+    {
+      "path": "Models/Instruments/STBY/stby-asi.xml",
+      "bytes": 1690,
+      "sha256": "186ae53d234933685f0f931bf229fe0ce6e84baec2c7a4df4bcb3335b82533a0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Instruments/STBY/stby-asi.xml"
+    },
+    {
+      "path": "Models/Lights/GreenLight.ac",
+      "bytes": 957,
+      "sha256": "e7541ad9008462f0761308574cad237720c3045bf7fa9cef10bcc7eee3049c96",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Lights/GreenLight.ac"
+    },
+    {
+      "path": "Models/Lights/RedLight.ac",
+      "bytes": 958,
+      "sha256": "9314a0a23fccc99956e56b0db67b550e8ca7c337225a8ef76e522d6a48cc8dfa",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Lights/RedLight.ac"
+    },
+    {
+      "path": "Models/Lights/flash.ac",
+      "bytes": 941,
+      "sha256": "04abefd7a5236c72008407f17086118918d1d0f3bf66e2788aa5c35b51dba21c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Lights/flash.ac"
+    },
+    {
+      "path": "Models/Lights/light-cone.ac",
+      "bytes": 44066,
+      "sha256": "ed495eafce20fd830d799d96b0950cd2ff14fc3f2d9b225357fceb0b6e7afa08",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Lights/light-cone.ac"
+    },
+    {
+      "path": "Models/Lights/light-cone02.ac",
+      "bytes": 2846,
+      "sha256": "7b4aa31bfea15c380b3f26dd33194d0539ca167f73323ba4710ad40649c502a6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Lights/light-cone02.ac"
+    },
+    {
+      "path": "Models/Wings/cascade.ac",
+      "bytes": 4696,
+      "sha256": "75ae495a74b3ad8f800d84c60936be4d341a402037b59e2b3a007945a6af2b89",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Wings/cascade.ac"
+    },
+    {
+      "path": "Models/Wings/cowling.ac",
+      "bytes": 89784,
+      "sha256": "0aca119847438d8004bcac17fcb83d2f924466813981d69f3e9c31730e063fa9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Wings/cowling.ac"
+    },
+    {
+      "path": "Models/Wings/wings.ac",
+      "bytes": 230701,
+      "sha256": "8428c0bdb97cd8d45f9d6485abce54a99265991f9e56a7694dd06d565c32b1f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/Wings/wings.ac"
+    },
+    {
+      "path": "Models/a380.ac",
+      "bytes": 795873,
+      "sha256": "df1b6de1d667d661a3a8573758950dc3c16305337a8a931c2f02f29a42d919fe",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/a380.ac"
+    },
+    {
+      "path": "Models/bathtub.ac",
+      "bytes": 4918,
+      "sha256": "5f68b87e1f5b099531c4bfd1324a5b66c1a614df26759832929714881be495f9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/bathtub.ac"
+    },
+    {
+      "path": "Models/cabin-light.ac",
+      "bytes": 710,
+      "sha256": "af5a5c46b5682356eee9874fee6a4595728e31bf565b1149e32e7474ce609a12",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/cabin-light.ac"
+    },
+    {
+      "path": "Models/cabin02.ac",
+      "bytes": 20843910,
+      "sha256": "b324e5cf2f9ad3312fabc7c52bca3c574f6a5826172fbddd5e9e385a5d0e8548",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Models/cabin02.ac"
+    },
+    {
+      "path": "Textures/Common/APpanel.png",
+      "bytes": 51100,
+      "sha256": "73de40a3d8adc5f211f165281a4c7d6a81e5c32aa72d6f31ac0f9906fb897f71",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/APpanel.png"
+    },
+    {
+      "path": "Textures/Common/arc.rgb",
+      "bytes": 25183,
+      "sha256": "315880fb528b9667c4619988bf9f25f692b86720935bf63f1289994a85b09b3d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/arc.rgb"
+    },
+    {
+      "path": "Textures/Common/ati.rgb",
+      "bytes": 98801,
+      "sha256": "c363f0f2d3757f05150ab157f8f18785bfeb30a8e6f0e91a5bb8be6a6266b5ce",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/ati.rgb"
+    },
+    {
+      "path": "Textures/Common/cabin-biz_01.png",
+      "bytes": 1322001,
+      "sha256": "b54b02aa956b3c5e447a1da9ef376c0046c6a851d42e361b357647ba63d0c0db",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/cabin-biz_01.png"
+    },
+    {
+      "path": "Textures/Common/cabin-economy.png",
+      "bytes": 1383223,
+      "sha256": "453d81d4551d5dcd907990406402c5bfccfc813703550bd7419708174ce79e76",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/cabin-economy.png"
+    },
+    {
+      "path": "Textures/Common/cabin_econ_01.png",
+      "bytes": 1173926,
+      "sha256": "d349a9fe332d55c3becc69729564d07171978ca495cd85032e8902ec39367257",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/cabin_econ_01.png"
+    },
+    {
+      "path": "Textures/Common/efis.rgb",
+      "bytes": 110548,
+      "sha256": "83b3ebd56c28f657218723935937b7b1a3126558556dbc7a7b6624804090f72e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/efis.rgb"
+    },
+    {
+      "path": "Textures/Common/first-class-texture-low-res.png",
+      "bytes": 1322001,
+      "sha256": "b54b02aa956b3c5e447a1da9ef376c0046c6a851d42e361b357647ba63d0c0db",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/first-class-texture-low-res.png"
+    },
+    {
+      "path": "Textures/Common/flap.rgb",
+      "bytes": 27864,
+      "sha256": "5cb395c91caad1e86a0572dbb511bb1a77158721137e26c9d3c4037efb15ed89",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/flap.rgb"
+    },
+    {
+      "path": "Textures/Common/flightdeck.rgb",
+      "bytes": 109285,
+      "sha256": "df9266bfe8f8fe11d4093b903a42fe47224b9e1c91edcf072408c8054c40d622",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/flightdeck.rgb"
+    },
+    {
+      "path": "Textures/Common/floor.png",
+      "bytes": 3490,
+      "sha256": "5707f95b24b5252c970b506da3a899eb82ba7bb707d47a16a85bdabb37e0c9df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/floor.png"
+    },
+    {
+      "path": "Textures/Common/keyboards.png",
+      "bytes": 2427,
+      "sha256": "af53fb113e9f55224efe8c5d30653848785f07e9f8dee0231653e95fcc5bc3ec",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/keyboards.png"
+    },
+    {
+      "path": "Textures/Common/light-gradient-lamp.png",
+      "bytes": 2970,
+      "sha256": "52574927208001176c9d14faeae2aa8ab201fa76a69885972f6c52a80e2025c6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/light-gradient-lamp.png"
+    },
+    {
+      "path": "Textures/Common/lights.png",
+      "bytes": 24327,
+      "sha256": "0f4e910f57a0b606946e333b5ea709666526bcb5232a8180cd345c0064cd0bc2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/lights.png"
+    },
+    {
+      "path": "Textures/Common/mcdu_icons.png",
+      "bytes": 632,
+      "sha256": "b498aebb81216458136b4172cbbf62f424d3aa15b28e7cd5a8c238579e7cdd74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/mcdu_icons.png"
+    },
+    {
+      "path": "Textures/Common/metal.png",
+      "bytes": 575,
+      "sha256": "03a10f5ff6521ae51f68ed3120bffa8e57b8c139eb124cfc9aa7e39ec2ae194f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/metal.png"
+    },
+    {
+      "path": "Textures/Common/paseat.png",
+      "bytes": 1306,
+      "sha256": "1490b95f33654103134225521c12be8b58c8f58bf53bf2137e7fff941fc2bc5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/paseat.png"
+    },
+    {
+      "path": "Textures/Common/pfd1.rgb",
+      "bytes": 21459,
+      "sha256": "2376e205e30d136fc0a5d9c31e072ed79e6f3e06b02101522b932eaf15ff84f9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/pfd1.rgb"
+    },
+    {
+      "path": "Textures/Common/pfd2.rgb",
+      "bytes": 118173,
+      "sha256": "905cfeb9a71beb981fbc33bed7054926c0625363b66934d0e6815724307f161f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/pfd2.rgb"
+    },
+    {
+      "path": "Textures/Common/plastic.png",
+      "bytes": 16023,
+      "sha256": "54e0b539c76e844e614cc322f2da8e12bb65a32881c016dd0507b6fc86d5a252",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/plastic.png"
+    },
+    {
+      "path": "Textures/Common/seat.png",
+      "bytes": 236,
+      "sha256": "23c581e7f3e56fef3261fe4ef9fab96bb7cf3969e0f7b5a5bbfabb76202d2690",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/seat.png"
+    },
+    {
+      "path": "Textures/Common/smoke.png",
+      "bytes": 15427,
+      "sha256": "e68a4ec53047d154c338bf2897c6d295df2176674e56ed0b41d15f906bdd7f2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/smoke.png"
+    },
+    {
+      "path": "Textures/Common/trans-dgrey-bg.png",
+      "bytes": 159,
+      "sha256": "9cf3cb9d7c6d6fd474ba87ad8a540e6382f19bd9fb71551f7adb9800b1f9271c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/trans-dgrey-bg.png"
+    },
+    {
+      "path": "Textures/Common/transparent-bg.rgb",
+      "bytes": 1920,
+      "sha256": "665affe19982542185067a7955c5cd5c94400f6f97609b078d111551e0545f2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/transparent-bg.rgb"
+    },
+    {
+      "path": "Textures/Common/transparent.png",
+      "bytes": 154,
+      "sha256": "dda4577d5623a00790bcb2aa54d20b0e10ed8cd313c4156153bd7d9d2fd17f52",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/transparent.png"
+    },
+    {
+      "path": "Textures/Common/transparent_red.png",
+      "bytes": 5764,
+      "sha256": "615608ce08854c6842a7057a6698a58b61c40f5eff0fce26a959b0b23c91c890",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Common/transparent_red.png"
+    },
+    {
+      "path": "Textures/Instruments/alt-tape.png",
+      "bytes": 261249,
+      "sha256": "ddcd253d63521b7a7e7dabe0edaca4cbc6682bed6b2c99259fc11751a978f19f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/alt-tape.png"
+    },
+    {
+      "path": "Textures/Instruments/ati.png",
+      "bytes": 59992,
+      "sha256": "e2575aed90da4198d4c00b494189cf55d6fee1cb4372796f45fc072915a47bfd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/ati.png"
+    },
+    {
+      "path": "Textures/Instruments/buttonlight.png",
+      "bytes": 522,
+      "sha256": "fc541095b0f444ee625529e8afc9ca01371e309d233ffb568936e0293a5f03d0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttonlight.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons.png",
+      "bytes": 2442,
+      "sha256": "c2a0bebbb5cb0211e95d39b4ee7d35b5d68ba9031e579a0f42d6077a5b7f225b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons2.png",
+      "bytes": 3208,
+      "sha256": "44311faba8a94b0d219f6e37cb7488035ddc0aa5025208bdaca9e58a56c291f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons2.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons3.png",
+      "bytes": 2271,
+      "sha256": "e06b8bfa4efe070e430f376d292c85910f5a06d38cf1856456fd25229264d04a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons3.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons4.png",
+      "bytes": 2446,
+      "sha256": "1e3e5f636ce4cc39bbbb16d8e4be42581a17f478e63cd7c8dfbda40c27a16efc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons4.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons5.png",
+      "bytes": 3222,
+      "sha256": "f8df584eef8456f5a857538c10244d39933f186b206c1306454a5e03df2f858c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons5.png"
+    },
+    {
+      "path": "Textures/Instruments/buttons6.png",
+      "bytes": 2989,
+      "sha256": "58d9bf070873dd337f6f7162594420778a76403d8e8d43e1ca6723456fa0edff",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/buttons6.png"
+    },
+    {
+      "path": "Textures/Instruments/gearlvr1.png",
+      "bytes": 27828,
+      "sha256": "9351a884641fcfb720d253da6796a728e47f7db0ec45ce3d868fa6c9eb2289f4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/gearlvr1.png"
+    },
+    {
+      "path": "Textures/Instruments/gearlvr2.png",
+      "bytes": 121141,
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/gearlvr2.png"
+    },
+    {
+      "path": "Textures/Instruments/glareshield.png",
+      "bytes": 64825,
+      "sha256": "809a0a3dda6e54c4bbaa3bedc123aa4a5038a9cd845a7464c9b60f732aecb791",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/glareshield.png"
+    },
+    {
+      "path": "Textures/Instruments/glareshield_02_backlight.png",
+      "bytes": 35563,
+      "sha256": "3a7be6bd83fa43826ece3a2ea6456c6020cada0c7b31aeb2a8ef9ae826f6c037",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/glareshield_02_backlight.png"
+    },
+    {
+      "path": "Textures/Instruments/glareshield_02_base.png",
+      "bytes": 5762,
+      "sha256": "b69e6d8c5a46948e34949fa4b01641d28a2dac698953bbc12caebee66685a566",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/glareshield_02_base.png"
+    },
+    {
+      "path": "Textures/Instruments/glareshield_02_combo.png",
+      "bytes": 46803,
+      "sha256": "197eb10515bf42afd40fe5dfb75c9bd46413a4dd4be8b73be407664fae2f217b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/glareshield_02_combo.png"
+    },
+    {
+      "path": "Textures/Instruments/metal.png",
+      "bytes": 575,
+      "sha256": "03a10f5ff6521ae51f68ed3120bffa8e57b8c139eb124cfc9aa7e39ec2ae194f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/metal.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead1.png",
+      "bytes": 31841,
+      "sha256": "47a49ab99184546607b64f68abb4d295b2e720820710746d94a8cf2fd4e788f2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead1.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead1_02_backlight.png",
+      "bytes": 47258,
+      "sha256": "24f836b03032f2943535abcaeff960de2b4d75f37e443ae9a7c18e82d0b6e1f5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead1_02_backlight.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead1_02_base.png",
+      "bytes": 4624,
+      "sha256": "f7e00ce8652d10f6aa43cca51eaa82497ba37eed42b072f5e85128ecdafea931",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead1_02_base.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead1_02_combo.png",
+      "bytes": 56842,
+      "sha256": "2e002ca97954f2dd2eaaec0514a7d39d865fb8ab6ad19c6b2ac2c5f549856d07",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead1_02_combo.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead2.png",
+      "bytes": 95316,
+      "sha256": "f8c00c83715a6dd9215c275afb3dd41d887b5a15cca63c25e99cac3ea5f1417d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead2.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead2_02_backlight.png",
+      "bytes": 46826,
+      "sha256": "21e71eba70fbb6db38884ac37c43d0850cd2cd9184486192918f708cbfe65bb7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead2_02_backlight.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead2_02_base.png",
+      "bytes": 7531,
+      "sha256": "9d57d41d542a17a9937afc4754175c103592bb47165dfb3536eb0a4ce52e4c36",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead2_02_base.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead2_02_combo.png",
+      "bytes": 23032,
+      "sha256": "a6d92093f21d2ea4a6807727fb313b363992a73daf2a06869bff8765b2b93189",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead2_02_combo.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead3.png",
+      "bytes": 72936,
+      "sha256": "08efd01d3ae39031903b03b99f962d54aad1073b21f7e899fdb5b65ea4f55ebc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead3.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead3_02_backlight-w.png",
+      "bytes": 7756,
+      "sha256": "a49e55c58c7645f9bf3aa6cf79126ce92ddeaeb09cf01287b362866029485fd9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead3_02_backlight-w.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead3_02_backlight-y.png",
+      "bytes": 38152,
+      "sha256": "a1bf755dfe96148e38825d9517c441c81662239008cb2c72ce1bb8dce780b73f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead3_02_backlight-y.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead3_02_base.png",
+      "bytes": 5778,
+      "sha256": "bde3f5cb4099f571a0a8c2ab18ec3b555afd7da4a20dbb57fe979ff8a86f595f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead3_02_base.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead3_02_combo.png",
+      "bytes": 24065,
+      "sha256": "4d8c44b867699717c6de0b514849ff2ee1b0ebac11e24b9306a373ac864ada71",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead3_02_combo.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead4.png",
+      "bytes": 22723,
+      "sha256": "283463950c73384752163c46803cb0efad3e92bd7c04be2a0782b11ca0b98a41",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead4.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead4_02_backlight.png",
+      "bytes": 8665,
+      "sha256": "620a7362c82b8ddb5f689544e551fdb532548000ca6da9d287c4c12acdfc055c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead4_02_backlight.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead4_02_base.png",
+      "bytes": 1551,
+      "sha256": "24ba0d2fbf9b05624aab662d0af9660610cabcbafa1a8c8318d336dd1093a9fc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead4_02_base.png"
+    },
+    {
+      "path": "Textures/Instruments/overhead4_02_combo.png",
+      "bytes": 10925,
+      "sha256": "71f7a950405af84d0f16a6868363a6df5e7803ab225e5ddd0aadc6c0258ddf6e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/overhead4_02_combo.png"
+    },
+    {
+      "path": "Textures/Instruments/pedastal1.png",
+      "bytes": 50754,
+      "sha256": "c8198cbb296dde6b67b665f5aaa4aaa05417317b01cec5919fefc7b1cf8e4224",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/pedastal1.png"
+    },
+    {
+      "path": "Textures/Instruments/pfd.png",
+      "bytes": 44241,
+      "sha256": "788d4cfbf187b64fee6429ccaa53372b7c44cc5d94551d433a946459ea7d4f00",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/pfd.png"
+    },
+    {
+      "path": "Textures/Instruments/pfd1.png",
+      "bytes": 8651,
+      "sha256": "a2553ddde4358b14d423093e47cebbd66cd8ba9ce33b8989cedd4242143447ab",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/pfd1.png"
+    },
+    {
+      "path": "Textures/Instruments/pfd2.png",
+      "bytes": 54387,
+      "sha256": "2c23834e9df60bd4103c3956b73efe76e2212cab81746c7bf8db3270aaefd6c5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/pfd2.png"
+    },
+    {
+      "path": "Textures/Instruments/pfd3.png",
+      "bytes": 1050923,
+      "sha256": "8b18279ac5cd8838e6b2ffbda28c6861307a2956097b078df81611b249447a3e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/pfd3.png"
+    },
+    {
+      "path": "Textures/Instruments/spd-tape.png",
+      "bytes": 21704,
+      "sha256": "a105cbf1a49891e291a6881e15b5277100ff55c08785150bb9b8c05ccedd22b2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Instruments/spd-tape.png"
+    },
+    {
+      "path": "Textures/Livery/DLH/DLH.png",
+      "bytes": 706527,
+      "sha256": "020751e2bf93c0215863623426b8d66340646e30e26f3bdfcdf45fafac34615b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Livery/DLH/DLH.png"
+    },
+    {
+      "path": "Textures/Livery/F-WWDD/F-WWDD.png",
+      "bytes": 717550,
+      "sha256": "84b0aaadbf17483d261a2829dd47fb5cb4258ad17774c2f51b39199e3920aa99",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Livery/F-WWDD/F-WWDD.png"
+    },
+    {
+      "path": "Textures/Livery/House/Tyre.png",
+      "bytes": 3388,
+      "sha256": "ccc3b33c5602b93322c1f9741fe7faf1271cdeac5b26e41e440703b94e5ca9e2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Livery/House/Tyre.png"
+    },
+    {
+      "path": "Textures/Livery/UAE/UAE.png",
+      "bytes": 1046723,
+      "sha256": "712d2dd0c152e41f9421435ef46f15448b2922abf60b2c7244e5d4cda624eda7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Livery/UAE/UAE.png"
+    },
+    {
+      "path": "Textures/Panels/autbrk/gear01.png",
+      "bytes": 1861,
+      "sha256": "df9f485ebe65970b709ab41369737a86334ff7c95c2ebf55e0caca1b151d578d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/autbrk/gear01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_apu_01.png",
+      "bytes": 1940,
+      "sha256": "4e7bf2bcd7794057dc2ed60d6f8f0720beee042cef0db8f1d4b13ea4fd9f512e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_apu_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_bleed_01.png",
+      "bytes": 6998,
+      "sha256": "35e5b05f5731eca48d8a89ea64807732623bfd159012979ee7b2c066bd99ad42",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_bleed_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_cab-press_01.png",
+      "bytes": 6483,
+      "sha256": "ac1aac5d7b317845f2f27add2a508bac209005a47efa83754115cccec478c5df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_cab-press_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_cruise_01.png",
+      "bytes": 12422,
+      "sha256": "014701993358734da2f7a7a1b5f25d2f6f14734ef067930f4c57c7e5cbeee8f0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_cruise_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_door.ac",
+      "bytes": 11491,
+      "sha256": "685412341f69f297509300f805013954856fe3d4912cecb0d73202041ee6fa5c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_door.ac"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_doors_01.png",
+      "bytes": 4097,
+      "sha256": "1cc8d7c83f6d5f79b58e67b135f620bcae6a033d8132ce537f6a206c912548ee",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_doors_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_elec-ac_01.png",
+      "bytes": 5550,
+      "sha256": "18ae35fb1852e01e49725b659921d8e853785ca11b753024c367bb73b281605b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_elec-ac_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_elec-dc_01.png",
+      "bytes": 6464,
+      "sha256": "8e23c844a38b1a48b0de0c82d963ce603c546ac0bc4c6ce94c1bd9c57a9afc92",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_elec-dc_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_engine_01.png",
+      "bytes": 6086,
+      "sha256": "73277fc3d848d67215a1ef59820e7c1dcdb0acc089d21b33358de1adbc054303",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_engine_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_fuel_01.png",
+      "bytes": 6426,
+      "sha256": "e40e805e359f0b9289b27023c9d3b6a9dc93a52681e236d252e3c947d891ca45",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_fuel_01.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sd_fuel_02.png",
+      "bytes": 4285,
+      "sha256": "0fb9b25ee505e1aca532b82573a90fce01eea51f23111380575037508919970e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sd_fuel_02.png"
+    },
+    {
+      "path": "Textures/Panels/ecam/sdisplay.ac",
+      "bytes": 98408,
+      "sha256": "3383c08a32fc0c12e32d7b288019d5699cf8b3aa10733406b37843863b9b4330",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/ecam/sdisplay.ac"
+    },
+    {
+      "path": "Textures/Panels/fms/blank.png",
+      "bytes": 4812,
+      "sha256": "5cab3b4e37ab6013ff6a4b6f1d174635321790fe8b92715e010380ceb056f8d3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/blank.png"
+    },
+    {
+      "path": "Textures/Panels/fms/fms_atc_clear_depart.png",
+      "bytes": 4423,
+      "sha256": "50f107e30dc95d4b944035c10669148389c8352cea308aa574f7486c9e2ddcd8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/fms_atc_clear_depart.png"
+    },
+    {
+      "path": "Textures/Panels/fms/fms_atc_connect.png",
+      "bytes": 3624,
+      "sha256": "42e17d1f8dbd7a22924c6ab4654a9215bf0905351e350e26a819fb74386e736c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/fms_atc_connect.png"
+    },
+    {
+      "path": "Textures/Panels/fms/fms_perf_appr.png",
+      "bytes": 6874,
+      "sha256": "7279413b60ee1a5bd86871a0c3073dac64b69686be8db6f23bd8c4b6d33f636e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/fms_perf_appr.png"
+    },
+    {
+      "path": "Textures/Panels/fms/fms_perf_crz.png",
+      "bytes": 4451,
+      "sha256": "bb87750f57ed135404d8791469c915f4575c47ad652dad24e8be3acb909f34ef",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/fms_perf_crz.png"
+    },
+    {
+      "path": "Textures/Panels/fms/fms_perf_to.png",
+      "bytes": 6956,
+      "sha256": "6cb58b01e4900957c912e59bb823f1aa30ec1c7127f46049edbd4227ebc6957e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/fms_perf_to.png"
+    },
+    {
+      "path": "Textures/Panels/fms/mcdu_icons.png",
+      "bytes": 632,
+      "sha256": "b498aebb81216458136b4172cbbf62f424d3aa15b28e7cd5a8c238579e7cdd74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/mcdu_icons.png"
+    },
+    {
+      "path": "Textures/Panels/fms/mcdu_icons_02.png",
+      "bytes": 2852,
+      "sha256": "d1004a8101b102a9165ab4113a9b19f0588d9bc872faacab971fcae287d1400c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/fms/mcdu_icons_02.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/alt-tape.png",
+      "bytes": 261249,
+      "sha256": "ddcd253d63521b7a7e7dabe0edaca4cbc6682bed6b2c99259fc11751a978f19f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/alt-tape.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/alt-tape2.png",
+      "bytes": 261249,
+      "sha256": "ddcd253d63521b7a7e7dabe0edaca4cbc6682bed6b2c99259fc11751a978f19f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/alt-tape2.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/ati.png",
+      "bytes": 59992,
+      "sha256": "e2575aed90da4198d4c00b494189cf55d6fee1cb4372796f45fc072915a47bfd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/ati.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/pfd1.png",
+      "bytes": 4918,
+      "sha256": "e100269867f8148a3c18404e2e9a015b8b80dae4c9cf20716a2d6f2c6df14d65",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/pfd1.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/pfd1_2.png",
+      "bytes": 4753,
+      "sha256": "76deb60deb551e8d4e2a6ba991ce13856934d55c85fb0fc1f09eca72b23b7fa9",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/pfd1_2.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/pfd2.png",
+      "bytes": 54351,
+      "sha256": "089bbadfb2980055cbf525135a7fe13f0bc564dd4075c0adbd96ed2d056b7f01",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/pfd2.png"
+    },
+    {
+      "path": "Textures/Panels/pfd/spd-tape.png",
+      "bytes": 20811,
+      "sha256": "d5ceaef312c6a488262775aa64356f5192ea4ade51284feeb929876eb26d06f3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/Textures/Panels/pfd/spd-tape.png"
+    },
+    {
+      "path": "XML/A380.xml",
+      "bytes": 29310,
+      "sha256": "c5cee1dace9a951578dd114c7dbc288c5f74081cce2189f51470dd3b64ff112d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/A380.xml"
+    },
+    {
+      "path": "XML/Effects/gearsmoke.xml",
+      "bytes": 2392,
+      "sha256": "698590e9c8ec6d2a9f5677e6764bd8307f5862108b5a8f63d7230990047094b8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Effects/gearsmoke.xml"
+    },
+    {
+      "path": "XML/Effects/smoke.png",
+      "bytes": 15427,
+      "sha256": "e68a4ec53047d154c338bf2897c6d295df2176674e56ed0b41d15f906bdd7f2c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Effects/smoke.png"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/autobrk.xml",
+      "bytes": 9632,
+      "sha256": "d349dd2474eb3c9d5825f9eb051679428c984ac7225d228c3963491e3a111b81",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/autobrk.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/default.xml",
+      "bytes": 185,
+      "sha256": "8972bdccfe8043d309bd880842ee7e20025d6d8f2d5b7d126aca4cd31129381e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/default.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/ecam.xml",
+      "bytes": 180,
+      "sha256": "9670472c133efbe6d3b422b39017b35fc57ff9a3c0d3d776d49b2839a1fcbbb4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/ecam.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/eicas.xml",
+      "bytes": 40865,
+      "sha256": "33e1d33e17535a1936388a354590d492caa3920632c9f60ab2e894970161968f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/eicas.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/frontpanel.xml",
+      "bytes": 6670,
+      "sha256": "bbba8526af7ce706e32fb057fcd7e961e97fd8c8626b12942ed3b831ea9b5a9f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/frontpanel.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/gear_lever.xml",
+      "bytes": 958,
+      "sha256": "a1f02bd7f8b7016afd639baeb23b496892d3248173d990923596bec9a1685bd0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/gear_lever.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/nd_c.xml",
+      "bytes": 182992,
+      "sha256": "a566c4b655f302906919e81cf727bfadb93230cceb7c502d794d2f277579511e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/nd_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/nd_fo.xml",
+      "bytes": 181965,
+      "sha256": "3824f537269f765b115a6f36d87b06d8690d1f0fbcb860dfc0fe02922e13a5eb",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/nd_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/panel-light.xml",
+      "bytes": 1615,
+      "sha256": "92304ad5527f562845798e0a0e083189d30d29c306459367fe968448bd740b93",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/panel-light.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/pfd.xml",
+      "bytes": 67832,
+      "sha256": "5190f9eeaa33956d96fba519cf5ce3b611c4d5d16de191b93a2c4bf694ce8680",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/pfd.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/pfd_c.xml",
+      "bytes": 52053,
+      "sha256": "971ccf7d518ee063042f986c713c7d0c72470baefaad28e6a95386e57bf144a3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/pfd_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/FrontPanel/pfd_fo.xml",
+      "bytes": 46873,
+      "sha256": "5db8affec038783fab393b1f53b8794e39041236c44e79608cb66321e057fbd3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/FrontPanel/pfd_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/Ap_Fd.xml",
+      "bytes": 4844,
+      "sha256": "6843243745f89f3525e34135d1b737aa1238ee0148c9235e333c8f37ba08309b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/Ap_Fd.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/efis_c.xml",
+      "bytes": 25376,
+      "sha256": "1cdf26e348a9fefd4e8ad3729b008f343045f92830f1772900be7b2bc9454574",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/efis_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/efis_fo.xml",
+      "bytes": 25232,
+      "sha256": "c462f2b5d82399dc10da259375d8ccfd315ee9bf3f6d4c0cb9a396847860c743",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/efis_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/end_c.xml",
+      "bytes": 224,
+      "sha256": "b16c62dca46de6a6277c4e3979208f291315065f5510ea6a61448ad9f5583b22",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/end_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/end_fo.xml",
+      "bytes": 225,
+      "sha256": "3c099bd1de62911a81ed35e8cbe96ef97b177451fdf74f8056287b940fa494c3",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/end_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/fcu.xml",
+      "bytes": 24309,
+      "sha256": "e2f183dcb3cd8df9e4f4ae9e111958428ee15b3ce9d42acba743ee06e5febd4b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/fcu.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/glare_hot.xml",
+      "bytes": 640,
+      "sha256": "6bd9e77dc7bd33e51b96d333b803952f04f416a26f2a59d7758ded15d2672f2b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/glare_hot.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/gs_wing_c.xml",
+      "bytes": 173,
+      "sha256": "6b794e11420ff6168081d97a714a692a632c6f9aadbbb94c97d6d78ebe079304",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/gs_wing_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/wing_c.xml",
+      "bytes": 229,
+      "sha256": "78be66e03865554073cef2acb15c3cba4319abdea7c7fcece67ecde439fee8d6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/wing_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Glareshield/wing_fo.xml",
+      "bytes": 230,
+      "sha256": "05399b49a7e01dda9e6aa29f0511f5c73b7de9702e653080d94857fbd47df5bc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Glareshield/wing_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/anti_ice_lights.xml",
+      "bytes": 29685,
+      "sha256": "f503dbc218ef24cd81c4b37b43a13b70ae52f3db13ce4fe9ae185973fd72cb34",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/anti_ice_lights.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/apu_adirs.xml",
+      "bytes": 480,
+      "sha256": "ed9bccdcfbf633c640ea4f64ef3382ee3637b2b2d7b624508e7fbf05d39fab87",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/apu_adirs.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/elec_air.xml",
+      "bytes": 31818,
+      "sha256": "448b5a2d8357aca20275280d28c3784f6c789149ea86928d2c1c2e0cc679b31a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/elec_air.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/eng_fire.xml",
+      "bytes": 789,
+      "sha256": "f3bb253072eb652e93bc35325cbf4c13c81e5c561a85eab98ea94543cf492922",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/eng_fire.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/gnd_hyd.xml",
+      "bytes": 479,
+      "sha256": "97e16ca550d738053c883b08cde494ce4169a800b92379440b9ab031206f36df",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/gnd_hyd.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/guard_black.xml",
+      "bytes": 425,
+      "sha256": "cb0b4b8d7fe6fd11eba10cac6bd8779c62d423f49d08ebcddbcf3b515411f63f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/guard_black.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/guard_red.xml",
+      "bytes": 737,
+      "sha256": "08c767b8491f2ab63171919b9656386b1af36fc85363c3758f59f9859486b2e2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/guard_red.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/hyd_fuel.xml",
+      "bytes": 2430,
+      "sha256": "0f86c7d52c2c8e76e1159e2adb2c21cc1a41ab8d6e98d6f57bbc068d13e618a1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/hyd_fuel.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/misc_c.xml",
+      "bytes": 1928,
+      "sha256": "ecc59c5d6251fa27b43723f4af55390a952b3b1e4f18d7bac88b7b4a007fb1f6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/misc_c.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/misc_fo.xml",
+      "bytes": 2120,
+      "sha256": "d5d47ccf6bfd56a6b9277210b5552c375e3383aad59f957c8cf8b462bbdb3785",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/misc_fo.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/misc_m.xml",
+      "bytes": 481,
+      "sha256": "f220c93e54aa5b114cab7d5f301077b92a584be7580504088d895a09dab90e1a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/misc_m.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/overhead.xml",
+      "bytes": 2948,
+      "sha256": "fb62c3ede309401db6e26bb525ae85fc14fc92bf0b18b37423ad3f878188ed08",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/overhead.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Overhead/placeholders.xml",
+      "bytes": 191,
+      "sha256": "33a47d4d9dbbad0a0450450b04a0bf41d8c41bd18f45287b68a13e574dc652e8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Overhead/placeholders.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/display.xml",
+      "bytes": 185,
+      "sha256": "8972bdccfe8043d309bd880842ee7e20025d6d8f2d5b7d126aca4cd31129381e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/display.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/displays.xml",
+      "bytes": 879,
+      "sha256": "75c373f8701184db23dec0ad95cf390a2f4b9eef54519e1dbc8f9bb30351b4b5",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/displays.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/ecam.xml",
+      "bytes": 6465,
+      "sha256": "b0d419653a2967baf6eff31bf54796935cf32e96a952065f2f7a30a53db568a4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/ecam.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/ecam_tat_text.xml",
+      "bytes": 276,
+      "sha256": "85d1543d9d77cd49b69e7f734c1999ab5d687c6524769c8c3d68c5a9da094749",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/ecam_tat_text.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/ecam_temp-page.xml",
+      "bytes": 855,
+      "sha256": "f24442c7a2393e14cd95273b0c0d63ecbb4fa7416cbdce8df7373ddd1429bbdd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/ecam_temp-page.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/ecam_temp-panel.xml",
+      "bytes": 376,
+      "sha256": "66f46cb57655e3a0b3df42773d10bc2d215741b02e0aaff8a23497294ab07b59",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/ecam_temp-panel.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/eng_master.xml",
+      "bytes": 3332,
+      "sha256": "ba298e45ffedc3e38b5d0dd5611fecf43834164eeea2f9bd203e67ec35f58d66",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/eng_master.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/flap.xml",
+      "bytes": 596,
+      "sha256": "a76d1f3c9d17fe652fff0f901e22a19834c38e5bad959247fc739bb5492625a0",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/flap.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu-entrypage.xml",
+      "bytes": 4274,
+      "sha256": "6d0f7cd9b29b1a27796d4e2d6b8d2507d943cdf8c557e95d037e2ec91f955463",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu-entrypage.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_display.xml",
+      "bytes": 766,
+      "sha256": "d8e6e0c194b7a4e53a28765ef030340555d213621b9f7c5118e0bba166785e5a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_display.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_keyboard.xml",
+      "bytes": 7840,
+      "sha256": "88af32ad09f22892814fdb12e45e52d9da9f3eb8af4d23c34fa3593decdfdd03",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_keyboard.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_keyboard_01.xml",
+      "bytes": 7868,
+      "sha256": "ed39aca193dc803addc38e0d6a0411474f034e3841ec646ae0bb99e883e64ee2",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_keyboard_01.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_keyboard_02.xml",
+      "bytes": 7961,
+      "sha256": "453509fd6e1bfc4ccd9b0bf3dd4dd13ffa4d43ed4b2f2b032cd0e03dc35d3b3e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_keyboard_02.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_new_display.xml",
+      "bytes": 13359,
+      "sha256": "2d6d45f56651eb80ad42d311b1993e73b95cd87e5f36466766f8ba0a688a3953",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_new_display.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_new_display_01.xml",
+      "bytes": 177756,
+      "sha256": "6695438f3cda18afad5af6f883ff6aacc97f27808599ecfe47ba518402147e1a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_new_display_01.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_new_display_02.xml",
+      "bytes": 178972,
+      "sha256": "91ea9b320a2778b7a22ec6a2555ca5beb1de1df888145d6318281f82711f9430",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_new_display_02.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_numpad.xml",
+      "bytes": 2909,
+      "sha256": "8cc42fcd80ea901fc984bc71ca1ce0aecccdb7f8160bcfa97e5de3600ffac0b1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_numpad.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_numpad_01.xml",
+      "bytes": 2919,
+      "sha256": "d979a98ad9d9d3ab190f71a39e3b44531fa18c2a8893e887d0207de520de053a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_numpad_01.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdu_numpad_02.xml",
+      "bytes": 3012,
+      "sha256": "f656d299925f92af5b68cea54d824c532c805844dedc40082acac96605bf6d4d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdu_numpad_02.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/mcdutext-panel.xml",
+      "bytes": 375,
+      "sha256": "a02cd4620d2607c6d8b53bc6e962582006ac2c3351da0d3898dbd798c81f1940",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/mcdutext-panel.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/misc1.xml",
+      "bytes": 4172,
+      "sha256": "93d1ecfb5255104e761dc0b73e90c5ac47ac7cfd95bc33820270860f92531e58",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/misc1.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/misc2.xml",
+      "bytes": 180,
+      "sha256": "860dcf2ccc945093c53903b4294b0068bcae7d7b1e84b355b181228000bc7d26",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/misc2.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/pedestal.xml",
+      "bytes": 3327,
+      "sha256": "34261d72e74537788bc2f0b6383afe38b097681366dbc0a8852a074cb1e2833f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/pedestal.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/placeholders.xml",
+      "bytes": 678,
+      "sha256": "b2098cdefe1f2265a0066fbccf33b4a1dac1e9c6cb74483a53602b18d65021dd",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/placeholders.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/rmp.xml",
+      "bytes": 4096,
+      "sha256": "f10b2a489749c3609ed9eba555bc918744b10eb02692770f968285be5c632430",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/rmp.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/speedbrake.xml",
+      "bytes": 501,
+      "sha256": "75f92f137b97cb8404d882ffdebded3e9af03bd36d9adeaf0378e2d66c0b72d8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/speedbrake.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/system_display.xml",
+      "bytes": 76272,
+      "sha256": "3c452495c084597a4c63d47e192439d506aee670defd407f37ffc39f93b08c3a",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/system_display.xml"
+    },
+    {
+      "path": "XML/FlightDeck/Pedestal/trim.xml",
+      "bytes": 179,
+      "sha256": "b1e447a668b14c78acc4c8bdbc0a68a0e91504fa40d23d0055273e8e5e204ef6",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/Pedestal/trim.xml"
+    },
+    {
+      "path": "XML/FlightDeck/cockpit-light.xml",
+      "bytes": 1356,
+      "sha256": "221c2811ea4e611c80567ae4697bcc45d967d49481bf770ff80dc0bb5a43c6fc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/cockpit-light.xml"
+    },
+    {
+      "path": "XML/FlightDeck/flightdeck.xml",
+      "bytes": 1798,
+      "sha256": "01f9d783c37b6e5ae84f56c8a49fe85458e7a339666f6fecbdb575e00185c891",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/FlightDeck/flightdeck.xml"
+    },
+    {
+      "path": "XML/Lights/GreenLight.xml",
+      "bytes": 1255,
+      "sha256": "c95d976992298e3944779e59789b27cd635c3b2bab07427c2c5ff4b29b4a02ad",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/GreenLight.xml"
+    },
+    {
+      "path": "XML/Lights/RedLight.xml",
+      "bytes": 1245,
+      "sha256": "5da896169ddd4640f49ce0abb21d12420f03b883723c773ed9419c59b822bd74",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/RedLight.xml"
+    },
+    {
+      "path": "XML/Lights/beacon.xml",
+      "bytes": 1457,
+      "sha256": "fd7fd9ffd49d33ff084917316b9100cee23c13c05616ef77780073d68f0efb1e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/beacon.xml"
+    },
+    {
+      "path": "XML/Lights/cabin-light.xml",
+      "bytes": 1996,
+      "sha256": "c6857a9e0d2266831ad084ac723deb609b5ab7940fd36150fad3c7e9e676ec45",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/cabin-light.xml"
+    },
+    {
+      "path": "XML/Lights/flash.xml",
+      "bytes": 1592,
+      "sha256": "af7ada735caf5e526f3d4c42d3c00311d1ca372f03cc68fffedc222ef77b6347",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/flash.xml"
+    },
+    {
+      "path": "XML/Lights/landinglight.xml",
+      "bytes": 1388,
+      "sha256": "0d617cd64098a3742afb5f0509ef7e34b5fe7af3def3c84199e11e91b9997d95",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/landinglight.xml"
+    },
+    {
+      "path": "XML/Lights/light-cone-left.xml",
+      "bytes": 395,
+      "sha256": "ac93acd9ea18f2e5d039704e5639a1e449f1b5de2cdfcc24499768f6449868b4",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/light-cone-left.xml"
+    },
+    {
+      "path": "XML/Lights/light-cone-rembrandt.xml",
+      "bytes": 1097,
+      "sha256": "7fbff04a613c3b705808fe0d52e5ad9a83d516af6663eb310c39ed2abc7a35f1",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/light-cone-rembrandt.xml"
+    },
+    {
+      "path": "XML/Lights/light-cone-right.xml",
+      "bytes": 314,
+      "sha256": "76af10f091e5d399227e5c40a1dd8ffe52ae67f88cc40e368750f905ea0a7b53",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/light-cone-right.xml"
+    },
+    {
+      "path": "XML/Lights/position.xml",
+      "bytes": 1190,
+      "sha256": "4b713f08e45e17593cb64c87bed17fbdb8114a80a5814f37f07d1a79a179cb6f",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Lights/position.xml"
+    },
+    {
+      "path": "XML/Liveries/DLH.xml",
+      "bytes": 283,
+      "sha256": "1f6fd03d1a4a1d5d6615c6ab69afe7d3481ea7bc0208c28257f6f10b5361c60e",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Liveries/DLH.xml"
+    },
+    {
+      "path": "XML/Liveries/UAE.xml",
+      "bytes": 282,
+      "sha256": "74d663024e2b3655050d363928837e6361255358f5d7a61f9c37105c48d55b6c",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Liveries/UAE.xml"
+    },
+    {
+      "path": "XML/Wings/bathtub.xml",
+      "bytes": 1982,
+      "sha256": "de3872bf9518cd10553be2249681f455250e6cb339b2659e0f8d8d60424a2fed",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/bathtub.xml"
+    },
+    {
+      "path": "XML/Wings/cascade.xml",
+      "bytes": 341,
+      "sha256": "af3022703c4efd5d747ad53e9c5cb0bc8fbd69b0c40b5324cf0166af871a384b",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/cascade.xml"
+    },
+    {
+      "path": "XML/Wings/cowling14.xml",
+      "bytes": 723,
+      "sha256": "be126fab80e2b5a636a0708cad06cf6bb49bfdbb7e86a98616bf9beb79a3ea06",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/cowling14.xml"
+    },
+    {
+      "path": "XML/Wings/cowlingl.xml",
+      "bytes": 1499,
+      "sha256": "0358a9612dea84c0dbb804297c6b177b9ea2c60c5dcdb2b6279ed2ee8d7d0179",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/cowlingl.xml"
+    },
+    {
+      "path": "XML/Wings/cowlingr.xml",
+      "bytes": 1508,
+      "sha256": "44fde919ba4ed93d2af14144322cf007f412f67b8d9860db2d4f90c7e8e82d47",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/cowlingr.xml"
+    },
+    {
+      "path": "XML/Wings/pylon1.xml",
+      "bytes": 685,
+      "sha256": "c172afb489ed318220d21be10156829d604f4f4873a504b45f28df15100df0bc",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/pylon1.xml"
+    },
+    {
+      "path": "XML/Wings/pylon2.xml",
+      "bytes": 720,
+      "sha256": "212f76a41a51cb95e3edd138083e9a6c94e665681ded60c0ae523fb4cb01e243",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/pylon2.xml"
+    },
+    {
+      "path": "XML/Wings/pylon3.xml",
+      "bytes": 726,
+      "sha256": "45f659b08f89a46c879085a048acda80b24b6b817b502f4ba23b67f8169e9f1d",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/pylon3.xml"
+    },
+    {
+      "path": "XML/Wings/pylon4.xml",
+      "bytes": 721,
+      "sha256": "648f0d3dc9eab1cfcb376aa13c1cb1011bcd2b369c7cdd2c4aa8d1b9bbf7aa93",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/pylon4.xml"
+    },
+    {
+      "path": "XML/Wings/wings.xml",
+      "bytes": 39696,
+      "sha256": "5af21d27de8bd3ef5433aca08b44acf97e62f6a22d1aa83d5a3b6fc250477204",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/Wings/wings.xml"
+    },
+    {
+      "path": "XML/cabin.xml",
+      "bytes": 6039,
+      "sha256": "7967fa365fc788ab13bea1ef57993b075376764c0ae3acb8a7b305e89cdb57b8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/cabin.xml"
+    },
+    {
+      "path": "XML/htp.xml",
+      "bytes": 1546,
+      "sha256": "0a4cc7d3ea0aeee20fc3fb7fb09066b51e55dadb28477297539b928df81b9de8",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/htp.xml"
+    },
+    {
+      "path": "XML/windshield.xml",
+      "bytes": 95,
+      "sha256": "355b3f1cd7399d6ee153a4157b5854ad162b5e77a366c1654804838a1f3bfbc7",
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A380/715e972134a2a708115419d2d301b14e8323922a/XML/windshield.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A380",
+    "commit": "715e972134a2a708115419d2d301b14e8323922a",
+    "components": [
+      {
+        "path": "XML/cabin.xml",
+        "offsets": {
+          "x-m": 11.6,
+          "z-m": 4.9
+        }
+      }
+    ]
+  }
+}

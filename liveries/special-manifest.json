@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-10-19",
+  "aircraft": {
+    "a321": {
+      "compatibility": {
+        "model": "/models/A321.glb",
+        "modelSha256": "da8e85b9b11745a711fa1aa9c30f6971a3da1f22ad6fc9dec3688a14c380d3e6",
+        "projection": "runtime-livery-projection.mjs uv1 (channel 1)",
+        "materialNames": [
+          "a321-livery-projection"
+        ],
+        "sourceModel": "FlightGear A321",
+        "targetModel": "custom A321",
+        "uvEvidence": "Measured side projection onto existing body and vertical tail triangles. Native positions, normals and uv are unchanged; render-clone indices are stably partitioned by material, preserving the exact multiset of oriented triangles. Both sides read in their correct directions. Wings, engines and gear retain original materials.",
+        "limitations": [
+          "Non-native UV adaptation: panel, door and window locations are approximate."
+        ],
+        "atlasBodyRows": [
+          [
+            0.155,
+            0.237
+          ],
+          [
+            0.378,
+            0.461
+          ]
+        ],
+        "atlasTailBlocks": [
+          [
+            0.79,
+            0.004,
+            0.97,
+            0.155
+          ],
+          [
+            0.02,
+            0.227,
+            0.2,
+            0.378
+          ]
+        ]
+      },
+      "liveries": [
+        {
+          "id": "lufthansa",
+          "name": "Lufthansa（适配）",
+          "textures": [
+            {
+              "path": "/liveries/a321/lufthansa.png",
+              "materials": [
+                "a321-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/LH.png",
+              "sha256": "310bd9ea86b045c5cfdcb4c6d4a5143b04e42236784f7e9746e12d3a57788f06",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/LH.png",
+          "license": "GPL-3.0",
+          "repository": "https://github.com/FGMEMBERS/A321",
+          "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+          "attribution": "FlightGear community aircraft repaint from FGMEMBERS/A321; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a321-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/License.txt",
+              "sha256": "46d1316cfd45dd703ecfaf5be8f998c29fc94185719d76b7fd439389cdcbd34f"
+            }
+          ]
+        },
+        {
+          "id": "air-canada",
+          "name": "Air Canada（适配）",
+          "textures": [
+            {
+              "path": "/liveries/a321/air-canada.png",
+              "materials": [
+                "a321-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/AC.png",
+              "sha256": "6cbfbcb099a1896bdce0187bb99d7dc1587bfbb2227953f6cbd8aaefe4aaa7ab",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/A321/blob/600a3375f58262185448797e81ce0bdd5aa1ddc2/Models/AC.png",
+          "license": "GPL-3.0",
+          "repository": "https://github.com/FGMEMBERS/A321",
+          "commit": "600a3375f58262185448797e81ce0bdd5aa1ddc2",
+          "attribution": "FlightGear community aircraft repaint from FGMEMBERS/A321; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/a321-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/A321/600a3375f58262185448797e81ce0bdd5aa1ddc2/License.txt",
+              "sha256": "46d1316cfd45dd703ecfaf5be8f998c29fc94185719d76b7fd439389cdcbd34f"
+            }
+          ]
+        }
+      ]
+    },
+    "b38m": {
+      "compatibility": {
+        "model": "/models/B38M.glb",
+        "modelSha256": "0a592dc6748399d9c8e335b327787c1f92897958ab8f42f419516c811108287f",
+        "projection": "runtime-livery-projection.mjs uv1 (channel 1)",
+        "materialNames": [
+          "b38m-livery-projection"
+        ],
+        "sourceModel": "FlightGear 737 MAX 9",
+        "targetModel": "AMPG 737 MAX 8",
+        "uvEvidence": "Measured side projection onto existing body and vertical tail triangles. Native positions, normals and uv are unchanged; render-clone indices are stably partitioned by material, preserving the exact multiset of oriented triangles. Both sides read in their correct directions. Wings, engines and gear retain original materials.",
+        "limitations": [
+          "Non-native UV adaptation: panel, door and window locations are approximate.",
+          "Source MAX 9 registration and artwork stretched to MAX 8 length; not an exact MAX 8 repaint."
+        ],
+        "atlasBodyRows": [
+          [
+            0.028,
+            0.111
+          ],
+          [
+            0.18,
+            0.263
+          ]
+        ],
+        "atlasTailBlocks": [
+          [
+            0.012,
+            0.366,
+            0.21,
+            0.492
+          ],
+          [
+            0.808,
+            0.366,
+            0.987,
+            0.492
+          ]
+        ]
+      },
+      "liveries": [
+        {
+          "id": "united",
+          "name": "United Airlines（适配）",
+          "textures": [
+            {
+              "path": "/liveries/b38m/united.png",
+              "materials": [
+                "b38m-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/UAL-2019.png",
+              "sha256": "7d3f29c75ed5984d220de0dbf437bd9e3e8b310ee77d3dceb0b83a8edcf248d0",
+              "width": 8192,
+              "height": 8192,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/REXO-77/737-MAX/blob/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/UAL-2019.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/REXO-77/737-MAX",
+          "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+          "attribution": "FlightGear community aircraft repaint from REXO-77/737-MAX; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b38m-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/LICENSE",
+              "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+            }
+          ]
+        },
+        {
+          "id": "icelandair",
+          "name": "Icelandair（适配）",
+          "textures": [
+            {
+              "path": "/liveries/b38m/icelandair.png",
+              "materials": [
+                "b38m-livery-projection"
+              ],
+              "channel": 1,
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/ICE.png",
+              "sha256": "256ccb6dd17975584474a161603148ab60ea107bcded4d35f0668c06b77b6849",
+              "width": 8192,
+              "height": 8192,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://github.com/REXO-77/737-MAX/blob/fc4316a01c1ec488789725bb54ed2f454f931ac6/Models/Liveries-9/ICE.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/REXO-77/737-MAX",
+          "commit": "fc4316a01c1ec488789725bb54ed2f454f931ac6",
+          "attribution": "FlightGear community aircraft repaint from REXO-77/737-MAX; measured UV projection for SKYBOUND, original PNG unchanged.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/b38m-COPYING.txt",
+              "source": "https://raw.githubusercontent.com/REXO-77/737-MAX/fc4316a01c1ec488789725bb54ed2f454f931ac6/LICENSE",
+              "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

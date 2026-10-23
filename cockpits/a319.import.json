@@ -1,0 +1,668 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/a319.glb",
+  "bytes": 7280660,
+  "triangles": 25397,
+  "nodes": 89,
+  "meshes": 67,
+  "images": 46,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    },
+    {
+      "name": "live_engine_2",
+      "kind": "engine"
+    }
+  ],
+  "sourceMeshes": 749,
+  "drawGroups": 67,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/FlightDeck/a320.flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/FlightDeck/a320.flightdeck.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/PFD/PFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/PFD/PFD.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/MFD/MFD.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/MFD/MFD.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/EICAS/EICAS.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/EICAS/EICAS.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/MCP/MCP.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/MCP/MCP.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/Stby-AI/Stby-AI.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/Stby-AI/Stby-AI.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/Stby-ASI/Stby-ASI.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/Stby-ASI/Stby-ASI.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/Altimeter/altimeter.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/Altimeter/altimeter.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/VOR/VOR.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/VOR/vor.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/boeing.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/boeing.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/fgdata/Aircraft/Instruments-3d/cdu/display-text-value.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/SwitchECAMpanel/SwitchECAMpanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/SwitchECAMpanel/SwitchECAMpanel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/OHpanel/OHpanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/OHpanel/ohpanel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/Instruments/Radiopanel/Radiopanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/Instruments/Radiopanel/Radiopanel.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "A319-111-set.xml",
+    "position": [
+      -0.525,
+      2.47,
+      -12
+    ],
+    "pitchDeg": -10,
+    "fovDeg": 70
+  },
+  "sourceFiles": [
+    {
+      "path": "A319-111-set.xml",
+      "scope": "aircraft",
+      "sha256": "cdd35f39f7c84977f4d08775d72fd1c675b57e96484d414abb54cbfcc6243f47",
+      "bytes": 4624,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/A319-111-set.xml"
+    },
+    {
+      "path": "Models/FlightDeck/a320.flightdeck.ac",
+      "scope": "aircraft",
+      "sha256": "61a0ca54a8496a8bb233c19aaf0375163a5db5186eab148822a47df01686274e",
+      "bytes": 677489,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/a320.flightdeck.ac"
+    },
+    {
+      "path": "Models/FlightDeck/carpet.png",
+      "scope": "aircraft",
+      "sha256": "695f3a31481ca7f80d04cd80465336b9affae26593b3cc4290d502b109a0c550",
+      "bytes": 38671,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/carpet.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit-1.png",
+      "scope": "aircraft",
+      "sha256": "9351a884641fcfb720d253da6796a728e47f7db0ec45ce3d868fa6c9eb2289f4",
+      "bytes": 27828,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/cockpit-1.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit-2.png",
+      "scope": "aircraft",
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "bytes": 121141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/cockpit-2.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit-3.png",
+      "scope": "aircraft",
+      "sha256": "7c0aca7982d4be9bff8367696c488cc32f043068016cf4824f91477bb76ff6e6",
+      "bytes": 188,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/cockpit-3.png"
+    },
+    {
+      "path": "Models/FlightDeck/cockpit-4.png",
+      "scope": "aircraft",
+      "sha256": "2dea67b3b09e77201f596489866826eed7a62c8f15b1817d83b2ea05c3a46379",
+      "bytes": 101190,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/cockpit-4.png"
+    },
+    {
+      "path": "Models/FlightDeck/fabric.png",
+      "scope": "aircraft",
+      "sha256": "b2d48bc506727e09ef6584ecd4782d88a2e4027da0246b6f720c462c5fb16c14",
+      "bytes": 321722,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/fabric.png"
+    },
+    {
+      "path": "Models/FlightDeck/gearcontrols.png",
+      "scope": "aircraft",
+      "sha256": "515d821ba5c3c3e55931d53c8eec2edd21cd82481363077da9cdad95c303b170",
+      "bytes": 18095,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/gearcontrols.png"
+    },
+    {
+      "path": "Models/FlightDeck/glareshield.png",
+      "scope": "aircraft",
+      "sha256": "f5d6fe8c6930cf0eb4eb2152e4cc73789ba7fa082279d8585d8d082bf30c548a",
+      "bytes": 12044,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/glareshield.png"
+    },
+    {
+      "path": "Models/FlightDeck/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/knob.png"
+    },
+    {
+      "path": "Models/FlightDeck/pedestal.png",
+      "scope": "aircraft",
+      "sha256": "00bad397776184c0e6b8bbe7baea9c9013afc03b9080d2c690b682c324f6a93e",
+      "bytes": 20897,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/pedestal.png"
+    },
+    {
+      "path": "Models/FlightDeck/pedestal2.png",
+      "scope": "aircraft",
+      "sha256": "9766c7f4580eacce01f6936d312ba3395eadf876186ff08219aaa6b332b091d3",
+      "bytes": 11559,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/pedestal2.png"
+    },
+    {
+      "path": "Models/FlightDeck/Radiopanel.png",
+      "scope": "aircraft",
+      "sha256": "97c7cf19209eebc639188d538fe1e21c4dfe34c5611fd85ad546735af5df5dd0",
+      "bytes": 31420,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/FlightDeck/Radiopanel.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/altimeter-gauge.png",
+      "scope": "aircraft",
+      "sha256": "d8e2d516cb3df204b8df6c29c148a7eb07399002b4703664803c73f7add52811",
+      "bytes": 84504,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Altimeter/altimeter-gauge.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/altimeter-mount.png",
+      "scope": "aircraft",
+      "sha256": "cdddfac4851fde9d309849df7d1b26c9834204348f3768f0f0ea59fdc07a6fe0",
+      "bytes": 28897,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Altimeter/altimeter-mount.png"
+    },
+    {
+      "path": "Models/Instruments/Altimeter/altimeter.ac",
+      "scope": "aircraft",
+      "sha256": "69947c86060eab46a11a2886b5582e3c91bb192f7d1968a898782ba54788bb30",
+      "bytes": 23223,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Altimeter/altimeter.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/ati.png",
+      "scope": "aircraft",
+      "sha256": "c304f256844339425e07ed3498c9db502cb19fa2008242b4e1e95208159255ad",
+      "bytes": 58831,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/EICAS/ati.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/cockpit-2.png",
+      "scope": "aircraft",
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "bytes": 121141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/EICAS/cockpit-2.png"
+    },
+    {
+      "path": "Models/Instruments/EICAS/EICAS.ac",
+      "scope": "aircraft",
+      "sha256": "b8ed1809560e51b50ce79056fffa353f3acfe5f9d894f2882b34ddd032e23455",
+      "bytes": 17127,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/EICAS/EICAS.ac"
+    },
+    {
+      "path": "Models/Instruments/EICAS/eicas.png",
+      "scope": "aircraft",
+      "sha256": "60a0d8998a7231c4deab236276e94a77ca95eb44123870a2b798fea80b4f46fc",
+      "bytes": 14425,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/EICAS/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/cockpit-2.png",
+      "scope": "aircraft",
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "bytes": 121141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MCP/cockpit-2.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MCP/knob.png"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP.ac",
+      "scope": "aircraft",
+      "sha256": "48ebafb13956d82fabdb3458d2e541c3f9ebdb3e59806c733e9d3db91753891b",
+      "bytes": 196305,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MCP/MCP.ac"
+    },
+    {
+      "path": "Models/Instruments/MCP/MCP.png",
+      "scope": "aircraft",
+      "sha256": "88dbc7e6d6390290dfd1b3aae659532f694bd38325bb69b5641e3dd28f09791b",
+      "bytes": 48250,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MCP/MCP.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/ati.png",
+      "scope": "aircraft",
+      "sha256": "c304f256844339425e07ed3498c9db502cb19fa2008242b4e1e95208159255ad",
+      "bytes": 58831,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MFD/ati.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/cockpit-2.png",
+      "scope": "aircraft",
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "bytes": 121141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MFD/cockpit-2.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/hsiarc.png",
+      "scope": "aircraft",
+      "sha256": "4c853f25286ceee8af2a98a5bc5f885577f9550cbcc3586b882b745b559a2029",
+      "bytes": 26847,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MFD/hsiarc.png"
+    },
+    {
+      "path": "Models/Instruments/MFD/MFD.ac",
+      "scope": "aircraft",
+      "sha256": "cf4c0187e25b2e28d5e81d25912a737c6f8cb22796d5b21c95b343b6508a23f1",
+      "bytes": 18304,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MFD/MFD.ac"
+    },
+    {
+      "path": "Models/Instruments/MFD/symbols.png",
+      "scope": "aircraft",
+      "sha256": "02a86e673c3c062d3426851bce90f3c4675c081c133b8c7cf91642aaaa179ea3",
+      "bytes": 51063,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/MFD/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/background.png",
+      "scope": "aircraft",
+      "sha256": "f5795f3e0e1e316b40b28676c1c97c302347a7a2af038f29874e0c36bc7835c6",
+      "bytes": 3211379,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/background.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/buttons.png",
+      "scope": "aircraft",
+      "sha256": "40cc71aaa6cae9b34ee926eb55dd703ea4399befe4fc0b979314f91270f2d60e",
+      "bytes": 5169,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/buttons.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/firebutton.png",
+      "scope": "aircraft",
+      "sha256": "9a94a27836dbd61678f4306048f083d2629b7d90d8aafc3eaf6ab7de8106db01",
+      "bytes": 1847,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/firebutton.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/knob.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/markings.png",
+      "scope": "aircraft",
+      "sha256": "b221b2c80b62a8bd48a27e8aabfe37dbd128e633044a5db0997e5636e28fae98",
+      "bytes": 150299,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/markings.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/ohpanel.ac",
+      "scope": "aircraft",
+      "sha256": "71a6638e422a86d39dcac3cd1c6af2778225fdbde4d26bc945460530e7e55e20",
+      "bytes": 500937,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/OHpanel/ohpanel.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/alt-tape.png",
+      "scope": "aircraft",
+      "sha256": "1067838516548289779fefa779e2929c8694652249edcd0ece6f6d8a982d428e",
+      "bytes": 201106,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/ati.png",
+      "scope": "aircraft",
+      "sha256": "c304f256844339425e07ed3498c9db502cb19fa2008242b4e1e95208159255ad",
+      "bytes": 58831,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/ati.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/cockpit-2.png",
+      "scope": "aircraft",
+      "sha256": "e5e27d49a207050bad25e7241e01b34fbc898970e9de1357518e9eeee5f70de0",
+      "bytes": 121141,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/cockpit-2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD.ac",
+      "scope": "aircraft",
+      "sha256": "1c9ccca299349156f87947b5611853d2159169ad8e0d6908dbb6eec7e26210bd",
+      "bytes": 37408,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/PFD.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/pfd.png",
+      "scope": "aircraft",
+      "sha256": "8d33ef38cff6da11a0e0edf861c54408077fbd5916cceb1df33509827638555e",
+      "bytes": 62744,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/pfd.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/spd-tape.png",
+      "scope": "aircraft",
+      "sha256": "713cbf618050c092623f7edb15f05f6e4e707fa12b8a14af9eadfbaef277f6b5",
+      "bytes": 19256,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/PFD/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/cockpit-4.png",
+      "scope": "aircraft",
+      "sha256": "2dea67b3b09e77201f596489866826eed7a62c8f15b1817d83b2ea05c3a46379",
+      "bytes": 101190,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Radiopanel/cockpit-4.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel.ac",
+      "scope": "aircraft",
+      "sha256": "fd52d9075858054da4cbbba811176cb7211cab3c2295b47998820d6a592bc32a",
+      "bytes": 177613,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Radiopanel/Radiopanel.ac"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel.png",
+      "scope": "aircraft",
+      "sha256": "97c7cf19209eebc639188d538fe1e21c4dfe34c5611fd85ad546735af5df5dd0",
+      "bytes": 31420,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Radiopanel/Radiopanel.png"
+    },
+    {
+      "path": "Models/Instruments/Radiopanel/Radiopanel2.png",
+      "scope": "aircraft",
+      "sha256": "829ba05ecd759950453ce49e3546f7a628202237d8f742b3048fd8fd24fbce3e",
+      "bytes": 7378,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Radiopanel/Radiopanel2.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/ai.png",
+      "scope": "aircraft",
+      "sha256": "e85350b6392098fb01acdf1df4d0371954f68b288de9a30ce259fa6d99b91d6e",
+      "bytes": 11168,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Stby-AI/ai.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/ati.png",
+      "scope": "aircraft",
+      "sha256": "c304f256844339425e07ed3498c9db502cb19fa2008242b4e1e95208159255ad",
+      "bytes": 58831,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Stby-AI/ati.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-AI/Stby-AI.ac",
+      "scope": "aircraft",
+      "sha256": "6f2848e46884c165977238d59b9be17584679968ef3c288b640aed0036ad3371",
+      "bytes": 30080,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Stby-AI/Stby-AI.ac"
+    },
+    {
+      "path": "Models/Instruments/Stby-ASI/asi.png",
+      "scope": "aircraft",
+      "sha256": "960b4e0bfae201f3110cd3c247da76c844444b85a6cd682608712a7d3fce7abf",
+      "bytes": 28779,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Stby-ASI/asi.png"
+    },
+    {
+      "path": "Models/Instruments/Stby-ASI/Stby-ASI.ac",
+      "scope": "aircraft",
+      "sha256": "2d037dff64ab5407c6c5fd0b6361b83fb4f0f7d31d3f5d8091f5e1458874f774",
+      "bytes": 20152,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/Stby-ASI/Stby-ASI.ac"
+    },
+    {
+      "path": "Models/Instruments/SwitchECAMpanel/cockpit-4.png",
+      "scope": "aircraft",
+      "sha256": "2dea67b3b09e77201f596489866826eed7a62c8f15b1817d83b2ea05c3a46379",
+      "bytes": 101190,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/SwitchECAMpanel/cockpit-4.png"
+    },
+    {
+      "path": "Models/Instruments/SwitchECAMpanel/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/SwitchECAMpanel/knob.png"
+    },
+    {
+      "path": "Models/Instruments/SwitchECAMpanel/SwitchECAMpanel.ac",
+      "scope": "aircraft",
+      "sha256": "74d13c3751a2c867f7b345d0b30ea006fa3248108013fbf803ba8a6a2ce29be4",
+      "bytes": 140681,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/SwitchECAMpanel/SwitchECAMpanel.ac"
+    },
+    {
+      "path": "Models/Instruments/SwitchECAMpanel/SwitchECAMpanel.png",
+      "scope": "aircraft",
+      "sha256": "00ddceb0dd0c3a575ff58b4d350eb5771ecd174bddaf5220fee76746b80ef3b8",
+      "bytes": 23673,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/SwitchECAMpanel/SwitchECAMpanel.png"
+    },
+    {
+      "path": "Models/Instruments/VOR/cockpit-4.png",
+      "scope": "aircraft",
+      "sha256": "2dea67b3b09e77201f596489866826eed7a62c8f15b1817d83b2ea05c3a46379",
+      "bytes": 101190,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/VOR/cockpit-4.png"
+    },
+    {
+      "path": "Models/Instruments/VOR/vor.ac",
+      "scope": "aircraft",
+      "sha256": "9750ca9d27051b07b9fb816396e2c6db43c38a1256130e71a61fa72fc17fbaed",
+      "bytes": 30284,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/VOR/vor.ac"
+    },
+    {
+      "path": "Models/Instruments/VOR/vor.png",
+      "scope": "aircraft",
+      "sha256": "15de71cce6dde74d17bb01da4363857efa359953e3881cac80561874cb162b7c",
+      "bytes": 140422,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/Models/Instruments/VOR/vor.png"
+    },
+    {
+      "path": "XMLs/A319-111.xml",
+      "scope": "aircraft",
+      "sha256": "9c53b12386d74f01d6e19506b2b45286faf49446024da6f9e435bd4971e839fb",
+      "bytes": 592,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/A319-111.xml"
+    },
+    {
+      "path": "XMLs/A319.xml",
+      "scope": "aircraft",
+      "sha256": "5f7379a09df07349bd50dcbe4b1e71a3e7746e69c7b44a48d72610755cc9a8c6",
+      "bytes": 4476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/A319.xml"
+    },
+    {
+      "path": "XMLs/FlightDeck/a320.flightdeck.xml",
+      "scope": "aircraft",
+      "sha256": "31b60d275758de1b5e623f9e5efa450e2a5acb59883eed2adb3039b9bc42618d",
+      "bytes": 28608,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/FlightDeck/a320.flightdeck.xml"
+    },
+    {
+      "path": "XMLs/Instruments/Altimeter/altimeter.xml",
+      "scope": "aircraft",
+      "sha256": "72798a59c81aaa070114126a435f9d1a7580568d8786cc89408caf426dccf793",
+      "bytes": 6049,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/Altimeter/altimeter.xml"
+    },
+    {
+      "path": "XMLs/Instruments/EICAS/EICAS.xml",
+      "scope": "aircraft",
+      "sha256": "0affefb54b5cb0301efa6d2435c8bee60556cf6cf2aeafdd0f39ab4ed8fac108",
+      "bytes": 10331,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/EICAS/EICAS.xml"
+    },
+    {
+      "path": "XMLs/Instruments/MCP/MCP.xml",
+      "scope": "aircraft",
+      "sha256": "ddd1305d308e481731db5e29064ed9360a4965a7045657da265016b51b6fe0eb",
+      "bytes": 26350,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/MCP/MCP.xml"
+    },
+    {
+      "path": "XMLs/Instruments/MFD/MFD.xml",
+      "scope": "aircraft",
+      "sha256": "84fc6c28f0c657704e97cb198cf8ae2f24bc54aa8f066acb8aef6685c78e44a1",
+      "bytes": 44777,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/MFD/MFD.xml"
+    },
+    {
+      "path": "XMLs/Instruments/OHpanel/OHpanel.xml",
+      "scope": "aircraft",
+      "sha256": "a07f80cef18c1294e5ba149c815ca747cbfa4daabcc4c9878bc3b83568b9c5b0",
+      "bytes": 35195,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/OHpanel/OHpanel.xml"
+    },
+    {
+      "path": "XMLs/Instruments/PFD/PFD.xml",
+      "scope": "aircraft",
+      "sha256": "25beb4e28c2780778d4b0a63d06affff90d812a6d941059c78b948a310b3d5a7",
+      "bytes": 23383,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/PFD/PFD.xml"
+    },
+    {
+      "path": "XMLs/Instruments/Radiopanel/Radiopanel.xml",
+      "scope": "aircraft",
+      "sha256": "1f13285eecf47a8e3bd8f89a4537744729fcf704f45f1602a4a22c8af4c51eaa",
+      "bytes": 4876,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/Radiopanel/Radiopanel.xml"
+    },
+    {
+      "path": "XMLs/Instruments/Stby-AI/Stby-AI.xml",
+      "scope": "aircraft",
+      "sha256": "ee5a7e2a8668cfac4728eadbad4e8ce7efce2405bbd3f0a6030de71e4be0879c",
+      "bytes": 1352,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/Stby-AI/Stby-AI.xml"
+    },
+    {
+      "path": "XMLs/Instruments/Stby-ASI/Stby-ASI.xml",
+      "scope": "aircraft",
+      "sha256": "3ef0e4e615923c8b6e0dd198d5d0493ae64af59312c0e6323c96d24e26b2e83e",
+      "bytes": 978,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/Stby-ASI/Stby-ASI.xml"
+    },
+    {
+      "path": "XMLs/Instruments/SwitchECAMpanel/SwitchECAMpanel.xml",
+      "scope": "aircraft",
+      "sha256": "ad23c3fdc786b365d06a4edd39fa581b4cfe17313924cca86f03f5655073d415",
+      "bytes": 2683,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/SwitchECAMpanel/SwitchECAMpanel.xml"
+    },
+    {
+      "path": "XMLs/Instruments/VOR/VOR.xml",
+      "scope": "aircraft",
+      "sha256": "b938c637fe8dcd0bcba9aeadfbd7521f9be8f5bf4a88613067930076e30b46d9",
+      "bytes": 4854,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A320-family/00038142d3443d7f4aec9410520df608e8ae7ba8/XMLs/Instruments/VOR/VOR.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing_brown.png",
+      "scope": "fgdata",
+      "sha256": "6e13bb78dcd08a1a7486b1f9c1684be9352e5ee61a23545a1eaa138f471c8ecd",
+      "bytes": 84749,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing_brown.png"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing.ac",
+      "scope": "fgdata",
+      "sha256": "16b6c97945698f8fbe049d0e7c73aaa9d70e9a9f9baef0831cadf48b17ed1e49",
+      "bytes": 153487,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing.ac"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/boeing.xml",
+      "scope": "fgdata",
+      "sha256": "a3abf607730174acf03b31051eaf0130bf162bd5bff0ce013bf53fe4e00fc2ab",
+      "bytes": 40675,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/boeing.xml"
+    },
+    {
+      "path": "Aircraft/Instruments-3d/cdu/display-text-value.xml",
+      "scope": "fgdata",
+      "sha256": "e3645538307d46d6895aa1704f9fa3354fa73caf0e8954161875c6ecfa1ff486",
+      "bytes": 1803,
+      "source": "https://raw.githubusercontent.com/FGDATA/fgdata/e41d83b90f80b88b28a2027aa9caa6e02ae0d64a/Aircraft/Instruments-3d/cdu/display-text-value.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A320-family",
+    "commit": "00038142d3443d7f4aec9410520df608e8ae7ba8",
+    "entry": "XMLs/FlightDeck/a320.flightdeck.xml",
+    "sourceDirectory": "a320",
+    "viewpoint": {
+      "source": "A319-111-set.xml",
+      "position": [
+        -0.525,
+        2.47,
+        -12
+      ],
+      "pitchDeg": -10,
+      "fovDeg": 70
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 70,
+      "lookPitch": -0.17453292519943295
+    },
+    "parentTransformChain": [
+      {
+        "source": "XMLs/A319.xml#offsets",
+        "transform": {
+          "x-m": -18.8499,
+          "z-m": 1.7005004
+        }
+      },
+      {
+        "source": "XMLs/A319.xml#model(Aircraft/A320-family/XMLs/FlightDeck/a320.flightdeck.xml)",
+        "transform": {
+          "x-m": 22.92,
+          "z-m": 2.237
+        }
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}

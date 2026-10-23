@@ -1,0 +1,1527 @@
+{
+  "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/a343.glb",
+  "bytes": 27608836,
+  "triangles": 156753,
+  "nodes": 152,
+  "meshes": 133,
+  "images": 107,
+  "instruments": [
+    {
+      "name": "live_pfd_1",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_pfd_2",
+      "kind": "pfd"
+    },
+    {
+      "name": "live_nav_1",
+      "kind": "nav"
+    },
+    {
+      "name": "live_nav_2",
+      "kind": "nav"
+    },
+    {
+      "name": "live_engine_1",
+      "kind": "engine"
+    }
+  ],
+  "sourceMeshes": 2175,
+  "drawGroups": 133,
+  "loaded": [
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/FlightDeck/flightdeck.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/FlightDeck/res/fd_complete.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/OHpanel/OHpanel.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/OHpanel/res/ohpanelA330.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/VOR/VOR.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/VOR/res/vor2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/Brakes/Brakes.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/Brakes/res/brakes-ind.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/mCDU.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/mCDU.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/init.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/init.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/deparr-src.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/deparr-src.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/init2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/init/fuel.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/data1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/data1.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/data2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/data2.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/pos.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/pos.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/irs.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/irs.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/gps.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/gps.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/status.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/status.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/f-pln.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/f-pln.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/index_f1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/index_f1.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/rev/lat_rev.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/rev/lat_rev.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/sec-f-pln/sec-f-pln.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/sec-f-pln/sec-f-pln.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/sec-f-pln/init-sec.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/sec-f-pln/init-sec.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/rad-nav/radios.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/rad-nav/radios.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/rwys.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/rwys.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/sids.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/sids.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/confirm.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-dep/confirm.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/rwys.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/rwys.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/stars.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/stars.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/confirm.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/tp-arr/confirm.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/takeoff.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/takeoff.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/clb.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/clb.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/crz.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/crz.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/des.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/des.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/app.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/perf/app.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/prog/prog.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/prog/prog.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/hold/hold.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/hold/hold.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/load.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/f-pln/load.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/runways.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/mCDU/data/runways.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/PFD/PFD1.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/PFD/res/pfd-3d.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/PFD/PFD2.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ND/ND_L.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ND/ND_L.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ND/ND_R.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ND/ND_R.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/Upper-ECAM/Upper-ECAM.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/Upper-ECAM/res/eicas.ac",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ECAM/ECAM.xml",
+    "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a343/Models/Instruments/ECAM/res/EFIS3.ac"
+  ],
+  "missing": [],
+  "warnings": [],
+  "viewerEyeCorrection": [
+    0,
+    0,
+    0
+  ],
+  "sourceViewpoint": {
+    "source": "A340-313X-set.xml",
+    "position": [
+      -0.5,
+      0.16,
+      -28.9
+    ],
+    "pitchDeg": -8,
+    "fovDeg": 70
+  },
+  "sourceFiles": [
+    {
+      "path": "A340-313X-set.xml",
+      "scope": "aircraft",
+      "sha256": "ab8ebc159d7a1b92074ae1d777f2e4f6194b6807ee336a65a4ca2e3f55968cc9",
+      "bytes": 36775,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/A340-313X-set.xml"
+    },
+    {
+      "path": "Models/A340-313X-avion.xml",
+      "scope": "aircraft",
+      "sha256": "fd952d17df45aaa305f80569fd460ecf342b5c153df65c3197b261505fbaca36",
+      "bytes": 54922,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/A340-313X-avion.xml"
+    },
+    {
+      "path": "Models/A340-313X.xml",
+      "scope": "aircraft",
+      "sha256": "759dc2f22fb1c1a13d952c9f1a43b5d169cc9b774deff99e4d8f646e4259d97a",
+      "bytes": 9955,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/A340-313X.xml"
+    },
+    {
+      "path": "Models/FlightDeck/flightdeck.xml",
+      "scope": "aircraft",
+      "sha256": "7bd864599748380bc23aed86cd9542b9153b6b9c083708a1bbc1a43d76c98431",
+      "bytes": 124063,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/flightdeck.xml"
+    },
+    {
+      "path": "Models/FlightDeck/res/carpet.png",
+      "scope": "aircraft",
+      "sha256": "08d09583e0ad5373678e57e27ef0f80406ee93224b9f9a6839e398a44dc8719d",
+      "bytes": 5538217,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/carpet.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/cockpit_2.png",
+      "scope": "aircraft",
+      "sha256": "542cc2464211fa1da65e428e18d88f1158ac1bf70eaebbd0aa02d9f7bf8ce6c6",
+      "bytes": 752900,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/cockpit_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/cpit_1.png",
+      "scope": "aircraft",
+      "sha256": "eea08bdd9f4a549bd17b21c7b30be59025c8ca19ce0d6de06f54a00ece5df3b1",
+      "bytes": 564065,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/cpit_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/cpit_2.png",
+      "scope": "aircraft",
+      "sha256": "23499d1d5714af9daefa100894d5e1bacf20080eb2d75d5755f1df98dca4001c",
+      "bytes": 600439,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/cpit_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/cpit_3.png",
+      "scope": "aircraft",
+      "sha256": "0e48dc0472dfce29f379ca18cd78378041c64ced90ab7c442352773f6db9551f",
+      "bytes": 2782966,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/cpit_3.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/cpit_4.png",
+      "scope": "aircraft",
+      "sha256": "ed3135b5ce2b43e382497f6c3c4213da70169620474a00fe038a8659c9ec75ab",
+      "bytes": 447693,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/cpit_4.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/extra.png",
+      "scope": "aircraft",
+      "sha256": "bdc214efa5404db34dc21f93ab507e7cc1fedce3387dfad320b17cdd0400922c",
+      "bytes": 548328,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/extra.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/fabric.png",
+      "scope": "aircraft",
+      "sha256": "9cb5bca856ff0b3bafbf2790c79856088b22116e7c1250fd5e81a38328011486",
+      "bytes": 721043,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/fabric.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/fcu.png",
+      "scope": "aircraft",
+      "sha256": "438a66f640e027a3bff5dc42f9289cbf224509c44e1104efd1f092473d7cf8d1",
+      "bytes": 8689,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/fcu.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/fcu2.png",
+      "scope": "aircraft",
+      "sha256": "f53bf5a988dd7e0f5e67763b1a3640a95f6caad5d85fbaddfeee147f6ec839c0",
+      "bytes": 7803,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/fcu2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/fd_complete.ac",
+      "scope": "aircraft",
+      "sha256": "dc22878a88098b696db24b1c47bfeb34c58ad2a288e37102ebe5df9e581544c2",
+      "bytes": 8472332,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/fd_complete.ac"
+    },
+    {
+      "path": "Models/FlightDeck/res/frame_1.png",
+      "scope": "aircraft",
+      "sha256": "55658282c6644ed32aabc62b9d3d326099a166ba70e55fd3b06dcf7d08571884",
+      "bytes": 252662,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/frame_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/glare_1.png",
+      "scope": "aircraft",
+      "sha256": "ab781f1ce8afb4f0e3f3ea51bd673fbfce501f446ff260d8dce92649b987fd27",
+      "bytes": 239193,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/glare_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/glare_2.png",
+      "scope": "aircraft",
+      "sha256": "1329edab35de654bd52282958dd2476682db3e7368531a1f406c39c58e6a4b95",
+      "bytes": 170274,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/glare_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/glare_3.png",
+      "scope": "aircraft",
+      "sha256": "026e8550ad7a96c612ca33336dfdf4f7b2737ebe61c6be7cb0e6faaee97aeabd",
+      "bytes": 294739,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/glare_3.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/glare_labels.png",
+      "scope": "aircraft",
+      "sha256": "eb6f856275a5eb1554d2bd2b64c1420b062f98e499bc5f51880cd7154de77ec4",
+      "bytes": 50831,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/glare_labels.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/glare_sw.png",
+      "scope": "aircraft",
+      "sha256": "e317b546f4cca0011df1febd3f38f7b8aa05506f0c7405248dff72ce4650f1c0",
+      "bytes": 74012,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/glare_sw.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/horizon.png",
+      "scope": "aircraft",
+      "sha256": "de20b2febbdb0bab104e9ee7c37f9243c6f6b17042a5b86ee7ffa14cc58582e1",
+      "bytes": 210353,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/horizon.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/light.png",
+      "scope": "aircraft",
+      "sha256": "560bfc917d47e1aaa77aa3d4c452866e832c1dc7558308ff557a983efff87d75",
+      "bytes": 40660,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/light.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/main_labels.png",
+      "scope": "aircraft",
+      "sha256": "7c4d2416efa0c530372826777eaf67cbfcb399bc515545c25481a02ccc9d301c",
+      "bytes": 74456,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/main_labels.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/pad.png",
+      "scope": "aircraft",
+      "sha256": "0350b63123302e753d6c4834e467d3d9c89241667091e2ffad0c34f6da80ddd0",
+      "bytes": 248951,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/pad.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_1.png",
+      "scope": "aircraft",
+      "sha256": "e627cff7a6f4c59e7831f500a791b091226cc5cddb45278676770d4501a3c88f",
+      "bytes": 715130,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_2.png",
+      "scope": "aircraft",
+      "sha256": "de5294ad0393c907869ab73b0c288317e7df41c7fb3cfd90204c6962cfd8731f",
+      "bytes": 186982,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_3.png",
+      "scope": "aircraft",
+      "sha256": "659cd075d1699fa22c085db25e2cc86dd284c27db2bc2fea70efdc1979b7b951",
+      "bytes": 111491,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_3.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_sw_1.png",
+      "scope": "aircraft",
+      "sha256": "da0265d995f52a82dd42800ca9f924ecace431dfd9e6117970ebe6ebfde5d79a",
+      "bytes": 43110,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_sw_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_sw_2.png",
+      "scope": "aircraft",
+      "sha256": "bc947a2ba3f9980420cc906586b5273eb0ffaf82dc4ab966755839d15ff88303",
+      "bytes": 29658,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_sw_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/ped_xtra.png",
+      "scope": "aircraft",
+      "sha256": "e0a42207a78dde4381fe8f24779158e5392d5291945fee66a5906ec2da7b5e05",
+      "bytes": 59806,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/ped_xtra.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/pedal_1.png",
+      "scope": "aircraft",
+      "sha256": "d32a1eace66fad3e11ec6d6aa2c157c8373a7bba70f90a40d29bf8a81754a11a",
+      "bytes": 468818,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/pedal_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/pedal_2.png",
+      "scope": "aircraft",
+      "sha256": "4dfe55aeda76306f471268df9ddd8499ea52ceb6301f5f8e827d6d78340d2b5c",
+      "bytes": 937620,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/pedal_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/seat_1.png",
+      "scope": "aircraft",
+      "sha256": "3b821f58f05b9801345f1e2b8570ae1dad6426e67b3312867ffa562ec0e62bb2",
+      "bytes": 469618,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/seat_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/seat_2.png",
+      "scope": "aircraft",
+      "sha256": "c1e9680036fda957bc7e6aee0d7e7c0fc2d2db7468efb24cff79ffec2177cbf5",
+      "bytes": 555164,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/seat_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/side_panel_1.png",
+      "scope": "aircraft",
+      "sha256": "9e80c6edd14cbae3628b3c30501abfe180b05d812684dfcabbb7caa44049da3a",
+      "bytes": 27613,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/side_panel_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/side_panel_2.png",
+      "scope": "aircraft",
+      "sha256": "59743ca77aae5d44fbdfab45d2ce534798be0dfe3e21b29439f4e3c83aa5ffa0",
+      "bytes": 31205,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/side_panel_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/sidestick.png",
+      "scope": "aircraft",
+      "sha256": "c7417d2cd6b6079fb9721fe7d45240cc6d9b2158a2a37a477f4a4607a79f08e0",
+      "bytes": 790729,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/sidestick.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/speaker_1.png",
+      "scope": "aircraft",
+      "sha256": "2c82db23a95314c9517a73492a25205959308f5f016e0755eec59d8fd16da042",
+      "bytes": 167505,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/speaker_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/stick_1.png",
+      "scope": "aircraft",
+      "sha256": "6c40c6ef618fe45f7bed449eb7cc4ac5a9fefd2d6eab7d43ec93b210f4fa5ba3",
+      "bytes": 263879,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/stick_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/stick_2.png",
+      "scope": "aircraft",
+      "sha256": "743b54be7e12b1582bdebafa92c3ecf75d4db64d7381719f6a07eb0f6a5f2aba",
+      "bytes": 147446,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/stick_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/thr_1.png",
+      "scope": "aircraft",
+      "sha256": "d883765cbca39b8181300168105fbc25f36cdc7eddba07f1a362ab31f62b4fbf",
+      "bytes": 226574,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/thr_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/thr_2.png",
+      "scope": "aircraft",
+      "sha256": "8d17e1e2a7a55ff746242f595e2b0013a2a46c55a3a69a9a944b7f2e66d43bc2",
+      "bytes": 290316,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/thr_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/thr_lt.png",
+      "scope": "aircraft",
+      "sha256": "2a491856301d8f6560274d6a2a5e7566eb3d10d2baf6422e884b1143e27e53ec",
+      "bytes": 33329,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/thr_lt.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/tray_1.png",
+      "scope": "aircraft",
+      "sha256": "e183fab0730025aca6c26264d910a0d0552e41f18a056d4b17fa9a11279df72c",
+      "bytes": 522730,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/tray_1.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/tray_2.png",
+      "scope": "aircraft",
+      "sha256": "d9fe4cd2bd78671c08339f83ed0c24a5bf38d6af90b748094f23ea21ebeb5cb7",
+      "bytes": 341937,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/tray_2.png"
+    },
+    {
+      "path": "Models/FlightDeck/res/trim.png",
+      "scope": "aircraft",
+      "sha256": "ff31ce3603c16fe64abfd5c7ba959be81319e1fc28e8e0af41f272db5fac7a5a",
+      "bytes": 28150,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/FlightDeck/res/trim.png"
+    },
+    {
+      "path": "Models/Instruments/Brakes/Brakes.xml",
+      "scope": "aircraft",
+      "sha256": "2544876b72677444da82c960bb662e820e5e899b5a778e57cc7e2760c115ca6a",
+      "bytes": 1481,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Brakes/Brakes.xml"
+    },
+    {
+      "path": "Models/Instruments/Brakes/res/brakes-ind.ac",
+      "scope": "aircraft",
+      "sha256": "8f546447a4d8993c005235e3038237405fd9ac4d849fdc6b4cd27e6104a0fc42",
+      "bytes": 13953,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Brakes/res/brakes-ind.ac"
+    },
+    {
+      "path": "Models/Instruments/Brakes/res/brakes-ind.png",
+      "scope": "aircraft",
+      "sha256": "32872aeb97eaa0351d4aaebc81f3603299da452d7bf0cc980b79c8d64cb39717",
+      "bytes": 87366,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Brakes/res/brakes-ind.png"
+    },
+    {
+      "path": "Models/Instruments/ECAM/ECAM.xml",
+      "scope": "aircraft",
+      "sha256": "d1ea33373b055f3aa8445ffa3f82b1b2967633998602ccec2273377bab64d733",
+      "bytes": 739,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ECAM/ECAM.xml"
+    },
+    {
+      "path": "Models/Instruments/ECAM/res/EFIS3.ac",
+      "scope": "aircraft",
+      "sha256": "984be60cc479642ba0b2fbdb271fbbac012d439f9998ae7195519036afaed2b4",
+      "bytes": 354,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ECAM/res/EFIS3.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/bg.png",
+      "scope": "aircraft",
+      "sha256": "3208227b7d53dfefe3005cf157537c8b4ab6fbfc60541e472242b6b26ca4cb08",
+      "bytes": 302859,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/bg.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/data.png",
+      "scope": "aircraft",
+      "sha256": "9960a8f7411b8c179394f3dc802cc0ce56f27a6431457a15b62199466170ff27",
+      "bytes": 32551,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/data.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/data1.ac",
+      "scope": "aircraft",
+      "sha256": "287862489313c243ffa15a6377bae3d669cef99e15035cc12c0abc8fd3581851",
+      "bytes": 16509,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/data1.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/data1.xml",
+      "scope": "aircraft",
+      "sha256": "74266eb47d2f9936cf2f97d7329313f0748c737f4f62d0080c40b22da9f7eada",
+      "bytes": 2249,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/data1.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/data2.ac",
+      "scope": "aircraft",
+      "sha256": "28e585764fb7dae6efbc07f6815ea05bde8fe91c76c3b7c2f4b1ec7b54beb2a6",
+      "bytes": 17207,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/data2.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/data2.xml",
+      "scope": "aircraft",
+      "sha256": "3a57e016661fc0402d25f09690dab4e26ca578222d216dc0cc5b26e1dcb3b313",
+      "bytes": 3695,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/data2.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/gps.ac",
+      "scope": "aircraft",
+      "sha256": "53e339a314ee861bfe96fbb203a9d97e32f03154d859b9c78a20d7c1d416a69d",
+      "bytes": 20680,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/gps.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/gps.xml",
+      "scope": "aircraft",
+      "sha256": "ed4a0f6bd99186447a57630c5cae06fe24d2036d44ed76f781c1412b6414928d",
+      "bytes": 5733,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/gps.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/irs.ac",
+      "scope": "aircraft",
+      "sha256": "8186d1923f4c5f300945a20fd12d00977bd93a5dd8bf3a7dfd8b522c026efc3c",
+      "bytes": 15094,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/irs.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/irs.xml",
+      "scope": "aircraft",
+      "sha256": "eeb69b0037c645cb7303cfc39762ba30bf97ca004aa41e5237ade01fc1457793",
+      "bytes": 446,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/irs.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/pos.ac",
+      "scope": "aircraft",
+      "sha256": "40e271c5c282858094b63386bc9a3a37a9d26c7cea3ee37dd3fcd754380f8f4f",
+      "bytes": 14383,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/pos.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/pos.xml",
+      "scope": "aircraft",
+      "sha256": "69149c10ef8a7bb053ebba75e338f96d8c3de6f185cc6ad957c218e908060cb8",
+      "bytes": 3151,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/pos.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/runways.ac",
+      "scope": "aircraft",
+      "sha256": "b33ff86e658d5a1561887ce44e3ba1e0e0ce3a627bb73208e23bfcbb4278e4db",
+      "bytes": 14623,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/runways.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/runways.xml",
+      "scope": "aircraft",
+      "sha256": "6a986eddaf92f02d703c08ead0a29d97d62346190293bcef3b935df0e6e0ea6f",
+      "bytes": 18488,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/runways.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/status.ac",
+      "scope": "aircraft",
+      "sha256": "109943e3700adfa232025ce42ec077fde4ae97a6951d573a351ad678a383d211",
+      "bytes": 15070,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/status.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/data/status.xml",
+      "scope": "aircraft",
+      "sha256": "e47cbcf047255bc3badb4e8a398e47d3c5f4967dd81f6eb45d5009b0fe3a1168",
+      "bytes": 2328,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/data/status.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/f-pln.ac",
+      "scope": "aircraft",
+      "sha256": "414305156922842b62d6907d7f67a35d5ce583c54fce2ca018869d6cfd678d45",
+      "bytes": 26645,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/f-pln.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/f-pln.png",
+      "scope": "aircraft",
+      "sha256": "50aae5e16c49e89f4c3e6071345c0ba0c45f00e3537a537afc85974abf0ff8c4",
+      "bytes": 8533,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/f-pln.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/f-pln.xml",
+      "scope": "aircraft",
+      "sha256": "a297423e1690b4df2904454fc29ede011868c7982006401265b73ff5843da2bc",
+      "bytes": 90226,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/f-pln.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/hold.png",
+      "scope": "aircraft",
+      "sha256": "2ddcb698cf4bd4f72076a656da51a7cc32c8120d55f2d48564c2f25722a20e75",
+      "bytes": 1087,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/hold.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/index_f1.ac",
+      "scope": "aircraft",
+      "sha256": "16fce07737636ea12054a9185c42fc81205b91ededd69800712eeee584c431cb",
+      "bytes": 14846,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/index_f1.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/index_f1.xml",
+      "scope": "aircraft",
+      "sha256": "40fe95985d462681e4ea6c8b4dd21fd61ec136f9dc9025f3d8ab4c40eb33b340",
+      "bytes": 5801,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/index_f1.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/index.png",
+      "scope": "aircraft",
+      "sha256": "ae7c5bb2390617361e8883d718cdae8ddf4018ea60eb850f366d6b48efea6c75",
+      "bytes": 5358,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/index.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/load.ac",
+      "scope": "aircraft",
+      "sha256": "c097348c4ca4d15e80675483a9608eef490d8bd8ca47cf8b4d025db926792c55",
+      "bytes": 15260,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/load.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/load.png",
+      "scope": "aircraft",
+      "sha256": "728b6975cbcaded45195b0deec43697805d3305d3304dadabf97de27203f3b02",
+      "bytes": 2454,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/load.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/f-pln/load.xml",
+      "scope": "aircraft",
+      "sha256": "416449caf979d5b5e79bcfb37082f314c15a471b4d3c50a2127b137790ef6c04",
+      "bytes": 8425,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/f-pln/load.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/hold/hold.ac",
+      "scope": "aircraft",
+      "sha256": "d57686fc87a6e4e59f598fdafc226edd475bf56f171311d98abece48e8b3e799",
+      "bytes": 14259,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/hold/hold.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/hold/hold.png",
+      "scope": "aircraft",
+      "sha256": "d8a4a1ea9fb692a42dee10a1c524b5b4497f82ac11c5f220572e90be78cb6656",
+      "bytes": 6232,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/hold/hold.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/hold/hold.xml",
+      "scope": "aircraft",
+      "sha256": "13a5823b439680956f5bdbd71445e0af6e1e491ff123e019f51f1148d482ab1b",
+      "bytes": 8640,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/hold/hold.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/deparr-src.ac",
+      "scope": "aircraft",
+      "sha256": "6936ed35dddf638858970e2d9368e687875bd8ffa4ae3a25ee6972db72fa6011",
+      "bytes": 15767,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/deparr-src.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/deparr-src.png",
+      "scope": "aircraft",
+      "sha256": "180fea9c5282d8b465167f5ce8fe3ed6f042a7f64c2dd849ae3284ce755faab4",
+      "bytes": 2321,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/deparr-src.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/deparr-src.xml",
+      "scope": "aircraft",
+      "sha256": "861b00be2902824c7813a403a6f1fa8271df5af3b91f403d71adda28477e2917",
+      "bytes": 9219,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/deparr-src.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/fuel.ac",
+      "scope": "aircraft",
+      "sha256": "a01ae47b219b8c79124243dc38d6f4631dbb1cffa3527093d2f77b1efde9179e",
+      "bytes": 15004,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/fuel.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/fuel.png",
+      "scope": "aircraft",
+      "sha256": "bd8daf9f00b799f46eff92be585ffad29071764617ca7b6a3ac19cfee7985f97",
+      "bytes": 11221,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/fuel.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/init.ac",
+      "scope": "aircraft",
+      "sha256": "0eac1cb361725346d80d3cf2b59c436a7ba4dbc2354050d18fd0e3b04b7494b0",
+      "bytes": 22132,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/init.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/init.png",
+      "scope": "aircraft",
+      "sha256": "21d3fb5dd06b3703e0c59aabd90e4dfc71655ca1beec69a03218576c7f7494ea",
+      "bytes": 6216,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/init.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/init.xml",
+      "scope": "aircraft",
+      "sha256": "12c52333acca481c089a7f2156663b09d075d4aee475620eda2e91ca34583f49",
+      "bytes": 18355,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/init.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/init/init2.xml",
+      "scope": "aircraft",
+      "sha256": "4e5745e1e509371a43efec3a3d8c90149e8cc903faca9a42f5f9d7a90e96f0e8",
+      "bytes": 12228,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/init/init2.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/mCDU.ac",
+      "scope": "aircraft",
+      "sha256": "d505a92219c614e764ad37fac3504cc3999dd1072f66d70da9e8a01ba1cdaf94",
+      "bytes": 526263,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/mCDU.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/mCDU.xml",
+      "scope": "aircraft",
+      "sha256": "a30133ce52377cfab9b2318675c5f9894b6047028605a5107feddf846b5e9f1f",
+      "bytes": 37017,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/mCDU.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/app.ac",
+      "scope": "aircraft",
+      "sha256": "bd051907453da4bf46320319ba69d52df1930558ef485ecb06117efa53ce0d3e",
+      "bytes": 14268,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/app.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/app.xml",
+      "scope": "aircraft",
+      "sha256": "a4c70968264c7411e9c46bf3910d11852da3d018514cc76fcaf8c56a637c4778",
+      "bytes": 25461,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/app.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/clb-crz2.png",
+      "scope": "aircraft",
+      "sha256": "6d8dc2d5fb6e86f268e795ed00d0fc62347af1f1d595f3b0a4f1b32d3b71c5fa",
+      "bytes": 12040,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/clb-crz2.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/clb.ac",
+      "scope": "aircraft",
+      "sha256": "5f2e24ab2a8edc33e61e2b4d6d15b385f557bfc51c8f79e824b545cb5eb26ca0",
+      "bytes": 13226,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/clb.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/clb.xml",
+      "scope": "aircraft",
+      "sha256": "8e457477f863b4e0005e8e8d8cfad481bd02259999edda8d5252c1f55bf669c5",
+      "bytes": 24022,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/clb.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/crz.ac",
+      "scope": "aircraft",
+      "sha256": "f5b94d984e8b8c27484ffb78cbfa658f29fd58e2a93e3c09906b62d7ed434f1c",
+      "bytes": 14260,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/crz.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/crz.xml",
+      "scope": "aircraft",
+      "sha256": "9c63eb73d25bcd038800c5257776ed34a30c32d42d3fe1f19b526dafd27ba081",
+      "bytes": 24395,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/crz.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/des-app2.png",
+      "scope": "aircraft",
+      "sha256": "61578ed3de3359ce4ef4a29c705a74df29e84ee924d2d54c4804cbdab6e6ae96",
+      "bytes": 9688,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/des-app2.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/des.ac",
+      "scope": "aircraft",
+      "sha256": "1fc0f1f4b80c59fd66cbf595cdaaa954241083fb3c13480bb0f91a69601ddb94",
+      "bytes": 13239,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/des.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/des.xml",
+      "scope": "aircraft",
+      "sha256": "7784ab92be898ee857908cf3fd505303c3940449e2baa103c15c4f1bf3144003",
+      "bytes": 21028,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/des.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/takeoff.ac",
+      "scope": "aircraft",
+      "sha256": "5b7f8fdee66d82a3786fc6764d9438bf966d467f441dd1c7479d5c92f386003a",
+      "bytes": 13980,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/takeoff.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/takeoff.png",
+      "scope": "aircraft",
+      "sha256": "d79742594aabc660e38e5106fc097acb24f4075b7727593044a0514196a96ee9",
+      "bytes": 12370,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/takeoff.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/perf/takeoff.xml",
+      "scope": "aircraft",
+      "sha256": "731240de6c3ca6ae0324a0da37a1a89be0e575fd1671cb85a07269290412def1",
+      "bytes": 12709,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/perf/takeoff.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/prog/prog.ac",
+      "scope": "aircraft",
+      "sha256": "e252a12168be126183190015bdb2a1a7667fba170972f6b2d3c1ea0e81f49ef0",
+      "bytes": 14918,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/prog/prog.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/prog/prog.png",
+      "scope": "aircraft",
+      "sha256": "9fdd373beda152966903aacd04813035d4c83aa0fc8fff5759381e153433a05d",
+      "bytes": 7312,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/prog/prog.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/prog/prog.xml",
+      "scope": "aircraft",
+      "sha256": "293c798bf19288d72361c7617e369317736815609ac5d10105c7c98e062d5281",
+      "bytes": 10776,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/prog/prog.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rad-nav/radios.ac",
+      "scope": "aircraft",
+      "sha256": "4d538bb09b91a4dc87be41ae024195844b3dd9ec6deffa94ce5c4552f64c7b6d",
+      "bytes": 15853,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rad-nav/radios.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rad-nav/radios.png",
+      "scope": "aircraft",
+      "sha256": "bc32169159e3019efee88e3d0c0aaccf08811330ad4e703a05519d2c9256228e",
+      "bytes": 10152,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rad-nav/radios.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rad-nav/radios.xml",
+      "scope": "aircraft",
+      "sha256": "f5aeb9a70e1f797cf141c8b74ccb2301a5a4365e9014964dfb810ecae9a0e019",
+      "bytes": 28076,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rad-nav/radios.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rev/lat_rev.ac",
+      "scope": "aircraft",
+      "sha256": "6671ff5fd1ce481102a32fbd534cd2e80fcbc1bc0e312d63c11489f26db1cd0c",
+      "bytes": 15621,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rev/lat_rev.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rev/lat_rev.png",
+      "scope": "aircraft",
+      "sha256": "e8b68938c89af3319c57cff1ba46cb98b169e361c29a17d8f9963ac835b04130",
+      "bytes": 6553,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rev/lat_rev.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/rev/lat_rev.xml",
+      "scope": "aircraft",
+      "sha256": "0a6b80d5f18883a1d9bae45829b6eb51a112b3216603a2aedba4d901823b36f4",
+      "bytes": 11112,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/rev/lat_rev.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/init-sec.ac",
+      "scope": "aircraft",
+      "sha256": "0eac1cb361725346d80d3cf2b59c436a7ba4dbc2354050d18fd0e3b04b7494b0",
+      "bytes": 22132,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/init-sec.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/init-sec.xml",
+      "scope": "aircraft",
+      "sha256": "ccf12656e10ee5fc354b17fb870cf0170969f427d7df77da657942f549d68a66",
+      "bytes": 19243,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/init-sec.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/init.png",
+      "scope": "aircraft",
+      "sha256": "21d3fb5dd06b3703e0c59aabd90e4dfc71655ca1beec69a03218576c7f7494ea",
+      "bytes": 6216,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/init.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/sec-f-pln.ac",
+      "scope": "aircraft",
+      "sha256": "dfcace7bb3f89a7357d8b046f63f90ed41346a1a85cec0a08ed125ab2bcbec14",
+      "bytes": 12642,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/sec-f-pln.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/sec-f-pln.png",
+      "scope": "aircraft",
+      "sha256": "2c271459387d9bab66e8490f25ff9e6638adc2e673b7a6e9e839230d48031bca",
+      "bytes": 5093,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/sec-f-pln.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/sec-f-pln/sec-f-pln.xml",
+      "scope": "aircraft",
+      "sha256": "65177eacf4b602d63ecd9bd2acf5f10da32c810966363ca9e993808616fb2ad4",
+      "bytes": 9742,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/sec-f-pln/sec-f-pln.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/start.png",
+      "scope": "aircraft",
+      "sha256": "37ae1c322992c1a9fa371d4f438eec14871577e75641d168343f9df5b1b0df48",
+      "bytes": 3732,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/start.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/arr.png",
+      "scope": "aircraft",
+      "sha256": "92fe842fad1531aeb6a59ff643df886350219cb8b28e083564521481db5aff68",
+      "bytes": 9953,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/arr.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/confirm.ac",
+      "scope": "aircraft",
+      "sha256": "7a15d89c960aced50a19d53b727c7e0f95f3247ae792cd6c2eb92f3e5987962c",
+      "bytes": 15785,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/confirm.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/confirm.xml",
+      "scope": "aircraft",
+      "sha256": "97664285c329ba1e546937bf0e7c35af0558f059f80209544e02b9060dd7a06b",
+      "bytes": 4440,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/confirm.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/rwys.ac",
+      "scope": "aircraft",
+      "sha256": "4c3629740e96eaa9bebc8195aeadf75ce798c9ab609d0ab90aa4284b7103a3fb",
+      "bytes": 16895,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/rwys.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/rwys.xml",
+      "scope": "aircraft",
+      "sha256": "2ab03133b9d980f963a5f40389994bb4249c8b91cdb5da5334228ecc5deb8d88",
+      "bytes": 25133,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/rwys.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/stars.ac",
+      "scope": "aircraft",
+      "sha256": "a11fccc83a24d38423ebd69b9b2c964847b35d4812e8f1e09314fe0c8924e99e",
+      "bytes": 16896,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/stars.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-arr/stars.xml",
+      "scope": "aircraft",
+      "sha256": "2c4d4292b05265af431e204d17e0b671a6040d4736775c91fca25c18d4a073a7",
+      "bytes": 10240,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-arr/stars.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/confirm.ac",
+      "scope": "aircraft",
+      "sha256": "413314a26646275125f0875cbb372aa1d00c050e1ef5d2fd5ab8fb00a6c7f89a",
+      "bytes": 15807,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/confirm.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/confirm.xml",
+      "scope": "aircraft",
+      "sha256": "4f4bf1120c9e0bb75bb7c4c2805f03473e71f65bd9c464455df8e78d609da9ba",
+      "bytes": 4428,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/confirm.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/dep.png",
+      "scope": "aircraft",
+      "sha256": "049095a9153d0174840b2a381fb7d7349d489689f1c39348f539c603dda15bc5",
+      "bytes": 10079,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/dep.png"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/rwys.ac",
+      "scope": "aircraft",
+      "sha256": "c6e35228f38450d7b5c874cfafd3d55010d201c13a07d1b4979aa6fcb0b7b837",
+      "bytes": 16917,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/rwys.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/rwys.xml",
+      "scope": "aircraft",
+      "sha256": "cd1f3b6224bdd9b52fcffead259301214c19c5b0191eed1a7e33a66957b8cad2",
+      "bytes": 25037,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/rwys.xml"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/sids.ac",
+      "scope": "aircraft",
+      "sha256": "69621c4302c9ba2f75362e869ac4cbfaa57701c51c99d72db3bc21abecadd050",
+      "bytes": 16918,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/sids.ac"
+    },
+    {
+      "path": "Models/Instruments/mCDU/tp-dep/sids.xml",
+      "scope": "aircraft",
+      "sha256": "c1808a59d8c89b83f956455f79754010fffbf014454f8e369372b6f665149377",
+      "bytes": 10200,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/mCDU/tp-dep/sids.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_L.ac",
+      "scope": "aircraft",
+      "sha256": "aae35db3819888c55eff3b7f14cc4f62dd0d4edfe282185f03b345a72c8d7521",
+      "bytes": 476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ND/ND_L.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_L.xml",
+      "scope": "aircraft",
+      "sha256": "282c65173aab4a0b9c7c548ebf1e80c13ec9b0e93a9bbc300e63563c9c0e0036",
+      "bytes": 335,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ND/ND_L.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_R.ac",
+      "scope": "aircraft",
+      "sha256": "1b656d52e3983adfd01edcb20d58934f825ef19c5bd8608165abbe0d3c3ab921",
+      "bytes": 476,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ND/ND_R.ac"
+    },
+    {
+      "path": "Models/Instruments/ND/ND_R.xml",
+      "scope": "aircraft",
+      "sha256": "cc888da5fd34d2d7d3f03e461d0d265fb42aaa9d7bf50a6d4f1e8feed82ba301",
+      "bytes": 335,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ND/ND_R.xml"
+    },
+    {
+      "path": "Models/Instruments/ND/screen.png",
+      "scope": "aircraft",
+      "sha256": "6860b583d65fd0423ada637c4aa5bf4698bf2b6d92aa4db2e9c4708a2f34fb03",
+      "bytes": 629,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/ND/screen.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/OHpanel.xml",
+      "scope": "aircraft",
+      "sha256": "2edf87c13d429bc20e9f98cf7a5b7b7d1cad3ad44d0de3d4551cf538f6cd6107",
+      "bytes": 7892,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/OHpanel.xml"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/A330-FireTest_Button.png",
+      "scope": "aircraft",
+      "sha256": "83400ad93c501c94ab2ef7351ae6c290db9e506ef73551a68ef0fe88dd3f02f3",
+      "bytes": 2754,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/A330-FireTest_Button.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/A330-overhead-background.png",
+      "scope": "aircraft",
+      "sha256": "c340cea23368b7257e70d4c0bc0c3e737e01adf1bc91fe431190c8d7909c4467",
+      "bytes": 85869,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/A330-overhead-background.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/A330-overhead-markings.png",
+      "scope": "aircraft",
+      "sha256": "219fa9e0e9f4e1403da1c4b8dfae08952b75e685779a1cb1144219cf9af4f687",
+      "bytes": 207526,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/A330-overhead-markings.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/blackguard.png",
+      "scope": "aircraft",
+      "sha256": "f2751203449ef7b9a2066a952564892693469862e434d4a7ce7e104663a48a47",
+      "bytes": 5795,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/blackguard.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_blue_on_green_open.png",
+      "scope": "aircraft",
+      "sha256": "90a2d6ec457baa36d2055d76210364128c117a9e5d95a0eaeeb69663a4a3c50e",
+      "bytes": 5964,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_blue_on_green_open.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_call.png",
+      "scope": "aircraft",
+      "sha256": "c535332e31937755c19fdd0da34f49e36efe854407747c04a8cfbe4c91c8ab82",
+      "bytes": 4667,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_call.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_evac_dot.png",
+      "scope": "aircraft",
+      "sha256": "ecec46f37fb8ce5e2787651305ac2d2f2030c14ad6ddd6e27586c82ba3ffa28f",
+      "bytes": 4491,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_evac_dot.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_ext_pwr.png",
+      "scope": "aircraft",
+      "sha256": "0d7b154ce252815ed43cc703a954772bf70086b8416f6136013c077fe0a9f220",
+      "bytes": 7135,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_ext_pwr.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_fwd_altn.png",
+      "scope": "aircraft",
+      "sha256": "b45fe2630ea79b2d01c3743c9deca3c9a9e42ae13b4e82875cf57755d054c4f2",
+      "bytes": 5533,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_fwd_altn.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_man_ovrd.png",
+      "scope": "aircraft",
+      "sha256": "1413033a3a6cbd6193f06c81ab9303449981f158fa6ef96ed39dab5398eadfec",
+      "bytes": 6780,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_man_ovrd.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_offr.png",
+      "scope": "aircraft",
+      "sha256": "d838b0ededd9432dbdc68c0b7a656c4e7ebe4de47261e6186c77221a30471687",
+      "bytes": 6329,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_offr.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_on_blue.png",
+      "scope": "aircraft",
+      "sha256": "3565acfe214708c7e5ae51690715970417c5496722a568df40a6e6eec5c6675c",
+      "bytes": 6591,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_on_blue.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_on_squib_disch_btl.png",
+      "scope": "aircraft",
+      "sha256": "89c9b7c7806d0bf278678a8f29e500ee1c52a1736d58b37f62e2d819f863ebf5",
+      "bytes": 6490,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_on_squib_disch_btl.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_shut_open.png",
+      "scope": "aircraft",
+      "sha256": "22232d53d74dd7a5224e9d724c84acc0bc563a4be49d0e6a45bfab401fe14b5a",
+      "bytes": 6351,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_shut_open.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_smoke.png",
+      "scope": "aircraft",
+      "sha256": "1184233da29e777a291c60a045c977ede524ec028f7f7334e0f340fda20b1a51",
+      "bytes": 6796,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_smoke.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_std_dot.png",
+      "scope": "aircraft",
+      "sha256": "28abe677e82e7ce486bd41f4547e65b1fafc4781bfa71b7fc8a3c36b142da26e",
+      "bytes": 4349,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_std_dot.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/buttons_std.png",
+      "scope": "aircraft",
+      "sha256": "2f04072fa0031e31f53bbf2102832449255982c0d56b3446177e70864653ea3f",
+      "bytes": 5346,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/buttons_std.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/firebutton.png",
+      "scope": "aircraft",
+      "sha256": "9a94a27836dbd61678f4306048f083d2629b7d90d8aafc3eaf6ab7de8106db01",
+      "bytes": 1847,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/firebutton.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/firelock.png",
+      "scope": "aircraft",
+      "sha256": "99865c61ca6e4ead97b14997b7bc1b1a23a9014a8695d645a4d1949f6e094840",
+      "bytes": 452,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/firelock.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/greyguard.png",
+      "scope": "aircraft",
+      "sha256": "70b1bec7512416f10d52600faa82ac1582b0391e0a18561699b8ffb7ce116abc",
+      "bytes": 5801,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/greyguard.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/knob.png",
+      "scope": "aircraft",
+      "sha256": "470b210c0db6448738cce795d4ee348ccad46b0a3a129b65c548f270829dcb5d",
+      "bytes": 984,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/knob.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/metal-texture.png",
+      "scope": "aircraft",
+      "sha256": "4faca3455e2ab326f1d4ab5deba270fd38a88689091e441f10399b40c7661e10",
+      "bytes": 377390,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/metal-texture.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/ohpanelA330.ac",
+      "scope": "aircraft",
+      "sha256": "97802293fcacfbe23d061f7a0ff13b6bff092bc6e1b8ec84a0313043096df187",
+      "bytes": 2984456,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/ohpanelA330.ac"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/onbat.png",
+      "scope": "aircraft",
+      "sha256": "b3544469c4a6d9c977e84865aabcf579b25fd85212a02bb665f788ea563ba409",
+      "bytes": 4314,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/onbat.png"
+    },
+    {
+      "path": "Models/Instruments/OHpanel/res/redguard.png",
+      "scope": "aircraft",
+      "sha256": "d22fae6b53753c8823913da6bf88711873478b70ab4ab43237529ab31b393686",
+      "bytes": 5795,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/OHpanel/res/redguard.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD1.xml",
+      "scope": "aircraft",
+      "sha256": "eb60bc7fa37f2d544b6f0b4a4f641b8316c866f96a9e2c4e62a036a3d03ad06a",
+      "bytes": 65203,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/PFD1.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/PFD2.xml",
+      "scope": "aircraft",
+      "sha256": "8116d6486326afce7ae61b6d4d20fa993b726c91e1a6dc06907ac723a33b4f82",
+      "bytes": 65203,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/PFD2.xml"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/alt-tape-2.png",
+      "scope": "aircraft",
+      "sha256": "4f74cab1afa65d703cad03d4a0e2aa98c2887d7546b30d015ee23ce639a01f62",
+      "bytes": 1995,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/alt-tape-2.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/alt-tape.png",
+      "scope": "aircraft",
+      "sha256": "9357c44c919684126b57a3a811270bf5e94152f3bf91a86686c27ad2493edc8a",
+      "bytes": 8742,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/alt-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/arpt-elev.png",
+      "scope": "aircraft",
+      "sha256": "b861da9388be17f9f578409ab4bd2489b18c7ceecdc85bebd4f509ca6c3266f2",
+      "bytes": 2939,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/arpt-elev.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/autoland.png",
+      "scope": "aircraft",
+      "sha256": "1b1f95a3a3bf7f1c7b44634e1768755c88024e4a1e25de65289ec4fdc8a6354a",
+      "bytes": 3917,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/autoland.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/hdg-bug.png",
+      "scope": "aircraft",
+      "sha256": "91ef15c9c2d2296393bf207c42f1a2281035255858d939a6f48e6a95cbb27080",
+      "bytes": 2192,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/hdg-bug.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/hdg-tape.png",
+      "scope": "aircraft",
+      "sha256": "067ece86b5a56d5cff3e7a0c2caa8ffe2e25dac04c6e2f408a7fd3607371cbad",
+      "bytes": 23828,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/hdg-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/horizon.png",
+      "scope": "aircraft",
+      "sha256": "bcb8cfe66906181aa6fd4753e16a0b71db36333a761073fd6a003e5f36e30760",
+      "bytes": 26397,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/horizon.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/loc-crs.png",
+      "scope": "aircraft",
+      "sha256": "2aa23d47e584605504a8d1a4c60a9eaf8aeace8bbe57374328bf0b91bd2242d9",
+      "bytes": 1874,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/loc-crs.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/mask.png",
+      "scope": "aircraft",
+      "sha256": "1f0de99e7089387cd68167522e29825690c4fe5f4c2e7b5910c28ba8a3b38135",
+      "bytes": 12976,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/mask.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/pfd-3d.ac",
+      "scope": "aircraft",
+      "sha256": "3bb0d1e68a8c51a0fe0ee515e16decb31ef964b724cd793e5a7118cfb0433cde",
+      "bytes": 9834,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/pfd-3d.ac"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/radar-alt.png",
+      "scope": "aircraft",
+      "sha256": "1f633afe9c38e406f4d62fb47769f23b6fa33ca14ee8251843563056d2fed6d9",
+      "bytes": 5520,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/radar-alt.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/spd-tape.png",
+      "scope": "aircraft",
+      "sha256": "8c5099b43c910bd7c02814b6a3cb599ca5ae5fd4735dc5d94265cbbb2be4a41c",
+      "bytes": 47228,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/spd-tape.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/spdtrend.png",
+      "scope": "aircraft",
+      "sha256": "730827e16bfc9932783603a54f405c95c965a4a1787b2939e7b1ffca623f1912",
+      "bytes": 6263,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/spdtrend.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/symbols.png",
+      "scope": "aircraft",
+      "sha256": "0176aafdef62d5da514c6b9a357975600b7e6fe8794aefcdf4542cf60333983d",
+      "bytes": 17111,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/trk-ind.png",
+      "scope": "aircraft",
+      "sha256": "44b73bfb52836325d44d41f1ad8d0195313b11b51b353425540554c8510de3e2",
+      "bytes": 2144,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/trk-ind.png"
+    },
+    {
+      "path": "Models/Instruments/PFD/res/vls-tape.png",
+      "scope": "aircraft",
+      "sha256": "a8e8632618234172efeed8390f8b5498809fd0cbfefaf8e4021bf2d1aead9eac",
+      "bytes": 2444,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/PFD/res/vls-tape.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas.ac",
+      "scope": "aircraft",
+      "sha256": "6fc733c59a1f29cdf059f80acf7de9be67893891c54906e18c936cd249354026",
+      "bytes": 5963,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Upper-ECAM/res/eicas.ac"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/eicas.png",
+      "scope": "aircraft",
+      "sha256": "a850b18bfa09a36b6b8611e06524ce27a56ae007f4f638be77d2565bd8af921e",
+      "bytes": 45224,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Upper-ECAM/res/eicas.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/res/symbols.png",
+      "scope": "aircraft",
+      "sha256": "ec7e5693aa5e257aad50a8ec5f5f5203b13b445e7d7000447922376d95e2ccca",
+      "bytes": 1161,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Upper-ECAM/res/symbols.png"
+    },
+    {
+      "path": "Models/Instruments/Upper-ECAM/Upper-ECAM.xml",
+      "scope": "aircraft",
+      "sha256": "e10b1d080a9a76e28361410327624ebe12389e76c2b3bd11b146f27bdb94b2d6",
+      "bytes": 22210,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/Upper-ECAM/Upper-ECAM.xml"
+    },
+    {
+      "path": "Models/Instruments/VOR/res/vor.png",
+      "scope": "aircraft",
+      "sha256": "009cd0b63eecf258470955f9e85fdb25d779462dd53a9d425618815a2adb727a",
+      "bytes": 168284,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/VOR/res/vor.png"
+    },
+    {
+      "path": "Models/Instruments/VOR/res/vor2.ac",
+      "scope": "aircraft",
+      "sha256": "42247ddabb9877a1d3de510b8ce181694aa647da7ab0a84b6ed1c1ada05fb807",
+      "bytes": 5170,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/VOR/res/vor2.ac"
+    },
+    {
+      "path": "Models/Instruments/VOR/VOR.xml",
+      "scope": "aircraft",
+      "sha256": "d0a6ea579420d80939f8c8c941ee1ac13603ab9c9d878eb56e6362e390973348",
+      "bytes": 3272,
+      "source": "https://raw.githubusercontent.com/FGMEMBERS/A340-313X/516adc0039659a01dbd96763dca62d80af84a6f5/Models/Instruments/VOR/VOR.xml"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/FGMEMBERS/A340-313X",
+    "commit": "516adc0039659a01dbd96763dca62d80af84a6f5",
+    "entry": "Models/FlightDeck/flightdeck.xml",
+    "sourceDirectory": "a343",
+    "viewpoint": {
+      "source": "A340-313X-set.xml",
+      "position": [
+        -0.5,
+        0.16,
+        -28.9
+      ],
+      "pitchDeg": -8,
+      "fovDeg": 70
+    },
+    "viewerEyeCorrection": [
+      0,
+      0,
+      0
+    ],
+    "camera": {
+      "eye": [
+        0,
+        0,
+        0
+      ],
+      "fov": 70,
+      "lookPitch": -0.13962634015954636
+    },
+    "parentTransformChain": [
+      {
+        "source": "Models/A340-313X.xml#model(Aircraft/A340-313X/Models/A340-313X-avion.xml)",
+        "transform": {
+          "x-m": 0,
+          "y-m": 0,
+          "z-m": -0.35,
+          "pitch-deg": -0.8
+        }
+      },
+      {
+        "source": "Models/A340-313X-avion.xml#model(Aircraft/A340-313X/Models/FlightDeck/flightdeck.xml)",
+        "transform": {
+          "x-m": -29.4,
+          "y-m": 0,
+          "z-m": 0.63,
+          "pitch-deg": 1
+        }
+      }
+    ],
+    "sharedDependencies": [
+      {
+        "repository": "https://github.com/FGDATA/fgdata",
+        "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
+      }
+    ]
+  }
+}
