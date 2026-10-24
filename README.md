@@ -1,6 +1,6 @@
 # SKYBOUND — Flight Simulator
 
-Production static website, built on 2026-10-23.
+Production static website, built on 2026-10-25.
 
 Open https://waterlly.github.io/ to play.
 
@@ -15,3 +15,7 @@ Guest single-player flight, aircraft, cockpits, cabins, liveries, missions, and 
 ## Third-party assets
 
 Keep all model, cockpit, cabin, livery, audio and library licenses and attribution files. They retain their respective original licenses.
+
+## Mobile controls
+
+In flight, use the Touch controls / 手游操控 button in the top bar to show or hide the joystick, throttle, rudder and brake controls. Enabled by default on touch devices. The choice is saved locally.

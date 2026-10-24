@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-10-23",
+  "release": "2026-10-25",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -8,5 +8,11 @@
     "accounts",
     "multiplayer",
     "chat"
-  ]
+  ],
+  "touchControls": {
+    "toggle": true,
+    "mobileDefault": "enabled",
+    "desktopDefault": "disabled",
+    "savedPreference": true
+  }
 }
