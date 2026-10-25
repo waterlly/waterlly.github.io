@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "engine-sound-and-b757-icelandair",
+  "revision": "enhanced-lighting-mods",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -29,5 +29,17 @@
     "aircraft": "b757",
     "id": "icelandair",
     "registration": "TF-FIZ"
+  },
+  "lighting": {
+    "n8ao": "2.0.1",
+    "postprocessing": "6.39.5",
+    "effects": [
+      "AO",
+      "Bloom",
+      "AgX",
+      "SMAA"
+    ],
+    "quality": "high",
+    "toggle": true
   }
 }
