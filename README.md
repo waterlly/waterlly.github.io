@@ -19,3 +19,9 @@ Keep all model, cockpit, cabin, livery, audio and library licenses and attributi
 ## Mobile controls
 
 In flight, use the Touch controls / 手游操控 button in the top bar to show or hide the joystick, throttle, rudder and brake controls. Enabled by default on touch devices. The choice is saved locally.
+
+## Engine sound and Icelandair paint
+
+Procedural engine audio follows actual engine power with separate propeller and jet sounds. Use the speaker icon to mute and the flight help panel to adjust volume. Pausing or leaving flight silences audio.
+
+Boeing 757-200 now includes the Icelandair TF-FIZ livery, using original GPL-2.0 FlightGear PNG and XML with pinned provenance in liveries/manifest.json.

@@ -1,0 +1,5 @@
+Icelandair Boeing757 paint — registration TF-FIZ
+FGMEMBERS/757-200 contributors; per-livery author not separately identified in pinned files; upstream AUTHORS retained.
+Source: https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/ICE.png
+License: GPL-2.0; retained license and authors: /liveries/licenses/757-200/
+PNG and XML are unmodified; native aircraft geometry and UVs are unchanged.

@@ -1135,6 +1135,69 @@
           "attribution": "FGMEMBERS/757-200 contributors; per-livery author not separately identified in selected XML files, upstream AUTHORS retained.",
           "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
           "editableSource": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/paintkit.xcf"
+        },
+        {
+          "id": "icelandair",
+          "name": "Icelandair",
+          "textures": [
+            {
+              "path": "/liveries/b757/icelandair/ICE.png",
+              "materials": [
+                "DefaultWhite.000",
+                "DefaultWhite.001",
+                "DefaultWhite.003",
+                "glass",
+                "light",
+                "Material.010",
+                "Paint.001",
+                "Paint.003",
+                "Paint.004",
+                "Paint.005"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/ICE.png",
+              "sha256": "5b30d65fb21552cabc1d75dc862741aa110ebdc6c1a35d230d1f949290857fa8",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "FIN.png"
+              ],
+              "gitBlob": "2abb99076b5ecddc93c23c58916d2d9f2359d551"
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/ICE.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/FGMEMBERS/757-200",
+          "commit": "873a9a12ec1a2451ece37dff3bc1fbc888615042",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/757-200/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/757-200/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/AUTHORS",
+              "sha256": "46171fc8e6b5eaf35b78ff201c439c1a15fb92a20519edf2b9541f13843de11b"
+            },
+            {
+              "path": "/liveries/licenses/757-200/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/README.md",
+              "sha256": "2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900"
+            }
+          ],
+          "definition": {
+            "path": "/liveries/b757/icelandair/livery.xml",
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/757-200/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/Liveries/ICE.xml",
+            "sha256": "2dfe62dedee02a6c071e65a3962a38ee6f0c39c4e21a56533df7c6fb8a6dca91",
+            "gitBlob": "e773d5fe357cacd01d5b1c30a7f068ea8fd25c4f"
+          },
+          "attribution": "FGMEMBERS/757-200 contributors; per-livery author not separately identified in pinned files; upstream AUTHORS retained.",
+          "registration": "TF-FIZ",
+          "registrationEvidence": "TF-FIZ is printed on both sides of the pinned original PNG atlas.",
+          "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection.",
+          "editableSource": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/paintkit.xcf",
+          "fetchedAt": "2026-10-25"
         }
       ]
     },

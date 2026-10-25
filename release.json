@@ -14,5 +14,20 @@
     "mobileDefault": "enabled",
     "desktopDefault": "disabled",
     "savedPreference": true
+  },
+  "revision": "engine-sound-and-b757-icelandair",
+  "engineAudio": {
+    "type": "procedural",
+    "kinds": [
+      "prop",
+      "jet"
+    ],
+    "volumeControl": true,
+    "muteControl": true
+  },
+  "newLivery": {
+    "aircraft": "b757",
+    "id": "icelandair",
+    "registration": "TF-FIZ"
   }
 }
