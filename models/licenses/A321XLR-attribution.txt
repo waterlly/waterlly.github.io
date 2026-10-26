@@ -1,0 +1,11 @@
+A321XLR adaptation based on the licensed FlightGear A321neo exterior
+
+Narendran, Malik, Jon A. Ortuondo (Bicyus), Fabio Nicotra (Artix), LemiCandy and credited FlightGear A320-family contributors.
+Source: https://github.com/LemiCandy/A320neo
+Commit: acf849854dd17226400c603d8f31a2617eea6c49
+Entry: Models/A321neo.xml
+License: GNU GPL v3.0 (LICENSE); upstream GNU GPL v2.0 COPYING is also retained.
+
+This is an explicit project adaptation of the upstream A321neo, not an original downloadable XLR-specific model. Original source AC3D geometry, native TEXCOORD_0, PNG bytes, object identities and XML rest transforms are retained. Converted to glTF 2.0; neutral mesh dimensions centred and scaled from 44.5234 m to 44.51 m; empty object nodes removed; stock tip fences omitted for native neo sharklets; material aliases assigned for selectable liveries. Simulator runtime supplies animated systems and documented XLR differences. FlightGear Nasal, systems and original property animations are not copied as executable code.
+
+Source files and reproducible conversion scripts are recorded in the model import record.

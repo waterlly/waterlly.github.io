@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "default-ai-performance-and-stall-audio",
+  "revision": "one-screen-planner-bogie-2026-10-26",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -144,7 +144,9 @@
     "disabledAirportAiSkipsTerrainChecks": true,
     "highQualityResolutionTargetFps": 52,
     "minimumHighRenderScale": 0.5,
-    "automaticPerformanceFallback": true
+    "automaticPerformanceFallback": true,
+    "finiteTerrainSegmentPicking": true,
+    "finiteTerrainFallbackVersion": "Cesium 1.146.0 and supported loaded-tile layout; public picking fallback otherwise"
   },
   "warningAudio": {
     "stallProfiles": {
@@ -155,5 +157,26 @@
     "continuousUntilClear": true,
     "transportStallSpeechSynthesis": false,
     "triggerPhysics": "unchanged"
+  },
+  "plannerUI": {
+    "aircraftSelection": "native dropdown grouped by aircraft family",
+    "activeAircraft": 20,
+    "primaryLaunchAction": "above the map in the heading",
+    "desktop": "compact grouped settings in one viewport",
+    "portraitPhone": "route / aircraft / environment settings sections",
+    "runwayDetails": "expand on request",
+    "smallScreens": "independently scrollable settings where needed"
+  },
+  "landingGear": {
+    "airborneBogieDroop": true,
+    "independentLoadTransition": true,
+    "nativeTruckAndPistonSeparation": true,
+    "retractionPaths": "preserved",
+    "replaySchemaVersion": 2,
+    "legacyReplayV1": "supported with original level truck poses"
+  },
+  "a321xlr": {
+    "available": false,
+    "status": "Neo adaptation withdrawn; authentic freely licensed model not available"
   }
 }

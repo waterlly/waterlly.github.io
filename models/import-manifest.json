@@ -148,6 +148,26 @@
       "upstreamRepository": "https://github.com/Flightradar24/fr24-3d-models",
       "upstreamCommit": "dd53267690c6a4ecbb290a3acf0284333a5d68a9",
       "sourceFilename": "a380 (1).glb"
+    },
+    {
+      "id": "a321xlr",
+      "sourceBytes": 9959,
+      "sourceSha256": "f44f9ee4c49dd365cc9eaf9b2a483ab4781097914832e1be314198a9a0b902aa",
+      "modelPath": "/models/A321XLR.glb",
+      "convertedBytes": 8341856,
+      "convertedSha256": "4841e26c144f3f2081be2a743799a7ba55b363bebb0b3059a41ab4c6c8300a6b",
+      "assetVersion": "2.0",
+      "lengthCalibration": 44.51,
+      "nodes": 179,
+      "meshes": 125,
+      "images": 8,
+      "animations": 0,
+      "license": "GPL-3.0",
+      "upstreamRepository": "https://github.com/LemiCandy/A320neo",
+      "upstreamCommit": "acf849854dd17226400c603d8f31a2617eea6c49",
+      "sourceFilename": "Models/A321neo.xml",
+      "provenancePath": "/models/licenses/A321XLR-import-record.json",
+      "adaptation": "Licensed A321neo exterior adapted for the game A321XLR variant, not an original manufacturer XLR model."
     }
   ]
 }

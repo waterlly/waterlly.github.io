@@ -1,0 +1,8 @@
+China Airlines Pikachu Jet CI — B-18101
+Texture: luca b, via kolos26/GEOFS-LiverySelector
+https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321neo/China_Airlines_A321Neo_Pokemon.png
+Original PNG bytes retained under upstream MIT license (LICENSE.txt).
+Adapted for the game A321XLR; original aircraft is Airbus A321neo, not XLR.
+UV adaptation is required; this is not a native FlightGear paintkit.
+China Airlines and Pokémon branding belongs to its respective owners; no affiliation implied.
+Adapted skins fill native window holes on exterior/front faces; back faces are culled. Default restores original glazing. Printed window and panel positions remain approximate.

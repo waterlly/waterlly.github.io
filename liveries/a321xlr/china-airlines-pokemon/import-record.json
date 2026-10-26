@@ -1,0 +1,22 @@
+{
+  "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321neo/China_Airlines_A321Neo_Pokemon.png",
+  "bytes": 811299,
+  "sha256": "ad2e3f53f3dc500b8f509ab2d280f3512bf997cc5ecac69c9c9d0a4a5aacd6b4",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "registration": "B-18101",
+  "design": "China Airlines Pikachu Jet CI",
+  "credits": "luca b",
+  "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+  "preservedPngCommit": "20958203daea47f0336e21a8b14d3f18140e6422",
+  "upstreamLicense": "MIT",
+  "visualVerified": true,
+  "originalPng": true,
+  "sourceAircraft": "Airbus A321neo",
+  "gameAircraft": "Airbus A321XLR",
+  "adapted": true,
+  "notes": "Original PNG bytes retained from repository history before WebP conversion. Adapted to the game A321XLR geometry; this design and registration originate on Airbus A321neo, not an actual aircraft registered as A321XLR. Original atlas has two full fuselage sides, fins, engine and wing details.",
+  "windowTreatment": "Custom UV2 skins hide the untouched source glazing and show one additional paint batch containing only outward-facing authored window triangles. Reverse-facing internal panes are excluded, so FrontSide paint fills exterior holes without obstructing the view outward from inside. Default restores original transparent glazing and hides the paint batch. Printed window and panel positions are an approximate game adaptation."
+}

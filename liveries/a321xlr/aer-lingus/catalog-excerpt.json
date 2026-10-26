@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+  "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
+  "catalogUrl": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/livery.json",
+  "catalogSha256": "10a6b39f81ff49db4699431fe81afbcd18938cf74a1ccbdfc598389d63b8ab4f",
+  "pointer": "/aircrafts/Airbus a321-211 _427352_5086/liveries/16",
+  "entry": {
+    "name": "Aer Lingus (Damnhat)",
+    "texture": [
+      "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Aer Lingus A321.png"
+    ],
+    "credits": "luca b"
+  }
+}

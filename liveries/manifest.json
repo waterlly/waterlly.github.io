@@ -3529,6 +3529,124 @@
           "modification": "Original upstream PNG bytes retained; native UV material groups only, original model default unchanged."
         }
       ]
+    },
+    "a321xlr": {
+      "liveries": [
+        {
+          "id": "aer-lingus",
+          "name": "\u7231\u5c14\u5170\u822a\u7a7a \u00b7 \u4f20\u7edf\u7eff EI-CPD\uff08\u9002\u914d\uff09",
+          "textures": [
+            {
+              "path": "/liveries/a321xlr/aer-lingus/Aer_Lingus_A321.png",
+              "materials": [
+                "a321xlr-livery-body",
+                "a321xlr-livery-tail",
+                "a321xlr-livery-tail-edge",
+                "a321xlr-livery-engine",
+                "a321xlr-livery-winglet",
+                "a321xlr-livery-window-infill"
+              ],
+              "channel": 2,
+              "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321-211/Aer%20Lingus%20A321.png",
+              "sha256": "9066c15b4891f0bde8343ab74b14a0c679f104f81511de6b4f2140830d8b134a",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321-211/Aer%20Lingus%20A321.png",
+          "license": "MIT",
+          "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+          "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
+          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, EI-CPD Airbus A321-211 artwork adapted for the game A321XLR; no airline or Pok\u00e9mon affiliation implied.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/a321xlr/aer-lingus/LICENSE.txt",
+              "sha256": "8bb461cae10785a4a15b2c520810130ca420b56f119e6860a7410f11310c7b28",
+              "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/LICENSE"
+            }
+          ],
+          "importRecord": {
+            "path": "/liveries/a321xlr/aer-lingus/import-record.json",
+            "sha256": "15ca87c45bd73c0b52b099508b3a5b631bb7e5e2a1c260868375d46a80ea9006"
+          },
+          "catalogExcerpt": {
+            "path": "/liveries/a321xlr/aer-lingus/catalog-excerpt.json",
+            "sha256": "b9d1712da838eb85f5bfc81b6624e270a1a41a292af795e234c6985d67503c47"
+          },
+          "modification": "Original PNG bytes unchanged; dedicated native-island UV2 adaptation, native UV0 and AO preserved. One custom-livery-only outward window batch fills exterior holes; internal pane faces are excluded. Default restores the untouched original glazing."
+        },
+        {
+          "id": "china-airlines-pokemon",
+          "name": "\u4e2d\u534e\u822a\u7a7a \u00b7 \u5b9d\u53ef\u68a6 B-18101\uff08\u9002\u914d\uff09",
+          "textures": [
+            {
+              "path": "/liveries/a321xlr/china-airlines-pokemon/China_Airlines_A321Neo_Pokemon.png",
+              "materials": [
+                "a321xlr-livery-body",
+                "a321xlr-livery-tail",
+                "a321xlr-livery-tail-edge",
+                "a321xlr-livery-engine",
+                "a321xlr-livery-winglet",
+                "a321xlr-livery-window-infill"
+              ],
+              "channel": 2,
+              "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321neo/China_Airlines_A321Neo_Pokemon.png",
+              "sha256": "ad2e3f53f3dc500b8f509ab2d280f3512bf997cc5ecac69c9c9d0a4a5aacd6b4",
+              "width": 2048,
+              "height": 2048,
+              "mimeType": "image/png",
+              "originalImages": []
+            }
+          ],
+          "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321neo/China_Airlines_A321Neo_Pokemon.png",
+          "license": "MIT",
+          "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+          "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
+          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, B-18101 Airbus A321neo artwork adapted for the game A321XLR; no airline or Pok\u00e9mon affiliation implied.",
+          "licenseFiles": [
+            {
+              "path": "/liveries/a321xlr/china-airlines-pokemon/LICENSE.txt",
+              "sha256": "8bb461cae10785a4a15b2c520810130ca420b56f119e6860a7410f11310c7b28",
+              "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/LICENSE"
+            }
+          ],
+          "importRecord": {
+            "path": "/liveries/a321xlr/china-airlines-pokemon/import-record.json",
+            "sha256": "3b385444edeeee5b46a7ac609434712682ee14a71eba9e129d541c8f98b4e105"
+          },
+          "catalogExcerpt": {
+            "path": "/liveries/a321xlr/china-airlines-pokemon/catalog-excerpt.json",
+            "sha256": "f2345633eb1891106af3c314950cbd8786e4d2dd5e0aa45e8b12f6ad1d09f20a"
+          },
+          "modification": "Original PNG bytes unchanged; dedicated native-island UV2 adaptation, native UV0 and AO preserved. One custom-livery-only outward window batch fills exterior holes; internal pane faces are excluded. Default restores the untouched original glazing."
+        }
+      ],
+      "compatibility": {
+        "model": "/models/A321XLR.glb",
+        "modelSha256": "4841e26c144f3f2081be2a743799a7ba55b363bebb0b3059a41ab4c6c8300a6b",
+        "projection": "runtime-a321xlr-livery-projection.mjs UV2 (channel 2)",
+        "materialNames": [
+          "a321xlr-livery-body",
+          "a321xlr-livery-tail",
+          "a321xlr-livery-tail-edge",
+          "a321xlr-livery-engine",
+          "a321xlr-livery-winglet",
+          "a321xlr-livery-window-infill"
+        ],
+        "channels": {
+          "2": "GeoFS side islands, crown/belly neutral bands, fin and engine panels; original UV0 and AO UV1 unchanged."
+        },
+        "sourceModel": "FlightGear A321neo exterior, LEAP engines and sharklets",
+        "targetModel": "Game Airbus A321XLR adaptation",
+        "uvEvidence": "Authored UV0 islands identify body sides independently. Real imported triangles never interpolate between unrelated side rows. New UV2 and cloned paint materials preserve all native positions, normals, indices, UV0 and AO.",
+        "limitations": [
+          "Original Aer Lingus EI-CPD traditional-green artwork is A321-211; China Airlines Pikachu Jet CI B-18101 artwork is A321neo. Both are game adaptations to XLR, not actual XLR registrations.",
+          "Non-native paintkit adaptation; door and window panel locations are approximate."
+        ],
+        "windowTreatment": "Custom UV2 skins hide the untouched source glazing and show one additional paint batch containing only outward-facing authored window triangles. Reverse-facing internal panes are excluded, so FrontSide paint fills exterior holes without obstructing the view outward from inside. Default restores original transparent glazing and hides the paint batch. Printed window and panel positions are an approximate game adaptation."
+      }
     }
   }
 }

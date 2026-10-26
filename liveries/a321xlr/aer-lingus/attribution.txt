@@ -1,0 +1,8 @@
+Aer Lingus traditional green — EI-CPD
+Texture: luca b, via kolos26/GEOFS-LiverySelector
+https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321-211/Aer%20Lingus%20A321.png
+Original PNG bytes retained under upstream MIT license (LICENSE.txt).
+Adapted for the game A321XLR; original aircraft is Airbus A321-211, not XLR.
+UV adaptation is required; this is not a native FlightGear paintkit.
+Aer Lingus branding belongs to its respective owners; no affiliation implied.
+Adapted skins fill native window holes on exterior/front faces; back faces are culled. Default restores original glazing. Printed window and panel positions remain approximate.
