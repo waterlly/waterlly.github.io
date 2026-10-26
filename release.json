@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "sky-weather-and-reflections",
+  "revision": "flight-handling-towing-and-airchina",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -62,5 +62,36 @@
     "realTerrainDetail": true,
     "hdrWhenSupported": true,
     "subtleBloom": true
-  }
+  },
+  "aerodynamics": {
+    "bankedLiftProjection": "energy consistent",
+    "turnRate": "actual lateral lift",
+    "airborneControlResponse": "dynamic pressure",
+    "existingFlightPresetsPreserved": true
+  },
+  "groundTowing": {
+    "pushback": true,
+    "dock": true,
+    "userInitiated": true,
+    "captureRadiusMetres": {
+      "c182": 8,
+      "others": "55% aircraft length, bounded12–35m"
+    },
+    "maximumSpeedsMetresPerSecond": {
+      "dock": 1,
+      "pushback": 1.5
+    },
+    "pauseAndStop": true
+  },
+  "newLiveries": [
+    {
+      "aircraft": "a343",
+      "id": "air-china",
+      "registration": "B-2385",
+      "source": "FlightGear fgdata original PNG with separate UV adapter"
+    }
+  ],
+  "fixes": [
+    "Boeing747-8i exterior,fin and rudder livery material bindings"
+  ]
 }

@@ -1,0 +1,6 @@
+Air China A340-300 B-2385
+3D Model Innis Cunningham; UV map and liveries Brett Harrison (A343-main.xml).
+FlightGear fgdata contributors.
+License: GPL-2.0; /liveries/licenses/fgdata/COPYING
+Source: https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/AI/Aircraft/A343/Textures/AirChina/A343-tex.png?format=raw
+Original PNG bytes retained. Dedicated UV1 adapts this AI atlas; it is not the local model native paintkit. Engines/wings keep their original independent maps.

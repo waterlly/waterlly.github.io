@@ -33,3 +33,11 @@ High quality uses N8AO 2.0.1 ambient occlusion and Postprocessing 6.39.5 bloom, 
 ## Sky, weather and reflections
 
 Aircraft and globe share a local-solar clock. Sky reflections, weather haze and noise-shaded cumulus clouds improve high quality, with smaller reflection maps and fewer clouds in smooth mode. The atmosphere setting controls visible sky, clouds and fog. Weather is preset, not live; clouds are billboards and do not provide volumetric cloud occlusion against the separate aircraft canvas. Existing satellite imagery and terrain providers remain responsible for ground detail.
+
+## Flight handling, ground towing and liveries
+
+Banked lift now uses consistent force projections, turns follow actual lateral lift, and airborne controls respond to dynamic pressure. Existing aircraft and flight presets are retained.
+
+Ground services include explicit pushback, stop and tow-to-stand actions. The visible capture range is 8 m for C182 and 12–35 m for jets according to aircraft length. Movement is gradual and follows known terrain; bridge/door interlocks, pause and parking brakes remain active.
+
+A340-300 includes the original Air China B-2385 PNG from FlightGear fgdata with a separate UV adaptation; provenance and GPL attribution are retained in liveries/manifest.json. The 747-8i paint now binds to the actual exterior skin and full vertical tail rather than shared white/cockpit materials.

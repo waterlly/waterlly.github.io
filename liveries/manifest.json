@@ -973,6 +973,58 @@
           "attribution": "FGMEMBERS/A340-313X contributors. Lufthansa livery by evaair714 per Authors.txt; Cathay Pacific individual author not separately identified, general livery credits retained in Authors.txt.",
           "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
           "editableSource": "https://github.com/FGMEMBERS/A340-313X/blob/516adc0039659a01dbd96763dca62d80af84a6f5/Paintkit/A340-313X-paintkit.xcf"
+        },
+        {
+          "id": "air-china",
+          "name": "中国国际航空 Air China（适配）",
+          "textures": [
+            {
+              "path": "/liveries/a343/air-china/A343-tex.png",
+              "source": "https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/AI/Aircraft/A343/Textures/AirChina/A343-tex.png?format=raw",
+              "sha256": "5a54c217b780f93adc98548f8cf51adaf13b908a411ced6f886dba81b6513b53",
+              "materials": [
+                "DefaultWhite.003"
+              ],
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "House.png"
+              ],
+              "channel": 1
+            }
+          ],
+          "source": "https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/AI/Aircraft/A343/Textures/AirChina/A343-tex.png?format=raw",
+          "license": "GPL-2.0",
+          "repository": "https://sourceforge.net/p/flightgear/fgdata/",
+          "commit": "7911bffee6549c8c779b3837e541ad0a792df53c",
+          "registration": "B-2385",
+          "definition": {
+            "path": "/liveries/a343/air-china/livery.xml",
+            "source": "https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/AI/Aircraft/A343/A343-AirChina.xml?format=raw",
+            "sha256": "d466a75c0246fe7f179f257673ca781005992c14bb663043fc726bbc93a539a3"
+          },
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/fgdata/COPYING",
+              "source": "https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/COPYING?format=raw",
+              "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+            }
+          ],
+          "attribution": "3D Model Innis Cunningham; UV map and liveries Brett Harrison, as credited in the original A343-main.xml. FlightGear fgdata contributors.",
+          "authorFile": {
+            "path": "/liveries/a343/air-china/A343-main.xml",
+            "source": "https://sourceforge.net/p/flightgear/fgdata/ci/7911bffee6549c8c779b3837e541ad0a792df53c/tree/AI/Aircraft/A343/A343-main.xml?format=raw",
+            "sha256": "11e6a8ef7d743a6db0596ad03e734fa97b4a9ab7e2e478d4e3463c87c0be7380"
+          },
+          "modification": "Original upstream 1024x1024 PNG bytes retained; dedicated side-projected UV1 adapts the AI A343 atlas to the local A340-313X body and fin. Native UV and all original GLB bytes preserved. Engines and wings retain their original independent maps.",
+          "fetchedAt": "2026-10-26",
+          "projection": {
+            "channel": 1,
+            "module": "app/runtime-a343-livery-projection.mjs",
+            "nativeUVPreserved": true,
+            "scope": "body and fin; family atlas adaptation, not native paintkit"
+          }
         }
       ]
     },
@@ -3096,7 +3148,8 @@
             "sourceSha256": "cec8d92be7018af79fa822244e9a277d42b0fa9d273b271cd0fe714d19cff60f",
             "byteIdentical": false
           }
-        ]
+        ],
+        "materialBindingRepair": "runtime exterior-only material clones; native UVs retained"
       },
       "liveries": [
         {
@@ -3108,7 +3161,8 @@
               "materials": [
                 "M_747_400_l.012",
                 "Material.000",
-                "plane_white.004"
+                "plane_white.004",
+                "b748-livery-fuselage"
               ],
               "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/DLH_fuselage.png",
               "sha256": "64c02c5a1d65710934feabed8a79b1b7de83710d432c12bb3d6efb1e0260cb81",
@@ -3188,7 +3242,8 @@
               "materials": [
                 "M_747_400_l.012",
                 "Material.000",
-                "plane_white.004"
+                "plane_white.004",
+                "b748-livery-fuselage"
               ],
               "source": "https://raw.githubusercontent.com/JMaverick16/747-8/0ed6056990828084bd51770e3ad73d0b61a1ad61/Models/Liveries/748I/KAL_fuselage.png",
               "sha256": "add1cb33fbb20a0d8fcf1515b2ea2c6a41f67628d6b8769fd6b7482775ff25cd",
