@@ -45,3 +45,11 @@ A340-300 includes the original Air China B-2385 PNG from FlightGear fgdata with 
 ## Skymark blue Pikachu Jet BC2
 
 The 737-800 now includes Skymark JA73NG blue Pikachu Jet BC2. The original 1024×1024 PNG by ChengyuWordle[Sino Wings Group] is retained byte-for-byte from GeoFS LiverySelector history, with MIT license and source credits. A separate UV2 adaptation fits the existing aircraft body, fin, engine covers and winglets. Native KLM, Ryanair and original paint still restore normally. Select the Skymark blue Pokemon option in the livery menu.
+
+## Pikachu fuselage seam correction
+
+The Skymark adaptation now follows the original model’s separate side, crown and belly UV islands. Nose and upper-fuselage triangles no longer interpolate across unrelated atlas rows; door artwork is aligned to the fuselage. The original PNG and all native geometry/UV/AO data are preserved.
+
+## ArcGIS performance and Hekla Aurora
+
+ArcGIS contact heights now interpolate cached native elevation grids instead of raycasting every terrain triangle for each physics query. At most 64 tiles are retained; provider changes discard the cache. High-quality ArcGIS rendering can adapt resolution under sustained GPU load while preserving lighting, shadows and texture detail. Boeing 757-200 gains the original 4096×4096 Icelandair Hekla Aurora TF-FIU PNG by Pilot2938 (GPL-2.0) with native UVs. The prior Skymark fuselage seam correction is included.

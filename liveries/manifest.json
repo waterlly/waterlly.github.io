@@ -1250,6 +1250,67 @@
           "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection.",
           "editableSource": "https://github.com/FGMEMBERS/757-200/blob/873a9a12ec1a2451ece37dff3bc1fbc888615042/Models/paintkit.xcf",
           "fetchedAt": "2026-10-25"
+        },
+        {
+          "id": "icelandair-hekla-aurora",
+          "name": "Icelandair \u00b7 Hekla Aurora \u6781\u5149\u53f7 TF-FIU",
+          "textures": [
+            {
+              "path": "/liveries/b757/icelandair-hekla-aurora/ICE1.png",
+              "materials": [
+                "DefaultWhite.000",
+                "DefaultWhite.001",
+                "DefaultWhite.003",
+                "glass",
+                "light",
+                "Material.010",
+                "Paint.001",
+                "Paint.003",
+                "Paint.004",
+                "Paint.005"
+              ],
+              "source": "https://raw.githubusercontent.com/Pilot2938/Pilot2938-FG-liveries/2edd25282b93a3a2d2d155864aecc2b781e75ad3/757/757-200/ICE1.png",
+              "sha256": "90b6758f5779fb9b0b6764140e77d8e4011869832c22736e306ed2975bb99e4a",
+              "width": 4096,
+              "height": 4096,
+              "mimeType": "image/png",
+              "originalImages": [
+                "FIN.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/Pilot2938/Pilot2938-FG-liveries/blob/2edd25282b93a3a2d2d155864aecc2b781e75ad3/757/757-200/ICE1.png",
+          "license": "GPL-2.0",
+          "repository": "https://github.com/Pilot2938/Pilot2938-FG-liveries",
+          "commit": "2edd25282b93a3a2d2d155864aecc2b781e75ad3",
+          "registration": "TF-FIU",
+          "fetchedAt": "2026-10-26",
+          "definition": {
+            "path": "/liveries/b757/icelandair-hekla-aurora/livery.xml",
+            "source": "https://raw.githubusercontent.com/Pilot2938/Pilot2938-FG-liveries/2edd25282b93a3a2d2d155864aecc2b781e75ad3/757/757-200/ICE1.xml",
+            "sha256": "1439a3dc9ba673a17d8013123d1ab6bb87ad4f6c6f0c0c99c1744c94ca236c1a"
+          },
+          "licenseFiles": [
+            {
+              "path": "/liveries/b757/icelandair-hekla-aurora/LICENSE",
+              "source": "https://raw.githubusercontent.com/Pilot2938/Pilot2938-FG-liveries/2edd25282b93a3a2d2d155864aecc2b781e75ad3/LICENSE",
+              "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+            },
+            {
+              "path": "/liveries/b757/icelandair-hekla-aurora/README.md",
+              "source": "https://raw.githubusercontent.com/Pilot2938/Pilot2938-FG-liveries/2edd25282b93a3a2d2d155864aecc2b781e75ad3/README.md",
+              "sha256": "bd74987f662b17147ea262e15633699664c74303e959c6820c6bcdd45684355e"
+            }
+          ],
+          "attribution": "Pilot2938 / Pilot2938-FG-liveries. Original 757/757-200/ICE1.png (TF-FIU Hekla Aurora), original livery definition, GPL-2.0 license and README retained. Icelandair branding belongs to its respective owners.",
+          "sourcePng": "757/757-200/ICE1.png",
+          "modification": "Original upstream 4096x4096 PNG bytes retained; matching native FlightGear 757-200 UV0 and existing material bindings reused without projection or aircraft model changes.",
+          "nativeCompatibility": {
+            "sourceModelFamily": "FlightGear 757-200",
+            "sourceDefinitionTexture": "/Liveries/ICE1.png",
+            "nativeChannel": 0,
+            "originalModelSha256": "8bafff761d2340765a616ab826cda18deb429e1a6ece0d94c940bb63d483595c"
+          }
         }
       ]
     },

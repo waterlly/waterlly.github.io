@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "b738-skymark-blue-pikachu-png",
+  "revision": "arcgis-performance-and-b757-aurora",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -104,9 +104,37 @@
       "source": "GeoFS LiverySelector preserved original PNG",
       "license": "MIT",
       "uvAdaptation": "Separate UV2;original model and nativeUV/AO preserved"
+    },
+    {
+      "aircraft": "b757",
+      "id": "icelandair-hekla-aurora",
+      "registration": "TF-FIU",
+      "design": "Hekla Aurora",
+      "originalPng": true,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "author": "Pilot2938",
+      "source": "Native FlightGear 757-200 atlas, pinned upstream commit",
+      "license": "GPL-2.0",
+      "uvAdaptation": "Native model UV0 unchanged"
     }
   ],
   "fixes": [
     "Boeing747-8i exterior,fin and rudder livery material bindings"
-  ]
+  ],
+  "pikachuMappingFix": {
+    "nativeUvIslands": true,
+    "crown": "white",
+    "belly": "blue",
+    "doorsAligned": true,
+    "originalPngUnchanged": true
+  },
+  "terrainPerformance": {
+    "arcgisNativeGridInterpolation": true,
+    "maximumRetainedTerrainTiles": 64,
+    "realTerrainCollisions": true,
+    "adaptiveHighResolution": true
+  }
 }
