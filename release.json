@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "arcgis-performance-and-b757-aurora",
+  "revision": "default-ai-performance-and-stall-audio",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -135,6 +135,25 @@
     "arcgisNativeGridInterpolation": true,
     "maximumRetainedTerrainTiles": 64,
     "realTerrainCollisions": true,
-    "adaptiveHighResolution": true
+    "adaptiveHighResolution": true,
+    "aiFrustumCulling": true,
+    "aiOcclusionCacheMilliseconds": [
+      120,
+      200
+    ],
+    "disabledAirportAiSkipsTerrainChecks": true,
+    "highQualityResolutionTargetFps": 52,
+    "minimumHighRenderScale": 0.5,
+    "automaticPerformanceFallback": true
+  },
+  "warningAudio": {
+    "stallProfiles": {
+      "airbus": "native FlightGear cricket + STALL STALL voice, attributed 2 second game arrangement",
+      "boeing": "native FlightGear 737 stick-shaker sample shared by Boeing profiles",
+      "generic": "legacy horn"
+    },
+    "continuousUntilClear": true,
+    "transportStallSpeechSynthesis": false,
+    "triggerPhysics": "unchanged"
   }
 }

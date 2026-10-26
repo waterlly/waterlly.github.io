@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "importedAt": "2026-10-23",
-  "description": "Original prerecorded FlightGear simulator warning samples, copied byte-for-byte. No claim is made that these are manufacturer hardware recordings or human voice recordings; original production methods are not documented by these source files.",
+  "description": "Original FlightGear simulator samples with individual source and license records. Five legacy samples and three new source WAVs retain upstream bytes. The Airbus stall playback asset is a separately documented arrangement of native cricket and voice samples. No manufacturer hardware recording provenance is asserted.",
   "attribution": "FlightGear fgdata contributors. Original sound assets distributed with the GPL FlightGear data package.",
   "license": "GPL-2.0-or-later",
   "licensePath": "/audio/warnings/COPYING",
@@ -107,7 +107,105 @@
   "fallback": {
     "kind": "speech-synthesis",
     "language": "en-US",
-    "reason": "If sample loading/decoding fails, the English phrase is spoken using browser/OS synthesis. This fallback is never described as a recording."
+    "reason": "If a legacy/non-stall sample cannot play, browser English synthesis may speak its phrase. Transport stall audio never uses text-to-speech; see stallPlayback."
   },
-  "modifications": "No asset bytes changed. Playback peak gain is normalized in memory with headroom and multiplied by the user volume."
+  "modifications": "The original five legacy assets and new three source WAVs retain upstream bytes. Airbus game cue is an attributed arrangement of the original cricket and voice samples; see stallProfiles.airbus.arrangement. Playback gain is normalized with headroom and multiplied by user volume.",
+  "stallSources": [
+    {
+      "description": "Airbus-style STALL voice sample",
+      "repo": "legoboyvdlp/A320-family",
+      "commit": "fec1ecba767c8fffd145337b27012e89c01e3ade",
+      "sourcePath": "Sounds/Cockpit/stall_voice.wav",
+      "rawUrl": "https://raw.githubusercontent.com/legoboyvdlp/A320-family/fec1ecba767c8fffd145337b27012e89c01e3ade/Sounds/Cockpit/stall_voice.wav",
+      "sourceUrl": "https://github.com/legoboyvdlp/A320-family/blob/fec1ecba767c8fffd145337b27012e89c01e3ade/Sounds/Cockpit/stall_voice.wav",
+      "license": "GPL-2.0",
+      "licenseUrl": "https://github.com/legoboyvdlp/A320-family/blob/fec1ecba767c8fffd145337b27012e89c01e3ade/LICENSE",
+      "bytes": 48528,
+      "sha256": "54def1ccb04cc3896602f9d8ced99f90cac335d46b955834902122a73b4e6c6d",
+      "unmodified": true,
+      "channels": 1,
+      "sampleRate": 22050,
+      "bitsPerSample": 16,
+      "durationSeconds": 1.0994104308390023,
+      "path": "/audio/warnings/stall-airbus-voice.wav",
+      "licensePath": "/audio/warnings/stall-airbus-LICENSE"
+    },
+    {
+      "description": "Airbus-style cricket sample",
+      "repo": "legoboyvdlp/A320-family",
+      "commit": "fec1ecba767c8fffd145337b27012e89c01e3ade",
+      "sourcePath": "Sounds/Cockpit/cricket.wav",
+      "rawUrl": "https://raw.githubusercontent.com/legoboyvdlp/A320-family/fec1ecba767c8fffd145337b27012e89c01e3ade/Sounds/Cockpit/cricket.wav",
+      "sourceUrl": "https://github.com/legoboyvdlp/A320-family/blob/fec1ecba767c8fffd145337b27012e89c01e3ade/Sounds/Cockpit/cricket.wav",
+      "license": "GPL-2.0",
+      "licenseUrl": "https://github.com/legoboyvdlp/A320-family/blob/fec1ecba767c8fffd145337b27012e89c01e3ade/LICENSE",
+      "bytes": 42470,
+      "sha256": "b1fe98900be5e739cacbe3096f2edce49c91976fe642bd40b84ebb34407c5f44",
+      "unmodified": true,
+      "channels": 1,
+      "sampleRate": 44100,
+      "bitsPerSample": 16,
+      "durationSeconds": 0.478843537414966,
+      "path": "/audio/warnings/stall-airbus-cricket.wav",
+      "licensePath": "/audio/warnings/stall-airbus-LICENSE"
+    },
+    {
+      "description": "Boeing 737 simulator stick-shaker/stall sound",
+      "repo": "YV3399/737-800YV",
+      "commit": "9d967d89dd2ee0ae1bf01d00c49839a574aa9da5",
+      "sourcePath": "Sounds/stall.wav",
+      "rawUrl": "https://raw.githubusercontent.com/YV3399/737-800YV/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Sounds/stall.wav",
+      "sourceUrl": "https://github.com/YV3399/737-800YV/blob/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/Sounds/stall.wav",
+      "license": "GPL-2.0",
+      "licenseUrl": "https://github.com/YV3399/737-800YV/blob/9d967d89dd2ee0ae1bf01d00c49839a574aa9da5/LICENSE",
+      "bytes": 107316,
+      "sha256": "ae706eec5727b87a88ebe86ec91a4591783d33bb3b84747b728adb23882cc8b3",
+      "unmodified": true,
+      "channels": 1,
+      "sampleRate": 22050,
+      "bitsPerSample": 16,
+      "durationSeconds": 2.4324716553287984,
+      "path": "/audio/warnings/stall-stick-shaker.wav",
+      "licensePath": "/audio/warnings/stall-boeing-LICENSE"
+    }
+  ],
+  "stallProfiles": {
+    "airbus": {
+      "path": "/audio/warnings/stall-airbus.wav",
+      "kind": "prerecorded-airbus-stall",
+      "license": "GPL-2.0",
+      "licensePath": "/audio/warnings/stall-airbus-LICENSE",
+      "copyrightPath": "/audio/warnings/stall-airbus-copyright.md",
+      "sha256": "69e67a7eccb78a0b2a7764885b2cfc2c1c74b003d570ebe8a0548b5d81fd5cf5",
+      "bytes": 176444,
+      "arrangement": {
+        "cycleSeconds": 2,
+        "cricketStartSeconds": 0,
+        "voiceStartSeconds": 0.6,
+        "cricketGain": 0.2,
+        "voiceGain": 1,
+        "sampleRate": 44100,
+        "method": "Linear resampling of original 22050Hz voice to44100Hz, no time stretching or pitch change. Original source WAVs retained. Approximate game cadence, not a manufacturer hardware recording."
+      }
+    },
+    "boeing": {
+      "path": "/audio/warnings/stall-stick-shaker.wav",
+      "kind": "prerecorded-stick-shaker",
+      "license": "GPL-2.0",
+      "licensePath": "/audio/warnings/stall-boeing-LICENSE",
+      "thanksPath": "/audio/warnings/stall-boeing-THANKS",
+      "sha256": "ae706eec5727b87a88ebe86ec91a4591783d33bb3b84747b728adb23882cc8b3",
+      "bytes": 107316,
+      "adaptation": "Native 737 simulator stick-shaker sample shared by Boeing profiles; not individual recordings from each aircraft."
+    }
+  },
+  "stallPlayback": {
+    "continuousBufferLoop": true,
+    "stopOnClearPauseMuteReplayDispose": true,
+    "transportSpeechFallback": false
+  },
+  "stallBehaviorReferences": [
+    "https://safetyfirst.airbus.com/control-your-speed-in-cruise/?airbus-iframe=true&airbus-post=2139",
+    "https://www.boeing.com/features/2026/06/key-737-max-upgrade-to-ease-pilot-workload"
+  ]
 }
