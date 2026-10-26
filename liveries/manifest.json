@@ -418,7 +418,7 @@
       "liveries": [
         {
           "id": "lufthansa",
-          "name": "Lufthansa（适配）",
+          "name": "Lufthansa\uff08\u9002\u914d\uff09",
           "textures": [
             {
               "path": "/liveries/a321/lufthansa.png",
@@ -449,7 +449,7 @@
         },
         {
           "id": "air-canada",
-          "name": "Air Canada（适配）",
+          "name": "Air Canada\uff08\u9002\u914d\uff09",
           "textures": [
             {
               "path": "/liveries/a321/air-canada.png",
@@ -976,7 +976,7 @@
         },
         {
           "id": "air-china",
-          "name": "中国国际航空 Air China（适配）",
+          "name": "\u4e2d\u56fd\u56fd\u9645\u822a\u7a7a Air China\uff08\u9002\u914d\uff09",
           "textures": [
             {
               "path": "/liveries/a343/air-china/A343-tex.png",
@@ -1571,7 +1571,7 @@
       "liveries": [
         {
           "id": "ryanair",
-          "name": "Ryanair 瑞安航空",
+          "name": "Ryanair \u745e\u5b89\u822a\u7a7a",
           "textures": [
             {
               "path": "/liveries/b38m/ryanair/max8.png",
@@ -1621,7 +1621,7 @@
         },
         {
           "id": "southwest",
-          "name": "Southwest 西南航空",
+          "name": "Southwest \u897f\u5357\u822a\u7a7a",
           "textures": [
             {
               "path": "/liveries/b38m/southwest/max8.png",
@@ -1671,7 +1671,7 @@
         },
         {
           "id": "air-china",
-          "name": "Air China 中国国际航空",
+          "name": "Air China \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
           "textures": [
             {
               "path": "/liveries/b38m/air-china/max8.png",
@@ -1723,7 +1723,7 @@
       "retiredLiveries": [
         {
           "id": "united",
-          "name": "United Airlines（适配）",
+          "name": "United Airlines\uff08\u9002\u914d\uff09",
           "textures": [
             {
               "path": "/liveries/b38m/united.png",
@@ -1755,7 +1755,7 @@
         },
         {
           "id": "icelandair",
-          "name": "Icelandair（适配）",
+          "name": "Icelandair\uff08\u9002\u914d\uff09",
           "textures": [
             {
               "path": "/liveries/b38m/icelandair.png",
@@ -1994,7 +1994,8 @@
           "DefaultWhite_019",
           "DefaultWhite_023",
           "DefaultWhite_024"
-        ]
+        ],
+        "materialBindingRepair": "Pikachu paint-only clones preserve native UV0 for original FlightGear paints; dedicated UV2 for the separate GeoFS atlas."
       },
       "liveries": [
         {
@@ -2021,23 +2022,14 @@
             {
               "path": "/liveries/b738/klm/KLM-800.png",
               "materials": [
-                "DefaultWhite_000",
                 "DefaultWhite_001",
                 "DefaultWhite_002",
-                "DefaultWhite_003",
                 "DefaultWhite_005",
-                "DefaultWhite_008",
                 "DefaultWhite_010",
                 "DefaultWhite_011",
-                "DefaultWhite_012",
-                "DefaultWhite_014",
-                "DefaultWhite_015",
-                "DefaultWhite_016",
-                "DefaultWhite_017",
-                "DefaultWhite_018",
-                "DefaultWhite_019",
-                "DefaultWhite_023",
-                "DefaultWhite_024"
+                "b738-pikachu-body",
+                "b738-pikachu-tail",
+                "b738-pikachu-engine"
               ],
               "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KLM-800.png",
               "sha256": "20700385be85f88fb85e762697f6674b1471b18c493827a1cb8feed0e0abe07b",
@@ -2074,23 +2066,14 @@
             {
               "path": "/liveries/b738/ryanair/RYR-800.png",
               "materials": [
-                "DefaultWhite_000",
                 "DefaultWhite_001",
                 "DefaultWhite_002",
-                "DefaultWhite_003",
                 "DefaultWhite_005",
-                "DefaultWhite_008",
                 "DefaultWhite_010",
                 "DefaultWhite_011",
-                "DefaultWhite_012",
-                "DefaultWhite_014",
-                "DefaultWhite_015",
-                "DefaultWhite_016",
-                "DefaultWhite_017",
-                "DefaultWhite_018",
-                "DefaultWhite_019",
-                "DefaultWhite_023",
-                "DefaultWhite_024"
+                "b738-pikachu-body",
+                "b738-pikachu-tail",
+                "b738-pikachu-engine"
               ],
               "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/RYR-800.png",
               "sha256": "59a4e6fdb4782d30bb4152c65301a805ba491c32f13975fc1dafdf733fe68fb1",
@@ -2110,23 +2093,14 @@
             {
               "path": "/liveries/b738/american-airlines/AAL.png",
               "materials": [
-                "DefaultWhite_000",
                 "DefaultWhite_001",
                 "DefaultWhite_002",
-                "DefaultWhite_003",
                 "DefaultWhite_005",
-                "DefaultWhite_008",
                 "DefaultWhite_010",
                 "DefaultWhite_011",
-                "DefaultWhite_012",
-                "DefaultWhite_014",
-                "DefaultWhite_015",
-                "DefaultWhite_016",
-                "DefaultWhite_017",
-                "DefaultWhite_018",
-                "DefaultWhite_019",
-                "DefaultWhite_023",
-                "DefaultWhite_024"
+                "b738-pikachu-body",
+                "b738-pikachu-tail",
+                "b738-pikachu-engine"
               ],
               "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/AAL.png",
               "sha256": "8a5cb1edea4cbb3a320f2ee41a7916beadce0c48fac809647c65938046953d3e",
@@ -2169,23 +2143,14 @@
             {
               "path": "/liveries/b738/korean-air/KAL.png",
               "materials": [
-                "DefaultWhite_000",
                 "DefaultWhite_001",
                 "DefaultWhite_002",
-                "DefaultWhite_003",
                 "DefaultWhite_005",
-                "DefaultWhite_008",
                 "DefaultWhite_010",
                 "DefaultWhite_011",
-                "DefaultWhite_012",
-                "DefaultWhite_014",
-                "DefaultWhite_015",
-                "DefaultWhite_016",
-                "DefaultWhite_017",
-                "DefaultWhite_018",
-                "DefaultWhite_019",
-                "DefaultWhite_023",
-                "DefaultWhite_024"
+                "b738-pikachu-body",
+                "b738-pikachu-tail",
+                "b738-pikachu-engine"
               ],
               "source": "https://raw.githubusercontent.com/FGMEMBERS/737-800/9126249dd0236479ad723f3e7c4c7139455c7d81/Models/Liveries-800/KAL.png",
               "sha256": "85fe858024bf567d4753858ee691fa56da18df5a4d9e21deb5822753a668dec9",
@@ -2220,6 +2185,69 @@
           },
           "sourcePng": "Models/Liveries-800/KAL.png",
           "modification": "Original upstream PNG bytes retained; existing native material bindings reused without projection."
+        },
+        {
+          "id": "skymark-pikachu",
+          "name": "\u5929\u9a6c\u822a\u7a7a Skymark \u00b7 \u84dd\u8272\u5b9d\u53ef\u68a6 JA73NG\uff08\u9002\u914d\uff09",
+          "textures": [
+            {
+              "path": "/liveries/b738/skymark-pikachu/Skymark_pkmon_738_7.png",
+              "materials": [
+                "b738-pikachu-body",
+                "b738-pikachu-tail",
+                "b738-pikachu-tail-edge",
+                "b738-pikachu-engine",
+                "b738-pikachu-winglet"
+              ],
+              "channel": 2,
+              "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/boeing_b737-800/Skymark_pkmon_738_7.png",
+              "sha256": "dd891e7fe569023acd81ff9d81533204a2100c4f858060d750a03ab5394cb2c2",
+              "width": 1024,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "_37-800_png_001"
+              ]
+            }
+          ],
+          "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/boeing_b737-800/Skymark_pkmon_738_7.png",
+          "license": "MIT",
+          "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+          "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
+          "attribution": "ChengyuWordle [Sino Wings Group], via kolos26/GEOFS-LiverySelector. Original MIT license and author source record retained. Pok\u00e9mon/Skymark characters, marks and airline branding belong to their respective owners.",
+          "registration": "JA73NG",
+          "fetchedAt": "2026-10-26",
+          "licenseFiles": [
+            {
+              "path": "/liveries/b738/skymark-pikachu/LICENSE.txt",
+              "source": "https://github.com/kolos26/GEOFS-LiverySelector/blob/20958203daea47f0336e21a8b14d3f18140e6422/LICENSE",
+              "sha256": "8bb461cae10785a4a15b2c520810130ca420b56f119e6860a7410f11310c7b28"
+            }
+          ],
+          "modification": "Original upstream PNG bytes retained, with dedicated UV2 and paint-only material clones adapting body, fin, engine casing and winglet to the current FlightGear B738 model; original geometry and native UV0/AO UV1 remain unchanged.",
+          "projection": {
+            "module": "app/runtime-b738-pikachu-projection.mjs",
+            "channel": 2,
+            "nativeUVPreserved": true
+          },
+          "importRecord": {
+            "path": "/liveries/b738/skymark-pikachu/import-record.json",
+            "source": "https://github.com/kolos26/GEOFS-LiverySelector/tree/82cd07072e3f2d60c826a2eaa90a856f68c5f597",
+            "sha256": "92256eda58743849193084c90987705c46537ba1d56fee7dc0d3930598895eb5",
+            "description": "Local import provenance record based on the verified upstream catalog; not an unmodified upstream catalog file."
+          },
+          "upstreamCatalog": {
+            "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/livery.json",
+            "sha256": "10a6b39f81ff49db4699431fe81afbcd18938cf74a1ccbdfc598389d63b8ab4f",
+            "jsonPointer": "/aircrafts/Boeing 737Max 8 (TUI)_427352_3054/liveries/253",
+            "sourceAircraftLabel": "Boeing 737Max 8 (TUI)_427352_3054",
+            "compatibilityNote": "Upstream catalog labels this shared aircraft slot MAX 8; source texture filename/folder is boeing_b737-800. Local FlightGear B738 uses an explicit UV2 adaptation, not an assertion of native atlas compatibility."
+          },
+          "catalogExcerpt": {
+            "path": "/liveries/b738/skymark-pikachu/catalog-excerpt.json",
+            "sha256": "3e13a4cec40a928bada2d18040983b5f11636190cd2364f94ce4d9ffd19c958e",
+            "modification": "Extracted and reserialized entry; full original source hash and JSON pointer recorded in upstreamCatalog."
+          }
         }
       ]
     },
@@ -2388,7 +2416,7 @@
       "liveries": [
         {
           "id": "korean-air",
-          "name": "Korean Air · 737-900",
+          "name": "Korean Air \u00b7 737-900",
           "textures": [
             {
               "path": "/liveries/b739/korean-air/KAL-900.png",
@@ -2460,7 +2488,7 @@
         },
         {
           "id": "lion-air",
-          "name": "Lion Air · 737-900",
+          "name": "Lion Air \u00b7 737-900",
           "textures": [
             {
               "path": "/liveries/b739/lion-air/LNI-900.png",
@@ -2734,7 +2762,7 @@
       "liveries": [
         {
           "id": "blue-markings-derived",
-          "name": "Blue markings · derived",
+          "name": "Blue markings \u00b7 derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
           "license": "GPL-2.0",
           "textures": [
@@ -2770,7 +2798,7 @@
         },
         {
           "id": "charcoal-markings-derived",
-          "name": "Charcoal markings · derived",
+          "name": "Charcoal markings \u00b7 derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
           "license": "GPL-2.0",
           "textures": [
@@ -3036,7 +3064,7 @@
       "liveries": [
         {
           "id": "emerald-derived",
-          "name": "Emerald prototype · derived",
+          "name": "Emerald prototype \u00b7 derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
           "license": "GPL-2.0",
           "textures": [
@@ -3075,7 +3103,7 @@
         },
         {
           "id": "burgundy-derived",
-          "name": "Burgundy prototype · derived",
+          "name": "Burgundy prototype \u00b7 derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
           "license": "GPL-2.0",
           "textures": [
@@ -3381,7 +3409,7 @@
               "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
             }
           ],
-          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonth\u00e4ler and credited contributors; retained AUTHORS.txt and original livery XML.",
           "definition": {
             "path": "/liveries/b707/pan-am/livery.xml",
             "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/PAA.xml"
@@ -3432,7 +3460,7 @@
               "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
             }
           ],
-          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonth\u00e4ler and credited contributors; retained AUTHORS.txt and original livery XML.",
           "definition": {
             "path": "/liveries/b707/twa/livery.xml",
             "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/TWA.xml"

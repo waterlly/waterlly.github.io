@@ -1,0 +1,20 @@
+{
+  "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/boeing_b737-800/Skymark_pkmon_738_7.png",
+  "bytes": 451004,
+  "sha256": "dd891e7fe569023acd81ff9d81533204a2100c4f858060d750a03ab5394cb2c2",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "registration": "JA73NG",
+  "design": "Skymark Pikachu Jet BC2",
+  "credits": "ChengyuWordle[Sino Wings Group]",
+  "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
+  "sourceFileCommit": "82cd07072e3f2d60c826a2eaa90a856f68c5f597",
+  "preservedPngCommit": "20958203daea47f0336e21a8b14d3f18140e6422",
+  "upstreamLicense": "MIT",
+  "visualVerified": true,
+  "textureArrayCount": 1,
+  "originalPng": true,
+  "notes": "Original PNG from repository history before automated WebP conversion; no image conversion or editing performed. Visual atlas contains both fuselage sides, tail, engine, wheel and wing details."
+}

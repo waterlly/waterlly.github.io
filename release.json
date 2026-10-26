@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "flight-handling-towing-and-airchina",
+  "revision": "b738-skymark-blue-pikachu-png",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -89,6 +89,21 @@
       "id": "air-china",
       "registration": "B-2385",
       "source": "FlightGear fgdata original PNG with separate UV adapter"
+    },
+    {
+      "aircraft": "b738",
+      "id": "skymark-pikachu",
+      "registration": "JA73NG",
+      "design": "Pikachu Jet BC2",
+      "originalPng": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "author": "ChengyuWordle[Sino Wings Group]",
+      "source": "GeoFS LiverySelector preserved original PNG",
+      "license": "MIT",
+      "uvAdaptation": "Separate UV2;original model and nativeUV/AO preserved"
     }
   ],
   "fixes": [

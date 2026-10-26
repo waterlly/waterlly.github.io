@@ -41,3 +41,7 @@ Banked lift now uses consistent force projections, turns follow actual lateral l
 Ground services include explicit pushback, stop and tow-to-stand actions. The visible capture range is 8 m for C182 and 12–35 m for jets according to aircraft length. Movement is gradual and follows known terrain; bridge/door interlocks, pause and parking brakes remain active.
 
 A340-300 includes the original Air China B-2385 PNG from FlightGear fgdata with a separate UV adaptation; provenance and GPL attribution are retained in liveries/manifest.json. The 747-8i paint now binds to the actual exterior skin and full vertical tail rather than shared white/cockpit materials.
+
+## Skymark blue Pikachu Jet BC2
+
+The 737-800 now includes Skymark JA73NG blue Pikachu Jet BC2. The original 1024×1024 PNG by ChengyuWordle[Sino Wings Group] is retained byte-for-byte from GeoFS LiverySelector history, with MIT license and source credits. A separate UV2 adaptation fits the existing aircraft body, fin, engine covers and winglets. Native KLM, Ryanair and original paint still restore normally. Select the Skymark blue Pokemon option in the livery menu.

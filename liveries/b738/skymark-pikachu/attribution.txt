@@ -1,0 +1,6 @@
+Skymark Pikachu Jet BC2 — JA73NG
+Texture: ChengyuWordle [Sino Wings Group], via kolos26/GEOFS-LiverySelector
+https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/boeing_b737-800/Skymark_pkmon_738_7.png
+Original PNG bytes retained under upstream MIT license (LICENSE.txt).
+UV2 adaptation to current FlightGear B738; not a native FlightGear paintkit.
+Pokémon and Skymark branding belong to their respective owners; no affiliation implied.

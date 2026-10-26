@@ -1,0 +1,13 @@
+{
+  "description": "Locally extracted upstream catalog entry; not a byte-identical copy of the full catalog.",
+  "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/livery.json",
+  "sourceSha256": "10a6b39f81ff49db4699431fe81afbcd18938cf74a1ccbdfc598389d63b8ab4f",
+  "jsonPointer": "/aircrafts/Boeing 737Max 8 (TUI)_427352_3054/liveries/253",
+  "entry": {
+    "name": "Skymark Airlines (Pokémon livery)",
+    "texture": [
+      "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Skymark_pkmon_738_7.png"
+    ],
+    "credits": "ChengyuWordle[Sino Wings Group]"
+  }
+}
