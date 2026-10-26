@@ -1,6 +1,6 @@
 # SKYBOUND — Flight Simulator
 
-Production static website, built on 2026-10-25.
+Production static website, built on 2026-10-26.
 
 Open https://waterlly.github.io/ to play.
 
@@ -29,3 +29,7 @@ Boeing 757-200 now includes the Icelandair TF-FIZ livery, using original GPL-2.0
 ## Enhanced lighting mods
 
 High quality uses N8AO 2.0.1 ambient occlusion and Postprocessing 6.39.5 bloom, AgX tone mapping and SMAA. Toggle enhanced lighting with the sparkle button or flight help checkbox. Low quality skips these effects to prioritize frame rate. Credits and original licenses are included in licenses/lighting-plugins.json.
+
+## Sky, weather and reflections
+
+Aircraft and globe share a local-solar clock. Sky reflections, weather haze and noise-shaded cumulus clouds improve high quality, with smaller reflection maps and fewer clouds in smooth mode. The atmosphere setting controls visible sky, clouds and fog. Weather is preset, not live; clouds are billboards and do not provide volumetric cloud occlusion against the separate aircraft canvas. Existing satellite imagery and terrain providers remain responsible for ground detail.

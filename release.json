@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-10-25",
+  "release": "2026-10-26",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "enhanced-lighting-mods",
+  "revision": "sky-weather-and-reflections",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -41,5 +41,26 @@
     ],
     "quality": "high",
     "toggle": true
+  },
+  "atmosphere": {
+    "sharedSolarTime": true,
+    "weatherPresets": [
+      "clear",
+      "scattered",
+      "wind"
+    ],
+    "clouds": {
+      "high": 50,
+      "low": 9,
+      "type": "noise-shaded cumulus billboards",
+      "liveWeather": false
+    },
+    "skyReflections": {
+      "high": 256,
+      "low": 64
+    },
+    "realTerrainDetail": true,
+    "hdrWhenSupported": true,
+    "subtleBloom": true
   }
 }
