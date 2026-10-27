@@ -1,0 +1,13 @@
+A321XLR community exterior — upstream license reference
+
+License: 3D Warehouse General Model License
+Full publisher terms: https://3dwarehouse.sketchup.com/tou#license
+Publisher Terms of Use version 2.0, updated 30 September 2026; verified 27 October 2026.
+
+This exterior is included as a component of the SKYBOUND flight simulator, with substantial independent simulation, controls, scenery and interface content. The publisher's Combined Work conditions apply. This notice does not grant a separate model license or permission for standalone model redistribution.
+
+Creator: Mr G the Sheep
+Template contributors: atsuk0, dre737, Maberick Rocha, and Mr G the Sheep.
+Source: https://3dwarehouse.sketchup.com/model/cbce7995-0364-44f7-8753-8f6630c9bd3f/Iberia-Airbus-A321-253NY-XLR
+
+The exterior uses a community XLR representation with shared A321 airframe details. Shared A321 cockpit and cabin resources have their separate source licenses.

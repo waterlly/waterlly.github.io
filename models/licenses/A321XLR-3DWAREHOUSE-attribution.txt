@@ -1,0 +1,9 @@
+Iberia Airbus A321-253NY XLR — community model
+
+Creator: Mr G the Sheep
+Original template credits: atsuk0, dre737, Maberick Rocha, and Mr G the Sheep.
+Created and last modified: 11 September 2026.
+Source model: https://3dwarehouse.sketchup.com/model/cbce7995-0364-44f7-8753-8f6630c9bd3f/Iberia-Airbus-A321-253NY-XLR
+License: https://3dwarehouse.sketchup.com/tou#license
+
+Imported mesh, embedded image bytes and UV coordinates are retained. Semantic animation groups and a uniform aircraft coordinate frame were added for the simulator. Community shared-body details and simplified systems are disclosed in the aircraft description.

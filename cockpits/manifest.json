@@ -29185,7 +29185,7 @@
         }
       ],
       "attribution": "Airbus A321 team: Narendran Muraleedharan and Xiang Guo (3D models), Skyop (3D cockpit base design), and contributors listed in AUTHORS.txt.",
-      "compatibility": "Shared A321 family interior for the A321neo-based XLR game adaptation; not a dedicated A321XLR interior.",
+      "compatibility": "Shared A321 family interior for the community XLR representation; not a dedicated A321XLR interior.",
       "modification": "Source FlightGear cockpit assembly converted to glTF; static geometry and UV textures retained. FlightGear property-driven instrumentation requires separate simulator implementation. Selected original LCD surfaces use normalized projected UVs for local live readouts; window transparency is adapted for WebGL. Viewer translation corrections are recorded separately.",
       "viewpoint": {
         "source": "A321-231-set.xml",

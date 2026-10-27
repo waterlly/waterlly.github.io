@@ -418,7 +418,7 @@
       "liveries": [
         {
           "id": "lufthansa",
-          "name": "Lufthansa\uff08\u9002\u914d\uff09",
+          "name": "Lufthansa（适配）",
           "textures": [
             {
               "path": "/liveries/a321/lufthansa.png",
@@ -449,7 +449,7 @@
         },
         {
           "id": "air-canada",
-          "name": "Air Canada\uff08\u9002\u914d\uff09",
+          "name": "Air Canada（适配）",
           "textures": [
             {
               "path": "/liveries/a321/air-canada.png",
@@ -976,7 +976,7 @@
         },
         {
           "id": "air-china",
-          "name": "\u4e2d\u56fd\u56fd\u9645\u822a\u7a7a Air China\uff08\u9002\u914d\uff09",
+          "name": "中国国际航空 Air China（适配）",
           "textures": [
             {
               "path": "/liveries/a343/air-china/A343-tex.png",
@@ -1253,7 +1253,7 @@
         },
         {
           "id": "icelandair-hekla-aurora",
-          "name": "Icelandair \u00b7 Hekla Aurora \u6781\u5149\u53f7 TF-FIU",
+          "name": "Icelandair · Hekla Aurora 极光号 TF-FIU",
           "textures": [
             {
               "path": "/liveries/b757/icelandair-hekla-aurora/ICE1.png",
@@ -1632,7 +1632,7 @@
       "liveries": [
         {
           "id": "ryanair",
-          "name": "Ryanair \u745e\u5b89\u822a\u7a7a",
+          "name": "Ryanair 瑞安航空",
           "textures": [
             {
               "path": "/liveries/b38m/ryanair/max8.png",
@@ -1682,7 +1682,7 @@
         },
         {
           "id": "southwest",
-          "name": "Southwest \u897f\u5357\u822a\u7a7a",
+          "name": "Southwest 西南航空",
           "textures": [
             {
               "path": "/liveries/b38m/southwest/max8.png",
@@ -1732,7 +1732,7 @@
         },
         {
           "id": "air-china",
-          "name": "Air China \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+          "name": "Air China 中国国际航空",
           "textures": [
             {
               "path": "/liveries/b38m/air-china/max8.png",
@@ -1784,7 +1784,7 @@
       "retiredLiveries": [
         {
           "id": "united",
-          "name": "United Airlines\uff08\u9002\u914d\uff09",
+          "name": "United Airlines（适配）",
           "textures": [
             {
               "path": "/liveries/b38m/united.png",
@@ -1816,7 +1816,7 @@
         },
         {
           "id": "icelandair",
-          "name": "Icelandair\uff08\u9002\u914d\uff09",
+          "name": "Icelandair（适配）",
           "textures": [
             {
               "path": "/liveries/b38m/icelandair.png",
@@ -2249,7 +2249,7 @@
         },
         {
           "id": "skymark-pikachu",
-          "name": "\u5929\u9a6c\u822a\u7a7a Skymark \u00b7 \u84dd\u8272\u5b9d\u53ef\u68a6 JA73NG\uff08\u9002\u914d\uff09",
+          "name": "天马航空 Skymark · 蓝色宝可梦 JA73NG（适配）",
           "textures": [
             {
               "path": "/liveries/b738/skymark-pikachu/Skymark_pkmon_738_7.png",
@@ -2275,7 +2275,7 @@
           "license": "MIT",
           "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
           "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
-          "attribution": "ChengyuWordle [Sino Wings Group], via kolos26/GEOFS-LiverySelector. Original MIT license and author source record retained. Pok\u00e9mon/Skymark characters, marks and airline branding belong to their respective owners.",
+          "attribution": "ChengyuWordle [Sino Wings Group], via kolos26/GEOFS-LiverySelector. Original MIT license and author source record retained. Pokémon/Skymark characters, marks and airline branding belong to their respective owners.",
           "registration": "JA73NG",
           "fetchedAt": "2026-10-26",
           "licenseFiles": [
@@ -2477,7 +2477,7 @@
       "liveries": [
         {
           "id": "korean-air",
-          "name": "Korean Air \u00b7 737-900",
+          "name": "Korean Air · 737-900",
           "textures": [
             {
               "path": "/liveries/b739/korean-air/KAL-900.png",
@@ -2549,7 +2549,7 @@
         },
         {
           "id": "lion-air",
-          "name": "Lion Air \u00b7 737-900",
+          "name": "Lion Air · 737-900",
           "textures": [
             {
               "path": "/liveries/b739/lion-air/LNI-900.png",
@@ -2823,7 +2823,7 @@
       "liveries": [
         {
           "id": "blue-markings-derived",
-          "name": "Blue markings \u00b7 derived",
+          "name": "Blue markings · derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
           "license": "GPL-2.0",
           "textures": [
@@ -2859,7 +2859,7 @@
         },
         {
           "id": "charcoal-markings-derived",
-          "name": "Charcoal markings \u00b7 derived",
+          "name": "Charcoal markings · derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/an225.gltf",
           "license": "GPL-2.0",
           "textures": [
@@ -3125,7 +3125,7 @@
       "liveries": [
         {
           "id": "emerald-derived",
-          "name": "Emerald prototype \u00b7 derived",
+          "name": "Emerald prototype · derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
           "license": "GPL-2.0",
           "textures": [
@@ -3164,7 +3164,7 @@
         },
         {
           "id": "burgundy-derived",
-          "name": "Burgundy prototype \u00b7 derived",
+          "name": "Burgundy prototype · derived",
           "source": "https://github.com/Flightradar24/fr24-3d-models/blob/dd53267690c6a4ecbb290a3acf0284333a5d68a9/models/a380.glb",
           "license": "GPL-2.0",
           "textures": [
@@ -3470,7 +3470,7 @@
               "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
             }
           ],
-          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonth\u00e4ler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
           "definition": {
             "path": "/liveries/b707/pan-am/livery.xml",
             "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/PAA.xml"
@@ -3521,7 +3521,7 @@
               "sha256": "4b84fb3e2db769477a263b2a1d4a0b50e1aab4ad7867950553ea50de074dcd1e"
             }
           ],
-          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonth\u00e4ler and credited contributors; retained AUTHORS.txt and original livery XML.",
+          "attribution": "Original Prestes Hangar 707 family artists, Innis Cunningham, Prestes, Andino Gonthäler and credited contributors; retained AUTHORS.txt and original livery XML.",
           "definition": {
             "path": "/liveries/b707/twa/livery.xml",
             "source": "https://raw.githubusercontent.com/FGMEMBERS/707-320/c5e583dac2c918ac65117af6a9094ea2fe603abe/Models/Liveries/TWA.xml"
@@ -3534,17 +3534,16 @@
       "liveries": [
         {
           "id": "aer-lingus",
-          "name": "\u7231\u5c14\u5170\u822a\u7a7a \u00b7 \u4f20\u7edf\u7eff EI-CPD\uff08\u9002\u914d\uff09",
+          "name": "爱尔兰航空 · 传统绿 EI-CPD（适配）",
           "textures": [
             {
               "path": "/liveries/a321xlr/aer-lingus/Aer_Lingus_A321.png",
               "materials": [
                 "a321xlr-livery-body",
                 "a321xlr-livery-tail",
-                "a321xlr-livery-tail-edge",
                 "a321xlr-livery-engine",
                 "a321xlr-livery-winglet",
-                "a321xlr-livery-window-infill"
+                "a321xlr-livery-body-windows"
               ],
               "channel": 2,
               "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321-211/Aer%20Lingus%20A321.png",
@@ -3559,7 +3558,7 @@
           "license": "MIT",
           "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
           "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
-          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, EI-CPD Airbus A321-211 artwork adapted for the game A321XLR; no airline or Pok\u00e9mon affiliation implied.",
+          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, EI-CPD Airbus A321-211 artwork adapted for the game A321XLR; no airline or Pokémon affiliation implied.",
           "licenseFiles": [
             {
               "path": "/liveries/a321xlr/aer-lingus/LICENSE.txt",
@@ -3569,27 +3568,26 @@
           ],
           "importRecord": {
             "path": "/liveries/a321xlr/aer-lingus/import-record.json",
-            "sha256": "15ca87c45bd73c0b52b099508b3a5b631bb7e5e2a1c260868375d46a80ea9006"
+            "sha256": "cbd0c22f95cff8c5e5b581041195a863d98c24a00ad0035818ec9a277f43494e"
           },
           "catalogExcerpt": {
             "path": "/liveries/a321xlr/aer-lingus/catalog-excerpt.json",
             "sha256": "b9d1712da838eb85f5bfc81b6624e270a1a41a292af795e234c6985d67503c47"
           },
-          "modification": "Original PNG bytes unchanged; dedicated native-island UV2 adaptation, native UV0 and AO preserved. One custom-livery-only outward window batch fills exterior holes; internal pane faces are excluded. Default restores the untouched original glazing."
+          "modification": "Original PNG bytes unchanged. Dedicated UV2 render clones reproject sourceMeshIndex-tagged original3DW Iberia geometry. All oriented source triangles, native UV0/AO and original maps survive; default restores native Iberia materials. Left/right body rows are isolated at triangle seams."
         },
         {
           "id": "china-airlines-pokemon",
-          "name": "\u4e2d\u534e\u822a\u7a7a \u00b7 \u5b9d\u53ef\u68a6 B-18101\uff08\u9002\u914d\uff09",
+          "name": "中华航空 · 宝可梦 B-18101（适配）",
           "textures": [
             {
               "path": "/liveries/a321xlr/china-airlines-pokemon/China_Airlines_A321Neo_Pokemon.png",
               "materials": [
                 "a321xlr-livery-body",
                 "a321xlr-livery-tail",
-                "a321xlr-livery-tail-edge",
                 "a321xlr-livery-engine",
                 "a321xlr-livery-winglet",
-                "a321xlr-livery-window-infill"
+                "a321xlr-livery-body-windows"
               ],
               "channel": 2,
               "source": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/20958203daea47f0336e21a8b14d3f18140e6422/liveries/airbus_a321neo/China_Airlines_A321Neo_Pokemon.png",
@@ -3604,7 +3602,7 @@
           "license": "MIT",
           "repository": "https://github.com/kolos26/GEOFS-LiverySelector",
           "commit": "20958203daea47f0336e21a8b14d3f18140e6422",
-          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, B-18101 Airbus A321neo artwork adapted for the game A321XLR; no airline or Pok\u00e9mon affiliation implied.",
+          "attribution": "Original texture: luca b, via kolos26/GEOFS-LiverySelector (MIT). Original PNG retained, B-18101 Airbus A321neo artwork adapted for the game A321XLR; no airline or Pokémon affiliation implied.",
           "licenseFiles": [
             {
               "path": "/liveries/a321xlr/china-airlines-pokemon/LICENSE.txt",
@@ -3614,38 +3612,38 @@
           ],
           "importRecord": {
             "path": "/liveries/a321xlr/china-airlines-pokemon/import-record.json",
-            "sha256": "3b385444edeeee5b46a7ac609434712682ee14a71eba9e129d541c8f98b4e105"
+            "sha256": "ec6ab942850b2f26a68ca973dac96945b9aad0a74758771645e3d83baf8b3f65"
           },
           "catalogExcerpt": {
             "path": "/liveries/a321xlr/china-airlines-pokemon/catalog-excerpt.json",
             "sha256": "f2345633eb1891106af3c314950cbd8786e4d2dd5e0aa45e8b12f6ad1d09f20a"
           },
-          "modification": "Original PNG bytes unchanged; dedicated native-island UV2 adaptation, native UV0 and AO preserved. One custom-livery-only outward window batch fills exterior holes; internal pane faces are excluded. Default restores the untouched original glazing."
+          "modification": "Original PNG bytes unchanged. Dedicated UV2 render clones reproject sourceMeshIndex-tagged original3DW Iberia geometry. All oriented source triangles, native UV0/AO and original maps survive; default restores native Iberia materials. Left/right body rows are isolated at triangle seams."
         }
       ],
       "compatibility": {
         "model": "/models/A321XLR.glb",
-        "modelSha256": "4841e26c144f3f2081be2a743799a7ba55b363bebb0b3059a41ab4c6c8300a6b",
+        "modelSha256": "1fb40555a41a5fcfb8a75604c178390e857606532b5b6ab65a4a1675cd210d4c",
         "projection": "runtime-a321xlr-livery-projection.mjs UV2 (channel 2)",
         "materialNames": [
           "a321xlr-livery-body",
           "a321xlr-livery-tail",
-          "a321xlr-livery-tail-edge",
           "a321xlr-livery-engine",
           "a321xlr-livery-winglet",
-          "a321xlr-livery-window-infill"
+          "a321xlr-livery-body-windows"
         ],
         "channels": {
-          "2": "GeoFS side islands, crown/belly neutral bands, fin and engine panels; original UV0 and AO UV1 unchanged."
+          "2": "Original3DW canonical world-space side projection with per-triangle atlas-seam isolation; original UV0/AO preserved."
         },
-        "sourceModel": "FlightGear A321neo exterior, LEAP engines and sharklets",
-        "targetModel": "Game Airbus A321XLR adaptation",
-        "uvEvidence": "Authored UV0 islands identify body sides independently. Real imported triangles never interpolate between unrelated side rows. New UV2 and cloned paint materials preserve all native positions, normals, indices, UV0 and AO.",
+        "sourceModel": "Original3DW / Mr G the Sheep Iberia A321-253NY XLR, 2026 source",
+        "targetModel": "User-accepted XLR-labelled fallback; native exterior shape preserved",
+        "uvEvidence": "Explicit sourceMeshIndex selection protects windshield/mask, landing gear, tires, fan blades and control surfaces. Render clones expand indexed vertices without changing oriented triangle attributes.",
         "limitations": [
-          "Original Aer Lingus EI-CPD traditional-green artwork is A321-211; China Airlines Pikachu Jet CI B-18101 artwork is A321neo. Both are game adaptations to XLR, not actual XLR registrations.",
-          "Non-native paintkit adaptation; door and window panel locations are approximate."
+          "Original Aer Lingus EI-CPD traditional-green artwork is A321-211; China Airlines Pikachu Jet CI B-18101 artwork is A321neo. Both are game paint adaptations, not actual XLR registrations.",
+          "Printed window and panel placements are approximate because this is not a native paintkit.",
+          "Source author labels the model XLR; independent comparison found shared A321neo belly and inboard-flap surfaces. User explicitly accepted this fallback after disclosure."
         ],
-        "windowTreatment": "Custom UV2 skins hide the untouched source glazing and show one additional paint batch containing only outward-facing authored window triangles. Reverse-facing internal panes are excluded, so FrontSide paint fills exterior holes without obstructing the view outward from inside. Default restores original transparent glazing and hides the paint batch. Printed window and panel positions are an approximate game adaptation."
+        "windowTreatment": "Original3DW passenger-window mesh 119 receives an exterior paint clone only for custom UV2 skins; its original transparent material is restored on default. Native black cockpit frame and windshield meshes 109, 148 and 149 remain unpainted and transparent. No added geometry or duplicated window rows."
       }
     }
   }

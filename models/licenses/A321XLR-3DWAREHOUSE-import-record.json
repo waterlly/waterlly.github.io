@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "verifiedAtDate": "2026-10-27",
+  "sourceTitle": "Iberia Airbus A321-253NY XLR",
+  "sourcePage": "https://3dwarehouse.sketchup.com/model/cbce7995-0364-44f7-8753-8f6630c9bd3f/Iberia-Airbus-A321-253NY-XLR",
+  "sourceEntityId": "cbce7995-0364-44f7-8753-8f6630c9bd3f",
+  "sourceMetadataUrl": "https://3dwarehouse.sketchup.com/warehouse/v1.0/entities/cbce7995-0364-44f7-8753-8f6630c9bd3f?recordEvent=false",
+  "sourceMetadataFilename": "sketchup-iberia-2026-xlrcandidate.json",
+  "sourceMetadataSha256": "140a735b306d61d7cc932059a952161f975f147d20b9b0b84669c7b6ae633f39",
+  "upstreamAuthor": "Mr G the Sheep",
+  "upstreamAuthorId": "u5531ad42-4270-42dc-aa03-1861599cc0cc",
+  "upstreamCreatedAt": "2026-09-11 21:11:41.906",
+  "upstreamModifiedAt": "2026-09-11 21:26:41.964",
+  "upstreamCredits": [
+    "atsuk0",
+    "dre737",
+    "Maberick Rocha",
+    "Mr G the Sheep"
+  ],
+  "format": "glTF2.0 binary",
+  "generator": "SimLab GLTF",
+  "sourceFile": "sketchup-iberia-2026-a321xlr.glb",
+  "sourceBytes": 10393232,
+  "sourceSha256": "da9900e45d2ce0352bcb44bd044f9311ac89350a921ebf292f8bc04156eef788",
+  "sourceContentId": "de7072c9-1c16-4afc-a370-0f4e88d4d465",
+  "sourceContentUrl": "https://download-warehouse.sketchup.com/warehouse/v1.0/content/public/de7072c9-1c16-4afc-a370-0f4e88d4d465",
+  "sourceBinaryOriginalFilename": "Iberia Airbus A321-253NY.glb",
+  "sourceLicense": {
+    "name": "3D Warehouse General Model License",
+    "termsUrl": "https://3dwarehouse.sketchup.com/tou#license",
+    "isOpenSource": false,
+    "isCreativeCommons": false,
+    "licensePath": "/models/licenses/A321XLR-3DWAREHOUSE-LICENSE.txt",
+    "attributionPath": "/models/licenses/A321XLR-3DWAREHOUSE-attribution.txt",
+    "publisherTermsVersion": "2.0",
+    "publisherTermsUpdated": "2026-09-30",
+    "verifiedAtDate": "2026-10-27",
+    "use": "Component of the complete SKYBOUND flight simulator Combined Work; not an independent model download catalog. No direct author consent is claimed. Standalone-model redistribution is not granted by this notice.",
+    "generalModelLicenseUpdated": "2015-03-18, as displayed within the current publisher terms"
+  },
+  "geometry": {
+    "nodes": 3642,
+    "meshes": 374,
+    "triangles": 162211,
+    "embeddedImages": 7,
+    "animationClips": 0
+  },
+  "authenticity": {
+    "marketedType": "Airbus A321-253NY XLR",
+    "visualChecks": [
+      "Black windshield mask",
+      "LEAP-style twin engines",
+      "Sharklets",
+      "Iberia livery"
+    ],
+    "bodyAndFlapLimitation": "Shared exterior template with same-author2023United A321-271NX. No distinct production-XLR rear fairing or single-slot inboard flap shape verified.",
+    "bellyComparison": {
+      "rays": 1096,
+      "maxDifferenceMillimetres": 0.242,
+      "sameBelowMillimetreTolerance": true,
+      "evidence": "iberia-vs-united-belly-ray-sections.json"
+    },
+    "inboardFlapComparison": {
+      "rays": 696,
+      "maxDifferenceMillimetres": 0.0104,
+      "sameBelowMillimetreTolerance": true,
+      "evidence": "iberia-vs-united-inboard-flap-ray-sections.json"
+    },
+    "acceptedRepresentation": "Community XLR-labeled original source asset with disclosed shared exterior limitations; not a verified manufacturer-accurate XLR model."
+  },
+  "modelPath": "/models/A321XLR.glb",
+  "convertedBytes": 11030428,
+  "convertedSha256": "1fb40555a41a5fcfb8a75604c178390e857606532b5b6ab65a4a1675cd210d4c",
+  "normalization": {
+    "length": 44.51,
+    "noseAxis": "-Z",
+    "upAxis": "+Y",
+    "bodyMinimumY": -1,
+    "method": "Uniform transform with source ancestor transform chains retained; landing gear excluded from body reference bounds."
+  },
+  "modification": "Preserved original vertex, normal, native UV and embedded image binary payloads. Added semantic groups and a uniform coordinate frame. Runtime adds controls and animations using retained parts; shared A321-family cockpit/cabin resources are separate.",
+  "runtimeRepresentation": "Community XLR exterior with shared A321 airframe details and simplified systems.",
+  "validation": {
+    "sourceTriangleCount": 162211,
+    "allSourceTrianglesPreserved": true,
+    "maxSourceToCanonicalVertexErrorMetres": 2.804e-06,
+    "nativeBinaryPayloadSha256": "901baba67ea038529812c01ddf5c12b010b299e4b58620523d90f792ae89586e",
+    "foundationTestsPassed": 7,
+    "boardingDoor": "Calibrated L1 reference and curved source-skin partition; the source has baked door markings rather than a separate L1 leaf.",
+    "sharedInteriors": "Explicit A321-family sourced cockpit and cabin, with their original GPL-3.0 licensing retained."
+  }
+}

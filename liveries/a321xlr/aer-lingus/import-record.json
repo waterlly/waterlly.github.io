@@ -18,5 +18,6 @@
   "gameAircraft": "Airbus A321XLR",
   "adapted": true,
   "notes": "Original PNG bytes retained from repository history before WebP conversion. Adapted to the game A321XLR geometry; this design and registration originate on Airbus A321-211, not an actual aircraft registered as A321XLR. Original atlas has two full fuselage sides, fins, engine and wing details.",
-  "windowTreatment": "Custom UV2 skins hide the untouched source glazing and show one additional paint batch containing only outward-facing authored window triangles. Reverse-facing internal panes are excluded, so FrontSide paint fills exterior holes without obstructing the view outward from inside. Default restores original transparent glazing and hides the paint batch. Printed window and panel positions are an approximate game adaptation."
+  "windowTreatment": "Original3DW passenger-window mesh 119 receives an exterior paint clone only for custom UV2 skins; its original transparent material is restored on default. Native black cockpit frame and windshield meshes 109, 148 and 149 remain unpainted and transparent. No added geometry or duplicated window rows.",
+  "projectionModel": "User-accepted original3DW Iberia A321XLR-labelled 2026 fallback; XLR-specific belly/flap geometry not independently verified"
 }

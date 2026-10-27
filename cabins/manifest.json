@@ -31409,7 +31409,7 @@
           "sha256": "caeeab1219cba9447db16af64cc61cae7672be2f0c9502ec3bd9af25c9ecc2ea"
         }
       ],
-      "compatibility": "Shared A321 family interior for the A321neo-based XLR game adaptation; not a dedicated A321XLR interior.",
+      "compatibility": "Shared A321 family interior for the community XLR representation; not a dedicated A321XLR interior.",
       "compatibilityReferences": [],
       "sourceFiles": [
         {

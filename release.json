@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-10-26",
+  "release": "2026-10-27",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "one-screen-planner-bogie-2026-10-26",
+  "revision": "community-a321xlr-2026-10-27",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -160,7 +160,7 @@
   },
   "plannerUI": {
     "aircraftSelection": "native dropdown grouped by aircraft family",
-    "activeAircraft": 20,
+    "activeAircraft": 21,
     "primaryLaunchAction": "above the map in the heading",
     "desktop": "compact grouped settings in one viewport",
     "portraitPhone": "route / aircraft / environment settings sections",
@@ -176,7 +176,31 @@
     "legacyReplayV1": "supported with original level truck poses"
   },
   "a321xlr": {
-    "available": false,
-    "status": "Neo adaptation withdrawn; authentic freely licensed model not available"
+    "available": true,
+    "model": "User-selected community Iberia A321-253NY XLR exterior",
+    "source": "https://3dwarehouse.sketchup.com/model/cbce7995-0364-44f7-8753-8f6630c9bd3f/Iberia-Airbus-A321-253NY-XLR",
+    "author": "Mr G the Sheep; template: atsuk0, dre737, Maberick Rocha",
+    "license": "3D Warehouse General Model License (component of the complete simulator Combined Work)",
+    "modelSha256": "1fb40555a41a5fcfb8a75604c178390e857606532b5b6ab65a4a1675cd210d4c",
+    "geometry": "original triangles, UVs and embedded image bytes preserved; uniform aircraft frame and semantic motion groups",
+    "limitations": "community shared A321 airframe details; simplified game calibration, not a certified replica",
+    "liveries": [
+      "Aer Lingus traditional green EI-CPD",
+      "China Airlines Pokemon B-18101"
+    ],
+    "systems": [
+      "six-wheel ground contact and gear retraction",
+      "flaps and slats",
+      "spoilers",
+      "engine fans",
+      "thrust reversers",
+      "curved passenger door and boarding bridge",
+      "pushback and towing",
+      "shared A321 3D cockpit and cabin",
+      "touch controls",
+      "engine and warning audio",
+      "replay",
+      "multiplayer wire ID"
+    ]
   }
 }
