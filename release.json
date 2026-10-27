@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "fps-porpoise-2026-10-27",
+  "revision": "fuselage-only-2026-10-27",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -216,13 +216,18 @@
     ]
   },
   "landingTolerance": {
+    "explosionTrigger": "actual native fuselage skin contacting known terrain or water",
+    "fuselageOnly": true,
+    "fuselageHullAircraft": 21,
+    "points": "visible indexed source GLB vertices, wings/engines/gear/empennage excluded",
     "recoverablePorpoising": true,
     "repeatedBounceContacts": true,
-    "uprightDeployedGearGrazes": "up to 8 m/s point normal closing speed; under 20 degree pitch/14 degree bank; game calibration",
-    "catastrophicImpactsRetained": true,
-    "waterAndBuildingImpactsRetained": true,
-    "unloadedReboundRestoresAirborne": true,
+    "wheelImpactAloneExplodes": false,
+    "partialGearAloneExplodes": false,
+    "wingAndEngineScrapesExplode": false,
     "horizontalAirspeedAloneCausesCrash": false,
-    "terrainDatumCorrections": "coherent known support changes of 0.02 to 1 metre rebase position without adding velocity/strut energy; unknown terrain remains frozen"
+    "buildingAndBoundary": "soft pause without explosion",
+    "unloadedReboundRestoresAirborne": true,
+    "terrainDatumCorrections": "coherent known support changes rebase position without impact velocity; unknown terrain freezes the entire tick"
   }
 }
