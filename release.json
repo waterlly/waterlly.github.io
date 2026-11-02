@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-10-27",
+  "release": "2026-11-02",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "fuselage-only-2026-10-27",
+  "revision": "reverse-contact-fix-2026-11-02",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -229,5 +229,15 @@
     "buildingAndBoundary": "soft pause without explosion",
     "unloadedReboundRestoresAirborne": true,
     "terrainDatumCorrections": "coherent known support changes rebase position without impact velocity; unknown terrain freezes the entire tick"
+  },
+  "reverseControl": {
+    "touchdownContactLossDebounce": true,
+    "maximumContactLossSeconds": 3,
+    "maximumWheelClearanceMetres": 0.5,
+    "immediateAirborneReverseForceCut": true,
+    "holdsSleevePositionDuringShortUnload": true,
+    "forwardThrottleAndManualCancellation": "immediate command cancellation, normal unload/stow sequence",
+    "newAirborneActivation": "inhibited by original loaded-main-wheel interlock",
+    "replayFormat": "unchanged"
   }
 }
