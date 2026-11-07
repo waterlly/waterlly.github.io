@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-11-02",
+  "release": "2026-11-08",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "reverse-contact-fix-2026-11-02",
+  "revision": "landing-feedback-2026-11-08",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -239,5 +239,28 @@
     "forwardThrottleAndManualCancellation": "immediate command cancellation, normal unload/stow sequence",
     "newAirborneActivation": "inhibited by original loaded-main-wheel interlock",
     "replayFormat": "unchanged"
+  },
+  "groundContactPhysics": {
+    "passiveStrutAttitudeResponse": true,
+    "staticLoadBalancedGroundCenter": true,
+    "wheelContactReverseInterlock": true,
+    "invalidPhysicsPauses": true
+  },
+  "landingBounce": {
+    "compressionDampingRatio": 0.35,
+    "extensionDampingRatio": 0.12,
+    "passiveStoredEnergyOnly": true,
+    "firmB738Test": {
+      "sinkMetresPerSecond": 6,
+      "previousWheelClearanceMetres": 0.373243,
+      "newWheelClearanceMetres": 0.852333
+    },
+    "gentleB738TestHasNoForcedBounce": true
+  },
+  "impactPresentation": {
+    "firstCollisionFrameBuildsNoFractureGeometry": true,
+    "liveFractureConstruction": "incremental across render frames",
+    "replayFractureSampling": "synchronous deterministic sampling",
+    "shaderPrewarmDuringLoading": true
   }
 }

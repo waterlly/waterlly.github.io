@@ -1340,7 +1340,15 @@
           "Material.003",
           "Material.007",
           "tire.001"
-        ]
+        ],
+        "cargoWindowAppearance": {
+          "liveryIds": [
+            "fedex"
+          ],
+          "implementation": "Render-only native passenger-window seals with UVs extended from neighbouring authored fuselage triangles. Hide passenger glass and original white caps only after successful FedEx texture commit; retain cockpit glass. Other liveries restore original window visibility.",
+          "sourceModelUnchanged": true,
+          "scope": "Exterior livery appearance only; no cargo door or cabin conversion."
+        }
       },
       "liveries": [
         {
@@ -1441,6 +1449,58 @@
           ],
           "attribution": "Delta livery by John Taillor; Finnair livery by Juuso Tapaninen, as recorded in upstream AUTHORS.",
           "modification": "PNG files are unmodified copies of the pinned upstream blobs. Material bindings only; aircraft GLB unchanged.",
+          "editableSource": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/md11paintkit.xcf"
+        },
+        {
+          "id": "fedex",
+          "name": "FedEx Express · 联邦快递",
+          "textures": [
+            {
+              "path": "/liveries/md11/fedex/FED.png",
+              "materials": [
+                "Material.003",
+                "Material.007",
+                "tire.001"
+              ],
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/FED.png",
+              "sha256": "75af9d2ac5b8a62162c41e9ae58ac144bdfd25c0c94f137bc0cbfa766e0c113f",
+              "width": 4096,
+              "height": 1024,
+              "mimeType": "image/png",
+              "originalImages": [
+                "md11.png"
+              ]
+            }
+          ],
+          "source": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/FED.png",
+          "license": "GPL-2.0-or-later",
+          "definition": {
+            "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/Models/Liveries/MD-11F/FED.xml",
+            "path": "/liveries/md11/fedex/livery.xml",
+            "sha256": "60feed5df0f5a06de72de17499453156236bd6fe943fd0d6ed60ae876f02f75d"
+          },
+          "repository": "https://github.com/FGMEMBERS/MD-11",
+          "commit": "63ba452c1f001d283babeb9887446290a40609d8",
+          "licenseFiles": [
+            {
+              "path": "/liveries/licenses/MD-11/LICENSE",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/LICENSE",
+              "sha256": "f9c5933bb189067c5484cc0315b32a20b6d67d9eb34f1ff9a9c3a8db448ae43e"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/AUTHORS",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/AUTHORS",
+              "sha256": "808d196e3512aba6d320754a2c6a907679f584b1a5b3ed1fb5e40bc9cb496d66"
+            },
+            {
+              "path": "/liveries/licenses/MD-11/README.md",
+              "source": "https://raw.githubusercontent.com/FGMEMBERS/MD-11/63ba452c1f001d283babeb9887446290a40609d8/README.md",
+              "sha256": "0fe9f5dae5274d8c7f816d701f3ce88e03f69c91a5cb17280658f222bba61a72"
+            }
+          ],
+          "attribution": "FedEx livery by Juuso Tapaninen, as credited in the retained upstream AUTHORS.",
+          "modification": "Original pinned PNG bytes and source GLB/authored UVs retained. Runtime cargo window caps extend neighbouring native fuselage UVs; passenger glass is hidden for FedEx only. Cockpit glass, fan and landing-gear maps retain their own bindings.",
+          "sourceGitBlobSha": "cee2cefb0c9148b0f96e5060ad0d7f26ef26e8df",
           "editableSource": "https://github.com/FGMEMBERS/MD-11/blob/63ba452c1f001d283babeb9887446290a40609d8/Models/md11paintkit.xcf"
         }
       ]
