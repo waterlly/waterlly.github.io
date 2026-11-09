@@ -1,10 +1,10 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/an225.glb",
-  "bytes": 12386952,
+  "bytes": 12411028,
   "triangles": 99655,
   "nodes": 198,
   "meshes": 197,
-  "images": 173,
+  "images": 175,
   "instruments": [],
   "omittedNodes": [],
   "sourceMeshes": 1288,
@@ -4750,5 +4750,8 @@
         }
       }
     ]
-  }
+  },
+  "controls": [],
+  "sourceControls": [],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

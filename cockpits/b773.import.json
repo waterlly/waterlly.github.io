@@ -1,10 +1,10 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b773.glb",
-  "bytes": 29196412,
+  "bytes": 29485236,
   "triangles": 164236,
-  "nodes": 168,
-  "meshes": 148,
-  "images": 64,
+  "nodes": 172,
+  "meshes": 151,
+  "images": 66,
   "instruments": [
     {
       "name": "live_pfd_1",
@@ -32,7 +32,7 @@
       "name": "flightdeck",
       "path": "Models/Aircraft/marker.xml",
       "sourceFile": "Models/flightdeck.xml",
-      "reason": "Explicit non-cockpit submodel exclusion."
+      "reason": "Explicit source submodel exclusion."
     },
     {
       "name": "glare",
@@ -56,7 +56,7 @@
     }
   ],
   "sourceMeshes": 1715,
-  "drawGroups": 148,
+  "drawGroups": 151,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b773/Models/flightdeck.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b773/Models/flightdeck.ac",
@@ -4395,5 +4395,170 @@
         }
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-137",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-138",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-139",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-137",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.129,
+        -0.464,
+        -0.4840000000000002
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-138",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.04399999999999993,
+        -0.464,
+        -0.4840000000000002
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    }
+  ],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-137",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-138",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-139",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.57,
+        -1.057,
+        -0.5060000000000002
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-137",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.129,
+        -0.464,
+        -0.4840000000000002
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-138",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.04399999999999993,
+        -0.464,
+        -0.4840000000000002
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

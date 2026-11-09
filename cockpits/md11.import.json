@@ -1,9 +1,9 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/md11.glb",
-  "bytes": 18366156,
+  "bytes": 19788836,
   "triangles": 243389,
-  "nodes": 94,
-  "meshes": 91,
+  "nodes": 107,
+  "meshes": 104,
   "images": 53,
   "instruments": [
     {
@@ -32,7 +32,7 @@
     }
   ],
   "sourceMeshes": 1710,
-  "drawGroups": 91,
+  "drawGroups": 104,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/cockpit.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/md11/Models/cockpit/cockpit.ac",
@@ -859,5 +859,715 @@
         "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-220",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-222",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-223",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-224",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-226",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-228",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-220",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-222",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-226",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-228",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-225",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.5238,
+        -7.2709,
+        26.8
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": -0.01
+    },
+    {
+      "name": "cockpit-control-221",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-227",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-229",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-230",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-231",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-232",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-221",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-227",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-229",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-230",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-233",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.5238,
+        -7.2709,
+        26.8
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": -0.01
+    }
+  ],
+  "omittedNodes": [],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-220",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-222",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-223",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-224",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-226",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-228",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-220",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-222",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-226",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-228",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.00019999999999997797,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-225",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.5238,
+        -7.2709,
+        26.8
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.01
+    },
+    {
+      "name": "cockpit-control-221",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-227",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-229",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-230",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-231",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-232",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.9301000000000004,
+        -0.5314999999999976
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2617993877991494
+    },
+    {
+      "name": "cockpit-control-221",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-227",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-229",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-230",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0478,
+        -0.3464999999999998,
+        -0.48460000000000036
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-233",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.5238,
+        -7.2709,
+        26.8
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.01
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

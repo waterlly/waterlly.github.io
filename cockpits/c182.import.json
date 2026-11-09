@@ -1,13 +1,13 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/c182.glb",
-  "bytes": 12201700,
+  "bytes": 12286412,
   "triangles": 47043,
-  "nodes": 68,
-  "meshes": 67,
+  "nodes": 73,
+  "meshes": 69,
   "images": 40,
   "instruments": [],
   "sourceMeshes": 505,
-  "drawGroups": 67,
+  "drawGroups": 69,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/c182/Models/interior-model.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/c182/Models/interior-model.ac",
@@ -785,5 +785,139 @@
         "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-114",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0020000000000000018,
+        -0.352,
+        -1.7425
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-114",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.25,
+        -0.59,
+        -1.26
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "gain": 0.11
+    },
+    {
+      "name": "cockpit-control-115",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.5,
+        -0.35,
+        -0.7425
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-115",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.25,
+        -0.59,
+        -1.26
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "gain": 0.11
+    }
+  ],
+  "omittedNodes": [],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-114",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0020000000000000018,
+        -0.352,
+        -1.7425
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-114",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.25,
+        -0.59,
+        -1.26
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "gain": -0.11
+    },
+    {
+      "name": "cockpit-control-115",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.5,
+        -0.35,
+        -0.7425
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-115",
+      "input": "pitch",
+      "type": "translate",
+      "pivot": [
+        0.25,
+        -0.59,
+        -1.26
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "gain": -0.11
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

@@ -1,10 +1,10 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b787.glb",
-  "bytes": 22628760,
+  "bytes": 22725568,
   "triangles": 53570,
-  "nodes": 119,
-  "meshes": 93,
-  "images": 69,
+  "nodes": 130,
+  "meshes": 101,
+  "images": 68,
   "instruments": [
     {
       "name": "live_engine_1",
@@ -32,7 +32,7 @@
     }
   ],
   "sourceMeshes": 3903,
-  "drawGroups": 93,
+  "drawGroups": 101,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/b787.flightdeck.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b787/Models/FlightDeck/flightdeck.ac",
@@ -1025,5 +1025,203 @@
         "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-424",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-425",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-429",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-433",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-429",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.025399999999999978,
+        -0.5293000000000001,
+        22.612
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-425",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.1806,
+        -0.5293000000000001,
+        22.612
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    }
+  ],
+  "omittedNodes": [],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-424",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-425",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-429",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-433",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.603,
+        -1.1229,
+        -0.6670000000000016
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-429",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        0.025399999999999978,
+        -0.5293000000000001,
+        22.612
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    },
+    {
+      "name": "cockpit-control-425",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.1806,
+        -0.5293000000000001,
+        22.612
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.5235987755982988
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

@@ -1,9 +1,9 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/a319.glb",
-  "bytes": 7280660,
+  "bytes": 7284116,
   "triangles": 25397,
-  "nodes": 89,
-  "meshes": 67,
+  "nodes": 93,
+  "meshes": 69,
   "images": 46,
   "instruments": [
     {
@@ -32,7 +32,7 @@
     }
   ],
   "sourceMeshes": 749,
-  "drawGroups": 67,
+  "drawGroups": 69,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/XMLs/FlightDeck/a320.flightdeck.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/a320/Models/FlightDeck/a320.flightdeck.ac",
@@ -664,5 +664,139 @@
         "commit": "e41d83b90f80b88b28a2027aa9caa6e02ae0d64a"
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-89",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.33499999999999996,
+        -0.7474996,
+        16.0701
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.4363323129985824
+    },
+    {
+      "name": "cockpit-control-90",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.385,
+        -0.7474996,
+        16.0701
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.4363323129985824
+    },
+    {
+      "name": "cockpit-control-89",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.525,
+        -0.7474996,
+        -0.7308999999999983
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.3490658503988659
+    },
+    {
+      "name": "cockpit-control-90",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.525,
+        -0.7474996,
+        -0.7308999999999983
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.3490658503988659
+    }
+  ],
+  "omittedNodes": [],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-89",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.33499999999999996,
+        -0.7474996,
+        16.0701
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.4363323129985824
+    },
+    {
+      "name": "cockpit-control-90",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.385,
+        -0.7474996,
+        16.0701
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 0.4363323129985824
+    },
+    {
+      "name": "cockpit-control-89",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.525,
+        -0.7474996,
+        -0.7308999999999983
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.3490658503988659
+    },
+    {
+      "name": "cockpit-control-90",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        0.525,
+        -0.7474996,
+        -0.7308999999999983
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.3490658503988659
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

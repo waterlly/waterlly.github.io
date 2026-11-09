@@ -1,9 +1,9 @@
 {
   "output": "/Users/lee/Documents/codex/test-astra/public/cockpits/b748.glb",
-  "bytes": 6343308,
+  "bytes": 6948348,
   "triangles": 60171,
-  "nodes": 89,
-  "meshes": 69,
+  "nodes": 98,
+  "meshes": 75,
   "images": 27,
   "instruments": [
     {
@@ -36,23 +36,23 @@
       "name": "eicas-lower",
       "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_elec.xml",
       "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
-      "reason": "Explicit non-cockpit submodel exclusion."
+      "reason": "Explicit source submodel exclusion."
     },
     {
       "name": "eicas-lower",
       "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_fuel.xml",
       "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
-      "reason": "Explicit non-cockpit submodel exclusion."
+      "reason": "Explicit source submodel exclusion."
     },
     {
       "name": "eicas-lower",
       "path": "Aircraft/747-8/Models/Cockpit/Instruments/EICAS/eicas_gear.xml",
       "sourceFile": "Models/Cockpit/Instruments/EICAS/eicas-lower.xml",
-      "reason": "Explicit non-cockpit submodel exclusion."
+      "reason": "Explicit source submodel exclusion."
     }
   ],
   "sourceMeshes": 1052,
-  "drawGroups": 69,
+  "drawGroups": 75,
   "loaded": [
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/cockpit.xml",
     "/Users/lee/Documents/codex/test-astra/work/imports/cockpits/b748/Models/Cockpit/yokes.xml",
@@ -2076,5 +2076,330 @@
         }
       }
     ]
-  }
+  },
+  "controls": [
+    {
+      "name": "cockpit-control-7",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-8",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-9",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-7",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-9",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-13",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-14",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-15",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": -0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-13",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-15",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    }
+  ],
+  "sourceControls": [
+    {
+      "name": "cockpit-control-7",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-8",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-9",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-7",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-9",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        -0.0030000000000000027,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-13",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-14",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-15",
+      "input": "pitch",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -1.1598800000000002,
+        -0.36990000000000256
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "gain": 0.2181661564992912
+    },
+    {
+      "name": "cockpit-control-13",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    },
+    {
+      "name": "cockpit-control-15",
+      "input": "roll",
+      "type": "rotate",
+      "pivot": [
+        1.0630000000000002,
+        -0.41088000000000036,
+        -0.4219000000000026
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "gain": 1.5707963267948966
+    }
+  ],
+  "controlInputConvention": "pitch +1 pulls nose-up; roll +1 commands right bank; XML elevator gains are inverted for the game input convention."
 }

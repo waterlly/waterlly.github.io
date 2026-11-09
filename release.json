@@ -1,6 +1,6 @@
 {
   "name": "SKYBOUND",
-  "release": "2026-11-08",
+  "release": "2026-11-09",
   "hosting": "GitHub Pages",
   "entrypoint": "/",
   "mode": "static",
@@ -15,7 +15,7 @@
     "desktopDefault": "disabled",
     "savedPreference": true
   },
-  "revision": "landing-feedback-2026-11-08",
+  "revision": "cockpit-controls-2026-11-09",
   "engineAudio": {
     "type": "procedural",
     "kinds": [
@@ -262,5 +262,26 @@
     "liveFractureConstruction": "incremental across render frames",
     "replayFractureSampling": "synchronous deterministic sampling",
     "shaderPrewarmDuringLoading": true
+  },
+  "cockpitControls": {
+    "enabled": true,
+    "aircraftWithNativeControls": 20,
+    "inputSources": [
+      "keyboard",
+      "merged touch pad"
+    ],
+    "geometry": "retained original model controls and subtrees; source UVs/materials unchanged",
+    "types": [
+      "Airbus sidestick pitch and roll",
+      "Boeing control column pitch and wheel roll",
+      "C182 translating yoke and wheel roll"
+    ],
+    "pause": "hold last live pose",
+    "reset": "return to authored neutral",
+    "assetCache": "SHA256 version on default GLB requests",
+    "unsupportedAircraft": [
+      "an225"
+    ],
+    "limitation": "AN225 source cockpit contains no independently identified native control geometry; full FlightGear systems remain static."
   }
 }
